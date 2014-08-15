@@ -828,6 +828,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/read-more-button.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2011,
+		"inputAbbreviatedPath": "\/img\/read-more-button.jpg",
+		"outputAbbreviatedPath": "\/img\/read-more-button.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/train-with-us-gradient.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1257,
+		"inputAbbreviatedPath": "\/img\/train-with-us-gradient.jpg",
+		"outputAbbreviatedPath": "\/img\/train-with-us-gradient.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tweeter_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
