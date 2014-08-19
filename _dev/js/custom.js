@@ -3,8 +3,12 @@ $(function(){
 	function toggleGlyphicon(e) {
 		$(e.target)
 			.prev('.panel-heading')
-			.find("i.indicator")
+			.find('i.indicator')
 			.toggleClass('glyphicon-plus glyphicon-minus');
+
+		$(e.target)
+			.parent('.panel-default')
+			.toggleClass('inactive active');
 	}
 	
 	$('#accordion').on('hidden.bs.collapse', toggleGlyphicon);
