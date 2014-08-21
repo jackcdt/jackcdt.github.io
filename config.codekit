@@ -1956,6 +1956,270 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/afterEffects.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22137,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/afterEffects.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/afterEffects.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82682,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/background.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/buttonLeft.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1277,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/buttonLeft.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/buttonLeft.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/buttonRight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1244,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/buttonRight.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/buttonRight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/captivate1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25609,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate1.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/captivate2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19613,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate2.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/captivate3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23303,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate3.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/captivate3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/DPS.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25673,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/DPS.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/DPS.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/edgeAnimate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24956,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/edgeAnimate.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/edgeAnimate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/ePub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99020,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/ePub.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/ePub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/Facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23770,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Facebook.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/HTML5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18040,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/HTML5.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/HTML5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/Illustrator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18706,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Illustrator.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Illustrator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/InDesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22483,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/InDesign.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/InDesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/JavaScript.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26407,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/JavaScript.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/JavaScript.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/learn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2102,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/learn.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/learn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/LinkedIn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18285,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/LinkedIn.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/LinkedIn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/main-slider-image1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50631,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/main-slider-image1.jpg",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/main-slider-image1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/Photoshop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26091,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Photoshop.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Photoshop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/premierePro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20878,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/premierePro.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/premierePro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/singleEdition.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64936,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/singleEdition.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/singleEdition.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/Twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29398,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Twitter.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/why-train-with-us.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2665,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/why-train-with-us.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/why-train-with-us.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/ORG\/Wordpress.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17728,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Wordpress.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/ORG\/Wordpress.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/homepage\/landing-page-banner\/Photoshop.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1985,6 +2249,17 @@
 		"initialSize": 64936,
 		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/singleEdition.png",
 		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/singleEdition.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/homepage\/landing-page-banner\/tiny\/afterEffects.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18170,
+		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/afterEffects.png",
+		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/afterEffects.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2480,20 +2755,8 @@
 	"\/_dev\/js\/jquery.min.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_dev\/js\/bootstrap.js",
-			"position": 0,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_dev\/js\/custom.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/_dev\/js\/respond.js",
-			"position": 2,
+			"position": 0,
 			"type": 1
 			}
 		]
