@@ -2264,28 +2264,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/homepage\/landing-page-banner\/tiny\/Twitter.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26523,
-		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/Twitter.png",
-		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/Twitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/homepage\/landing-page-banner\/tiny\/Wordpress.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15435,
-		"inputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/Wordpress.png",
-		"outputAbbreviatedPath": "\/img\/homepage\/landing-page-banner\/tiny\/Wordpress.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/homepage\/landing-page-banner\/Twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
