@@ -2750,13 +2750,25 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Admin",
+"lastSavedByUser": "Jack",
 "manualImportLinks": {
 	"\/_dev\/js\/jquery.min.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_dev\/js\/respond.js",
+			"linkedFileAbbreviatedPath": "\/_dev\/js\/bootstrap.js",
 			"position": 0,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_dev\/js\/respond.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_dev\/js\/custom.js",
+			"position": 2,
 			"type": 1
 			}
 		]
