@@ -1,31 +1,77 @@
+.courses-list-container {
+    padding-bottom: 15px;
+}
+
 .courses-list-banner {
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
     width: 100%;
 }
+
+.stretch-left {
+    padding-left: 0;
+}
+
 .testimonial {
-    img {
-        padding-right: 0 !important;        
-        padding-left: 0 !important;
+    background: url("../img/adobe/photoshop-courses-page/ps-testimonialbubble.png");
+    background-repeat: no-repeat;
+
+    height: 220px;
+
+    p {
+        color: #fff;
+        margin: 10px 0 6px 25px;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: .90em;
+        line-height: 1.20em;
+    }
+
+    p.testimonial-byline {
+            font-family: Arial,Helvetica,sans-serif;
+            font-style: normal;
+            font-size: .85em;
     }
 }
+
+.side-panel {
+    position: absolute;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.side-panel-section {
+    height: 220px;
+
+    @media screen {
+        @media (min-width: @screen-lg-min) {
+            height: 250px;
+        }
+    }
+}
+
 .courses-img {
     float: left;
     margin-right: 10px;
     max-width: 60%;    
 }
 .courses-list-description {
+    padding-left: 0;
+
     h1 {
         color: #79bdfe;
-        font-size: 1.3em;
+        font-size: 1.5em;
+        margin-top: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+        font-weight: bold;
     }
     
     h2 {
         color: #79bdfe;
-        font-size: 1.1em;
+        font-size: 1.3em;
         font-weight: normal;
         margin-top: 0;
         padding-top: 0;
@@ -33,7 +79,19 @@
     
     p {
         color: #3c3b3b;
-        font-size: 0.8em;
+        font-size: 0.9em;
         line-height: 1.4em;
     }
+}
+
+.landing-divider-section {
+    height: 60px;
+}
+
+.landing-divider {
+    background: url("../img/adobe/photoshop-courses-page/ps-divider.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clear: both;
+    height:60px;
 }

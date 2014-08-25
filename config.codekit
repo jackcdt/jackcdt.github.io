@@ -1699,6 +1699,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/adobe\/photoshop-courses-page\/ps-divider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2429,
+		"inputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-divider.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-divider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/adobe\/photoshop-courses-page\/ps-id-il-landingpg-package.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1772,6 +1783,28 @@
 		"initialSize": 5974,
 		"inputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-landingpg-web.png",
 		"outputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-landingpg-web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/adobe\/photoshop-courses-page\/ps-product.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61569,
+		"inputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-product.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-product.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/adobe\/photoshop-courses-page\/ps-testimonialbubble.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1653,
+		"inputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-testimonialbubble.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/photoshop-courses-page\/ps-testimonialbubble.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
