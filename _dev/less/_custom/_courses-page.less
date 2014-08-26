@@ -106,18 +106,22 @@
 }
 
 .course-item {
-    text-align: center;
     margin-top: 25px;
+    border-bottom: 1px solid #bbb; 
+
+    .course-item-title {
+        margin-top: 20px;
+    }
 
     h3 {
         font-weight: normal;
         margin-top: 0;
-        font-size: 1.1em;
+        font-size: 1.3em;
         color: #6a6a6a;
 
         .grey {
             color: #bbb;
-            font-size: 1.3em;
+            font-size: 1.5em;
         }
     } 
 
@@ -126,42 +130,55 @@
     }
 
     .course-item-description {
-        text-align: left;
-        padding: 0 10px 0 10px;
-        font-size: .85em;
+        text-align: justify;
+        font-size: 1.1em;
     }
 
-    .course-item-price {
+    .course-item-info {
+        font-size: 1em;
+        
+
         .day-time {
             font-weight: bold;
             margin: 0;
             padding: 0;
         }   
         
-        .coloured {
+        p.colored {
             color: #79bdfe;
-        }    
-
-        .big {
-            font-size: 1.8em;
-            line-height: 1em;
         }
 
-        p {
-            font-size: .80em;
+        .big {
+            font-size: 2em;
+            line-height: 1em;
         }
 
         a {
             background-color: #79bdfe;
             color: #FFF;
-            font-size: .85em;
+            font-size: 1em;
             margin: 0;
             padding: 2px 4px 2px 4px;
             font-weight: bold;
         }    
 
-        a.course-info {
+        .course-info {
             background-color: #bcdefe;
+            padding-left: 0;
+            padding-right: 0;
         }
+
+        .course-item-info {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .course-book-now {
+            margin-top: 15px;
+        }
+    }
+
+    .course-item-logo {
+        float: left;
     }
 }
