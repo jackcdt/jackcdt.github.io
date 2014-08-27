@@ -2632,17 +2632,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/bootstrap.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/bootstrap.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/photoshop-courses-page.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2681,20 +2670,8 @@
 	"\/_dev\/js\/jquery.min.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_dev\/js\/bootstrap.js",
-			"position": 0,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_dev\/js\/custom.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/_dev\/js\/respond.js",
-			"position": 2,
+			"position": 0,
 			"type": 1
 			}
 		]
