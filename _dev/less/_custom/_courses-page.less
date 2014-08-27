@@ -111,6 +111,16 @@
 
     .left-side {
         margin-top: 1px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                font-size: 1.5em;
+                margin-top: 8px;
+            }
+            @media (min-width: @screen-md-min) {
+                margin-top: 10px;
+            }
+        }
     }
 
     @media screen {
@@ -208,18 +218,24 @@
     .wide-img {
         width: 110px;
         padding-left: 0;
+        margin-top: -18px;
     }
 
     .push-title-up {
         margin-top: -2px;
     }
 
-    .push-title-down-2 {
-        margin-top: 18px;
-    }
-
     .title-tree-rows-xs {
         margin-top: -5px;
+    }
+
+    @media screen {
+        @media (min-width: @screen-sm-min) {
+            height: 280px;
+        }
+        @media (min-width: @screen-md-min) {
+            height: 500px;
+        }
     }
 }
 
