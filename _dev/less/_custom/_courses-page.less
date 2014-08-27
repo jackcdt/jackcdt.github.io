@@ -120,6 +120,10 @@
             @media (min-width: @screen-md-min) {
                 margin-top: 10px;
             }
+
+            @media (min-width: @screen-lg-min) {
+                margin-top: 15px;
+            }
         }
     }
 
@@ -137,6 +141,36 @@
     margin-bottom: 25px;
     margin-top: 10px;
     border-bottom: 1px solid #bbb; 
+
+    .course-item-logo {
+        float: left;
+        width: 100px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                width: initial;
+            }
+
+            @media (min-width: @screen-md-min) {
+                float: none;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    .wide-img {
+        width: 110px;
+        padding-left: 0;
+        margin-top: -18px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                width: 95px;
+            }
+        }
+    }
 
     .course-item-title {
         margin-top: 8px;
@@ -165,33 +199,6 @@
             }
         } 
 
-        .course-item-logo {
-            float: left;
-            width: 100px;
-
-            @media screen {
-                @media (min-width: @screen-md-min) {
-                    float: initial;
-                    width: initial;
-                    margin-left: 50px;
-                }
-            }
-        }
-
-        .wide-img {
-            width: 110px;
-            padding-left: 0;
-            margin-top: -18px;
-        }
-
-        .push-title-up {
-            margin-top: -2px;
-        }
-
-        .title-tree-rows-xs {
-            margin-top: -5px;
-        }
-
         @media screen {
             @media (min-width: @screen-md-min) {
                 text-align: center;
@@ -201,6 +208,15 @@
         }
     }
 
+    .title-tree-rows-xs {
+        width: 95px;
+        margin-top: -5px;
+    }
+
+    .push-title-up {
+        width: 95px;
+        margin-top: -2px;
+    }
 
     .course-item-description {
         text-align: justify;
@@ -219,7 +235,10 @@
         margin-bottom: 20px;
     }
 
-    .course-item-info {
+    .course-item-info,
+    .course-item-fee,
+    .course-item-links,
+    .course-book-now {
         font-size: 1em;
         padding-left: 0;
         padding-right: 0;           
@@ -274,6 +293,10 @@
                 }
 
             }
+
+            @media (min-width: @screen-lg-min) {
+                font-size: 0.9em;
+            }
         }
     }
 
@@ -281,6 +304,7 @@
         @media (min-width: @screen-sm-min) {
             height: 280px;
         }
+
         @media (min-width: @screen-md-min) {
             height: 500px;
         }
