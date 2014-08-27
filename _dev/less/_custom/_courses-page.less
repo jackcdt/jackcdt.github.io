@@ -140,30 +140,79 @@
 
     .course-item-title {
         margin-top: 8px;
-        width: 150px;
-    }
 
-    h3 {
-        font-weight: normal;
-        margin-top: 0;
-        font-size: 1.3em;
-        color: #6a6a6a;
-
-        .grey {
-            color: #bbb;
-            font-size: 1.5em;
+        a {
+            text-decoration: none;
         }
-    } 
 
-    a {
-        text-decoration: none;
+        h3 {
+            font-weight: normal;
+            margin-top: 0;
+            font-size: 1.3em;
+            color: #6a6a6a;
+
+            .grey {
+                color: #bbb;
+                font-size: 1.5em;
+            }
+
+            @media screen {
+                @media (min-width: @screen-md-min) {
+                    .grey {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        } 
+
+        .course-item-logo {
+            float: left;
+            width: 100px;
+
+            @media screen {
+                @media (min-width: @screen-md-min) {
+                    float: initial;
+                    width: initial;
+                    margin-left: 50px;
+                }
+            }
+        }
+
+        .wide-img {
+            width: 110px;
+            padding-left: 0;
+            margin-top: -18px;
+        }
+
+        .push-title-up {
+            margin-top: -2px;
+        }
+
+        .title-tree-rows-xs {
+            margin-top: -5px;
+        }
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                text-align: center;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
     }
+
 
     .course-item-description {
         text-align: justify;
         font-size: 1.1em;
         margin-top: 10px;
         margin-bottom: 20px;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                font-size: 0.9em;
+            }
+        }
     }
 
     .course-item-additional-data {
@@ -208,25 +257,24 @@
         .course-book-now {
             margin-top: 15px;
         }
-    }
 
-    .course-item-logo {
-        float: left;
-        width: 100px;
-    }
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                .big {
+                    font-size: 1.2em;
+                    line-height: 1em;
+                }
 
-    .wide-img {
-        width: 110px;
-        padding-left: 0;
-        margin-top: -18px;
-    }
+                a {
+                    font-size: 0.9em;
+                } 
 
-    .push-title-up {
-        margin-top: -2px;
-    }
+                .course-book-now {
+                    margin-top: 0px;
+                }
 
-    .title-tree-rows-xs {
-        margin-top: -5px;
+            }
+        }
     }
 
     @media screen {
