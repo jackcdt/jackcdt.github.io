@@ -102,7 +102,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     clear: both;
-    height: 30px;
+    height: 45px;
     color: #fff;
     font-family: Georgia,"Times New Roman",Times,serif;
     font-weight: lighter;
@@ -169,6 +169,10 @@
             @media (min-width: @screen-sm-min) {
                 width: 95px;
             }
+
+            @media (min-width: @screen-md-min) {
+                width: initial;
+            }
         }
     }
 
@@ -211,11 +215,33 @@
     .title-tree-rows-xs {
         width: 95px;
         margin-top: -5px;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                width: initial;
+                margin-top: 5px;
+            }
+        }
     }
 
     .push-title-up {
         width: 95px;
         margin-top: -2px;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                width: initial;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .title-row-lg {
+        @media screen {
+            @media (min-width: @screen-lg-min) {
+                height: 155px;
+            }
+        }        
     }
 
     .course-item-description {
@@ -225,10 +251,48 @@
         margin-bottom: 20px;
 
         @media screen {
+            @media (min-width: @screen-sm-min) {
+                height: 100px;
+            }
+
             @media (min-width: @screen-md-min) {
-                font-size: 0.9em;
+                text-align: left;
+                font-size: 1em;
+                height: 140px;
+            }
+
+            @media (min-width: @screen-lg-min) {
+                height: 160px;
             }
         }
+    }
+
+    .course-item-description-md {
+        @media screen {
+            @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+                height: 105px;
+            }
+        }        
+    }
+
+    .course-item-description-lg {
+        @media screen {
+            @media (min-width: @screen-lg-min) {
+                height: 135px;
+            }
+        }
+    }
+
+    .push-description-up {
+        @media screen {
+            @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+                height: 92px;
+            }
+
+            @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+                height: 118px;
+            }
+        }        
     }
 
     .course-item-additional-data {
@@ -300,13 +364,25 @@
         }
     }
 
+    .course-item-fee {
+        @media screen {
+            @media (min-width: @screen-xs-min) and (max-width: @screen-md-max){
+                width: 163px;
+            }
+        }
+    }
+
     @media screen {
         @media (min-width: @screen-sm-min) {
-            height: 280px;
+            height: 285px;
         }
 
         @media (min-width: @screen-md-min) {
-            height: 500px;
+            height: 400px;
+        }
+
+        @media (min-width: @screen-lg-min) {
+            height: 415px;
         }
     }
 }
