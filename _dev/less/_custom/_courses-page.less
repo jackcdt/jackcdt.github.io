@@ -102,7 +102,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     clear: both;
-    height: 30px;
+    height: 45px;
     color: #fff;
     font-family: Georgia,"Times New Roman",Times,serif;
     font-weight: lighter;
@@ -111,6 +111,20 @@
 
     .left-side {
         margin-top: 1px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                font-size: 1.5em;
+                margin-top: 8px;
+            }
+            @media (min-width: @screen-md-min) {
+                margin-top: 10px;
+            }
+
+            @media (min-width: @screen-lg-min) {
+                margin-top: 15px;
+            }
+        }
     }
 
     @media screen {
@@ -128,25 +142,106 @@
     margin-top: 10px;
     border-bottom: 1px solid #bbb; 
 
-    .course-item-title {
-        margin-top: 8px;
-        width: 150px;
+    .course-item-logo {
+        float: left;
+        width: 100px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                width: initial;
+            }
+
+            @media (min-width: @screen-md-min) {
+                float: none;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+            }
+        }
     }
 
-    h3 {
-        font-weight: normal;
-        margin-top: 0;
-        font-size: 1.3em;
-        color: #6a6a6a;
+    .wide-img {
+        width: 110px;
+        padding-left: 0;
+        margin-top: -18px;
 
-        .grey {
-            color: #bbb;
-            font-size: 1.5em;
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                width: 95px;
+            }
+
+            @media (min-width: @screen-md-min) {
+                width: initial;
+            }
         }
-    } 
+    }
 
-    a {
-        text-decoration: none;
+    .course-item-title {
+        margin-top: 8px;
+
+        a {
+            text-decoration: none;
+        }
+
+        h3 {
+            font-weight: normal;
+            margin-top: 0;
+            font-size: 1.3em;
+            color: #6a6a6a;
+
+            .grey {
+                color: #bbb;
+                font-size: 1.5em;
+            }
+
+            @media screen {
+                @media (min-width: @screen-md-min) {
+                    .grey {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        } 
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                text-align: center;
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    }
+
+    .title-tree-rows-xs {
+        width: 95px;
+        margin-top: -5px;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                width: initial;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .push-title-up {
+        width: 95px;
+        margin-top: -2px;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                width: initial;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .title-row-lg {
+        @media screen {
+            @media (min-width: @screen-lg-min) {
+                height: 155px;
+            }
+        }        
     }
 
     .course-item-description {
@@ -154,13 +249,60 @@
         font-size: 1.1em;
         margin-top: 10px;
         margin-bottom: 20px;
+
+        @media screen {
+            @media (min-width: @screen-sm-min) {
+                height: 100px;
+            }
+
+            @media (min-width: @screen-md-min) {
+                text-align: left;
+                font-size: 1em;
+                height: 140px;
+            }
+
+            @media (min-width: @screen-lg-min) {
+                height: 160px;
+            }
+        }
+    }
+
+    .course-item-description-md {
+        @media screen {
+            @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+                height: 105px;
+            }
+        }        
+    }
+
+    .course-item-description-lg {
+        @media screen {
+            @media (min-width: @screen-lg-min) {
+                height: 135px;
+            }
+        }
+    }
+
+    .push-description-up {
+        @media screen {
+            @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+                height: 92px;
+            }
+
+            @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+                height: 118px;
+            }
+        }        
     }
 
     .course-item-additional-data {
         margin-bottom: 20px;
     }
 
-    .course-item-info {
+    .course-item-info,
+    .course-item-fee,
+    .course-item-links,
+    .course-book-now {
         font-size: 1em;
         padding-left: 0;
         padding-right: 0;           
@@ -198,28 +340,50 @@
         .course-book-now {
             margin-top: 15px;
         }
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                .big {
+                    font-size: 1.2em;
+                    line-height: 1em;
+                }
+
+                a {
+                    font-size: 0.9em;
+                } 
+
+                .course-book-now {
+                    margin-top: 0px;
+                }
+
+            }
+
+            @media (min-width: @screen-lg-min) {
+                font-size: 0.9em;
+            }
+        }
     }
 
-    .course-item-logo {
-        float: left;
-        width: 100px;
+    .course-item-fee {
+        @media screen {
+            @media (min-width: @screen-xs-min) and (max-width: @screen-md-max){
+                width: 163px;
+            }
+        }
     }
 
-    .wide-img {
-        width: 110px;
-        padding-left: 0;
-    }
+    @media screen {
+        @media (min-width: @screen-sm-min) {
+            height: 285px;
+        }
 
-    .push-title-up {
-        margin-top: -2px;
-    }
+        @media (min-width: @screen-md-min) {
+            height: 400px;
+        }
 
-    .push-title-down-2 {
-        margin-top: 18px;
-    }
-
-    .title-tree-rows-xs {
-        margin-top: -5px;
+        @media (min-width: @screen-lg-min) {
+            height: 415px;
+        }
     }
 }
 
