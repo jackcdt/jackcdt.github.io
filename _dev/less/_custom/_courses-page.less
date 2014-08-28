@@ -1,9 +1,18 @@
 .stretch-left {
     padding-left: 0;
+    padding-right: 0;
+
+        @media screen {
+            @media (min-width: @screen-md-min) {
+                padding-right: 15px;
+            }
+        }
 }
 
-.description-section {
-    padding-left: 0;
+.side-panel {
+    position: absolute;
+    right: 0;
+    margin-bottom: 20px;
 }
 
 .testimonial {
@@ -26,22 +35,6 @@
             font-family: Arial,Helvetica,sans-serif;
             font-style: normal;
             font-size: .85em;
-    }
-}
-
-.side-panel {
-    position: absolute;
-    right: 0;
-    margin-bottom: 20px;
-}
-
-.side-panel-section {
-    height: 220px;
-
-    @media screen {
-        @media (min-width: @screen-lg-min) {
-            height: 250px;
-        }
     }
 }
 
