@@ -1,113 +1,99 @@
-.stretch-left {
-    padding-left: 0;
-    padding-right: 0;
+.indesign-catalog-banner {
+    background: url("../img/adobe/indesign-courses-catalog/indesign-banner.jpg");
+    position: relative;
+    height: 8em;
+    left: 0;
+    right: 0;
+    color: #fff;
+
+    .catalog-banner-container,
+    .catalog-banner-header,
+    .catalog-banner-header-logo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .catalog-banner-header-main {
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 25px;
 
         @media screen {
             @media (min-width: @screen-md-min) {
-                padding-right: 15px;
+                font-size: 24px;
             }
         }
-}
-
-.side-panel {
-    position: absolute;
-    right: 0;
-    margin-bottom: 20px;
-}
-
-.testimonial {
-    background: url("../img/adobe/photoshop-courses-catalog/ps-testimonialbubble.png");
-    background-repeat: no-repeat;
-
-    height: 220px;
-
-    p {
-        color: #fff;
-        margin: 10px 0 6px 25px;
-        font-family: Georgia,"Times New Roman",Times,serif;
-        font-weight: lighter;
-        font-style: italic;
-        font-size: .9em;
-        line-height: 1.20em;
     }
 
-    p.testimonial-byline {
-            font-family: Arial,Helvetica,sans-serif;
-            font-style: normal;
-            font-size: .85em;
-    }
-}
-
-.courses-img {
-    float: left;
-    margin-right: 10px;
-    max-width: 60%;    
-}
-.courses-list-description {
-    padding-left: 0;
-
-    h1 {
-        color: #79bdfe;
-        font-size: 1.5em;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        font-weight: bold;
-    }
-    
-    h2 {
-        color: #79bdfe;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin-top: 0;
-        padding-top: 0;
-    }
-    
-    p {
-        color: #3c3b3b;
-        font-size: 1.1em;
-        line-height: 1.4em;
-    }
-}
-
-.landing-divider-section {
-    max-height: 60px;
-}
-
-.landing-divider {
-    background: url("../img/adobe/photoshop-courses-catalog/ps-divider.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    clear: both;
-    height: 45px;
-    color: #fff;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-weight: lighter;
-    font-size: .8em;
-    line-height: 1.20em;
-
-    .left-side {
-        margin-top: 1%;
+    .catalog-banner-header-sub {
+        font-size: 12px;
+        font-weight: 500;
 
         @media screen {
-            @media (min-width: @screen-sm-min) {
-                font-size: 1.5em;
-                margin-top: 1.6%;
+            @media (min-width: @screen-md-min) {
+                font-size: 24px;
             }
-        }
-    }
-
-    @media screen {
-        @media (min-width: @screen-sm-min) {
-            height: 48px;
-        }
-        @media (min-width: @screen-md-min) {
-            height: 60px;
         }
     }
 }
 
-.photoshop-course-item {
+.catalog-name {
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 10px;
+
+    @media screen {
+        @media (min-width: @screen-md-min) {
+            font-size: 22px;
+        }
+    }
+}
+
+.catalog-description{
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.indesign-sw-ver,
+a.indesign-sw-ver {
+    color: #f442a9;
+    text-decoration: underline;
+}
+
+.prefer-custom-training {
+    padding-right: 0;
+    max-width: 300px;
+
+    .custom-training-logo {
+        background: url("../img/adobe/indesign-courses-catalog/private-training.jpg") no-repeat;
+        background-size: cover;
+        min-height: 99px;
+        position: relative;
+    }
+
+    .prefer-custom-training-text {
+        padding: 10px 0 10px 5px;
+        background-color: #7C7777;
+        color: #fff;
+    }
+
+    .custom-training-text-header {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        -webkit-padding-start: 10px;
+    }
+
+    ul li:before{ content:"-"; position:relative; left:-5px;}
+    ul li{ text-indent:-5px; }
+}
+
+.indesign-course-item {
     margin-bottom: 25px;
     margin-top: 10px;
     border-bottom: 1px solid #bbb; 
@@ -154,14 +140,15 @@
         }
 
         h3 {
-            font-weight: normal;
+            font-weight: 600;
             margin-top: 0;
             font-size: 1.3em;
-            color: #6a6a6a;
+            color: #f442a9;
 
             .grey {
-                color: #bbb;
+                color: #f442a9;
                 font-size: 1.5em;
+                font-weight: 200;
             }
 
             @media screen {
@@ -284,7 +271,7 @@
         }   
         
         p.colored {
-            color: #79bdfe;
+            color: #f442a9;
         }
 
         .big {
@@ -293,7 +280,7 @@
         }
 
         a {
-            background-color: #79bdfe;
+            background-color: #f47bc1;
             color: #FFF;
             font-size: 1em;
             margin: 0;
@@ -302,7 +289,7 @@
         }    
 
         .course-info {
-            background-color: #bcdefe;
+            background-color: #f442a9;
             padding-left: 0;
             padding-right: 0;
         }
@@ -357,6 +344,3 @@
     }
 }
 
-.special-offer {
-    margin-bottom: 20px;
-}
