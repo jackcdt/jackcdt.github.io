@@ -1715,6 +1715,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/adobe\/illustrated-courses-catalog\/il-landingpg-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3173,
+		"inputAbbreviatedPath": "\/img\/adobe\/illustrated-courses-catalog\/il-landingpg-ess.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/illustrated-courses-catalog\/il-landingpg-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/adobe\/indesign-courses-catalog\/id-accessibility.png": {
 		"fileType": 32768,
 		"ignore": 0,
