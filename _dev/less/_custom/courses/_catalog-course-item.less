@@ -3,26 +3,15 @@
     margin-top: 10px;
     border-bottom: 1px solid #bbb; 
     .stretch-left;
+    min-width: 250px;
 
     .course-item-logo {
         float: left;
-    }
-
-    .wide-img {
-        width: 92px;
-        margin-top: -18px;
-
-        @media (min-width: @screen-sm-min) {
-            width: 95px;
-        }
-
-        @media (min-width: @screen-md-min) {
-            width: initial;
-        }
+        max-width: 80px;
     }
 
     .course-item-title {
-        margin-top: 8px;
+        margin-top: @line-height-computed;
 
         a {
             text-decoration: none;
@@ -115,24 +104,23 @@
             font-weight: bold;
             .stretch-left; 
             background-color: @color; 
-            float: left;
-            width: 44%;
             padding: 4px 6px;
+            width: 90px;
+            float: left;
 
             a {
                 color: #FFF;              
-            }    
+            } 
         }
 
         .course-book-now {
-            margin-top: 15px;
-            margin-left: 45%;
+            margin-left: 93px;
             background-color: lighten(@color, 25%);   
             color: #FFF;
-            font-weight: bold;
-            width: 45%;
+            font-weight: bold;           
             .stretch-left; 
             padding: 4px 6px;
+            width: 90px; 
 
             a {
                 color: #FFF;                    

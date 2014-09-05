@@ -27,8 +27,14 @@
 
 .hide-xxs-only {
     .responsive-invisibility();
-    
+
     @media (min-width: @screen-xs-min) {
         .responsive-visibility();
+    }
+}
+
+.col-xxs-12 {
+    @media (min-width: 100px) and (max-width: 479px) {
+        width: 100%%;
     }
 }
