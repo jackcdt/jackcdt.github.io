@@ -1,0 +1,198 @@
+@carousel-max-height: 400px;
+
+.carousel-inner {
+    max-height: 400px;
+}
+.carousel .background {
+    min-width: 100%;
+}
+.carousel-indicators {
+    bottom: 4px;
+}
+.slide {
+    position: relative;
+}
+
+/* Carousel controls */
+.carousel-control {
+    width: 10%;
+
+    .carousel-control-img {
+        height: 40px;
+        width: 40px;
+    }   
+
+    @media ( min-width: @screen-sm-min) {
+        font-size: 140px !important;
+    }
+    @media ( min-width: @screen-md-min) {
+        font-size: 200px !important;
+    }
+    @media ( min-width: @screen-lg-min) {
+        font-size: 240px !important;
+    }
+}
+
+/* First carousel slide - welcome slide */
+.welcome-slide {
+    top: 20px;
+    left: 15%;
+    text-align: center;
+
+    .btn {
+        margin-bottom: 0; 
+    }
+    .caption-welcome-header,     
+    .caption-welcome-header-sm,
+    .caption-welcome-header-md {
+        display: none;
+    }   
+
+    @media ( min-width: @screen-sm-min) {            
+        top: 2px;
+        left: 20%;
+        text-align: left;
+        .caption-welcome-header,
+        .caption-welcome-header-sm{
+            display: block;
+        }
+        .caption-welcome-header{
+            font-size: 28px;
+        }   
+        p {
+            font-size: 16px; 
+        }
+    }
+    @media (min-width: @screen-md-min) {
+        top: 25px; 
+        left: 35%;
+        font-size: 25px;
+        text-shadow: 3px 3px 5px rgba(0,0,0,0.6);            
+
+        .btn {
+            margin-bottom: 25px;
+            font-size: 20px; 
+        }
+        .caption-welcome-header-sm{
+            display: none;
+        }
+        .caption-welcome-header-md{
+            display: block;
+        }
+        .caption-welcome-header {
+           font-size: 40px;
+           font-weight: 700;
+        }
+        p {
+            font-size: 18px; 
+        }
+        .caption-welcome-header,
+        .caption-welcome-header-md,
+        .caption-welcome-header-sm {
+            margin: 0;
+        }
+    }
+    @media (min-width: @screen-lg-min) {
+        .caption-welcome-header {
+           font-size: 60px;
+           font-weight: 700;
+        }
+        p {
+            font-size: 25px; 
+        }
+    }
+}
+
+/* Courses promotion sliders */
+.courses-promo {  
+    position: absolute;
+    text-align: center;
+
+    .thumbnail {
+        background-color: transparent;
+        border: none;
+
+        a > img {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+
+    .row {
+        margin-top: 10px;
+    }   
+
+    .lead {
+        display: none;
+    }
+
+    .course-img-caption {
+        display: none; 
+
+        p {
+            margin-left: 10px;
+        }
+    }
+
+   @media (min-width: @screen-sm-min) {
+        .learn-img {
+            max-width: 100px;
+            max-height: 60px;
+        }
+        .lead {
+            font-size: 22px;
+        }
+        text-align: left;
+
+        .lead {
+            display: block;
+        }
+    }
+   @media (min-width: @screen-md-min) {
+        padding-bottom: 10px;
+        top: 1px;
+        margin: -10px;
+
+        /* Course description */
+        .course-img-caption {
+            display: block;
+            font-size: 12px;
+
+            p {
+                margin-top: -20px;
+            }                              
+        }
+
+        .row {
+            margin-top: -10px;
+        }
+   }
+   @media (min-width: @screen-lg-min) {
+        top: 8px;
+        
+         .course-img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .learn-img {
+            max-width: 140px;
+            max-height: 80px;
+            margin-left: 30px;
+        }
+
+        .lead {
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .courses-promo-capture {
+            margin: 0 0 0 30px;
+        }
+
+        .course-img-caption p {
+            max-width: 80%;
+        }
+    }
+}
+

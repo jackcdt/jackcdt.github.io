@@ -1,0 +1,50 @@
+.catalog-page-header {
+    font-size: @font-size-large;
+    font-weight: 400;
+
+    @media (min-width: @screen-md-min) {
+        font-size: 22px;
+    }
+}
+
+.catalog-description{
+    font-size: @font-size-base;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.paragraph-header(@color: #000) {
+    font-size: 20px;
+    color: @color;
+}
+
+.courses-package {
+    margin-bottom: 15px;
+
+    div.and {
+        font-size: 36px;
+        margin: 8px 10px;
+        color: #929292;
+    }
+
+    .package,
+    .and {
+        float: left;
+    }
+}
+
+.tight-border {
+    font-weight: bold;
+
+    @media (min-width: @screen-xs-min) {
+        border: 1px solid #000;
+        padding: 5px 15px;
+        font-weight: normal;
+    }
+}
+
+.full-width {
+    display: inline-block;
+    width: 100%;
+}
+
