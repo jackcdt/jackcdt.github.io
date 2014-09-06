@@ -101,6 +101,19 @@
  }
 
 
+/* Mixins to move around course logo */
+.move-logo-up(@move: -20px) {
+    margin-top: @move;
+}
+
+.move-logo-left(@move: -20px) {
+    margin-left: @move;
+}
+
+.push-title-right(@move: 20px) {
+    margin-right: @move;
+}
+
 /* Set course description height - same for all items on the catalog*/
 .course-item-description-hight(@height-xs: 105px, @height-sm: 105px, @height-md: 105px, @height-lg: 135px) {
     @media (max-width: @screen-xs-max) {
