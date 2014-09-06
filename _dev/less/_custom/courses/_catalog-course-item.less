@@ -121,41 +121,59 @@
     margin-right: @move;
 }
 
+.move-description(@move: 10px) {
+    margin-top: @move;
+}
+
 /* Set course description height - same for all items on the catalog*/
-.course-item-description-hight(@height-xs: 105px, @height-sm: 105px, @height-md: 105px, @height-lg: 135px) {
-    @media (max-width: @screen-xs-max) {
-        height: 105px;
+.course-item-description-hight-xs(@height: 150px) {
+    @media (min-width: @screen-xs-min) {
+        height: @height;
     }
 
-    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-        height: 105px;
-    }
+}
 
-    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-        height: 105px;
+.course-item-description-hight-sm(@height: 130px) {
+    @media (min-width: @screen-sm-min) {
+        height: @height;
     }
+}
 
+.course-item-description-hight-md(@height: 110px) {
+    @media (min-width: @screen-md-min) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-lg(@height: 100px) {
     @media (min-width: @screen-lg-min) {
-        height: 135px;
+        height: @height;
     }
 }
 
 /* Set course item height - same for all items on the catalog*/
-.course-item-hight(@height-xs: 105px, @height-sm: 105px, @height-md: 105px, @height-lg: 135px) {
-    @media (max-width: @screen-xs-max) {
-        height: 105px;
+.course-item-hight-xs(@height: 105px) {
+    @media (min-width: 50px) and (max-width: @screen-xs-max) {
+        height: @height;
     }
 
+}
+
+.course-item-hight-sm(@height: 105px) {
     @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-        height: 105px;
+        height: @height;
     }
+}
 
+.course-item-hight-md(@height: 105px) {
     @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-        height: 105px;
+        height: @height;
     }
+}
 
+.course-item-hight-lg(@height: 105px) {
     @media (min-width: @screen-lg-min) {
-        height: 135px;
+        height: @height;
     }
 }
 

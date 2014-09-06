@@ -13,6 +13,13 @@ a.indesign-sw-ver {
 
 .indesign-course-item {
     .catalog-course-item(@indesign-color);
+    .course-item-hight-xs(350px);
+
+    .course-item-description {
+        .course-item-description-hight-xs(150px);
+        .course-item-description-hight-sm(130px);
+        .course-item-description-hight-lg(100px);
+    }
 
     .indesign-advanced {
         .move-logo-up;
@@ -21,7 +28,7 @@ a.indesign-sw-ver {
     }
 
     .indesign-long-doc {
-        .move-logo-up;
+        .move-logo-up(-24px);
         .move-logo-left;
         .push-title-right;
     }
@@ -34,6 +41,19 @@ a.indesign-sw-ver {
 
     .indesign-accessability {
         .push-title-right(25px);
+    }
+
+    /* Manage the item height*/
+    .item-description-essentials {
+        .move-description(16px);
+    }
+
+    .item-description-long {
+        .move-description(-7px);
+    }
+
+    .item-description-inter {
+        .move-description(-4px);
     }
 }
 
