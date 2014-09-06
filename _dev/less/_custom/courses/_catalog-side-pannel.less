@@ -1,18 +1,19 @@
 .catalog-side-pannel(@color: #000) {
-    .indesign-seminars-ad {
+    .seminars-ad {
         padding: 10px 0 10px 5px;
         background-color: @color;
         color: #fff;
-        font-size: @font-size-small;
         border-radius: 4px;
         .space-after;
 
-        .indesign-seminars-ad-title {
-            font-size: @font-size-base;
+        .seminars-ad-title {
+            font-size: @font-size-large;
+            font-weight: @font-weight-thick;
         }
 
-        .indesign-seminars-ad-content {
+        .seminars-ad-content {
             margin-top: 10px;
+            font-size: @font-size-base;
         }
     }
 
@@ -46,26 +47,26 @@
 
         i {
             color: @color;
-            font-weight: 100;
+            font-weight: @font-weight-extra-thin;
         }
     }
 
     .recent-testimonials {
         background-color: #E4E4E4;
         height: 500px;
-/*        overflow-x: hidden;*/
+        overflow-x: hidden;
         overflow-y: scroll;
         border: solid 1px #646464;
         border-radius: 4px;
 
         .recent-testimonials-title {
             font-size: @font-size-large;
-            font-weight: 700;
+            font-weight: @font-weight-heavy;
             color: @color;
             margin: 15px 0 0 5px;
         }
 
-        .indesign-testimonial {
+        .catalog-testimonial {
             margin: 15px 5px 0 5px;
             font-size: @font-size-base;
 
@@ -79,12 +80,12 @@
             }
         }
 
-        .indesign-testimonial-client-name {
+        .catalog-testimonial-client-name {
             margin-top: @line-height-computed / 2;
             font-weight: bold;
         }
 
-        .indesign-testimonial-course-name {
+        .catalog-testimonial-course-name {
             color: @color;
             font-weight: 500;
             margin-bottom: @line-height-computed * 1.5;
