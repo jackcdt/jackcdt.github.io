@@ -1,0 +1,114 @@
+@indesign-color: #f442a9;
+
+.indesign-banner {
+    background: url("../img/adobe/indesign-courses-catalog/indesign-banner.jpg");
+    .banner;
+}
+
+.indesign-breadcrumb-active {
+    .breadcrumb-active(@indesign-color);
+}
+
+.indesign-sw-ver,
+a.indesign-sw-ver {
+    color: @indesign-color;
+    text-decoration: underline;
+}
+
+.indesign-courses-tight-border {
+    margin-left: 15px;
+    .tight-border(355px, 355px, 424px, 424px);
+}
+
+.indesign-short-courses-tight-border {
+    width: 235px;
+    .tight-border(235px, 235px, 275px, 275px);
+}
+
+.indesign-part-time-tight-border {
+    width: 210px;
+    .tight-border(210px, 210px, 440px, 440px);
+}
+
+.indesign-packages-tight-border,
+.indesign-publishing-tight-border {
+    width: 210px;
+    .tight-border(210px, 290px, 400px, 400px);    
+}
+
+.indesign-course-item {
+    .catalog-course-item(@indesign-color);
+    .course-item-hight-xs(25em);
+    .course-item-hight-dvga(21em);
+    .course-item-hight-xga(21em);
+    .course-item-hight-lg(24em);
+
+    .course-item-description {
+        .course-item-description-hight-xs(11em);
+        .course-item-description-hight-dvga(7em);
+        .course-item-description-hight-sm(10em);
+        .course-item-description-hight-xga(7em);
+        .course-item-description-hight-lg(10em);
+    }
+
+    .indesign-advanced {
+        .move-logo-up;
+        .move-logo-left;
+        .push-title-right;
+    }
+
+    .indesign-long-doc {
+        .move-logo-up(-24px);
+        .move-logo-left;
+        .push-title-right;
+    }
+
+    .indesign-interactivity-logo {
+        .move-logo-up(-27px);
+        .move-logo-left;
+        .push-title-right(25px);
+        .fix-logo-width;
+    }
+
+    .indesign-interactivity-title {
+        .fix-title-width;
+    }
+
+    .indesign-accessability-logo {
+        .push-title-right(25px);
+        .fix-logo-width;
+    }
+
+    .indesign-accessability-title {
+        .fix-title-width;
+    }
+
+    /* Manage the item height*/
+    .item-description-essentials {
+        .move-description(16px);
+    }
+
+    .item-description-long {
+        .move-description(-7px);
+    }
+
+    .item-description-inter {
+        .move-description(-4px);
+    }
+}
+
+.indesign-side-pannel {
+    .catalog-side-pannel(@indesign-color);
+}
+
+.indesign-paragraph-header {
+    .paragraph-header(@indesign-color);
+}
+
+.indesign-part-time {
+    .part-time(@indesign-color);
+}
+
+.indesign-packages {
+    .courses-package;
+}

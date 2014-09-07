@@ -1,0 +1,45 @@
+.banner {
+    position: relative;
+    height: 8em;
+    left: 0;
+    right: 0;
+    color: #fff;
+
+    .catalog-img {
+        margin-top: 20px;
+        max-width: 80px;
+        display: block;
+    }
+
+    img {
+        border: 1.5px solid #000;
+        width: 66px;
+        height: 64px;
+    }
+
+    .catalog-banner-header-main {
+        font-size: @cdt-font-size-large;
+        font-weight: 600;
+        margin-top: @line-height-computed;
+        margin-left: 1px;
+
+        h1 {
+            @media (min-width: @screen-xs-min) {
+                font-size: 22px;
+            }
+
+            @media (min-width: @screen-md-min) {
+                font-size: 24px;
+            }
+        }
+    } 
+
+    .catalog-banner-header-sub {
+        font-size: @cdt-font-size-base;
+        font-weight: 400;
+
+        @media (max-width: @screen-xs-min) {
+            display: none;
+        }
+    }
+}

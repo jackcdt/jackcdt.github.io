@@ -1,0 +1,89 @@
+.catalog-page-header {
+    font-size: @cdt-font-size-large;
+
+    @media (min-width: @screen-md-min) {
+        font-size: 22px;
+    }
+}
+
+.catalog-description{
+    font-size: @cdt-font-size-base;
+    line-height: 1.4em;
+
+    @media (min-width: @screen-sm-min) {
+        font-size: @cdt-font-size-large;
+    }
+
+    span {
+        display: block;
+        max-width: 650px;
+        line-height: 1.7em;
+    }
+}
+
+.part-time(@color: #000) {
+    .part-time-options {
+        color: @color;
+        font-size: @cdt-font-size-small;
+        font-weight: 600;
+        margin-top: @line-height-computed / 4;
+    }
+}
+
+.paragraph-header(@color: #000) {
+    font-size: 20px;
+    color: @color;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+
+}
+
+.courses-package {
+    margin-bottom: 15px;
+
+    div.and {
+        font-size: 36px;
+        margin: 8px 0;
+        color: #929292;
+    }
+
+    .package-course-logo {
+        float: left;
+        width: 70px;
+        text-align: center;
+    }
+
+    .and {
+        min-width: 10px;
+        float: left;
+        text-align: center;
+    }
+}
+
+.tight-border(@width-xs, @width-sm, @width-md, @width-lg) {
+    font-weight: 500;
+    border: 1px solid #000;
+    padding: 2px 15px;
+
+    h2 {
+        margin: 3px 0;
+    }
+
+    @media (min-width: @screen-xs-min) {
+        width: @width-xs;
+    }
+
+    @media (min-width: @screen-sm-min) {
+        width: @width-sm;
+    }
+
+    @media (min-width: @screen-md-min) {
+        width: @width-md;
+    }
+
+    @media (min-width: @screen-lg-min) {
+        width: @width-lg;
+    }
+}
+

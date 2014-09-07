@@ -1,0 +1,211 @@
+.catalog-course-item(@color: #000) {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border-bottom: 1px solid #bbb; 
+    .stretch-left;
+    min-width: 280px;
+    height: auto;
+
+    @media (min-width: 320px) {
+        min-width: 175px;
+    }
+
+    .course-item-logo {
+        float: left;
+        max-width: 80px;
+    }
+
+    .course-item-title {
+        a {
+            text-decoration: none;
+        }
+
+        h3 {
+            font-weight: @cdt-font-weight-heavy;
+            font-size: @cdt-font-size-base;
+            margin-top: @line-height-computed / 2;
+            color: @color;
+            text-align: left;
+
+            @media (min-width: @screen-sm-min) {
+                font-size: @cdt-font-size-large;
+            }
+
+            .category {
+                color: @color;
+                font-weight: @cdt-font-weight-base;
+            }
+        } 
+
+        @media (min-width: @screen-md-min) {
+            text-align: center;
+        }
+    }
+
+    .course-item-description {
+        text-align: justify;
+        font-size: @cdt-font-size-base;
+        font-weight: @cdt-font-weight-thick;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        @media (min-width: @screen-sm-min) {
+            text-align: left;
+        }
+    }
+
+    .course-item-additional-data {
+        margin-bottom: 20px;
+        font-size: @cdt-font-size-small;
+        .stretch-sides;
+
+        .course-item-fee {
+            .stretch-sides;
+            font-weight: @cdt-font-weight-thick;
+
+            p.colored {
+                color: @color;
+            }
+
+            .big {
+                font-size: @cdt-font-size-large;
+                font-weight: @cdt-font-weight-thick;
+            }
+        }
+
+ 
+        .course-item-info {
+            color: #FFF;
+            font-weight: @cdt-font-weight-bold;
+            .stretch-left; 
+            background-color: @color; 
+            padding: 4px 6px;
+            width: 90px;
+            float: left;
+
+            a {
+                color: #FFF;              
+            } 
+        }
+
+        .course-book-now {
+            margin-left: 93px;
+            background-color: lighten(@color, 25%);   
+            color: #FFF;
+            font-weight: @cdt-font-weight-bold;           
+            .stretch-left; 
+            padding: 4px 6px;
+            width: 90px; 
+
+            a {
+                color: #FFF;                    
+            }    
+
+            @media (min-width: @screen-sm-min) {
+                margin-top: 0;
+            }
+        }       
+    }
+ }
+
+
+/* Mixins to move around course logo */
+.move-logo-up(@move: -20px) {
+    margin-top: @move;
+}
+
+.fix-logo-width(@width: 80px) {
+    max-width: @width;
+}
+
+.move-logo-left(@move: -20px) {
+    margin-left: @move;
+}
+
+.push-title-right(@move: 20px) {
+    margin-right: @move;
+}
+
+.move-description(@move: 10px) {
+    margin-top: @move;
+}
+
+.fix-title-width(@width: 80px) {
+    max-width: @width;  
+}
+
+/* Set course description height - same for all items on the catalog*/
+.course-item-description-hight-xs(@height) {
+    @media (min-width: @screen-xs-min) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-dvga(@height) {
+    @media (min-width: @screen-dvga-min) and (max-width: @screen-dvga-max) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-sm(@height) {
+    @media (min-width: @screen-sm-min) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-xga(@height) {
+    @media (min-width: @screen-xga-min) and (max-width: @screen-xga-max) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-md(@height) {
+    @media (min-width: @screen-md-min) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-lg(@height) {
+    @media (min-width: @screen-lg-min) {
+        height: @height;
+    }
+}
+
+/* Set course item height - same for all items on the catalog*/
+.course-item-hight-xs(@height) {
+    @media (min-width: @screen-xs-min) {
+        height: @height;
+    }
+
+}
+
+.course-item-hight-dvga(@height) {
+    @media (min-width: @screen-dvga-min) and (max-width: @screen-dvga-max) {
+        height: @height;
+    }
+}
+
+.course-item-hight-sm(@height) {
+    @media (min-width: @screen-sm-min) {
+        height: @height;
+    }
+}
+
+.course-item-hight-xga(@height) {
+    @media (min-width: @screen-xga-min) and (max-width: @screen-xga-max) {
+        height: @height;
+    }
+}
+
+.course-item-hight-md(@height) {
+    @media (min-width: @screen-md-min) {
+        height: @height;
+    }
+}
+
+.course-item-hight-lg(@height) {
+    @media (min-width: @screen-lg-min) {
+        height: @height;
+    }
+}
+
