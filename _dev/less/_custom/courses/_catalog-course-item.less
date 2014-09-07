@@ -21,19 +21,19 @@
         }
 
         h3 {
-            font-weight: @font-weight-heavy;
-            font-size: @font-size-base;
+            font-weight: @cdt-font-weight-heavy;
+            font-size: @cdt-font-size-base;
             margin-top: @line-height-computed / 2;
             color: @color;
             text-align: left;
 
             @media (min-width: @screen-sm-min) {
-                font-size: @font-size-large;
+                font-size: @cdt-font-size-large;
             }
 
             .category {
                 color: @color;
-                font-weight: @font-weight-base;
+                font-weight: @cdt-font-weight-base;
             }
         } 
 
@@ -44,8 +44,8 @@
 
     .course-item-description {
         text-align: justify;
-        font-size: @font-size-base;
-        font-weight: @font-weight-thick;
+        font-size: @cdt-font-size-base;
+        font-weight: @cdt-font-weight-thick;
         margin-top: 10px;
         margin-bottom: 20px;
 
@@ -56,27 +56,27 @@
 
     .course-item-additional-data {
         margin-bottom: 20px;
-        font-size: @font-size-small;
+        font-size: @cdt-font-size-small;
         .stretch-sides;
 
         .course-item-fee {
             .stretch-sides;
-            font-weight: @font-weight-thick;
+            font-weight: @cdt-font-weight-thick;
 
             p.colored {
                 color: @color;
             }
 
             .big {
-                font-size: @font-size-large;
-                font-weight: @font-weight-thick;
+                font-size: @cdt-font-size-large;
+                font-weight: @cdt-font-weight-thick;
             }
         }
 
  
         .course-item-info {
             color: #FFF;
-            font-weight: @font-weight-bold;
+            font-weight: @cdt-font-weight-bold;
             .stretch-left; 
             background-color: @color; 
             padding: 4px 6px;
@@ -92,7 +92,7 @@
             margin-left: 93px;
             background-color: lighten(@color, 25%);   
             color: #FFF;
-            font-weight: @font-weight-bold;           
+            font-weight: @cdt-font-weight-bold;           
             .stretch-left; 
             padding: 4px 6px;
             width: 90px; 

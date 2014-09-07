@@ -7,8 +7,19 @@
 
     li {
         float: left;
-    }
+
+        + li:before {
+            content: ">\00a0"; // Unicode space added since inline-block means non-collapsing white-space, as in Bootstrap breadcrumb.less file
+        }
+
+        a, a:hover, a:focus {
+            color: #000;
+        }
+    }        
 } 
-.breadcrumb .active a {
-    color: #333333;
+
+.breadcrumb-active(@color: #000) {
+    a, a:hover, a:focus {
+        color: @color !important;
+    }           
 }

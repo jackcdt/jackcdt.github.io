@@ -6,11 +6,11 @@
 @cdt-font-size-large: @font-size-large;
 
 /* Font weight */
-@font-weight-extra-thin: 100;  
-@font-weight-base: 400;  
-@font-weight-thick: @font-weight-base + 100;
-@font-weight-heavy: @font-weight-base + 300; 
-@font-weight-bold: @font-weight-base * 2; 
+@cdt-font-weight-extra-thin: 100;  
+@cdt-font-weight-base: 400;  
+@cdt-font-weight-thick: @cdt-font-weight-base + 100;
+@cdt-font-weight-heavy: @cdt-font-weight-base + 300; 
+@cdt-font-weight-bold: @cdt-font-weight-base * 2; 
 
 /* Additional sceen sizes*/
 @screen-dvga-min: 640px;
@@ -19,7 +19,7 @@
 @screen-xga-max:  (@screen-md-max);
 
 .main-container {
-    font-weight: @font-weight-base;
+    font-weight: @cdt-font-weight-base;
 }
 
 .stretch-left {
