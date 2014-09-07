@@ -4,6 +4,7 @@
     border-bottom: 1px solid #bbb; 
     .stretch-left;
     min-width: 280px;
+    height: auto;
 
     @media (min-width: 320px) {
         min-width: 175px;
@@ -15,17 +16,20 @@
     }
 
     .course-item-title {
-
         a {
             text-decoration: none;
         }
 
         h3 {
             font-weight: @font-weight-heavy;
-            font-size: @font-size-large;
+            font-size: @font-size-base;
             margin-top: @line-height-computed / 2;
             color: @color;
             text-align: left;
+
+            @media (min-width: @screen-sm-min) {
+                font-size: @font-size-large;
+            }
 
             .category {
                 color: @color;
@@ -110,6 +114,10 @@
     margin-top: @move;
 }
 
+.fix-logo-width(@width: 80px) {
+    max-width: @width;
+}
+
 .move-logo-left(@move: -20px) {
     margin-left: @move;
 }
@@ -122,52 +130,80 @@
     margin-top: @move;
 }
 
+.fix-title-width(@width: 80px) {
+    max-width: @width;  
+}
+
 /* Set course description height - same for all items on the catalog*/
-.course-item-description-hight-xs(@height: 150px) {
+.course-item-description-hight-xs(@height) {
     @media (min-width: @screen-xs-min) {
         height: @height;
     }
 }
 
-.course-item-description-hight-sm(@height: 130px) {
+.course-item-description-hight-dvga(@height) {
+    @media (min-width: @screen-dvga-min) and (max-width: @screen-dvga-max) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-sm(@height) {
     @media (min-width: @screen-sm-min) {
         height: @height;
     }
 }
 
-.course-item-description-hight-md(@height: 110px) {
+.course-item-description-hight-xga(@height) {
+    @media (min-width: @screen-xga-min) and (max-width: @screen-xga-max) {
+        height: @height;
+    }
+}
+
+.course-item-description-hight-md(@height) {
     @media (min-width: @screen-md-min) {
         height: @height;
     }
 }
 
-.course-item-description-hight-lg(@height: 100px) {
+.course-item-description-hight-lg(@height) {
     @media (min-width: @screen-lg-min) {
         height: @height;
     }
 }
 
 /* Set course item height - same for all items on the catalog*/
-.course-item-hight-xs(@height: 105px) {
-    @media (min-width: 50px) and (max-width: @screen-xs-max) {
+.course-item-hight-xs(@height) {
+    @media (min-width: @screen-xs-min) {
         height: @height;
     }
 
 }
 
-.course-item-hight-sm(@height: 105px) {
-    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+.course-item-hight-dvga(@height) {
+    @media (min-width: @screen-dvga-min) and (max-width: @screen-dvga-max) {
         height: @height;
     }
 }
 
-.course-item-hight-md(@height: 105px) {
-    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+.course-item-hight-sm(@height) {
+    @media (min-width: @screen-sm-min) {
         height: @height;
     }
 }
 
-.course-item-hight-lg(@height: 105px) {
+.course-item-hight-xga(@height) {
+    @media (min-width: @screen-xga-min) and (max-width: @screen-xga-max) {
+        height: @height;
+    }
+}
+
+.course-item-hight-md(@height) {
+    @media (min-width: @screen-md-min) {
+        height: @height;
+    }
+}
+
+.course-item-hight-lg(@height) {
     @media (min-width: @screen-lg-min) {
         height: @height;
     }

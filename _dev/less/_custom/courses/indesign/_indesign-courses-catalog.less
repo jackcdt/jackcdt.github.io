@@ -34,12 +34,17 @@ a.indesign-sw-ver {
 
 .indesign-course-item {
     .catalog-course-item(@indesign-color);
-    .course-item-hight-xs(350px);
+    .course-item-hight-xs(25em);
+    .course-item-hight-dvga(21em);
+    .course-item-hight-xga(21em);
+    .course-item-hight-lg(24em);
 
     .course-item-description {
-        .course-item-description-hight-xs(150px);
-        .course-item-description-hight-sm(130px);
-        .course-item-description-hight-lg(100px);
+        .course-item-description-hight-xs(11em);
+        .course-item-description-hight-dvga(7em);
+        .course-item-description-hight-sm(10em);
+        .course-item-description-hight-xga(7em);
+        .course-item-description-hight-lg(10em);
     }
 
     .indesign-advanced {
@@ -54,14 +59,24 @@ a.indesign-sw-ver {
         .push-title-right;
     }
 
-    .indesign-interactivity {
+    .indesign-interactivity-logo {
         .move-logo-up(-27px);
         .move-logo-left;
         .push-title-right(25px);
+        .fix-logo-width;
     }
 
-    .indesign-accessability {
+    .indesign-interactivity-title {
+        .fix-title-width;
+    }
+
+    .indesign-accessability-logo {
         .push-title-right(25px);
+        .fix-logo-width;
+    }
+
+    .indesign-accessability-title {
+        .fix-title-width;
     }
 
     /* Manage the item height*/

@@ -53,7 +53,7 @@
 
     .recent-testimonials {
         background-color: #E4E4E4;
-        height: 500px;
+        height: 43em;
         overflow-x: hidden;
         overflow-y: scroll;
         border: solid 1px #646464;
@@ -89,6 +89,18 @@
             color: @color;
             font-weight: 500;
             margin-bottom: @line-height-computed * 1.5;
+        }
+
+        @media (min-width: @screen-md-min) {
+            height: 51em;
+        }
+
+        @media (min-width: @screen-xga-min) {
+            height: 39em;
+        }
+
+        @media (min-width: @screen-lg-min) {
+            height: 21em;
         }
     }
 }
