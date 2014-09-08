@@ -43,6 +43,18 @@
     margin-bottom: 20px;
 }
 
+.inc-gutter-left {
+    @media (min-width: @screen-xs-min) and (max-width: @screen-sm-max) {
+        padding-left: 7px;
+    }
+}
+
+.inc-gutter-right {
+    @media (min-width: @screen-xs-min) and (max-width: @screen-sm-max) {
+        padding-right: 7px;
+    }
+}
+
 .show-xxs-only {
     @media (min-width: @screen-xs-min) {
         .responsive-invisibility();

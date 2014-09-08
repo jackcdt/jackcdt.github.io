@@ -28,13 +28,13 @@ a.indesign-sw-ver {
 
 .indesign-part-time-tight-border {
     width: 210px;
-    .tight-border(210px, 210px, 440px, 440px);
+    .tight-border(380px, 380px, 440px, 440px);
 }
 
 .indesign-packages-tight-border,
 .indesign-publishing-tight-border {
-    width: 210px;
-    .tight-border(210px, 290px, 400px, 400px);    
+    width: 260px;
+    .tight-border(260px, 200px, 265px, 315px);    
 }
 
 .indesign-course-item {
@@ -62,6 +62,12 @@ a.indesign-sw-ver {
         .move-logo-up(-24px);
         .move-logo-left;
         .push-title-right;
+    }
+
+    .indesign-long-doc-title h3 {
+        @media (min-width: @screen-sm-min) {
+            .title-push-up(1px);
+        }
     }
 
     .indesign-interactivity-logo {
