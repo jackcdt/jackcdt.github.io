@@ -8,26 +8,25 @@
     background-color: @color;
 
     .catalog-img {
-        margin-top: 17px;
-        max-width: 80px;
+        margin-top: 18px;
         display: block;
-    }
-
-    img {
-        border: 1.5px solid #000;
+        border: 1.5px solid #000;        
         width: 66px;
         height: 64px;
+
+        @media (min-width: @screen-xs-min) {
+
+        }
     }
 
     .catalog-banner-header-main {
-        font-size: @cdt-font-size-large;
         font-weight: 600;
         margin-top: @line-height-computed;
         margin-left: 1px;
         line-height: 1em;
-        font-size: @cdt-font-size-large;
         
         h1 {
+            font-size: @cdt-font-size-large;
             margin-bottom: 3px;
 
             @media (min-width: @screen-xs-min) {
