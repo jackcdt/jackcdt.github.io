@@ -1,12 +1,14 @@
-.banner {
+.banner(@color: #000) {
     position: relative;
-    height: 8em;
+    height: 7em;
     left: 0;
     right: 0;
     color: #fff;
+    text-shadow: 2px 2px 2px rgba(165, 165, 165, 0.82);
+    background-color: @color;
 
     .catalog-img {
-        margin-top: 20px;
+        margin-top: 17px;
         max-width: 80px;
         display: block;
     }
@@ -22,10 +24,14 @@
         font-weight: 600;
         margin-top: @line-height-computed;
         margin-left: 1px;
-
+        line-height: 1em;
+        font-size: @cdt-font-size-large;
+        
         h1 {
+            margin-bottom: 3px;
+
             @media (min-width: @screen-xs-min) {
-                font-size: 22px;
+                font-size: 22px;               
             }
 
             @media (min-width: @screen-md-min) {
@@ -36,6 +42,7 @@
 
     .catalog-banner-header-sub {
         font-size: @cdt-font-size-base;
+        /*text-shadow: 3px 3px 2px rgba(150, 150, 150, 0.82);*/
         font-weight: 400;
 
         @media (max-width: @screen-xs-min) {

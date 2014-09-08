@@ -1,8 +1,7 @@
 @indesign-color: #f442a9;
 
 .indesign-banner {
-    background: url("../img/adobe/indesign-courses-catalog/indesign-banner.jpg");
-    .banner;
+    .banner(@indesign-color);
 }
 
 .indesign-breadcrumb-active {
@@ -22,6 +21,7 @@ a.indesign-sw-ver {
 }
 
 .indesign-short-courses-tight-border {
+    margin-top: 25px;
     width: 235px;
     .tight-border(235px, 235px, 275px, 275px);
 }
@@ -40,13 +40,13 @@ a.indesign-sw-ver {
 .indesign-course-item {
     .catalog-course-item(@indesign-color);
     .course-item-hight-xs(25em);
-    .course-item-hight-dvga(21em);
+    .course-item-hight-dvga(22em);
     .course-item-hight-xga(21em);
     .course-item-hight-lg(24em);
 
     .course-item-description {
         .course-item-description-hight-xs(11em);
-        .course-item-description-hight-dvga(7em);
+        .course-item-description-hight-dvga(8em);
         .course-item-description-hight-sm(10em);
         .course-item-description-hight-xga(7em);
         .course-item-description-hight-lg(10em);
