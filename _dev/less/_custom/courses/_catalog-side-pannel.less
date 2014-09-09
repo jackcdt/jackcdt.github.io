@@ -5,6 +5,15 @@
         color: #fff;
         border-radius: 4px;
         .space-after;
+        min-height: 123px;
+
+        @media (min-width: @screen-xs-min) {
+            min-height: 104px;
+        }
+
+        @media (min-width: @screen-sm-min) {
+            min-height: auto;
+        }
 
         .seminars-ad-title {
             font-size: @cdt-font-size-large;

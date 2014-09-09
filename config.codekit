@@ -166,26 +166,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/_dev\/less\/_custom\/courses\/_catalog-side-pannel.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_dev\/less\/_custom\/courses\/_catalog-side-pannel.less",
-		"outputAbbreviatedPath": "\/_dev\/less\/_custom\/css\/_catalog-side-pannel.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_dev\/less\/_custom\/courses\/_course-catalog.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -296,26 +276,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_dev\/less\/_custom\/courses\/_top-banner.less",
 		"outputAbbreviatedPath": "\/_dev\/less\/_custom\/css\/_top-banner.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/_dev\/less\/_custom\/courses\/indesign\/_indesign-courses-catalog.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_dev\/less\/_custom\/courses\/indesign\/_indesign-courses-catalog.less",
-		"outputAbbreviatedPath": "\/_dev\/less\/_custom\/courses\/css\/_indesign-courses-catalog.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1846,15 +1806,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/css\/bootstrap.min.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/adobe\/illustrated-courses-catalog\/il-landingpg-ess.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3042,15 +2993,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/indesign-courses-catalog.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/indesign-courses-catalog.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/indesign-essentials-course.html": {
 		"fileType": 8192,
