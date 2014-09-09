@@ -12,48 +12,41 @@
     }
 
     .catalog-img {
-        margin: 29px 5px 0 10px;
+        margin: 30px 5px 0 10px;
         display: block;
-        border: 1.5px solid #000;        
         width: 40px;
 
         @media (min-width: @screen-xs-min) {
             width: 48px;
-        }
-
-        @media (min-width: @screen-dvga-min) {
             margin-top: 26px;
         }
 
-        @media (min-width: @screen-sm-min) {
-        }
-
         @media (min-width: @screen-md-min) {
+            margin-top: 23px;
             width: 55px;
         }
 
         @media (min-width: @screen-lg-min) {
+            margin-top: 21px;
             width: 60px;
         }
     }
 
     .catalog-banner-header-main {
         font-weight: 600;
-        margin-top: @line-height-computed;
         margin-left: 1px;
-        line-height: 1em;
-        
+
         h1 {
             font-size: @cdt-font-size-large;
-            margin-top: 28px;
+            margin-top: 9px;
 
             @media (min-width: @screen-xs-min) {
-                font-size: 20px;  
-                margin-top: 24px;             
+                margin-top: 5px; 
             }
 
-            @media (min-width: @screen-sm-min) {
-                margin-top: 22px;             
+            @media (min-width: @screen-dvga-min) {
+                margin-top: 1px; // Cancel top margin of h1
+                font-size: 22px;
             }
 
             @media (min-width: @screen-md-min) {
@@ -64,7 +57,6 @@
 
     .catalog-banner-header-sub {
         font-size: @cdt-font-size-base;
-        /*text-shadow: 3px 3px 2px rgba(150, 150, 150, 0.82);*/
         font-weight: 400;
 
         @media (max-width: @screen-xs-min) {
