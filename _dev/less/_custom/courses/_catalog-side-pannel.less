@@ -12,7 +12,7 @@
         }
 
         .seminars-ad-content {
-            margin-top: 10px;
+            margin: 10px 0 20px 0;
             font-size: @cdt-font-size-base;
         }
     }
@@ -26,7 +26,7 @@
 
         .training-checklist-header {
             color: @color;
-        }
+         }
 
         th, td {
             padding: 5px 0 5px 10px;
@@ -34,6 +34,7 @@
 
         th {
             font-size: @cdt-font-size-large;
+            font-weight: @cdt-font-weight-thick;
         }
 
         .note {
@@ -61,7 +62,7 @@
 
         .recent-testimonials-title {
             font-size: @cdt-font-size-large;
-            font-weight: @cdt-font-weight-heavy;
+            font-weight: @cdt-font-weight-thick ;
             color: @color;
             margin: 15px 0 20px 5px;
         }
@@ -91,16 +92,20 @@
             margin-bottom: @line-height-computed * 1.5;
         }
 
+        @media (min-width: @screen-sm-min) {
+            height: 73em;
+        }
+
         @media (min-width: @screen-md-min) {
-            height: 51em;
+            height: 74em;
         }
 
         @media (min-width: @screen-xga-min) {
-            height: 39em;
+            height: 62em;
         }
 
         @media (min-width: @screen-lg-min) {
-            height: 21em;
+            height: 42em;
         }
     }
 }

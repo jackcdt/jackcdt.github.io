@@ -12,7 +12,7 @@
 
     .course-item-logo {
         float: left;
-        max-width: 80px;
+        top: 5px;
     }
 
     .course-item-title {
@@ -27,7 +27,7 @@
             color: @color;
             text-align: left;
 
-            @media (min-width: @screen-sm-min) {
+            @media (min-width: @screen-md-min) {
                 font-size: @cdt-font-size-large;
             }
 
@@ -58,6 +58,7 @@
         margin-bottom: 20px;
         font-size: @cdt-font-size-small;
         .stretch-sides;
+        min-width: 17em;
 
         .course-item-fee {
             .stretch-sides;
@@ -106,8 +107,7 @@
             }
         }       
     }
- }
-
+}
 
 /* Mixins to move around course logo */
 .move-logo-up(@move: -20px) {
@@ -132,6 +132,11 @@
 
 .fix-title-width(@width: 80px) {
     max-width: @width;  
+}
+
+/* Mixins to move around course title */
+.title-push-up(@move: -20px) {
+    margin-top: @move;
 }
 
 /* Set course description height - same for all items on the catalog*/

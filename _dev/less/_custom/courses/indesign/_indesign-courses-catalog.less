@@ -1,8 +1,7 @@
 @indesign-color: #f442a9;
 
 .indesign-banner {
-    background: url("../img/adobe/indesign-courses-catalog/indesign-banner.jpg");
-    .banner;
+    .banner(@indesign-color);
 }
 
 .indesign-breadcrumb-active {
@@ -22,80 +21,186 @@ a.indesign-sw-ver {
 }
 
 .indesign-short-courses-tight-border {
+    margin-top: 25px;
     width: 235px;
     .tight-border(235px, 235px, 275px, 275px);
+
+    @media (min-width: @screen-md-min) {
+        margin-top: 0;
+    }
+
+    @media (min-width: @screen-md-min) {
+        margin-top: 0;
+    }
+
+    @media (min-width: @screen-md-min) {
+        margin-top: -50px;
+    }
 }
 
 .indesign-part-time-tight-border {
     width: 210px;
-    .tight-border(210px, 210px, 440px, 440px);
+    .tight-border(380px, 380px, 440px, 440px);
 }
 
 .indesign-packages-tight-border,
 .indesign-publishing-tight-border {
-    width: 210px;
-    .tight-border(210px, 290px, 400px, 400px);    
+    width: 260px;
+    .tight-border(260px, 200px, 265px, 315px);    
 }
 
 .indesign-course-item {
     .catalog-course-item(@indesign-color);
     .course-item-hight-xs(25em);
-    .course-item-hight-dvga(21em);
+    .course-item-hight-dvga(22em);
     .course-item-hight-xga(21em);
     .course-item-hight-lg(24em);
 
     .course-item-description {
         .course-item-description-hight-xs(11em);
-        .course-item-description-hight-dvga(7em);
+        .course-item-description-hight-dvga(8em);
         .course-item-description-hight-sm(10em);
         .course-item-description-hight-xga(7em);
         .course-item-description-hight-lg(10em);
     }
 
-    .indesign-advanced {
-        .move-logo-up;
-        .move-logo-left;
-        .push-title-right;
+    .indesign-ess,
+    .indesign-lite {
+        max-width: 55px;
     }
 
-    .indesign-long-doc {
-        .move-logo-up(-24px);
-        .move-logo-left;
-        .push-title-right;
+    .indesign-advanced {
+        max-width: 68px;
+        .move-logo-up(-11px);
+        .move-logo-left(-12px);
+    }
+
+    .indesign-long-doc{
+        max-width: 68px;
+        .move-logo-up(-14px);
+        .move-logo-left(-12px);
     }
 
     .indesign-interactivity-logo {
-        .move-logo-up(-27px);
-        .move-logo-left;
-        .push-title-right(25px);
-        .fix-logo-width;
-    }
-
-    .indesign-interactivity-title {
-        .fix-title-width;
+        max-width: 81px;
+        .move-logo-up(-14px);
+        .move-logo-left(-12px);
     }
 
     .indesign-accessability-logo {
-        .push-title-right(25px);
-        .fix-logo-width;
+        max-width: 102px;
     }
 
-    .indesign-accessability-title {
-        .fix-title-width;
+    @media (min-width: @screen-xs-min) {
+        .indesign-ess,
+        .indesign-lite {
+            max-width: 59px;
+        }
+
+        .indesign-advanced {
+            max-width: 72px;
+            .move-logo-up(-15px);
+            .move-logo-left(-12px);
+        }
+
+        .indesign-long-doc{
+            max-width: 68px;
+            .move-logo-up(-13px);
+            .move-logo-left(-12px);
+        }
+
+        .indesign-interactivity-logo {
+            max-width: 81px;
+            padding-right: 0px;
+            .move-logo-up(-21px);
+            .move-logo-left(-17px);
+        }
+
+        .indesign-accessability-logo {
+            max-width: 102px;
+        }
     }
 
-    /* Manage the item height*/
-    .item-description-essentials {
-        .move-description(16px);
+    @media (min-width: @screen-sm-min) {
+        .indesign-long-doc,
+        .indesign-interactivity-logo {
+            max-width: 72px;
+            .move-logo-up(-20px);
+            .move-logo-left(-12px);
+        }
     }
 
-    .item-description-long {
-        .move-description(-7px);
+    @media (min-width: @screen-md-min) {
+        .indesign-ess,
+        .indesign-lite {
+            max-width: 63px;
+        }
+
+        .indesign-advanced {
+            max-width: 72px;
+            .move-logo-up(-15px);
+            .move-logo-left(-12px);
+        }
+
+        .indesign-long-doc{
+            max-width: 68px;
+            .move-logo-up(-13px);
+            .move-logo-left(-12px);
+        }
+
+        .indesign-interactivity-logo {
+            max-width: 81px;
+            padding-right: 0px;
+            .move-logo-up(-21px);
+            .move-logo-left(-17px);
+        }
+
+        .indesign-accessability-logo {
+            max-width: 102px;
+        }
     }
 
-    .item-description-inter {
-        .move-description(-4px);
+    @media (min-width: @screen-lg-min) {
+        .indesign-ess,
+        .indesign-lite {
+            max-width: 68px;
+        }
+
+        .indesign-advanced {
+            max-width: 81px;
+            margin-top: -14px;
+            margin-left: -12px;
+        }
+
+        .indesign-long-doc{
+            max-width: 80px;
+            .move-logo-up(-19px);
+        }
+
+        .indesign-long-doc-title {
+            width: 64%;
+        }
     }
+}
+
+.catalog-read-more-btn-custom{
+    .read-more-btn(-32px);
+
+    @media (min-width: @screen-sm-min) {
+        .read-more-btn(-25px);
+    }
+
+    @media (min-width: @screen-md-min) {
+        .read-more-btn(-31px);
+    }
+
+    @media (min-width: @screen-md-min) {
+        .read-more-btn(-35px);
+    }
+}
+
+.catalog-read-more-btn-seminars {
+    .read-more-btn(0);
 }
 
 .indesign-side-pannel {
@@ -113,3 +218,50 @@ a.indesign-sw-ver {
 .indesign-packages {
     .courses-package;
 }
+
+/* Icons sprite CSS */
+/* Generated by http://responsive-css.spritegen.com Responsive CSS Sprite Generator */
+ 
+.indesign-catalog-sprite-private-training, .indesign-catalog-sprite-id-interactivity, .indesign-catalog-sprite-id-longdocuments, .indesign-catalog-sprite-id-accessibility, .indesign-catalog-sprite-id-dps-pro, 
+.indesign-catalog-sprite-id-dps-single, .indesign-catalog-sprite-id-ipad, .indesign-catalog-sprite-id-advanced, .indesign-catalog-sprite-id-dps-pkg, .indesign-catalog-sprite-id-epub, 
+.indesign-catalog-sprite-id-essentials-framed, .indesign-catalog-sprite-id-lite, .indesign-catalog-sprite-il-landingpg-ess, .indesign-catalog-sprite-ps-landingpg-ess, .indesign-catalog-sprite-id-essentials
+{ max-width: 100%; background-size: 100%; background-image: url('../img/adobe/indesign-courses-catalog/id-catalog-sprite.png'); }
+ 
+.indesign-catalog-sprite-private-training { background-position: 0 0%; background-size: 100%; width: 100%;}
+.indesign-catalog-sprite-id-interactivity { background-position: 0 8.775811%; background-size: 192.66055%; }
+.indesign-catalog-sprite-id-longdocuments { background-position: 0 17.699115%; background-size: 192.66055%; }
+.indesign-catalog-sprite-id-accessibility { background-position: 0 25.841088%; background-size: 212.121212%; }
+.indesign-catalog-sprite-id-dps-pro { background-position: 0 31.979695%; background-size: 235.955056%; }
+.indesign-catalog-sprite-id-dps-single { background-position: 0 39.086294%; background-size: 235.955056%; }
+.indesign-catalog-sprite-id-ipad { background-position: 0 46.192893%; background-size: 235.955056%; }
+.indesign-catalog-sprite-id-advanced { background-position: 0 53.532411%; background-size: 241.37931%; }
+.indesign-catalog-sprite-id-dps-pkg { background-position: 0 61.555393%; background-size: 276.315789%; }
+.indesign-catalog-sprite-id-essentials-framed { background-position: 0 76.022972%; background-size: 318.181818%; }
+.indesign-catalog-sprite-id-lite { background-position: 0 82.230216%; background-size: 318.181818%; }
+.indesign-catalog-sprite-il-landingpg-ess { background-position: 0 88.235294%; background-size: 323.076923%; }
+.indesign-catalog-sprite-ps-landingpg-ess { background-position: 0 94.189383%; background-size: 323.076923%; }
+.indesign-catalog-sprite-id-essentials { background-position: 0 100%; background-size: 328.125%; }
+
+.indesign-catalog-sprite-id-epub { 
+    background-position: 0 69.511306%; 
+    background-size: 318.181818%; 
+    width: 50px;
+
+    @media (min-width: @screen-md-min) {
+        width: auto;
+    }
+}
+
+/*@media (min-width: @screen-xs-min) {
+}
+
+@media (min-width: @screen-sm-min) {
+}
+
+@media (min-width: @screen-md-min) {
+}
+
+@media (min-width: @screen-lg-min) {
+}
+*/
+ 

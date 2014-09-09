@@ -1,30 +1,51 @@
-.banner {
+.banner(@color: #000) {
     position: relative;
-    height: 8em;
+    height: 7em;
     left: 0;
     right: 0;
     color: #fff;
+    text-shadow: 2px 2px 2px rgba(165, 165, 165, 0.82);
+    background-color: @color;
 
-    .catalog-img {
-        margin-top: 20px;
-        max-width: 80px;
-        display: block;
+    .indesign-catalog-sprite-id-essentials {
+        padding: 2px;
     }
 
-    img {
-        border: 1.5px solid #000;
-        width: 66px;
-        height: 64px;
+    .catalog-img {
+        margin: 30px 5px 0 10px;
+        display: block;
+        width: 40px;
+
+        @media (min-width: @screen-xs-min) {
+            width: 48px;
+            margin-top: 26px;
+        }
+
+        @media (min-width: @screen-md-min) {
+            margin-top: 23px;
+            width: 55px;
+        }
+
+        @media (min-width: @screen-lg-min) {
+            margin-top: 21px;
+            width: 60px;
+        }
     }
 
     .catalog-banner-header-main {
-        font-size: @cdt-font-size-large;
         font-weight: 600;
-        margin-top: @line-height-computed;
         margin-left: 1px;
 
         h1 {
+            font-size: @cdt-font-size-large;
+            margin-top: 9px;
+
             @media (min-width: @screen-xs-min) {
+                margin-top: 5px; 
+            }
+
+            @media (min-width: @screen-dvga-min) {
+                margin-top: 1px; // Cancel top margin of h1
                 font-size: 22px;
             }
 

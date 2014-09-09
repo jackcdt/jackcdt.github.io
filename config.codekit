@@ -1888,6 +1888,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite non-resp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23495,
+		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite non-resp.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite non-resp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107707,
+		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-catalog-sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/adobe\/indesign-courses-catalog\/id-dps-pkg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1928,6 +1950,17 @@
 		"initialSize": 4569,
 		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-epub.png",
 		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-epub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/adobe\/indesign-courses-catalog\/id-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3268,
+		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-essentials-framed.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/id-essentials-framed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2009,6 +2042,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/adobe\/indesign-courses-catalog\/il-landingpg-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2829,
+		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/il-landingpg-ess.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/il-landingpg-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/adobe\/indesign-courses-catalog\/indesign-banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2027,6 +2071,17 @@
 		"initialSize": 29513,
 		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/private-training.jpg",
 		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/private-training.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/adobe\/indesign-courses-catalog\/ps-landingpg-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2729,
+		"inputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/ps-landingpg-ess.png",
+		"outputAbbreviatedPath": "\/img\/adobe\/indesign-courses-catalog\/ps-landingpg-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
