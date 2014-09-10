@@ -1846,15 +1846,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/css\/bootstrap.min.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/adobe\/illustrated-courses-catalog\/il-landingpg-ess.png": {
 		"fileType": 32768,
 		"ignore": 0,

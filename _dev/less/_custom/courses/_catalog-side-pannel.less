@@ -5,6 +5,15 @@
         color: #fff;
         border-radius: 4px;
         .space-after;
+        min-height: 123px;
+
+        @media (min-width: @screen-xs-min) {
+            min-height: 104px;
+        }
+
+        @media (min-width: @screen-sm-min) {
+            min-height: auto;
+        }
 
         .seminars-ad-title {
             font-size: @cdt-font-size-large;
@@ -51,63 +60,70 @@
             font-weight: @cdt-font-weight-extra-thin;
         }
     }
-
-    .recent-testimonials {
-        background-color: #E4E4E4;
-        height: 43em;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        border: solid 1px #646464;
-        border-radius: 4px;
-        margin-bottom: 10px;
-
-        .recent-testimonials-title {
-            font-size: @cdt-font-size-large;
-            font-weight: @cdt-font-weight-thick ;
-            color: @color;
-            margin: 15px 0 20px 5px;
-        }
-
-        .catalog-testimonial {
-            margin: 5px 5px 0 5px;
-            font-size: @cdt-font-size-base;
-
-            span {
-                font-family: 'Source Sans Pro', sans-serif;
-                color: @color;
-                font-size: 28px;
-                font-style: italic;
-                display: inline;
-                line-height: 0.5em;
-            }
-        }
-
-        .catalog-testimonial-client-name {
-            margin-top: @line-height-computed / 2;
-            font-weight: bold;
-        }
-
-        .catalog-testimonial-course-name {
-            color: @color;
-            font-weight: 500;
-            margin-bottom: @line-height-computed * 1.5;
-        }
-
-        @media (min-width: @screen-sm-min) {
-            height: 73em;
-        }
-
-        @media (min-width: @screen-md-min) {
-            height: 74em;
-        }
-
-        @media (min-width: @screen-xga-min) {
-            height: 62em;
-        }
-
-        @media (min-width: @screen-lg-min) {
-            height: 42em;
-        }
-    }
 }
 
+.recent-testimonials(@color: #000, @height-init, @height-xs, @height-dvga, @height-sm, @height-md, @height-xga, @height-lg) {
+    background-color: #E4E4E4;
+    height: @height-init;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: solid 1px #646464;
+    border-radius: 4px;
+    .space-after;
+
+    .recent-testimonials-title {
+        font-size: @cdt-font-size-large;
+        font-weight: @cdt-font-weight-thick ;
+        color: @color;
+        margin: 15px 0 20px 5px;
+    }
+
+    .catalog-testimonial {
+        margin: 5px 5px 0 5px;
+        font-size: @cdt-font-size-base;
+
+        span {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: @color;
+            font-size: 28px;
+            font-style: italic;
+            display: inline;
+            line-height: 0.5em;
+        }
+    }
+
+    .catalog-testimonial-client-name {
+        margin-top: @line-height-computed / 2;
+        font-weight: bold;
+    }
+
+    .catalog-testimonial-course-name {
+        color: @color;
+        font-weight: 500;
+        margin-bottom: @line-height-computed * 1.5;
+    }
+
+    @media (min-width: @screen-xs-min) {
+        height: @height-xs;
+    }
+
+    @media (min-width: @screen-dvga-min) {
+        height: @height-dvga;
+    }
+
+    @media (min-width: @screen-sm-min) {
+        height: @height-sm;
+    }
+
+    @media (min-width: @screen-md-min) {
+        height: @height-md;
+    }
+
+    @media (min-width: @screen-xga-min) {
+        height: @height-xga;
+    }
+
+    @media (min-width: @screen-lg-min) {
+        height: @height-lg;
+    }
+}
