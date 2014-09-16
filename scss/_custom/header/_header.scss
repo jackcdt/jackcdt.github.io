@@ -1,8 +1,18 @@
+
+%banner-height {
+    min-height: $base-line-height * 3;
+}
+
 .header-banner{
+    @extend %banner-height;
+
     background-color: #6c6c6c;
-    height: auto;
-    min-height: 60px;
     color: #fff;
+    border-bottom: #383838 ($base-line-height / 2) solid;
+}
+
+.book-now-col {
+    @extend %banner-height;
 }
 
 .header-banner-container {
@@ -11,13 +21,14 @@
     z-index: 1;
 }
 
-.cdt-logo, book-now {
-    min-width: 80%;
+.cdt-logo {
+    @extend %banner-height;
 }
 
 .book-now {
     float: right;
-    margin-right: -1.5em;
+    margin-right: -2.5em;
+    height: 100%;
 }
 
 .years-in-bussiness{

@@ -1,0 +1,14 @@
+// Importing fonts from google
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+
+// Set full height
+%full-height {
+    height: 100%;
+    width: 100%;
+}
