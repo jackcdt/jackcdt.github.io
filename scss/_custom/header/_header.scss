@@ -1,0 +1,26 @@
+.header-banner{
+    background-color: #6c6c6c;
+    height: auto;
+    min-height: 60px;
+    color: #fff;
+}
+
+.header-banner-container {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.cdt-logo, book-now {
+    min-width: 80%;
+}
+
+.book-now {
+    float: right;
+    margin-right: -1.5em;
+}
+
+.years-in-bussiness{
+    position: absolute;
+    z-index: 1000;
+}
