@@ -30,30 +30,39 @@ $xlarge-font-leading: 1.5;
 @include establish-baseline; /* "This is where the magic happens" —Everyone on MTV Cribs. */
 
 
-@mixin typeSize($size) {
+@mixin responsiveTypeSize($size) {
  @if $size == "tiny" {
-  @include adjust-font-size-to($tiny-font-size);
-  @include adjust-leading-to($tiny-font-leading);
+  @include adjust-font-size-to($tiny-font-size, $tiny-font-leading);
  }
  @if $size == "small" {
-  @include adjust-font-size-to($small-font-size);
-  @include adjust-leading-to($small-font-leading);
+  @include adjust-font-size-to($tiny-font-size, $tiny-font-leading);
+  @include breakpoint($medium-screen-width) {
+   @include adjust-font-size-to($tiny-font-size, $tiny-font-leading);
+  }
  }
  @if $size == "base" {
-  @include adjust-font-size-to($base-font-size);
-  @include adjust-leading-to($base-font-leading);
+  @include adjust-font-size-to($small-font-size, $small-font-leading);
+  @include breakpoint($medium-screen-width) {
+   @include adjust-font-size-to($base-font-size, $base-font-leading);
+  }
  }
  @if $size == "medium" {
-  @include adjust-font-size-to($medium-font-size);
-  @include adjust-leading-to($medium-font-leading);
+  @include adjust-font-size-to($base-font-size, $base-font-leading);
+  @include breakpoint($medium-screen-width) {
+   @include adjust-font-size-to($medium-font-size, $medium-font-leading);
+  }
  }
  @if $size == "large" {
-  @include adjust-font-size-to($large-font-size);
-  @include adjust-leading-to($large-font-leading);
+  @include adjust-font-size-to($medium-font-size, $medium-font-leading);
+  @include breakpoint($medium-screen-width) {
+   @include adjust-font-size-to($large-font-size, $large-font-leading);
+  }
  }
  @if $size == "xlarge" {
-  @include adjust-font-size-to($xlarge-font-size);
-  @include adjust-leading-to($xlarge-font-leading);
+  @include adjust-font-size-to($large-font-size, $large-font-leading);
+  @include breakpoint($medium-screen-width) {
+   @include adjust-font-size-to($xlarge-font-size, $xlarge-font-leading);
+  }
  }
 }
 
@@ -78,40 +87,40 @@ $xlarge-font-leading: 1.5;
 // Type size variants 
 
 %t-tiny {
- @include typeSize(tiny);
+ @include responsiveTypeSize(tiny);
 }
 %t-small {
- @include typeSize(small);
+ @include responsiveTypeSize(small);
 }
 %t-base {
- @include typeSize(base);
+ @include responsiveTypeSize(base);
 }
 %t-medium {
- @include typeSize(medium);
+ @include responsiveTypeSize(medium);
 }
 %t-large {
- @include typeSize(large);
+ @include responsiveTypeSize(large);
 }
 %t-xlarge {
- @include typeSize(xlarge);
+ @include responsiveTypeSize(xlarge);
 }
 .t-tiny {
- @include typeSize(tiny);
+ @include responsiveTypeSize(tiny);
 }
 .t-small {
- @include typeSize(small);
+ @include responsiveTypeSize(small);
 }
 .t-base {
- @include typeSize(base);
+ @include responsiveTypeSize(base);
 }
 .t-medium {
- @include typeSize(medium);
+ @include responsiveTypeSize(medium);
 }
 .t-large {
- @include typeSize(large);
+ @include responsiveTypeSize(large);
 }
 .t-xlarge {
- @include typeSize(xlarge);
+ @include responsiveTypeSize(xlarge);
 }
 
 // Type — headings
@@ -131,3 +140,4 @@ h3 {
 h4 {
  @extend %t-base;
 }
+
