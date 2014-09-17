@@ -3,9 +3,10 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 // Custom breakpoints (currently similar to Foundation)
-$cdt-sm-screen-width: 30em;
-$cdt-md-screen-width: 40.063em;
-$cdt-lg-screen-width: 64.063em;
+$cdt-sm-screen-width: 30.063em; // 481px
+$cdt-md-screen-width: 48.063em; // 768px
+$cdt-lg-screen-width: 62.063em; // 992px
+$cdt-lg-screen-width: 90.063em; // 1440px
 
 body {
     font-family: Raleway, Helvetica, sans-serif;

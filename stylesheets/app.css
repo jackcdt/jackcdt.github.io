@@ -9009,7 +9009,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 10, ../scss/_custom/_common.scss */
+/* line 11, ../scss/_custom/_common.scss */
 body {
   font-family: Raleway, Helvetica, sans-serif;
 }
@@ -9031,27 +9031,14 @@ html {
   font-weight: 400;
 }
 
-/* line 86, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text {
-  font-size: 0.5625em;
-  line-height: 2.66667em;
-}
-@media (min-width: 40.063em) {
-  /* line 86, ../scss/_custom/_custom-fonts.scss */
-  .header-logos .training-text {
-    font-size: 0.75em;
-    line-height: 2em;
-  }
-}
-
 /* line 89, ../scss/_custom/_custom-fonts.scss */
-h4 {
+h4, .header-logos .training-text {
   font-size: 0.75em;
   line-height: 2em;
 }
-@media (min-width: 40.063em) {
+@media (min-width: 48.063em) {
   /* line 89, ../scss/_custom/_custom-fonts.scss */
-  h4 {
+  h4, .header-logos .training-text {
     font-size: 1em;
     line-height: 1.5em;
   }
@@ -9062,7 +9049,7 @@ h3 {
   font-size: 1em;
   line-height: 1.5em;
 }
-@media (min-width: 40.063em) {
+@media (min-width: 48.063em) {
   /* line 92, ../scss/_custom/_custom-fonts.scss */
   h3 {
     font-size: 1.375em;
@@ -9075,7 +9062,7 @@ h2 {
   font-size: 1.375em;
   line-height: 2.18182em;
 }
-@media (min-width: 40.063em) {
+@media (min-width: 48.063em) {
   /* line 95, ../scss/_custom/_custom-fonts.scss */
   h2 {
     font-size: 1.8125em;
@@ -9088,7 +9075,7 @@ h1 {
   font-size: 1.8125em;
   line-height: 1.65517em;
 }
-@media (min-width: 40.063em) {
+@media (min-width: 48.063em) {
   /* line 98, ../scss/_custom/_custom-fonts.scss */
   h1 {
     font-size: 2.375em;
@@ -9129,7 +9116,7 @@ h1, h2, h3, h4 {
   height: 86px;
   width: 114px;
 }
-@media (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 42, ../scss/_custom/header/_header.scss */
   .header-logos .book-now {
     margin-right: 67px;
@@ -9167,30 +9154,17 @@ h1, h2, h3, h4 {
 /* line 70, ../scss/_custom/header/_header.scss */
 .header-logos .training-text {
   margin: 19px 0;
-}
-@media (min-width: 64.063em) {
-  /* line 70, ../scss/_custom/header/_header.scss */
-  .header-logos .training-text {
-    font-size: 0.75em;
-    line-height: 2em;
-  }
-}
-@media (min-width: 64.063em) and (min-width: 40.063em) {
-  /* line 70, ../scss/_custom/header/_header.scss */
-  .header-logos .training-text {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
+  padding: 0;
 }
 
-/* line 81, ../scss/_custom/header/_header.scss */
+/* line 78, ../scss/_custom/header/_header.scss */
 .header-banner {
   background-color: #6c6c6c;
   color: #fff;
   border-bottom: #383838 solid 10px;
 }
 
-/* line 87, ../scss/_custom/header/_header.scss */
+/* line 84, ../scss/_custom/header/_header.scss */
 .header-banner-container {
   position: relative;
   overflow: visible;

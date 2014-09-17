@@ -46,7 +46,7 @@ $banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-l
         height: $book-now-height; 
         width: $book-now-width; 
 
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             margin-right: $years-in-business-width;
         }        
     }
@@ -68,13 +68,10 @@ $banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-l
     .footer-logos-5    { @include header-footer-sprite(footer-logos-5);   }
 
     .training-text {
-        @extend %t-small;
+        @extend %t-base;
         @extend %t-regular;
         margin: (($banner-content-height - ($base-line-height * 2)) / 2) 0;
-
-        @include breakpoint($cdt-lg-screen-width) {
-            @include responsiveTypeSize(base);
-        }        
+        padding: 0;
     }
 }
 
