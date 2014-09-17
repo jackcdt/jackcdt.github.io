@@ -68,10 +68,16 @@ $banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-l
     .footer-logos-5    { @include header-footer-sprite(footer-logos-5);   }
 
     .training-text {
-        @extend %t-base;
+        @extend %t-medium;
         @extend %t-regular;
         margin: (($banner-content-height - ($base-line-height * 2)) / 2) 0;
         padding: 0;
+        display: none;
+
+        @include breakpoint($cdt-custom-md-screen-width) {
+            display: inherit;
+            @include adjust-font-size-to($base-font-size);
+        }
     }
 }
 
