@@ -19,12 +19,16 @@ $book-now-width: header-footer-sprite-width(book-now);
 $years-in-business-height: header-footer-sprite-height(years-in-business);
 $years-in-business-width: header-footer-sprite-width(years-in-business);
 
+$banner-content-height: $book-now-height;
+$banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-line-height);
+
 .header-logos {
     .cdt-logo { 
         @include header-footer-sprite(cdt-logo); 
 
         height: $cdt-logo-height; 
-        width: $cdt-logo-width; 
+        width: $cdt-logo-width;
+        margin: (($banner-content-height - $cdt-logo-height) /2) 10px;
     }
 
     .aatc-logo { 
@@ -32,15 +36,19 @@ $years-in-business-width: header-footer-sprite-width(years-in-business);
 
         height: $aatc-logo-height; 
         width: $aatc-logo-width; 
+        margin: (($banner-content-height - $aatc-logo-height) /2) 10px;
     }
 
     .book-now { 
         @include header-footer-sprite(book-now); 
-
+        
+        float: right;
         height: $book-now-height; 
         width: $book-now-width; 
-        margin-right: $years-in-business-width;
-        float: right;
+
+        @include breakpoint($cdt-md-screen-width) {
+            margin-right: $years-in-business-width;
+        }        
     }
 
     .years-in-business { 
@@ -62,13 +70,18 @@ $years-in-business-width: header-footer-sprite-width(years-in-business);
     .training-text {
         @extend %t-small;
         @extend %t-regular;
+        margin: (($banner-content-height - ($base-line-height * 2)) / 2) 0;
+
+        @include breakpoint($cdt-lg-screen-width) {
+            @include responsiveTypeSize(base);
+        }        
     }
 }
 
 .header-banner{
     background-color: #6c6c6c;
     color: #fff;
-//    border-bottom: #383838 ($base-line-height / 2) solid;
+    border-bottom: #383838 solid ($banner-height-with-border - $banner-content-height);
 }
 
 .header-banner-container {

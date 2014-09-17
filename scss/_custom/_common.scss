@@ -3,16 +3,28 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 // Custom breakpoints (currently similar to Foundation)
-$medium-screen-width: 40.063em;
-$large-screen-width: 64.063em;
+$cdt-sm-screen-width: 30em;
+$cdt-md-screen-width: 40.063em;
+$cdt-lg-screen-width: 64.063em;
 
 body {
     font-family: Raleway, Helvetica, sans-serif;
 }
 
-
-// Set full height
-%full-height {
+// Fill containing element
+%cdt-full-height {
     height: 100%;
     width: 100%;
+}
+
+// Verical align
+%vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+// Number rounding to closest required value
+@function cdt-allign-to-number($val, $align-to) {
+    @return ($align-to * floor(($val + $align-to - 1) / $align-to));
 }
