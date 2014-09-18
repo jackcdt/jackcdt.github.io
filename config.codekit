@@ -3697,6 +3697,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/adobe\/indesign\/indesign-catalog\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3704,6 +3715,116 @@
 		"initialSize": 17551,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-accessibility.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3225,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-accessibility.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-accessibility.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-advanced.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3681,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-advanced.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-advanced.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-epub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4436,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-epub.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-epub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3157,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2938,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-interactivity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-interactivity.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-interactivity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-lite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3714,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-lite.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-lite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/id-longdocuments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3547,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-longdocuments.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/id-longdocuments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/il-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2829,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/il-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/il-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-catalog\/ps-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2729,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/ps-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/ps-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
