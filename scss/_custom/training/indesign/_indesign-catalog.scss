@@ -1,0 +1,7 @@
+@import "../../components/catalog";
+
+$indesign-color: #f442a9;
+
+.indesign-catalog-banner {
+    @include catalog-banner;
+}
