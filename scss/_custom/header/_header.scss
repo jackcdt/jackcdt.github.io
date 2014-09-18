@@ -22,6 +22,8 @@ $years-in-business-width: header-footer-sprite-width(years-in-business);
 $banner-content-height: $book-now-height;
 $banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-line-height);
 
+$banner-border-height: ($banner-height-with-border - $banner-content-height + $base-line-height);
+
 .header-logos {
     .cdt-logo { 
         @include header-footer-sprite(cdt-logo); 
@@ -84,8 +86,27 @@ $banner-height-with-border: cdt-allign-to-number($banner-content-height, $base-l
 .header-banner{
     background-color: #6c6c6c;
     color: #fff;
-    border-bottom: #383838 solid ($banner-height-with-border - $banner-content-height);
+    //border-bottom: #4F4E4E solid ($banner-height-with-border - $banner-content-height + $base-line-height);
 }
+
+.header-banner-border {
+    height: $banner-border-height;
+    background-color: #4F4E4E;
+    color: #fff;
+
+    .phone-no {
+        float: right;
+    }
+
+/*    span {
+        @extend %t-base;
+        @extend %t-regular;
+
+        display: block;
+        float:right;
+        margin: (($banner-border-height - $base-font-size) / 2) 242px (($banner-border-height - $base-font-size) / 2) 0;
+    }
+*/}
 
 .header-banner-container {
     position: relative;
