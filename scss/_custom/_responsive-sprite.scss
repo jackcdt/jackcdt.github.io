@@ -1,0 +1,21 @@
+@mixin responsive-sprite($map, $icon){
+    $icon-file: sprite-file($map, $icon);
+    $icon-width: image-width($icon-file);
+    $icon-height: image-height($icon-file);
+     
+    $sprite-file: sprite-path($map);
+    $sprite-width: image-width($sprite-file);
+    $sprite-height: image-height($sprite-file);
+     
+    $space-top: floor(nth(sprite-position($map, $icon), 2));
+    @if $space-top == 0 {
+        $space-top: 0px
+    }
+     
+    width:percentage($sprite-width / $icon-width);
+    display: block;
+    height: 0;
+    padding-bottom: percentage($icon-height / $icon-width);
+    background-size: 100%;
+    background-position:0 percentage(-1 * $space-top / ( $sprite-height - $icon-height ));
+}

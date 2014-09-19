@@ -2,15 +2,34 @@
 
 // Create sprite using Compass
 @import "compass/utilities/sprites";
-@import "../images/training/adobe/indesign/indesign-catalog/*.png";
+@import "training/adobe/indesign/indesign-catalog/*.png";
+
+$map: sprite-map("training/adobe/indesign/indesign-catalog/*.png", $spacing: 20px); /*empty comment*/
+$icon: custom-training;
+
+    $icon-file: sprite-file($map, $icon);
+    $icon-width: image-width($icon-file);
+    $icon-height: image-height($icon-file);
+     
+    $sprite-width: 185px;
+    $sprite-height: 826px;
+     
+    $space-top: floor(nth(sprite-position($map, $icon), 2));
+    @if $space-top == 0 {
+        $space-top: 0px
+    }
+     
+
+
+
+
+
+
 
 $indesign-catalog-spacing: 20px;
 
 $id-essentials-framed-height: indesign-catalog-sprite-height(id-essentials-framed);
 $id-essentials-framed-width: indesign-catalog-sprite-width(id-essentials-framed);
-
-$custom-training-height: indesign-catalog-sprite-height(custom-training);
-$custom-training-width: indesign-catalog-sprite-width(custom-training);
 
 $id-accessibility-height: indesign-catalog-sprite-height(id-accessibility);
 $id-accessibility-width: indesign-catalog-sprite-width(id-accessibility);
@@ -41,7 +60,7 @@ $ps-ess-width: indesign-catalog-sprite-width(ps-ess);
 
 $indesign-color: #f442a9;
 
-.indesign-catalog-banner {
+.indesign-catalog {
     @include catalog($id-essentials-framed-height, $indesign-color);
 }
 
@@ -50,4 +69,15 @@ $indesign-color: #f442a9;
 
     height: $id-essentials-framed-height; 
     width: $id-essentials-framed-width;
+}
+
+.custom-training-logo {
+//    @include responsive-sprite($map, custom-training);
+    width:percentage($sprite-width / $icon-width);
+    display: block;
+    height: 0;
+    padding-bottom: percentage($icon-height / $icon-width);
+    background-size: 100%;
+    background-position:0 percentage(-1 * $space-top / ( $sprite-height - $icon-height ));
+    @include indesign-catalog-sprite(custom-training); 
 }

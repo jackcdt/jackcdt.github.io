@@ -1,5 +1,10 @@
 @import "training/banner";
+@import "training/custom-training";
 
 @mixin catalog($logo-height, $color: #000){
     @include catalog-banner($logo-height, $color);
+
+    .custom-training-logo {
+        @extend %custom-training-styling;
+    }
 }

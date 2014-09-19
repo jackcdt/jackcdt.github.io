@@ -3697,13 +3697,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png": {
+	"\/images\/training\/adobe\/indesign\/indesign-catalog-s7b4f0f570f.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-scbac3f5a1b.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-s7b4f0f570f.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog-s7b4f0f570f.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3712,7 +3712,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17551,
+		"initialSize": 7954,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-catalog\/custom-training.png",
 		"outputPathIsOutsideProject": 0,
@@ -3909,6 +3909,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/_responsive-sprite.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/_responsive-sprite.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_responsive-sprite.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/components\/_catalog.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3934,6 +3950,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_banner.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_banner.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_custom-training.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_custom-training.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_custom-training.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
