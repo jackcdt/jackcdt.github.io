@@ -1,0 +1,50 @@
+$trainig-banner-height: $base-line-height * 4;
+
+@mixin catalog-banner($logo-height, $color){
+    $vertical-margin: vertical-margin-calc($trainig-banner-height, $logo-height);
+
+    background-color: $color;
+    height: $trainig-banner-height;
+
+    .catalog-logo{
+        
+        margin: $vertical-margin 0 $vertical-margin 15px;
+    }
+
+    .banner-text {
+        max-width: 80%;
+        top: $vertical-margin / 2;
+
+        @include breakpoint($cdt-custom-md-screen-width) {
+            max-width: initial;
+        }
+
+        h1, span {
+            font-family: Raleway, Helvetica, sans-serif;
+            color: #fff;
+        }
+
+        h1 {
+            @extend %t-thinnest;
+            height: $base-line-height * 2 - 6px;
+
+            @include adjust-font-size-to($medium-font-size);
+
+            @include breakpoint($cdt-md-screen-width) {
+                @include adjust-font-size-to($large-font-size);
+            }
+
+            .banner-header-part {
+                display: none;
+
+                @include breakpoint($cdt-md-screen-width) {
+                    display: initial;
+                }
+            }
+        }
+
+        span {
+            @extend %t-base;
+        }
+    }
+}

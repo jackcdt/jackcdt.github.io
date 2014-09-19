@@ -10748,66 +10748,71 @@ html {
 }
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
-/* line 71, ../scss/_custom/_custom-fonts.scss */
+/* line 76, ../scss/_custom/_custom-fonts.scss */
 .header-logos .training-text {
   font-weight: 400;
 }
 
-/* line 89, ../scss/_custom/_custom-fonts.scss */
-h4 {
+/* line 85, ../scss/_custom/_custom-fonts.scss */
+.indesign-catalog-banner .banner-text h1 {
+  font-weight: 100;
+}
+
+/* line 97, ../scss/_custom/_custom-fonts.scss */
+h4, .indesign-catalog-banner .banner-text span {
   font-size: 0.75em;
   line-height: 2em;
 }
 @media (min-width: 64em) {
-  /* line 89, ../scss/_custom/_custom-fonts.scss */
-  h4 {
+  /* line 97, ../scss/_custom/_custom-fonts.scss */
+  h4, .indesign-catalog-banner .banner-text span {
     font-size: 1em;
     line-height: 1.5em;
   }
 }
 
-/* line 92, ../scss/_custom/_custom-fonts.scss */
+/* line 100, ../scss/_custom/_custom-fonts.scss */
 h3, .header-logos .training-text {
   font-size: 1em;
   line-height: 1.5em;
 }
 @media (min-width: 64em) {
-  /* line 92, ../scss/_custom/_custom-fonts.scss */
+  /* line 100, ../scss/_custom/_custom-fonts.scss */
   h3, .header-logos .training-text {
     font-size: 1.375em;
     line-height: 2.18182em;
   }
 }
 
-/* line 95, ../scss/_custom/_custom-fonts.scss */
+/* line 103, ../scss/_custom/_custom-fonts.scss */
 h2 {
   font-size: 1.375em;
   line-height: 2.18182em;
 }
 @media (min-width: 64em) {
-  /* line 95, ../scss/_custom/_custom-fonts.scss */
+  /* line 103, ../scss/_custom/_custom-fonts.scss */
   h2 {
     font-size: 1.8125em;
     line-height: 1.65517em;
   }
 }
 
-/* line 98, ../scss/_custom/_custom-fonts.scss */
+/* line 112, ../scss/_custom/_custom-fonts.scss */
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+/* line 115, ../scss/_custom/_custom-fonts.scss */
 h1 {
   font-size: 1.8125em;
   line-height: 1.65517em;
 }
 @media (min-width: 64em) {
-  /* line 98, ../scss/_custom/_custom-fonts.scss */
+  /* line 115, ../scss/_custom/_custom-fonts.scss */
   h1 {
     font-size: 2.375em;
     line-height: 1.26316em;
   }
-}
-
-/* line 104, ../scss/_custom/_custom-fonts.scss */
-h1, h2, h3, h4 {
-  margin: 0;
 }
 
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
@@ -10921,21 +10926,62 @@ h1, h2, h3, h4 {
   z-index: 1;
 }
 
-/*@import "compass/utilities/sprites";
-@import "../images/training/adobe/indesign/indesign-catalog/*.png";
-*/
 /* line 128, ../images/training/adobe/indesign/indesign-catalog/*.png */
 .indesign-catalog-sprite, .id-essentials-framed {
   background-image: url('/images/../images/training/adobe/indesign/indesign-catalog-scbac3f5a1b.png');
   background-repeat: no-repeat;
 }
 
-/* line 47, ../scss/_custom/training/indesign/_indesign-catalog.scss */
+/* line 44, ../scss/_custom/training/indesign/_indesign-catalog.scss */
 .indesign-catalog-banner {
-  background-color: #000;
+  background-color: #f442a9;
+  height: 96px;
+}
+/* line 9, ../scss/_custom/components/training/_banner.scss */
+.indesign-catalog-banner .catalog-logo {
+  margin: 16px 0 16px 15px;
+}
+/* line 14, ../scss/_custom/components/training/_banner.scss */
+.indesign-catalog-banner .banner-text {
+  max-width: 80%;
+  top: 8px;
+}
+@media (min-width: 48em) {
+  /* line 14, ../scss/_custom/components/training/_banner.scss */
+  .indesign-catalog-banner .banner-text {
+    max-width: initial;
+  }
+}
+/* line 22, ../scss/_custom/components/training/_banner.scss */
+.indesign-catalog-banner .banner-text h1, .indesign-catalog-banner .banner-text span {
+  font-family: Raleway, Helvetica, sans-serif;
+  color: #fff;
+}
+/* line 27, ../scss/_custom/components/training/_banner.scss */
+.indesign-catalog-banner .banner-text h1 {
+  height: 42px;
+  font-size: 1.375em;
+  line-height: 2.18182em;
+}
+@media (min-width: 64em) {
+  /* line 27, ../scss/_custom/components/training/_banner.scss */
+  .indesign-catalog-banner .banner-text h1 {
+    font-size: 1.8125em;
+    line-height: 1.65517em;
+  }
+}
+/* line 37, ../scss/_custom/components/training/_banner.scss */
+.indesign-catalog-banner .banner-text h1 .banner-header-part {
+  display: none;
+}
+@media (min-width: 64em) {
+  /* line 37, ../scss/_custom/components/training/_banner.scss */
+  .indesign-catalog-banner .banner-text h1 .banner-header-part {
+    display: initial;
+  }
 }
 
-/* line 51, ../scss/_custom/training/indesign/_indesign-catalog.scss */
+/* line 48, ../scss/_custom/training/indesign/_indesign-catalog.scss */
 .id-essentials-framed {
   background-position: 0 -306px;
   height: 64px;

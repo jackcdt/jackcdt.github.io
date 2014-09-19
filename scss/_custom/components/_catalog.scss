@@ -1,3 +1,5 @@
-@mixin catalog-banner($color: #000){
-    background-color: $color;
+@import "training/banner";
+
+@mixin catalog($logo-height, $color: #000){
+    @include catalog-banner($logo-height, $color);
 }

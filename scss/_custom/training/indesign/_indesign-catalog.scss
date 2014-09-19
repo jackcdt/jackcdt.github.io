@@ -1,9 +1,6 @@
 @import "../../components/catalog";
 
 // Create sprite using Compass
-/*@import "compass/utilities/sprites";
-@import "../images/training/adobe/indesign/indesign-catalog/*.png";
-*/
 @import "compass/utilities/sprites";
 @import "../images/training/adobe/indesign/indesign-catalog/*.png";
 
@@ -45,7 +42,7 @@ $ps-ess-width: indesign-catalog-sprite-width(ps-ess);
 $indesign-color: #f442a9;
 
 .indesign-catalog-banner {
-    @include catalog-banner;
+    @include catalog($id-essentials-framed-height, $indesign-color);
 }
 
 .id-essentials-framed { 

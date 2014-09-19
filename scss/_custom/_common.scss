@@ -30,3 +30,8 @@ body {
 @function cdt-allign-to-number($val, $align-to) {
     @return ($align-to * floor(($val + $align-to - 1) / $align-to));
 }
+
+// Calulate top/bottom margin to position element in the middle of another element (container)
+@function vertical-margin-calc($container-height, $elem-height) {
+    @return (($container-height - $elem-height) / 2);
+}

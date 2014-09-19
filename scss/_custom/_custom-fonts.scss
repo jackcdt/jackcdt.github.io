@@ -30,30 +30,35 @@ $xlarge-font-size: 38px;
     }
     @if $size == "small" {
         @include adjust-font-size-to($tiny-font-size);
+        
         @include breakpoint($cdt-md-screen-width) {
             @include adjust-font-size-to($small-font-size);
         }
     }
     @if $size == "base" {
         @include adjust-font-size-to($small-font-size);
+
         @include breakpoint($cdt-md-screen-width) {
             @include adjust-font-size-to($base-font-size);
         }
     }
     @if $size == "medium" {
         @include adjust-font-size-to($base-font-size);
+
         @include breakpoint($cdt-md-screen-width) {
             @include adjust-font-size-to($medium-font-size);
         }
     }
     @if $size == "large" {
         @include adjust-font-size-to($medium-font-size);
+
         @include breakpoint($cdt-md-screen-width) {
             @include adjust-font-size-to($large-font-size);
         }
     }
     @if $size == "xlarge" {
         @include adjust-font-size-to($large-font-size);
+
         @include breakpoint($cdt-md-screen-width) {
             @include adjust-font-size-to($xlarge-font-size);
         }
@@ -76,6 +81,9 @@ $xlarge-font-size: 38px;
 }
 %t-ultralight {
     font-weight: 200;
+}
+%t-thinnest {
+    font-weight: 100;
 }
 
 // Type size variants 
@@ -105,7 +113,11 @@ $xlarge-font-size: 38px;
     margin: 0;
 }
 h1 {
-    @extend %t-xlarge;
+    @include adjust-font-size-to($large-font-size);
+
+    @include breakpoint($cdt-md-screen-width) {
+        @include adjust-font-size-to($xlarge-font-size);
+    }
 }
 h2 {
     @extend %t-large;
