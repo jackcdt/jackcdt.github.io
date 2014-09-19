@@ -1,10 +1,14 @@
 @import "training/banner";
 @import "training/custom-training";
 
-@mixin catalog($logo-height, $color: #000){
+@mixin catalog($logo-height, $map, $map-width, $map-height, $color: #000){
     @include catalog-banner($logo-height, $color);
 
     .custom-training-logo {
-        @extend %custom-training-styling;
+        @media #{$small-only} { 
+            @include custom-training-styling($map, $map-width, $map-height, 65%);
+        }
+
+        @include custom-training-styling($map, $map-width, $map-height, 100%);
     }
 }
