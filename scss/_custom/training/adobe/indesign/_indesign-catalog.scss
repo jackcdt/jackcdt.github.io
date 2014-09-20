@@ -12,27 +12,6 @@ $sprite-height: 826px;
 
 $id-essentials-framed-height: indesign-catalog-sprite-height(id-essentials-framed);
 
-$id-accessibility-height: indesign-catalog-sprite-height(id-accessibility);
-$id-accessibility-width: indesign-catalog-sprite-width(id-accessibility);
-
-$id-advanced-height: indesign-catalog-sprite-height(id-advanced);
-$id-advanced-width: indesign-catalog-sprite-width(id-advanced);
-
-$id-epub-height: indesign-catalog-sprite-height(id-epub);
-$id-epub-width: indesign-catalog-sprite-width(id-epub);
-
-$iid-essentials-height: indesign-catalog-sprite-height(id-essentials);
-$id-essentials-width: indesign-catalog-sprite-width(id-essentials);
-
-$id-interactivity-height: indesign-catalog-sprite-height(id-interactivity);
-$id-interactivity-width: indesign-catalog-sprite-width(id-interactivity);
-
-$id-lite-height: indesign-catalog-sprite-height(id-lite);
-$id-lite-width: indesign-catalog-sprite-width(id-lite);
-
-$id-longdocuments-height: indesign-catalog-sprite-height(id-longdocuments);
-$id-longdocuments-width: indesign-catalog-sprite-width(id-longdocuments);
-
 $il-ess-height: indesign-catalog-sprite-height(il-ess);
 $il-ess-width: indesign-catalog-sprite-width(il-ess);
 
@@ -84,6 +63,7 @@ $indesign-color: #f442a9;
     min-height: 51px;    
 }
 
+/* Title is too long, minimise gap */
 .indesign-long-docs-title {
     padding-left: 5px !important;
 }

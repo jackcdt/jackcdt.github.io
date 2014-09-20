@@ -10967,7 +10967,7 @@ h1, h2, h3, h4 {
 }
 
 /*empty comment*/
-/* line 44, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 23, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .indesign-catalog {
   background-color: #f442a9;
   height: 120px;
@@ -10989,23 +10989,22 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 40.063em) {
   /* line 19, ../scss/_custom/components/training/_banner.scss */
   .indesign-catalog .banner-text {
-    top: 29.75px;
     max-width: 90%;
   }
 }
-/* line 28, ../scss/_custom/components/training/_banner.scss */
+/* line 27, ../scss/_custom/components/training/_banner.scss */
 .indesign-catalog .banner-text h1, .indesign-catalog .banner-text span {
   font-family: Raleway, Helvetica, sans-serif;
   color: #fff;
 }
-/* line 33, ../scss/_custom/components/training/_banner.scss */
+/* line 32, ../scss/_custom/components/training/_banner.scss */
 .indesign-catalog .banner-text h1 {
   font-size: 1.375em;
   line-height: 2.18182em;
   line-height: 1.2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 33, ../scss/_custom/components/training/_banner.scss */
+  /* line 32, ../scss/_custom/components/training/_banner.scss */
   .indesign-catalog .banner-text h1 {
     font-size: 1.75em;
     line-height: 1.71429em;
@@ -11013,7 +11012,7 @@ h1, h2, h3, h4 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 33, ../scss/_custom/components/training/_banner.scss */
+  /* line 32, ../scss/_custom/components/training/_banner.scss */
   .indesign-catalog .banner-text h1 {
     font-size: 2.125em;
     line-height: 1.41176em;
@@ -11092,7 +11091,7 @@ h1, h2, h3, h4 {
   color: #f442a9;
 }
 
-/* line 48, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-essentials-framed {
   background-position: 0 -306px;
   /*  
@@ -11111,12 +11110,12 @@ h1, h2, h3, h4 {
   min-height: 55px;
 }
 
-/* line 55, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .custom-training-logo {
   background-position: 0 0;
 }
 
-/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 38, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-essentials {
   background-position: 0 -370px;
   /*  
@@ -11135,7 +11134,7 @@ h1, h2, h3, h4 {
   min-height: 45px;
 }
 
-/* line 66, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-lite {
   background-position: 0 -532px;
   /*  
@@ -11154,7 +11153,7 @@ h1, h2, h3, h4 {
   min-height: 49px;
 }
 
-/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-advanced {
   background-position: 0 -136px;
   /*  
@@ -11173,7 +11172,7 @@ h1, h2, h3, h4 {
   min-height: 52px;
 }
 
-/* line 80, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-longdocuments {
   background-position: 0 -599px;
   /*  
@@ -11192,12 +11191,13 @@ h1, h2, h3, h4 {
   min-height: 51px;
 }
 
-/* line 87, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* Title is too long, minimise gap */
+/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .indesign-long-docs-title {
   padding-left: 5px !important;
 }
 
-/* line 91, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-interactivity {
   background-position: 0 -431px;
   /*  
@@ -11216,7 +11216,7 @@ h1, h2, h3, h4 {
   min-height: 51px;
 }
 
-/* line 98, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 78, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-accessibility {
   background-position: 0 -76px;
   /*  
@@ -11235,7 +11235,7 @@ h1, h2, h3, h4 {
   min-height: 35px;
 }
 
-/* line 105, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 85, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-epub {
   background-position: 0 -220px;
   /*  
