@@ -11,12 +11,12 @@ $base-font-family: Raleway, Helvetica, sans-serif;
 $base-font-weight: 400;
 
 /* Custom fonts */
-$tiny-font-size: 9px;
-$small-font-size: 14px;
+$tiny-font-size: 10px;
+$small-font-size: 12px;
 $base-font-size: 16px;
 $medium-font-size: 22px;
-$large-font-size: 29px;
-$xlarge-font-size: 38px;
+$large-font-size: 28px;
+$xlarge-font-size: 34px;
 
 
 @import "compass/typography/vertical_rhythm";
@@ -113,17 +113,13 @@ $xlarge-font-size: 38px;
     margin: 0;
 }
 h1 {
-    @include adjust-font-size-to($large-font-size);
-
-    @media #{$medium-up} {
-        @include adjust-font-size-to($xlarge-font-size);
-    }
+    @extend %t-xlarge;
 }
 h2 {
-    @extend %t-large;
+   @extend %t-large;
 }
 h3 {
-    @extend %t-medium;
+   @extend %t-medium;
 }
 h4 {
     @extend %t-base;

@@ -21,7 +21,7 @@ $trainig-banner-height: $base-line-height * 5;
         top: $vertical-margin * 0.9; 
 
         @media #{$medium-up} {
-            top: $vertical-margin * 0.8;
+            top: $vertical-margin * 0.85;
             max-width: 90%;
         }
 
@@ -31,19 +31,24 @@ $trainig-banner-height: $base-line-height * 5;
         }
 
         h1 {
-            @extend %t-ultralight;
-
+            @extend %t-regular;
             @include adjust-font-size-to($medium-font-size);
-            line-height: 1.4em;
-
+            line-height: 1.2em;
+            
             @media #{$medium-up} {
                 @include adjust-font-size-to($large-font-size);
-                line-height: 1.4em;
+                line-height: 1.2em;
+            }
+
+            @media #{$large-up} {
+                @include adjust-font-size-to($xlarge-font-size);
+                line-height: 1.2em;
             }
         }
 
         span {
-            @extend %t-small;
+            @extend %t-base;
+            @extend %t-regular;
         }
     }
 }
