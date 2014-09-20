@@ -11,7 +11,6 @@ $sprite-width: 185px;
 $sprite-height: 826px;
 
 $id-essentials-framed-height: indesign-catalog-sprite-height(id-essentials-framed);
-$id-essentials-framed-width: indesign-catalog-sprite-width(id-essentials-framed);
 
 $id-accessibility-height: indesign-catalog-sprite-height(id-accessibility);
 $id-accessibility-width: indesign-catalog-sprite-width(id-accessibility);
@@ -55,4 +54,57 @@ $indesign-color: #f442a9;
 
 .custom-training-logo {
     @include indesign-catalog-sprite(custom-training); 
+}
+
+.id-essentials {
+    @include indesign-catalog-sprite(id-essentials); 
+    @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+    min-width: 47px;
+    min-height: 45px;    
+}
+
+.id-lite {
+    @include indesign-catalog-sprite(id-lite); 
+    @include responsive-sprite($map, id-lite, $sprite-width, $sprite-height, 5%);
+    min-width: 47px;
+    min-height: 49px;    
+}
+
+.id-advanced {
+    @include indesign-catalog-sprite(id-advanced); 
+    @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 52px;    
+}
+
+.id-longdocuments {
+    @include indesign-catalog-sprite(id-longdocuments); 
+    @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 51px;    
+}
+
+.indesign-long-docs-title {
+    padding-left: 5px !important;
+}
+
+.id-interactivity {
+    @include indesign-catalog-sprite(id-interactivity); 
+    @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 51px;    
+}
+
+.id-accessibility {
+    @include indesign-catalog-sprite(id-accessibility); 
+    @include responsive-sprite($map, id-accessibility, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 35px;    
+}
+
+.id-epub {
+    @include indesign-catalog-sprite(id-epub); 
+    @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 55px;    
 }

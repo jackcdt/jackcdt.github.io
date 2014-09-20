@@ -11,4 +11,37 @@
 
         @include custom-training-styling($map, $map-width, $map-height, 100%);
     }
+
+    .course-item-logo {
+        margin-left: 15px;
+/*        margin-right: 10px;
+
+        @media #{$large-up} {
+            margin-right: 0;
+        }
+*/    }
+
+    .course-item-title {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-transform: uppercase;
+        float: left !important;
+        padding-left: 10px;
+
+        @media #{$large-up} {
+            float: right;
+        }
+
+        h3 {
+            @extend %t-strong;
+            @include adjust-font-size-to(18px);
+
+            line-height: 1.2em;
+            color: $color;
+
+            span {
+                @extend %t-thinnest;
+            }
+        }
+    }
 }
