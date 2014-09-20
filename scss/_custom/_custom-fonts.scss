@@ -12,7 +12,7 @@ $base-font-weight: 400;
 
 /* Custom fonts */
 $tiny-font-size: 9px;
-$small-font-size: 12px;
+$small-font-size: 14px;
 $base-font-size: 16px;
 $medium-font-size: 22px;
 $large-font-size: 29px;
@@ -31,35 +31,35 @@ $xlarge-font-size: 38px;
     @if $size == "small" {
         @include adjust-font-size-to($tiny-font-size);
         
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             @include adjust-font-size-to($small-font-size);
         }
     }
     @if $size == "base" {
         @include adjust-font-size-to($small-font-size);
 
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             @include adjust-font-size-to($base-font-size);
         }
     }
     @if $size == "medium" {
         @include adjust-font-size-to($base-font-size);
 
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             @include adjust-font-size-to($medium-font-size);
         }
     }
     @if $size == "large" {
         @include adjust-font-size-to($medium-font-size);
 
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             @include adjust-font-size-to($large-font-size);
         }
     }
     @if $size == "xlarge" {
         @include adjust-font-size-to($large-font-size);
 
-        @include breakpoint($cdt-md-screen-width) {
+        @media #{$medium-up} {
             @include adjust-font-size-to($xlarge-font-size);
         }
     }
@@ -115,7 +115,7 @@ $xlarge-font-size: 38px;
 h1 {
     @include adjust-font-size-to($large-font-size);
 
-    @include breakpoint($cdt-md-screen-width) {
+    @media #{$medium-up} {
         @include adjust-font-size-to($xlarge-font-size);
     }
 }

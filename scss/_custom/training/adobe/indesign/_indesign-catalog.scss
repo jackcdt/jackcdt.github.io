@@ -48,11 +48,10 @@ $indesign-color: #f442a9;
 
 .id-essentials-framed { 
     @include indesign-catalog-sprite(id-essentials-framed); 
-    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 10%);
-/*
-    height: $id-essentials-framed-height; 
-    width: $id-essentials-framed-width;
-*/}
+    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 6%);
+    min-width: 55px;
+    min-height: 55px;
+}
 
 .custom-training-logo {
     @include indesign-catalog-sprite(custom-training); 
