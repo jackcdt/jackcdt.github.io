@@ -10966,10 +10966,12 @@ h1 {
 .indesign-catalog {
   background-color: #f442a9;
   height: 96px;
-}
-/* line 9, ../scss/_custom/components/training/_banner.scss */
-.indesign-catalog .catalog-logo {
-  margin: 16px 0 16px 15px;
+  /*    .catalog-logo{
+          
+          margin: $vertical-margin 0 $vertical-margin 15px;
+      }
+  
+  */
 }
 /* line 14, ../scss/_custom/components/training/_banner.scss */
 .indesign-catalog .banner-text {
@@ -11038,11 +11040,11 @@ h1 {
         $sprite-width: image-width($sprite-file);
         $sprite-height: image-height($sprite-file);
     */
-    width: 100%;
+    width: 65%;
     display: block;
     height: 0;
     padding-bottom: 26.7027%;
-    background-size: 65%;
+    background-size: 100%;
     background-position: 0 0%;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -11054,11 +11056,25 @@ h1 {
 /* line 49, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-essentials-framed {
   background-position: 0 -306px;
-  height: 64px;
-  width: 66px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 10%;
+  display: block;
+  height: 0;
+  padding-bottom: 9.69697%;
+  background-size: 280.30303%;
+  background-position: 0 40.15748%;
+  /*
+      height: $id-essentials-framed-height; 
+      width: $id-essentials-framed-width;
+  */
 }
 
-/* line 56, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 57, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .custom-training-logo {
   background-position: 0 0;
 }
