@@ -1,5 +1,7 @@
 @import "training/banner";
+@import "training/side-pannel";
 @import "training/custom-training";
+@import "training/course-item";
 
 @mixin catalog($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
@@ -12,36 +14,57 @@
         @include custom-training-styling($map, $map-width, $map-height, 100%);
     }
 
-    .course-item-logo {
-        margin-left: 15px;
-/*        margin-right: 10px;
-
-        @media #{$large-up} {
-            margin-right: 0;
-        }
-*/    }
-
-    .course-item-title {
-        padding-left: 0px;
-        padding-right: 0px;
-        text-transform: uppercase;
-        float: left !important;
-        padding-left: 10px;
-
-        @media #{$large-up} {
-            float: right;
-        }
-
-        h3 {
-            @extend %t-strong;
-            @include adjust-font-size-to(18px);
-
-            line-height: 1.2em;
-            color: $color;
-
-            span {
-                @extend %t-thinnest;
-            }
-        }
+    .sw-ver {
+        color: $color;
+        text-decoration: underline;
+        @extend %t-emphasize;
     }
+
+    .course-item {
+        @include course-item($color);
+    }
+
+    .custom-training {
+        @extend %custom-training;
+    }
+
+    .seminars-ad {
+        @include seminars-ad($color);
+    }
+
+    .training-checklist{
+        @include training-checklist($color);
+    }
+
+    .recent-testimonials {
+        @include recent-testimonials($color);
+    }
+
+    .and {
+        @extend %t-large;
+        @extend %t-light;
+        text-align: center;
+    }
+
+    .read-more-btn {
+        @extend %read-more-btn;
+    }
+
+    .promo-read-more {
+        padding-left: 0;
+        margin: 10px 0 15px 0;
+    }
+
+    .paragraph-header {
+        color: $color;
+        @extend %t-medium;
+        @extend %t-emphasize;   
+        @include adjust-leading-to(1, $base-font-size); 
+        margin-bottom: 15px;    
+    }
+}
+
+/* Negative value will push img up */
+@mixin move-logo-vertically($move-up) {
+    margin-top: $move-up;
 }

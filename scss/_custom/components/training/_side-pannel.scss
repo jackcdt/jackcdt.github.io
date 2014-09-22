@@ -1,0 +1,100 @@
+@mixin seminars-ad($color: #000) {
+    background-color: $color;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+
+    .seminars-ad-title {
+        @extend %t-strong;
+        @extend %t-base;
+        text-transform: uppercase;
+    }
+
+    .seminars-ad-content {
+        @extend %t-small;
+    }
+
+    .read-more-btn {
+        @extend %read-more-btn;
+    }
+}
+
+@mixin training-checklist($color: #000) {
+    border: 1px solid $color;
+/*    background-color: #CECECE;*/
+    border-radius: 4px;
+    @extend %t-small;
+    margin-bottom: 15px;
+
+    .training-checklist-header {
+        color: $color;
+     }
+
+    th, td {
+        padding: 0 0 0 10px;
+    }
+
+    td {
+        @extend %t-base;
+    }
+
+    th {
+        @extend %t-medium;
+    }
+
+    table {
+        margin-bottom: 1em;
+    }
+
+    .foot-note {
+        margin-left: 10px;
+        display: block;
+    }
+
+    i {
+        color: $color;
+        @extend %t-thinnest;
+        @extend %t-medium;
+    }
+}
+
+@mixin recent-testimonials($color: #000) {
+    background-color: #E4E4E4;
+    height: 43em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: solid 1px #646464;
+    border-radius: 4px;
+
+    .recent-testimonials-title {
+        @extend %t-strong;
+        @extend %t-base;
+        color: $color;
+        margin: 15px 0 20px 5px;
+    }
+
+    .catalog-testimonial {
+        margin: 5px 5px 25px 5px;
+        @extend %t-small;
+
+        span {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: $color;
+            font-style: italic;
+            display: inline;
+            @extend %t-xlarge;
+        }
+    }
+
+    .catalog-testimonial-client-name {
+        margin-top: $base-line-height / 2;
+        @extend %t-strong;
+    }
+
+    .catalog-testimonial-course-name {
+        color: $color;
+        @extend %t-emphasize;
+        margin-bottom: $base-line-height * 1.5;
+    }
+}

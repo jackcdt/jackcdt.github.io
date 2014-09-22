@@ -1,0 +1,64 @@
+@mixin course-item($color: #000) {
+    .course-item-logo {
+        margin-left: 15px;
+    }
+
+    .course-item-title {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-transform: uppercase;
+        float: left !important;
+        padding-left: 10px;
+
+        @media #{$large-up} {
+            float: right;
+        }
+
+        h3 {
+            @extend %t-strong;
+            @include adjust-font-size-to(18px);
+
+            line-height: 1.2em;
+            color: $color;
+
+            span {
+                @extend %t-thinnest;
+            }
+        }
+    }
+
+    .course-item-info,
+    .course-book-now {
+        text-align: center;
+
+        a, a:hover, a:focus {
+            color: #fff;
+        }
+
+        @extend %t-emphasize;
+        @extend %t-base;
+
+        @media #{$large-up} {
+             @include adjust-font-size-to($small-font-size);
+        }
+    }
+
+    .course-item-fee {
+        color: $color;
+        @extend %t-small;
+        @extend %t-strong;
+    }
+
+    .big {
+        @extend %t-medium;
+    }
+
+    .course-item-info {
+        background-color: $color;
+    }
+
+    .course-book-now {
+        background-color: lighten($color, 25%); 
+        text-transform: uppercase;
+    }
+}

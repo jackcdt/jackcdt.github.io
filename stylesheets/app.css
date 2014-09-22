@@ -10770,73 +10770,99 @@ html {
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
 /* line 73, ../scss/_custom/_custom-fonts.scss */
-.indesign-catalog .course-item-title h3 {
+.indesign-catalog .custom-training .prefer-custom-training-text .read-more-btn, .indesign-catalog .seminars-ad .read-more-btn, .indesign-catalog .read-more-btn, .indesign-catalog .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-catalog .course-item .course-item-title h3, .indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-title, .indesign-catalog .recent-testimonials .recent-testimonials-title, .indesign-catalog .recent-testimonials .catalog-testimonial-client-name {
   font-weight: 700;
 }
 
 /* line 76, ../scss/_custom/_custom-fonts.scss */
+.indesign-catalog .sw-ver, .indesign-catalog .course-item .course-item-info,
+.indesign-catalog .course-item .course-book-now, .indesign-catalog .recent-testimonials .catalog-testimonial-course-name, .indesign-catalog .paragraph-header {
+  font-weight: 500;
+}
+
+/* line 79, ../scss/_custom/_custom-fonts.scss */
 .header-logos .training-text, .indesign-catalog .banner-text h1, .indesign-catalog .banner-text span {
   font-weight: 400;
 }
 
-/* line 85, ../scss/_custom/_custom-fonts.scss */
-.indesign-catalog .course-item-title h3 span {
+/* line 82, ../scss/_custom/_custom-fonts.scss */
+.indesign-catalog .and {
+  font-weight: 300;
+}
+
+/* line 88, ../scss/_custom/_custom-fonts.scss */
+.indesign-catalog .course-item .course-item-title h3 span, .indesign-catalog .training-checklist i {
   font-weight: 100;
 }
 
 /* line 97, ../scss/_custom/_custom-fonts.scss */
-h4, .indesign-catalog .banner-text span {
+.indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial {
+  font-size: 0.625em;
+  line-height: 2.4em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 97, ../scss/_custom/_custom-fonts.scss */
+  .indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial {
+    font-size: 0.75em;
+    line-height: 2em;
+  }
+}
+
+/* line 100, ../scss/_custom/_custom-fonts.scss */
+h4, .indesign-catalog .banner-text span, .indesign-catalog .course-item .course-item-info,
+.indesign-catalog .course-item .course-book-now, .indesign-catalog .seminars-ad .seminars-ad-title, .indesign-catalog .training-checklist td, .indesign-catalog .recent-testimonials .recent-testimonials-title {
   font-size: 0.75em;
   line-height: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 97, ../scss/_custom/_custom-fonts.scss */
-  h4, .indesign-catalog .banner-text span {
+  /* line 100, ../scss/_custom/_custom-fonts.scss */
+  h4, .indesign-catalog .banner-text span, .indesign-catalog .course-item .course-item-info,
+  .indesign-catalog .course-item .course-book-now, .indesign-catalog .seminars-ad .seminars-ad-title, .indesign-catalog .training-checklist td, .indesign-catalog .recent-testimonials .recent-testimonials-title {
     font-size: 1em;
     line-height: 1.5em;
   }
 }
 
-/* line 100, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text {
+/* line 103, ../scss/_custom/_custom-fonts.scss */
+h3, .header-logos .training-text, .indesign-catalog .course-item .big, .indesign-catalog .training-checklist th, .indesign-catalog .training-checklist i, .indesign-catalog .paragraph-header {
   font-size: 1em;
   line-height: 1.5em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 100, ../scss/_custom/_custom-fonts.scss */
-  h3, .header-logos .training-text {
+  /* line 103, ../scss/_custom/_custom-fonts.scss */
+  h3, .header-logos .training-text, .indesign-catalog .course-item .big, .indesign-catalog .training-checklist th, .indesign-catalog .training-checklist i, .indesign-catalog .paragraph-header {
     font-size: 1.375em;
     line-height: 2.18182em;
   }
 }
 
-/* line 103, ../scss/_custom/_custom-fonts.scss */
-h2 {
+/* line 106, ../scss/_custom/_custom-fonts.scss */
+h2, .indesign-catalog .and {
   font-size: 1.375em;
   line-height: 2.18182em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 103, ../scss/_custom/_custom-fonts.scss */
-  h2 {
+  /* line 106, ../scss/_custom/_custom-fonts.scss */
+  h2, .indesign-catalog .and {
     font-size: 1.75em;
     line-height: 1.71429em;
   }
 }
 
-/* line 106, ../scss/_custom/_custom-fonts.scss */
-h1 {
+/* line 109, ../scss/_custom/_custom-fonts.scss */
+h1, .indesign-catalog .recent-testimonials .catalog-testimonial span {
   font-size: 1.75em;
   line-height: 1.71429em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 106, ../scss/_custom/_custom-fonts.scss */
-  h1 {
+  /* line 109, ../scss/_custom/_custom-fonts.scss */
+  h1, .indesign-catalog .recent-testimonials .catalog-testimonial span {
     font-size: 2.125em;
     line-height: 1.41176em;
   }
 }
 
-/* line 112, ../scss/_custom/_custom-fonts.scss */
+/* line 115, ../scss/_custom/_custom-fonts.scss */
 h1, h2, h3, h4 {
   margin: 0;
 }
@@ -10952,6 +10978,19 @@ h1, h2, h3, h4 {
   z-index: 1;
 }
 
+/* line 1, ../scss/_custom/components/_read-more-btn.scss */
+.indesign-catalog .custom-training .prefer-custom-training-text .read-more-btn, .indesign-catalog .seminars-ad .read-more-btn, .indesign-catalog .read-more-btn {
+  background-color: #F8C41F;
+  border: 1px solid #AA840B;
+  padding: 0px 8px;
+  color: #000;
+  white-space: nowrap;
+  position: relative;
+  bottom: 3px;
+  margin: 4px 0;
+  font-size: 12px;
+}
+
 /* Mixin for styling of custom training logo, to be used on catalog and course pages 
 * 
 * $map - sprite map, created using sprite-map function
@@ -10960,14 +10999,52 @@ h1, h2, h3, h4 {
 * $img-size-percent - required sprite size
 *
 */
+/* line 20, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-catalog .custom-training {
+  margin-bottom: 15px;
+}
+/* line 23, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-catalog .custom-training .prefer-custom-training-text {
+  color: #fff;
+  background-color: #7C7777;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+@media only screen and (max-width: 40em) {
+  /* line 23, ../scss/_custom/components/training/_custom-training.scss */
+  .indesign-catalog .custom-training .prefer-custom-training-text {
+    width: 65%;
+  }
+}
+/* line 39, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-catalog .custom-training .prefer-custom-training-text ul {
+  list-style-type: none;
+  margin-bottom: 5px;
+  -webkit-margin-after: 0;
+}
+/* line 45, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-catalog .custom-training .prefer-custom-training-text ul li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
+/* line 51, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-catalog .custom-training .prefer-custom-training-text ul li {
+  font-size: 12px;
+  line-height: 2em;
+}
+
+/* Negative value will push img up */
 /* line 128, training/adobe/indesign/indesign-catalog/*.png */
-.indesign-catalog-sprite, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments, .id-interactivity, .id-accessibility, .id-epub {
+.indesign-catalog-sprite, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments, .id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
   background-image: url('/images/training/adobe/indesign/indesign-catalog-s7b4f0f570f.png');
   background-repeat: no-repeat;
 }
 
 /*empty comment*/
-/* line 23, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .indesign-catalog {
   background-color: #f442a9;
   height: 120px;
@@ -11019,7 +11096,7 @@ h1, h2, h3, h4 {
     line-height: 1.2em;
   }
 }
-/* line 7, ../scss/_custom/components/_catalog.scss */
+/* line 9, ../scss/_custom/components/_catalog.scss */
 .indesign-catalog .custom-training-logo {
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11039,7 +11116,7 @@ h1, h2, h3, h4 {
   border-bottom-left-radius: 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 7, ../scss/_custom/components/_catalog.scss */
+  /* line 9, ../scss/_custom/components/_catalog.scss */
   .indesign-catalog .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11059,18 +11136,17 @@ h1, h2, h3, h4 {
     border-bottom-left-radius: 0;
   }
 }
-/* line 15, ../scss/_custom/components/_catalog.scss */
-.indesign-catalog .course-item-logo {
-  margin-left: 15px;
-  /*        margin-right: 10px;
-  
-          @media only screen and (min-width:64.063em) {
-              margin-right: 0;
-          }
-  */
+/* line 17, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .sw-ver {
+  color: #f442a9;
+  text-decoration: underline;
 }
-/* line 24, ../scss/_custom/components/_catalog.scss */
-.indesign-catalog .course-item-title {
+/* line 2, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-logo {
+  margin-left: 15px;
+}
+/* line 6, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-title {
   padding-left: 0px;
   padding-right: 0px;
   text-transform: uppercase;
@@ -11078,20 +11154,142 @@ h1, h2, h3, h4 {
   padding-left: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 24, ../scss/_custom/components/_catalog.scss */
-  .indesign-catalog .course-item-title {
+  /* line 6, ../scss/_custom/components/training/_course-item.scss */
+  .indesign-catalog .course-item .course-item-title {
     float: right;
   }
 }
-/* line 35, ../scss/_custom/components/_catalog.scss */
-.indesign-catalog .course-item-title h3 {
+/* line 17, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-title h3 {
   font-size: 1.125em;
   line-height: 1.33333em;
   line-height: 1.2em;
   color: #f442a9;
 }
+/* line 30, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-info,
+.indesign-catalog .course-item .course-book-now {
+  text-align: center;
+}
+/* line 34, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-info a, .indesign-catalog .course-item .course-item-info a:hover, .indesign-catalog .course-item .course-item-info a:focus,
+.indesign-catalog .course-item .course-book-now a,
+.indesign-catalog .course-item .course-book-now a:hover,
+.indesign-catalog .course-item .course-book-now a:focus {
+  color: #fff;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 30, ../scss/_custom/components/training/_course-item.scss */
+  .indesign-catalog .course-item .course-item-info,
+  .indesign-catalog .course-item .course-book-now {
+    font-size: 0.75em;
+    line-height: 2em;
+  }
+}
+/* line 46, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-fee {
+  color: #f442a9;
+}
+/* line 56, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-item-info {
+  background-color: #f442a9;
+}
+/* line 60, ../scss/_custom/components/training/_course-item.scss */
+.indesign-catalog .course-item .course-book-now {
+  background-color: #fbbae0;
+  text-transform: uppercase;
+}
+/* line 31, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .seminars-ad {
+  background-color: #f442a9;
+  color: #fff;
+  padding: 0 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+/* line 8, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .seminars-ad .seminars-ad-title {
+  text-transform: uppercase;
+}
+/* line 35, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .training-checklist {
+  border: 1px solid #f442a9;
+  /*    background-color: #CECECE;*/
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+/* line 30, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .training-checklist .training-checklist-header {
+  color: #f442a9;
+}
+/* line 34, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .training-checklist th, .indesign-catalog .training-checklist td {
+  padding: 0 0 0 10px;
+}
+/* line 46, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .training-checklist table {
+  margin-bottom: 1em;
+}
+/* line 50, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .training-checklist .foot-note {
+  margin-left: 10px;
+  display: block;
+}
+/* line 55, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .training-checklist i {
+  color: #f442a9;
+}
+/* line 39, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .recent-testimonials {
+  background-color: #E4E4E4;
+  height: 43em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: solid 1px #646464;
+  border-radius: 4px;
+}
+/* line 70, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .recent-testimonials .recent-testimonials-title {
+  color: #f442a9;
+  margin: 15px 0 20px 5px;
+}
+/* line 77, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .recent-testimonials .catalog-testimonial {
+  margin: 5px 5px 25px 5px;
+}
+/* line 81, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .recent-testimonials .catalog-testimonial span {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #f442a9;
+  font-style: italic;
+  display: inline;
+}
+/* line 90, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .recent-testimonials .catalog-testimonial-client-name {
+  margin-top: 12px;
+}
+/* line 95, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-catalog .recent-testimonials .catalog-testimonial-course-name {
+  color: #f442a9;
+  margin-bottom: 36px;
+}
+/* line 43, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .and {
+  text-align: center;
+}
+/* line 53, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .promo-read-more {
+  padding-left: 0;
+  margin: 10px 0 15px 0;
+}
+/* line 58, ../scss/_custom/components/_catalog.scss */
+.indesign-catalog .paragraph-header {
+  color: #f442a9;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
 
-/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-essentials-framed {
   background-position: 0 -306px;
   /*  
@@ -11110,12 +11308,12 @@ h1, h2, h3, h4 {
   min-height: 55px;
 }
 
-/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .custom-training-logo {
   background-position: 0 0;
 }
 
-/* line 38, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 32, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-essentials {
   background-position: 0 -370px;
   /*  
@@ -11134,7 +11332,7 @@ h1, h2, h3, h4 {
   min-height: 45px;
 }
 
-/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-lite {
   background-position: 0 -532px;
   /*  
@@ -11153,7 +11351,7 @@ h1, h2, h3, h4 {
   min-height: 49px;
 }
 
-/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 46, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-advanced {
   background-position: 0 -136px;
   /*  
@@ -11172,7 +11370,7 @@ h1, h2, h3, h4 {
   min-height: 52px;
 }
 
-/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-longdocuments {
   background-position: 0 -599px;
   /*  
@@ -11192,12 +11390,12 @@ h1, h2, h3, h4 {
 }
 
 /* Title is too long, minimise gap */
-/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .indesign-long-docs-title {
   padding-left: 5px !important;
 }
 
-/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-interactivity {
   background-position: 0 -431px;
   /*  
@@ -11216,7 +11414,7 @@ h1, h2, h3, h4 {
   min-height: 51px;
 }
 
-/* line 78, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 72, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-accessibility {
   background-position: 0 -76px;
   /*  
@@ -11235,7 +11433,7 @@ h1, h2, h3, h4 {
   min-height: 35px;
 }
 
-/* line 85, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
 .id-epub {
   background-position: 0 -220px;
   /*  
@@ -11251,5 +11449,63 @@ h1, h2, h3, h4 {
   background-size: 280.30303%;
   background-position: 0 29.72973%;
   min-width: 55px;
-  min-height: 55px;
+  min-height: 72px;
+  float: right;
+}
+
+/* line 87, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+.package-indesign-ess {
+  background-position: 0 -370px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.76563%;
+  background-size: 289.0625%;
+  background-position: 0 48.36601%;
+  min-width: 47px;
+  min-height: 45px;
+}
+
+/* line 94, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+.package-illustrator-ess {
+  background-position: 0 -700px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 91.74312%;
+  min-width: 47px;
+  min-height: 45px;
+}
+
+/* line 101, ../scss/_custom/training/adobe/indesign/_indesign-catalog.scss */
+.package-photoshop-ess {
+  background-position: 0 -763px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  min-width: 47px;
+  min-height: 45px;
 }

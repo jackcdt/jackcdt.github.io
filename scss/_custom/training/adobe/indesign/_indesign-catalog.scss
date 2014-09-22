@@ -12,12 +12,6 @@ $sprite-height: 826px;
 
 $id-essentials-framed-height: indesign-catalog-sprite-height(id-essentials-framed);
 
-$il-ess-height: indesign-catalog-sprite-height(il-ess);
-$il-ess-width: indesign-catalog-sprite-width(il-ess);
-
-$ps-ess-height: indesign-catalog-sprite-height(ps-ess);
-$ps-ess-width: indesign-catalog-sprite-width(ps-ess);
-
 $indesign-color: #f442a9;
 
 .indesign-catalog {
@@ -86,5 +80,27 @@ $indesign-color: #f442a9;
     @include indesign-catalog-sprite(id-epub); 
     @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 6%);
     min-width: 55px;
-    min-height: 55px;    
+    min-height: 72px;    
+    float: right;
+}
+
+.package-indesign-ess {
+    @include indesign-catalog-sprite(id-essentials); 
+    @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+    min-width: 47px;
+    min-height: 45px;    
+}
+
+.package-illustrator-ess {
+    @include indesign-catalog-sprite(il-ess); 
+    @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5%);
+    min-width: 47px;
+    min-height: 45px;    
+}
+
+.package-photoshop-ess {
+    @include indesign-catalog-sprite(ps-ess); 
+    @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5%);
+    min-width: 47px;
+    min-height: 45px;    
 }
