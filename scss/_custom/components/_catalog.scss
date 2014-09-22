@@ -14,6 +14,14 @@
         @include custom-training-styling($map, $map-width, $map-height, 100%);
     }
 
+    .tight-header {
+        border: 1px solid #000;
+        display: block;
+        margin-bottom: $margin-bottom-default / 2;
+        @include adjust-leading-to(1, $base-font-size);
+        padding: 0 10px;
+    }
+
     .sw-ver {
         color: $color;
         text-decoration: underline;
@@ -60,7 +68,13 @@
         @extend %t-medium;
         @extend %t-emphasize;   
         @include adjust-leading-to(1, $base-font-size); 
-        margin-bottom: 15px;    
+        margin-bottom: 15px;  
+    }
+
+    .part-time-options {
+        color: $color;
+        @extend %t-small;
+        @extend %t-strong;   
     }
 }
 

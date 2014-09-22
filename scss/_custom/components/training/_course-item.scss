@@ -45,12 +45,12 @@
 
     .course-item-fee {
         color: $color;
-        @extend %t-small;
+        @extend %t-base;
         @extend %t-strong;
     }
 
     .big {
-        @extend %t-medium;
+        @extend %t-large;
     }
 
     .course-item-info {
