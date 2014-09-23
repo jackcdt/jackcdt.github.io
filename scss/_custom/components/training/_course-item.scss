@@ -30,6 +30,8 @@
     }
 
     .course-item-description {
+        @extend %t-small;
+        
         @media #{$large-up} {
              height: 13em;
         }

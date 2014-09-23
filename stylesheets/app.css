@@ -10789,13 +10789,13 @@ h2, .indesign-catalog .and {
 }
 
 /* line 97, ../scss/_custom/_custom-fonts.scss */
-.indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial, .indesign-catalog .part-time-options {
+.indesign-catalog .course-item .course-item-description, .indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial, .indesign-catalog .part-time-options {
   font-size: 0.625em;
   line-height: 2.4em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 97, ../scss/_custom/_custom-fonts.scss */
-  .indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial, .indesign-catalog .part-time-options {
+  .indesign-catalog .course-item .course-item-description, .indesign-catalog .course-item .course-item-fee, .indesign-catalog .seminars-ad .seminars-ad-content, .indesign-catalog .training-checklist, .indesign-catalog .recent-testimonials .catalog-testimonial, .indesign-catalog .part-time-options {
     font-size: 0.75em;
     line-height: 2em;
   }
@@ -11182,12 +11182,12 @@ h1, h2, h3, h4 {
     height: 13em;
   }
 }
-/* line 38, ../scss/_custom/components/training/_course-item.scss */
+/* line 40, ../scss/_custom/components/training/_course-item.scss */
 .indesign-catalog .course-item .course-item-info,
 .indesign-catalog .course-item .course-book-now {
   text-align: center;
 }
-/* line 42, ../scss/_custom/components/training/_course-item.scss */
+/* line 44, ../scss/_custom/components/training/_course-item.scss */
 .indesign-catalog .course-item .course-item-info a, .indesign-catalog .course-item .course-item-info a:hover, .indesign-catalog .course-item .course-item-info a:focus,
 .indesign-catalog .course-item .course-book-now a,
 .indesign-catalog .course-item .course-book-now a:hover,
@@ -11195,22 +11195,22 @@ h1, h2, h3, h4 {
   color: #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 38, ../scss/_custom/components/training/_course-item.scss */
+  /* line 40, ../scss/_custom/components/training/_course-item.scss */
   .indesign-catalog .course-item .course-item-info,
   .indesign-catalog .course-item .course-book-now {
     font-size: 0.75em;
     line-height: 2em;
   }
 }
-/* line 54, ../scss/_custom/components/training/_course-item.scss */
+/* line 56, ../scss/_custom/components/training/_course-item.scss */
 .indesign-catalog .course-item .course-item-fee {
   color: #f442a9;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 66, ../scss/_custom/components/training/_course-item.scss */
 .indesign-catalog .course-item .course-item-info {
   background-color: #f442a9;
 }
-/* line 68, ../scss/_custom/components/training/_course-item.scss */
+/* line 70, ../scss/_custom/components/training/_course-item.scss */
 .indesign-catalog .course-item .course-book-now {
   background-color: #fbbae0;
   text-transform: uppercase;
@@ -11425,7 +11425,7 @@ h1, h2, h3, h4 {
   padding-bottom: 5.55963%;
   background-size: 169.72477%;
   background-position: 0 82.62069%;
-  margin-top: -9px;
+  margin-top: -6px;
   margin-left: 6px;
   min-width: 55px;
   min-height: 51px;

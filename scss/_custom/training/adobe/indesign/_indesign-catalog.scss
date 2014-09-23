@@ -61,7 +61,7 @@ $indesign-color: #f442a9;
 .id-longdocuments {
     @include indesign-catalog-sprite(id-longdocuments); 
     @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 6%);
-    @include move-logo-vertically(-9px);
+    @include move-logo-vertically(-6px);
     @include move-logo-horizontally(6px);
 
     min-width: 55px;
