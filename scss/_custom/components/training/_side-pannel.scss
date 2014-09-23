@@ -3,10 +3,10 @@
     color: #fff;
     padding: 0 15px;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: $margin-bottom-default;  
 
     .seminars-ad-title {
-        @extend %t-strong;
+        @extend %t-emphasize;
         @extend %t-base;
         text-transform: uppercase;
     }
@@ -25,7 +25,7 @@
 /*    background-color: #CECECE;*/
     border-radius: 4px;
     @extend %t-small;
-    margin-bottom: 15px;
+    margin-bottom: $margin-bottom-default;
 
     .training-checklist-header {
         color: $color;
@@ -41,6 +41,7 @@
 
     th {
         @extend %t-medium;
+        @extend %t-emphasize;
     }
 
     table {
@@ -68,7 +69,7 @@
     border-radius: 4px;
 
     .recent-testimonials-title {
-        @extend %t-strong;
+        @extend %t-emphasize;
         @extend %t-base;
         color: $color;
         margin: 15px 0 20px 5px;
@@ -89,7 +90,7 @@
 
     .catalog-testimonial-client-name {
         margin-top: $base-line-height / 2;
-        @extend %t-strong;
+        @extend %t-emphasize;
     }
 
     .catalog-testimonial-course-name {

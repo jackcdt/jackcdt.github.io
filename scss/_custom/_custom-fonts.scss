@@ -120,6 +120,7 @@ h1 {
 }
 h2 {
    @extend %t-large;
+   @extend %t-light;
 }
 h3 {
    @extend %t-medium;

@@ -18,7 +18,7 @@
 }
 
 %custom-training {
-    margin-bottom: 15px;
+    margin-bottom: $margin-bottom-default;  
 
     .prefer-custom-training-text {
         color: #fff;
@@ -33,7 +33,7 @@
         }
 
         .custom-training-text-header {
-            @extend %t-strong;
+            @extend %t-emphasize;
         }
 
         ul {
