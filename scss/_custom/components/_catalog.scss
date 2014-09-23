@@ -21,7 +21,7 @@
     .tight-header {
         border: 1px solid #000;
         display: block;
-        margin-bottom: $margin-bottom-default / 2;
+        margin-bottom: $margin-bottom-default;
         @include adjust-leading-to(1, $base-font-size);
         padding: 0 10px;
     }
@@ -82,7 +82,6 @@
         @extend %t-medium;
         @extend %t-emphasize;   
         @include adjust-leading-to(1, $base-font-size); 
-        margin-bottom: $margin-bottom-default / 2; 
     }
 
     .part-time-options {
@@ -96,9 +95,4 @@
     .promo-read-more {
         margin-bottom: $margin-bottom-default;
     }
-}
-
-/* Negative value will push img up */
-@mixin move-logo-vertically($move-up) {
-    margin-top: $move-up;
 }

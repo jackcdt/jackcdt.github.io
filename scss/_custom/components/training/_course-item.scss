@@ -1,6 +1,8 @@
 @mixin course-item($color: #000) {
+    margin-bottom: $margin-bottom-default * 2;
+
     .course-item-logo {
-        margin-left: 15px;
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     .course-item-title {
@@ -24,6 +26,12 @@
             span {
                 @extend %t-ultralight;
             }
+        }
+    }
+
+    .course-item-description {
+        @media #{$large-up} {
+             height: 13em;
         }
     }
 
@@ -61,4 +69,14 @@
         background-color: lighten($color, 25%); 
         text-transform: uppercase;
     }
+}
+
+/* Negative value will push img up */
+@mixin move-logo-vertically($move-up) {
+    margin-top: $move-up;
+}
+
+/* Negative value will push img left */
+@mixin move-logo-horizontally($move-left) {
+    margin-left: $move-left;
 }

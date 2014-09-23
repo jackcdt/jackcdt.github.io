@@ -32,6 +32,8 @@ $indesign-color: #f442a9;
 .id-essentials {
     @include indesign-catalog-sprite(id-essentials); 
     @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+    @include move-logo-horizontally(15px);
+
     min-width: 47px;
     min-height: 45px;    
 }
@@ -39,6 +41,9 @@ $indesign-color: #f442a9;
 .id-lite {
     @include indesign-catalog-sprite(id-lite); 
     @include responsive-sprite($map, id-lite, $sprite-width, $sprite-height, 5%);
+    @include move-logo-vertically(-5px);
+    @include move-logo-horizontally(15px);
+
     min-width: 47px;
     min-height: 49px;    
 }
@@ -46,6 +51,9 @@ $indesign-color: #f442a9;
 .id-advanced {
     @include indesign-catalog-sprite(id-advanced); 
     @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 6%);
+    @include move-logo-vertically(-9px);
+    @include move-logo-horizontally(2px);
+
     min-width: 55px;
     min-height: 52px;    
 }
@@ -53,6 +61,9 @@ $indesign-color: #f442a9;
 .id-longdocuments {
     @include indesign-catalog-sprite(id-longdocuments); 
     @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 6%);
+    @include move-logo-vertically(-9px);
+    @include move-logo-horizontally(6px);
+
     min-width: 55px;
     min-height: 51px;    
 }
@@ -65,6 +76,9 @@ $indesign-color: #f442a9;
 .id-interactivity {
     @include indesign-catalog-sprite(id-interactivity); 
     @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 6%);
+    @include move-logo-vertically(-9px);
+    @include move-logo-horizontally(5px);
+
     min-width: 55px;
     min-height: 51px;    
 }
@@ -72,6 +86,9 @@ $indesign-color: #f442a9;
 .id-accessibility {
     @include indesign-catalog-sprite(id-accessibility); 
     @include responsive-sprite($map, id-accessibility, $sprite-width, $sprite-height, 6%);
+    @include move-logo-vertically(4px);
+    @include move-logo-horizontally(15px);
+
     min-width: 55px;
     min-height: 35px;    
 }
