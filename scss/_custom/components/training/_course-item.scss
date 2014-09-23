@@ -15,14 +15,14 @@
         }
 
         h3 {
-            @extend %t-strong;
+            @extend %t-emphasize;
             @include adjust-font-size-to(18px);
 
             line-height: 1.2em;
             color: $color;
 
             span {
-                @extend %t-thinnest;
+                @extend %t-ultralight;
             }
         }
     }
@@ -45,12 +45,12 @@
 
     .course-item-fee {
         color: $color;
-        @extend %t-base;
-        @extend %t-strong;
+        @extend %t-small;
+        @extend %t-emphasize;
     }
 
     .big {
-        @extend %t-large;
+        @extend %t-medium;
     }
 
     .course-item-info {

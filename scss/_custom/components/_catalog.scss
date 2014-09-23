@@ -58,6 +58,12 @@
         @extend %read-more-btn;
     }
 
+    .catalog-promo-section {
+        @media #{$large-up} {
+            margin-top: -34em;
+        }
+    }
+
     .promo-read-more {
         padding-left: 0;
         margin: 10px 0 15px 0;
