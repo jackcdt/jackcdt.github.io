@@ -18,7 +18,11 @@
 }
 
 %custom-training {
-    margin-bottom: $margin-bottom-default;  
+    margin-bottom: $margin-bottom-default; 
+
+    @media #{$medium-up} { 
+        margin-top: $margin-bottom-default * 2.3;
+    }
 
     .prefer-custom-training-text {
         color: #fff;

@@ -54,12 +54,12 @@
         @extend %t-emphasize;
     }
 
-    .course-item {
-        @include course-item($color);
+    .courses-list {
+        margin-top: -1.25 * $margin-bottom-default;
     }
 
-    .side-pannel {
-        margin-top: -$margin-bottom-default;
+    .course-item {
+        @include course-item($color);
     }
 
     .category-video {
@@ -94,7 +94,7 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -39em;
+            margin-top: -42em;
         }
     }
 

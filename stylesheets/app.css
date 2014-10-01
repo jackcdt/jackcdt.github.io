@@ -10976,7 +10976,13 @@ h1, h2, h3, h4 {
 .indesign-category .custom-training {
   margin-bottom: 24px;
 }
-/* line 23, ../scss/_custom/components/training/_custom-training.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 20, ../scss/_custom/components/training/_custom-training.scss */
+  .indesign-category .custom-training {
+    margin-top: 55.2px;
+  }
+}
+/* line 27, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #7C7777;
@@ -10986,24 +10992,24 @@ h1, h2, h3, h4 {
   border-bottom-left-radius: 4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 23, ../scss/_custom/components/training/_custom-training.scss */
+  /* line 27, ../scss/_custom/components/training/_custom-training.scss */
   .indesign-category .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
-/* line 39, ../scss/_custom/components/training/_custom-training.scss */
+/* line 43, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 5px;
   -webkit-margin-after: 0;
 }
-/* line 45, ../scss/_custom/components/training/_custom-training.scss */
+/* line 49, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   position: relative;
   left: -5px;
 }
-/* line 51, ../scss/_custom/components/training/_custom-training.scss */
+/* line 55, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul li {
   font-size: 12px;
   line-height: 2em;
@@ -11221,6 +11227,10 @@ h1, h2, h3, h4 {
   text-decoration: underline;
 }
 /* line 57, ../scss/_custom/components/training/_category.scss */
+.indesign-category .courses-list {
+  margin-top: -30px;
+}
+/* line 61, ../scss/_custom/components/training/_category.scss */
 .indesign-category .course-item {
   margin-bottom: 24px;
   margin-top: 12px;
@@ -11308,10 +11318,6 @@ h1, h2, h3, h4 {
   .indesign-category .course-item .course-book-now {
     min-width: initial;
   }
-}
-/* line 61, ../scss/_custom/components/training/_category.scss */
-.indesign-category .side-pannel {
-  margin-top: -24px;
 }
 /* line 65, ../scss/_custom/components/training/_category.scss */
 .indesign-category .category-video {
@@ -11403,7 +11409,7 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 64.063em) {
   /* line 95, ../scss/_custom/components/training/_category.scss */
   .indesign-category .category-promo-section {
-    margin-top: -39em;
+    margin-top: -42em;
   }
 }
 /* line 101, ../scss/_custom/components/training/_category.scss */
