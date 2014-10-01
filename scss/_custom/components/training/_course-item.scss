@@ -7,8 +7,7 @@
     }
 
     .course-item-title {
-        padding-right: 0px;
-        padding-left: 10px;
+        padding: 3px 0 0 10px;
         text-transform: uppercase;
         float: left !important;
 
@@ -29,13 +28,19 @@
         }
     }
 
+    .course-item-header {        
+        @media #{$large-up} {
+             height: 4em;
+        }        
+    }
+
     .course-item-description {
         @extend %t-small;
         @include adjust-leading-to(1, $base-font-size);
-        
+
         @media #{$large-up} {
-             height: 10em;
-        }
+             height: 9em;
+        }        
     }
 
     .course-item-additional-data {

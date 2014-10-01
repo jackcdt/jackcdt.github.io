@@ -2,13 +2,14 @@
 
 // Create sprite using Compass
 @import "compass/utilities/sprites";
-@import "training/adobe/indesign/indesign-category/*.png";
- 
+
 $indesign-category-spacing: $sprite-spacing;
 
-$map: sprite-map("training/adobe/indesign/indesign-category/*.png", $sprite-spacing: $indesign-category-spacing); /*empty comment*/ 
+@import "training/adobe/indesign/indesign-category/*.png"; 
+
+$map: sprite-map("training/adobe/indesign/indesign-category/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
 $sprite-width: 185px;
-$sprite-height: 826px;
+$sprite-height: 1226px;
 
 $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
 
@@ -20,7 +21,7 @@ $indesign-color: #f442a9;
 
 .id-essentials-framed { 
     @include indesign-category-sprite(id-essentials-framed); 
-    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 6%);
+    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
     min-width: 55px;
     min-height: 55px;
 }
