@@ -21,24 +21,27 @@
     .tight-header {
         border: 1px solid #000;
         display: block;
-        margin-bottom: $margin-bottom-default;
         @include adjust-leading-to(1, $base-font-size);
         padding: 0 5px;
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     .tight-header-1 {
         @extend .tight-header;
         width: 414px;
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     .tight-header-2 {
         @extend .tight-header;
         width: 270px;
+        margin-bottom: $margin-bottom-default;
     }
 
     .tight-header-3 {
         @extend .tight-header;
         width: 439px;
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     .sw-ver {
@@ -49,6 +52,10 @@
 
     .course-item {
         @include course-item($color);
+    }
+
+    .side-pannel {
+        margin-top: -$margin-bottom-default;
     }
 
     .category-video {
@@ -83,7 +90,7 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -34em;
+            margin-top: -37em;
         }
     }
 

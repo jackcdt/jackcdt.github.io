@@ -46,9 +46,18 @@
 
     table {
         margin-bottom: 1em;
+
+        .center-content {
+            text-align: center;
+        }
+    }
+
+    .note {
+        @extend %t-small;
     }
 
     .foot-note {
+        @extend %t-small;
         margin-left: 10px;
         display: block;
     }
@@ -62,11 +71,12 @@
 
 @mixin recent-testimonials($color: #000) {
     background-color: #E4E4E4;
-    height: 43em;
+    height: 45em;
     overflow-x: hidden;
     overflow-y: scroll;
     border: solid 1px #646464;
     border-radius: 4px;
+    margin-bottom: $margin-bottom-default;
 
     .recent-testimonials-title {
         @extend %t-emphasize;

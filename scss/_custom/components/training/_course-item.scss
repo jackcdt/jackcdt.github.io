@@ -1,16 +1,16 @@
 @mixin course-item($color: #000) {
     margin-bottom: $margin-bottom-default * 2;
+    margin-top: $margin-bottom-default / 2;
 
     .course-item-logo {
         margin-bottom: $margin-bottom-default / 2;
     }
 
     .course-item-title {
-        padding-left: 0px;
         padding-right: 0px;
+        padding-left: 10px;
         text-transform: uppercase;
         float: left !important;
-        padding-left: 10px;
 
         @media #{$large-up} {
             float: right;
@@ -31,9 +31,10 @@
 
     .course-item-description {
         @extend %t-small;
+        @include adjust-leading-to(1, $base-font-size);
         
         @media #{$large-up} {
-             height: 12em;
+             height: 10em;
         }
     }
 
