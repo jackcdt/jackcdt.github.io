@@ -20,16 +20,6 @@ $trainig-banner-height: $base-line-height * 5;
         max-width: 75%;
         top: $vertical-margin * 0.9;
 
-/*        .banner-header {
-            @extend %t-large;
-            line-height: 1em;
-
-            @media #{$medium-up} {
-                @include adjust-font-size-to($xlarge-font-size);
-                line-height: 1em;
-            }
-        } 
-*/
         @media #{$medium-up} {
             max-width: 90%;
         }

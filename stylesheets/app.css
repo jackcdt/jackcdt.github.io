@@ -11042,16 +11042,6 @@ h1, h2, h3, h4 {
 .indesign-category .banner-text {
   max-width: 75%;
   top: 31.5px;
-  /*        .banner-header {
-              @extend %t-large;
-              line-height: 1em;
-  
-              @media only screen and (min-width:40.063em) {
-                  @include adjust-font-size-to($xlarge-font-size);
-                  line-height: 1em;
-              }
-          } 
-  */
 }
 @media only screen and (min-width: 40.063em) {
   /* line 19, ../scss/_custom/components/training/_banner.scss */
@@ -11059,19 +11049,19 @@ h1, h2, h3, h4 {
     max-width: 90%;
   }
 }
-/* line 37, ../scss/_custom/components/training/_banner.scss */
+/* line 27, ../scss/_custom/components/training/_banner.scss */
 .indesign-category .banner-text .banner-header, .indesign-category .banner-text .banner-sub-header {
   font-family: Raleway, Helvetica, sans-serif;
   color: #fff;
 }
-/* line 42, ../scss/_custom/components/training/_banner.scss */
+/* line 32, ../scss/_custom/components/training/_banner.scss */
 .indesign-category .banner-text .banner-header {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 42, ../scss/_custom/components/training/_banner.scss */
+  /* line 32, ../scss/_custom/components/training/_banner.scss */
   .indesign-category .banner-text .banner-header {
     font-size: 1.5em;
     line-height: 2em;
@@ -11079,7 +11069,7 @@ h1, h2, h3, h4 {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 42, ../scss/_custom/components/training/_banner.scss */
+  /* line 32, ../scss/_custom/components/training/_banner.scss */
   .indesign-category .banner-text .banner-header {
     font-size: 2em;
     line-height: 1.5em;
@@ -11232,7 +11222,7 @@ h1, h2, h3, h4 {
 }
 /* line 59, ../scss/_custom/components/training/_category.scss */
 .indesign-category .courses-list {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 59, ../scss/_custom/components/training/_category.scss */
