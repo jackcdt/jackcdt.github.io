@@ -18,34 +18,44 @@ $trainig-banner-height: $base-line-height * 5;
 
     .banner-text {
         max-width: 75%;
-        top: $vertical-margin * 0.9; 
+        top: $vertical-margin * 0.9;
 
+/*        .banner-header {
+            @extend %t-large;
+            line-height: 1em;
+
+            @media #{$medium-up} {
+                @include adjust-font-size-to($xlarge-font-size);
+                line-height: 1em;
+            }
+        } 
+*/
         @media #{$medium-up} {
             max-width: 90%;
         }
 
-        h1, span {
+        .banner-header, .banner-sub-header {
             font-family: Raleway, Helvetica, sans-serif;
             color: #fff;
         }
 
-        h1 {
+        .banner-header {
             @extend %t-regular;
             @include adjust-font-size-to($medium-font-size);
-            line-height: 1.2em;
+            line-height: 1em;
             
             @media #{$medium-up} {
                 @include adjust-font-size-to($large-font-size);
-                line-height: 1.2em;
+                line-height: 1em;
             }
 
             @media #{$large-up} {
                 @include adjust-font-size-to($xlarge-font-size);
-                line-height: 1.2em;
+                line-height: 1em;
             }
         }
 
-        span {
+        .banner-sub-header {
             @extend %t-base;
             @extend %t-regular;
         }
