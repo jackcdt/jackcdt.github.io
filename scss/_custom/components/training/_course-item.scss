@@ -1,5 +1,5 @@
 @mixin course-item($color: #000) {
-    margin-bottom: $margin-bottom-default * 2;
+    margin-bottom: $margin-bottom-default;
     margin-top: $margin-bottom-default / 2;
 
     .course-item-logo {
@@ -39,7 +39,7 @@
         @include adjust-leading-to(1, $base-font-size);
 
         @media #{$large-up} {
-             height: 9em;
+             height: 11em;
         }        
     }
 

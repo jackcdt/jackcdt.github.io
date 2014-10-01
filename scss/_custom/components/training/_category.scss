@@ -94,7 +94,7 @@
 
     .promo-read-more {
         padding-left: 0;
-        margin: 10px 0 15px 0;
+        margin-top: $margin-bottom-default / 2;
     }
 
     .paragraph-header {
@@ -111,8 +111,11 @@
     }
 
     .category-description-section,
-    .courses-list,
     .promo-read-more {
         margin-bottom: $margin-bottom-default;
+    }
+
+    [class*="block-grid-"] > li {
+        padding-bottom: 0;
     }
 }

@@ -11138,7 +11138,7 @@ h1, h2, h3, h4 {
 }
 /* line 51, ../scss/_custom/components/training/_category.scss */
 .indesign-category .course-item {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   margin-top: 12px;
 }
 /* line 5, ../scss/_custom/components/training/_course-item.scss */
@@ -11177,7 +11177,7 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 64.063em) {
   /* line 37, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-description {
-    height: 9em;
+    height: 11em;
   }
 }
 /* line 50, ../scss/_custom/components/training/_course-item.scss */
@@ -11325,7 +11325,7 @@ h1, h2, h3, h4 {
 /* line 95, ../scss/_custom/components/training/_category.scss */
 .indesign-category .promo-read-more {
   padding-left: 0;
-  margin: 10px 0 15px 0;
+  margin-top: 12px;
 }
 /* line 100, ../scss/_custom/components/training/_category.scss */
 .indesign-category .paragraph-header {
@@ -11338,9 +11338,12 @@ h1, h2, h3, h4 {
 }
 /* line 113, ../scss/_custom/components/training/_category.scss */
 .indesign-category .category-description-section,
-.indesign-category .courses-list,
 .indesign-category .promo-read-more {
   margin-bottom: 24px;
+}
+/* line 118, ../scss/_custom/components/training/_category.scss */
+.indesign-category [class*="block-grid-"] > li {
+  padding-bottom: 0;
 }
 
 /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
