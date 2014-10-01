@@ -1,6 +1,6 @@
 @import "../read-more-btn.scss";
 
-/* Mixin for styling of custom training logo, to be used on catalog and course pages 
+/* Mixin for styling of custom training logo, to be used on category and course pages 
 * 
 * $map - sprite map, created using sprite-map function
 * $map-width, $map-height - sprite map physical dimentions, these parameters should be
@@ -10,7 +10,7 @@
 */
 @mixin custom-training-styling($map, $map-width, $map-height, $img-size-percent) {
     @include responsive-sprite($map, custom-training, $map-width, $map-height, $img-size-percent);
-
+ 
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 0;

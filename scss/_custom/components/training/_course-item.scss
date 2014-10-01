@@ -33,30 +33,32 @@
         @extend %t-small;
         
         @media #{$large-up} {
-             height: 13em;
+             height: 12em;
         }
+    }
+
+    .course-item-additional-data {
+        @extend %t-bold;
+    }
+
+    .day-time {
+        @include adjust-font-size-to(13px);
     }
 
     .course-item-info,
     .course-book-now {
         text-align: center;
+        margin-top: $margin-bottom-default / 2;
+        @extend %t-small;
 
         a, a:hover, a:focus {
             color: #fff;
-        }
-
-        @extend %t-emphasize;
-        @extend %t-base;
-
-        @media #{$large-up} {
-             @include adjust-font-size-to($small-font-size);
         }
     }
 
     .course-item-fee {
         color: $color;
         @extend %t-small;
-        @extend %t-emphasize;
     }
 
     .big {
@@ -65,11 +67,21 @@
 
     .course-item-info {
         background-color: $color;
+        min-width: 140px;
+        
+        @media #{$large-up} {
+            min-width: initial;
+        }
     }
 
     .course-book-now {
         background-color: lighten($color, 25%); 
         text-transform: uppercase;
+        min-width: 110px;
+        
+        @media #{$large-up} {
+            min-width: initial;
+        }
     }
 }
 

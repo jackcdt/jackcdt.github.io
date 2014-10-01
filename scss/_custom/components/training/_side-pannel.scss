@@ -75,7 +75,7 @@
         margin: 15px 0 20px 5px;
     }
 
-    .catalog-testimonial {
+    .category-testimonial {
         margin: 5px 5px 25px 5px;
         @extend %t-small;
 
@@ -88,12 +88,12 @@
         }
     }
 
-    .catalog-testimonial-client-name {
+    .category-testimonial-client-name {
         margin-top: $base-line-height / 2;
         @extend %t-emphasize;
     }
 
-    .catalog-testimonial-course-name {
+    .category-testimonial-course-name {
         color: $color;
         @extend %t-emphasize;
         margin-bottom: $base-line-height * 1.5;

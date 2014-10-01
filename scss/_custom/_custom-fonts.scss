@@ -12,11 +12,11 @@ $base-font-weight: 400;
 
 /* Custom fonts */
 $tiny-font-size: 10px;
-$small-font-size: 12px;
+$small-font-size: 13px;
 $base-font-size: 16px;
-$medium-font-size: 22px;
-$large-font-size: 28px;
-$xlarge-font-size: 34px;
+$medium-font-size: 20px;
+$large-font-size: 24px;
+$xlarge-font-size: 32px;
 
 
 @import "compass/typography/vertical_rhythm";
@@ -29,39 +29,19 @@ $xlarge-font-size: 34px;
         @include adjust-font-size-to($tiny-font-size);
     }
     @if $size == "small" {
-        @include adjust-font-size-to($tiny-font-size);
-        
-        @media #{$medium-up} {
-            @include adjust-font-size-to($small-font-size);
-        }
+        @include adjust-font-size-to($small-font-size);
     }
     @if $size == "base" {
-        @include adjust-font-size-to($small-font-size);
-
-        @media #{$medium-up} {
-            @include adjust-font-size-to($base-font-size);
-        }
+        @include adjust-font-size-to($base-font-size);
     }
     @if $size == "medium" {
-        @include adjust-font-size-to($base-font-size);
-
-        @media #{$medium-up} {
-            @include adjust-font-size-to($medium-font-size);
-        }
+        @include adjust-font-size-to($medium-font-size);
     }
     @if $size == "large" {
-        @include adjust-font-size-to($medium-font-size);
-
-        @media #{$medium-up} {
-            @include adjust-font-size-to($large-font-size);
-        }
+        @include adjust-font-size-to($large-font-size);
     }
     @if $size == "xlarge" {
-        @include adjust-font-size-to($large-font-size);
-
-        @media #{$medium-up} {
-            @include adjust-font-size-to($xlarge-font-size);
-        }
+        @include adjust-font-size-to($xlarge-font-size);
     }
 }
 
@@ -72,6 +52,9 @@ $xlarge-font-size: 34px;
 }
 %t-strong {
     font-weight: 700;
+}
+%t-bold {
+    font-weight: 600;
 }
 %t-emphasize {
     font-weight: 500;
@@ -120,7 +103,6 @@ h1 {
 }
 h2 {
    @extend %t-large;
-   @extend %t-light;
 }
 h3 {
    @extend %t-medium;

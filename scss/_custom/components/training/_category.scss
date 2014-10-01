@@ -1,9 +1,9 @@
-@import "training/banner";
-@import "training/side-pannel";
-@import "training/custom-training";
-@import "training/course-item";
+@import "banner";
+@import "side-pannel";
+@import "custom-training";
+@import "course-item";
 
-@mixin catalog($logo-height, $map, $map-width, $map-height, $color: #000){
+@mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
 
     .custom-training-logo {
@@ -12,10 +12,10 @@
         }
 
         @include custom-training-styling($map, $map-width, $map-height, 100%);
-    }
+    } 
 
-    .catalog-description-section {
-        @include adjust-leading-to(2, $medium-font-size);
+    .category-description-section p {
+        @extend %t-regular;
     }
 
     .tight-header {
@@ -23,7 +23,22 @@
         display: block;
         margin-bottom: $margin-bottom-default;
         @include adjust-leading-to(1, $base-font-size);
-        padding: 0 10px;
+        padding: 0 5px;
+    }
+
+    .tight-header-1 {
+        @extend .tight-header;
+        width: 414px;
+    }
+
+    .tight-header-2 {
+        @extend .tight-header;
+        width: 270px;
+    }
+
+    .tight-header-3 {
+        @extend .tight-header;
+        width: 439px;
     }
 
     .sw-ver {
@@ -36,7 +51,7 @@
         @include course-item($color);
     }
 
-    .catalog-video {
+    .category-video {
         margin-bottom: $margin-bottom-default;  
     }
 
@@ -66,7 +81,7 @@
         @extend %read-more-btn;
     }
 
-    .catalog-promo-section {
+    .category-promo-section {
         @media #{$large-up} {
             margin-top: -34em;
         }
@@ -90,7 +105,7 @@
         @extend %t-strong;   
     }
 
-    .catalog-description-section,
+    .category-description-section,
     .courses-list,
     .promo-read-more {
         margin-bottom: $margin-bottom-default;
