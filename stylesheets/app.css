@@ -11147,7 +11147,7 @@ h1, h2, h3, h4 {
 }
 /* line 9, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-title {
-  padding: 3px 0 0 10px;
+  padding: 3px 0 0 7px;
   text-transform: uppercase;
   float: left !important;
 }
