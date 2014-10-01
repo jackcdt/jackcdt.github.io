@@ -9,7 +9,7 @@ $trainig-banner-height: $base-line-height * 5;
 
     .banner-row {
         height: $trainig-banner-height;
-        margin-bottom: 1em;
+        margin-bottom: $margin-bottom-default / 3;
     }
 
     .category-logo{

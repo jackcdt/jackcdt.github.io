@@ -2,9 +2,14 @@
 @import "side-pannel";
 @import "custom-training";
 @import "course-item";
+@import "../breadcrumbs";
 
 @mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
+
+    .custom-breadcrumbs {
+        @include custom-breadcrumbs($color);
+    }
 
     .custom-training-logo {
         @media #{$small-only} { 
@@ -30,6 +35,7 @@
     .tight-header-1 {
         @extend .tight-header;
         width: 414px;
+        margin-top: 0;
     }
 
     .tight-header-2 {
