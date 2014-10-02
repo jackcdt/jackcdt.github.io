@@ -2,6 +2,8 @@
 @import "side-pannel";
 @import "custom-training";
 @import "course-item";
+@import "paragraph-header";
+@import "testimonials";
 @import "../breadcrumbs";
 
 @mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
@@ -29,25 +31,25 @@
         padding: 3px 5px;
         margin-bottom: $margin-bottom-default / 2;
 
-        @include adjust-font-size-to($medium-font-size);
-        @extend %t-regular;
+        @include adjust-font-size-to($large-font-size, 1);
+        @extend %t-light;
     } 
 
     .tight-header-1 {
         @extend .tight-header;
 
-        width: 348px;
+        width: 415px;
         margin-top: 0;
     }
 
     .tight-header-2 {
         @extend .tight-header;
-        width: 225px;
+        width: 270px;
     }
 
     .tight-header-3 {
         @extend .tight-header;
-        width: 365px;
+        width: 435px;
     }
 
     .sw-ver {
@@ -84,8 +86,10 @@
         @include training-checklist($color);
     }
 
-    .recent-testimonials {
-        @include recent-testimonials($color);
+    .testimonials {
+        height: 41em;
+
+        @include testimonials($color);
     }
 
     .and {
@@ -110,10 +114,7 @@
     }
 
     .paragraph-header {
-        color: $color;
-        @extend %t-medium;
-        @extend %t-emphasize;   
-        @include adjust-leading-to(1, $base-font-size); 
+        @include paragraph-header($color); 
     }
 
     .part-time-options {

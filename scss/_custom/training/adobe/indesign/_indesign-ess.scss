@@ -9,7 +9,7 @@ $indesign-ess-spacing: $sprite-spacing;
 
 $map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
 $sprite-width: 321px;
-$sprite-height: 1077px;
+$sprite-height: 1063px;
 
 $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
 
@@ -29,15 +29,18 @@ $indesign-color: #f442a9;
 .course-classrom { 
     @include indesign-ess-sprite(course-classrom); 
     @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
-    min-width: 222px;
-    min-height: 124px;
+    width: 100%;
+    padding-bottom: 54%;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: $margin-bottom-default;
 }
 
 .pdf {
     @include indesign-ess-sprite(pdf); 
     @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 32px;
+    min-height: 32px;
 }
 
 .indesign-cc-cs6 {
@@ -47,11 +50,11 @@ $indesign-color: #f442a9;
     min-height: 93px;   
 }
 
-.custom-training {
-    @include indesign-ess-sprite(custom-training); 
-    @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 5.8%);
-    min-width: 170px;
-    min-height: 90px; 
+.custom-training-small {
+    @include indesign-ess-sprite(custom-training-small); 
+    @include responsive-sprite($map, custom-training-small, $sprite-width, $sprite-height, 7%);
+    padding-bottom: 45%;
+    width: 100%;
 }
 
 .id-advanced {
