@@ -85,6 +85,10 @@
             color: $color;
             @extend %t-emphasize;
         }
+
+        .overview-list-data {
+            @include adjust-font-size-to(14px, 1);
+        }
     }
 
     /* Course outline - description */
@@ -99,6 +103,10 @@
             margin-bottom: 5px;
             -webkit-margin-after: $margin-bottom-default;
         }
+
+        ul li {
+            @extend %t-small;
+        }
     }
 
     /* Read more buttons */
@@ -106,7 +114,7 @@
         @extend %read-more-btn;
     }
 
-    /* Training packages */
+    /* Training packages@extend %t-large; */
     .and {
         @extend %t-large;
         @extend %t-light;
@@ -143,6 +151,10 @@
     .advanced-table {
         margin-top: 19px;
         margin-left: -17px;
+
+        .description {
+            padding-left: 15px;
+        }
     }
 
     /* Side bar - pricing and dates*/
