@@ -1,1 +1,76 @@
 @import "../../../components/training/course";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+
+$indesign-ess-spacing: $sprite-spacing;
+
+@import "training/adobe/indesign/indesign-ess/*.png"; 
+
+$map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
+$sprite-width: 321px;
+$sprite-height: 1077px;
+
+$id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
+
+$indesign-color: #f442a9;
+
+.indesign-course {
+    @include course($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
+} 
+
+.id-essentials-framed { 
+    @include indesign-ess-sprite(id-essentials-framed); 
+    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+    min-width: 55px;
+    min-height: 55px;
+}
+
+.course-classrom { 
+    @include indesign-ess-sprite(course-classrom); 
+    @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+    min-width: 222px;
+    min-height: 124px;
+}
+
+.pdf {
+    @include indesign-ess-sprite(pdf); 
+    @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.indesign-cc-cs6 {
+    @include indesign-ess-sprite(indesign-cc-cs6); 
+    @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
+    min-width: 115px;
+    min-height: 93px;   
+}
+
+.custom-training {
+    @include indesign-ess-sprite(custom-training); 
+    @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 5.8%);
+    min-width: 170px;
+    min-height: 90px; 
+}
+
+.id-advanced {
+    @include indesign-ess-sprite(id-advanced); 
+    @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+    min-width: 65px;
+    min-height: 65px; 
+}
+
+.ps-ess {
+    @include indesign-ess-sprite(ps-ess); 
+    @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+    min-width: 50px;
+    min-height: 50px; 
+}
+
+.il-ess {
+    @include indesign-ess-sprite(il-ess); 
+    @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+    min-width: 50px;
+    min-height: 50px; 
+}

@@ -1,0 +1,24 @@
+@import "banner";
+@import "../breadcrumbs";
+
+@mixin course($logo-height, $map, $map-width, $map-height, $color: #000){
+    @include banner($logo-height, $color);
+
+    .custom-breadcrumbs {
+        @include custom-breadcrumbs($color);
+    }
+
+    .sw-ver {
+        color: $color;
+        text-decoration: underline;
+        @extend %t-emphasize;
+    }
+
+    @include download-and-book($color);
+}
+
+@mixin download-and-book($color) {
+    .download-and-book ul li {
+        min-width: 150px;
+    }
+}

@@ -18,7 +18,7 @@ $trainig-banner-height: $base-line-height * 5;
 
     .banner-text {
         max-width: 75%;
-        top: $vertical-margin * 0.9;
+        top: $vertical-margin;
 
         @media #{$medium-up} {
             max-width: 90%;
