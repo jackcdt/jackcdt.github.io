@@ -11843,8 +11843,9 @@ h1, h2, h3, h4 {
 /* line 20, ../scss/_custom/components/training/_course.scss */
 .indesign-course [class*="block-grid-"] > li {
   padding-bottom: 0;
+  min-width: 15em;
 }
-/* line 25, ../scss/_custom/components/training/_course.scss */
+/* line 26, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2 {
   display: block;
   padding: 3px 5px;
@@ -11853,147 +11854,161 @@ h1, h2, h3, h4 {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 35, ../scss/_custom/components/training/_course.scss */
+/* line 36, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-header-1 {
   width: 310px;
 }
-/* line 40, ../scss/_custom/components/training/_course.scss */
+/* line 41, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-header-2 {
   border: none;
   color: #f442a9;
   padding-left: 0;
 }
-/* line 47, ../scss/_custom/components/training/_course.scss */
+/* line 48, ../scss/_custom/components/training/_course.scss */
 .indesign-course .paragraph-header {
   color: #f442a9;
   line-height: 1.5em;
 }
-/* line 51, ../scss/_custom/components/training/_course.scss */
+/* line 52, ../scss/_custom/components/training/_course.scss */
 .indesign-course .paragraph-header-def-color {
   color: black;
   line-height: 1.5em;
 }
-/* line 56, ../scss/_custom/components/training/_course.scss */
+/* line 57, ../scss/_custom/components/training/_course.scss */
 .indesign-course .make-one-line {
   display: inline;
 }
-/* line 60, ../scss/_custom/components/training/_course.scss */
+/* line 61, ../scss/_custom/components/training/_course.scss */
 .indesign-course .note {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 /* line 65, ../scss/_custom/components/training/_course.scss */
+.indesign-course .overview-list {
+  margin-bottom: 24px;
+}
+/* line 68, ../scss/_custom/components/training/_course.scss */
 .indesign-course .overview-list ul {
   list-style-type: none;
   margin-bottom: 5px;
   -webkit-margin-after: 0;
 }
-/* line 71, ../scss/_custom/components/training/_course.scss */
+/* line 74, ../scss/_custom/components/training/_course.scss */
 .indesign-course .overview-list ul li:before {
   content: "-";
   position: relative;
   left: -10px;
 }
-/* line 77, ../scss/_custom/components/training/_course.scss */
+/* line 80, ../scss/_custom/components/training/_course.scss */
 .indesign-course .overview-list .to-upper {
   text-transform: uppercase;
 }
-/* line 81, ../scss/_custom/components/training/_course.scss */
+/* line 84, ../scss/_custom/components/training/_course.scss */
 .indesign-course .overview-list .course-specific {
   color: #f442a9;
 }
-/* line 89, ../scss/_custom/components/training/_course.scss */
+/* line 92, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-outline-block h3 {
   font-size: 1em;
   line-height: 1.5em;
 }
-/* line 94, ../scss/_custom/components/training/_course.scss */
+/* line 97, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-outline-block ul {
   list-style-type: none;
   margin-bottom: 5px;
   -webkit-margin-after: 24px;
 }
-/* line 107, ../scss/_custom/components/training/_course.scss */
+/* line 110, ../scss/_custom/components/training/_course.scss */
+.indesign-course .related-course {
+  max-width: 5em;
+}
+/* line 114, ../scss/_custom/components/training/_course.scss */
 .indesign-course .pricing-table, .indesign-course .title, .indesign-course .description {
   border: none;
 }
-/* line 111, ../scss/_custom/components/training/_course.scss */
+/* line 118, ../scss/_custom/components/training/_course.scss */
 .indesign-course .pricing-table {
   margin-top: 24px;
 }
-/* line 114, ../scss/_custom/components/training/_course.scss */
+/* line 121, ../scss/_custom/components/training/_course.scss */
 .indesign-course .pricing-table .title {
   background-color: #fff;
   margin-bottom: 8px;
 }
-/* line 119, ../scss/_custom/components/training/_course.scss */
+/* line 126, ../scss/_custom/components/training/_course.scss */
 .indesign-course .pricing-table .description {
   padding: 0;
 }
-/* line 124, ../scss/_custom/components/training/_course.scss */
+/* line 131, ../scss/_custom/components/training/_course.scss */
 .indesign-course .advanced-table {
   margin-top: 19px;
   margin-left: -17px;
 }
-/* line 130, ../scss/_custom/components/training/_course.scss */
+/* line 137, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-dates-promo {
   background-color: #D6D6D6;
   border-radius: 4px;
+  margin-bottom: 24px;
+  max-width: 30em;
 }
-/* line 140, ../scss/_custom/components/training/_course.scss */
+/* line 150, ../scss/_custom/components/training/_course.scss */
 .indesign-course .old-price, .indesign-course .new-price {
   font-size: 2em;
   line-height: 0.75em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 140, ../scss/_custom/components/training/_course.scss */
+  /* line 150, ../scss/_custom/components/training/_course.scss */
   .indesign-course .old-price, .indesign-course .new-price {
     font-size: 3em;
     line-height: 0.5em;
   }
 }
-/* line 148, ../scss/_custom/components/training/_course.scss */
+/* line 158, ../scss/_custom/components/training/_course.scss */
 .indesign-course .color-specific,
 .indesign-course .course-length {
   color: #f442a9;
 }
-/* line 157, ../scss/_custom/components/training/_course.scss */
+/* line 167, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-price-info {
   margin-bottom: 24px;
 }
-/* line 161, ../scss/_custom/components/training/_course.scss */
-.indesign-course .course-dates {
-  margin-bottom: 24px;
+/* line 172, ../scss/_custom/components/training/_course.scss */
+.indesign-course .course-dates li {
+  min-width: 7em;
 }
-/* line 169, ../scss/_custom/components/training/_course.scss */
+/* line 181, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-dates ul {
   list-style-type: none;
 }
-/* line 173, ../scss/_custom/components/training/_course.scss */
+/* line 185, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-dates .date {
   margin-left: -16px;
 }
-/* line 178, ../scss/_custom/components/training/_course.scss */
+/* line 190, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-dates .date a {
   color: #f442a9;
   font-style: italic;
 }
-/* line 185, ../scss/_custom/components/training/_course.scss */
+/* line 198, ../scss/_custom/components/training/_course.scss */
+.indesign-course .download-and-book li {
+  margin-top: 24px;
+  min-width: 9em;
+}
+/* line 204, ../scss/_custom/components/training/_course.scss */
 .indesign-course .download-text {
   font-size: 1em;
   line-height: 1.5em;
   line-height: 1em;
   margin-left: -10px;
-  margin-bottom: 24px;
   color: #f442a9;
 }
-/* line 195, ../scss/_custom/components/training/_course.scss */
+/* line 213, ../scss/_custom/components/training/_course.scss */
 .indesign-course .book-now {
   background-color: #F442A9;
   color: #FFF;
   text-align: center;
 }
-/* line 203, ../scss/_custom/components/training/_course.scss */
+/* line 222, ../scss/_custom/components/training/_course.scss */
 .indesign-course .seminars-ad {
   background-color: #f442a9;
   color: #fff;
@@ -12001,32 +12016,34 @@ h1, h2, h3, h4 {
   border-radius: 4px;
   margin-bottom: 24px;
   margin-bottom: 6px;
+  margin-top: 24px;
 }
 /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-course .seminars-ad .seminars-ad-title {
   text-transform: uppercase;
 }
-/* line 210, ../scss/_custom/components/training/_course.scss */
+/* line 230, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training-promo {
   color: #fff;
   background-color: #7C7777;
   border-radius: 4px;
   margin-bottom: 24px;
+  max-width: 30em;
   padding: 6px;
 }
-/* line 217, ../scss/_custom/components/training/_course.scss */
+/* line 238, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training-promo ul {
   list-style-type: none;
   margin-bottom: 5px;
   -webkit-margin-after: 0;
 }
-/* line 223, ../scss/_custom/components/training/_course.scss */
+/* line 244, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training-promo .custom-training-data:before {
   content: "-";
   position: relative;
   left: -5px;
 }
-/* line 229, ../scss/_custom/components/training/_course.scss */
+/* line 250, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training-promo .custom-training-data {
   margin-left: -12px;
   margin-bottom: 6px;
@@ -12034,13 +12051,14 @@ h1, h2, h3, h4 {
   line-height: 1.84615em;
   line-height: 1.5em;
 }
-/* line 238, ../scss/_custom/components/training/_course.scss */
+/* line 259, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training-title {
   margin-bottom: 6px;
 }
-/* line 245, ../scss/_custom/components/training/_course.scss */
+/* line 266, ../scss/_custom/components/training/_course.scss */
 .indesign-course .testimonials {
   height: 41em;
+  max-width: 30em;
   background-color: #E4E4E4;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -12168,11 +12186,12 @@ h1, h2, h3, h4 {
   padding-bottom: 2.87568%;
   background-size: 173.51351%;
   background-position: 0 22.18845%;
-  padding-bottom: 45%;
-  width: 100%;
+  padding-bottom: 25%;
+  width: 58%;
+  float: right;
 }
 
-/* line 60, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
 .id-advanced {
   background-position: 0 -335px;
   /*  
@@ -12191,7 +12210,7 @@ h1, h2, h3, h4 {
   min-height: 65px;
 }
 
-/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+/* line 68, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
 .ps-ess {
   background-position: 0 -1000px;
   /*  
@@ -12210,7 +12229,7 @@ h1, h2, h3, h4 {
   min-height: 50px;
 }
 
-/* line 74, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
 .il-ess {
   background-position: 0 -664px;
   /*  

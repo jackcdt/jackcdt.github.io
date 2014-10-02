@@ -19,6 +19,7 @@
     /* General */
     [class*="block-grid-"] > li {
         padding-bottom: 0;
+        min-width: 15em;
     }
 
     /* Headers */
@@ -62,6 +63,8 @@
     }
 
     .overview-list {
+        margin-bottom: $margin-bottom-default;
+
         ul {
             list-style-type: none;
             margin-bottom: 5px;
@@ -104,6 +107,10 @@
     }
 
     /* Related courses*/
+    .related-course {
+        max-width: 5em;
+    }
+
     .pricing-table, .title, .description {
         border: none;
     }
@@ -130,6 +137,9 @@
     .course-dates-promo {
         background-color: #D6D6D6;
         border-radius: 4px;
+        margin-bottom: $margin-bottom-default;
+        max-width: 30em;
+
         @extend %t-small;
     }
 
@@ -159,7 +169,9 @@
     }
 
     .course-dates {
-        margin-bottom: $margin-bottom-default;
+        li {
+            min-width: 7em;
+        }
 
         h3 {
             @extend %t-base;
@@ -182,21 +194,28 @@
     }
 
     /* Side bar - download and book */
+    .download-and-book { 
+        li {
+            margin-top: $margin-bottom-default;
+            min-width: 9em;
+        }
+    }
+
     .download-text {
         @include adjust-font-size-to($base-font-size, 1);
         line-height: 1em;
         @extend %t-bold;
         
         margin-left: -10px;
-        margin-bottom: $margin-bottom-default;
         color: $color;
     }
 
     .book-now {
         background-color: #F442A9;
         color: #FFF;
-        @extend %t-strong;
         text-align: center;
+
+        @extend %t-strong;
     }
 
     /* Side bar - seminars ad */
@@ -204,6 +223,7 @@
         @include seminars-ad($color);
 
         margin-bottom: $margin-bottom-default / 4;
+        margin-top: $margin-bottom-default;
     }
 
     /* Side bar - custom training */
@@ -212,6 +232,7 @@
         background-color: #7C7777;
         border-radius: 4px;
         margin-bottom: $margin-bottom-default;
+        max-width: 30em;
         padding: ($margin-bottom-default / 4);
 
         ul {
@@ -244,6 +265,7 @@
     /* Side bar - testimonials */
     .testimonials {
         height: 41em;
+        max-width: 30em;
 
         @include testimonials($color);
     }

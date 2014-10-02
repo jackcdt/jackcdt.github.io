@@ -53,8 +53,9 @@ $indesign-color: #f442a9;
 .custom-training-small {
     @include indesign-ess-sprite(custom-training-small); 
     @include responsive-sprite($map, custom-training-small, $sprite-width, $sprite-height, 7%);
-    padding-bottom: 45%;
-    width: 100%;
+    padding-bottom: 25%;
+    width: 58%;
+    float: right;
 }
 
 .id-advanced {
