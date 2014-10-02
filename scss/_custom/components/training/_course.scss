@@ -106,6 +106,18 @@
         @extend %read-more-btn;
     }
 
+    /* Training packages */
+    .and {
+        @extend %t-large;
+        @extend %t-light;
+        text-align: center;
+        width: 40px;
+    }
+
+    .package-logos-read-more {
+        margin: $margin-bottom-default / 2 0 $margin-bottom-default 0;
+    }
+
     /* Related courses*/
     .related-course {
         max-width: 5em;
