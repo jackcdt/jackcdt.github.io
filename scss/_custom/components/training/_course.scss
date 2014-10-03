@@ -3,6 +3,8 @@
 @import "../read-more-btn";
 @import "../breadcrumbs";
 
+$border-color: #2C2C2C;
+
 @mixin course($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
 
@@ -19,7 +21,56 @@
     /* General */
     [class*="block-grid-"] > li {
         padding-bottom: 0;
-        min-width: 15em;
+        min-width: 17em;
+    }
+
+    .nopadding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Secion borders */
+    .upper-row {
+        border-bottom: 1px solid $border-color;
+        margin-bottom: $margin-bottom-default;
+    }
+
+    .course-info-upper {
+        border-right: 1px dashed $border-color;
+        margin-bottom: $margin-bottom-default;
+    }
+
+    .overview-list h2 {
+        border-bottom: 1px dashed $border-color;
+    }
+
+    .course-outline {
+        border-right: 3px solid lighten( $border-color, 50% );
+        padding-left: 0;
+        margin-bottom: $margin-bottom-default;
+    }
+
+    .course-dates h3 {
+        border-bottom: 1px dashed $border-color;
+        margin-bottom: $margin-bottom-default / 4;
+    }
+
+    .dates-block {
+        border-bottom: 1px solid $color;
+    }
+
+    /*Sections width manipulation */
+    .course-outline-section,
+    .packages-promo {
+        @media #{$medium-up} {
+            width: 63%;
+        }
+    }
+
+    .lower-aside-section {
+        @media #{$medium-up} {
+            width: 37%;
+        }
     }
 
     /* Headers */
@@ -35,11 +86,13 @@
 
     .course-header-1 {
         @extend .course-header;
-        width: 310px;
+        padding: 3px 0;
+        border: none;
     } 
 
     .course-header-2 {
        @extend .course-header;
+       padding: 3px 0;
        border: none;
        color: $color;
        padding-left: 0;
@@ -63,8 +116,6 @@
     }
 
     .overview-list {
-        margin-bottom: $margin-bottom-default;
-
         ul {
             list-style-type: none;
             margin-bottom: 5px;
@@ -81,9 +132,16 @@
             text-transform: uppercase;
         }
 
+        .item-course-specific,
         .course-specific {
             color: $color;
-            @extend %t-emphasize;
+            @extend %t-bold;
+        }
+
+        .course-specific {
+            margin-left: 10px;
+
+            @extend %t-small;
         }
 
         .overview-list-data {
@@ -105,7 +163,7 @@
         }
 
         ul li {
-            @extend %t-small;
+            @include adjust-font-size-to(14px, 1);
         }
     }
 
@@ -114,7 +172,7 @@
         @extend %read-more-btn;
     }
 
-    /* Training packages@extend %t-large; */
+    /* Training packages and related courses */
     .and {
         @extend %t-large;
         @extend %t-light;
@@ -126,7 +184,6 @@
         margin: $margin-bottom-default / 2 0 $margin-bottom-default 0;
     }
 
-    /* Related courses*/
     .related-course {
         max-width: 5em;
     }
@@ -165,6 +222,10 @@
         max-width: 30em;
 
         @extend %t-small;
+    }
+
+    .course-dates-city-block {
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     .course-price {
@@ -288,7 +349,7 @@
 
     /* Side bar - testimonials */
     .testimonials {
-        height: 41em;
+        height: 33em;
         max-width: 30em;
 
         @include testimonials($color);
