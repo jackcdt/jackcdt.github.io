@@ -24,10 +24,6 @@ $border-color: #2C2C2C;
         min-width: 20em;
     }
 
-    [class*="block-grid-"] > li.related-courses {
-        min-width: 17em;
-    }
-
     .nopadding {
         padding-left: 0;
         padding-right: 0;
@@ -40,8 +36,11 @@ $border-color: #2C2C2C;
     }
 
     .course-info-upper {
-        border-right: 1px dashed $border-color;
         margin-bottom: $margin-bottom-default;
+
+        @media #{$medium-up} {
+            border-right: 1px dashed $border-color;
+        }
     }
 
     .paragraph-header-def-color {
@@ -49,9 +48,12 @@ $border-color: #2C2C2C;
     }
 
     .course-outline {
-        border-right: 3px solid lighten( $border-color, 50% );
         padding-left: 0;
         margin-bottom: $margin-bottom-default;
+
+        @media #{$medium-up} {
+            border-right: 3px solid lighten( $border-color, 50% );
+        }
     }
 
     .course-dates h3 {
