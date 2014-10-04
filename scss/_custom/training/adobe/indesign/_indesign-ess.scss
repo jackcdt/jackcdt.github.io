@@ -16,68 +16,68 @@ $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
 $indesign-color: #f442a9;
 
 .indesign-course {
-    @include course($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
-} 
+    @include course($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color); 
 
-.id-essentials-framed { 
-    @include indesign-ess-sprite(id-essentials-framed); 
-    @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
-    min-width: 55px;
-    min-height: 55px;
-}
+    .id-essentials-framed { 
+        @include indesign-ess-sprite(id-essentials-framed); 
+        @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    }
 
-.course-classrom { 
-    @include indesign-ess-sprite(course-classrom); 
-    @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
-    width: 100%;
-    padding-bottom: 54%;
-    border: 1px solid #000;
-    margin-top: 5px;
-    margin-bottom: $margin-bottom-default;
-}
+    .course-classrom { 
+        @include indesign-ess-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 100%;
+        padding-bottom: 54%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-bottom: $margin-bottom-default;
+    }
 
-.pdf {
-    @include indesign-ess-sprite(pdf); 
-    @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
-    min-width: 32px;
-    min-height: 32px;
-}
+    .pdf {
+        @include indesign-ess-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+    }
 
-.indesign-cc-cs6 {
-    @include indesign-ess-sprite(indesign-cc-cs6); 
-    @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
-    min-width: 115px;
-    min-height: 93px; 
-    float: right;
-    margin-right: -15px;
-    margin-top: -10px;
-}
+    .indesign-cc-cs6 {
+        @include indesign-ess-sprite(indesign-cc-cs6); 
+        @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
+        min-width: 115px;
+        min-height: 93px; 
+        float: right;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
 
-.custom-training-small {
-    @include indesign-ess-sprite(custom-training-small); 
-    @include responsive-sprite($map, custom-training-small, $sprite-width, $sprite-height, 7%);
-    padding-bottom: 25%;
-    width: 58%;
-    float: right;
-}
+    .custom-training-small {
+        @include indesign-ess-sprite(custom-training-small); 
+        @include responsive-sprite($map, custom-training-small, $sprite-width, $sprite-height, 7%);
+        padding-bottom: 25%;
+        width: 58%;
+        float: right;
+    }
 
-.id-advanced {
-    @include indesign-ess-sprite(id-advanced); 
-    @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
-    min-width: 65px;
-    min-height: 63px; 
-}
+    .id-advanced {
+        @include indesign-ess-sprite(id-advanced); 
+        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+        min-width: 65px;
+        min-height: 63px; 
+    }
 
-.ps-ess {
-    @include indesign-ess-sprite(ps-ess); 
-    @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
-    min-width: 50px;
-    min-height: 50px; 
-}
+    .ps-ess {
+        @include indesign-ess-sprite(ps-ess); 
+        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 50px;
+        min-height: 50px; 
+    }
 
-.il-ess {
-    @include indesign-ess-sprite(il-ess); 
-    @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
-    min-width: 50px;
-    min-height: 50px; 
+    .il-ess {
+        @include indesign-ess-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 50px;
+        min-height: 50px; 
+    }
 }

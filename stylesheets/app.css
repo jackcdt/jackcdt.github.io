@@ -11020,7 +11020,7 @@ h1, h2, h3, h4 {
 }
 
 /* line 128, training/adobe/indesign/indesign-category/*.png */
-.indesign-category-sprite, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments, .id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
+.indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
   background-image: url('/images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
   background-repeat: no-repeat;
 }
@@ -11030,6 +11030,7 @@ h1, h2, h3, h4 {
 .indesign-category {
   background-color: #f442a9;
   height: 120px;
+  /* Title is too long, minimise gap */
 }
 /* line 10, ../scss/_custom/components/training/_banner.scss */
 .indesign-category .banner-row {
@@ -11256,22 +11257,18 @@ h1, h2, h3, h4 {
   margin-top: 12px;
 }
 /* line 5, ../scss/_custom/components/training/_course-item.scss */
-.indesign-category .course-item .course-item-logo {
-  margin-bottom: 12px;
-}
-/* line 9, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-title {
   padding: 3px 0 0 7px;
   text-transform: uppercase;
   float: left !important;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 9, ../scss/_custom/components/training/_course-item.scss */
+  /* line 5, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-title {
     float: right;
   }
 }
-/* line 18, ../scss/_custom/components/training/_course-item.scss */
+/* line 14, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-title h3 {
   font-size: 1.125em;
   line-height: 1.33333em;
@@ -11279,62 +11276,62 @@ h1, h2, h3, h4 {
   color: #f442a9;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  /* line 27, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-header {
-    height: 4em;
+    height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 33, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-description {
   line-height: 1.5em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 33, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-description {
     height: 11em;
   }
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 46, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 54, ../scss/_custom/components/training/_course-item.scss */
+/* line 50, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info,
 .indesign-category .course-item .course-book-now {
   text-align: center;
   margin-top: 12px;
 }
-/* line 60, ../scss/_custom/components/training/_course-item.scss */
+/* line 56, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info a, .indesign-category .course-item .course-item-info a:hover, .indesign-category .course-item .course-item-info a:focus,
 .indesign-category .course-item .course-book-now a,
 .indesign-category .course-item .course-book-now a:hover,
 .indesign-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 65, ../scss/_custom/components/training/_course-item.scss */
+/* line 61, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-fee {
   color: #f442a9;
 }
-/* line 74, ../scss/_custom/components/training/_course-item.scss */
+/* line 70, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info {
   background-color: #f442a9;
   min-width: 140px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 74, ../scss/_custom/components/training/_course-item.scss */
+  /* line 70, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-info {
     min-width: initial;
   }
 }
-/* line 83, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-book-now {
   background-color: #fbbae0;
   text-transform: uppercase;
   min-width: 110px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 83, ../scss/_custom/components/training/_course-item.scss */
+  /* line 79, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-book-now {
     min-width: initial;
   }
@@ -11393,7 +11390,7 @@ h1, h2, h3, h4 {
 }
 /* line 98, ../scss/_custom/components/training/_category.scss */
 .indesign-category .testimonials {
-  height: 41em;
+  height: 37em;
   background-color: #E4E4E4;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -11436,7 +11433,7 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 64.063em) {
   /* line 115, ../scss/_custom/components/training/_category.scss */
   .indesign-category .category-promo-section {
-    margin-top: -37em;
+    margin-top: -34em;
   }
 }
 /* line 121, ../scss/_custom/components/training/_category.scss */
@@ -11462,9 +11459,8 @@ h1, h2, h3, h4 {
 .indesign-category [class*="block-grid-"] > li {
   padding-bottom: 0;
 }
-
-/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-essentials-framed {
+/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-essentials-framed {
   background-position: 0 -466px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11481,14 +11477,12 @@ h1, h2, h3, h4 {
   min-width: 55px;
   min-height: 55px;
 }
-
-/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.custom-training-logo {
+/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .custom-training-logo {
   background-position: 0 0;
 }
-
-/* line 33, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-essentials {
+/* line 32, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-essentials {
   background-position: 0 -570px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11503,12 +11497,11 @@ h1, h2, h3, h4 {
   background-size: 289.0625%;
   background-position: 0 48.92704%;
   margin-left: 15px;
-  min-width: 47px;
+  min-width: 38px;
   min-height: 47px;
 }
-
-/* line 42, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-lite {
+/* line 41, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-lite {
   background-position: 0 -812px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11522,14 +11515,12 @@ h1, h2, h3, h4 {
   padding-bottom: 5.07576%;
   background-size: 280.30303%;
   background-position: 0 70.0604%;
-  margin-top: -5px;
   margin-left: 15px;
-  min-width: 47px;
-  min-height: 49px;
+  min-width: 38px;
+  min-height: 44px;
 }
-
-/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-advanced {
+/* line 50, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-advanced {
   background-position: 0 -216px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11537,20 +11528,19 @@ h1, h2, h3, h4 {
       $sprite-width: image-width($sprite-file);
       $sprite-height: image-height($sprite-file);
   */
-  width: 6%;
+  width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.7931%;
+  padding-bottom: 5.6%;
   background-size: 212.64368%;
   background-position: 0 18.91419%;
-  margin-top: -9px;
+  margin-top: -7px;
   margin-left: 2px;
-  min-width: 55px;
-  min-height: 52px;
+  min-width: 49px;
+  min-height: 48px;
 }
-
-/* line 62, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-longdocuments {
+/* line 60, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-longdocuments {
   background-position: 0 -919px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11564,20 +11554,17 @@ h1, h2, h3, h4 {
   padding-bottom: 5.55963%;
   background-size: 169.72477%;
   background-position: 0 81.68889%;
-  margin-top: -6px;
-  margin-left: 6px;
-  min-width: 55px;
-  min-height: 51px;
+  margin-left: 5px;
+  margin-right: -8px;
+  min-width: 66px;
+  min-height: 49px;
 }
-
-/* Title is too long, minimise gap */
-/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.indesign-long-docs-title {
+/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-
-/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-interactivity {
+/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11591,14 +11578,14 @@ h1, h2, h3, h4 {
   padding-bottom: 5.55963%;
   background-size: 169.72477%;
   background-position: 0 59.64444%;
-  margin-top: -9px;
+  margin-top: -12px;
   margin-left: 5px;
-  min-width: 55px;
-  min-height: 51px;
+  margin-right: -8px;
+  min-width: 66px;
+  min-height: 57px;
 }
-
-/* line 87, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-accessibility {
+/* line 86, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+.indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11612,14 +11599,14 @@ h1, h2, h3, h4 {
   padding-bottom: 3.63636%;
   background-size: 186.86869%;
   background-position: 0 9.94854%;
-  margin-top: 4px;
+  margin-top: 3px;
   margin-left: 15px;
-  min-width: 55px;
-  min-height: 35px;
+  margin-right: -4px;
+  min-width: 59px;
+  min-height: 48px;
 }
-
 /* line 97, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.id-epub {
+.indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11638,9 +11625,8 @@ h1, h2, h3, h4 {
   float: right;
   margin-left: 10px;
 }
-
 /* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.package-indesign-ess {
+.indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11657,9 +11643,8 @@ h1, h2, h3, h4 {
   min-width: 47px;
   min-height: 45px;
 }
-
 /* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.package-illustrator-ess {
+.indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11676,9 +11661,8 @@ h1, h2, h3, h4 {
   min-width: 47px;
   min-height: 45px;
 }
-
 /* line 120, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.package-photoshop-ess {
+.indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11716,7 +11700,7 @@ h1, h2, h3, h4 {
 }
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
-.indesign-ess-sprite, .id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .custom-training-small, .id-advanced, .ps-ess, .il-ess {
+.indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .custom-training-small, .indesign-course .id-advanced, .indesign-course .ps-ess, .indesign-course .il-ess {
   background-image: url('/images/training/adobe/indesign/indesign-ess-sb1d5014a32.png');
   background-repeat: no-repeat;
 }
@@ -12265,9 +12249,8 @@ h1, h2, h3, h4 {
     height: 87em;
   }
 }
-
-/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.id-essentials-framed {
+/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .id-essentials-framed {
   background-position: 0 -459px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12284,9 +12267,8 @@ h1, h2, h3, h4 {
   min-width: 55px;
   min-height: 55px;
 }
-
-/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.course-classrom {
+/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .course-classrom {
   background-position: 0 0;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12306,9 +12288,8 @@ h1, h2, h3, h4 {
   margin-top: 5px;
   margin-bottom: 24px;
 }
-
-/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.pdf {
+/* line 38, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .pdf {
   background-position: 0 -896px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12325,9 +12306,8 @@ h1, h2, h3, h4 {
   min-width: 32px;
   min-height: 32px;
 }
-
-/* line 46, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.indesign-cc-cs6 {
+/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .indesign-cc-cs6 {
   background-position: 0 -767px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12347,9 +12327,8 @@ h1, h2, h3, h4 {
   margin-right: -15px;
   margin-top: -10px;
 }
-
-/* line 56, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.custom-training-small {
+/* line 55, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .custom-training-small {
   background-position: 0 -219px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12367,9 +12346,8 @@ h1, h2, h3, h4 {
   width: 58%;
   float: right;
 }
-
-/* line 64, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.id-advanced {
+/* line 63, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .id-advanced {
   background-position: 0 -335px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12386,9 +12364,8 @@ h1, h2, h3, h4 {
   min-width: 65px;
   min-height: 63px;
 }
-
-/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.ps-ess {
+/* line 70, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .ps-ess {
   background-position: 0 -1000px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -12405,9 +12382,8 @@ h1, h2, h3, h4 {
   min-width: 50px;
   min-height: 50px;
 }
-
-/* line 78, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
-.il-ess {
+/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .il-ess {
   background-position: 0 -664px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  

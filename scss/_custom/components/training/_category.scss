@@ -96,7 +96,7 @@
     }
 
     .testimonials {
-        height: 41em;
+        height: 37em;
 
         @include testimonials($color);
     }
@@ -114,7 +114,7 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -37em;
+            margin-top: -34em;
         }
     }
 
