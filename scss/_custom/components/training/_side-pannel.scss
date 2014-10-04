@@ -32,6 +32,7 @@
 
     .training-checklist-header {
         color: $color;
+        @extend %t-emphasize;
      }
 
     th, td {
@@ -49,9 +50,14 @@
 
     table {
         margin-bottom: 1em;
+        width: 100%;
 
         .center-content {
             text-align: center;
+        }
+
+        thead, tr.even, tr.alt, tr:nth-of-type(even) {
+            background: lighten($color, 36%);
         }
     }
 
