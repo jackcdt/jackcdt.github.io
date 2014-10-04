@@ -144,6 +144,12 @@ $border-color: #2C2C2C;
     }
 
     /* Course outline - sylabus */
+    .course-outline-section {
+        @media #{$large-up} {
+            width: 63%;
+        }
+    }
+
     .course-outline-block {
         h3 {
             @include adjust-font-size-to($base-font-size, 1);
@@ -351,6 +357,12 @@ $border-color: #2C2C2C;
     }
 
     /* Side bar - custom training */
+    .lower-aside-section {
+        @media #{$large-up} {
+            width: 37%;
+        }
+    }
+
     .custom-training-promo {
         color: #fff;
         background-color: #7C7777;
