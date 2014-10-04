@@ -21,7 +21,7 @@ $border-color: #2C2C2C;
     /* General */
     [class*="block-grid-"] > li {
         padding-bottom: 0;
-        min-width: 20em;
+        min-width: 18em;
     }
 
     .nopadding {
@@ -71,6 +71,7 @@ $border-color: #2C2C2C;
         padding: 3px 5px;
         margin-bottom: $margin-bottom-default / 2;
         border: 1px solid #000;
+        width: 95%;
 
         @include adjust-font-size-to($large-font-size, 1);
         @extend %t-light;
@@ -78,6 +79,9 @@ $border-color: #2C2C2C;
 
     .course-header-1 {
         @extend .course-header;
+        @extend %t-thinnest;
+        @include adjust-font-size-to($xlarge-font-size, 1);
+
         padding: 3px 0;
         border: none;
     } 
@@ -159,6 +163,10 @@ $border-color: #2C2C2C;
     .course-column {
         min-width: 15em;
         padding-right: 15px;
+    }
+
+    .broken-column {
+        -webkit-margin-after: 0 !important;
     }
 
     /* Read more buttons */
@@ -277,6 +285,53 @@ $border-color: #2C2C2C;
         li {
             margin-top: $margin-bottom-default;
             min-width: 9em;
+        }
+
+        $color-str: $color + unquote("");
+
+        $lighter-color: lighten($color, 15%);
+        $lighter-color-str: $lighter-color + unquote("");
+
+        $box-shadow-color: lighten($color, 50%);
+        $border-color: darken($color, 15%);
+
+        .book-now {
+            -moz-box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
+            -webkit-box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
+            box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
+            background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $lighter-color), color-stop(1, $color) );
+            background:-moz-linear-gradient( center top, $lighter-color 5%, $color 100% );
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+            background-color:$lighter-color;
+            -webkit-border-top-left-radius:0px;
+            -moz-border-radius-topleft:0px;
+            border-top-left-radius:0px;
+            -webkit-border-top-right-radius:0px;
+            -moz-border-radius-topright:0px;
+            border-top-right-radius:0px;
+            -webkit-border-bottom-right-radius:0px;
+            -moz-border-radius-bottomright:0px;
+            border-bottom-right-radius:0px;
+            -webkit-border-bottom-left-radius:0px;
+            -moz-border-radius-bottomleft:0px;
+            border-bottom-left-radius:0px;
+            text-indent:0;
+            border:1px solid $border-color;
+            display:inline-block;
+            text-decoration:none;
+            text-align:center;
+            text-shadow:1px 1px 0px #707070;
+            padding: 0 10px;
+            border-radius: 4px;
+        }
+        .book-now:hover {
+            background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $color), color-stop(1, $lighter-color) );
+            background:-moz-linear-gradient( center top, $color 5%, $lighter-color 100% );
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+            background-color:$color;
+        }.book-now:active {
+            position:relative;
+            top:1px;
         }
     }
 

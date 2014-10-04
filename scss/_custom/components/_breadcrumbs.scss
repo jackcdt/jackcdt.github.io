@@ -4,6 +4,7 @@
     float: right;
 
     @extend %t-small;
+    @extend %t-emphasize;
 
     .breadcrumb-active {
         color: $color;

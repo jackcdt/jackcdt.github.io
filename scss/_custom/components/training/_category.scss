@@ -38,8 +38,12 @@
     .tight-header-1 {
         @extend .tight-header;
 
-        width: 415px;
+        width: 100%;
         margin-top: 0;
+
+        @media screen and (min-width: 480px) { 
+            width: 415px;
+        }
     }
 
     .tight-header-2 {
@@ -49,7 +53,11 @@
 
     .tight-header-3 {
         @extend .tight-header;
-        width: 435px;
+        width: 100%;
+
+        @media screen and (min-width: 480px) { 
+            width: 435px;
+        }
     }
 
     .sw-ver {
