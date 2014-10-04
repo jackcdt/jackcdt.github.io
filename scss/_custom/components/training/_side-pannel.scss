@@ -1,8 +1,10 @@
+@import "../border-radius";
+
 @mixin seminars-ad($color: #000) {
     background-color: $color;
     color: #fff;
     padding: 0 15px;
-    border-radius: 4px;
+    @include set-border-radius(4px);
     margin-bottom: $margin-bottom-default;  
 
     .seminars-ad-title {
@@ -23,9 +25,10 @@
 @mixin training-checklist($color: #000) {
     border: 1px solid $color;
 /*    background-color: #CECECE;*/
-    border-radius: 4px;
-    @extend %t-small;
     margin-bottom: $margin-bottom-default;
+
+    @include set-border-radius(4px);
+    @extend %t-small;
 
     .training-checklist-header {
         color: $color;

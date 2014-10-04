@@ -3,8 +3,9 @@
     overflow-x: hidden;
     overflow-y: scroll;
     border: solid 1px #646464;
-    border-radius: 4px;
     margin-bottom: $margin-bottom-default;
+
+    @include set-border-radius(4px);
 
     .testimonials-title {
         @extend %t-emphasize;

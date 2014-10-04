@@ -2,6 +2,7 @@
 @import "testimonials";
 @import "../read-more-btn";
 @import "../breadcrumbs";
+@import "../border-radius";
 
 $border-color: #2C2C2C;
 
@@ -219,11 +220,11 @@ $border-color: #2C2C2C;
     /* Side bar - pricing and dates*/
     .course-dates-promo {
         background-color: #D6D6D6;
-        border-radius: 4px;
         margin-bottom: $margin-bottom-default;
         max-width: 30em;
 
         @extend %t-small;
+        @include set-border-radius(4px);
     }
 
     .course-dates-city-block {
@@ -303,18 +304,6 @@ $border-color: #2C2C2C;
             background:-moz-linear-gradient( center top, $lighter-color 5%, $color 100% );
             filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
             background-color:$lighter-color;
-            -webkit-border-top-left-radius:0px;
-            -moz-border-radius-topleft:0px;
-            border-top-left-radius:0px;
-            -webkit-border-top-right-radius:0px;
-            -moz-border-radius-topright:0px;
-            border-top-right-radius:0px;
-            -webkit-border-bottom-right-radius:0px;
-            -moz-border-radius-bottomright:0px;
-            border-bottom-right-radius:0px;
-            -webkit-border-bottom-left-radius:0px;
-            -moz-border-radius-bottomleft:0px;
-            border-bottom-left-radius:0px;
             text-indent:0;
             border:1px solid $border-color;
             display:inline-block;
@@ -322,7 +311,8 @@ $border-color: #2C2C2C;
             text-align:center;
             text-shadow:1px 1px 0px #707070;
             padding: 0 10px;
-            border-radius: 4px;
+
+            @include set-border-radius(4px);
         }
         .book-now:hover {
             background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $color), color-stop(1, $lighter-color) );
@@ -347,7 +337,7 @@ $border-color: #2C2C2C;
     .book-now {
         background-color: #F442A9;
         color: #FFF;
-        text-align: center;
+        text-align: center; 
 
         @extend %t-strong;
     }
@@ -364,10 +354,11 @@ $border-color: #2C2C2C;
     .custom-training-promo {
         color: #fff;
         background-color: #7C7777;
-        border-radius: 4px;
         margin-bottom: $margin-bottom-default;
         max-width: 30em;
         padding: ($margin-bottom-default / 4);
+
+        @include set-border-radius(4px);
 
         ul {
             list-style-type: none;
