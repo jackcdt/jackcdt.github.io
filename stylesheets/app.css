@@ -11581,7 +11581,7 @@ h1, h2, h3, h4 {
   margin-top: -12px;
   margin-left: 5px;
   margin-right: -8px;
-  min-width: 66px;
+  min-width: 65px;
   min-height: 57px;
 }
 /* line 86, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
@@ -11700,7 +11700,7 @@ h1, h2, h3, h4 {
 }
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
-.indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .custom-training-small, .indesign-course .id-advanced, .indesign-course .ps-ess, .indesign-course .il-ess {
+.indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .custom-training-small, .indesign-course .id-advanced, .indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess {
   background-image: url('/images/training/adobe/indesign/indesign-ess-sb1d5014a32.png');
   background-repeat: no-repeat;
 }
@@ -12361,10 +12361,29 @@ h1, h2, h3, h4 {
   padding-bottom: 5.6%;
   background-size: 368.96552%;
   background-position: 0 34.21859%;
+  margin-top: -9px;
   min-width: 65px;
   min-height: 63px;
 }
-/* line 70, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+/* line 72, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+.indesign-course .id-essentials {
+  background-position: 0 -563px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 501.5625%;
+  background-position: 0 56.18762%;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 80, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
 .indesign-course .ps-ess {
   background-position: 0 -1000px;
   /*  
@@ -12382,7 +12401,7 @@ h1, h2, h3, h4 {
   min-width: 50px;
   min-height: 50px;
 }
-/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
+/* line 87, ../scss/_custom/training/adobe/indesign/_indesign-ess.scss */
 .indesign-course .il-ess {
   background-position: 0 -664px;
   /*  

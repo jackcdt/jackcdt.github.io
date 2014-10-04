@@ -63,8 +63,18 @@ $indesign-color: #f442a9;
     .id-advanced {
         @include indesign-ess-sprite(id-advanced); 
         @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+
+        margin-top: -9px;
         min-width: 65px;
         min-height: 63px; 
+    }
+
+    .id-essentials {
+        @include indesign-ess-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+
+        min-width: 50px;
+        min-height: 50px;    
     }
 
     .ps-ess {
