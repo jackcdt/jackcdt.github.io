@@ -1,0 +1,98 @@
+@mixin course-item($color: #000) {
+    margin-bottom: $margin-bottom-default;
+    margin-top: $margin-bottom-default / 2;
+
+    .course-item-title {
+        padding: 3px 0 0 7px;
+        text-transform: uppercase;
+        float: left !important;
+
+        @media #{$large-up} {
+            float: right;
+        }
+
+        h3 {
+            @extend %t-emphasize;
+            @include adjust-font-size-to(18px);
+
+            line-height: 1.2em;
+            color: $color;
+
+            span {
+                @extend %t-ultralight;
+            }
+        }
+    }
+
+    .course-item-header {        
+        @media #{$large-up} {
+             height: 3.5em;
+        }        
+    }
+
+    .course-item-description {
+        @extend %t-small;
+        @include adjust-leading-to(1, $base-font-size);
+
+        @media #{$large-up} {
+             height: 11em;
+        }        
+    }
+
+    .course-item-additional-data {
+        @extend %t-bold;
+    }
+
+    .day-time {
+        @include adjust-font-size-to(13px);
+    }
+
+    .course-item-info,
+    .course-book-now {
+        text-align: center;
+        margin-top: $margin-bottom-default / 2;
+        @extend %t-small;
+
+        a, a:hover, a:focus {
+            color: #fff;
+        }
+    }
+
+    .course-item-fee {
+        color: $color;
+        @extend %t-small;
+    }
+
+    .big {
+        @extend %t-medium;
+    }
+
+    .course-item-info {
+        background-color: $color;
+        min-width: 140px;
+        
+        @media #{$large-up} {
+            min-width: initial;
+        }
+    }
+
+    .course-book-now {
+        background-color: lighten($color, 25%); 
+        text-transform: uppercase;
+        min-width: 110px;
+        
+        @media #{$large-up} {
+            min-width: initial;
+        }
+    }
+}
+
+/* Negative value will push img up */
+@mixin move-logo-vertically($move-up) {
+    margin-top: $move-up;
+}
+
+/* Negative value will push img left */
+@mixin move-logo-horizontally($move-left) {
+    margin-left: $move-left;
+}

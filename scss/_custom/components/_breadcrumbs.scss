@@ -1,0 +1,27 @@
+@import "../../../bower_components/foundation/scss/foundation/components/breadcrumbs";
+
+@mixin custom-breadcrumbs($color: #000) {
+    float: right;
+
+    @extend %t-small;
+    @extend %t-emphasize;
+
+    .breadcrumb-active {
+        color: $color;
+    }
+
+    $crumb-font-transform: none;
+    $crumb-slash: ">";
+    $crumb-bg: #fff;
+    $crumb-border-size: 0;
+    $crumb-border-style: none;
+    $crumb-border-color: #fff;
+    $crumb-padding: rem-calc(0 14 6 0);
+
+    @include crumb-container;
+    @include radius($crumb-radius);
+
+    &>* {
+        @include crumbs;
+    }
+}

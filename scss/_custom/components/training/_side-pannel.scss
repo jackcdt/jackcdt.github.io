@@ -1,0 +1,79 @@
+@import "../border-radius";
+
+@mixin seminars-ad($color: #000) {
+    background-color: $color;
+    color: #fff;
+    padding: 0 15px;
+    @include set-border-radius(4px);
+    margin-bottom: $margin-bottom-default;  
+
+    .seminars-ad-title {
+        @extend %t-emphasize;
+        @extend %t-base;
+        text-transform: uppercase;
+    }
+
+    .seminars-ad-content {
+        @extend %t-small;
+    }
+
+    .read-more-btn {
+        @extend %read-more-btn;
+    }
+}
+
+@mixin training-checklist($color: #000) {
+    border: 1px solid $color;
+/*    background-color: #CECECE;*/
+    margin-bottom: $margin-bottom-default;
+
+    @include set-border-radius(4px);
+    @extend %t-small;
+
+    .training-checklist-header {
+        color: $color;
+        @extend %t-emphasize;
+     }
+
+    th, td {
+        padding: 0 0 0 10px;
+    }
+
+    td {
+        @extend %t-base;
+    }
+
+    th {
+        @extend %t-medium;
+        @extend %t-emphasize;
+    }
+
+    table {
+        margin-bottom: 1em;
+        width: 100%;
+
+        .center-content {
+            text-align: center;
+        }
+
+        thead, tr.even, tr.alt, tr:nth-of-type(even) {
+            background: lighten($color, 36%);
+        }
+    }
+
+    .note {
+        @extend %t-small;
+    }
+
+    .foot-note {
+        @extend %t-small;
+        margin-left: 10px;
+        display: block;
+    }
+
+    i {
+        color: $color;
+        @extend %t-thinnest;
+        @extend %t-medium;
+    }
+}

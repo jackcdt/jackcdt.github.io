@@ -1,0 +1,13 @@
+%read-more-btn {
+    background-color: #F8C41F;
+    border: 1px solid #AA840B;
+    padding: 0px 8px;
+    color: #000;
+    white-space: nowrap;
+    position: relative;
+    bottom: 3px;
+    margin: 4px 0;
+
+    font-size: 12px;
+    @extend %t-strong;
+}
