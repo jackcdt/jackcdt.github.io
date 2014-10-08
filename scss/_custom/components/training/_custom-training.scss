@@ -20,7 +20,15 @@
 %custom-training {
     margin-bottom: $margin-bottom-default; 
 
+    .custom-training-text-header{
+        @include adjust-font-size-to($medium-font-size, 1);
+    }
+
     .prefer-custom-training-text {
+        .custom-text{
+            @include adjust-font-size-to($small-font-size, 1);
+        }
+
         color: #fff;
         background-color: #7C7777;
         border-top-left-radius: 0;

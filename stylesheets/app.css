@@ -2240,7 +2240,7 @@ select {
     clear: both;
   }
 }
-/* line 120, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 118, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs {
   display: block;
   padding: 0 0.875rem 0.375rem 0;
@@ -2253,7 +2253,7 @@ select {
   border-color: #fff;
   border-radius: 3px;
 }
-/* line 124, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 122, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * {
   margin: 0;
   float: left;
@@ -2262,44 +2262,44 @@ select {
   text-transform: none;
   color: #008CBA;
 }
-/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
   text-decoration: underline;
 }
-/* line 72, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * a {
   color: #008CBA;
 }
-/* line 77, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
   cursor: default;
   color: #333333;
 }
-/* line 80, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current a {
   cursor: default;
   color: #333333;
 }
-/* line 85, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
   text-decoration: none;
 }
-/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.unavailable {
   color: #999999;
 }
-/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.unavailable a {
   color: #999999;
 }
-/* line 94, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
 .breadcrumbs > *.unavailable a:focus {
   text-decoration: none;
   color: #999999;
   cursor: default;
 }
-/* line 104, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:before {
   content: ">";
   color: #AAAAAA;
@@ -2307,14 +2307,14 @@ select {
   position: relative;
   top: 1px;
 }
-/* line 112, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:first-child:before {
   content: " ";
   margin: 0;
 }
 
 /* Accessibility - hides the forward slash */
-/* line 132, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 130, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/";
 }
@@ -10795,7 +10795,7 @@ html {
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
 .indesign-category .custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .course-item .course-item-fee, .indesign-category .seminars-ad .seminars-ad-content, .indesign-category .training-checklist, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .testimonials .category-testimonial, .indesign-category .part-time-options, .indesign-course .custom-breadcrumbs, .indesign-course .overview-list .course-specific, .indesign-course .course-dates-promo, .indesign-course .course-dates .date, .indesign-course .seminars-ad .seminars-ad-content, .indesign-course .testimonials .category-testimonial {
+.indesign-category .course-item .course-book-now, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .testimonials .category-testimonial, .indesign-category .part-time-options, .indesign-course .custom-breadcrumbs, .indesign-course .overview-list .course-specific, .indesign-course .course-dates-promo, .indesign-course .course-dates .date, .indesign-course .testimonials .category-testimonial {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
@@ -10966,6 +10966,11 @@ h1, h2, h3, h4 {
   margin-bottom: 24px;
 }
 /* line 23, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .custom-training-text-header {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+/* line 27, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #7C7777;
@@ -10974,26 +10979,31 @@ h1, h2, h3, h4 {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+/* line 28, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text .custom-text {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+}
 @media only screen and (max-width: 40em) {
-  /* line 23, ../scss/_custom/components/training/_custom-training.scss */
+  /* line 27, ../scss/_custom/components/training/_custom-training.scss */
   .indesign-category .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
-/* line 39, ../scss/_custom/components/training/_custom-training.scss */
+/* line 47, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 5px;
   margin-left: 8px;
   -webkit-margin-after: 0;
 }
-/* line 46, ../scss/_custom/components/training/_custom-training.scss */
+/* line 54, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   position: relative;
   left: -5px;
 }
-/* line 52, ../scss/_custom/components/training/_custom-training.scss */
+/* line 60, ../scss/_custom/components/training/_custom-training.scss */
 .indesign-category .custom-training .prefer-custom-training-text ul li {
   font-size: 12px;
   line-height: 2em;
@@ -11002,7 +11012,7 @@ h1, h2, h3, h4 {
 /* Negative value will push img up */
 /* Negative value will push img left */
 /* Accessibility - hides the forward slash */
-/* line 132, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 130, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/";
 }
@@ -11110,44 +11120,44 @@ h1, h2, h3, h4 {
   color: #008CBA;
   font-transform: none;
 }
-/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *:hover a, .indesign-category .custom-breadcrumbs > *:focus a {
   text-decoration: underline;
 }
-/* line 72, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > * a {
   color: #008CBA;
 }
-/* line 77, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.current {
   cursor: default;
   color: #333333;
 }
-/* line 80, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.current a {
   cursor: default;
   color: #333333;
 }
-/* line 85, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.current:hover, .indesign-category .custom-breadcrumbs > *.current:hover a, .indesign-category .custom-breadcrumbs > *.current:focus, .indesign-category .custom-breadcrumbs > *.current:focus a {
   text-decoration: none;
 }
-/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.unavailable {
   color: #999999;
 }
-/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.unavailable a {
   color: #999999;
 }
-/* line 94, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *.unavailable:hover, .indesign-category .custom-breadcrumbs > *.unavailable:hover a, .indesign-category .custom-breadcrumbs > *.unavailable:focus,
 .indesign-category .custom-breadcrumbs > *.unavailable a:focus {
   text-decoration: none;
   color: #999999;
   cursor: default;
 }
-/* line 104, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *:before {
   content: ">";
   color: #AAAAAA;
@@ -11155,7 +11165,7 @@ h1, h2, h3, h4 {
   position: relative;
   top: 1px;
 }
-/* line 112, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-category .custom-breadcrumbs > *:first-child:before {
   content: " ";
   margin: 0;
@@ -11350,7 +11360,15 @@ h1, h2, h3, h4 {
 }
 /* line 10, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .seminars-ad .seminars-ad-title {
+  font-size: 1em;
+  line-height: 1.5em;
   text-transform: uppercase;
+}
+/* line 17, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-category .seminars-ad .seminars-ad-content {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1.5em;
 }
 /* line 94, ../scss/_custom/components/training/_category.scss */
 .indesign-category .training-checklist {
@@ -11361,33 +11379,33 @@ h1, h2, h3, h4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
-/* line 33, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 35, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .training-checklist-header {
   color: #f442a9;
 }
-/* line 38, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 40, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist th, .indesign-category .training-checklist td {
   padding: 0 0 0 10px;
 }
-/* line 51, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 53, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table {
   margin-bottom: 1em;
   width: 100%;
 }
-/* line 55, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 57, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table .center-content {
   text-align: center;
 }
-/* line 59, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 61, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table thead, .indesign-category .training-checklist table tr.even, .indesign-category .training-checklist table tr.alt, .indesign-category .training-checklist table tr:nth-of-type(even) {
   background: #fef0f8;
 }
-/* line 68, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 70, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .foot-note {
   margin-left: 10px;
   display: block;
 }
-/* line 74, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 76, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist i {
   color: #f442a9;
 }
@@ -11407,23 +11425,25 @@ h1, h2, h3, h4 {
 .indesign-category .testimonials .testimonials-title {
   color: #f442a9;
   margin: 15px 0 20px 5px;
+  font-size: 1.25em;
+  line-height: 1.2em;
 }
-/* line 17, ../scss/_custom/components/training/_testimonials.scss */
+/* line 19, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial {
   margin: 5px 5px 25px 5px;
 }
-/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+/* line 23, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial span {
   font-family: 'Source Sans Pro', sans-serif;
   color: #f442a9;
   font-style: italic;
   display: inline;
 }
-/* line 30, ../scss/_custom/components/training/_testimonials.scss */
+/* line 32, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial-client-name {
   margin-top: 12px;
 }
-/* line 35, ../scss/_custom/components/training/_testimonials.scss */
+/* line 37, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial-course-name {
   color: #f442a9;
   margin-bottom: 36px;
@@ -11697,7 +11717,7 @@ h1, h2, h3, h4 {
 }
 
 /* Accessibility - hides the forward slash */
-/* line 132, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 130, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
   content: "/";
 }
@@ -11816,44 +11836,44 @@ h1, h2, h3, h4 {
   color: #008CBA;
   font-transform: none;
 }
-/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *:hover a, .indesign-course .custom-breadcrumbs > *:focus a {
   text-decoration: underline;
 }
-/* line 72, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > * a {
   color: #008CBA;
 }
-/* line 77, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.current {
   cursor: default;
   color: #333333;
 }
-/* line 80, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.current a {
   cursor: default;
   color: #333333;
 }
-/* line 85, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.current:hover, .indesign-course .custom-breadcrumbs > *.current:hover a, .indesign-course .custom-breadcrumbs > *.current:focus, .indesign-course .custom-breadcrumbs > *.current:focus a {
   text-decoration: none;
 }
-/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.unavailable {
   color: #999999;
 }
-/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.unavailable a {
   color: #999999;
 }
-/* line 94, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *.unavailable:hover, .indesign-course .custom-breadcrumbs > *.unavailable:hover a, .indesign-course .custom-breadcrumbs > *.unavailable:focus,
 .indesign-course .custom-breadcrumbs > *.unavailable a:focus {
   text-decoration: none;
   color: #999999;
   cursor: default;
 }
-/* line 104, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *:before {
   content: ">";
   color: #AAAAAA;
@@ -11861,7 +11881,7 @@ h1, h2, h3, h4 {
   position: relative;
   top: 1px;
 }
-/* line 112, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+/* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .indesign-course .custom-breadcrumbs > *:first-child:before {
   content: " ";
   margin: 0;
@@ -12175,7 +12195,15 @@ h1, h2, h3, h4 {
 }
 /* line 10, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-course .seminars-ad .seminars-ad-title {
+  font-size: 1em;
+  line-height: 1.5em;
   text-transform: uppercase;
+}
+/* line 17, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-course .seminars-ad .seminars-ad-content {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+  line-height: 1.5em;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 360, ../scss/_custom/components/training/_course.scss */
@@ -12235,23 +12263,25 @@ h1, h2, h3, h4 {
 .indesign-course .testimonials .testimonials-title {
   color: #f442a9;
   margin: 15px 0 20px 5px;
+  font-size: 1.25em;
+  line-height: 1.2em;
 }
-/* line 17, ../scss/_custom/components/training/_testimonials.scss */
+/* line 19, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial {
   margin: 5px 5px 25px 5px;
 }
-/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+/* line 23, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial span {
   font-family: 'Source Sans Pro', sans-serif;
   color: #f442a9;
   font-style: italic;
   display: inline;
 }
-/* line 30, ../scss/_custom/components/training/_testimonials.scss */
+/* line 32, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial-client-name {
   margin-top: 12px;
 }
-/* line 35, ../scss/_custom/components/training/_testimonials.scss */
+/* line 37, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial-course-name {
   color: #f442a9;
   margin-bottom: 36px;

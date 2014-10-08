@@ -12,6 +12,8 @@
         @extend %t-base;
         color: $color;
         margin: 15px 0 20px 5px;
+
+        @include adjust-font-size-to($medium-font-size, 1);
     }
 
     .category-testimonial {

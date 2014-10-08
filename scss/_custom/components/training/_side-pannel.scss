@@ -8,13 +8,15 @@
     margin-bottom: $margin-bottom-default;  
 
     .seminars-ad-title {
+        @include adjust-font-size-to($base-font-size, 1);
         @extend %t-emphasize;
         @extend %t-base;
         text-transform: uppercase;
     }
 
     .seminars-ad-content {
-        @extend %t-small;
+        @include adjust-font-size-to($small-font-size, 1);
+        line-height: 1.5em;
     }
 
     .read-more-btn {
