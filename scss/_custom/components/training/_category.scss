@@ -10,6 +10,10 @@
 @mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
 
+    strong {
+        @extend %t-emphasize;
+    }
+
     .custom-breadcrumbs {
         @include custom-breadcrumbs($color);
     }
@@ -68,10 +72,6 @@
     }
 
     .courses-list {
-        @media #{$large-up} { 
-            margin-top: -$margin-bottom-default;
-        }
-
         margin-bottom: $margin-bottom-default / 2;
     }
 
@@ -114,7 +114,7 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -34em;
+            margin-top: -31em;
         }
     }
 

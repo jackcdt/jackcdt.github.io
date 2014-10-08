@@ -13,7 +13,7 @@ $sprite-height: 1226px;
 
 $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
 
-$indesign-color: #f442a9;
+$indesign-color: #D1318B;
 
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
@@ -35,7 +35,7 @@ $indesign-color: #f442a9;
         @include move-logo-horizontally(15px);
 
         min-width: 38px;
-        min-height: 47px;    
+        min-height: 44px;    
     }
 
     .id-lite {
@@ -54,7 +54,7 @@ $indesign-color: #f442a9;
         @include move-logo-horizontally(2px);
 
         min-width: 49px;
-        min-height: 48px;    
+        min-height: 46px;    
     }
 
     .id-longdocuments {
@@ -64,7 +64,7 @@ $indesign-color: #f442a9;
         margin-right: -8px;
 
         min-width: 66px;
-        min-height: 49px;    
+        min-height: 47px;    
     }
 
     /* Title is too long, minimise gap */
@@ -80,7 +80,7 @@ $indesign-color: #f442a9;
         margin-right: -8px;
 
         min-width: 65px;
-        min-height: 57px;    
+        min-height: 55px;    
     }
 
     .id-accessibility {

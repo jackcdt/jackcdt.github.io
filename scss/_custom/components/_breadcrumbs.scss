@@ -23,8 +23,12 @@
     @include crumb-container;
     @include radius($crumb-radius);
 
-    &>* {
+    & > * {
         @include crumbs;
         font-transform: none; 
+    }
+
+    & > *:before {
+        top: 0;
     }
 }

@@ -25,27 +25,6 @@ $xxlarge-font-size: 48px;
 @include establish-baseline; /* "This is where the magic happens" —Everyone on MTV Cribs. */
 
 
-@mixin responsiveTypeSize($size) {
-    @if $size == "tiny" {
-        @include adjust-font-size-to($tiny-font-size);
-    }
-    @if $size == "small" {
-        @include adjust-font-size-to($small-font-size);
-    }
-    @if $size == "base" {
-        @include adjust-font-size-to($base-font-size);
-    }
-    @if $size == "medium" {
-        @include adjust-font-size-to($medium-font-size);
-    }
-    @if $size == "large" {
-        @include adjust-font-size-to($large-font-size);
-    }
-    @if $size == "xlarge" {
-        @include adjust-font-size-to($xlarge-font-size);
-    }
-}
-
 // Type weights
 
 %t-ultrastrong {
@@ -71,6 +50,27 @@ $xxlarge-font-size: 48px;
 }
 %t-thinnest {
     font-weight: 100;
+}
+
+@mixin responsiveTypeSize($size) {
+    @if $size == "tiny" {
+        @include adjust-font-size-to($tiny-font-size);
+    }
+    @if $size == "small" {
+        @include adjust-font-size-to($small-font-size);
+    }
+    @if $size == "base" {
+        @include adjust-font-size-to($base-font-size);
+    }
+    @if $size == "medium" {
+        @include adjust-font-size-to($medium-font-size);
+    }
+    @if $size == "large" {
+        @include adjust-font-size-to($large-font-size);
+    }
+    @if $size == "xlarge" {
+        @include adjust-font-size-to($xlarge-font-size);
+    }
 }
 
 // Type size variants 
