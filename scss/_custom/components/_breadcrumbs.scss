@@ -1,5 +1,15 @@
 @import "../../../bower_components/foundation/scss/foundation/components/breadcrumbs";
 
+/* The following settings updated in _settings.scss file:
+    $crumb-font-transform: none;
+    $crumb-bg: #fff;
+    $crumb-slash: ">";
+    $crumb-border-size: 0;
+    $crumb-border-style: none;
+    $crumb-border-color: #fff;
+    $crumb-padding: rem-calc(0 14 6 0);
+*/
+
 @mixin custom-breadcrumbs($color: #000) {
     float: right;
 
@@ -8,20 +18,13 @@
 
     .breadcrumb-active {
         color: $color;
-    }
-
-    $crumb-font-transform: none;
-    $crumb-slash: ">";
-    $crumb-bg: #fff;
-    $crumb-border-size: 0;
-    $crumb-border-style: none;
-    $crumb-border-color: #fff;
-    $crumb-padding: rem-calc(0 14 6 0);
-
+    } 
+ 
     @include crumb-container;
     @include radius($crumb-radius);
 
     &>* {
         @include crumbs;
+        font-transform: none; 
     }
 }
