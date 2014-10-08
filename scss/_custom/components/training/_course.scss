@@ -80,7 +80,7 @@ $border-color: #2C2C2C;
 
     .course-header-1 {
         @extend .course-header;
-        @extend %t-thinnest;
+        @extend %t-ultralight;
         @include adjust-font-size-to($xlarge-font-size, 1);
 
         padding: 3px 0;
@@ -225,7 +225,7 @@ $border-color: #2C2C2C;
 
     /* Side bar - pricing and dates*/
     .course-dates-promo {
-        background-color: #D6D6D6;
+        background-color: #DEDDDD;
         margin-bottom: $margin-bottom-default;
         max-width: 30em;
 
@@ -238,7 +238,7 @@ $border-color: #2C2C2C;
     }
 
     .course-price {
-        @extend %t-bold;
+        @extend %t-emphasize;
     }
 
     .old-price, .new-price {
