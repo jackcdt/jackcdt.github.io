@@ -11389,8 +11389,9 @@ h1, h2, h3, h4 {
   line-height: 1.5em;
   text-transform: uppercase;
   padding-top: 12px;
+  margin-bottom: 5px;
 }
-/* line 18, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 19, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .seminars-ad .seminars-ad-content {
   font-size: 0.8125em;
   line-height: 1.84615em;
@@ -11406,35 +11407,35 @@ h1, h2, h3, h4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
-/* line 38, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 39, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .training-checklist-header {
   color: #C42A7C;
 }
-/* line 43, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 44, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist th, .indesign-category .training-checklist td {
   padding: 0 0 0 10px;
 }
-/* line 56, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 57, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table {
   margin-top: 12px;
   border-top: none;
   margin-bottom: 1em;
   width: 100%;
 }
-/* line 62, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 63, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table .center-content {
   text-align: center;
 }
-/* line 66, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 67, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table thead, .indesign-category .training-checklist table tr.even, .indesign-category .training-checklist table tr.alt, .indesign-category .training-checklist table tr:nth-of-type(even) {
   background: #fcf1f7;
 }
-/* line 75, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 76, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .foot-note {
   margin-left: 10px;
   display: block;
 }
-/* line 81, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 82, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist i {
   color: #C42A7C;
 }
@@ -12309,8 +12310,9 @@ h1, h2, h3, h4 {
   line-height: 1.5em;
   text-transform: uppercase;
   padding-top: 12px;
+  margin-bottom: 5px;
 }
-/* line 18, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 19, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-course .seminars-ad .seminars-ad-content {
   font-size: 0.8125em;
   line-height: 1.84615em;
