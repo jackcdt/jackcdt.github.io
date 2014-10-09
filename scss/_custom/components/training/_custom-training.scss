@@ -30,7 +30,7 @@
         }
 
         color: #fff;
-        background-color: #7C7777;
+        background-color: #545454;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-right-radius: 4px;
@@ -42,13 +42,17 @@
 
         .custom-training-text-header {
             @extend %t-emphasize;
+            @extend %t-medium;
+
+            margin-top: $margin-bottom-default / 2;
+            margin-bottom: $margin-bottom-default / 3;
         }
 
         ul {
             list-style-type: none;
-            margin-bottom: 5px;
+            margin-bottom: $margin-bottom-default / 2;
             margin-left: $margin-bottom-default / 3;
-            -webkit-margin-after: 0;
+            -webkit-margin-after: $margin-bottom-default / 2;
         }
             
         ul li:before{ 
@@ -58,8 +62,11 @@
         }
 
         ul li {
-            font-size: 12px;
-            line-height: 2em;
+            @extend %t-small;
+
+            line-height: 1.5em;
+            margin-left: -5px;
+            margin-bottom: 3px;
         }
 
         .read-more-btn {

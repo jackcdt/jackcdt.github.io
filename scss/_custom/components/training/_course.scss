@@ -13,6 +13,10 @@ $border-color: #2C2C2C;
         @include custom-breadcrumbs($color);
     }
 
+    strong {
+        @extend %t-bold;
+    }
+
     .sw-ver {
         color: $color;
         text-decoration: underline;
@@ -23,11 +27,6 @@ $border-color: #2C2C2C;
     [class*="block-grid-"] > li {
         padding-bottom: 0;
         min-width: 18em;
-    }
-
-    .nopadding {
-        padding-left: 0;
-        padding-right: 0;
     }
 
     /* Secion borders */
@@ -317,6 +316,10 @@ $border-color: #2C2C2C;
             text-align:center;
             text-shadow:1px 1px 0px #707070;
             padding: 0 10px;
+            color: #FFF;
+            text-align: center; 
+
+            @extend %t-strong;
 
             @include set-border-radius(4px);
         }
@@ -338,14 +341,6 @@ $border-color: #2C2C2C;
         
         margin-left: -10px;
         color: $color;
-    }
-
-    .book-now {
-        background-color: #F442A9;
-        color: #FFF;
-        text-align: center; 
-
-        @extend %t-strong;
     }
 
     /* Side bar - seminars ad */

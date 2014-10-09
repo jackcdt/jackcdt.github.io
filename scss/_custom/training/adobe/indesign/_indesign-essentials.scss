@@ -13,7 +13,7 @@ $sprite-height: 1063px;
 
 $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
 
-$indesign-color: #f442a9;
+$indesign-color: #D1318B;
 
 .indesign-course {
     @include course($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color); 
@@ -28,13 +28,13 @@ $indesign-color: #f442a9;
     .course-classrom { 
         @include indesign-ess-sprite(course-classrom); 
         @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
-        width: 100%;
+        width: 100%; 
         padding-bottom: 54%;
         border: 1px solid #000;
         margin-top: 5px;
         margin-bottom: $margin-bottom-default;
     }
-
+ 
     .pdf {
         @include indesign-ess-sprite(pdf); 
         @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
