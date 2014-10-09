@@ -97,16 +97,7 @@ $banner-border-height: ($banner-height-with-border - $banner-content-height + $b
     .phone-no {
         float: right;
     }
-
-/*    span {
-        @extend %t-base;
-        @extend %t-regular;
-
-        display: block;
-        float:right;
-        margin: (($banner-border-height - $base-font-size) / 2) 242px (($banner-border-height - $base-font-size) / 2) 0;
-    }
-*/}
+}
 
 .header-banner-container {
     position: relative;

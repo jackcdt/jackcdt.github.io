@@ -28,42 +28,48 @@
         border-bottom-right-radius: 4px;
         border-bottom-left-radius: 4px; 
         top: -3px;
+        padding: 0 $margin-bottom-default / 3;
 
         @media #{$small-only} { 
             width: 65%;
         }
 
         .custom-training-text-header {
-            @extend %t-regular;
-            @extend %t-medium;
+            @extend %t-light;
+            font-size: 1.4em;
 
-            margin-top: $margin-bottom-default / 2;
-            margin-bottom: $margin-bottom-default / 3;
+            margin-top: $margin-bottom-default / 4;
+            margin-bottom: $margin-bottom-default / 4;
         }
 
         ul {
             list-style-type: none;
-            margin-bottom: $margin-bottom-default / 2;
+            margin-bottom: 10px;
             margin-left: $margin-bottom-default / 3;
-            -webkit-margin-after: $margin-bottom-default / 2;
+            -webkit-margin-after: 10px;
         }
             
         ul li:before{ 
             content:"-"; 
-            position:relative; 
-            left: -5px;
+            left: -4px;
+            position: relative;
         }
 
         ul li {
-            @extend %t-small;
+            @include adjust-font-size-to(14px, 1);
 
             line-height: 1.5em;
             margin-left: -5px;
             margin-bottom: 3px;
+
+            @extend %t-ultralight;
         }
 
         .read-more-btn {
             @extend %read-more-btn;
+            position: relative;
+            float: right;
+            left: -6px;
         }
     }
 }
