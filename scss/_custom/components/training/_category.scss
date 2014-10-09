@@ -34,8 +34,8 @@
     .tight-header {
         display: block;
         border: 1px solid #000;
-        padding: 6px 10px;
-        margin-bottom: $margin-bottom-default / 2;
+        padding: 8px 10px;
+        margin-bottom: 9px;
 
         @include adjust-font-size-to($large-font-size, 1);
         @extend %t-ultralight;
@@ -46,23 +46,26 @@
 
         width: 100%;
         margin-top: 0;
+        margin-bottom: 16px;
 
         @media screen and (min-width: 480px) { 
-            width: 415px;
+            width: 423px;
         }
     }
 
     .tight-header-2 {
         @extend .tight-header;
-        width: 270px;
+        width: 277px;
+        margin-bottom: 8px;
     }
 
     .tight-header-3 {
         @extend .tight-header;
         width: 100%;
+        margin-bottom: 10px;
 
         @media screen and (min-width: 480px) { 
-            width: 435px;
+            width: 443px;
         }
     }
 
@@ -74,7 +77,7 @@
 
     .courses-list {
         @media #{$large-up} {
-            margin-top: -3em;
+            margin-top: -1em;
         }
 
         margin-bottom: $margin-bottom-default / 2;
@@ -124,13 +127,14 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -35em;
+            margin-top: -32em;
         }
     }
 
     .promo-read-more {
         padding-left: 0;
         margin-top: $margin-bottom-default / 4;
+        margin-bottom: 30px;
     }
 
     .paragraph-header {
@@ -143,8 +147,7 @@
         @extend %t-strong;   
     }
 
-    .category-description-section,
-    .promo-read-more {
+    .category-description-section {
         margin-bottom: $margin-bottom-default;
     }
 
