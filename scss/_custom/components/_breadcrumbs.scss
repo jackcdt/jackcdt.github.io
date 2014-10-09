@@ -12,6 +12,7 @@
 
 @mixin custom-breadcrumbs($color: #000) {
     float: right;
+    margin-right: 15px;
 
     @extend %t-small;
     @extend %t-emphasize;

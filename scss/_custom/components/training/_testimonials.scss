@@ -9,15 +9,13 @@
 
     .testimonials-title {
         @extend %t-emphasize;
-        @extend %t-base;
+        @extend %t-medium;
         color: $color;
-        margin: 15px 0 20px 5px;
-
-        @include adjust-font-size-to($medium-font-size, 1);
+        margin: 12px 12px 20px 12px;
     }
 
     .category-testimonial {
-        margin: 5px 5px 25px 5px;
+        margin: 5px 12px 25px 12px;
         @extend %t-small;
 
         span {
@@ -25,7 +23,7 @@
             color: $color;
             font-style: italic;
             display: inline;
-            @extend %t-xlarge;
+            @extend %t-medium;
         }
     }
 

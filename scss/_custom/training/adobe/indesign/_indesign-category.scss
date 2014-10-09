@@ -13,7 +13,7 @@ $sprite-height: 1226px;
 
 $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
 
-$indesign-color: #D1318B;
+$indesign-color: #C42A7C;
 
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
@@ -35,7 +35,7 @@ $indesign-color: #D1318B;
         @include move-logo-horizontally(15px);
 
         min-width: 38px;
-        min-height: 44px;    
+        min-height: 45px;    
     }
 
     .id-lite {
@@ -54,7 +54,7 @@ $indesign-color: #D1318B;
         @include move-logo-horizontally(2px);
 
         min-width: 49px;
-        min-height: 46px;    
+        min-height: 48px;    
     }
 
     .id-longdocuments {
@@ -80,7 +80,7 @@ $indesign-color: #D1318B;
         margin-right: -8px;
 
         min-width: 65px;
-        min-height: 55px;    
+        min-height: 56px;    
     }
 
     .id-accessibility {

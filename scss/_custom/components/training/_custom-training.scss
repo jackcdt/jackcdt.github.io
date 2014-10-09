@@ -30,7 +30,7 @@
         }
 
         color: #fff;
-        background-color: #545454;
+        background-color: #686F74;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-right-radius: 4px;
@@ -41,7 +41,7 @@
         }
 
         .custom-training-text-header {
-            @extend %t-emphasize;
+            @extend %t-regular;
             @extend %t-medium;
 
             margin-top: $margin-bottom-default / 2;
