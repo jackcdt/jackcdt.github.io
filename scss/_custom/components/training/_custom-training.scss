@@ -10,7 +10,7 @@
 }
 
 %custom-training {
-    margin-bottom: $margin-bottom-default; 
+    margin-bottom: $margin-bottom-default * 0.6; 
 
     .custom-training-text-header{
         @include adjust-font-size-to($medium-font-size, 1);
@@ -44,9 +44,9 @@
 
         ul {
             list-style-type: none;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             margin-left: $margin-bottom-default / 3;
-            -webkit-margin-after: 10px;
+            -webkit-margin-after: 6px;
         }
             
         ul li:before{ 
@@ -67,6 +67,7 @@
 
         .read-more-btn {
             @extend %read-more-btn;
+            padding: 0 8px;
             position: relative;
             float: right;
             left: -6px; 

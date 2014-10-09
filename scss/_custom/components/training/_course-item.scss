@@ -43,10 +43,6 @@
         }        
     }
 
-    .course-item-additional-data {
-        @extend %t-bold;
-    }
-
     .day-time {
         @include adjust-font-size-to(13px);
     }
@@ -54,7 +50,10 @@
     .course-item-info,
     .course-book-now {
         text-align: center;
-        @extend %t-small;
+        font-size: 12px;
+        line-height: 1.4em;
+        padding: 4px 0;
+        @extend %t-emphasize;
         @extend .nopadding;
 
         a, a:hover, a:focus {
@@ -65,19 +64,23 @@
     .course-item-fee {
         color: $color;
         @extend %t-small;
+        @extend %t-bold;
+        margin-bottom: 2px; 
     }
 
     .big {
-        @extend %t-medium;
+        @extend %t-large;
+        line-height: 1.5em;
     }
 
     .course-item-info {
         background-color: $color;
         min-width: 110px;
-        
+        border-right: 3px solid #fff;
+
         @media #{$large-up} {
             min-width: initial;
-            width: 50%;
+            width: 48%;
         }
     }
 
@@ -88,7 +91,7 @@
         
         @media #{$large-up} {
             min-width: initial;
-            width: 37%;
+            width: 46%;
         }
     }
 }

@@ -13,13 +13,16 @@
         @extend %t-emphasize;
         @extend %t-medium;
         color: $color;
-        margin: 12px 12px 20px 12px;
+        margin: 6px 9px;
     }
 
     .category-testimonial {
-        margin: 5px 12px 25px 12px;
-        @extend %t-small;
-        line-height: 1.5em;
+        margin: 5px 10px 12px 10px;
+
+        .testimony {
+            font-size: 14px;
+            line-height: 1.5em;            
+        }
 
         span {
             font-family: 'Source Sans Pro', sans-serif;
@@ -32,13 +35,15 @@
     }
 
     .category-testimonial-client-name {
-        margin-top: $base-line-height / 2;
+        margin-top: 6px;
         @extend %t-emphasize;
+        font-size: 15px;
     }
 
     .category-testimonial-course-name {
         color: $color;
         @extend %t-emphasize;
-        margin-bottom: $base-line-height * 1.5;
+        font-size: 15px;
+        margin-bottom: 18px;
     }
 }

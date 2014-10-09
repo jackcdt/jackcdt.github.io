@@ -5,7 +5,7 @@
     color: #fff;
     padding: 0 $margin-bottom-default / 4;
     @include set-border-radius(4px);
-    margin-bottom: $margin-bottom-default;  
+    margin-bottom: $margin-bottom-default * 0.6;  
 
     .seminars-ad-title {
         @include adjust-font-size-to($base-font-size, 1);
@@ -24,13 +24,14 @@
 
     .read-more-btn {
         @extend %read-more-btn;
+        padding: 2px 8px;
     }
 }
 
 @mixin training-checklist($color: #000) {
     border: 1px solid $color;
 /*    background-color: #CECECE;*/
-    margin-bottom: $margin-bottom-default;
+    margin-bottom: $margin-bottom-default * 0.6;
 
     @include set-border-radius(4px);
 

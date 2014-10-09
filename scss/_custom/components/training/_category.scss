@@ -34,7 +34,7 @@
     .tight-header {
         display: block;
         border: 1px solid #000;
-        padding: 3px 5px;
+        padding: 6px 10px;
         margin-bottom: $margin-bottom-default / 2;
 
         @include adjust-font-size-to($large-font-size, 1);
@@ -85,7 +85,7 @@
     }
 
     .category-video {
-        margin-bottom: $margin-bottom-default;  
+        margin-bottom: $margin-bottom-default * 0.6;  
     }
 
     .custom-training {
@@ -119,6 +119,7 @@
 
     .read-more-btn {
         @extend %read-more-btn;
+        padding: 3px 8px;
     }
 
     .category-promo-section {
@@ -129,7 +130,7 @@
 
     .promo-read-more {
         padding-left: 0;
-        margin-top: $margin-bottom-default / 2;
+        margin-top: $margin-bottom-default / 4;
     }
 
     .paragraph-header {
