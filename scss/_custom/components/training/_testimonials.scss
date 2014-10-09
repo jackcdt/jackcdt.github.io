@@ -17,6 +17,7 @@
     .category-testimonial {
         margin: 5px 12px 25px 12px;
         @extend %t-small;
+        line-height: 1.5em;
 
         span {
             font-family: 'Source Sans Pro', sans-serif;
@@ -24,6 +25,7 @@
             font-style: italic;
             display: inline;
             @extend %t-medium;
+            @extend %t-bold;
         }
     }
 

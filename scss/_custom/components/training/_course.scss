@@ -1,5 +1,6 @@
 @import "banner";
 @import "testimonials";
+@import "custom-training";
 @import "../read-more-btn";
 @import "../breadcrumbs";
 @import "../border-radius";
@@ -22,7 +23,7 @@ $border-color: #2C2C2C;
         text-decoration: underline;
         @extend %t-emphasize;
     } 
-
+ 
     /* General */
     [class*="block-grid-"] > li {
         padding-bottom: 0;
@@ -100,6 +101,9 @@ $border-color: #2C2C2C;
 
     .paragraph-header-def-color {
         @include paragraph-header(#000);
+        @extend %t-regular;
+        
+        margin-bottom: $margin-bottom-default / 2;
     }
 
     /* Course overview */
@@ -355,43 +359,24 @@ $border-color: #2C2C2C;
     .lower-aside-section {
         @media #{$large-up} {
             width: 37%;
-        }
+        } 
     }
 
-    .custom-training-promo {
-        color: #fff;
-        background-color: #7C7777;
-        margin-bottom: $margin-bottom-default;
-        max-width: 30em;
-        padding: ($margin-bottom-default / 4);
+    .course-custom-training-logo {
+        @extend %custom-training-styling;
+        @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 100%);
 
-        @include set-border-radius(4px);
-
-        ul {
-            list-style-type: none;
-            margin-bottom: 5px;
-            -webkit-margin-after: 0;
+        @media #{$small-only} { 
+            @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 65%);
         }
-            
-        .custom-training-data:before{ 
-            content:"-"; 
-            position:relative; 
-            left: -5px;
+    } 
+
+    .custom-training {
+        @extend %custom-training;
+
+        .prefer-custom-training-text {
+            margin-bottom: $margin-bottom-default;
         }
-
-        .custom-training-data {
-            margin-left: -12px;
-            margin-bottom: ($margin-bottom-default / 4);
-
-            @include adjust-font-size-to($small-font-size, 1);
-            line-height: 1.5em;
-        }
-    }
-
-    .custom-training-title {
-        @extend %t-medium;
-        @extend %t-emphasize;
-        margin-bottom: $margin-bottom-default / 4;
     }
 
     /* Side bar - testimonials */

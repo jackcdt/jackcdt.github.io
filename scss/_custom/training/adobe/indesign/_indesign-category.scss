@@ -1,5 +1,5 @@
 @import "../../../components/training/category";
-
+ 
 // Create sprite using Compass
 @import "compass/utilities/sprites";
 
@@ -26,7 +26,8 @@ $indesign-color: #C42A7C;
     }
 
     .custom-training-logo {
-        @include indesign-category-sprite(custom-training);  
+        @include indesign-category-sprite(custom-training); 
+        border: 1px solid #686F74; 
     }
 
     .id-essentials {

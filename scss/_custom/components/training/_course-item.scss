@@ -16,7 +16,7 @@
         }
 
         h3 {
-            @extend %t-emphasize;
+            @extend %t-regular;
             @include adjust-font-size-to($base-font-size);
 
             line-height: 1.2em;

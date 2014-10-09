@@ -3829,13 +3829,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-ess-sb1d5014a32.png": {
+	"\/images\/training\/adobe\/indesign\/indesign-ess-sbcd3b13a9f.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 143651,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sb1d5014a32.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sb1d5014a32.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sbcd3b13a9f.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sbcd3b13a9f.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3847,17 +3858,6 @@
 		"initialSize": 46568,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/course-classrom.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/course-classrom.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/indesign\/indesign-ess\/custom-training-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7954,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/custom-training-small.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/custom-training-small.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -19,11 +19,12 @@
     }
 
     .custom-training-logo {
-        @media #{$small-only} { 
-            @include custom-training-styling($map, $map-width, $map-height, 65%);
-        }
+        @extend %custom-training-styling;
+        @include responsive-sprite($map, custom-training, $map-width, $map-height, 100%);
 
-        @include custom-training-styling($map, $map-width, $map-height, 100%);
+        @media #{$small-only} { 
+            @include responsive-sprite($map, custom-training, $map-width, $map-height, 65%);
+        }
     } 
 
     .category-description-section p {
@@ -37,7 +38,7 @@
         margin-bottom: $margin-bottom-default / 2;
 
         @include adjust-font-size-to($large-font-size, 1);
-        @extend %t-light;
+        @extend %t-ultralight;
     } 
 
     .tight-header-1 {
@@ -72,6 +73,7 @@
     }
 
     .courses-list {
+        margin-top: -3em;
         margin-bottom: $margin-bottom-default / 2;
     }
 
@@ -114,7 +116,7 @@
 
     .category-promo-section {
         @media #{$large-up} {
-            margin-top: -31em;
+            margin-top: -35em;
         }
     }
 

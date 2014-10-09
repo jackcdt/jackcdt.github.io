@@ -52,12 +52,9 @@ $indesign-color: #C42A7C;
         margin-top: -10px;
     }
 
-    .custom-training-small {
-        @include indesign-ess-sprite(custom-training-small); 
-        @include responsive-sprite($map, custom-training-small, $sprite-width, $sprite-height, 7%);
-        padding-bottom: 25%;
-        width: 58%;
-        float: right;
+    .course-custom-training-logo {
+        @include indesign-ess-sprite(class-custom-training); 
+        border: 1px solid #686F74; 
     }
 
     .id-advanced {
