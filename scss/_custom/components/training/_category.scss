@@ -73,7 +73,10 @@
     }
 
     .courses-list {
-        margin-top: -3em;
+        @media #{$large-up} {
+            margin-top: -3em;
+        }
+
         margin-bottom: $margin-bottom-default / 2;
     }
 
@@ -87,6 +90,10 @@
 
     .custom-training {
         @extend %custom-training;
+
+        @media #{$small-only} {
+            width: 75%;
+        }
     }
 
     .seminars-ad {

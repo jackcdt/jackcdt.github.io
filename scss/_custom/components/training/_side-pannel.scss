@@ -18,7 +18,7 @@
     .seminars-ad-content {
         @extend %t-light;
         @include adjust-font-size-to($small-font-size, 1);
-        line-height: 1.5em;
+        line-height: 1.6em;
         padding-bottom: $margin-bottom-default / 4;
     }
 

@@ -3,7 +3,7 @@
 @import "custom-training";
 @import "../read-more-btn";
 @import "../breadcrumbs";
-@import "../border-radius";
+@import "../border-radius"; 
 
 $border-color: #2C2C2C;
 
@@ -33,11 +33,11 @@ $border-color: #2C2C2C;
     /* Secion borders */
     .upper-row {
         border-bottom: 1px solid $border-color;
-        margin-bottom: $margin-bottom-default;
+        margin-bottom: $margin-bottom-default * 2;
     }
 
     .course-info-upper {
-        margin-bottom: $margin-bottom-default;
+        margin-bottom: $margin-bottom-default / 3;
 
         @media #{$medium-up} {
             border-right: 1px dashed $border-color;
@@ -102,7 +102,8 @@ $border-color: #2C2C2C;
     .paragraph-header-def-color {
         @include paragraph-header(#000);
         @extend %t-regular;
-        
+
+        margin-top: $margin-bottom-default;
         margin-bottom: $margin-bottom-default / 2;
     }
 
@@ -122,6 +123,10 @@ $border-color: #2C2C2C;
             content:"-"; 
             position:relative; 
             left: -10px;
+        }
+
+        ul li {
+            margin-left: -10px;
         }
 
         .to-upper {
@@ -156,7 +161,7 @@ $border-color: #2C2C2C;
     .course-outline-block {
         h3 {
             @include adjust-font-size-to($base-font-size, 1);
-            @extend %t-strong;
+            @extend %t-emphasize;
         }
 
         ul {
@@ -167,6 +172,7 @@ $border-color: #2C2C2C;
 
         ul li {
             @include adjust-font-size-to(14px, 1);
+            margin-left: -5px;
         }
     }
 
@@ -241,7 +247,7 @@ $border-color: #2C2C2C;
     }
 
     .course-price {
-        @extend %t-emphasize;
+        @extend %t-regular;
     }
 
     .old-price, .new-price {
@@ -272,7 +278,7 @@ $border-color: #2C2C2C;
 
         h3 {
             @extend %t-base;
-            @extend %t-bold;
+            @extend %t-emphasize;
         }
 
         ul {
