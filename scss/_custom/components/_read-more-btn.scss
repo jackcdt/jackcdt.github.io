@@ -1,9 +1,9 @@
 %read-more-btn {
     background-color: #FCCD39;
-    padding: 0 8px;
     color: #000;
     white-space: nowrap;
 
-    @include adjust-font-size-to(16px, 1);
+    font-size: 13px;
+    padding: 0 8px;
     @extend %t-bold;
 }

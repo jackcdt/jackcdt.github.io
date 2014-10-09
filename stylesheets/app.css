@@ -10788,7 +10788,7 @@ html {
 }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .banner-text .banner-sub-header, .indesign-category .custom-breadcrumbs, .indesign-category .sw-ver, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist th, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .custom-breadcrumbs, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name {
+.indesign-category .banner-text .banner-sub-header, .indesign-category .custom-breadcrumbs, .indesign-category .sw-ver, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .custom-breadcrumbs, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name {
   font-weight: 500;
 }
 
@@ -10798,12 +10798,12 @@ html {
 }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .seminars-ad .seminars-ad-content, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .indesign-course .seminars-ad .seminars-ad-content {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title {
   font-weight: 300;
 }
 
 /* line 48, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .course-item .course-item-title h3 span, .indesign-course .course-header-1 {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .course-item .course-item-title h3 span, .indesign-category .seminars-ad .seminars-ad-content, .indesign-course .course-header-1, .indesign-course .seminars-ad .seminars-ad-content {
   font-weight: 200;
 }
 
@@ -10814,19 +10814,19 @@ html {
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
 .indesign-category .custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .testimonials .category-testimonial, .indesign-category .part-time-options, .indesign-course .custom-breadcrumbs, .indesign-course .overview-list .course-specific, .indesign-course .course-dates-promo, .indesign-course .course-dates .date, .indesign-course .testimonials .category-testimonial {
+.indesign-category .course-item .course-book-now, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .testimonials .category-testimonial, .indesign-category .part-time-options, .indesign-course .custom-breadcrumbs, .indesign-course .overview-list .course-specific, .indesign-course .course-dates-promo, .indesign-course .course-dates .date, .indesign-course .testimonials .category-testimonial {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 
 /* line 84, ../scss/_custom/_custom-fonts.scss */
-h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .training-checklist td, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title {
+h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title {
   font-size: 1em;
   line-height: 1.5em;
 }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .indesign-category .course-item .big, .indesign-category .training-checklist th, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .indesign-category .course-item .big, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em;
 }
@@ -10953,11 +10953,10 @@ h1, h2, h3, h4 {
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn {
   background-color: #FCCD39;
-  padding: 0 8px;
   color: #000;
   white-space: nowrap;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 13px;
+  padding: 0 8px;
 }
 
 /* Mixin for styling of custom training logo, to be used on category and course pages 
@@ -11387,7 +11386,7 @@ h1, h2, h3, h4 {
 .indesign-category .seminars-ad {
   background-color: #c42a7c;
   color: #fff;
-  padding: 0 15px;
+  padding: 0 6px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -11398,15 +11397,14 @@ h1, h2, h3, h4 {
   font-size: 1em;
   line-height: 1.5em;
   text-transform: uppercase;
-  padding-top: 12px;
-  margin-bottom: 5px;
+  padding-top: 6px;
 }
-/* line 19, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 18, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .seminars-ad .seminars-ad-content {
-  font-size: 0.8125em;
-  line-height: 1.84615em;
+  font-size: 0.75em;
+  line-height: 2em;
   line-height: 1.6em;
-  padding-bottom: 6px;
+  padding-bottom: 4px;
 }
 /* line 103, ../scss/_custom/components/training/_category.scss */
 .indesign-category .training-checklist {
@@ -11417,35 +11415,39 @@ h1, h2, h3, h4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
-/* line 39, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 37, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-category .training-checklist th, .indesign-category .training-checklist td {
+  padding: 0 0 4px 5px;
+}
+/* line 41, ../scss/_custom/components/training/_side-pannel.scss */
+.indesign-category .training-checklist td {
+  font-size: 14px;
+}
+/* line 50, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .training-checklist-header {
   color: #c42a7c;
 }
-/* line 44, ../scss/_custom/components/training/_side-pannel.scss */
-.indesign-category .training-checklist th, .indesign-category .training-checklist td {
-  padding: 0 0 0 10px;
-}
-/* line 57, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 56, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table {
-  margin-top: 12px;
+  margin-top: 4px;
   border-top: none;
   margin-bottom: 1em;
   width: 100%;
 }
-/* line 63, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 62, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table .center-content {
   text-align: center;
 }
-/* line 67, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 66, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist table thead, .indesign-category .training-checklist table tr.even, .indesign-category .training-checklist table tr.alt, .indesign-category .training-checklist table tr:nth-of-type(even) {
   background: #fcf1f7;
 }
-/* line 76, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 75, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist .foot-note {
   margin-left: 10px;
   display: block;
 }
-/* line 82, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 81, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-category .training-checklist i {
   color: #c42a7c;
 }
@@ -11747,11 +11749,10 @@ h1, h2, h3, h4 {
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn {
   background-color: #FCCD39;
-  padding: 0 8px;
   color: #000;
   white-space: nowrap;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 13px;
+  padding: 0 8px;
 }
 
 /* Mixin for styling of custom training logo, to be used on category and course pages 
@@ -11832,11 +11833,10 @@ h1, h2, h3, h4 {
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn {
   background-color: #FCCD39;
-  padding: 0 8px;
   color: #000;
   white-space: nowrap;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 13px;
+  padding: 0 8px;
 }
 
 /* Accessibility - hides the forward slash */
@@ -12310,7 +12310,7 @@ h1, h2, h3, h4 {
 .indesign-course .seminars-ad {
   background-color: #c42a7c;
   color: #fff;
-  padding: 0 15px;
+  padding: 0 6px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -12323,15 +12323,14 @@ h1, h2, h3, h4 {
   font-size: 1em;
   line-height: 1.5em;
   text-transform: uppercase;
-  padding-top: 12px;
-  margin-bottom: 5px;
+  padding-top: 6px;
 }
-/* line 19, ../scss/_custom/components/training/_side-pannel.scss */
+/* line 18, ../scss/_custom/components/training/_side-pannel.scss */
 .indesign-course .seminars-ad .seminars-ad-content {
-  font-size: 0.8125em;
-  line-height: 1.84615em;
+  font-size: 0.75em;
+  line-height: 2em;
   line-height: 1.6em;
-  padding-bottom: 6px;
+  padding-bottom: 4px;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 365, ../scss/_custom/components/training/_course.scss */

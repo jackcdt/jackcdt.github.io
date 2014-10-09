@@ -3,7 +3,7 @@
 @mixin seminars-ad($color: #000) {
     background-color: $color;
     color: #fff;
-    padding: 0 15px;
+    padding: 0 $margin-bottom-default / 4;
     @include set-border-radius(4px);
     margin-bottom: $margin-bottom-default;  
 
@@ -12,15 +12,14 @@
         @extend %t-light;
         @extend %t-base;
         text-transform: uppercase;
-        padding-top: $margin-bottom-default / 2;
-        margin-bottom: 5px;
+        padding-top: $margin-bottom-default / 4;
     }
 
     .seminars-ad-content {
-        @extend %t-light;
-        @include adjust-font-size-to($small-font-size, 1);
-        line-height: 1.6em;
-        padding-bottom: $margin-bottom-default / 4;
+        @extend %t-ultralight;
+        @include adjust-font-size-to(12px, 1);
+        line-height: 1.6em; 
+        padding-bottom: $margin-bottom-default / 6;
     }
 
     .read-more-btn {
@@ -34,19 +33,13 @@
     margin-bottom: $margin-bottom-default;
 
     @include set-border-radius(4px);
-    @extend %t-small;
-
-    .training-checklist-header {
-        color: $color;
-        @extend %t-emphasize;
-     }
 
     th, td {
-        padding: 0 0 0 10px;
+        padding: 0 0 4px 5px;
     }
 
     td {
-        @extend %t-base;
+        font-size: 14px;
     }
 
     th {
@@ -54,8 +47,14 @@
         @extend %t-emphasize;
     }
 
+    .training-checklist-header {
+        color: $color;
+        @extend %t-emphasize;
+        @extend %t-medium;
+     }
+
     table {
-        margin-top: $margin-bottom-default / 2;
+        margin-top: $margin-bottom-default / 6;
         border-top: none;
         margin-bottom: 1em;
         width: 100%;
