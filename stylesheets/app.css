@@ -11031,7 +11031,6 @@ h1, h2, h3, h4 {
   padding: 0 8px;
   position: relative;
   float: right;
-  left: -6px;
 }
 
 /* Negative value will push img up */
@@ -11877,7 +11876,6 @@ h1, h2, h3, h4 {
   padding: 0 8px;
   position: relative;
   float: right;
-  left: -6px;
 }
 
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
