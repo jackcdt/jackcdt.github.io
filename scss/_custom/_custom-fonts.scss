@@ -101,14 +101,18 @@ $xxlarge-font-size: 48px;
 }
 h1 {
     @extend %t-xlarge;
+    font-family: Raleway, Helvetica, sans-serif;
 }
 h2 {
    @extend %t-large;
+   font-family: Raleway, Helvetica, sans-serif;
 }
 h3 {
    @extend %t-medium;
+   font-family: Raleway, Helvetica, sans-serif;
 }
 h4 {
     @extend %t-base;
+    font-family: Raleway, Helvetica, sans-serif;
 }
 

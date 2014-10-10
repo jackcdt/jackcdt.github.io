@@ -33,14 +33,15 @@ $border-color: #2C2C2C;
     /* Secion borders */
     .upper-row {
         border-bottom: 1px solid $border-color;
-        margin-bottom: $margin-bottom-default * 2;
+        margin-bottom: $margin-bottom-default;
     }
-
+ 
     .course-info-upper {
         margin-bottom: $margin-bottom-default / 3;
 
         @media #{$medium-up} {
             border-right: 1px dashed $border-color;
+            width: 64%;
         }
     }
 
@@ -69,7 +70,7 @@ $border-color: #2C2C2C;
     /* Headers */
     .course-header {
         display: block;
-        padding: 3px 5px;
+        padding: 6px 10px;
         margin-bottom: $margin-bottom-default / 2;
         border: 1px solid #000;
         width: 95%;
@@ -82,17 +83,21 @@ $border-color: #2C2C2C;
         @extend .course-header;
         @extend %t-ultralight;
         @include adjust-font-size-to($xlarge-font-size, 1);
+        line-height: 1.5em;
 
         padding: 3px 0;
         border: none;
+        margin-bottom: 0;
     } 
 
     .course-header-2 {
-       @extend .course-header;
-       padding: 3px 0;
-       border: none;
-       color: $color;
-       padding-left: 0;
+        @extend .course-header;
+        line-height: 1.5em;
+        padding: 3px 0;
+        border: none;
+        color: $color;
+        padding-left: 0;
+        margin-bottom: 0;
     }
 
     .paragraph-header {
@@ -103,13 +108,13 @@ $border-color: #2C2C2C;
         @include paragraph-header(#000);
         @extend %t-regular;
 
-        margin-top: $margin-bottom-default;
+        margin-top: $margin-bottom-default / 2;
         margin-bottom: $margin-bottom-default / 2;
     }
 
     /* Course overview */
     .note {
-        @include adjust-font-size-to($small-font-size, 1);
+        font-size: 12px;
     }
 
     .overview-list {
@@ -126,6 +131,7 @@ $border-color: #2C2C2C;
         }
 
         ul li {
+            @include adjust-font-size-to(14px, 1);
             margin-left: -10px;
         }
 
@@ -148,11 +154,18 @@ $border-color: #2C2C2C;
 
         .overview-list-data {
             margin-bottom: $margin-bottom-default / 4;
+
+            span {
+                @extend %t-small;
+            }
         }
     }
 
     /* Course outline - sylabus */
     .course-outline-section {
+        @media #{$medium-only} {
+            width: 57%;
+        }
         @media #{$large-up} {
             width: 63%;
         }
@@ -171,7 +184,7 @@ $border-color: #2C2C2C;
         }
 
         ul li {
-            @include adjust-font-size-to(14px, 1);
+            @extend %t-small;
             margin-left: -5px;
         }
     }
@@ -188,6 +201,7 @@ $border-color: #2C2C2C;
     /* Read more buttons */
     .read-more-btn {
         @extend %read-more-btn;
+        padding: 3px 8px;
     }
 
     /* Training packages and related courses */
@@ -233,13 +247,24 @@ $border-color: #2C2C2C;
     }
 
     /* Side bar - pricing and dates*/
+    .upper-side {
+        @media #{$medium-up} {
+            width: 36%;
+        }
+    }
+
     .course-dates-promo {
-        background-color: #DEDDDD;
+        background-color: #E5E5E5;
         margin-bottom: $margin-bottom-default;
         max-width: 30em;
+        padding-left: 10px;
+        padding-right: 10px;
 
-        @extend %t-small;
         @include set-border-radius(4px);
+
+        @media #{$small-only} {
+            width: 80%;
+        }
     }
 
     .course-dates-city-block {
@@ -251,11 +276,7 @@ $border-color: #2C2C2C;
     }
 
     .old-price, .new-price {
-        @include adjust-font-size-to($xlarge-font-size, 1);
-
-        @media #{$large-up} {
-            @include adjust-font-size-to($xxlarge-font-size, 1);
-        }
+        @extend %t-xlarge;
     }
 
     .color-specific, 
@@ -264,7 +285,8 @@ $border-color: #2C2C2C;
     }
 
     .course-length {
-        @extend %t-bold;
+        font: 14px;
+        @extend %t-emphasize;
     }
 
     .course-price-info {
@@ -363,6 +385,10 @@ $border-color: #2C2C2C;
 
     /* Side bar - custom training */
     .lower-aside-section {
+        @media #{$medium-only} {
+            width: 43%;
+        } 
+
         @media #{$large-up} {
             width: 37%;
         } 
@@ -382,7 +408,7 @@ $border-color: #2C2C2C;
         @extend %custom-training;
 
         .prefer-custom-training-text {
-            margin-bottom: $margin-bottom-default;
+            margin-bottom: 16px;
         }
     }
 
