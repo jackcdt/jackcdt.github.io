@@ -367,12 +367,16 @@ $border-color: #2C2C2C;
     }
 
     .download-text {
-        @include adjust-font-size-to($base-font-size, 1);
-        line-height: 1em;
+        font-size: 14px;
         @extend %t-bold;
+        line-height: 1em;
         
         margin-left: -10px;
         color: $color;
+
+        span {
+            @extend %t-regular;
+        }
     }
 
     /* Side bar - seminars ad */
