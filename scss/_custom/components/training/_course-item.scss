@@ -75,7 +75,7 @@
 
     .course-item-info {
         background-color: $color;
-        min-width: 110px;
+        width: 90px;
         border-right: 3px solid #fff;
 
         @media #{$large-up} {
@@ -87,8 +87,8 @@
     .course-book-now {
         background-color: lighten($color, 25%); 
         text-transform: uppercase;
-        min-width: 75px;
-        
+        width: 85px;
+
         @media #{$large-up} {
             min-width: initial;
             width: 46%;

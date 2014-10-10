@@ -372,8 +372,9 @@ $border-color: #2C2C2C;
         @extend %custom-training-styling;
         @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 100%);
 
-        @media #{$small-only} { 
-            @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 65%);
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 65%);
         }
     } 
 

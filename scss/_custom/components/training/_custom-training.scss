@@ -30,8 +30,8 @@
         top: -3px;
         padding: 0 $margin-bottom-default / 3;
 
-        @media #{$small-only} { 
-            width: 65%;
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           width: 65%;
         }
 
         .custom-training-text-header {
