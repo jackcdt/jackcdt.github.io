@@ -92,7 +92,7 @@ $border-color: #2C2C2C;
 
     .course-header-2 {
         @extend .course-header;
-        line-height: 1.5em;
+        line-height: 1em;
         padding: 3px 0;
         border: none;
         color: $color;
@@ -282,10 +282,11 @@ $border-color: #2C2C2C;
     .color-specific, 
     .course-length {
         color: $color;
+        line-height: 1em;
     }
 
     .course-length {
-        font: 14px;
+        font-size: 14px;
         @extend %t-emphasize;
     }
 
