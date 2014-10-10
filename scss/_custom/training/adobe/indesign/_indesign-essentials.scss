@@ -28,8 +28,8 @@ $indesign-color: #C42A7C;
     .course-classrom { 
         @include indesign-ess-sprite(course-classrom); 
         @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
-        width: 85%; 
-        padding-bottom: 47%;
+        width: 77%; 
+        padding-bottom: 42%;
         border: 1px solid #000;
         margin-top: 5px;
         margin-left: 12px;
