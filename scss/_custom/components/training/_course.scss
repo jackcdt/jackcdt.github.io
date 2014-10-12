@@ -9,7 +9,7 @@ $border-color: #2C2C2C;
 
 @mixin course($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
-
+ 
     .custom-breadcrumbs {
         @include custom-breadcrumbs($color);
     }
