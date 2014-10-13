@@ -122,13 +122,9 @@
     .testimonials {
         height: 23em;
 
-        @media #{$medium-only} {
-            height: 38em;
-        }
-
         @include testimonials($color);
     }
-
+ 
     .and {
         @extend %t-large;
         @extend %t-light;
@@ -183,17 +179,29 @@
         .side-pannel {
             top: -7em;
         }
+        
+        .testimonials {
+            height: 45em;
+        }
     }
 
     @media screen and (min-width: 681px) and (max-width: 780px) {
         .side-pannel {
             top: -6em;
         }
+        
+        .testimonials {
+            height: 45em;
+        }
     }
 
     @media screen and (min-width: 781px) and (max-width: 1024px) {
         .side-pannel {
             top: -1em;
+        }
+        
+        .testimonials {
+            height: 35em;
         }
     }
 }
