@@ -1,7 +1,18 @@
 <!doctype html>
 
-<!-- training/adobe/indesign/indesign-category.html -->
- 
+<!-- training/adobe/indesign/indesign-courses.html -->
+
+<!-- Support for IE 6/7 is per the following link: http://blog.mebooks.co.nz/supporting-internet-explorer-8-in-foundation-5/ 
+
+
+the use of NWMatcher to provide CSS3 selectors (for IE6 and IE7)
+the use of selectivizr to provide CSS3 pseudo-classes and attribute selectors (for IE6 and IE7)
+the use of html5shiv to provide HTML5 DOM elements (for IE6–IE8)
+the use of respond.js to provide min/max-width CSS3 Media Queries (for IE6–IE8)
+The use of CSS3 PIE to provide support for CSS3 decorations, such as rounded corners (border-radius) (for IE6–IE9)
+To support REMs, use the REM-unit-polyfill
+-->
+
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8" />
@@ -9,14 +20,28 @@
         <title>InDesign Courses | City Desktop Traininig</title>
         <link rel="stylesheet" href="../../../stylesheets/app.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
-<!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-<![endif]-->
+
+        <!--[if lt IE 8]>
+            <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+            <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+        <![endif]-->
+
+        <!-- REM-unit-polyfill is not available on a CDN, so serve locally -->
+        <!--[if lt IE 9]>
+            <link href="css/ie.css" rel="stylesheet" />
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+            <script src="js/rem.min.js"></script>
+        <![endif]-->
     </head>
     <body>
+        <!--[if lt IE 9]>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+        <![endif]-->
+        <!--[if eq IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+        <![endif]-->
         <main>
             <div class="indesign-category" itemscope itemtype="http://schema.org/Product">
                 <div class="row banner-row">
