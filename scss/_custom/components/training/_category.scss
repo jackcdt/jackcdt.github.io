@@ -122,6 +122,10 @@
     .testimonials {
         height: 23em;
 
+        @media #{$medium-only} {
+            height: 38em;
+        }
+
         @include testimonials($color);
     }
 
