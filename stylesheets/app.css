@@ -11544,17 +11544,15 @@ h4 {
 }
 /* line 55, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials::-webkit-scrollbar:vertical {
-  width: 11px;
+  width: 5px;
 }
 /* line 59, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials::-webkit-scrollbar:horizontal {
-  height: 11px;
+  height: 5px;
 }
 /* line 63, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  border: 2px solid #E4E4E4;
-  /* should match background, can't be transparent */
   background-color: rgba(140, 140, 140, 0.5);
 }
 /* line 128, ../scss/_custom/components/training/_category.scss */
@@ -12551,17 +12549,15 @@ h4 {
 }
 /* line 55, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials::-webkit-scrollbar:vertical {
-  width: 11px;
+  width: 5px;
 }
 /* line 59, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials::-webkit-scrollbar:horizontal {
-  height: 11px;
+  height: 5px;
 }
 /* line 63, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  border: 2px solid #E4E4E4;
-  /* should match background, can't be transparent */
   background-color: rgba(140, 140, 140, 0.5);
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
