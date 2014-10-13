@@ -11506,37 +11506,56 @@ h4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
-/* line 11, ../scss/_custom/components/training/_testimonials.scss */
+/* line 13, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .testimonials-title {
   color: #C42A7C;
   margin: 6px 9px;
 }
-/* line 18, ../scss/_custom/components/training/_testimonials.scss */
+/* line 20, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial {
   margin: 5px 10px 12px 10px;
 }
-/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+/* line 23, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial .testimony {
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 26, ../scss/_custom/components/training/_testimonials.scss */
+/* line 28, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial span {
   font-family: 'Source Sans Pro', sans-serif;
   color: #C42A7C;
   font-style: italic;
   display: inline;
 }
-/* line 36, ../scss/_custom/components/training/_testimonials.scss */
+/* line 38, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial-client-name {
   margin-top: 6px;
   font-size: 15px;
 }
-/* line 42, ../scss/_custom/components/training/_testimonials.scss */
+/* line 44, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-category .testimonials .category-testimonial-course-name {
   color: #C42A7C;
   font-size: 15px;
   margin-bottom: 18px;
+}
+/* line 51, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-category .testimonials::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+/* line 55, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-category .testimonials::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+/* line 59, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-category .testimonials::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+/* line 63, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-category .testimonials::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #E4E4E4;
+  /* should match background, can't be transparent */
+  background-color: rgba(140, 140, 140, 0.5);
 }
 /* line 128, ../scss/_custom/components/training/_category.scss */
 .indesign-category .testimonials::-webkit-scrollbar {
@@ -12513,37 +12532,56 @@ h4 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
-/* line 11, ../scss/_custom/components/training/_testimonials.scss */
+/* line 13, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .testimonials-title {
   color: #C42A7C;
   margin: 6px 9px;
 }
-/* line 18, ../scss/_custom/components/training/_testimonials.scss */
+/* line 20, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial {
   margin: 5px 10px 12px 10px;
 }
-/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+/* line 23, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial .testimony {
   font-size: 14px;
   line-height: 1.5em;
 }
-/* line 26, ../scss/_custom/components/training/_testimonials.scss */
+/* line 28, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial span {
   font-family: 'Source Sans Pro', sans-serif;
   color: #C42A7C;
   font-style: italic;
   display: inline;
 }
-/* line 36, ../scss/_custom/components/training/_testimonials.scss */
+/* line 38, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial-client-name {
   margin-top: 6px;
   font-size: 15px;
 }
-/* line 42, ../scss/_custom/components/training/_testimonials.scss */
+/* line 44, ../scss/_custom/components/training/_testimonials.scss */
 .indesign-course .testimonials .category-testimonial-course-name {
   color: #C42A7C;
   font-size: 15px;
   margin-bottom: 18px;
+}
+/* line 51, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-course .testimonials::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+/* line 55, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-course .testimonials::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+/* line 59, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-course .testimonials::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+/* line 63, ../scss/_custom/components/training/_testimonials.scss */
+.indesign-course .testimonials::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #E4E4E4;
+  /* should match background, can't be transparent */
+  background-color: rgba(140, 140, 140, 0.5);
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 422, ../scss/_custom/components/training/_course.scss */
