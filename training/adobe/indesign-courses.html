@@ -34,11 +34,14 @@ To support REMs, use the REM-unit-polyfill
 
         <script src="../../../bower_components/modernizr/modernizr.js"></script>
 
+        <!--        
+            Your IE8 stylesheet, see ie8-grid-support.css further below which
+            needs to be included in the ie8.css before you write any custom
+            IE8 rules (i.e. at the top of your ie8.css file). You might have
+            to change the ".row" width to match your project.
+        -->  
+              
         <!--[if lt IE 9]>
-            // Your IE8 stylesheet, see ie8-grid-support.css further below which
-            // needs to be included in the ie8.css before you write any custom
-            // IE8 rules (i.e. at the top of your ie8.css file). You might have
-            // to change the ".row" width to match your project.
             <link href="../../../stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
