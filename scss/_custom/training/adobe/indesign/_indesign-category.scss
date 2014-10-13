@@ -17,7 +17,7 @@ $indesign-color: #C42A7C;
 
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
-
+/*
     .id-essentials-framed { 
         @include indesign-category-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
@@ -68,7 +68,7 @@ $indesign-color: #C42A7C;
         min-height: 47px;    
     }
 
-    /* Title is too long, minimise gap */
+    // Title is too long, minimise gap 
     .indesign-long-docs-title {
         padding-left: 5px !important;
     }
@@ -124,4 +124,4 @@ $indesign-color: #C42A7C;
         min-width: 47px;
         min-height: 45px;    
     }
-} 
+*/} 

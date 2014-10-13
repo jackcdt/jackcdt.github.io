@@ -555,11 +555,6 @@
   width: 1000px;
 }
 
-/* line 123, ../scss/_custom/ie-support/ie-grid-support.scss */
-.id-essentials-framed {
-  background-color: #000;
-}
-
 /* line 8, ../scss/ie.scss */
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-medium,
