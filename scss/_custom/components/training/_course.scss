@@ -74,7 +74,7 @@ $border-color: #2C2C2C;
         margin-bottom: $margin-bottom-default / 2;
         border: 1px solid #000;
         width: 95%;
-        
+
         @include adjust-font-size-to($large-font-size, 1);
         @extend %t-light;
     } 
@@ -252,7 +252,7 @@ $border-color: #2C2C2C;
             width: 36%;
         }
     }
-
+ 
     .course-dates-promo {
         background-color: #E5E5E5;
         margin-bottom: $margin-bottom-default;
@@ -283,6 +283,7 @@ $border-color: #2C2C2C;
     .course-length {
         color: $color;
         line-height: 1em;
+        display: inline-block;
     }
 
     .course-length {
