@@ -124,7 +124,25 @@
 
         @include testimonials($color);
     }
+     
+    .testimonials::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
 
+    .testimonials::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+
+    .testimonials::-webkit-scrollbar:horizontal {
+        height: 11px;
+    } 
+
+    .testimonials::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid white; /* should match background, can't be transparent */
+        background-color: rgba(0, 0, 0, .5);
+    }
+ 
     .and {
         @extend %t-large;
         @extend %t-light;
