@@ -1,5 +1,7 @@
 @mixin testimonials($color: #000) {
-    background-color: #E4E4E4;
+    $bckgrnd-color: #E4E4E4;
+
+    background-color: $bckgrnd-color;
     overflow-x: hidden;
     overflow-y: auto;
 
@@ -44,5 +46,23 @@
         @extend %t-emphasize;
         font-size: 15px;
         margin-bottom: 18px;
+    }
+     
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar:vertical {
+        width: 11px;
+    }
+
+    &::-webkit-scrollbar:horizontal {
+        height: 11px;
+    } 
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid $bckgrnd-color; /* should match background, can't be transparent */
+        background-color: rgba(140, 140, 140, 0.5);
     }
 }
