@@ -1,8 +1,7 @@
 @mixin testimonials($color: #000) {
     background-color: #E4E4E4;
     overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
 
     border: solid 1px #646464;
     margin-bottom: $margin-bottom-default;
