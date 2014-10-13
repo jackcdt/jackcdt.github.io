@@ -555,6 +555,11 @@
   width: 1000px;
 }
 
+/* line 123, ../scss/_custom/ie-support/ie-grid-support.scss */
+.id-essentials-framed {
+  background: url("../../../images/training/adobe/indesign/indesign-category/id-essentials-framed.png") no-repeat 0 0;
+}
+
 /* line 8, ../scss/ie.scss */
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-medium,
