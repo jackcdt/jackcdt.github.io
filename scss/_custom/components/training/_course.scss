@@ -9,7 +9,7 @@ $border-color: #2C2C2C;
 
 @mixin course($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
-
+ 
     .custom-breadcrumbs {
         @include custom-breadcrumbs($color);
     }
@@ -252,7 +252,7 @@ $border-color: #2C2C2C;
             width: 36%;
         }
     }
-
+ 
     .course-dates-promo {
         background-color: #E5E5E5;
         margin-bottom: $margin-bottom-default;
@@ -283,6 +283,7 @@ $border-color: #2C2C2C;
     .course-length {
         color: $color;
         line-height: 1em;
+        display: inline-block;
     }
 
     .course-length {
