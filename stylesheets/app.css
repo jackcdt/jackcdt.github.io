@@ -11593,7 +11593,7 @@ h4 {
 @media screen and (min-width: 681px) and (max-width: 780px) {
   /* line 185, ../scss/_custom/components/training/_category.scss */
   .indesign-category .side-pannel {
-    top: -6em;
+    top: -7em;
   }
 }
 @media screen and (min-width: 781px) and (max-width: 1024px) {
