@@ -3,35 +3,49 @@
 <!-- training/adobe/indesign/indesign-courses.html -->
 
 <!-- Support for IE 6/7 is per the following link: http://blog.mebooks.co.nz/supporting-internet-explorer-8-in-foundation-5/ 
-
-
 the use of NWMatcher to provide CSS3 selectors (for IE6 and IE7)
 the use of selectivizr to provide CSS3 pseudo-classes and attribute selectors (for IE6 and IE7)
 the use of html5shiv to provide HTML5 DOM elements (for IE6–IE8)
 the use of respond.js to provide min/max-width CSS3 Media Queries (for IE6–IE8)
 The use of CSS3 PIE to provide support for CSS3 decorations, such as rounded corners (border-radius) (for IE6–IE9)
+http://github.com/es-shims/es5-shim/ - ECMAScript 5 compatibility shims for legacy JavaScript engines
 To support REMs, use the REM-unit-polyfill
 -->
 
-<html class="no-js" lang="en">
+<!--[if lt IE 9]> <html class="no-js lt-ie10 lt-ie9" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> 
+<html class="no-js" xmlns:fb="http://ogp.me/ns/fb#"> 
+<!--<![endif]-->
+
     <head>
         <meta charset="utf-8" />
+
+        <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. Edge mode tells Internet Explorer to display content in the highest mode available. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+        <!-- user-scalable - controls how users are allowed to zoom the page in or out -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>InDesign Courses | City Desktop Traininig</title>
         <link rel="stylesheet" href="../../../stylesheets/app.css" />
-        <script src="bower_components/modernizr/modernizr.js"></script>
 
-        <!--[if lt IE 8]>
+
+        <script src="../../../bower_components/modernizr/modernizr.js"></script>
+
+        <!--[if lt IE 9]>
+            // Your IE8 stylesheet, see ie8-grid-support.css further below which
+            // needs to be included in the ie8.css before you write any custom
+            // IE8 rules (i.e. at the top of your ie8.css file). You might have
+            // to change the ".row" width to match your project.
+            <link href="../../../stylesheets/ie.css" rel="stylesheet" /> 
+
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
             <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
             <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
-        <![endif]-->
-
-        <!-- REM-unit-polyfill is not available on a CDN, so serve locally -->
-        <!--[if lt IE 9]>
-            <link href="css/ie.css" rel="stylesheet" />
-            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
             <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-            <script src="js/rem.min.js"></script>
+            <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
         <![endif]-->
     </head>
     <body>
@@ -43,7 +57,7 @@ To support REMs, use the REM-unit-polyfill
         <!--[if eq IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
         <![endif]-->
-        
+
         <main>
             <div class="indesign-category" itemscope itemtype="http://schema.org/Product">
                 <div class="row banner-row">
@@ -505,8 +519,50 @@ To support REMs, use the REM-unit-polyfill
             </div>
         </main>
 
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
+        <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+        <script>
+            // Fix for foundation stylesheets being picked up as "null" or "not an object",
+            // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
+            (function($) {
+                if (!Foundation.stylesheet) {
+                    Foundation._style_element = $('').appendTo('head')[0];
+                    Foundation.stylesheet     = Foundation._style_element.styleSheet;
+                    
+                    if (Foundation.stylesheet) {
+                        Foundation.stylesheet.cssRules = {
+                            length: 0
+                        };
+
+                        Foundation.stylesheet.insertRule = function(rule, index) {
+                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            mediaMatch = mediaRegex.exec(rule);
+                            media      = '';
+
+                            if (mediaMatch) {
+                                media = '@media ' + mediaMatch[1] + ' ';
+                                rule  = mediaMatch[2];
+                            }
+
+                            ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            ruleMatch = ruleRegex.exec(rule);
+                            namespace = '' + media + ruleMatch[1];
+                            rule      = ruleMatch[2];
+
+                            return this.addRule(namespace, rule);
+                        };
+                    } else if (window.console) {
+                        console.log('Could not fix Foundation CSS rules…');
+                    }
+                }
+            })(jQuery);
+        </script>
+        <script src="../../../bower_components/foundation/js/foundation.min.js"></script>
+        <script src="../../../js/app.js"></script>
+
+        <!-- Support rem units in older IEs -->
+        <!--[if lt IE 9]>
+            <script src="js/rem.min.js"></script>
+        <![endif]-->
     </body>
 </html>
