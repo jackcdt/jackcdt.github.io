@@ -21,13 +21,11 @@ $indesign-color: #C42A7C;
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 55px;
         min-height: 55px;
-        display: none;
     } 
 
     .custom-training-logo {
         @include indesign-category-sprite(custom-training); 
         border: 1px solid #686F74; 
-        display: none;
     }
 
     .id-essentials {
