@@ -1,4 +1,4 @@
-@import "../../../components/training/course";
+@import "_custom/responsive-sprite";
 
 // Create sprite using Compass
 @import "compass/utilities/sprites";
@@ -16,8 +16,6 @@ $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
 $indesign-color: #C42A7C;
 
 .indesign-course {
-    @include course($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color); 
-
     .id-essentials-framed { 
         @include indesign-ess-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);

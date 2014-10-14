@@ -95,13 +95,3 @@
         }
     }
 }
-
-/* Negative value will push img up */
-@mixin move-logo-vertically($move-up) {
-    margin-top: $move-up;
-}
-
-/* Negative value will push img left */
-@mixin move-logo-horizontally($move-left) {
-    margin-left: $move-left;
-}
