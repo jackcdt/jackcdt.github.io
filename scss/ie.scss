@@ -10,7 +10,7 @@
     .show-for-small,
     .show-on-android {
         display: none !important;
-    }
+    } 
 
     .show-for-large-up,
     .hide-for-medium-down,
@@ -19,5 +19,11 @@
     }
 }
 
-// Include special styling for old IE from other pages
+
+// Include special styling for old IE  
+
+// Various components
+@import "_custom/components/training/old-ie-styles";
+
+// Page specific
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
