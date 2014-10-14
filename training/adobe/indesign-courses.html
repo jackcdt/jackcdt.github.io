@@ -36,19 +36,23 @@ To support REMs, use the REM-unit-polyfill
 
         <!--[if lt IE 9]>
             <link href="../../../stylesheets/ie.css" rel="stylesheet" /> 
-
-            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-            <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-            <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
-            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-            <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
-            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
         <![endif]-->
         <!--[if !IE]>-->
             <link href="../../../stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
     </head>
     <body>
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+            <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+            <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+            <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+        <![endif]-->
+        <!--[if eq IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+        <![endif]-->
         <main>
             <div class="indesign-category" itemscope itemtype="http://schema.org/Product">
                 <div class="row banner-row">
