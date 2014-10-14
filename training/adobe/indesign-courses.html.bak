@@ -101,7 +101,7 @@ To support REMs, use the REM-unit-polyfill
                         </div>
                     </div>
                 </div>
-                <div class="row courses-row">
+                <div class="row">
                     <div class="small-12 medium-7 large-8 columns courses-list">
                         <section>
                             <h2 class="tight-header-2">InDesign Short Courses</h2>
@@ -454,7 +454,7 @@ To support REMs, use the REM-unit-polyfill
                             </div>
                         </aside>
                     </div>
-                    <div class="small-12 large-8 large-pull-4 columns category-promo-section hide-old-ie">
+                    <div class="small-12 large-8 large-pull-4 columns category-promo-section">
 <!-- Remove for now - not relevant                        
                             <section>
                             <div class="small-12 part-time-promo">

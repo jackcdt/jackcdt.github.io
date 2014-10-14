@@ -18,12 +18,6 @@
         display: block !important;
     }
 }
- 
 
-// Include special styling for old IE  
-
-// Various components
-@import "_custom/components/training/old-ie-styles";
-
-// Page specific
+// Include special styling for old IE from other pages
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
