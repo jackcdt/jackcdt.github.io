@@ -3,6 +3,9 @@
 // Copy & paste if you're not using SASS to compile your stylesheets.
 @import "_custom/ie-support/ie-grid-support";
 
+// Include special styling for old IE from other pages
+@import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
+
 // Custom styling for IE8
 .lt-ie9 {
     .show-for-medium-down,

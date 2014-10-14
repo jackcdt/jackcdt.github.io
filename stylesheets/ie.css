@@ -555,14 +555,19 @@
   width: 1000px;
 }
 
-/* line 8, ../scss/ie.scss */
+/* line 1, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+.id-essentials-framed, .custom-training-logo {
+  display: none;
+}
+
+/* line 11, ../scss/ie.scss */
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-medium,
 .lt-ie9 .show-for-small,
 .lt-ie9 .show-on-android {
   display: none !important;
 }
-/* line 15, ../scss/ie.scss */
+/* line 18, ../scss/ie.scss */
 .lt-ie9 .show-for-large-up,
 .lt-ie9 .hide-for-medium-down,
 .lt-ie9 .hide-on-android {
