@@ -555,67 +555,21 @@
   width: 1000px;
 }
 
-/* line 8, ../scss/ie.scss */
+/* line 1, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+.id-essentials-framed, .custom-training-logo {
+  display: none;
+}
+
+/* line 11, ../scss/ie.scss */
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-medium,
 .lt-ie9 .show-for-small,
 .lt-ie9 .show-on-android {
   display: none !important;
 }
-/* line 15, ../scss/ie.scss */
+/* line 18, ../scss/ie.scss */
 .lt-ie9 .show-for-large-up,
 .lt-ie9 .hide-for-medium-down,
 .lt-ie9 .hide-on-android {
   display: block !important;
-}
-
-/* line 1, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-breadcrumbs {
-  background-color: #fff;
-  border: none;
-  border-color: #fff;
-  border-width: 0;
-}
-
-/* line 8, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-breadcrumbs > * a {
-  margin: 6px 10px;
-}
-
-/* line 1, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.hide-old-ie, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
-.id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
-  display: none;
-}
-
-/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .custom-training .prefer-custom-training-text,
-.indesign-course .custom-training .prefer-custom-training-text {
-  top: -130px;
-}
-
-/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-1 {
-  width: 436px;
-}
-
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-2 {
-  width: 283px;
-}
-
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .category-description-section {
-  padding-right: 16px;
-  margin-bottom: 0;
-}
-
-/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .courses-row {
-  margin-top: -270px;
-}
-
-/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .side-pannel {
-  margin-top: -120px;
 }

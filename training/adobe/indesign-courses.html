@@ -19,8 +19,7 @@ To support REMs, use the REM-unit-polyfill
 <!--<![endif]-->
 
     <head>
-<!--         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
- -->        <meta charset="utf-8" />
+        <meta charset="utf-8" />
 
         <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. Edge mode tells Internet Explorer to display content in the highest mode available. -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -34,9 +33,6 @@ To support REMs, use the REM-unit-polyfill
 
 
         <script src="../../../bower_components/modernizr/modernizr.js"></script>
-        <!--[if eq IE 9]>
-            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-        <![endif]-->
 
         <!--[if lt IE 9]>
             <link href="../../../stylesheets/ie.css" rel="stylesheet" /> 
@@ -47,6 +43,9 @@ To support REMs, use the REM-unit-polyfill
             <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
             <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+        <![endif]-->
+        <!--[if eq IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
         <![endif]-->
         <!--[if !IE]>-->
             <link href="../../../stylesheets/modern-browsers-styles.css" rel="stylesheet" />
@@ -102,7 +101,7 @@ To support REMs, use the REM-unit-polyfill
                         </div>
                     </div>
                 </div>
-                <div class="row courses-row">
+                <div class="row">
                     <div class="small-12 medium-7 large-8 columns courses-list">
                         <section>
                             <h2 class="tight-header-2">InDesign Short Courses</h2>
@@ -455,7 +454,7 @@ To support REMs, use the REM-unit-polyfill
                             </div>
                         </aside>
                     </div>
-                    <div class="small-12 large-8 large-pull-4 columns category-promo-section hide-old-ie">
+                    <div class="small-12 large-8 large-pull-4 columns category-promo-section">
 <!-- Remove for now - not relevant                        
                             <section>
                             <div class="small-12 part-time-promo">
