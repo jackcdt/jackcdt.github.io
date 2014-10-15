@@ -63,8 +63,8 @@ $border-color: #2C2C2C;
         margin-bottom: $margin-bottom-default / 4;
     }
 
-    .dates-block {
-        border-bottom: 1px solid $color;
+    .download-and-book {
+        border-top: 1px solid $color;
     }
 
     /* Headers */
@@ -110,6 +110,7 @@ $border-color: #2C2C2C;
 
         margin-top: $margin-bottom-default / 2;
         margin-bottom: $margin-bottom-default / 2;
+        height: 1.65em;
     }
 
     /* Course overview */

@@ -5,19 +5,25 @@
 }
 
 /* Push up the custom training to compensate for no image */
-.indesign-category .custom-training .prefer-custom-training-text {
+.indesign-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .custom-training .prefer-custom-training-text {
     top: -130px; 
-}
+    }
 
-.indesign-category .category-description-section {
-    padding-right: 16px;
-    margin-bottom: 0;
-}
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
 
-.indesign-category .courses-row {
-    margin-top: -80px;
-}
+    .courses-row {
+        margin-top: -80px;
+    }
 
-.indesign-category .side-pannel {
-    margin-top: -120px; 
+    .side-pannel {
+        margin-top: -120px; 
+    }
 }
