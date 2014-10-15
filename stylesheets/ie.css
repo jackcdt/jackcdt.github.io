@@ -641,3 +641,8 @@
 .indesign-course .overview-list {
   padding-right: 15px;
 }
+
+/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .course-header {
+  width: 250px;
+}
