@@ -250,7 +250,7 @@
 }
 
 /*empty comment*/
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials-framed {
   background-position: 0 -459px;
   /*  
@@ -268,7 +268,7 @@
   min-width: 55px;
   min-height: 55px;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-classrom {
   background-position: 0 -116px;
   /*  
@@ -289,7 +289,7 @@
   margin-top: 5px;
   margin-left: 12px;
 }
-/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 37, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .pdf {
   background-position: 0 -896px;
   /*  
@@ -308,7 +308,7 @@
   min-height: 32px;
   top: -3px;
 }
-/* line 44, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .indesign-cc-cs6 {
   background-position: 0 -767px;
   /*  
@@ -329,12 +329,12 @@
   margin-right: -15px;
   margin-top: -10px;
 }
-/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 55, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-custom-training-logo {
   background-position: 0 0;
   border: 1px solid #686F74;
 }
-/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 60, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-advanced {
   background-position: 0 -335px;
   /*  
@@ -353,7 +353,7 @@
   min-width: 65px;
   min-height: 63px;
 }
-/* line 68, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 69, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials {
   background-position: 0 -563px;
   /*  
@@ -371,7 +371,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-/* line 76, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .ps-ess {
   background-position: 0 -1000px;
   /*  
@@ -389,7 +389,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-/* line 83, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 84, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .il-ess {
   background-position: 0 -664px;
   /*  
@@ -406,4 +406,39 @@
   background-position: 0 66.4%;
   min-width: 50px;
   min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-course .book-now-btn {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-course .book-now-btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #c42a7c;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-course .book-now-btn:active {
+  position: relative;
+  top: 1px;
 }
