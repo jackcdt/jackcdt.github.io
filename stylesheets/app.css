@@ -11616,13 +11616,17 @@ h4 {
     height: 35em;
   }
 }
-/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.indesign-category .tight-header-1 {
-  width: 440px;
+@media only screen and (min-width: 40.063em) {
+  /* line 21, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+  .indesign-category .tight-header-1 {
+    width: 440px;
+  }
 }
-/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.indesign-category .tight-header-2 {
-  width: 283px;
+@media only screen and (min-width: 40.063em) {
+  /* line 27, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
+  .indesign-category .tight-header-2 {
+    width: 283px;
+  }
 }
 
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */

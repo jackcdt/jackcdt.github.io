@@ -19,10 +19,14 @@ $indesign-color: #C42A7C;
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
 
     .tight-header-1 {
-        width: 440px;
+        @media #{$medium-up} {
+            width: 440px;
+        }
     }
 
     .tight-header-2 {
-        width: 283px;
+        @media #{$medium-up} {
+            width: 283px;
+        }
     }
 } 
