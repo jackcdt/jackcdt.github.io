@@ -17,4 +17,12 @@ $indesign-color: #C42A7C;
 
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
+
+    .tight-header-1 {
+        width: 440px;
+    }
+
+    .tight-header-2 {
+        width: 283px;
+    }
 } 

@@ -587,27 +587,17 @@
 }
 
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-1 {
-  width: 440px;
-}
-
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-2 {
-  width: 283px;
-}
-
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
 }
 
-/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+/* line 16, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .courses-row {
   margin-top: -80px;
 }
 
-/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .side-pannel {
   margin-top: -120px;
 }
