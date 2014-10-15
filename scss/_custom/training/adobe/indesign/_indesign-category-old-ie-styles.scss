@@ -1,19 +1,12 @@
-.hide-old-ie, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
+/* Hide all sprites */
+.id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
 .id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
     display: none;
 }
 
-.indesign-category .custom-training .prefer-custom-training-text, 
-.indesign-course .custom-training .prefer-custom-training-text {
+/* Push up the custom training to compensate for no image */
+.indesign-category .custom-training .prefer-custom-training-text {
     top: -130px; 
-}
-
-.indesign-category .tight-header-1 {
-    width: 436px;
-}
-
-.indesign-category .tight-header-2 {
-    width: 283px;
 }
 
 .indesign-category .category-description-section {
@@ -26,5 +19,5 @@
 }
 
 .indesign-category .side-pannel {
-    margin-top: -120px;
+    margin-top: -120px; 
 }

@@ -1,0 +1,32 @@
+/* Hide all sprites */
+.course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
+.id-essentials, .ps-ess, .il-ess {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.indesign-course .lower-aside-section {
+    top: -110px; 
+    padding-left: 15px;
+}
+
+/* Push lists left */
+.indesign-course .overview-list-data li, 
+.indesign-course .course-dates-city-block .date,
+.indesign-course .course-outline-block .course-outline-list {
+    margin-left: 10px !important;
+}
+
+.indesign-course .upper-side {
+    padding-left: 15px;
+}
+
+.indesign-course .course-info-upper,
+.indesign-course .overview-list, {
+    padding-right: 15px;
+}
+
+.indesign-course .course-header {
+    width: 250px;
+}
+

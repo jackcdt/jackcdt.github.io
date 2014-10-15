@@ -569,45 +569,80 @@
   display: block !important;
 }
 
-/* line 1, ../scss/_custom/components/training/_old-ie-styles.scss */
+/* Hide problematic elements */
+/* line 2, ../scss/_custom/components/training/_old-ie-styles.scss */
+.hide-old-ie {
+  display: none;
+}
+
+/* line 6, ../scss/_custom/components/training/_old-ie-styles.scss */
 .custom-breadcrumbs > * a {
   margin: 6px 10px;
 }
 
-/* line 1, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.hide-old-ie, .id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+.id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
 .id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
   display: none;
 }
 
-/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .custom-training .prefer-custom-training-text,
-.indesign-course .custom-training .prefer-custom-training-text {
+/* Push up the custom training to compensate for no image */
+/* line 8, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+.indesign-category .custom-training .prefer-custom-training-text {
   top: -130px;
 }
 
-/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-1 {
-  width: 436px;
-}
-
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .tight-header-2 {
-  width: 283px;
-}
-
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
 }
 
-/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .courses-row {
   margin-top: -80px;
 }
 
-/* line 28, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
+/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .side-pannel {
   margin-top: -120px;
+}
+
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
+.id-essentials, .ps-ess, .il-ess {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 8, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .lower-aside-section {
+  top: -110px;
+  padding-left: 15px;
+}
+
+/* Push lists left */
+/* line 14, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .overview-list-data li,
+.indesign-course .course-dates-city-block .date,
+.indesign-course .course-outline-block .course-outline-list {
+  margin-left: 10px !important;
+}
+
+/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .upper-side {
+  padding-left: 15px;
+}
+
+/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .course-info-upper,
+.indesign-course .overview-list {
+  padding-right: 15px;
+}
+
+/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .course-header {
+  width: 250px;
 }
