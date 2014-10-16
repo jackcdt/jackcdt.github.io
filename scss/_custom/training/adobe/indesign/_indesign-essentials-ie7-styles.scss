@@ -8,6 +8,13 @@
         *display:inline;
     }
 
+    /* Move leftmost objects a bit */
+    .banner-row,
+    .course-info-upper,
+    .course-outline-section {
+        margin-left: 15px !important;
+    }
+
     .upper-side {
         width: 30% !important; 
         margin-left: 25px !important;
