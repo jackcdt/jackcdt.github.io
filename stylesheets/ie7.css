@@ -1,40 +1,41 @@
 /* line 2, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .columns {
+  margin-right: -15px;
   margin-left: -15px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-/* line 10, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .upper-side {
   width: 30% !important;
   margin-left: 25px !important;
 }
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 16, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .course-outline {
   margin-left: 15px !important;
   margin-right: -30px !important;
 }
-/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 21, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .lower-aside-section {
   width: 30% !important;
   margin-left: 30px !important;
 }
-/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .prefer-custom-training-text {
   margin-left: 2px !important;
   width: 95% !important;
 }
-/* line 30, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 31, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .package-logos-read-more {
   margin-left: 4px !important;
 }
-/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .related-course {
   margin: 0 3px !important;
 }
-/* line 38, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
 .indesign-course .book-now-btn {
   padding: 3px 5px !important;
 }
