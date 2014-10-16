@@ -576,6 +576,11 @@
 }
 
 /* line 6, ../scss/_custom/components/training/_old-ie-styles.scss */
+.banner-sub-header {
+  display: block !important;
+}
+
+/* line 10, ../scss/_custom/components/training/_old-ie-styles.scss */
 .custom-breadcrumbs {
   border: none !important;
   background-color: #fff !important;
@@ -584,7 +589,7 @@
   margin-left: 0 !important;
 }
 
-/* line 14, ../scss/_custom/components/training/_old-ie-styles.scss */
+/* line 18, ../scss/_custom/components/training/_old-ie-styles.scss */
 .custom-breadcrumbs > * a {
   margin: 6px 10px;
 }
