@@ -1,6 +1,4 @@
 .indesign-course {
-    margin-left: 15px !important;
-
     .columns{
         margin-right: -15px ;
         margin-left: -15px ;
@@ -12,7 +10,13 @@
 
     /* Move leftmost objects a bit */
     .banner-text  {
-        margin-left: 15 !important;
+        margin-left: 15px !important;
+    }
+
+    .course-info-upper,
+    .course-outline-section,
+    .page-content-header {
+        margin-left: 15px !important;
     }
 
     .upper-side {
