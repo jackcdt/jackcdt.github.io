@@ -9,7 +9,10 @@
     }
 
     /* Move leftmost objects a bit */
-    .banner-row,
+    .banner-row {
+        margin-left: 30px !important;
+    }
+
     .course-info-upper,
     .course-outline-section,
     .page-content-header {
