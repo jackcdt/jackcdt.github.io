@@ -9,7 +9,10 @@
         margin-bottom: 24px;
     }
 
-    .banner-row {
+    /* Move leftmost objects a bit */
+    .banner-row,
+    .course-info-upper,
+    .course-outline-section {
         margin-left: 15px !important;
     }
 
