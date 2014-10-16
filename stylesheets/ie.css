@@ -631,32 +631,36 @@
 .indesign-course p {
   margin-bottom: 24px;
 }
-/* line 13, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .banner-row {
+  margin-left: 15px !important;
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .lower-aside-section {
   padding-left: 15px;
 }
-/* line 18, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .overview-list-data li,
 .indesign-course .course-dates-city-block .date,
 .indesign-course .course-outline-block .course-outline-list,
 .indesign-course .download-text {
   margin-left: 10px !important;
 }
-/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .upper-side {
   padding-left: 15px;
 }
-/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 33, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .course-info-upper,
 .indesign-course .overview-list,
 .indesign-course .promo-grid li {
   padding-right: 15px;
 }
-/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .course-header {
   width: 290px;
 }
-/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn {
   display: inline-block;
   text-align: center;
@@ -666,19 +670,19 @@
   font-weight: 700;
   background-color: #C42A7C;
 }
-/* line 49, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
   background-color: #D24590;
 }
-/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 57, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .paragraph-header-def-color {
   height: 32px;
 }
-/* line 57, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .related-course {
   padding: 0 10px !important;
 }
-/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .related-course .advanced-table {
   margin-top: 24px !important;
 }
