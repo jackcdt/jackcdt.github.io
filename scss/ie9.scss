@@ -1,0 +1,7 @@
+@import "_custom/components/btn-shadow";
+
+$uniform-btn-color: #7B7B7B;
+
+.indesign-course {
+    @include btn-shadow($uniform-btn-color);
+}

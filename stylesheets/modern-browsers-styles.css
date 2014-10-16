@@ -412,8 +412,8 @@
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -425,17 +425,17 @@
   padding: 0 10px;
   color: #FFF;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:active {
