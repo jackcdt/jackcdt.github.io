@@ -9,8 +9,12 @@
     }
 
     /* Move leftmost objects a bit */
-    .banner-row {
+    .banner-text {
         margin-left: 30px !important;
+    }
+
+    .banner-sub-header {
+        display: block;
     }
 
     .course-info-upper,
