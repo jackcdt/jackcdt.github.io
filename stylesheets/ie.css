@@ -577,12 +577,14 @@
 
 /* line 6, ../scss/_custom/components/training/_old-ie-styles.scss */
 .custom-breadcrumbs {
-  border: solid 1px #fff !important;
+  border: none !important;
   background-color: #fff !important;
   float: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
-/* line 12, ../scss/_custom/components/training/_old-ie-styles.scss */
+/* line 14, ../scss/_custom/components/training/_old-ie-styles.scss */
 .custom-breadcrumbs > * a {
   margin: 6px 10px;
 }
@@ -612,16 +614,12 @@
 .indesign-category .courses-row {
   margin-top: -80px;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .side-pannel {
-  margin-top: -120px;
-}
 
 /* Hide all sprites */
 /* line 2, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
 .id-essentials, .ps-ess, .il-ess, .and {
-  display: none;
+  display: none !important;
 }
 
 /* line 7, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
@@ -635,31 +633,30 @@
 }
 /* line 13, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .lower-aside-section {
-  top: -110px;
   padding-left: 15px;
 }
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 18, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .overview-list-data li,
 .indesign-course .course-dates-city-block .date,
 .indesign-course .course-outline-block .course-outline-list,
 .indesign-course .download-text {
   margin-left: 10px !important;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .upper-side {
   padding-left: 15px;
 }
-/* line 30, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 29, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .course-info-upper,
 .indesign-course .overview-list,
 .indesign-course .promo-grid li {
   padding-right: 15px;
 }
-/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .course-header {
   width: 290px;
 }
-/* line 40, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn {
   display: inline-block;
   text-align: center;
@@ -669,17 +666,21 @@
   font-weight: 700;
   background-color: #C42A7C;
 }
-/* line 50, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 49, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
   background-color: #D24590;
 }
-/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .paragraph-header-def-color {
   height: 32px;
 }
-/* line 58, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+/* line 57, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .related-course {
-  padding: 0 10px;
+  padding: 0 10px !important;
+}
+/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
+.indesign-course .related-course .advanced-table {
+  margin-top: 24px !important;
 }
 
 /* http://stackoverflow.com/questions/12788381/making-zurbs-foundation-3-work-with-ie7

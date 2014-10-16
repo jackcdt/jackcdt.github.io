@@ -1,15 +1,38 @@
-.columns{
-    margin-right: -15px ;
-    margin-left: -15px ;
-    display:-moz-inline-stack;
-    display:inline-block;
-    zoom:1;
-    *display:inline;
-}
+.indesign-course {
+    .columns{
+        margin-right: -15px ;
+        margin-left: -15px ;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+    }
 
-.upper-side, 
-.lower-aside-section {
-    width: 30% !important;
-    margin-left: 20px !important;
-}
+    .upper-side, 
+    .lower-aside-section {
+        width: 30% !important;
+        margin-left: 20px !important;
+    }
 
+    .course-outline {
+        margin-left: 15px !important; 
+        margin-right: -30px !important; 
+    }
+
+    .lower-aside-section {
+        margin-left: 25px !important; 
+    }
+
+    .prefer-custom-training-text {
+        margin-left: 2px !important; 
+        width: 95% !important;
+    }
+
+    .package-logos-read-more {
+        margin-left: 7px !important;
+    }
+
+    .related-course {
+        margin: 0 3px !important;
+    }
+ }

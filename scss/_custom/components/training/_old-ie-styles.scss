@@ -4,12 +4,13 @@
 }
 
 .custom-breadcrumbs {
-    border: solid 1px #fff !important; 
+    border: none !important; 
     background-color:  #fff !important;
     float: left !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
 .custom-breadcrumbs > * a {
     margin: 6px 10px;
 } 
- 
