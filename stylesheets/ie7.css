@@ -1,0 +1,16 @@
+/* line 1, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+.columns {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 10, ../scss/_custom/training/adobe/indesign/_indesign-essentials-ie7-styles.scss */
+.upper-side,
+.lower-aside-section {
+  width: 30% !important;
+  margin-left: 20px !important;
+}

@@ -1,5 +1,5 @@
 /* Hide all sprites */
-.course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
+.id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
 .id-essentials, .ps-ess, .il-ess, .and {
     display: none;
 }
@@ -21,7 +21,7 @@
     .course-outline-block .course-outline-list,
     .download-text {
         margin-left: 10px !important;
-    }
+    } 
 
     .upper-side {
         padding-left: 15px;
@@ -60,3 +60,28 @@
     }
 }
   
+
+/* http://stackoverflow.com/questions/12788381/making-zurbs-foundation-3-work-with-ie7
+
+    .ie7 .columns{
+        margin-right: -15px ;
+        margin-left: -15px ;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+    }
+
+    .ie7 .row{
+        clear: both;
+        text-align: center;
+    }
+
+    .ie7 .offset-by-three {
+        margin-left:25% !important;
+    }
+    .ie7 .offset-by-seven {
+        margin-left:58.33% !important ;
+    }
+
+*/
