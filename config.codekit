@@ -3741,6 +3741,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21167,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3858,6 +3869,17 @@
 		"initialSize": 2729,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26975,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
