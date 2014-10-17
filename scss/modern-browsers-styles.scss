@@ -1,2 +1,8 @@
+// Foundation and custom styles
+@import "settings";
+@import "foundation";
+@import "custom";
+
+// Custom styles - page specific
 @import "_custom/training/adobe/indesign/indesign-category-add-styles";
 @import "_custom/training/adobe/indesign/indesign-essentials-add-styles"; 
