@@ -1,8 +1,3 @@
-// Foundation and custom styles
-@import "settings";
-@import "foundation";
-@import "custom";
-
 // Import grid support for IE8, this is SASS syntax for the
 // sake of not having to copy the file contents here.
 // Copy & paste if you're not using SASS to compile your stylesheets.
@@ -23,13 +18,6 @@
         display: block !important;
     }
 }
- 
 
-// Include special styling for old IE  
-
-// Various components
-@import "_custom/components/training/old-ie-styles";
-
-// Page specific
+// Include special styling for old IE from other pages
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
-@import "_custom/training/adobe/indesign/indesign-essentials-old-ie-styles";
