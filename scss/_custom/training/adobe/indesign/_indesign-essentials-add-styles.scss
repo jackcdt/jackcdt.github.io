@@ -6,11 +6,11 @@
  
 $indesign-ess-spacing: 40px; 
 
-@import "training/adobe/indesign/indesign-ess/*.png"; 
+@import "training/adobe/indesign/indesign-ess/*.png";  
 
 $map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
-$sprite-width: 321px;
-$sprite-height: 1063px;
+$sprite-width: 200px;
+$sprite-height: 996px;
  
 $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
   
