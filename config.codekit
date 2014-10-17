@@ -3170,6 +3170,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/bower_components\/modernizr\/min\/modernizr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/modernizr\/min\/modernizr-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/modernizr\/min\/min\/modernizr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/modernizr\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3730,17 +3741,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66711,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3858,17 +3858,6 @@
 		"initialSize": 2729,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
