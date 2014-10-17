@@ -12880,14 +12880,14 @@ h4 {
   width: 1000px;
 }
 
-/* line 8, ../scss/_ie.scss */
+/* line 13, ../scss/ie7.scss */
 .lt-ie9 .show-for-medium-down,
 .lt-ie9 .show-for-medium,
 .lt-ie9 .show-for-small,
 .lt-ie9 .show-on-android {
   display: none !important;
 }
-/* line 15, ../scss/_ie.scss */
+/* line 20, ../scss/ie7.scss */
 .lt-ie9 .show-for-large-up,
 .lt-ie9 .hide-for-medium-down,
 .lt-ie9 .hide-on-android {
