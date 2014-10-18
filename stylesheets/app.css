@@ -10792,12 +10792,12 @@ html {
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span {
+.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar h2 {
   font-weight: 400;
 }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs dd a {
   font-weight: 300;
 }
 
@@ -12446,4 +12446,39 @@ h4 {
   line-height: 0.66667em;
   line-height: 1.38em;
   margin-bottom: 24px;
+}
+/* line 19, ../scss/_custom/admin/_calendar.scss */
+.cdt-calendar .tabs dd a {
+  font-family: Raleway, Helvetica, sans-serif;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 105px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  line-height: 31px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 19, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar .tabs dd a {
+    width: 149px;
+  }
+}
+/* line 39, ../scss/_custom/admin/_calendar.scss */
+.cdt-calendar .tabs dd.active a {
+  color: #FFF;
+  background-color: #2088D1;
+}
+/* line 45, ../scss/_custom/admin/_calendar.scss */
+.cdt-calendar h2 {
+  border-bottom: 1px solid #A4A4A4;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  line-height: 1.2em;
 }
