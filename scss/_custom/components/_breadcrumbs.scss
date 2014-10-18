@@ -10,17 +10,13 @@
     $crumb-padding: rem-calc(0 14 6 0);
 */
 
-@mixin custom-breadcrumbs($color: #000) {
+.custom-breadcrumbs {
     float: right;
     margin-right: 15px;
 
     @extend %t-small;
     @extend %t-emphasize;
 
-    .breadcrumb-active {
-        color: $color;
-    } 
- 
     @include crumb-container;
     @include radius($crumb-radius);
 
@@ -33,3 +29,4 @@
         top: 0;
     }
 }
+

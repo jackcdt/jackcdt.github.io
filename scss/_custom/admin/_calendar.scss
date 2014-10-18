@@ -1,0 +1,13 @@
+@import "../components/breadcrumbs";
+@import "../components/border-radius"; 
+@import "../components/read-more-btn"; 
+ 
+.cdt-calendar {
+    h1 {
+        @extend %t-ultralight;
+        @include adjust-font-size-to(36px, 1);
+
+        line-height: 1.38em;
+        margin-bottom: $margin-bottom-default;
+    }
+}

@@ -2,9 +2,13 @@
 @import "_custom/responsive-sprite";
 @import "foundation-icons";
 @import "breakpoint/stylesheets/breakpoint";
-@import "_custom/custom-fonts"; 
+@import "_custom/custom-fonts";  
 @import "_custom/header/header";
 
 // Training Material
 @import "_custom/training/adobe/indesign/indesign-category";
 @import "_custom/training/adobe/indesign/indesign-essentials";
+
+// Admin Pages
+@import "_custom/admin/calendar";
+

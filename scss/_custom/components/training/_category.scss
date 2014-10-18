@@ -14,10 +14,6 @@
         @extend %t-bold;
     }
 
-    .custom-breadcrumbs {
-        @include custom-breadcrumbs($color);
-    }
- 
     .custom-training-logo {
         @extend %custom-training-styling;
         @include responsive-sprite($map, custom-training, $map-width, $map-height, 100%);
