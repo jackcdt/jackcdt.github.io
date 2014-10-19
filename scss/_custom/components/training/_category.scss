@@ -14,10 +14,6 @@
         @extend %t-bold;
     }
 
-    .custom-breadcrumbs {
-        @include custom-breadcrumbs($color);
-    }
- 
     .custom-training-logo {
         @extend %custom-training-styling;
         @include responsive-sprite($map, custom-training, $map-width, $map-height, 100%);
@@ -53,22 +49,24 @@
         margin-top: 0;
         margin-bottom: 16px;
 
+        /* Not supported in IE (old and above 9)
         @media #{$medium-up} {
-            width: intrinsic;           /* Safari/WebKit uses a non-standard name */
-            width: -moz-max-content;    /* Firefox/Gecko */
-            width: -webkit-max-content; /* Chrome */
-        }
+            width: intrinsic;           // Safari/WebKit uses a non-standard name 
+            width: -moz-max-content;    //Firefox/Gecko 
+            width: -webkit-max-content; // Chrome 
+        }*/
     }
 
     .tight-header-2 {
         @extend .tight-header;
         margin-bottom: 8px;
 
+        /* Not supported in IE (old and above 9)
         @media #{$medium-up} {
-            width: intrinsic;           /* Safari/WebKit uses a non-standard name */
-            width: -moz-max-content;    /* Firefox/Gecko */
-            width: -webkit-max-content; /* Chrome */
-        }
+            width: intrinsic;           // Safari/WebKit uses a non-standard name 
+            width: -moz-max-content;    //Firefox/Gecko 
+            width: -webkit-max-content; // Chrome 
+        }*/
     }
 
     .tight-header-3 {
@@ -123,7 +121,7 @@
         height: 23em;
 
         @include testimonials($color);
-    }
+    }  
  
     .and {
         @extend %t-large;
@@ -135,13 +133,13 @@
     .read-more-btn {
         @extend %read-more-btn;
         padding: 3px 8px;
-    }
+    } 
 
     .category-promo-section {
         @media #{$large-up} {
             margin-top: -18em;
-        }
-    }
+        } 
+    } 
 
     .promo-read-more {
         padding-left: 0;
@@ -170,7 +168,7 @@
     @media screen and (min-width: 640px) and (max-width: 680px) {
         .category-description-section {
             width: 55%;
-        }
+        } 
 
         .custom-training {
             width: 45%;

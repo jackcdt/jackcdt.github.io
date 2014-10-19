@@ -1,0 +1,119 @@
+@import "_custom/responsive-sprite";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+
+$indesign-category-spacing: 40px;
+
+@import "training/adobe/indesign/indesign-category/*.png"; 
+ 
+$map: sprite-map("training/adobe/indesign/indesign-category/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
+$sprite-width: 185px;
+$sprite-height: 1226px;
+
+$id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
+
+$indesign-color: #C42A7C;
+
+.indesign-category {
+    .id-essentials-framed { 
+        @include indesign-category-sprite(id-essentials-framed); 
+        @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .custom-training-logo {
+        @include indesign-category-sprite(custom-training); 
+        border: 1px solid #686F74; 
+    }
+
+    .id-essentials {
+        @include indesign-category-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .id-lite {
+        @include indesign-category-sprite(id-lite); 
+        @include responsive-sprite($map, id-lite, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .id-advanced {
+        @include indesign-category-sprite(id-advanced); 
+        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    }
+
+    .id-longdocuments {
+        @include indesign-category-sprite(id-longdocuments); 
+        @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 6%);
+        margin: 0 -8px 0 5px;
+
+        min-width: 66px;
+        min-height: 47px;    
+    }
+
+    /* Title is too long, minimise gap */
+    .indesign-long-docs-title {
+        padding-left: 5px !important;
+    }
+
+    .id-interactivity {
+        @include indesign-category-sprite(id-interactivity); 
+        @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 6%);
+        margin: -12px -8px 0 5px;
+
+        min-width: 65px;
+        min-height: 56px;    
+    }
+
+    .id-accessibility {
+        @include indesign-category-sprite(id-accessibility); 
+        @include responsive-sprite($map, id-accessibility, $sprite-width, $sprite-height, 6%);
+        margin: 3px -4px 0 15px;
+
+        min-width: 59px;
+        min-height: 48px;    
+    }
+
+    .id-epub {
+        @include indesign-category-sprite(id-epub); 
+        @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 6%);
+        min-width: 55px;
+        min-height: 72px;    
+        float: right;
+        margin-left: 10px;
+    }
+
+    .package-indesign-ess {
+        @include indesign-category-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+
+    .package-illustrator-ess {
+        @include indesign-category-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+
+    .package-photoshop-ess {
+        @include indesign-category-sprite(ps-ess); 
+        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+} 

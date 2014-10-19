@@ -1,0 +1,92 @@
+@import "_custom/responsive-sprite";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+$indesign-ess-spacing: 40px; 
+
+@import "training/adobe/indesign/indesign-ess/*.png";  
+
+$map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
+$sprite-width: 200px;
+$sprite-height: 996px;
+ 
+$id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
+  
+$indesign-color: #C42A7C;
+
+.indesign-course {
+    .id-essentials-framed { 
+        @include indesign-ess-sprite(id-essentials-framed); 
+        @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    }
+
+    .course-classrom { 
+        @include indesign-ess-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include indesign-ess-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .indesign-cc-cs6 {
+        @include indesign-ess-sprite(indesign-cc-cs6); 
+        @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
+        min-width: 115px;
+        min-height: 93px; 
+        float: right;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+
+    .course-custom-training-logo {
+        @include indesign-ess-sprite(class-custom-training); 
+        border: 1px solid #686F74; 
+    }
+
+    .id-advanced {
+        @include indesign-ess-sprite(id-advanced); 
+        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+
+        margin-top: -9px;
+        min-width: 65px;
+        min-height: 63px; 
+    }
+
+    .id-essentials {
+        @include indesign-ess-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    .ps-ess {
+        @include indesign-ess-sprite(ps-ess); 
+        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 50px;
+        min-height: 50px; 
+    }
+
+    .il-ess {
+        @include indesign-ess-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 50px;
+        min-height: 50px; 
+    }
+
+    @include btn-shadow($indesign-color);
+}

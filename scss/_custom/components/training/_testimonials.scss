@@ -4,6 +4,7 @@
     background-color: $bckgrnd-color;
     overflow-x: hidden;
     overflow-y: auto;
+/*    -webkit-overflow-scrolling: touch;*/
 
     border: solid 1px #646464;
     margin-bottom: $margin-bottom-default;
