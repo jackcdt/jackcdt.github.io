@@ -1,8 +1,26 @@
 @import "../components/breadcrumbs";
 @import "../components/border-radius"; 
 @import "../components/read-more-btn"; 
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+
+$indesign-category-spacing: 40px;
+
+@import "calendar/*.png"; 
  
+$map: sprite-map("calendar/*.png", $spacing: 40px); /*empty comment*/ 
+$sprite-width: 185px;
+$sprite-height: 76px;
+
+$calendar-color: #2088D1; 
+
 .cdt-calendar {
+    // To remove Chrome blue border on elements, use this:
+    *:focus {
+        outline:0;
+    }
+
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
     }
@@ -14,6 +32,11 @@
         line-height: 1.38em;
         margin-bottom: $margin-bottom-default;
     }
+
+    .accordion .accordion-navigation > a, .accordion dd > a {
+        background-color: #fff;
+        padding: 0;
+    } 
 
     .tabs {
         dd a {
@@ -38,17 +61,111 @@
 
         dd.active a {
             color: #FFF;
-            background-color: #2088D1;
+            background-color: $calendar-color;
         }
     }
 
-    h2 {
-        border-bottom: 1px solid #A4A4A4;
-        margin-top: 10px;
-        padding: 5px;
+    .tabs-content {
+        .content {
+            padding-top: 0;
+        }
 
-        @include adjust-font-size-to(20px, 1);
-        line-height: 1.2em;
-        @extend %t-regular;
+        h2 {
+            border-bottom: 1px solid #A4A4A4;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            padding: 5px;
+
+
+            @include adjust-font-size-to(20px, 1);
+            line-height: 1.2em;
+            @extend %t-regular;
+        }
+
+        h3 {
+            margin-top: 2px;
+            margin-bottom: 16px;
+            border-bottom: 1px dotted #dbdbdb;
+            color: $calendar-color;
+            padding-bottom: 4px;
+
+            @extend %t-base;
+            @extend %t-bold;
+        }
+
+        i {
+            float: left;
+            margin-right: 5px;
+            margin-top: 2px;
+            font-weight: 100;
+            font-size: 0.8125em;
+            color: #959595;
+            line-height: 1.7em;
+            padding-left: 5px;
+        }
     }
+
+    table { 
+        border: none;
+        border-spacing: 0px;
+
+        thead {
+            background-color: #fff;
+
+            th {
+                text-align: center;
+                color: $calendar-color;
+                padding-bottom: 2px;
+                padding-top: 0; 
+
+                @include adjust-font-size-to(14px, 1);
+                @extend %t-bold;
+            }
+
+            .location {
+                text-align: left;
+                text-transform: uppercase;
+                color: #000;
+
+                @include adjust-font-size-to(18px, 1);
+                @extend %t-strong;
+            }
+        }
+
+        tbody tr td {
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+
+        td.course-name {
+            text-align: left;
+        }
+    }
+
+    .custom-training {
+        @extend %custom-training;
+
+        .custom-training-logo {
+            @extend %custom-training-styling;
+            @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
+
+            @media screen and (min-width: 420px) and (max-width: 639px) { 
+                @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
+            }
+
+            @include calendar-sprite(calendar-custom-training); 
+            border: 1px solid #686F74; 
+        } 
+    }
+
+    .training-checklist {
+        margin-top: 14px;
+        @include training-checklist($calendar-color);
+    }
+
+    .testimonials {
+        height: 23em;
+
+        @include testimonials($calendar-color);
+    }  
 }
