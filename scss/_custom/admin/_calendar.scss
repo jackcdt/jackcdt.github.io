@@ -149,7 +149,7 @@ $calendar-color: #2088D1;
             @extend %custom-training-styling;
             @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
 
-            @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @media screen and (min-width: 420px) and (max-width: 640px) { 
                 @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
             }
 
@@ -159,7 +159,6 @@ $calendar-color: #2088D1;
     }
 
     .training-checklist {
-        margin-top: 14px;
         @include training-checklist($calendar-color);
     }
 

@@ -18,7 +18,7 @@
         @extend %custom-training-styling;
         @include responsive-sprite($map, custom-training, $map-width, $map-height, 100%);
 
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
             @include responsive-sprite($map, custom-training, $map-width, $map-height, 65%);
         }
     } 

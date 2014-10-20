@@ -366,7 +366,7 @@ $border-color: #2C2C2C;
         @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 100%);
 
  
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
            @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 65%);
         }
     } 
