@@ -132,7 +132,7 @@ $calendar-color: #2088D1;
             min-width: 5em;
         }
 
-        td.course-name {
+        td.row-name {
             text-align: left;
         }
     }
@@ -146,13 +146,19 @@ $calendar-color: #2088D1;
         .responsive tr { display: block; }
         .responsive thead tr { position: absolute; top: -9999px; left: -9999px; }
         .responsive tr { border: 1px solid #ccc; margin-bottom: 10px; }
-        .responsive td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
-        .responsive td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word; }
+        .responsive td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%;}
+        .responsive td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word;}
         .responsive tr:first-child { position: absolute; top: -9999px; left: -9999px; }
-        .responsive td:before { content: attr(data-content); height: 50px; }
+        .responsive td:before { 
+            content: attr(data-content); 
+            height: 50px; 
+            color: $calendar-color;
+            font-weight: 600;
+        }       
         .responsive td.small-padding { padding-top: 5px; padding-bottom: 5px; }
         .responsive td.medium-padding { padding-top: 15px; padding-bottom: 15px; }
         .responsive td.large-padding { padding-top: 25px; padding-bottom: 25px; }
+        .responsive .row-name {font-weight: 600;}
     }
 
     .custom-training {

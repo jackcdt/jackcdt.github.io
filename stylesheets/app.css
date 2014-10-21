@@ -12496,7 +12496,7 @@ h4 {
   min-width: 5em;
 }
 /* line 135, ../scss/_custom/admin/_calendar.scss */
-.cdt-calendar table td.course-name {
+.cdt-calendar table td.row-name {
   text-align: left;
 }
 @media screen and (max-width: 799px) {
@@ -12547,28 +12547,34 @@ h4 {
   .cdt-calendar .responsive td:before {
     content: attr(data-content);
     height: 50px;
+    color: #2088d1;
+    font-weight: 600;
   }
-  /* line 153, ../scss/_custom/admin/_calendar.scss */
+  /* line 158, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.small-padding {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  /* line 154, ../scss/_custom/admin/_calendar.scss */
+  /* line 159, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.medium-padding {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 155, ../scss/_custom/admin/_calendar.scss */
+  /* line 160, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.large-padding {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+  /* line 161, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar .responsive .row-name {
+    font-weight: 600;
+  }
 }
-/* line 161, ../scss/_custom/admin/_calendar.scss */
+/* line 167, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74;
 }
-/* line 167, ../scss/_custom/admin/_calendar.scss */
+/* line 173, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088d1;
   /*    background-color: #CECECE;*/
