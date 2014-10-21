@@ -28,7 +28,7 @@ $indesign-category-spacing: 40px;
         @include indesign-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 
-        @media screen and (min-width: 420px) and (max-width: 640px) { 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
             @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
         }
         
@@ -65,10 +65,14 @@ $indesign-category-spacing: 40px;
     .id-longdocuments {
         @include indesign-category-sprite(id-longdocuments); 
         @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 6%);
-        margin: 0 -8px 0 5px;
+        margin: 0 -10px 0 5px;
 
         min-width: 66px;
-        min-height: 47px;    
+        min-height: 47px; 
+
+        @media screen and (min-width: 640px) and (max-width: 669px) {
+            margin-top: 10px;
+        }   
     }
 
     /* Title is too long, minimise gap */

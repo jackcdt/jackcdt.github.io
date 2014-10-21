@@ -59,7 +59,7 @@ $indesign-ess-spacing: 40px;
         @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 100%);
 
  
-        @media screen and (min-width: 420px) and (max-width: 640px) { 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
            @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 65%);
         }
 

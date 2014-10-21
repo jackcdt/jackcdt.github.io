@@ -30,7 +30,7 @@ $calendar-spacing: 40px;
         @include calendar-sprite(calendar-custom-training); 
         @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
 
-        @media screen and (min-width: 420px) and (max-width: 640px) { 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
             @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
         }
 

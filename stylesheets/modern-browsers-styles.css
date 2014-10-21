@@ -53,7 +53,7 @@
   background-position: 0 0%;
   border: 1px solid #686F74;
 }
-@media screen and (min-width: 420px) and (max-width: 640px) {
+@media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 26, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .custom-training-logo {
     /*  
@@ -142,15 +142,21 @@
   padding-bottom: 5.55963%;
   background-size: 169.72477%;
   background-position: 0 81.68889%;
-  margin: 0 -8px 0 5px;
+  margin: 0 -10px 0 5px;
   min-width: 66px;
   min-height: 47px;
 }
-/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+@media screen and (min-width: 640px) and (max-width: 669px) {
+  /* line 65, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  .indesign-category .id-longdocuments {
+    margin-top: 10px;
+  }
+}
+/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 83, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
@@ -169,7 +175,7 @@
   min-width: 65px;
   min-height: 56px;
 }
-/* line 88, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 92, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
@@ -188,7 +194,7 @@
   min-width: 59px;
   min-height: 48px;
 }
-/* line 97, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 101, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
@@ -208,7 +214,7 @@
   float: right;
   margin-left: 10px;
 }
-/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 110, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
@@ -226,7 +232,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 117, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
@@ -244,7 +250,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 120, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 124, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
@@ -378,7 +384,7 @@
   background-position: 0 0%;
   border: 1px solid #686F74;
 }
-@media screen and (min-width: 420px) and (max-width: 640px) {
+@media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 56, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
   .indesign-course .course-custom-training-logo {
     /*  
@@ -473,8 +479,8 @@
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -493,10 +499,10 @@
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:active {
@@ -574,7 +580,7 @@
   background-position: 0 100%;
   border: 1px solid #686F74;
 }
-@media screen and (min-width: 420px) and (max-width: 640px) {
+@media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 28, ../scss/_custom/admin/_calendar-add-styles.scss */
   .cdt-calendar .calendar-custom-training {
     /*  
