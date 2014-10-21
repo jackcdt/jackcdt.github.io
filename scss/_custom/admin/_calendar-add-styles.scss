@@ -1,0 +1,39 @@
+@import "_custom/responsive-sprite";
+
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
+
+// Required for correct operation
+$calendar-spacing: 40px; 
+ 
+@import "admin/calendar/*.png";  
+
+.cdt-calendar {
+    $map: sprite-map("admin/calendar/*.png", $spacing: $calendar-spacing); /*empty comment*/ 
+    $sprite-width: 248px; 
+    $sprite-height: 409px; 
+
+    .book-and-pay-now { 
+        @include calendar-sprite(book-and-pay-now); 
+        @include responsive-sprite($map, book-and-pay-now, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .book-and-pay-later { 
+        @include calendar-sprite(book-and-pay-later); 
+        @include responsive-sprite($map, book-and-pay-later, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 16px;
+    } 
+
+    .calendar-custom-training { 
+        // Don't forget to change the name of the image for every page
+        @include calendar-sprite(calendar-custom-training); 
+        @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74;  
+    } 
+}

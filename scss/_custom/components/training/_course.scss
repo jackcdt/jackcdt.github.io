@@ -363,12 +363,6 @@ $border-color: #2C2C2C;
 
     .course-custom-training-logo {
         @extend %custom-training-styling;
-        @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 100%);
-
- 
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, class-custom-training, $map-width, $map-height, 65%);
-        }
     } 
 
     .custom-training {

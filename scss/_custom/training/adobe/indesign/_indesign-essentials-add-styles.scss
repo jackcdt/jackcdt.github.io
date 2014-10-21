@@ -4,19 +4,20 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
  
+// Required for correct operation
 $indesign-ess-spacing: 40px; 
 
 @import "training/adobe/indesign/indesign-ess/*.png";  
 
-$map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
-$sprite-width: 200px;
-$sprite-height: 996px;
- 
-$id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
-  
-$indesign-color: #C42A7C;
-
 .indesign-course {
+    $map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 996px;
+     
+    $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
+      
+    $indesign-color: #C42A7C;
+
     .id-essentials-framed { 
         @include indesign-ess-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
@@ -53,7 +54,15 @@ $indesign-color: #C42A7C;
     }
 
     .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
         @include indesign-ess-sprite(class-custom-training); 
+        @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
         border: 1px solid #686F74; 
     }
 

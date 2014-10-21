@@ -41,9 +41,12 @@
 
     td {
         font-size: 14px;
+        text-align: left;
     }
 
     th {
+        text-align: left;
+        
         @extend %t-medium;
         @extend %t-emphasize;
     }
