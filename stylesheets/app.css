@@ -12495,6 +12495,10 @@ h4 {
   text-align: center;
   min-width: 5em;
 }
+/* line 136, ../scss/_custom/admin/_calendar.scss */
+.cdt-calendar table td.row-name {
+  text-align: left;
+}
 @media screen and (max-width: 799px) {
   /* line 3, ../scss/_custom/components/_responsive-table.scss */
   .cdt-calendar .responsive,
@@ -12566,11 +12570,11 @@ h4 {
     font-weight: 600;
   }
 }
-/* line 142, ../scss/_custom/admin/_calendar.scss */
+/* line 146, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74;
 }
-/* line 148, ../scss/_custom/admin/_calendar.scss */
+/* line 152, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088d1;
   /*    background-color: #CECECE;*/

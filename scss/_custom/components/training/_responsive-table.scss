@@ -3,10 +3,6 @@
     .responsive {   
         display: block;
         
-        .td.row-name {
-            text-align: left;
-        }
-        
         @media screen and (max-width: 799px) { 
             thead,
             tbody,

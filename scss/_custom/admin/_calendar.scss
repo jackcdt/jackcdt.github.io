@@ -4,7 +4,7 @@
 @import "../components/responsive-table";
 
 $calendar-color: #2088D1; 
- 
+  
 .cdt-calendar {
     // To remove Chrome blue border on elements, use this:
     *:focus {
@@ -131,6 +131,10 @@ $calendar-color: #2088D1;
             border: 1px solid #dbdbdb;
             text-align: center;
             min-width: 5em;
+        }
+        
+        td.row-name {
+            text-align: left;
         }
     }
 
