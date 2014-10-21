@@ -13,6 +13,10 @@
     strong {
         @extend %t-bold;
     }
+ 
+    .breadcrumb-active {
+        color: $color;
+    } 
 
     .custom-training-logo {
         @extend %custom-training-styling;

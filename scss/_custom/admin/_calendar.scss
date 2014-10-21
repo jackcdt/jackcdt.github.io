@@ -1,6 +1,6 @@
 @import "../components/breadcrumbs";
 @import "../components/border-radius"; 
-@import "../components/read-more-btn"; 
+@import "../components/accordion-plus-minus";
 
 $calendar-color: #2088D1; 
 
@@ -82,15 +82,19 @@ $calendar-color: #2088D1;
             @extend %t-bold;
         }
 
-        i {
-            float: left;
-            margin-right: 5px;
-            margin-top: 2px;
-            font-weight: 100;
-            font-size: 0.8125em;
-            color: #959595;
-            line-height: 1.7em;
-            padding-left: 5px;
+        .accordion {
+            @include accordion-plus-minus;
+
+            .accordion-icon {
+                float: left;
+                margin-right: 5px;
+                margin-top: 2px;
+                font-weight: 100;
+                font-size: 0.8125em;
+                color: #959595;
+                line-height: 1.7em;
+                padding-left: 5px;
+            }
         }
     }
 
@@ -143,10 +147,4 @@ $calendar-color: #2088D1;
     .training-checklist {
         @include training-checklist($calendar-color);
     }
-
-    .testimonials {
-        height: 23em;
-
-        @include testimonials($calendar-color);
-    }  
 }

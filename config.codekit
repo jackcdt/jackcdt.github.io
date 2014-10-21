@@ -3651,13 +3651,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/calendar-sd1be503a92.png": {
+	"\/images\/calendar-sac40b50afb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7106,
-		"inputAbbreviatedPath": "\/images\/calendar-sd1be503a92.png",
-		"outputAbbreviatedPath": "\/images\/calendar-sd1be503a92.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/calendar-sac40b50afb.png",
+		"outputAbbreviatedPath": "\/images\/calendar-sac40b50afb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/calendar\/book-and-pay-later.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3637,
+		"inputAbbreviatedPath": "\/images\/calendar\/book-and-pay-later.png",
+		"outputAbbreviatedPath": "\/images\/calendar\/book-and-pay-later.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/calendar\/book-and-pay-now.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6731,
+		"inputAbbreviatedPath": "\/images\/calendar\/book-and-pay-now.png",
+		"outputAbbreviatedPath": "\/images\/calendar\/book-and-pay-now.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4157,6 +4179,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_calendar.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_calendar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/_accordion-plus-minus.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_accordion-plus-minus.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_accordion-plus-minus.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

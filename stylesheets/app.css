@@ -10769,13 +10769,13 @@ html {
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
-.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar table thead th, .cdt-calendar .testimonials .category-testimonial span {
+.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar table thead th {
   font-weight: 600;
 }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .indesign-category .banner-text .banner-sub-header, .indesign-category .sw-ver, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .testimonials .testimonials-title, .cdt-calendar .testimonials .category-testimonial-client-name, .cdt-calendar .testimonials .category-testimonial-course-name {
+.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header {
   font-weight: 500;
 }
 
@@ -10812,7 +10812,7 @@ h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course
 }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .cdt-calendar .testimonials .testimonials-title, .cdt-calendar .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i {
   font-size: 1.25em;
   line-height: 1.2em;
 }
@@ -11199,6 +11199,10 @@ h4 {
   line-height: 1.71429em;
 }
 /* line 17, ../scss/_custom/components/training/_category.scss */
+.indesign-category .breadcrumb-active {
+  color: #C42A7C;
+}
+/* line 21, ../scss/_custom/components/training/_category.scss */
 .indesign-category .custom-training-logo {
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11214,7 +11218,7 @@ h4 {
   background-position: 0 0%;
 }
 @media screen and (min-width: 420px) and (max-width: 640px) {
-  /* line 17, ../scss/_custom/components/training/_category.scss */
+  /* line 21, ../scss/_custom/components/training/_category.scss */
   .indesign-category .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -11231,12 +11235,12 @@ h4 {
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 30, ../scss/_custom/components/training/_category.scss */
+  /* line 34, ../scss/_custom/components/training/_category.scss */
   .indesign-category .category-description-section {
     margin-bottom: 24px;
   }
 }
-/* line 36, ../scss/_custom/components/training/_category.scss */
+/* line 40, ../scss/_custom/components/training/_category.scss */
 .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3 {
   display: block;
   border: 1px solid #000;
@@ -11245,7 +11249,7 @@ h4 {
   font-size: 1.5em;
   line-height: 1em;
 }
-/* line 46, ../scss/_custom/components/training/_category.scss */
+/* line 50, ../scss/_custom/components/training/_category.scss */
 .indesign-category .tight-header-1 {
   margin-top: 0;
   margin-bottom: 16px;
@@ -11256,7 +11260,7 @@ h4 {
       width: -webkit-max-content; // Chrome 
   }*/
 }
-/* line 60, ../scss/_custom/components/training/_category.scss */
+/* line 64, ../scss/_custom/components/training/_category.scss */
 .indesign-category .tight-header-2 {
   margin-bottom: 8px;
   /* Not supported in IE (old and above 9)
@@ -11266,33 +11270,33 @@ h4 {
       width: -webkit-max-content; // Chrome 
   }*/
 }
-/* line 72, ../scss/_custom/components/training/_category.scss */
+/* line 76, ../scss/_custom/components/training/_category.scss */
 .indesign-category .tight-header-3 {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 78, ../scss/_custom/components/training/_category.scss */
+/* line 82, ../scss/_custom/components/training/_category.scss */
 .indesign-category .sw-ver {
   color: #C42A7C;
   text-decoration: underline;
 }
-/* line 84, ../scss/_custom/components/training/_category.scss */
+/* line 88, ../scss/_custom/components/training/_category.scss */
 .indesign-category .courses-list {
   margin-bottom: 12px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 84, ../scss/_custom/components/training/_category.scss */
+  /* line 88, ../scss/_custom/components/training/_category.scss */
   .indesign-category .courses-list {
     margin-top: -1em;
   }
 }
-/* line 92, ../scss/_custom/components/training/_category.scss */
+/* line 96, ../scss/_custom/components/training/_category.scss */
 .indesign-category .course-item {
   margin-bottom: 24px;
   margin-top: 12px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 92, ../scss/_custom/components/training/_category.scss */
+  /* line 96, ../scss/_custom/components/training/_category.scss */
   .indesign-category .course-item {
     width: 93%;
   }
@@ -11387,23 +11391,23 @@ h4 {
     width: 46%;
   }
 }
-/* line 96, ../scss/_custom/components/training/_category.scss */
+/* line 100, ../scss/_custom/components/training/_category.scss */
 .indesign-category .category-video {
   margin-bottom: 14.4px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 100, ../scss/_custom/components/training/_category.scss */
+  /* line 104, ../scss/_custom/components/training/_category.scss */
   .indesign-category .custom-training {
     margin-bottom: 36px !important;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 100, ../scss/_custom/components/training/_category.scss */
+  /* line 104, ../scss/_custom/components/training/_category.scss */
   .indesign-category .custom-training {
     margin-bottom: 36px !important;
   }
 }
-/* line 112, ../scss/_custom/components/training/_category.scss */
+/* line 116, ../scss/_custom/components/training/_category.scss */
 .indesign-category .seminars-ad {
   background-color: #C42A7C;
   color: #fff;
@@ -11431,7 +11435,7 @@ h4 {
 .indesign-category .seminars-ad .read-more-btn {
   padding: 2px 8px;
 }
-/* line 116, ../scss/_custom/components/training/_category.scss */
+/* line 120, ../scss/_custom/components/training/_category.scss */
 .indesign-category .training-checklist {
   border: 1px solid #C42A7C;
   /*    background-color: #CECECE;*/
@@ -11481,7 +11485,7 @@ h4 {
 .indesign-category .training-checklist i {
   color: #C42A7C;
 }
-/* line 120, ../scss/_custom/components/training/_category.scss */
+/* line 124, ../scss/_custom/components/training/_category.scss */
 .indesign-category .testimonials {
   height: 23em;
   background-color: #E4E4E4;
@@ -11540,78 +11544,78 @@ h4 {
   border-radius: 8px;
   background-color: rgba(140, 140, 140, 0.5);
 }
-/* line 126, ../scss/_custom/components/training/_category.scss */
+/* line 130, ../scss/_custom/components/training/_category.scss */
 .indesign-category .and {
   text-align: center;
   width: 38px;
 }
-/* line 133, ../scss/_custom/components/training/_category.scss */
+/* line 137, ../scss/_custom/components/training/_category.scss */
 .indesign-category .read-more-btn {
   padding: 3px 8px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 138, ../scss/_custom/components/training/_category.scss */
+  /* line 142, ../scss/_custom/components/training/_category.scss */
   .indesign-category .category-promo-section {
     margin-top: -18em;
   }
 }
-/* line 144, ../scss/_custom/components/training/_category.scss */
+/* line 148, ../scss/_custom/components/training/_category.scss */
 .indesign-category .promo-read-more {
   padding-left: 0;
   margin-top: 6px;
   margin-bottom: 30px;
 }
-/* line 150, ../scss/_custom/components/training/_category.scss */
+/* line 154, ../scss/_custom/components/training/_category.scss */
 .indesign-category .paragraph-header {
   color: #C42A7C;
   line-height: 1.5em;
 }
-/* line 154, ../scss/_custom/components/training/_category.scss */
+/* line 158, ../scss/_custom/components/training/_category.scss */
 .indesign-category .part-time-options {
   color: #C42A7C;
 }
-/* line 160, ../scss/_custom/components/training/_category.scss */
+/* line 164, ../scss/_custom/components/training/_category.scss */
 .indesign-category .promo-packages {
   margin-bottom: 24px;
 }
-/* line 164, ../scss/_custom/components/training/_category.scss */
+/* line 168, ../scss/_custom/components/training/_category.scss */
 .indesign-category [class*="block-grid-"] > li {
   padding-bottom: 0;
 }
 @media screen and (min-width: 640px) and (max-width: 680px) {
-  /* line 169, ../scss/_custom/components/training/_category.scss */
+  /* line 173, ../scss/_custom/components/training/_category.scss */
   .indesign-category .category-description-section {
     width: 55%;
   }
-  /* line 173, ../scss/_custom/components/training/_category.scss */
+  /* line 177, ../scss/_custom/components/training/_category.scss */
   .indesign-category .custom-training {
     width: 45%;
   }
-  /* line 177, ../scss/_custom/components/training/_category.scss */
+  /* line 181, ../scss/_custom/components/training/_category.scss */
   .indesign-category .side-pannel {
     top: -7em;
   }
-  /* line 181, ../scss/_custom/components/training/_category.scss */
+  /* line 185, ../scss/_custom/components/training/_category.scss */
   .indesign-category .testimonials {
     height: 45em;
   }
 }
 @media screen and (min-width: 681px) and (max-width: 780px) {
-  /* line 187, ../scss/_custom/components/training/_category.scss */
+  /* line 191, ../scss/_custom/components/training/_category.scss */
   .indesign-category .side-pannel {
     top: -6em;
   }
-  /* line 191, ../scss/_custom/components/training/_category.scss */
+  /* line 195, ../scss/_custom/components/training/_category.scss */
   .indesign-category .testimonials {
     height: 45em;
   }
 }
 @media screen and (min-width: 781px) and (max-width: 1024px) {
-  /* line 197, ../scss/_custom/components/training/_category.scss */
+  /* line 201, ../scss/_custom/components/training/_category.scss */
   .indesign-category .side-pannel {
     top: -1em;
   }
-  /* line 201, ../scss/_custom/components/training/_category.scss */
+  /* line 205, ../scss/_custom/components/training/_category.scss */
   .indesign-category .testimonials {
     height: 35em;
   }
@@ -12421,14 +12425,6 @@ h4 {
   top: 0;
 }
 
-/* line 1, ../scss/_custom/components/_read-more-btn.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn {
-  background-color: #FCCD39;
-  color: #000;
-  white-space: nowrap;
-  font-size: 13px;
-}
-
 /* line 9, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {
   outline: 0;
@@ -12497,8 +12493,18 @@ h4 {
   color: #2088D1;
   padding-bottom: 4px;
 }
-/* line 85, ../scss/_custom/admin/_calendar.scss */
-.cdt-calendar .tabs-content i {
+/* line 4, ../scss/_custom/components/_accordion-plus-minus.scss */
+.cdt-calendar .tabs-content .accordion .accordion-icon:before {
+  font-family: "foundation-icons";
+  content: "\f199";
+}
+/* line 10, ../scss/_custom/components/_accordion-plus-minus.scss */
+.cdt-calendar .tabs-content .accordion .active .accordion-icon:before {
+  font-family: "foundation-icons";
+  content: "\f176";
+}
+/* line 88, ../scss/_custom/admin/_calendar.scss */
+.cdt-calendar .tabs-content .accordion .accordion-icon {
   float: left;
   margin-right: 5px;
   margin-top: 2px;
@@ -12508,16 +12514,16 @@ h4 {
   line-height: 1.7em;
   padding-left: 5px;
 }
-/* line 97, ../scss/_custom/admin/_calendar.scss */
+/* line 101, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table {
   border: none;
   border-spacing: 0px;
 }
-/* line 101, ../scss/_custom/admin/_calendar.scss */
+/* line 105, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table thead {
   background-color: #fff;
 }
-/* line 104, ../scss/_custom/admin/_calendar.scss */
+/* line 108, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table thead th {
   text-align: center;
   color: #2088D1;
@@ -12526,7 +12532,7 @@ h4 {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-/* line 114, ../scss/_custom/admin/_calendar.scss */
+/* line 118, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table thead .location {
   text-align: left;
   text-transform: uppercase;
@@ -12534,20 +12540,20 @@ h4 {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 124, ../scss/_custom/admin/_calendar.scss */
+/* line 128, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table tbody tr td {
   border: 1px solid #dbdbdb;
   text-align: center;
 }
-/* line 129, ../scss/_custom/admin/_calendar.scss */
+/* line 133, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar table td.course-name {
   text-align: left;
 }
-/* line 137, ../scss/_custom/admin/_calendar.scss */
+/* line 141, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74;
 }
-/* line 143, ../scss/_custom/admin/_calendar.scss */
+/* line 147, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1;
   /*    background-color: #CECECE;*/
@@ -12596,63 +12602,4 @@ h4 {
 /* line 85, ../scss/_custom/components/training/_side-pannel.scss */
 .cdt-calendar .training-checklist i {
   color: #2088D1;
-}
-/* line 147, ../scss/_custom/admin/_calendar.scss */
-.cdt-calendar .testimonials {
-  height: 23em;
-  background-color: #E4E4E4;
-  overflow-x: hidden;
-  overflow-y: auto;
-  /*    -webkit-overflow-scrolling: touch;*/
-  border: solid 1px #646464;
-  margin-bottom: 24px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-}
-/* line 14, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials .testimonials-title {
-  color: #2088D1;
-  margin: 6px 9px;
-}
-/* line 21, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials .category-testimonial {
-  margin: 5px 10px 12px 10px;
-  font-size: 14px;
-  line-height: 1.5em;
-}
-/* line 26, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials .category-testimonial span {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #2088D1;
-  font-style: italic;
-  display: inline;
-}
-/* line 36, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials .category-testimonial-client-name {
-  margin-top: 6px;
-  font-size: 15px;
-}
-/* line 42, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials .category-testimonial-course-name {
-  color: #2088D1;
-  font-size: 15px;
-  margin-bottom: 18px;
-}
-/* line 49, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials::-webkit-scrollbar {
-  -webkit-appearance: none;
-}
-/* line 53, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials::-webkit-scrollbar:vertical {
-  width: 5px;
-}
-/* line 57, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials::-webkit-scrollbar:horizontal {
-  height: 5px;
-}
-/* line 61, ../scss/_custom/components/training/_testimonials.scss */
-.cdt-calendar .testimonials::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background-color: rgba(140, 140, 140, 0.5);
 }

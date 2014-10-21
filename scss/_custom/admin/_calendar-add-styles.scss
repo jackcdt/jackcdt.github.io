@@ -1,24 +1,37 @@
 @import "_custom/responsive-sprite";
 
-// Create sprite using Compass
-@import "compass/utilities/sprites";
-
-$indesign-category-spacing: 40px;
-
-@import "calendar/*.png"; 
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
  
-$map: sprite-map("calendar/*.png", $spacing: 40px); /*empty comment*/ 
-$sprite-width: 185px;
-$sprite-height: 76px;
+@import "calendar/*.png";  
 
 .cdt-calendar {
-    .custom-training-logo {
+    $map: sprite-map("calendar/*.png", $spacing: 40px); /*empty comment*/ 
+    $sprite-width: 248px; 
+    $sprite-height: 329px;
+
+    .book-and-pay-now { 
+        @include calendar-sprite(book-and-pay-now); 
+        @include responsive-sprite($map, book-and-pay-now, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    } 
+
+    .book-and-pay-later { 
+        @include calendar-sprite(book-and-pay-later); 
+        @include responsive-sprite($map, book-and-pay-later, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    } 
+
+    .custom-training-logo { 
+        @include calendar-sprite(calendar-custom-training); 
+        
         @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
 
         @media screen and (min-width: 420px) and (max-width: 640px) { 
             @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
         }
-
-        @include calendar-sprite(calendar-custom-training); 
     } 
 }

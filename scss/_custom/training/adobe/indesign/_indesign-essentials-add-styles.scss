@@ -8,15 +8,15 @@ $indesign-ess-spacing: 40px;
 
 @import "training/adobe/indesign/indesign-ess/*.png";  
 
-$map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
-$sprite-width: 200px;
-$sprite-height: 996px;
- 
-$id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
-  
-$indesign-color: #C42A7C;
-
 .indesign-course {
+    $map: sprite-map("training/adobe/indesign/indesign-ess/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 996px;
+     
+    $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
+      
+    $indesign-color: #C42A7C;
+
     .id-essentials-framed { 
         @include indesign-ess-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);

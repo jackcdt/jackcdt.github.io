@@ -13,12 +13,12 @@
   background-repeat: no-repeat;
 }
 
-/*empty comment*/
-/* line 18, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 9, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category {
+  /*empty comment*/
   /* Title is too long, minimise gap */
 }
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 18, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials-framed {
   background-position: 0 -466px;
   /*  
@@ -36,12 +36,12 @@
   min-width: 55px;
   min-height: 55px;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .custom-training-logo {
   background-position: 0 0;
   border: 1px solid #686F74;
 }
-/* line 31, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 30, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials {
   background-position: 0 -570px;
   /*  
@@ -60,7 +60,7 @@
   min-width: 38px;
   min-height: 45px;
 }
-/* line 40, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 39, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-lite {
   background-position: 0 -812px;
   /*  
@@ -79,7 +79,7 @@
   min-width: 38px;
   min-height: 44px;
 }
-/* line 49, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 48, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-advanced {
   background-position: 0 -216px;
   /*  
@@ -98,7 +98,7 @@
   min-width: 49px;
   min-height: 48px;
 }
-/* line 58, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 57, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-longdocuments {
   background-position: 0 -919px;
   /*  
@@ -117,11 +117,11 @@
   min-width: 66px;
   min-height: 47px;
 }
-/* line 68, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-/* line 72, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
@@ -140,7 +140,7 @@
   min-width: 65px;
   min-height: 56px;
 }
-/* line 81, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 80, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
@@ -159,7 +159,7 @@
   min-width: 59px;
   min-height: 48px;
 }
-/* line 90, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 89, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
@@ -179,7 +179,7 @@
   float: right;
   margin-left: 10px;
 }
-/* line 99, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 98, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
@@ -197,7 +197,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 105, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
@@ -215,7 +215,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 112, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
@@ -249,7 +249,10 @@
   background-repeat: no-repeat;
 }
 
-/*empty comment*/
+/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-course {
+  /*empty comment*/
+}
 /* line 20, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials-framed {
   background-position: 0 -392px;
@@ -452,15 +455,55 @@
 * $img-size-percent - required sprite size
 *
 */
-/* line 48, calendar/*.png */
-.calendar-sprite, .cdt-calendar .custom-training-logo {
-  background-image: url('/images/calendar-sd1be503a92.png');
+/* line 64, calendar/*.png */
+.calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .custom-training-logo {
+  background-image: url('/images/calendar-sac40b50afb.png');
   background-repeat: no-repeat;
 }
 
-/*empty comment*/
-/* line 15, ../scss/_custom/admin/_calendar-add-styles.scss */
+/* line 8, ../scss/_custom/admin/_calendar-add-styles.scss */
+.cdt-calendar {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
+.cdt-calendar .book-and-pay-now {
+  background-position: 0 -128px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 50.40323%;
+  background-size: 100%;
+  background-position: 0 82.35294%;
+  margin-bottom: 14px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 22, ../scss/_custom/admin/_calendar-add-styles.scss */
+.cdt-calendar .book-and-pay-later {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 51.6129%;
+  background-size: 100%;
+  background-position: 0 0%;
+  margin-bottom: 14px;
+}
+/* line 28, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .custom-training-logo {
+  background-position: 0 -253px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -471,12 +514,11 @@
   display: block;
   height: 0;
   padding-bottom: 41.08108%;
-  background-size: 100%;
-  background-position: 0 NaN%;
-  background-position: 0 0;
+  background-size: 134.05405%;
+  background-position: 0 131.62055%;
 }
 @media screen and (min-width: 420px) and (max-width: 640px) {
-  /* line 15, ../scss/_custom/admin/_calendar-add-styles.scss */
+  /* line 28, ../scss/_custom/admin/_calendar-add-styles.scss */
   .cdt-calendar .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -488,7 +530,7 @@
     display: block;
     height: 0;
     padding-bottom: 26.7027%;
-    background-size: 100%;
-    background-position: 0 NaN%;
+    background-size: 134.05405%;
+    background-position: 0 131.62055%;
   }
 }
