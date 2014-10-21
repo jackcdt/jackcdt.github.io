@@ -56,7 +56,7 @@ $calendar-color: #2088D1;
 
     .tabs-content {
         .content {
-            padding-top: 0;
+            padding: 0;
         }
 
         h2 {
@@ -71,7 +71,7 @@ $calendar-color: #2088D1;
             @extend %t-regular;
         }
 
-        h3 { 
+        h3 {  
             margin-top: 2px;
             margin-bottom: 16px;
             border-bottom: 1px dotted #dbdbdb;
@@ -101,6 +101,7 @@ $calendar-color: #2088D1;
     table { 
         border: none;
         border-spacing: 0px;
+        display: block;
 
         thead {
             background-color: #fff;
@@ -128,11 +129,30 @@ $calendar-color: #2088D1;
         tbody tr td {
             border: 1px solid #dbdbdb;
             text-align: center;
+            min-width: 5em;
         }
 
         td.course-name {
             text-align: left;
         }
+    }
+
+    @media screen and (max-width: 799px) {
+        .responsive,
+        .responsive thead,
+        .responsive tbody,
+        .responsive th,
+        .responsive td,
+        .responsive tr { display: block; }
+        .responsive thead tr { position: absolute; top: -9999px; left: -9999px; }
+        .responsive tr { border: 1px solid #ccc; margin-bottom: 10px; }
+        .responsive td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
+        .responsive td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word; }
+        .responsive tr:first-child { position: absolute; top: -9999px; left: -9999px; }
+        .responsive td:before { content: attr(data-content); height: 50px; }
+        .responsive td.small-padding { padding-top: 5px; padding-bottom: 5px; }
+        .responsive td.medium-padding { padding-top: 15px; padding-bottom: 15px; }
+        .responsive td.large-padding { padding-top: 25px; padding-bottom: 25px; }
     }
 
     .custom-training {
