@@ -3,6 +3,7 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
 
+// Required for correct operation
 $indesign-category-spacing: 40px;
 
 @import "training/adobe/indesign/indesign-category/*.png"; 
@@ -23,7 +24,14 @@ $indesign-category-spacing: 40px;
     } 
 
     .custom-training-logo {
+        // Don't forget to change the name of the image for every page
         @include indesign-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
         border: 1px solid #686F74; 
     }
 

@@ -4,6 +4,7 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
  
+// Required for correct operation
 $indesign-ess-spacing: 40px; 
 
 @import "training/adobe/indesign/indesign-ess/*.png";  
@@ -53,7 +54,15 @@ $indesign-ess-spacing: 40px;
     }
 
     .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
         @include indesign-ess-sprite(class-custom-training); 
+        @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+           @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
         border: 1px solid #686F74; 
     }
 
