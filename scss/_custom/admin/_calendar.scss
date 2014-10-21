@@ -2,17 +2,6 @@
 @import "../components/border-radius"; 
 @import "../components/read-more-btn"; 
 
-// Create sprite using Compass
-@import "compass/utilities/sprites";
-
-$indesign-category-spacing: 40px;
-
-@import "calendar/*.png"; 
- 
-$map: sprite-map("calendar/*.png", $spacing: 40px); /*empty comment*/ 
-$sprite-width: 185px;
-$sprite-height: 76px;
-
 $calendar-color: #2088D1; 
 
 .cdt-calendar {
@@ -82,7 +71,7 @@ $calendar-color: #2088D1;
             @extend %t-regular;
         }
 
-        h3 {
+        h3 { 
             margin-top: 2px;
             margin-bottom: 16px;
             border-bottom: 1px dotted #dbdbdb;
@@ -147,13 +136,6 @@ $calendar-color: #2088D1;
 
         .custom-training-logo {
             @extend %custom-training-styling;
-            @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 100%);
-
-            @media screen and (min-width: 420px) and (max-width: 640px) { 
-                @include responsive-sprite($map, calendar-custom-training, $sprite-width, $sprite-height, 65%);
-            }
-
-            @include calendar-sprite(calendar-custom-training); 
             border: 1px solid #686F74; 
         } 
     }
