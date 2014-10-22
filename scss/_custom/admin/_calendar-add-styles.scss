@@ -7,7 +7,7 @@
 $calendar-spacing: 40px; 
  
 @import "admin/calendar/*.png";  
-
+ 
 .cdt-calendar {
     $map: sprite-map("admin/calendar/*.png", $spacing: $calendar-spacing); /*empty comment*/ 
     $sprite-width: 248px; 
