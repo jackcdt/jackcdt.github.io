@@ -1,13 +1,14 @@
 // Importing fonts from google
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 // Custom breakpoints (currently similar to Foundation)
+$cdt-custom-xs-screen-width: 30em; // 480px
 $cdt-sm-screen-width: 40em;  // 640px
 $cdt-custom-md-screen-width: 48em;  // 768px
 $cdt-md-screen-width: 64em;  // 1024px
 $cdt-lg-screen-width: 90em;  // 1440px
 $cdt-xlg-screen-width: 120em; // 1920px
+
+$margin-bottom-default: 24px;
 
 body {
     font-family: Raleway, Helvetica, sans-serif;
@@ -19,14 +20,19 @@ body {
     width: 100%;
 }
 
-// Verical align
-%vertical-align {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
+// Useful Common Functions
 
 // Number rounding to closest required value
 @function cdt-allign-to-number($val, $align-to) {
     @return ($align-to * floor(($val + $align-to - 1) / $align-to));
+}
+
+// Calulate top/bottom margin to position element in the middle of another element (container)
+@function vertical-margin-calc($container-height, $elem-height) {
+    @return (($container-height - $elem-height) / 2);
+}
+
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
 }

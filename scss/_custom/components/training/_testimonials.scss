@@ -1,0 +1,65 @@
+@mixin testimonials($color: #000) {
+    $bckgrnd-color: #E4E4E4;
+
+    background-color: $bckgrnd-color;
+    overflow-x: hidden;
+    overflow-y: auto;
+/*    -webkit-overflow-scrolling: touch;*/
+
+    border: solid 1px #646464;
+    margin-bottom: $margin-bottom-default;
+
+    @include set-border-radius(4px);
+
+    .testimonials-title {
+        @extend %t-emphasize;
+        @extend %t-medium;
+        color: $color;
+        margin: 6px 9px;
+    }
+
+    .category-testimonial {
+        margin: 5px 10px 12px 10px;
+        font-size: 14px;
+        line-height: 1.5em;            
+
+        span {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: $color;
+            font-style: italic;
+            display: inline;
+            @extend %t-medium;
+            @extend %t-bold;
+        }
+    }
+
+    .category-testimonial-client-name {
+        margin-top: 6px;
+        @extend %t-emphasize;
+        font-size: 15px;
+    }
+
+    .category-testimonial-course-name {
+        color: $color;
+        @extend %t-emphasize;
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+     
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar:vertical {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar:horizontal {
+        height: 5px;
+    } 
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: rgba(140, 140, 140, 0.5);
+    }
+}

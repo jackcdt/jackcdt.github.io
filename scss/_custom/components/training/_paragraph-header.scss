@@ -1,0 +1,6 @@
+@mixin paragraph-header($color: #000) {
+    color: $color;
+    @extend %t-medium;
+    @extend %t-emphasize;   
+    @include adjust-leading-to(1, $base-font-size); 
+}

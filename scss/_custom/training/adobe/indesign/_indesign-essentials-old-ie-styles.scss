@@ -1,0 +1,90 @@
+/* Hide all sprites */
+.id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
+.id-essentials, .ps-ess, .il-ess, .and {
+    display: none !important;
+}
+
+.indesign-course {
+    p {
+        margin-bottom: 24px;
+    }
+
+    /* Push up the custom training to compensate for no image */
+    .lower-aside-section {
+        padding-left: 15px;
+    }
+
+    /* Push lists left */
+    .overview-list-data li, 
+    .course-dates-city-block .date,
+    .course-outline-block .course-outline-list,
+    .download-text {
+        margin-left: 10px !important;
+    } 
+
+    .upper-side {
+        padding-left: 15px;
+    }
+
+    .course-info-upper,
+    .overview-list,
+    .promo-grid li {
+        padding-right: 15px;
+    }
+
+    .course-header {
+        width: 290px;
+    } 
+
+    .book-now-btn {
+        display:inline-block;
+        text-align:center;
+        padding: 3px 10px;
+        color: #FFF;
+        text-align: center; 
+        font-weight: 700;
+        background-color: #C42A7C;
+    } 
+
+    .book-now-btn:hover {
+        background-color: #D24590;
+    }
+
+    .paragraph-header-def-color {
+        height: 32px;
+    }
+
+    .related-course {
+        padding: 0 10px !important;
+    }
+
+    .related-course .advanced-table {
+        margin-top: 24px !important; 
+    }
+}
+  
+
+/* http://stackoverflow.com/questions/12788381/making-zurbs-foundation-3-work-with-ie7
+
+    .ie7 .columns{
+        margin-right: -15px ;
+        margin-left: -15px ;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+    }
+
+    .ie7 .row{
+        clear: both;
+        text-align: center;
+    }
+
+    .ie7 .offset-by-three {
+        margin-left:25% !important;
+    }
+    .ie7 .offset-by-seven {
+        margin-left:58.33% !important ;
+    }
+
+*/

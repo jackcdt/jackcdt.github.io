@@ -1,0 +1,14 @@
+@mixin accordion-plus-minus {
+
+    //The accordion is closed
+    .accordion-icon:before {
+        font-family: "foundation-icons";
+        content: "\f199";
+    }
+
+    //The accordion is open
+    .active .accordion-icon:before {
+        font-family: "foundation-icons";
+        content: "\f176"; 
+    }
+}

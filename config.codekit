@@ -2,6 +2,37 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17756",
 "files": {
+	"\/_dev\/js\/min\/ng_responsive_tables.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_dev\/js\/min\/ng_responsive_tables.min.js",
+		"outputAbbreviatedPath": "\/_dev\/js\/min\/min\/ng_responsive_tables.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_dev\/js\/ng_responsive_tables.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_dev\/js\/ng_responsive_tables.js",
+		"outputAbbreviatedPath": "\/_dev\/js\/min\/ng_responsive_tables-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/admin\/calendar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/admin\/calendar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/fastclick\/lib\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1058,26 +1089,67 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-<<<<<<< HEAD
-=======
-	"\/bower_components\/jquery\/dist\/jquery.js": {
+	"\/bower_components\/jquery\/dist\/jquery-1.11.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery-1.11.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-1.11.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
->>>>>>> master
+	"\/bower_components\/jquery\/dist\/jquery-1.11.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery-1.11.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-1.11.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/jquery-2.1.1.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery-2.1.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-2.1.1-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/jquery-2.1.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery-2.1.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-2.1.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/min\/jquery-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/min\/jquery-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3140,8 +3212,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
-=======
+	"\/bower_components\/modernizr\/min\/modernizr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/modernizr\/min\/modernizr-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/modernizr\/min\/min\/modernizr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/modernizr\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3153,7 +3234,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
->>>>>>> master
 	"\/bower_components\/modernizr\/readme.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -3584,7 +3664,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-<<<<<<< HEAD
+	"\/config.rb": {
+		"fileType": 131072,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3595,16 +3683,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-=======
-	"\/config.rb": {
-		"fileType": 131072,
+		},
+	"\/images\/admin\/calendar\/book-and-pay-later.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.rb",
-		"outputAbbreviatedPath": "\/config.rb",
+		"initialSize": 3637,
+		"inputAbbreviatedPath": "\/images\/admin\/calendar\/book-and-pay-later.png",
+		"outputAbbreviatedPath": "\/images\/admin\/calendar\/book-and-pay-later.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
->>>>>>> master
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/admin\/calendar\/book-and-pay-now.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6731,
+		"inputAbbreviatedPath": "\/images\/admin\/calendar\/book-and-pay-now.png",
+		"outputAbbreviatedPath": "\/images\/admin\/calendar\/book-and-pay-now.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/admin\/calendar\/calendar-custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/admin\/calendar\/calendar-custom-training.png",
+		"outputAbbreviatedPath": "\/images\/admin\/calendar\/calendar-custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/header-footer-sd88e9d5b6c.png": {
 		"fileType": 32768,
@@ -3716,6 +3827,248 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21167,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-accessibility.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3225,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-accessibility.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-accessibility.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-advanced.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3681,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-advanced.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-advanced.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-epub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4436,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-epub.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-epub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3157,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2938,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-interactivity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-interactivity.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-interactivity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-lite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3714,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-lite.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-lite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/id-longdocuments.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3547,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-longdocuments.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/id-longdocuments.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/il-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2829,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/il-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/il-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2729,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category\/ps-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26975,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/id-advanced.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3681,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-advanced.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-advanced.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3149,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2938,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/id-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/il-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2829,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/il-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/il-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/indesign-cc-cs6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6245,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/indesign-cc-cs6.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/indesign-cc-cs6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-ess\/ps-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2721,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/ps-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/ps-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3731,6 +4084,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.js",
 		"outputAbbreviatedPath": "\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ng_responsive_tables.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ng_responsive_tables.js",
+		"outputAbbreviatedPath": "\/js\/min\/ng_responsive_tables-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/rem.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/rem.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/rem.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3796,24 +4171,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-	"\/scss\/_custom\/admin\/_calendar-add-styles.scss": {
-=======
-	"\/scss\/_custom\/header\/_header.scss": {
->>>>>>> master
+	"\/scss\/_custom\/_responsive-sprite.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/scss\/_custom\/_responsive-sprite.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_responsive-sprite.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/admin\/_calendar-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_calendar-add-styles.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_calendar-add-styles.css",
-=======
-		"inputAbbreviatedPath": "\/scss\/_custom\/header\/_header.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_header.css",
->>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3821,24 +4203,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-	"\/scss\/_custom\/admin\/_why-train-with-us-add-styles.scss": {
-=======
-	"\/scss\/_settings.scss": {
->>>>>>> master
+	"\/scss\/_custom\/admin\/_calendar.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_why-train-with-us-add-styles.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_why-train-with-us-add-styles.css",
-=======
-		"inputAbbreviatedPath": "\/scss\/_settings.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_settings.css",
->>>>>>> master
+		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_calendar.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_calendar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3846,26 +4219,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-	"\/scss\/_custom\/admin\/_why-train-with-us.scss": {
-=======
-	"\/scss\/app.scss": {
->>>>>>> master
+	"\/scss\/_custom\/components\/_accordion-plus-minus.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
-<<<<<<< HEAD
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_why-train-with-us.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_why-train-with-us.css",
-=======
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/app.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/app.css",
->>>>>>> master
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_accordion-plus-minus.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_accordion-plus-minus.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3873,24 +4235,239 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
+	"\/scss\/_custom\/components\/_border-radius.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_border-radius.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_border-radius.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/_breadcrumbs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_breadcrumbs.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_breadcrumbs.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/_btn-shadow.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_btn-shadow.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_btn-shadow.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/_read-more-btn.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_read-more-btn.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_read-more-btn.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/_responsive-table.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/_responsive-table.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_responsive-table.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_banner.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_banner.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_banner.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_course-item.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course-item.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_course-item.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_course.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_course.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_custom-training.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_custom-training.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_custom-training.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_paragraph-header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_paragraph-header.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_paragraph-header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_side-pannel.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_side-pannel.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_side-pannel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_testimonials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_testimonials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_testimonials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/header\/_header.scss": {
-=======
-	"\/scss\/breakpoint\/stylesheets\/_breakpoint.scss": {
->>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/scss\/_custom\/header\/_header.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_header.css",
-=======
-		"inputAbbreviatedPath": "\/scss\/breakpoint\/stylesheets\/_breakpoint.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_breakpoint.css",
->>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3898,24 +4475,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
-	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-add-styles.scss": {
-=======
-	"\/scss\/breakpoint\/stylesheets\/breakpoint\/_context.scss": {
->>>>>>> master
+	"\/scss\/_custom\/ie-support\/ie-grid-support.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/scss\/_custom\/ie-support\/ie-grid-support.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/ie-grid-support.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-add-styles.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_indesign-category-add-styles.css",
-=======
-		"inputAbbreviatedPath": "\/scss\/breakpoint\/stylesheets\/breakpoint\/_context.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_context.css",
->>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3923,7 +4507,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-category-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3940,6 +4555,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-ie7-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-ie7-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-essentials-ie7-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-essentials-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-essentials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4004,8 +4667,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-=======
->>>>>>> master
 	"\/scss\/breakpoint\/stylesheets\/breakpoint\/_helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4278,7 +4939,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
+	"\/scss\/foundation-icons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/foundation-icons.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/foundation-icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/ie.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/ie.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/ie.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/ie7.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/ie7.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/ie7.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/modern-browsers-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4295,8 +5003,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-=======
->>>>>>> master
 	"\/stylesheets\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4305,23 +5011,56 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-<<<<<<< HEAD
+		},
+	"\/stylesheets\/ie.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/ie.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/ie7.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/ie7.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/modern-browsers-styles.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/modern-browsers-styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-=======
->>>>>>> master
+		},
+	"\/training\/adobe\/indesign-courses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/adobe\/indesign-courses.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training\/adobe\/indesign\/indesign-essentials.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/adobe\/indesign\/indesign-essentials.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jack",
+"lastSavedByUser": "Admin",
 "manualImportLinks": {
 	},
 "projectAttributes": {

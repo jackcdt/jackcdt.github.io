@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.3/";
@@ -2259,13 +2257,8 @@ select {
   float: left;
   font-size: 0.6875rem;
   line-height: 0.6875rem;
-<<<<<<< HEAD
   text-transform: none;
   color: #008cba;
-=======
-  text-transform: uppercase;
-  color: #008CBA;
->>>>>>> master
 }
 /* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
@@ -2306,13 +2299,8 @@ select {
 }
 /* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:before {
-<<<<<<< HEAD
   content: ">";
   color: #aaaaaa;
-=======
-  content: "/";
-  color: #AAAAAA;
->>>>>>> master
   margin: 0 0.75rem;
   position: relative;
   top: 1px;
@@ -9031,12 +9019,11 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 12, ../scss/_custom/_common.scss */
+/* line 13, ../scss/_custom/_common.scss */
 body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-<<<<<<< HEAD
 /* line 35, ../scss/_custom/_common.scss */
 .nopadding, .indesign-category .course-item .course-item-info,
 .indesign-category .course-item .course-book-now {
@@ -9673,167 +9660,128 @@ body {
 /* line 374, ../scss/foundation-icons.scss */
 .fi-die-three:before {
   content: "\f13e";
-=======
-/* Full credit to: https://medium.com/@amlinarev/using-sass-compass-vertical-rhythm-to-set-up-typography-defaults-in-a-project-34fe2f1d2c02*/
-/* Fonts size and line height defaults */
-/* Sets the browser default size. */
-/* Baseline grid. */
-/* Custom fonts */
-/* line 106, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
-  font-size: 100%;
-  line-height: 1.5em;
->>>>>>> master
 }
 
-/* "This is where the magic happens" —Everyone on MTV Cribs. */
-/* line 71, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text {
-  font-weight: 400;
+/* line 375, ../scss/foundation-icons.scss */
+.fi-die-two:before {
+  content: "\f13f";
 }
 
-/* line 89, ../scss/_custom/_custom-fonts.scss */
-h4 {
-  font-size: 0.75em;
-  line-height: 2em;
-}
-@media (min-width: 64em) {
-  /* line 89, ../scss/_custom/_custom-fonts.scss */
-  h4 {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
+/* line 376, ../scss/foundation-icons.scss */
+.fi-dislike:before {
+  content: "\f140";
 }
 
-/* line 92, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text {
-  font-size: 1em;
-  line-height: 1.5em;
-}
-@media (min-width: 64em) {
-  /* line 92, ../scss/_custom/_custom-fonts.scss */
-  h3, .header-logos .training-text {
-    font-size: 1.375em;
-    line-height: 2.18182em;
-  }
+/* line 377, ../scss/foundation-icons.scss */
+.fi-dollar-bill:before {
+  content: "\f141";
 }
 
-/* line 95, ../scss/_custom/_custom-fonts.scss */
-h2 {
-  font-size: 1.375em;
-  line-height: 2.18182em;
-}
-@media (min-width: 64em) {
-  /* line 95, ../scss/_custom/_custom-fonts.scss */
-  h2 {
-    font-size: 1.8125em;
-    line-height: 1.65517em;
-  }
+/* line 378, ../scss/foundation-icons.scss */
+.fi-dollar:before {
+  content: "\f142";
 }
 
-/* line 98, ../scss/_custom/_custom-fonts.scss */
-h1 {
-  font-size: 1.8125em;
-  line-height: 1.65517em;
-}
-@media (min-width: 64em) {
-  /* line 98, ../scss/_custom/_custom-fonts.scss */
-  h1 {
-    font-size: 2.375em;
-    line-height: 1.26316em;
-  }
+/* line 379, ../scss/foundation-icons.scss */
+.fi-download:before {
+  content: "\f143";
 }
 
-/* line 104, ../scss/_custom/_custom-fonts.scss */
-h1, h2, h3, h4 {
-  margin: 0;
+/* line 380, ../scss/foundation-icons.scss */
+.fi-eject:before {
+  content: "\f144";
 }
 
-/*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
-/* line 112, ../images/header-footer/*.png */
-.header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
-  background-image: url('/images/../images/header-footer-sd88e9d5b6c.png');
-  background-repeat: no-repeat;
+/* line 381, ../scss/foundation-icons.scss */
+.fi-elevator:before {
+  content: "\f145";
 }
 
-/* line 28, ../scss/_custom/header/_header.scss */
-.header-logos .cdt-logo {
-  background-position: 0 -129px;
-  height: 72px;
-  width: 142px;
-  margin: 7px 10px;
-}
-/* line 36, ../scss/_custom/header/_header.scss */
-.header-logos .aatc-logo {
-  background-position: 0 0;
-  height: 43px;
-  width: 131px;
-  margin: 21.5px 10px;
-}
-/* line 44, ../scss/_custom/header/_header.scss */
-.header-logos .book-now {
-  background-position: 0 -43px;
-  float: right;
-  height: 86px;
-  width: 114px;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 44, ../scss/_custom/header/_header.scss */
-  .header-logos .book-now {
-    margin-right: 67px;
-  }
-}
-/* line 56, ../scss/_custom/header/_header.scss */
-.header-logos .years-in-business {
-  background-position: 0 -786px;
-  height: 121px;
-  width: 67px;
-  position: absolute;
-  z-index: 1000;
-  right: 0;
-}
-/* line 66, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-1 {
-  background-position: 0 -201px;
-}
-/* line 67, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-2 {
-  background-position: 0 -318px;
-}
-/* line 68, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-3 {
-  background-position: 0 -435px;
-}
-/* line 69, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-4 {
-  background-position: 0 -552px;
-}
-/* line 70, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-5 {
-  background-position: 0 -669px;
-}
-/* line 72, ../scss/_custom/header/_header.scss */
-.header-logos .training-text {
-  margin: 19px 0;
-  padding: 0;
-  display: none;
-}
-@media (min-width: 48em) {
-  /* line 72, ../scss/_custom/header/_header.scss */
-  .header-logos .training-text {
-    display: inherit;
-    font-size: 1em;
-    line-height: 1.5em;
-  }
+/* line 382, ../scss/foundation-icons.scss */
+.fi-euro:before {
+  content: "\f146";
 }
 
-/* line 86, ../scss/_custom/header/_header.scss */
-.header-banner {
-  background-color: #6c6c6c;
-  color: #fff;
+/* line 383, ../scss/foundation-icons.scss */
+.fi-eye:before {
+  content: "\f147";
 }
 
-<<<<<<< HEAD
+/* line 384, ../scss/foundation-icons.scss */
+.fi-fast-forward:before {
+  content: "\f148";
+}
+
+/* line 385, ../scss/foundation-icons.scss */
+.fi-female-symbol:before {
+  content: "\f149";
+}
+
+/* line 386, ../scss/foundation-icons.scss */
+.fi-female:before {
+  content: "\f14a";
+}
+
+/* line 387, ../scss/foundation-icons.scss */
+.fi-filter:before {
+  content: "\f14b";
+}
+
+/* line 388, ../scss/foundation-icons.scss */
+.fi-first-aid:before {
+  content: "\f14c";
+}
+
+/* line 389, ../scss/foundation-icons.scss */
+.fi-flag:before {
+  content: "\f14d";
+}
+
+/* line 390, ../scss/foundation-icons.scss */
+.fi-folder-add:before {
+  content: "\f14e";
+}
+
+/* line 391, ../scss/foundation-icons.scss */
+.fi-folder-lock:before {
+  content: "\f14f";
+}
+
+/* line 392, ../scss/foundation-icons.scss */
+.fi-folder:before {
+  content: "\f150";
+}
+
+/* line 393, ../scss/foundation-icons.scss */
+.fi-foot:before {
+  content: "\f151";
+}
+
+/* line 394, ../scss/foundation-icons.scss */
+.fi-foundation:before {
+  content: "\f152";
+}
+
+/* line 395, ../scss/foundation-icons.scss */
+.fi-graph-bar:before {
+  content: "\f153";
+}
+
+/* line 396, ../scss/foundation-icons.scss */
+.fi-graph-horizontal:before {
+  content: "\f154";
+}
+
+/* line 397, ../scss/foundation-icons.scss */
+.fi-graph-pie:before {
+  content: "\f155";
+}
+
+/* line 398, ../scss/foundation-icons.scss */
+.fi-graph-trend:before {
+  content: "\f156";
+}
+
 /* line 399, ../scss/foundation-icons.scss */
 .fi-guide-dog:before {
   content: "\f157";
@@ -12810,11 +12758,4 @@ h4 {
 /* line 40, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu .wtwu-side-logo {
   margin-top: 50px;
-=======
-/* line 91, ../scss/_custom/header/_header.scss */
-.contain-to-grid ul.right li.contact-no a {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 16px;
->>>>>>> master
 }

@@ -1,0 +1,97 @@
+@mixin course-item($color: #000) {
+    margin-bottom: $margin-bottom-default;
+    margin-top: $margin-bottom-default / 2;
+
+    @media #{$large-up} {
+         width: 93%;
+    }        
+
+    .course-item-title {
+        padding: 3px 0 0 7px;
+        text-transform: uppercase;
+        float: left !important;
+
+        @media #{$large-up} {
+            float: right;
+        }
+
+        h3 {
+            @extend %t-regular;
+            @include adjust-font-size-to($base-font-size);
+
+            line-height: 1.2em;
+            color: $color;
+
+            span {
+                @extend %t-ultralight;
+            }
+        }
+    }
+
+    .course-item-header {        
+        @media #{$large-up} {
+             height: 3.5em;
+        }        
+    }
+
+    .course-item-description {
+        @extend %t-small;
+        @include adjust-leading-to(1, $base-font-size);
+
+        @media #{$large-up} {
+             height: 12em;
+        }        
+    }
+
+    .day-time {
+        @include adjust-font-size-to(13px);
+    }
+
+    .course-item-info,
+    .course-book-now {
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.4em;
+        padding: 4px 0;
+        @extend %t-emphasize;
+        @extend .nopadding;
+
+        a, a:hover, a:focus {
+            color: #fff;
+        }
+    }
+
+    .course-item-fee {
+        color: $color;
+        @extend %t-small;
+        @extend %t-bold;
+        margin-bottom: 2px; 
+    }
+
+    .big {
+        @extend %t-large;
+        line-height: 1.5em;
+    }
+
+    .course-item-info {
+        background-color: $color;
+        width: 90px;
+        border-right: 3px solid #fff;
+
+        @media #{$large-up} {
+            min-width: initial;
+            width: 48%;
+        }
+    }
+
+    .course-book-now {
+        background-color: lighten($color, 25%); 
+        text-transform: uppercase;
+        width: 85px;
+
+        @media #{$large-up} {
+            min-width: initial;
+            width: 46%;
+        }
+    }
+}
