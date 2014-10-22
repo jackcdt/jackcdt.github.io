@@ -7,8 +7,12 @@
 $calendar-spacing: 40px; 
  
 @import "admin/calendar/*.png";  
+<<<<<<< HEAD
  
 // Sprites should be declared in the same order they are on the disk?
+=======
+
+>>>>>>> master
 .cdt-calendar {
     $map: sprite-map("admin/calendar/*.png", $spacing: $calendar-spacing); /*empty comment*/ 
     $sprite-width: 248px; 

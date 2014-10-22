@@ -88,19 +88,34 @@ $banner-border-height: ($banner-height-with-border - $banner-content-height + $b
     color: #fff;
     //border-bottom: #4F4E4E solid ($banner-height-with-border - $banner-content-height + $base-line-height);
 }
-
-.header-banner-border {
-    height: $banner-border-height;
-    background-color: #4F4E4E;
-    color: #fff;
-
-    .phone-no {
-        float: right;
-    }
+.contain-to-grid ul.right li.contact-no a {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: $base-font-size;
 }
 
-.header-banner-container {
-    position: relative;
-    overflow: visible;
-    z-index: 1;
-}
+
+// .header-banner-border {
+//     height: $banner-border-height;
+//     background-color: #4F4E4E;
+//     color: #fff;
+
+//     .phone-no {
+//         float: right;
+//     }
+
+//     span {
+//         @extend %t-base;
+//         @extend %t-regular;
+
+//         display: block;
+//         float:right;
+//         margin: (($banner-border-height - $base-font-size) / 2) 242px (($banner-border-height - $base-font-size) / 2) 0;
+//     }
+// }
+
+// // .header-banner-container {
+// //     position: relative;
+// //     overflow: visible;
+// //     z-index: 1;
+// // }

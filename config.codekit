@@ -1058,6 +1058,20 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+<<<<<<< HEAD
+=======
+	"\/bower_components\/jquery\/dist\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+>>>>>>> master
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3126,6 +3140,20 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/bower_components\/modernizr\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/modernizr\/modernizr.js",
+		"outputAbbreviatedPath": "\/bower_components\/modernizr\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+>>>>>>> master
 	"\/bower_components\/modernizr\/readme.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -3556,6 +3584,7 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+<<<<<<< HEAD
 	"\/images\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3566,6 +3595,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+=======
+	"\/config.rb": {
+		"fileType": 131072,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+>>>>>>> master
 		},
 	"\/images\/header-footer-sd88e9d5b6c.png": {
 		"fileType": 32768,
@@ -3757,15 +3796,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/admin\/_calendar-add-styles.scss": {
+=======
+	"\/scss\/_custom\/header\/_header.scss": {
+>>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_calendar-add-styles.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_calendar-add-styles.css",
+=======
+		"inputAbbreviatedPath": "\/scss\/_custom\/header\/_header.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_header.css",
+>>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3773,15 +3821,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/admin\/_why-train-with-us-add-styles.scss": {
+=======
+	"\/scss\/_settings.scss": {
+>>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_why-train-with-us-add-styles.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_why-train-with-us-add-styles.css",
+=======
+		"inputAbbreviatedPath": "\/scss\/_settings.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_settings.css",
+>>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3789,15 +3846,26 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/admin\/_why-train-with-us.scss": {
+=======
+	"\/scss\/app.scss": {
+>>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
+<<<<<<< HEAD
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_why-train-with-us.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_why-train-with-us.css",
+=======
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/app.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/app.css",
+>>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3805,15 +3873,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/header\/_header.scss": {
+=======
+	"\/scss\/breakpoint\/stylesheets\/_breakpoint.scss": {
+>>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/scss\/_custom\/header\/_header.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_header.css",
+=======
+		"inputAbbreviatedPath": "\/scss\/breakpoint\/stylesheets\/_breakpoint.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_breakpoint.css",
+>>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3821,15 +3898,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-add-styles.scss": {
+=======
+	"\/scss\/breakpoint\/stylesheets\/breakpoint\/_context.scss": {
+>>>>>>> master
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
 		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-category-add-styles.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_indesign-category-add-styles.css",
+=======
+		"inputAbbreviatedPath": "\/scss\/breakpoint\/stylesheets\/breakpoint\/_context.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_context.css",
+>>>>>>> master
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3837,6 +3923,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-essentials-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3917,6 +4004,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+=======
+>>>>>>> master
 	"\/scss\/breakpoint\/stylesheets\/breakpoint\/_helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4189,6 +4278,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/scss\/modern-browsers-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4205,6 +4295,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+=======
+>>>>>>> master
 	"\/stylesheets\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4213,6 +4305,7 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+<<<<<<< HEAD
 		},
 	"\/stylesheets\/modern-browsers-styles.css": {
 		"fileType": 16,
@@ -4222,11 +4315,13 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+=======
+>>>>>>> master
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Admin",
+"lastSavedByUser": "Jack",
 "manualImportLinks": {
 	},
 "projectAttributes": {
