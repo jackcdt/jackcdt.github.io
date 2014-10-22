@@ -1,25 +1,26 @@
 @mixin responsive-table($color: #000) {
-    @media screen and (max-width: 799px) {
-        .responsive,
-        .responsive thead,
-        .responsive tbody,
-        .responsive th,
-        .responsive td,
-        .responsive tr { display: block; }
-        .responsive thead tr { position: absolute; top: -9999px; left: -9999px; }
-        .responsive tr { border: 1px solid #ccc; margin-bottom: 10px; }
-        .responsive td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%;}
-        .responsive td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word;}
-        .responsive tr:first-child { position: absolute; top: -9999px; left: -9999px; }
-        .responsive td:before { 
+    .responsive{
+        display: block;
+
+        thead,
+        tbody,
+        th,
+        td,
+        tr { display: block; }
+        thead tr { position: absolute; top: -9999px; left: -9999px; }
+        tr { border: 1px solid #ccc; margin-bottom: 10px; }
+        td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%;}
+        td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word;}
+        tr:first-child { position: absolute; top: -9999px; left: -9999px; }
+        td:before { 
             content: attr(data-content); 
             height: 50px; 
             color: $color;
             font-weight: 600;
-        }       
-        .responsive td.small-padding { padding-top: 5px; padding-bottom: 5px; }
-        .responsive td.medium-padding { padding-top: 15px; padding-bottom: 15px; }
-        .responsive td.large-padding { padding-top: 25px; padding-bottom: 25px; }
-        .responsive .row-name {font-weight: 600; text-align: center;}
+        }
+        td.small-padding { padding-top: 5px; padding-bottom: 5px; }
+        td.medium-padding { padding-top: 15px; padding-bottom: 15px; }
+        td.large-padding { padding-top: 25px; padding-bottom: 25px; }
+        td.row-name {font-weight: 600; text-align: center;}
     }
 }
