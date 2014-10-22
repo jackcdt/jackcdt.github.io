@@ -1,0 +1,32 @@
+@import "../components/breadcrumbs";
+    
+$wtwu-color: #2088D1; 
+     
+.cdt-wtwu {
+    .custom-breadcrumbs {
+        margin-top: $margin-bottom-default / 2;
+    }
+
+    .breadcrumb-active {
+        color: $wtwu-color;
+    } 
+
+    h1 {
+        @extend %t-ultralight;
+        @include adjust-font-size-to(36px, 1);
+
+        line-height: 1.38em;
+        margin-bottom: $margin-bottom-default;
+    }
+ 
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 16px;
+        padding: 5px;
+
+
+        @include adjust-font-size-to(20px, 1);
+        line-height: 1.2em;
+        @extend %t-regular;
+    }
+}

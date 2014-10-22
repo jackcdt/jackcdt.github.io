@@ -1,0 +1,135 @@
+@import "_custom/responsive-sprite";
+
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
+
+// Required for correct operation, must be named same as the sprite
+$why-train-with-us-spacing: 40px; 
+ 
+@import "admin/why-train-with-us/*.png";  
+ 
+// Sprites should be declared in the same order they are on the disk?
+.cdt-wtwu { 
+    $map: sprite-map("admin/why-train-with-us/*.png", $spacing: $why-train-with-us-spacing); /*empty comment*/ 
+    $sprite-width: 1332px; 
+    $sprite-height: 997px; 
+ 
+    .wtwu-adobe-apple-authorised-logo { 
+        @include why-train-with-us-sprite(wtwu-adobe-apple-authorised-logo); 
+        @include responsive-sprite($map, wtwu-adobe-apple-authorised-logo, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+ 
+    .wtwu-classroom { 
+        @include why-train-with-us-sprite(wtwu-classroom); 
+        @include responsive-sprite($map, wtwu-classroom, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px; 
+    }  
+
+    .wtwu-course-classroom { 
+        @include why-train-with-us-sprite(wtwu-course-classroom); 
+        @include responsive-sprite($map, wtwu-course-classroom, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }
+
+    .wtwu-private-training { 
+        @include why-train-with-us-sprite(wtwu-private-training); 
+        @include responsive-sprite($map, wtwu-private-training, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .wtwu-background { 
+        @include why-train-with-us-sprite(wtwu-background); 
+        @include responsive-sprite($map, wtwu-background, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+}
+
+/*@import "_custom/responsive-sprite";
+ 
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
+
+// Required for correct operation 
+$wtwu-spacing: 40px; 
+ 
+@import "admin/why-train-with-us/*.png";  
+
+.cdt-wtwu { 
+    $map: sprite-map("admin/why-train-with-us/*.png", $spacing: $wtwu-spacing);  
+    $sprite-width: 248px; 
+    $sprite-height: 329px;  
+ 
+    .wtwu-book-and-pay-later { 
+        @include why-train-with-us-sprite(wtwu-book-and-pay-later); 
+        @include responsive-sprite($map, wtwu-book-and-pay-later, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+ 
+    .wtwu-book-and-pay-now { 
+        @include why-train-with-us-sprite(wtwu-book-and-pay-now); 
+        @include responsive-sprite($map, wtwu-book-and-pay-now, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+}
+*/
+
+/*    $sprite-width: 1332px; 
+    $sprite-height: 837px; 
+ 
+    .wtwu-adobe-apple-authorised-logo { 
+        @include why-train-with-us-sprite(wtwu-adobe-apple-authorised-logo); 
+        @include responsive-sprite($map, wtwu-adobe-apple-authorised-logo, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .wtwu-classroom { 
+        @include why-train-with-us-sprite(wtwu-classroom); 
+        @include responsive-sprite($map, wtwu-classroom, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .wtwu-course-classroom { 
+        @include why-train-with-us-sprite(wtwu-course-classroom); 
+        @include responsive-sprite($map, wtwu-course-classroom, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }
+
+    .wtwu-private-training { 
+        @include why-train-with-us-sprite(wtwu-private-training); 
+        @include responsive-sprite($map, wtwu-private-training, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .wtwu-background { 
+        @include why-train-with-us-sprite(wtwu-background); 
+        @include responsive-sprite($map, wtwu-background, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+*/
+
+/*    .wtwu-book-and-pay-now { 
+        @include why-train-with-us-sprite(wtwu-book-and-pay-now); 
+        @include responsive-sprite($map, wtwu-book-and-pay-now, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 14px;
+    }  
+
+    .wtwu-book-and-pay-later { 
+        @include why-train-with-us-sprite(wtwu-book-and-pay-later); 
+        @include responsive-sprite($map, wtwu-book-and-pay-later, $sprite-width, $sprite-height, 100%);
+        margin-bottom: 16px;
+    } 
+
+    .wtwu-calendar-custom-training { 
+        // Don't forget to change the name of the image for every page
+        @include why-train-with-us-sprite(wtwu-calendar-custom-training); 
+        @include responsive-sprite($map, wtwu-calendar-custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, wtwu-calendar-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74;  
+    } 
+*/

@@ -3,11 +3,12 @@
 // Create sprite using Compass 
 @import "compass/utilities/sprites"; 
 
-// Required for correct operation
+// Required for correct operation, must be named same as the sprite
 $calendar-spacing: 40px; 
  
 @import "admin/calendar/*.png";  
  
+// Sprites should be declared in the same order they are on the disk?
 .cdt-calendar {
     $map: sprite-map("admin/calendar/*.png", $spacing: $calendar-spacing); /*empty comment*/ 
     $sprite-width: 248px; 
