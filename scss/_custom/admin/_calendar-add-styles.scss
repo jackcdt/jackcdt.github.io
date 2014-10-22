@@ -1,8 +1,8 @@
 @import "_custom/responsive-sprite";
-
+  
 // Create sprite using Compass 
 @import "compass/utilities/sprites"; 
-
+ 
 // Required for correct operation, must be named same as the sprite
 $calendar-spacing: 40px; 
  

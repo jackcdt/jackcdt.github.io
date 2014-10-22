@@ -1,7 +1,7 @@
 @import "../components/breadcrumbs";
     
 $wtwu-color: #2088D1; 
-     
+      
 .cdt-wtwu {
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
@@ -9,24 +9,35 @@ $wtwu-color: #2088D1;
 
     .breadcrumb-active {
         color: $wtwu-color;
-    } 
+    }  
 
     h1 {
-        @extend %t-ultralight;
+        @extend %t-light;
         @include adjust-font-size-to(36px, 1);
-
+ 
         line-height: 1.38em;
         margin-bottom: $margin-bottom-default;
+    }
+  
+    .wtwu-header p { 
+        @extend %t-light;
+        @include adjust-font-size-to(20px, 1);
+
+        line-height: 30px;
     }
  
     h2 {
         margin-top: 10px;
         margin-bottom: 16px;
-        padding: 5px;
+        line-height: 1.5em;
+        color: $wtwu-color;
+        text-transform: uppercase;
 
+        @include adjust-font-size-to(18px, 1);
+        @extend %t-bold;
+    }
 
-        @include adjust-font-size-to(20px, 1);
-        line-height: 1.2em;
-        @extend %t-regular;
+    .wtwu-side-logo {
+        margin-top: 50px;
     }
 }

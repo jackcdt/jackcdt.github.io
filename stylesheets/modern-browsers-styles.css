@@ -9,7 +9,7 @@
 */
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
-  background-image: url('/images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
+  background-image: url('../images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
   background-repeat: no-repeat;
 }
 
@@ -280,7 +280,7 @@
 */
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .course-custom-training-logo, .indesign-course .id-advanced, .indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess {
-  background-image: url('/images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
+  background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
@@ -521,7 +521,7 @@
 */
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
-  background-image: url('/images/admin/calendar-s4dacfd9bea.png');
+  background-image: url('../images/admin/calendar-s4dacfd9bea.png');
   background-repeat: no-repeat;
 }
 
@@ -609,7 +609,7 @@
 */
 /* line 80, admin/why-train-with-us/*.png */
 .why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background {
-  background-image: url('/images/admin/why-train-with-us-s11aec36b99.png');
+  background-image: url('../images/admin/why-train-with-us-s11aec36b99.png');
   background-repeat: no-repeat;
 }
 
@@ -632,9 +632,8 @@
   padding-bottom: 15.92357%;
   background-size: 424.20382%;
   background-position: 0 0%;
-  margin-bottom: 14px;
 }
-/* line 23, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 22, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-classroom {
   background-position: 0 -380px;
   /*  
@@ -649,9 +648,8 @@
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
   background-position: 0 46.45477%;
-  margin-bottom: 14px;
 }
-/* line 29, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 27, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-course-classroom {
   background-position: 0 -599px;
   /*  
@@ -666,9 +664,8 @@
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
   background-position: 0 73.22738%;
-  margin-bottom: 14px;
 }
-/* line 35, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 32, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-private-training {
   background-position: 0 -818px;
   /*  
@@ -683,9 +680,8 @@
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
   background-position: 0 100%;
-  margin-bottom: 14px;
 }
-/* line 41, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 37, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-background {
   background-position: 0 -90px;
   /*  
@@ -700,92 +696,4 @@
   padding-bottom: 18.76877%;
   background-size: 100%;
   background-position: 0 12.04819%;
-  margin-bottom: 14px;
 }
-
-/*@import "_custom/responsive-sprite";
- 
-// Create sprite using Compass 
-@import "compass/utilities/sprites"; 
-
-// Required for correct operation 
-$wtwu-spacing: 40px; 
- 
-@import "admin/why-train-with-us/*.png";  
-
-.cdt-wtwu { 
-    $map: sprite-map("admin/why-train-with-us/*.png", $spacing: $wtwu-spacing);  
-    $sprite-width: 248px; 
-    $sprite-height: 329px;  
- 
-    .wtwu-book-and-pay-later { 
-        @include why-train-with-us-sprite(wtwu-book-and-pay-later); 
-        @include responsive-sprite($map, wtwu-book-and-pay-later, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
- 
-    .wtwu-book-and-pay-now { 
-        @include why-train-with-us-sprite(wtwu-book-and-pay-now); 
-        @include responsive-sprite($map, wtwu-book-and-pay-now, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-
-}
-*/
-/*    $sprite-width: 1332px; 
-    $sprite-height: 837px; 
- 
-    .wtwu-adobe-apple-authorised-logo { 
-        @include why-train-with-us-sprite(wtwu-adobe-apple-authorised-logo); 
-        @include responsive-sprite($map, wtwu-adobe-apple-authorised-logo, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-
-    .wtwu-classroom { 
-        @include why-train-with-us-sprite(wtwu-classroom); 
-        @include responsive-sprite($map, wtwu-classroom, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-
-    .wtwu-course-classroom { 
-        @include why-train-with-us-sprite(wtwu-course-classroom); 
-        @include responsive-sprite($map, wtwu-course-classroom, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }
-
-    .wtwu-private-training { 
-        @include why-train-with-us-sprite(wtwu-private-training); 
-        @include responsive-sprite($map, wtwu-private-training, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-
-    .wtwu-background { 
-        @include why-train-with-us-sprite(wtwu-background); 
-        @include responsive-sprite($map, wtwu-background, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-*/
-/*    .wtwu-book-and-pay-now { 
-        @include why-train-with-us-sprite(wtwu-book-and-pay-now); 
-        @include responsive-sprite($map, wtwu-book-and-pay-now, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 14px;
-    }  
-
-    .wtwu-book-and-pay-later { 
-        @include why-train-with-us-sprite(wtwu-book-and-pay-later); 
-        @include responsive-sprite($map, wtwu-book-and-pay-later, $sprite-width, $sprite-height, 100%);
-        margin-bottom: 16px;
-    } 
-
-    .wtwu-calendar-custom-training { 
-        // Don't forget to change the name of the image for every page
-        @include why-train-with-us-sprite(wtwu-calendar-custom-training); 
-        @include responsive-sprite($map, wtwu-calendar-custom-training, $sprite-width, $sprite-height, 100%);
-
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
-            @include responsive-sprite($map, wtwu-calendar-custom-training, $sprite-width, $sprite-height, 65%);
-        }
-
-        border: 1px solid #686F74;  
-    } 
-*/

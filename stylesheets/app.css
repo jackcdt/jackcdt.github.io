@@ -9047,8 +9047,8 @@ body {
  */
 @font-face {
   font-family: "foundation-icons";
-  src: url('/fonts/foundation-icons.eot?1413961663');
-  src: url('/fonts/foundation-icons.eot?&1413961663#iefix') format("embedded-opentype"), url('/fonts/foundation-icons.woff?1413961663') format("woff"), url('/fonts/foundation-icons.ttf?1413961663') format("truetype"), url('/fonts/foundation-icons.svg?1413961663#fontcustom') format("svg");
+  src: url('../fonts/foundation-icons.eot?1413961663');
+  src: url('../fonts/foundation-icons.eot?&1413961663#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1413961663') format("woff"), url('../fonts/foundation-icons.ttf?1413961663') format("truetype"), url('../fonts/foundation-icons.svg?1413961663#fontcustom') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10781,7 +10781,7 @@ html {
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
-.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th {
+.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2 {
   font-weight: 600;
 }
 
@@ -10792,17 +10792,17 @@ html {
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu h2 {
+.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2 {
   font-weight: 400;
 }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs dd a {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-1, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs dd a, .cdt-wtwu h1, .cdt-wtwu .wtwu-header p {
   font-weight: 300;
 }
 
 /* line 48, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li, .indesign-category .course-item .course-item-title h3 span, .indesign-category .seminars-ad .seminars-ad-content, .indesign-course .course-header-1, .indesign-course .seminars-ad .seminars-ad-content, .cdt-calendar h1, .cdt-wtwu h1 {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li, .indesign-category .course-item .course-item-title h3 span, .indesign-category .seminars-ad .seminars-ad-content, .indesign-course .course-header-1, .indesign-course .seminars-ad .seminars-ad-content, .cdt-calendar h1 {
   font-weight: 200;
 }
 
@@ -10869,7 +10869,7 @@ h4 {
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
 /* line 112, ../images/header-footer/*.png */
 .header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
-  background-image: url('/images/../images/header-footer-sd88e9d5b6c.png');
+  background-image: url('../images/../images/header-footer-sd88e9d5b6c.png');
   background-repeat: no-repeat;
 }
 
@@ -11148,7 +11148,7 @@ h4 {
 
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite {
-  background-image: url('/images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
+  background-image: url('../images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
   background-repeat: no-repeat;
 }
 
@@ -11801,7 +11801,7 @@ h4 {
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite {
-  background-image: url('/images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
+  background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
@@ -12740,11 +12740,22 @@ h4 {
   margin-bottom: 24px;
 }
 /* line 22, ../scss/_custom/admin/_why-train-with-us.scss */
+.cdt-wtwu .wtwu-header p {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  line-height: 30px;
+}
+/* line 29, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu h2 {
   margin-top: 10px;
   margin-bottom: 16px;
-  padding: 5px;
-  font-size: 1.25em;
-  line-height: 1.2em;
-  line-height: 1.2em;
+  line-height: 1.5em;
+  color: #2088d1;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+/* line 40, ../scss/_custom/admin/_why-train-with-us.scss */
+.cdt-wtwu .wtwu-side-logo {
+  margin-top: 50px;
 }
