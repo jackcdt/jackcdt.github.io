@@ -38,4 +38,9 @@ $why-train-with-us-spacing: 40px;
         @include why-train-with-us-sprite(wtwu-background); 
         @include responsive-sprite($map, wtwu-background, $sprite-width, $sprite-height, 100%);
     }  
-}
+/*
+    .gradient-top { 
+        @include why-train-with-us-sprite(gradient-top); 
+        @include responsive-sprite($map, gradient-top, $sprite-width, $sprite-height, 100%);
+    }  
+*/}

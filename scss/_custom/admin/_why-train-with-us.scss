@@ -3,6 +3,14 @@
 $wtwu-color: #2088D1; 
       
 .cdt-wtwu {
+    .gradient-top {
+        height: 46px;
+        margin: 0 auto;
+        background-repeat: repeat-x;
+        background-size: auto auto;
+        background-position: center center;
+    } 
+
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
     }
