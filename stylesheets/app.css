@@ -9035,8 +9035,8 @@ body {
  */
 @font-face {
   font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.eot?1414024342');
-  src: url('../fonts/foundation-icons.eot?&1414024342#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1414024342') format("woff"), url('../fonts/foundation-icons.ttf?1414024342') format("truetype"), url('../fonts/foundation-icons.svg?1414024342#fontcustom') format("svg");
+  src: url('../fonts/foundation-icons.eot?1414025847');
+  src: url('../fonts/foundation-icons.eot?&1414025847#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1414025847') format("woff"), url('../fonts/foundation-icons.ttf?1414025847') format("truetype"), url('../fonts/foundation-icons.svg?1414025847#fontcustom') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10755,7 +10755,7 @@ body {
 /* Sets the browser default size. */
 /* Baseline grid. */
 /* Custom fonts */
-/* line 106, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
@@ -10763,7 +10763,7 @@ html {
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .part-time-options, .cdt-calendar .responsive thead .location {
+.indesign-category .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
   font-weight: 700;
 }
 
@@ -10780,7 +10780,7 @@ html {
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2 {
+.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
   font-weight: 400;
 }
 
@@ -12712,37 +12712,99 @@ h4 {
   top: 0;
 }
 
-/* line 2, ../scss/_custom/components/testimonials-slider.scss */
-.cdt-wtwu .testimonials-slider .orbit-prev, .cdt-wtwu .testimonials-slider .orbit-next {
-  color: #000;
+/* line 1, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider {
+  height: 250px;
 }
-/* line 6, ../scss/_custom/components/testimonials-slider.scss */
+/* line 4, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-next > span {
+  border-left-color: #CCCCCC;
+}
+/* line 8, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-prev > span {
+  border-right-color: #CCCCCC;
+}
+/* line 12, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-next:hover,
+.cdt-wtwu .testimonials-slider .orbit-prev:hover {
+  background-color: transparent;
+}
+/* line 17, ../scss/_custom/components/_testimonials-slider.scss */
 .cdt-wtwu .testimonials-slider .orbit-next:hover > span {
-  border-left-color: #000;
+  border-left-color: #999999;
+}
+/* line 21, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-prev:hover > span {
+  border-right-color: #999999;
+}
+/* line 25, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-slide-number,
+.cdt-wtwu .testimonials-slider .orbit-bullets {
+  visibility: hidden;
+}
+/* line 30, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .slider-content {
+  margin-top: 3%;
+}
+@media screen and (max-width: 767px) {
+  /* line 30, ../scss/_custom/components/_testimonials-slider.scss */
+  .cdt-wtwu .testimonials-slider .slider-content {
+    visibility: hidden;
+  }
+}
+/* line 37, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1em;
+  line-height: 1.25em;
+  color: #2088d1;
+}
+@media screen and (max-width: 991px) {
+  /* line 37, ../scss/_custom/components/_testimonials-slider.scss */
+  .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
+    font-size: 1.25em;
+    line-height: 1.2em;
+  }
+}
+/* line 49, ../scss/_custom/components/_testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
+  text-align: right;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: black;
+}
+@media screen and (max-width: 991px) {
+  /* line 49, ../scss/_custom/components/_testimonials-slider.scss */
+  .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
+    font-size: 0.875em;
+    line-height: 1.71429em;
+    margin-top: -2%;
+  }
 }
 
-/* line 7, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 7, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .custom-breadcrumbs {
   margin-top: 12px;
 }
-/* line 11, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 11, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .breadcrumb-active {
   color: #2088D1;
 }
-/* line 15, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 15, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu h1 {
   font-size: 2.25em;
   line-height: 0.66667em;
   line-height: 1.38em;
   margin-bottom: 24px;
 }
-/* line 23, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 23, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .wtwu-header p {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 30px;
 }
-/* line 30, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 30, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu h2 {
   margin-top: 10px;
   margin-bottom: 16px;
@@ -12752,7 +12814,12 @@ h4 {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 41, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 41, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .wtwu-side-logo {
   margin-top: 50px;
+}
+/* line 49, ../scss/_custom/admin/_training-benefits.scss */
+.cdt-wtwu .wtwu-benefits {
+  font-size: 0.875em;
+  line-height: 1.71429em;
 }

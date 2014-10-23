@@ -613,11 +613,11 @@
   background-repeat: no-repeat;
 }
 
-/* line 12, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 12, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu {
   /*empty comment*/
 }
-/* line 17, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 17, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .wtwu-adobe-apple-authorised-logo {
   background-position: 0 -86px;
   /*  
@@ -633,7 +633,7 @@
   background-size: 424.20382%;
   background-position: 0 8.32527%;
 }
-/* line 22, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 22, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .wtwu-classroom {
   background-position: 0 -466px;
   /*  
@@ -649,7 +649,7 @@
   background-size: 426.92308%;
   background-position: 0 51.54867%;
 }
-/* line 27, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 27, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .wtwu-course-classroom {
   background-position: 0 -685px;
   /*  
@@ -665,7 +665,7 @@
   background-size: 426.92308%;
   background-position: 0 75.77434%;
 }
-/* line 32, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 32, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .wtwu-private-training {
   background-position: 0 -904px;
   /*  
@@ -681,7 +681,7 @@
   background-size: 426.92308%;
   background-position: 0 100%;
 }
-/* line 37, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+/* line 37, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .wtwu-background {
   background-position: 0 -176px;
   /*  
@@ -697,7 +697,13 @@
   background-size: 100%;
   background-position: 0 21.12845%;
 }
-/* line 42, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+@media (min-width: 1380px) {
+  /* line 37, ../scss/_custom/admin/_training-benefits-add-styles.scss */
+  .cdt-wtwu .wtwu-background {
+    padding-bottom: 250px;
+  }
+}
+/* line 47, ../scss/_custom/admin/_training-benefits-add-styles.scss */
 .cdt-wtwu .gradient-top {
   background-position: 0 0;
   /*  
@@ -713,5 +719,5 @@
   background-size: 100%;
   background-position: 0 0%;
   max-height: 46px;
-  margin-top: -1px;
+  margin-top: -2px;
 }

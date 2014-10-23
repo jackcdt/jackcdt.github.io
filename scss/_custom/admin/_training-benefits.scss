@@ -25,7 +25,7 @@ $wtwu-color: #2088D1;
         @include adjust-font-size-to(20px, 1);
 
         line-height: 30px;
-    }
+    } 
  
     h2 {
         margin-top: 10px;
@@ -45,4 +45,8 @@ $wtwu-color: #2088D1;
     .testimonials-slider {
         @extend %testimonials-slider;
     }   
+
+    .wtwu-benefits {
+        @include adjust-font-size-to(14px, 1);
+    }
 }
