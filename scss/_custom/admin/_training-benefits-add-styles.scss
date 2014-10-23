@@ -17,21 +17,37 @@ $why-train-with-us-spacing: 40px;
     .wtwu-adobe-apple-authorised-logo { 
         @include why-train-with-us-sprite(wtwu-adobe-apple-authorised-logo); 
         @include responsive-sprite($map, wtwu-adobe-apple-authorised-logo, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, wtwu-adobe-apple-authorised-logo, $sprite-width, $sprite-height, 65%);
+        }
     }  
  
     .wtwu-classroom { 
         @include why-train-with-us-sprite(wtwu-classroom); 
         @include responsive-sprite($map, wtwu-classroom, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, wtwu-classroom, $sprite-width, $sprite-height, 65%);
+        }
     }  
 
     .wtwu-course-classroom { 
         @include why-train-with-us-sprite(wtwu-course-classroom); 
         @include responsive-sprite($map, wtwu-course-classroom, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, wtwu-course-classroom, $sprite-width, $sprite-height, 65%);
+        }
     } 
  
     .wtwu-private-training { 
         @include why-train-with-us-sprite(wtwu-private-training); 
         @include responsive-sprite($map, wtwu-private-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, wtwu-private-training, $sprite-width, $sprite-height, 65%);
+        }
     }  
 
     .wtwu-background { 

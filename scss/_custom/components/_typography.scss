@@ -1,0 +1,48 @@
+/* Title and sub-title to be used on banners */
+@mixin banner-title($color: #fff) {
+    .banner-header, .banner-sub-header {
+        font-family: Raleway, Helvetica, sans-serif;
+        color: $color;
+    }
+
+    .banner-header {
+        @extend %t-regular;
+        @include adjust-font-size-to($medium-font-size);
+        line-height: 1em;
+        
+        @media #{$medium-up} {
+            @include adjust-font-size-to($large-font-size);
+            line-height: 1em;
+        }
+
+        @media #{$large-up} {
+            @include adjust-font-size-to($xlarge-font-size);
+            line-height: 1em;
+        }
+    }
+
+    .banner-sub-header {
+        @include adjust-font-size-to(14px);
+        @extend %t-emphasize;
+    }
+}
+
+
+/* Main content title (not necessarily h1)*/
+@mixin large-thin-title($color: #000) {
+    @extend %t-ultralight;
+    @include adjust-font-size-to($xlarge-font-size, 1);
+    line-height: 1.5em;
+
+    padding: 3px 0;
+    margin-bottom: 0;
+}
+
+
+/* Color paragraph header */
+@mixin paragraph-header($color: #000) {
+    color: $color;
+    @extend %t-medium;
+    @extend %t-emphasize;   
+    @include adjust-leading-to(1, $base-font-size); 
+}

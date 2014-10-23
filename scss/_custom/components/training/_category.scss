@@ -2,10 +2,7 @@
 @import "side-pannel";
 @import "custom-training";
 @import "course-item";
-@import "paragraph-header";
 @import "testimonials";
-@import "../breadcrumbs";
-@import "../border-radius";
 
 @mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
     @include banner($logo-height, $color);
