@@ -607,17 +607,9 @@
   margin-bottom: 24px;
 }
 /* line 13, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .custom-training .prefer-custom-training-text {
-  top: -130px;
-}
-/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
-}
-/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
-.indesign-category .courses-row {
-  margin-top: -80px;
 }
 
 /* Hide all sprites */
