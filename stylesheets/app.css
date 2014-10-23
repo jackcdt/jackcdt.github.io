@@ -12799,7 +12799,7 @@ h4 {
   font-size: 2.25em;
   line-height: 0.66667em;
   line-height: 1.38em;
-  margin-bottom: 1em;
+  margin-bottom: 0.3em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 21, ../scss/_custom/admin/_training-benefits.scss */
