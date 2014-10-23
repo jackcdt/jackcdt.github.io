@@ -697,7 +697,13 @@
   background-size: 100%;
   background-position: 0 21.12845%;
 }
-/* line 42, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+@media (min-width: 1380px) {
+  /* line 37, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+  .cdt-wtwu .wtwu-background {
+    padding-bottom: 250px;
+  }
+}
+/* line 47, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .gradient-top {
   background-position: 0 0;
   /*  
@@ -713,5 +719,5 @@
   background-size: 100%;
   background-position: 0 0%;
   max-height: 46px;
-  margin-top: -1px;
+  margin-top: -2px;
 }
