@@ -11,11 +11,8 @@ $calendar-color: #2088D1;
     }
 
     h1 {
-        @extend %t-ultralight;
-        @include adjust-font-size-to(36px, 1);
-
-        line-height: 1.38em;
-        margin-bottom: $margin-bottom-default;
+        @include large-thin-title;
+        margin-bottom: 16px;
     }
  
     .accordion .accordion-navigation > a, .accordion dd > a {
@@ -27,7 +24,7 @@ $calendar-color: #2088D1;
         dd a {
             font-family: Raleway, Helvetica, sans-serif;
             border: 1px solid #DBDBDB;
-            background-color: #fff;
+            background-color: #fff; 
             margin-right: 10px;
             margin-top: 5px;
             width: 105px;

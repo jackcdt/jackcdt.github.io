@@ -30,20 +30,11 @@
     }
 
     .tight-header {
-        display: block;
-        border: 1px solid #000;
-        padding: 8px 10px;
-        margin-bottom: 9px;
-
-        @include adjust-font-size-to($large-font-size, 1);
-        @extend %t-light;
+        @include large-title-with-border;
     } 
 
     .tight-header-1 {
         @extend .tight-header;
-
-        margin-top: 0;
-        margin-bottom: 16px;
 
         /* Not supported in IE (old and above 9)
         @media #{$medium-up} {
