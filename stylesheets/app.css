@@ -12712,28 +12712,37 @@ h4 {
   top: 0;
 }
 
-/* line 10, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 2, ../scss/_custom/components/testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-prev, .cdt-wtwu .testimonials-slider .orbit-next {
+  color: #000;
+}
+/* line 6, ../scss/_custom/components/testimonials-slider.scss */
+.cdt-wtwu .testimonials-slider .orbit-next:hover > span {
+  border-left-color: #000;
+}
+
+/* line 7, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu .custom-breadcrumbs {
   margin-top: 12px;
 }
-/* line 14, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 11, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu .breadcrumb-active {
   color: #2088D1;
 }
-/* line 18, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 15, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu h1 {
   font-size: 2.25em;
   line-height: 0.66667em;
   line-height: 1.38em;
   margin-bottom: 24px;
 }
-/* line 26, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 23, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu .wtwu-header p {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 30px;
 }
-/* line 33, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 30, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu h2 {
   margin-top: 10px;
   margin-bottom: 16px;
@@ -12743,7 +12752,7 @@ h4 {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 44, ../scss/_custom/admin/_why-train-with-us.scss */
+/* line 41, ../scss/_custom/admin/_why-train-with-us.scss */
 .cdt-wtwu .wtwu-side-logo {
   margin-top: 50px;
 }

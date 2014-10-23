@@ -1,12 +1,9 @@
 @import "../components/breadcrumbs";
+@import "../components/testimonials-slider";
     
 $wtwu-color: #2088D1; 
        
 .cdt-wtwu {
-    .gradient-top {
-
-    }  
-
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
     }
@@ -44,4 +41,8 @@ $wtwu-color: #2088D1;
     .wtwu-side-logo {
         margin-top: 50px;
     }
+
+    .testimonials-slider {
+        @extend %testimonials-slider;
+    }   
 }
