@@ -608,20 +608,14 @@
 *
 */
 /* line 88, admin/why-train-with-us/*.png */
-.why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background {
-  background-image: url('../images/admin/why-train-with-us-sa699858132.png');
+.why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background, .cdt-wtwu .gradient-top {
+  background-image: url('../images/admin/why-train-with-us-s5a438105d0.png');
   background-repeat: no-repeat;
 }
 
 /* line 12, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu {
   /*empty comment*/
-  /*
-      .gradient-top { 
-          @include why-train-with-us-sprite(gradient-top); 
-          @include responsive-sprite($map, gradient-top, $sprite-width, $sprite-height, 100%);
-      }  
-  */
 }
 /* line 17, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-adobe-apple-authorised-logo {
@@ -637,7 +631,7 @@
   height: 0;
   padding-bottom: 15.92357%;
   background-size: 424.20382%;
-  background-position: 0 9.08131%;
+  background-position: 0 8.32527%;
 }
 /* line 22, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-classroom {
@@ -653,7 +647,7 @@
   height: 0;
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
-  background-position: 0 56.96822%;
+  background-position: 0 51.54867%;
 }
 /* line 27, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-course-classroom {
@@ -669,7 +663,7 @@
   height: 0;
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
-  background-position: 0 83.74083%;
+  background-position: 0 75.77434%;
 }
 /* line 32, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-private-training {
@@ -685,7 +679,7 @@
   height: 0;
   padding-bottom: 57.37179%;
   background-size: 426.92308%;
-  background-position: 0 110.51345%;
+  background-position: 0 100%;
 }
 /* line 37, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
 .cdt-wtwu .wtwu-background {
@@ -701,5 +695,23 @@
   height: 0;
   padding-bottom: 18.76877%;
   background-size: 100%;
-  background-position: 0 23.56091%;
+  background-position: 0 21.12845%;
+}
+/* line 42, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .gradient-top {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.45345%;
+  background-size: 100%;
+  background-position: 0 0%;
+  max-height: 46px;
+  margin-top: -1px;
 }
