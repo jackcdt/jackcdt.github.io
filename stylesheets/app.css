@@ -12788,34 +12788,46 @@ h4 {
 .cdt-wtwu .breadcrumb-active {
   color: #2088D1;
 }
-/* line 15, ../scss/_custom/admin/_training-benefits.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../scss/_custom/admin/_training-benefits.scss */
+  .cdt-wtwu .wtwu-breadcrumbs {
+    margin-top: -1.5em;
+  }
+}
+/* line 21, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu h1 {
   font-size: 2.25em;
   line-height: 0.66667em;
   line-height: 1.38em;
-  margin-bottom: 24px;
+  margin-bottom: 1em;
 }
-/* line 23, ../scss/_custom/admin/_training-benefits.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 21, ../scss/_custom/admin/_training-benefits.scss */
+  .cdt-wtwu h1 {
+    margin-top: -1em;
+  }
+}
+/* line 33, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .wtwu-header p {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 30px;
 }
-/* line 30, ../scss/_custom/admin/_training-benefits.scss */
+/* line 40, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu h2 {
-  margin-top: 10px;
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 4px;
   line-height: 1.5em;
   color: #2088D1;
   text-transform: uppercase;
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 41, ../scss/_custom/admin/_training-benefits.scss */
+/* line 51, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .wtwu-side-logo {
   margin-top: 50px;
 }
-/* line 49, ../scss/_custom/admin/_training-benefits.scss */
+/* line 59, ../scss/_custom/admin/_training-benefits.scss */
 .cdt-wtwu .wtwu-benefits {
   font-size: 0.875em;
   line-height: 1.71429em;

@@ -12,12 +12,22 @@ $wtwu-color: #2088D1;
         color: $wtwu-color;
     }  
 
+    .wtwu-breadcrumbs {
+        @media #{$medium-up} {
+            margin-top: -1.5em;
+        }
+    }
+
     h1 {
         @extend %t-light;
         @include adjust-font-size-to(36px, 1);
  
         line-height: 1.38em;
-        margin-bottom: $margin-bottom-default;
+        margin-bottom: 1em;
+
+        @media #{$medium-up} {
+            margin-top: -1em;
+        }
     }
   
     .wtwu-header p { 
@@ -28,8 +38,8 @@ $wtwu-color: #2088D1;
     } 
  
     h2 {
-        margin-top: 10px;
-        margin-bottom: 16px;
+        margin-top: 16px;
+        margin-bottom: 4px;
         line-height: 1.5em;
         color: $wtwu-color;
         text-transform: uppercase;
