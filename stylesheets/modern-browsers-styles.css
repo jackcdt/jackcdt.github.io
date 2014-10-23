@@ -9,7 +9,7 @@
 */
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
-  background-image: url('/images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
+  background-image: url('../images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
   background-repeat: no-repeat;
 }
 
@@ -280,7 +280,7 @@
 */
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .course-custom-training-logo, .indesign-course .id-advanced, .indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess {
-  background-image: url('/images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
+  background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
@@ -521,15 +521,15 @@
 */
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
-  background-image: url('/images/admin/calendar-s4dacfd9bea.png');
+  background-image: url('../images/admin/calendar-s4dacfd9bea.png');
   background-repeat: no-repeat;
 }
 
-/* line 11, ../scss/_custom/admin/_calendar-add-styles.scss */
+/* line 12, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar {
   /*empty comment*/
 }
-/* line 16, ../scss/_custom/admin/_calendar-add-styles.scss */
+/* line 17, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .book-and-pay-now {
   background-position: 0 -168px;
   /*  
@@ -546,7 +546,7 @@
   background-position: 0 59.15493%;
   margin-bottom: 14px;
 }
-/* line 22, ../scss/_custom/admin/_calendar-add-styles.scss */
+/* line 23, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .book-and-pay-later {
   background-position: 0 0;
   /*  
@@ -563,7 +563,7 @@
   background-position: 0 0%;
   margin-bottom: 16px;
 }
-/* line 28, ../scss/_custom/admin/_calendar-add-styles.scss */
+/* line 29, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .calendar-custom-training {
   background-position: 0 -333px;
   /*  
@@ -581,7 +581,7 @@
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 28, ../scss/_custom/admin/_calendar-add-styles.scss */
+  /* line 29, ../scss/_custom/admin/_calendar-add-styles.scss */
   .cdt-calendar .calendar-custom-training {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -596,4 +596,122 @@
     background-size: 134.05405%;
     background-position: 0 100%;
   }
+}
+
+/* Mixin for creating a responsive sprite 
+* 
+* $map - sprite map, created using sprite-map function
+* $img - name of the png file in the map
+* $map-width, $map-height - sprite map physical dimentions, these parameters should be
+*                           calculated rather than passed in - currently not working, code is commented below
+* $img-size-percent - required sprite size
+*
+*/
+/* line 88, admin/why-train-with-us/*.png */
+.why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background, .cdt-wtwu .gradient-top {
+  background-image: url('../images/admin/why-train-with-us-s5a438105d0.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .wtwu-adobe-apple-authorised-logo {
+  background-position: 0 -86px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 15.92357%;
+  background-size: 424.20382%;
+  background-position: 0 8.32527%;
+}
+/* line 22, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .wtwu-classroom {
+  background-position: 0 -466px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 57.37179%;
+  background-size: 426.92308%;
+  background-position: 0 51.54867%;
+}
+/* line 27, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .wtwu-course-classroom {
+  background-position: 0 -685px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 57.37179%;
+  background-size: 426.92308%;
+  background-position: 0 75.77434%;
+}
+/* line 32, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .wtwu-private-training {
+  background-position: 0 -904px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 57.37179%;
+  background-size: 426.92308%;
+  background-position: 0 100%;
+}
+/* line 37, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .wtwu-background {
+  background-position: 0 -176px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 18.76877%;
+  background-size: 100%;
+  background-position: 0 21.12845%;
+}
+/* line 42, ../scss/_custom/admin/_why-train-with-us-add-styles.scss */
+.cdt-wtwu .gradient-top {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.45345%;
+  background-size: 100%;
+  background-position: 0 0%;
+  max-height: 46px;
+  margin-top: -1px;
 }

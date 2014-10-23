@@ -2,14 +2,14 @@
 @import "../components/border-radius"; 
 @import "../components/accordion-plus-minus";
 @import "../components/responsive-table";
-
+ 
 $calendar-color: #2088D1; 
   
 .cdt-calendar {
     // To remove Chrome blue border on elements, use this:
     *:focus {
         outline:0;
-    }
+    } 
  
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
@@ -22,7 +22,7 @@ $calendar-color: #2088D1;
         line-height: 1.38em;
         margin-bottom: $margin-bottom-default;
     }
-
+ 
     .accordion .accordion-navigation > a, .accordion dd > a {
         background-color: #fff;
         padding: 0;

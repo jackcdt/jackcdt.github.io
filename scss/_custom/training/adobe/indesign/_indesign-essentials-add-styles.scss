@@ -4,7 +4,7 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
  
-// Required for correct operation
+// Required for correct operation, must be named same as the sprite
 $indesign-ess-spacing: 40px; 
 
 @import "training/adobe/indesign/indesign-ess/*.png";  
