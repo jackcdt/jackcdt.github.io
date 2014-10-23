@@ -12739,20 +12739,21 @@ h4 {
 }
 /* line 25, ../scss/_custom/components/_testimonials-slider.scss */
 .cdt-wtwu .testimonials-slider .orbit-slide-number,
-.cdt-wtwu .testimonials-slider .orbit-bullets {
+.cdt-wtwu .testimonials-slider .orbit-bullets,
+.cdt-wtwu .testimonials-slider .orbit-timer .orbit-progress {
   visibility: hidden;
 }
-/* line 30, ../scss/_custom/components/_testimonials-slider.scss */
+/* line 31, ../scss/_custom/components/_testimonials-slider.scss */
 .cdt-wtwu .testimonials-slider .slider-content {
   margin-top: 3%;
 }
 @media screen and (max-width: 767px) {
-  /* line 30, ../scss/_custom/components/_testimonials-slider.scss */
+  /* line 31, ../scss/_custom/components/_testimonials-slider.scss */
   .cdt-wtwu .testimonials-slider .slider-content {
     visibility: hidden;
   }
 }
-/* line 37, ../scss/_custom/components/_testimonials-slider.scss */
+/* line 38, ../scss/_custom/components/_testimonials-slider.scss */
 .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
   text-align: center;
   font-size: 1.5em;
@@ -12761,13 +12762,13 @@ h4 {
   color: #2088d1;
 }
 @media screen and (max-width: 991px) {
-  /* line 37, ../scss/_custom/components/_testimonials-slider.scss */
+  /* line 38, ../scss/_custom/components/_testimonials-slider.scss */
   .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
     font-size: 1.25em;
     line-height: 1.2em;
   }
 }
-/* line 49, ../scss/_custom/components/_testimonials-slider.scss */
+/* line 50, ../scss/_custom/components/_testimonials-slider.scss */
 .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
   text-align: right;
   font-size: 1em;
@@ -12775,7 +12776,7 @@ h4 {
   color: black;
 }
 @media screen and (max-width: 991px) {
-  /* line 49, ../scss/_custom/components/_testimonials-slider.scss */
+  /* line 50, ../scss/_custom/components/_testimonials-slider.scss */
   .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
     font-size: 0.875em;
     line-height: 1.71429em;
