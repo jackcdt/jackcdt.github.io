@@ -13,6 +13,10 @@ $calendar-color: #2088D1;
     h1 {
         @include large-thin-title;
         margin-bottom: 16px;
+
+        @media #{$medium-up} {
+            margin-top: -1em;
+        }
     }
  
     .accordion .accordion-navigation > a, .accordion dd > a {

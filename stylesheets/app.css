@@ -10772,13 +10772,13 @@ html {
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
 .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
-.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2 {
+.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .cdt-calendar h3, .cdt-calendar .testimonials .category-testimonial span {
   font-weight: 600;
 }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .indesign-category .banner-text .banner-sub-header, .indesign-category .sw-ver, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header {
+.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .testimonials .testimonials-title, .cdt-calendar .testimonials .category-testimonial-client-name, .cdt-calendar .testimonials .category-testimonial-course-name {
   font-weight: 500;
 }
 
@@ -10788,7 +10788,13 @@ html {
 }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p, .cdt-calendar .about-cdt,
+.cdt-calendar .about-courses,
+.cdt-calendar .course-benefits,
+.cdt-calendar .organise-course,
+.cdt-calendar .course-levels,
+.cdt-calendar .practical-things,
+.cdt-calendar .payments {
   font-weight: 300;
 }
 
@@ -10809,13 +10815,13 @@ html {
 }
 
 /* line 84, ../scss/_custom/_custom-fonts.scss */
-h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3 {
+h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .cdt-calendar h3 {
   font-size: 1em;
   line-height: 1.5em;
 }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i {
+h3, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .cdt-calendar .testimonials .testimonials-title, .cdt-calendar .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em;
 }
@@ -12067,12 +12073,18 @@ h4 {
   margin-bottom: 0;
   margin-bottom: 16px;
 }
-/* line 18, ../scss/_custom/admin/_calendar.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 13, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar h1 {
+    margin-top: -1em;
+  }
+}
+/* line 22, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .accordion .accordion-navigation > a, .cdt-calendar .accordion dd > a {
   background-color: #fff;
   padding: 0;
 }
-/* line 24, ../scss/_custom/admin/_calendar.scss */
+/* line 28, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs dd a {
   font-family: Raleway, Helvetica, sans-serif;
   border: 1px solid #DBDBDB;
@@ -12088,22 +12100,22 @@ h4 {
   line-height: 31px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 24, ../scss/_custom/admin/_calendar.scss */
+  /* line 28, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .tabs dd a {
     width: 149px;
   }
 }
-/* line 44, ../scss/_custom/admin/_calendar.scss */
+/* line 48, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs dd.active a {
   color: #FFF;
   background-color: #2088d1;
 }
-/* line 51, ../scss/_custom/admin/_calendar.scss */
+/* line 55, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs-content .content {
   padding: 0;
   margin-top: 16px;
 }
-/* line 56, ../scss/_custom/admin/_calendar.scss */
+/* line 60, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs-content h2 {
   border-bottom: 1px solid #A4A4A4;
   margin-top: 10px;
@@ -12113,7 +12125,7 @@ h4 {
   line-height: 1.2em;
   line-height: 1.2em;
 }
-/* line 68, ../scss/_custom/admin/_calendar.scss */
+/* line 72, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs-content h3 {
   margin-top: 2px;
   margin-bottom: 16px;
@@ -12131,7 +12143,7 @@ h4 {
   font-family: "foundation-icons";
   content: "\f176";
 }
-/* line 82, ../scss/_custom/admin/_calendar.scss */
+/* line 86, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .tabs-content .accordion .accordion-icon {
   float: left;
   margin-right: 5px;
@@ -12142,17 +12154,17 @@ h4 {
   line-height: 1.7em;
   padding-left: 5px;
 }
-/* line 95, ../scss/_custom/admin/_calendar.scss */
+/* line 99, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive {
   border: none;
   border-spacing: 0px;
   display: block;
 }
-/* line 100, ../scss/_custom/admin/_calendar.scss */
+/* line 104, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead {
   background-color: #fff;
 }
-/* line 103, ../scss/_custom/admin/_calendar.scss */
+/* line 107, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead th {
   text-align: center;
   color: #2088d1;
@@ -12161,7 +12173,7 @@ h4 {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-/* line 113, ../scss/_custom/admin/_calendar.scss */
+/* line 117, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead .location {
   text-align: left;
   text-transform: uppercase;
@@ -12169,12 +12181,12 @@ h4 {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 123, ../scss/_custom/admin/_calendar.scss */
+/* line 127, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive tbody tr td {
   border: 1px solid #dbdbdb;
   text-align: center;
 }
-/* line 128, ../scss/_custom/admin/_calendar.scss */
+/* line 132, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive td.row-name {
   text-align: left;
 }
@@ -12253,11 +12265,11 @@ h4 {
     text-align: center;
   }
 }
-/* line 140, ../scss/_custom/admin/_calendar.scss */
+/* line 144, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74;
 }
-/* line 146, ../scss/_custom/admin/_calendar.scss */
+/* line 150, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088d1;
   /*    background-color: #CECECE;*/
@@ -12435,4 +12447,209 @@ h4 {
 .cdt-wtwu .wtwu-benefits {
   font-size: 0.875em;
   line-height: 1.71429em;
+}
+
+/* line 4, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .custom-breadcrumbs {
+  margin-top: 12px;
+}
+/* line 8, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar h1 {
+  font-size: 2em;
+  line-height: 0.75em;
+  line-height: 1.5em;
+  padding: 3px 0;
+  margin-bottom: 0;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 8, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar h1 {
+    margin-top: -1em;
+  }
+}
+/* line 17, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .accordion .accordion-navigation > a, .cdt-calendar .accordion dd > a {
+  background-color: #fff;
+  padding: 0;
+}
+/* line 22, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .about-cdt,
+.cdt-calendar .about-courses,
+.cdt-calendar .course-benefits,
+.cdt-calendar .organise-course,
+.cdt-calendar .course-levels,
+.cdt-calendar .practical-things,
+.cdt-calendar .payments {
+  font-size: 1.5em;
+  line-height: 1em;
+  line-height: 1em;
+  display: block;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 32, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .about-cdt {
+    width: 331px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 38, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .about-courses {
+    width: 230px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 44, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .course-benefits {
+    width: 197px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 50, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .organise-course {
+    width: 303px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 56, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .course-levels {
+    width: 174px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 62, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .practical-things {
+    width: 191px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 68, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .payments {
+    width: 367px;
+  }
+}
+/* line 74, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar h3 {
+  margin-top: 2px;
+  margin-bottom: 16px;
+  border-bottom: 1px dotted #dbdbdb;
+  color: #2088d1;
+  padding-bottom: 4px;
+}
+/* line 85, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .accordion {
+  margin-bottom: 24px;
+}
+/* line 4, ../scss/_custom/components/_accordion-plus-minus.scss */
+.cdt-calendar .accordion .accordion-icon:before {
+  font-family: "foundation-icons";
+  content: "\f199";
+}
+/* line 10, ../scss/_custom/components/_accordion-plus-minus.scss */
+.cdt-calendar .accordion .active .accordion-icon:before {
+  font-family: "foundation-icons";
+  content: "\f176";
+}
+/* line 89, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .accordion .accordion-icon {
+  float: left;
+  margin-right: 5px;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 0.8125em;
+  color: #959595;
+  line-height: 1.7em;
+  padding-left: 5px;
+}
+/* line 100, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .accordion .accordion-navigation > .content,
+.cdt-calendar .accordion dd > .content {
+  padding: 0;
+}
+/* line 106, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .accordion-navigation p {
+  font-size: .8em;
+  line-height: 1.4em;
+  padding: 0;
+}
+/* line 112, ../scss/_custom/admin/_faq.scss */
+.cdt-calendar .testimonials {
+  height: 23em;
+  background-color: #e4e4e4;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /*    -webkit-overflow-scrolling: touch;*/
+  border: solid 1px #646464;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 14, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials .testimonials-title {
+  color: #2088d1;
+  margin: 6px 9px;
+}
+/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials .category-testimonial {
+  margin: 5px 10px 12px 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/* line 26, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials .category-testimonial span {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2088d1;
+  font-style: italic;
+  display: inline;
+}
+/* line 36, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials .category-testimonial-client-name {
+  margin-top: 6px;
+  font-size: 15px;
+}
+/* line 42, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials .category-testimonial-course-name {
+  color: #2088d1;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+/* line 49, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+/* line 53, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials::-webkit-scrollbar:vertical {
+  width: 5px;
+}
+/* line 57, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+/* line 61, ../scss/_custom/components/training/_testimonials.scss */
+.cdt-calendar .testimonials::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(140, 140, 140, 0.5);
+}
+@media screen and (min-width: 640px) and (max-width: 680px) {
+  /* line 112, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .testimonials {
+    height: 68em;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  /* line 112, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .testimonials {
+    height: 53em;
+  }
+}
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  /* line 112, ../scss/_custom/admin/_faq.scss */
+  .cdt-calendar .testimonials {
+    height: 37em;
+  }
 }
