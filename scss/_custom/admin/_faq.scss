@@ -1,8 +1,12 @@
 $faq-color: #2088D1; 
   
-.cdt-calendar {
+.faq {
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
+         
+        @media #{$medium-up} {
+            margin-top: -1.5em;
+        }
     }
 
     h1 {

@@ -470,8 +470,8 @@
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -490,10 +490,10 @@
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .book-now-btn:active {
@@ -770,4 +770,246 @@
   background-position: 0 0%;
   max-height: 46px;
   margin-top: -2px;
+}
+
+/* Mixin for creating a responsive sprite 
+* 
+* $map - sprite map, created using sprite-map function
+* $img - name of the png file in the map
+* $map-width, $map-height - sprite map physical dimentions, these parameters should be
+*                           calculated rather than passed in - currently not working, code is commented below
+* $img-size-percent - required sprite size
+*
+*/
+/* line 144, admin/faq/*.png */
+.faq-sprite, .faq .faq-gradient-top, .faq .faq-adobe-badge, .faq .faq-certificate, .faq .faq-course-cancel, .faq .faq-feedback, .faq .faq-for-hire, .faq .faq-location, .faq .faq-loyalty-card, .faq .faq-nerd, .faq .faq-platform, .faq .faq-puzzled, .faq .faq-tea-biscuits, .faq .faq-techhie {
+  background-image: url('../images/admin/faq-s95bcec6c91.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-gradient-top {
+  background-position: 0 -578px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.45345%;
+  background-size: 100%;
+  background-position: 0 40.64698%;
+  max-height: 46px;
+  margin-top: -2px;
+}
+/* line 24, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-adobe-badge {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 15%;
+  background-size: 1665.0%;
+  background-position: 0 0%;
+  float: right;
+}
+/* line 31, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-certificate {
+  background-position: 0 -140px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.96203%;
+  background-size: 1686.07595%;
+  background-position: 0 9.93612%;
+  float: right;
+}
+/* line 38, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-course-cancel {
+  background-position: 0 -239px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 12%;
+  background-size: 1665.0%;
+  background-position: 0 17.21902%;
+  float: right;
+}
+/* line 45, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-feedback {
+  background-position: 0 -359px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 10.78481%;
+  background-size: 1686.07595%;
+  background-position: 0 25.69792%;
+  float: right;
+}
+/* line 52, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-for-hire {
+  background-position: 0 -470px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 11.65714%;
+  background-size: 1902.85714%;
+  background-position: 0 33.57143%;
+  float: right;
+}
+/* line 59, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-location {
+  background-position: 0 -664px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 11.25%;
+  background-size: 1665.0%;
+  background-position: 0 47.66691%;
+  float: right;
+}
+/* line 66, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-loyalty-card {
+  background-position: 0 -779px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 12%;
+  background-size: 1665.0%;
+  background-position: 0 56.12392%;
+  float: right;
+}
+/* line 73, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-nerd {
+  background-position: 0 -899px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 12%;
+  background-size: 1665.0%;
+  background-position: 0 64.76945%;
+  float: right;
+}
+/* line 80, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-platform {
+  background-position: 0 -1019px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 11.29412%;
+  background-size: 1567.05882%;
+  background-position: 0 73.41499%;
+  float: right;
+}
+/* line 87, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-puzzled {
+  background-position: 0 -1139px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 14.11765%;
+  background-size: 1567.05882%;
+  background-position: 0 83.26023%;
+  float: right;
+}
+/* line 94, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-tea-biscuits {
+  background-position: 0 -1279px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 10.48101%;
+  background-size: 1686.07595%;
+  background-position: 0 91.42244%;
+  float: right;
+}
+/* line 101, ../scss/_custom/admin/_faq-add-styles.scss */
+.faq .faq-techhie {
+  background-position: 0 -1388px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 12%;
+  background-size: 1665.0%;
+  background-position: 0 100%;
+  float: right;
 }
