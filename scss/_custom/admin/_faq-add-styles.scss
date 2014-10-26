@@ -1,0 +1,107 @@
+@import "_custom/responsive-sprite";
+ 
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
+ 
+// Required for correct operation, must be named same as the sprite
+$faq-spacing: 40px; 
+ 
+@import "admin/faq/*.png";  
+ 
+// Sprites should be declared in the same order they are on the disk?
+.faq { 
+    $map: sprite-map("admin/faq/*.png", $spacing: $faq-spacing); /*empty comment*/ 
+    $sprite-width: 1332px; 
+    $sprite-height: 1468px; 
+ 
+    .faq-gradient-top { 
+        @include faq-sprite(faq-gradient-top); 
+        @include responsive-sprite($map, faq-gradient-top, $sprite-width, $sprite-height, 100%);
+        max-height: 46px;
+        margin-top: -2px;
+    }   
+
+    .faq-adobe-badge { 
+        @include faq-sprite(faq-adobe-badge); 
+        @include responsive-sprite($map, faq-adobe-badge, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-certificate { 
+        @include faq-sprite(faq-certificate); 
+        @include responsive-sprite($map, faq-certificate, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-course-cancel { 
+        @include faq-sprite(faq-course-cancel); 
+        @include responsive-sprite($map, faq-course-cancel, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-feedback { 
+        @include faq-sprite(faq-feedback); 
+        @include responsive-sprite($map, faq-feedback, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-for-hire { 
+        @include faq-sprite(faq-for-hire); 
+        @include responsive-sprite($map, faq-for-hire, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-location { 
+        @include faq-sprite(faq-location); 
+        @include responsive-sprite($map, faq-location, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-loyalty-card { 
+        @include faq-sprite(faq-loyalty-card); 
+        @include responsive-sprite($map, faq-loyalty-card, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-nerd { 
+        @include faq-sprite(faq-nerd); 
+        @include responsive-sprite($map, faq-nerd, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-platform { 
+        @include faq-sprite(faq-platform); 
+        @include responsive-sprite($map, faq-platform, $sprite-width, $sprite-height, 12%);
+ 
+        float: right;
+   }  
+
+    .faq-puzzled { 
+        @include faq-sprite(faq-puzzled); 
+        @include responsive-sprite($map, faq-puzzled, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+
+    .faq-tea-biscuits { 
+        @include faq-sprite(faq-tea-biscuits); 
+        @include responsive-sprite($map, faq-tea-biscuits, $sprite-width, $sprite-height, 12%);
+ 
+        float: right;
+   }  
+
+    .faq-techhie { 
+        @include faq-sprite(faq-techhie); 
+        @include responsive-sprite($map, faq-techhie, $sprite-width, $sprite-height, 12%);
+
+        float: right;
+    }  
+}

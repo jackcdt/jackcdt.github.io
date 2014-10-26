@@ -1,9 +1,6 @@
 @import "banner";
 @import "testimonials";
 @import "custom-training";
-@import "../read-more-btn";
-@import "../breadcrumbs";
-@import "../border-radius"; 
 
 $border-color: #2C2C2C;
 
@@ -68,35 +65,17 @@ $border-color: #2C2C2C;
     }
 
     /* Headers */
-    .course-header {
-        display: block;
-        padding: 6px 10px;
-        margin-bottom: $margin-bottom-default / 2;
-        border: 1px solid #000;
-        width: 95%;
-
-        @include adjust-font-size-to($large-font-size, 1);
-        @extend %t-light;
-    } 
-
     .course-header-1 {
-        @extend .course-header;
-        @extend %t-ultralight;
-        @include adjust-font-size-to($xlarge-font-size, 1);
-        line-height: 1.5em;
-
-        padding: 3px 0;
-        border: none;
-        margin-bottom: 0;
+        @include large-thin-title;
     } 
 
     .course-header-2 {
-        @extend .course-header;
+        @include adjust-font-size-to($large-font-size, 1);
+        @extend %t-light;
+
         line-height: 1em;
         padding: 3px 0;
-        border: none;
         color: $color;
-        padding-left: 0;
         margin-bottom: 0;
     }
 

@@ -24,30 +24,6 @@ $trainig-banner-height: $base-line-height * 5;
             max-width: 90%;
         }
 
-        .banner-header, .banner-sub-header {
-            font-family: Raleway, Helvetica, sans-serif;
-            color: #fff;
-        }
-
-        .banner-header {
-            @extend %t-regular;
-            @include adjust-font-size-to($medium-font-size);
-            line-height: 1em;
-            
-            @media #{$medium-up} {
-                @include adjust-font-size-to($large-font-size);
-                line-height: 1em;
-            }
-
-            @media #{$large-up} {
-                @include adjust-font-size-to($xlarge-font-size);
-                line-height: 1em;
-            }
-        }
-
-        .banner-sub-header {
-            @include adjust-font-size-to(14px);
-            @extend %t-emphasize;
-        }
+        @include banner-title;
     }
 }

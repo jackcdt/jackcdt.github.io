@@ -18,6 +18,8 @@ $indesign-color: #C42A7C;
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
 
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
     .tight-header-1 {
         @media #{$medium-up} {
             width: 440px;
