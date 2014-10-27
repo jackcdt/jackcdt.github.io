@@ -10734,7 +10734,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 34, ../scss/_custom/_common.scss */
+/* line 49, ../scss/_custom/_common.scss */
 .nopadding, .indesign-category .course-item .course-item-info,
 .indesign-category .course-item .course-book-now {
   padding-left: 0;
@@ -10771,7 +10771,7 @@ html {
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
+.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
   font-weight: 400;
 }
 
@@ -10809,7 +10809,7 @@ h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course
 }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em;
 }
@@ -10957,6 +10957,2041 @@ h4 {
   color: #000;
   white-space: nowrap;
   font-size: 13px;
+}
+
+/*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
+/* line 112, ../images/header-footer/*.png */
+.header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
+  background-image: url('../images/../images/header-footer-sd88e9d5b6c.png');
+  background-repeat: no-repeat;
+}
+
+/* line 28, ../scss/_custom/header/_header.scss */
+.header-logos .cdt-logo {
+  background-position: 0 -129px;
+  height: 72px;
+  width: 142px;
+  margin: 7px 10px;
+}
+/* line 36, ../scss/_custom/header/_header.scss */
+.header-logos .aatc-logo {
+  background-position: 0 0;
+  height: 43px;
+  width: 131px;
+  margin: 21.5px 10px;
+}
+/* line 44, ../scss/_custom/header/_header.scss */
+.header-logos .book-now {
+  background-position: 0 -43px;
+  float: right;
+  height: 86px;
+  width: 114px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 44, ../scss/_custom/header/_header.scss */
+  .header-logos .book-now {
+    margin-right: 67px;
+  }
+}
+/* line 56, ../scss/_custom/header/_header.scss */
+.header-logos .years-in-business {
+  background-position: 0 -786px;
+  height: 121px;
+  width: 67px;
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+}
+/* line 66, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-1 {
+  background-position: 0 -201px;
+}
+/* line 67, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-2 {
+  background-position: 0 -318px;
+}
+/* line 68, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-3 {
+  background-position: 0 -435px;
+}
+/* line 69, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-4 {
+  background-position: 0 -552px;
+}
+/* line 70, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-5 {
+  background-position: 0 -669px;
+}
+/* line 72, ../scss/_custom/header/_header.scss */
+.header-logos .training-text {
+  margin: 19px 0;
+  padding: 0;
+  display: none;
+}
+@media (min-width: 48em) {
+  /* line 72, ../scss/_custom/header/_header.scss */
+  .header-logos .training-text {
+    display: inherit;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+
+/* line 86, ../scss/_custom/header/_header.scss */
+.header-banner {
+  background-color: #6c6c6c;
+  color: #fff;
+}
+
+/* line 91, ../scss/_custom/header/_header.scss */
+.contain-to-grid ul.right li.contact-no a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+}
+
+/* line 99, ../scss/_custom/header/_header.scss */
+.header-banner-container {
+  position: relative;
+  overflow: visible;
+  z-index: 99999;
+}
+
+/* line 1, ../scss/_custom/homepage/_slider.scss */
+.slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+  background-image: url(/images/homepage/landing-page-banner/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: 200;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 1, ../scss/_custom/homepage/_slider.scss */
+  .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+    min-height: 330px;
+  }
+  /* line 9, ../scss/_custom/homepage/_slider.scss */
+  .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* line 12, ../scss/_custom/homepage/_slider.scss */
+  .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+    padding-top: 10px;
+    padding-left: 0;
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 1, ../scss/_custom/homepage/_slider.scss */
+  .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+    height: 265px;
+  }
+  /* line 21, ../scss/_custom/homepage/_slider.scss */
+  .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  /* line 24, ../scss/_custom/homepage/_slider.scss */
+  .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+    padding-top: 5px;
+    padding-left: 0;
+    font-size: 30px;
+  }
+}
+
+/* line 32, ../scss/_custom/homepage/_slider.scss */
+.slider-1 {
+  background-image: url(/images/homepage/landing-page-banner/main-slider-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 37, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one {
+    padding-top: 50px;
+    padding-left: 150px;
+    min-height: 330px;
+  }
+  /* line 41, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+    font-family: raleway, sans-serif;
+  }
+  /* line 48, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one p {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+    font-family: raleway, sans-serif;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 59, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one {
+    padding-top: 50px;
+    padding-left: 150px;
+    height: 265px;
+  }
+  /* line 63, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+    font-family: raleway, sans-serif;
+  }
+  /* line 70, ../scss/_custom/homepage/_slider.scss */
+  .slider-1 .slider-one p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+    font-family: raleway, sans-serif;
+    padding-bottom: 50px;
+  }
+}
+
+/* line 82, ../scss/_custom/homepage/_slider.scss */
+.course-img-caption p {
+  font-size: 12px;
+  font-weight: 200;
+  float: left;
+  padding-top: 5px;
+}
+
+/* line 89, ../scss/_custom/homepage/_slider.scss */
+.orbit-timer {
+  display: none;
+}
+
+/* line 92, ../scss/_custom/homepage/_slider.scss */
+.orbit-slide-number {
+  display: none;
+}
+
+/* line 2, ../scss/_custom/homepage/_megamenu.scss */
+body {
+  background: url("../img/background.jpg");
+}
+
+/* line 5, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper,
+.page_wrapper_vertical {
+  width: 980px;
+  margin: 36px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+/* line 13, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description {
+  color: #262626;
+  text-shadow: 1px 1px 1px #ffffff;
+  padding-bottom: 36px;
+}
+
+/* line 18, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description h1 {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+/* line 23, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 27, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description ul.description {
+  font-size: 12px;
+  line-height: 21px;
+  list-style: square;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+/* line 34, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description a {
+  color: #888888;
+  text-decoration: none;
+}
+
+/* line 38, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical {
+  width: 960px;
+  margin: 36px auto;
+}
+
+/* line 42, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical .menu_description {
+  float: left;
+  width: 760px;
+  margin-left: 40px;
+}
+
+/* line 47, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical .menu_description h1 {
+  margin-top: -6px;
+}
+
+/* line 50, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_fixed {
+  margin: 70px auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+  /* line 54, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 768px;
+  }
+
+  /* line 55, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 58, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 420px;
+  }
+
+  /* line 59, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* line 60, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description h1 {
+    margin-top: 24px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 63, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 300px;
+  }
+}
+/*  _______________________________________________
+
+    01 MEGA MENU BAR
+    _______________________________________________  */
+/* line 77, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container {
+  width: 100%;
+  height: 46px;
+  *height: 44px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 92, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_fixed {
+  width: inherit;
+  position: fixed;
+  top: 0;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  /* IE7 Fix */
+  *width: expression(this.parentNode.currentStyle['width']);
+}
+
+/* line 102, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  /* For IE7 */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* line 111, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li {
+  float: left;
+  margin: 0;
+  border: none;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+/* line 121, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > a {
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: 0;
+  text-decoration: none;
+  display: block;
+  padding: 16px 15px 17px 15px;
+}
+
+/* line 129, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li .megamenu_drop {
+  padding-right: 30px;
+}
+
+/* line 132, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_button {
+  display: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+
+/* Right aligned menu item */
+/* line 143, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_right {
+  float: right;
+  margin-right: -1px;
+}
+
+/* line 147, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_right a {
+  margin-right: 5px;
+}
+
+/*  _______________________________________________
+
+    02 MEGA MENU CONTAINERS
+    _______________________________________________  */
+/* line 162, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_container,
+.megamenu li .dropdown_fullwidth,
+.megamenu li .dropdown_multilevel {
+  position: absolute;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  left: -9999em;
+  top: -9999em;
+  display: block;
+  zoom: 1;
+  z-index: 9998;
+  float: left;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 179, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_first {
+  margin-left: -1px;
+}
+
+/* line 182, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .droplast_right {
+  margin-right: -1px;
+}
+
+/* Showing Drop Down on Mouse Hover */
+/* line 188, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_container {
+  top: 45px;
+  left: auto;
+}
+
+/* line 192, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_fullwidth {
+  top: 45px;
+  left: -1px;
+}
+
+/* line 196, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_right {
+  right: 0;
+}
+
+/* line 199, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_right {
+  top: 45px;
+  left: auto;
+  right: 0;
+}
+
+/*
+	Bigger containers need smaller padding values and
+	on the opposite, smaller containers will have
+	higher paddings. 
+	This makes the content within each kind of drop down 
+	equally distant from the left edge. 
+*/
+/* line 214, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_1column {
+  width: 8.3334%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* line 219, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_2columns {
+  width: 16.6667%;
+  padding-left: 1.8333%;
+  padding-right: 1.8333%;
+}
+
+/* line 224, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_3columns {
+  width: 25%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+/* line 229, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_4columns {
+  width: 33.3334%;
+  padding-left: 1.333%;
+  padding-right: 1.333%;
+}
+
+/* line 234, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_5columns {
+  width: 41.6667%;
+  padding-left: 1.166%;
+  padding-right: 1.166%;
+}
+
+/* line 239, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_6columns {
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* line 244, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_7columns {
+  width: 58.3334%;
+  padding-left: 0.833%;
+  padding-right: 0.833%;
+}
+
+/* line 249, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_8columns {
+  width: 66.6667%;
+  padding-left: 0.666%;
+  padding-right: 0.666%;
+}
+
+/* line 254, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_9columns {
+  width: 75%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+/* line 259, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_10columns {
+  width: 83.3334%;
+  padding-left: 0.333%;
+  padding-right: 0.333%;
+}
+
+/* line 264, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_11columns {
+  width: 91.6667%;
+  padding-left: 0.1666%;
+  padding-right: 0.1666%;
+}
+
+/* line 269, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_12columns,
+.megamenu .dropdown_fullwidth {
+  width: 100%;
+}
+
+/*  _______________________________________________
+
+    03 DROP DOWN COLUMNS GRID
+    _______________________________________________  */
+/* line 285, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_1,
+.megamenu .col_2,
+.megamenu .col_3,
+.megamenu .col_4,
+.megamenu .col_5,
+.megamenu .col_6,
+.megamenu .col_7,
+.megamenu .col_8,
+.megamenu .col_9,
+.megamenu .col_10,
+.megamenu .col_11,
+.megamenu .col_12 {
+  float: left;
+  display: inline;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* 
+  Rounding error with IE7.
+  Lower margin values will absorb the difference.
+  */
+  *margin-left: 1.9%;
+  *margin-right: 1.9%;
+}
+
+/* line 310, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_1 {
+  width: 4.33%;
+}
+
+/* line 311, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_2 {
+  width: 12.66%;
+}
+
+/* line 312, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_3 {
+  width: 21%;
+}
+
+/* line 313, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_4 {
+  width: 29.33%;
+}
+
+/* line 314, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_5 {
+  width: 37.66%;
+}
+
+/* line 315, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_6 {
+  width: 46%;
+}
+
+/* line 316, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_7 {
+  width: 54.33%;
+}
+
+/* line 317, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_8 {
+  width: 62.66%;
+}
+
+/* line 318, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_9 {
+  width: 71%;
+}
+
+/* line 319, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_10 {
+  width: 79.33%;
+}
+
+/* line 320, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_11 {
+  width: 87.66%;
+}
+
+/* line 321, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_12 {
+  width: 96%;
+}
+
+/* line 323, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .rowcontent {
+  clear: left;
+  /*
+  IE7 clear issue.
+  Display inline required.
+  */
+  *display: inline;
+}
+
+/*  _______________________________________________
+
+    04 FLY-OUT MENU
+    _______________________________________________  */
+/* line 343, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout,
+.megamenu .dropdown_flyout .dropdown_flyout_level {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 353, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li {
+  float: left;
+  width: 92%;
+  padding: 3px 4% 3px 4%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 361, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout ul li {
+  width: 140px;
+  padding: 3px 10px 3px 10px;
+}
+
+/* line 365, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout a {
+  display: block;
+  width: 10em;
+}
+
+/* line 369, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout .dropdown_flyout_level {
+  position: absolute;
+  margin: 15px 0 0 4px;
+  padding: 6px;
+  left: -9999em;
+  top: -9999em;
+  display: block;
+  zoom: 1;
+  float: left;
+}
+
+/* line 379, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
+  left: 95%;
+  top: -21px;
+}
+
+/* line 383, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
+  left: -108%;
+  right: 100%;
+}
+
+/*  _______________________________________________
+
+    05 MEGA MENU WEB ELEMENTS
+    _______________________________________________  */
+/* 1. General Typography */
+/* line 402, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu p,
+.megamenu h1,
+.megamenu h2,
+.megamenu h3,
+.megamenu h4,
+.megamenu h5,
+.megamenu h6 {
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+/* line 412, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > div a {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 416, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > div a:hover {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+/* line 423, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu p {
+  font-size: 12px;
+  line-height: 21px;
+}
+
+/* line 427, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h1,
+.megamenu h2,
+.megamenu h3,
+.megamenu h4,
+.megamenu h5,
+.megamenu h6 {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+/* line 436, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h1 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 440, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+/* line 444, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h3 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 448, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h4 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+
+/* line 453, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h5 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+
+/* line 458, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h6 {
+  font-size: 10px;
+  line-height: 16px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+/* 2. Lists */
+/* line 469, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul,
+.megamenu li ol {
+  padding: 0;
+  margin: 0 0 18px 20px;
+}
+
+/* line 474, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul {
+  list-style: disc;
+}
+
+/* line 477, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ol {
+  list-style: decimal;
+  *margin-left: 22px;
+}
+
+/* line 481, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul li,
+.megamenu li ol li {
+  font-size: 12px;
+  line-height: 21px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: none;
+  text-align: left;
+}
+
+/* line 491, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .list_unstyled {
+  list-style: none;
+  margin-left: 0;
+}
+
+/* 3. Custom Paragraphs */
+/* line 500, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .blue,
+.megamenu .grey,
+.megamenu .orange,
+.megamenu .dark,
+.megamenu .purple {
+  padding: 0 0 0 15px;
+  margin-bottom: 18px;
+  border-left: solid 5px;
+}
+
+/* line 509, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .blue {
+  border-left-color: #929292;
+}
+
+/* line 510, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .grey {
+  border-left-color: #ECE7BA;
+}
+
+/* line 511, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .orange {
+  border-left-color: #BD4F33;
+}
+
+/* line 512, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dark {
+  border-left-color: #3F3F3F;
+}
+
+/* line 513, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .purple {
+  border-left-color: #382E34;
+}
+
+/* line 515, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .black_box {
+  text-shadow: none;
+  padding: 10px;
+  margin-top: -10px;
+  *margin-top: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* 4. Video + Misc. */
+/* line 529, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+/* line 537, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .video_container iframe,
+.megamenu .video_container object,
+.megamenu .video_container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* line 547, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropcap {
+  display: block;
+  float: left;
+  font-size: 42px;
+  line-height: 36px;
+  margin: 4px 8px 0 0;
+}
+
+/* line 554, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu hr {
+  width: 100%;
+  height: 0;
+  *height: 2px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+/* 5. Images */
+/* line 566, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 18px;
+}
+
+/* line 572, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img.img_left {
+  float: left;
+  margin-right: 18px;
+}
+
+/* line 576, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img.img_right {
+  float: right;
+  margin-left: 18px;
+}
+
+/* line 580, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 590, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* 6. Paragraph Icons */
+/* line 605, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .paragraph_icon {
+  padding-left: 36px;
+  padding-right: 20px;
+  margin-bottom: 18px;
+}
+
+/* line 610, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .mini_icon {
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  margin-left: -34px;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 618, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .mini_icon {
+  background-image: url("../img/icons/mini-icons-white.png");
+}
+
+/* line 621, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .mini_icon {
+  background-image: url("../img/icons/mini-icons-black.png");
+}
+
+/* line 625, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_archive {
+  background-position: 0 0;
+}
+
+/* line 626, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_attachment {
+  background-position: 0 -56px;
+}
+
+/* line 627, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_bookmark {
+  background-position: 0 -112px;
+}
+
+/* line 628, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_brush {
+  background-position: 0 -168px;
+}
+
+/* line 629, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_calc {
+  background-position: 0 -224px;
+}
+
+/* line 630, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_calendar {
+  background-position: 0 -280px;
+}
+
+/* line 631, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_cancel {
+  background-position: 0 -336px;
+}
+
+/* line 632, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_chat {
+  background-position: 0 -392px;
+}
+
+/* line 633, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_chats {
+  background-position: 0 -448px;
+}
+
+/* line 634, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_cloud {
+  background-position: 0 -504px;
+}
+
+/* line 635, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_delete {
+  background-position: 0 -560px;
+}
+
+/* line 636, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_documents {
+  background-position: 0 -616px;
+}
+
+/* line 637, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_down {
+  background-position: 0 -672px;
+}
+
+/* line 638, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_down_circle {
+  background-position: 0 -728px;
+}
+
+/* line 639, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_download {
+  background-position: 0 -784px;
+}
+
+/* line 640, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_edit {
+  background-position: 0 -840px;
+}
+
+/* line 641, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_empty_document {
+  background-position: 0 -896px;
+}
+
+/* line 642, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_favorite {
+  background-position: 0 -952px;
+}
+
+/* line 643, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_folder {
+  background-position: 0 -1008px;
+}
+
+/* line 644, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_fullscreen {
+  background-position: 0 -1064px;
+}
+
+/* line 645, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_graph {
+  background-position: 0 -1120px;
+}
+
+/* line 646, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_grid {
+  background-position: 0 -1176px;
+}
+
+/* line 647, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_left {
+  background-position: 0 -1232px;
+}
+
+/* line 648, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_left_circle {
+  background-position: 0 -1288px;
+}
+
+/* line 649, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_list {
+  background-position: 0 -1344px;
+}
+
+/* line 650, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_lock {
+  background-position: 0 -1400px;
+}
+
+/* line 651, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_mail {
+  background-position: 0 -1456px;
+}
+
+/* line 652, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_minus {
+  background-position: 0 -1512px;
+}
+
+/* line 653, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_ok {
+  background-position: 0 -1568px;
+}
+
+/* line 654, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_picture {
+  background-position: 0 -1624px;
+}
+
+/* line 655, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_pin {
+  background-position: 0 -1680px;
+}
+
+/* line 656, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_plus {
+  background-position: 0 -1736px;
+}
+
+/* line 657, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_power {
+  background-position: 0 -1792px;
+}
+
+/* line 658, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_print {
+  background-position: 0 -1848px;
+}
+
+/* line 659, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_refresh {
+  background-position: 0 -1904px;
+}
+
+/* line 660, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_right {
+  background-position: -56px 0;
+}
+
+/* line 661, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_right_circle {
+  background-position: -56px -56px;
+}
+
+/* line 662, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_settings {
+  background-position: -56px -112px;
+}
+
+/* line 663, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_sound {
+  background-position: -56px -168px;
+}
+
+/* line 664, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_sync {
+  background-position: -56px -224px;
+}
+
+/* line 665, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_tag {
+  background-position: -56px -280px;
+}
+
+/* line 666, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_target {
+  background-position: -56px -336px;
+}
+
+/* line 667, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_text_document {
+  background-position: -56px -392px;
+}
+
+/* line 668, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_time {
+  background-position: -56px -448px;
+}
+
+/* line 669, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_unlock {
+  background-position: -56px -504px;
+}
+
+/* line 670, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_up {
+  background-position: -56px -560px;
+}
+
+/* line 671, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_up_circle {
+  background-position: -56px -616px;
+}
+
+/* line 672, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_user {
+  background-position: -56px -672px;
+}
+
+/* line 673, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_users {
+  background-position: -56px -728px;
+}
+
+/* line 674, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_zoom {
+  background-position: -56px -784px;
+}
+
+/* Colored elements */
+/* line 679, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form label.error,
+.megamenu #megamenu_form #error,
+.megamenu #megamenu_form #success {
+  color: #fff;
+  clear: both;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 689, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form label.error,
+.megamenu #megamenu_form #error {
+  background: #E45635;
+}
+
+/* line 693, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form input.error,
+.megamenu #megamenu_form input.error:hover,
+.megamenu #megamenu_form input.error:focus,
+.megamenu #megamenu_form textarea.error,
+.megamenu #megamenu_form textarea.error:hover,
+.megamenu #megamenu_form textarea.error:focus {
+  border-color: #f4baad;
+}
+
+/* line 701, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form #success {
+  background: #90AB76;
+}
+
+/* line 704, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form #success,
+.megamenu #megamenu_form #error {
+  display: none;
+  position: absolute;
+  top: 0;
+  margin-left: 0;
+  width: 90%;
+}
+
+/* line 712, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form .required {
+  color: #e9266d;
+}
+
+/*  _______________________________________________
+
+    06 DEFAULT THEMES, DARK & LIGHT (REQUIRED)
+    _______________________________________________  */
+/* 1. Dark Menu Bar */
+/* line 728, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar {
+  background: #212121;
+  background: -webkit-linear-gradient(top, #333333 0%, #181818);
+  background: -moz-linear-gradient(top, #333333 0%, #181818);
+  background: -o-linear-gradient(top, #333333 0%, #181818);
+  background: -ms-linear-gradient(top, #333333 0%, #181818);
+  background: linear-gradient(to bottom, #333333 0%, #181818);
+  border: 1px solid #171717;
+  -webkit-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
+  -moz-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
+  box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
+}
+
+/* line 740, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu {
+  color: #FFFFFF;
+}
+
+/* line 743, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li:hover,
+.megamenu_dark_bar .megamenu > li.active {
+  background: #121212;
+  -webkit-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* line 750, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.noactive {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 756, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li > a {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* line 760, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li:hover > a {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* line 764, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li .megamenu_drop {
+  background: url("../img/dropdown.png") no-repeat right 18px;
+}
+
+/* line 767, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu_vertical > li .megamenu_drop {
+  background: url("../img/right.png") no-repeat right 16px;
+}
+
+/* line 770, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.megamenu_button,
+.megamenu_dark_bar .megamenu li.megamenu_button:hover {
+  background: url("../img/dropdown.png") no-repeat right 19px;
+}
+
+/* line 774, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.megamenu_button_active,
+.megamenu_dark_bar .megamenu li.megamenu_button_active:hover {
+  background: url("../img/dropdown-up.png") no-repeat right 18px;
+}
+
+/* 2. Light Menu Bar */
+/* line 783, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar {
+  background: #eeeeee;
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -o-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -ms-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: linear-gradient(to bottom, #f8f8f8 0%, #eeeeee);
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+}
+
+/* line 795, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu {
+  color: #212121;
+}
+
+/* line 798, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li:hover,
+.megamenu_light_bar .megamenu > li.active {
+  background: #DDDDDD;
+}
+
+/* line 802, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.noactive {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 808, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li > a {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+/* line 812, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li:hover > a {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+/* line 816, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li .megamenu_drop {
+  background: url("../img/dropdown-b.png") no-repeat right 18px;
+}
+
+/* line 819, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu_vertical > li .megamenu_drop {
+  background: url("../img/right-b.png") no-repeat right 16px;
+}
+
+/* line 822, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.megamenu_button,
+.megamenu_light_bar .megamenu li.megamenu_button:hover {
+  background: url("../img/dropdown-b.png") no-repeat right 19px;
+}
+
+/* line 826, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.megamenu_button_active,
+.megamenu_light_bar .megamenu li.megamenu_button_active:hover {
+  background: url("../img/dropdown-b-up.png") no-repeat right 18px;
+}
+
+/* 3. Dark Drop Down */
+/* line 835, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_container,
+.megamenu_dark .megamenu li .dropdown_fullwidth,
+.megamenu_dark .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #000000;
+  border-top-width: 0;
+  background: #111111;
+  color: #f6f6f6;
+}
+
+/* line 843, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container_vertical .megamenu li .dropdown_container,
+.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
+.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
+  border-top-width: 1px;
+}
+
+/* line 848, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #000000;
+}
+
+/* line 851, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
+  background: url("../img/right.png") no-repeat right 9px;
+}
+
+/* line 854, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active {
+  background-color: #000000;
+}
+
+/* line 858, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.noactive {
+  background-color: transparent;
+}
+
+/* line 861, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu p,
+.megamenu_dark .megamenu h1,
+.megamenu_dark .megamenu h2,
+.megamenu_dark .megamenu h3,
+.megamenu_dark .megamenu h4,
+.megamenu_dark .megamenu h5,
+.megamenu_dark .megamenu h6 {
+  color: #f6f6f6;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* line 871, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li > div a,
+.megamenu_dark .megamenu li ul li,
+.megamenu_dark .megamenu li ol li {
+  color: #aaaaaa;
+}
+
+/* line 876, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li > div a:hover {
+  color: #dddddd;
+}
+
+/* line 879, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li ul li:hover,
+.megamenu_dark .megamenu li ol li:hover,
+.megamenu_dark .megamenu .blue,
+.megamenu_dark .megamenu .grey,
+.megamenu_dark .megamenu .orange,
+.megamenu_dark .megamenu .dark,
+.megamenu_dark .megamenu .purple {
+  color: #eeeeee;
+}
+
+/* line 888, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .black_box {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* line 892, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .grey_bg {
+  background: #eeeeee;
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+/* line 897, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li.megamenu_searchform:hover {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 903, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu hr {
+  border: none;
+  border-bottom: 1px solid #202020;
+  border-top: 1px solid #000000;
+}
+
+/* 4. Light Drop Down */
+/* line 913, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_container,
+.megamenu_light .megamenu li .dropdown_fullwidth,
+.megamenu_light .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #CCCCCC;
+  border-top-width: 0;
+  background: #FAFAFA;
+  color: #212121;
+}
+
+/* line 921, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container_vertical .megamenu li .dropdown_container,
+.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
+.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
+  border-top-width: 1px;
+}
+
+/* line 926, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #CCCCCC;
+}
+
+/* line 929, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
+  background: url("../img/right-b.png") no-repeat right 9px;
+}
+
+/* line 932, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
+  background-color: #eeeeee;
+}
+
+/* line 936, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.noactive {
+  background-color: transparent;
+}
+
+/* line 939, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu p,
+.megamenu_light .megamenu h1,
+.megamenu_light .megamenu h2,
+.megamenu_light .megamenu h3,
+.megamenu_light .megamenu h4,
+.megamenu_light .megamenu h5,
+.megamenu_light .megamenu h6 {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+/* line 949, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li > div a,
+.megamenu_light .megamenu li ul li,
+.megamenu_light .megamenu li ol li {
+  color: #888888;
+}
+
+/* line 954, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li > div a:hover {
+  color: #333333;
+}
+
+/* line 957, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li ul li:hover,
+.megamenu_light .megamenu li ol li:hover,
+.megamenu_light .megamenu .blue,
+.megamenu_light .megamenu .grey,
+.megamenu_light .megamenu .orange,
+.megamenu_light .megamenu .dark,
+.megamenu_light .megamenu .purple {
+  color: #444444;
+}
+
+/* line 966, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .black_box {
+  background: #212121;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* line 971, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .grey_bg {
+  background: #eeeeee;
+}
+
+/* line 974, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li.megamenu_searchform:hover {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 980, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu hr {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #e4e4e4;
+}
+
+/*  _______________________________________________
+
+    09 MOBILE DEVICES
+    _______________________________________________  */
+/* 1. Common Media Queries */
+@media only screen and (max-width: 984px) {
+  /* line 1000, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu img {
+    max-width: 96%;
+    height: auto;
+  }
+
+  /* line 1004, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu textarea {
+    width: 96%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 1013, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_sixths,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_sixths {
+    width: 8.66%;
+  }
+
+  /* line 1017, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_fourths,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_fourths {
+    width: 17%;
+  }
+
+  /* line 1021, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_thirds,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_thirds {
+    width: 25.33334%;
+  }
+
+  /* line 1025, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_halfs,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_halfs {
+    width: 42%;
+  }
+}
+/* 2. Horizontal Mega Menu Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+  /* line 1038, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li {
+    margin: 0 8px 0 0;
+  }
+
+  /* line 1041, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li.right {
+    margin-right: -1px;
+  }
+
+  /* line 1044, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > a {
+    padding: 16px 10px 17px 10px;
+  }
+
+  /* line 1047, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li .megamenu_drop {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1056, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container {
+    height: auto;
+  }
+
+  /* line 1059, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li,
+  .megamenu_container .megamenu > li:hover,
+  .megamenu_container .megamenu > li.right,
+  .megamenu_container .megamenu > li.right:hover {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  /* line 1068, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > a {
+    padding: 16px 10px 16px 10px;
+  }
+
+  /* line 1071, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu li.right a {
+    margin-right: 0;
+  }
+
+  /* line 1075, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu li:hover .dropdown_container,
+  .megamenu_container .megamenu li:hover .dropdown_fullwidth,
+  .megamenu_container .megamenu li:hover .dropdown_right {
+    top: auto;
+    left: -1px;
+  }
+
+  /* line 1081, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu .dropdown_1column,
+  .megamenu_container .megamenu .dropdown_2columns,
+  .megamenu_container .megamenu .dropdown_3columns,
+  .megamenu_container .megamenu .dropdown_4columns,
+  .megamenu_container .megamenu .dropdown_5columns,
+  .megamenu_container .megamenu .dropdown_6columns,
+  .megamenu_container .megamenu .dropdown_7columns,
+  .megamenu_container .megamenu .dropdown_8columns,
+  .megamenu_container .megamenu .dropdown_9columns,
+  .megamenu_container .megamenu .dropdown_10columns,
+  .megamenu_container .megamenu .dropdown_11columns,
+  .megamenu_container .megamenu .dropdown_12columns {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 1097, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu .col_1,
+  .megamenu_container .megamenu .col_2,
+  .megamenu_container .megamenu .col_3,
+  .megamenu_container .megamenu .col_4,
+  .megamenu_container .megamenu .col_5,
+  .megamenu_container .megamenu .col_6,
+  .megamenu_container .megamenu .col_7,
+  .megamenu_container .megamenu .col_8,
+  .megamenu_container .megamenu .col_9,
+  .megamenu_container .megamenu .col_10,
+  .megamenu_container .megamenu .col_11,
+  .megamenu_container .megamenu .col_12 {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  /* line 1113, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li.megamenu_searchform .megamenu_searchfield {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* line 1117, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout,
+  .megamenu .dropdown_flyout .dropdown_flyout_level {
+    position: relative;
+    left: auto;
+    top: auto;
+    padding: 0;
+    margin: 0 4% 0 4%;
+  }
+
+  /* line 1125, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li,
+  .megamenu .dropdown_flyout ul li {
+    width: 100%;
+    padding: 3px 0 3px 0;
+  }
+
+  /* line 1130, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
+    left: auto;
+    top: auto;
+  }
+
+  /* line 1134, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
+    left: auto;
+    right: auto;
+  }
+
+  /* line 1138, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout li ul,
+  .megamenu_light .megamenu li .dropdown_flyout li ul {
+    border: none;
+    background: none;
+  }
+
+  /* line 1143, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
+    background: url("../img/dropdown.png") no-repeat right 9px;
+  }
+
+  /* line 1146, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
+    background: url("../img/dropdown-b.png") no-repeat right 9px;
+  }
+
+  /* line 1149, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active,
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
+    background-color: transparent;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 1161, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_sixths,
+  .megamenu_container .megamenu > li > div > .responsive_fourths,
+  .megamenu_container .megamenu > li > div > .responsive_thirds,
+  .megamenu_container .megamenu > li > div > .responsive_halfs {
+    width: 42%;
+  }
+}
+/* line 1, ../scss/_custom/homepage/_home.scss */
+.blue-bar {
+  background-color: #2089d3;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../scss/_custom/homepage/_home.scss */
+  .blue-bar {
+    height: 32px;
+  }
+}
+/* line 6, ../scss/_custom/homepage/_home.scss */
+.blue-bar .fb-icon {
+  margin: 0;
+  padding: 2px 0;
+}
+/* line 10, ../scss/_custom/homepage/_home.scss */
+.blue-bar .custom-txt {
+  margin: 0;
+  padding: 0;
+}
+/* line 13, ../scss/_custom/homepage/_home.scss */
+.blue-bar .custom-txt p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 4px 0;
+}
+
+/* line 21, ../scss/_custom/homepage/_home.scss */
+.plus-minus:before {
+  font-family: "foundation-icons";
+  content: "\f199";
+}
+
+/* line 26, ../scss/_custom/homepage/_home.scss */
+.active .plus-minus:before {
+  content: "\f176";
+  font-family: "foundation-icons";
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 34, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation .acc-container {
+    height: 140px;
+  }
+  /* line 37, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation .acc-container-lg {
+    height: 190px;
+  }
+  /* line 40, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation .acc-container-lg-1 {
+    height: 295px;
+  }
+}
+/* line 44, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion .accordion-navigation a.panel-header {
+  color: #2089d3;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: Raleway;
+  text-transform: uppercase;
+  background: transparent;
+  border-bottom: 2px solid #c4c4c4;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+}
+/* line 54, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion .accordion-navigation a.panel-header .plus-minus {
+  font-size: 12px;
+  color: gray;
+}
+/* line 59, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion .accordion-navigation h3 {
+  font-size: 0.90em;
+  font-family: Raleway;
+  font-weight: 400;
+  padding-left: 5px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 59, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation h3 {
+    line-height: 2.8em;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 59, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation h3 {
+    line-height: 3em;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 59, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion .accordion-navigation h3 {
+    line-height: 2.4em;
+  }
+}
+/* line 75, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion .accordion-navigation h3.two-line {
+  line-height: 1.5em;
+}
+/* line 79, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion .accordion-navigation.active a {
+  background-color: transparent;
+}
+/* line 82, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion p {
+  font-size: 0.85em;
+  padding-right: 10px;
+}
+
+/* line 89, ../scss/_custom/homepage/_home.scss */
+.footer-bg {
+  background-color: #343534;
+}
+/* line 91, ../scss/_custom/homepage/_home.scss */
+.footer-bg .footer-logo {
+  padding: 15px 0 40px 0;
+}
+/* line 94, ../scss/_custom/homepage/_home.scss */
+.footer-bg .wrapbuckets {
+  color: #FFF;
+}
+/* line 96, ../scss/_custom/homepage/_home.scss */
+.footer-bg .wrapbuckets a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 100, ../scss/_custom/homepage/_home.scss */
+.footer-bg .wrapbuckets h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95em;
+  margin: 15px 0 2px;
+}
+/* line 106, ../scss/_custom/homepage/_home.scss */
+.footer-bg .wrapbuckets .bucket ul {
+  font-size: 0.85em;
+}
+
+/* line 113, ../scss/_custom/homepage/_home.scss */
+.why-train-bg {
+  background-color: #D7E9F7;
+  border-bottom: 1px #c4c4c4 solid;
+}
+/* line 118, ../scss/_custom/homepage/_home.scss */
+.why-train-bg .train-with-us h3 {
+  font-size: 42px;
+  font-weight: 200;
+  font-family: Raleway;
+  line-height: 1em;
+  padding-bottom: 5px;
+}
+/* line 125, ../scss/_custom/homepage/_home.scss */
+.why-train-bg .train-with-us a {
+  background-color: #FCCD39;
+  color: #000;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: raleway;
+  padding: 5px 10px;
+  border: 1px #c4c4c4 solid;
+}
+/* line 135, ../scss/_custom/homepage/_home.scss */
+.why-train-bg .train-with-us a:hover {
+  background-color: #FFCE77;
+}
+
+/* line 142, ../scss/_custom/homepage/_home.scss */
+.no-padding {
+  padding: 0;
 }
 
 /* Mixin for styling of custom training logo, to be used on category and course pages 
@@ -12657,4 +14692,76 @@ h4 {
   .faq .testimonials {
     height: 37em;
   }
+}
+
+/* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
+.checkout-form {
+  border: 1px solid #C4C4C4;
+  padding-top: 20px;
+}
+/* line 4, ../scss/_custom/shoppingcart/_checkout.scss */
+.checkout-form p {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+/* line 9, ../scss/_custom/shoppingcart/_checkout.scss */
+.pd-top {
+  margin-top: 20px;
+}
+/* line 12, ../scss/_custom/shoppingcart/_checkout.scss */
+.pd-top .tabs dd a, .pd-top .tabs .tab-title a {
+  background-color: #FFF;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* line 19, ../scss/_custom/shoppingcart/_checkout.scss */
+.secure-web {
+  font-size: 12px;
+}
+
+/* line 23, ../scss/_custom/shoppingcart/_checkout.scss */
+.cart-button {
+  border: 1px solid #25729a;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #3093c7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+  background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: linear-gradient(to bottom, #3093c7, #1c5a85);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+/* line 31, ../scss/_custom/shoppingcart/_checkout.scss */
+.cart-button p {
+  color: #FFF;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 39, ../scss/_custom/shoppingcart/_checkout.scss */
+.cart-button:hover {
+  border: 1px solid #1c5675;
+  background-color: #26759e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+  background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+  background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+  background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+  background-image: -o-linear-gradient(top, #26759e, #133d5b);
+  background-image: linear-gradient(to bottom, #26759e, #133d5b);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
 }

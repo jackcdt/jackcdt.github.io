@@ -10,6 +10,12 @@
 @import "_custom/components/accordion-plus-minus";
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
+@import "_custom/header/header";
+
+// Homepage
+@import "_custom/homepage/slider";
+@import "_custom/homepage/megamenu";
+@import "_custom/homepage/home";
 
 // Training Material
 @import "_custom/training/adobe/indesign/indesign-category";
@@ -20,3 +26,6 @@
 @import "_custom/admin/training-benefits";
 @import "_custom/admin/faq";
 
+
+//Shopping Cart Pages
+@import "_custom/shoppingcart/checkout"
