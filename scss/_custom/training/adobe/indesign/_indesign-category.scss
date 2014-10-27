@@ -17,4 +17,10 @@
             width: 283px;
         }
     }
+
+    .courses-list {
+        @media #{$large-up} {
+            margin-top: -1em;
+        }
+    }
 } 

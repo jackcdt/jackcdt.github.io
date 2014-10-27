@@ -16,7 +16,7 @@ $indesign-category-spacing: 40px;
         @include indesign-category-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 55px;
-        min-height: 55px;
+        min-height: 58px;
     } 
 
     .custom-training-logo {

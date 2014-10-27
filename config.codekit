@@ -5172,13 +5172,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-category-s46793edc99.png": {
+	"\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-s46793edc99.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-s46793edc99.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5245,6 +5245,17 @@
 		"initialSize": 18855,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-id-epub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4436,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-id-epub.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-id-epub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
