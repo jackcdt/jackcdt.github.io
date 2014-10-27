@@ -13,8 +13,6 @@ $sprite-height: 1226px;
 
 $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
 
-$indesign-color: #C42A7C;
-
 .indesign-category {
     @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
 

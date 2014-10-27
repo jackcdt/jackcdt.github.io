@@ -1,3 +1,5 @@
+@import "_custom/common";
+
 /* Hide all sprites */
 .id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
 .id-essentials, .ps-ess, .il-ess, .and {
@@ -43,7 +45,7 @@
         color: #FFF;
         text-align: center; 
         font-weight: 700;
-        background-color: #C42A7C;
+        background-color: $indesign-color;
     } 
 
     .book-now-btn:hover {

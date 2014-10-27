@@ -65,6 +65,10 @@ $border-color: #2C2C2C;
     }
 
     /* Headers */
+    .course-header {
+        @include large-title-with-border;
+    }
+
     .course-header-1 {
         @include large-thin-title;
     } 
