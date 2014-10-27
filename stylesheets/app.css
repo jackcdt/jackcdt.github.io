@@ -10765,13 +10765,13 @@ html {
 }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
-.custom-breadcrumbs, .indesign-category .banner-text .banner-sub-header, .indesign-category .sw-ver, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial-client-name, .faq .testimonials .category-testimonial-course-name {
+.custom-breadcrumbs, .indesign-category .banner-row .banner-text .banner-sub-header, .indesign-category .sw-ver, .indesign-category .course-item .course-item-info,
+.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-row .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial-client-name, .faq .testimonials .category-testimonial-course-name {
   font-weight: 500;
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .indesign-category .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
+.header-logos .training-text, .indesign-category .banner-row .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-course .banner-row .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
   font-weight: 400;
 }
 
@@ -13076,45 +13076,46 @@ body {
 }
 
 /*empty comment*/
-/* line 16, ../scss/_custom/training/adobe/indesign/_indesign-category.scss */
-.indesign-category {
+/* line 5, ../scss/_custom/components/training/_banner.scss */
+.indesign-category .banner-row {
   background-color: #C42A7C;
   height: 120px;
+  margin-bottom: 12px;
 }
-/* line 10, ../scss/_custom/components/training/_banner.scss */
-.indesign-category .banner-row {
+/* line 13, ../scss/_custom/components/training/_banner.scss */
+.indesign-category .banner-row .banner-row {
   height: 120px;
   margin-bottom: 8px;
 }
-/* line 15, ../scss/_custom/components/training/_banner.scss */
-.indesign-category .category-logo {
+/* line 18, ../scss/_custom/components/training/_banner.scss */
+.indesign-category .banner-row .category-logo {
   margin: 35px 0 35px 15px;
 }
-/* line 19, ../scss/_custom/components/training/_banner.scss */
-.indesign-category .banner-text {
+/* line 22, ../scss/_custom/components/training/_banner.scss */
+.indesign-category .banner-row .banner-text {
   max-width: 75%;
   top: 35px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 19, ../scss/_custom/components/training/_banner.scss */
-  .indesign-category .banner-text {
+  /* line 22, ../scss/_custom/components/training/_banner.scss */
+  .indesign-category .banner-row .banner-text {
     max-width: 90%;
   }
 }
 /* line 3, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-category .banner-text .banner-header, .indesign-category .banner-text .banner-sub-header {
+.indesign-category .banner-row .banner-text .banner-header, .indesign-category .banner-row .banner-text .banner-sub-header {
   font-family: Raleway, Helvetica, sans-serif;
   color: #fff;
 }
 /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-category .banner-text .banner-header {
+.indesign-category .banner-row .banner-text .banner-header {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 1em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-  .indesign-category .banner-text .banner-header {
+  .indesign-category .banner-row .banner-text .banner-header {
     font-size: 1.5em;
     line-height: 2em;
     line-height: 1em;
@@ -13122,14 +13123,14 @@ body {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-  .indesign-category .banner-text .banner-header {
+  .indesign-category .banner-row .banner-text .banner-header {
     font-size: 2em;
     line-height: 1.5em;
     line-height: 1em;
   }
 }
 /* line 24, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-category .banner-text .banner-sub-header {
+.indesign-category .banner-row .banner-text .banner-sub-header {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
@@ -13620,8 +13621,6 @@ body {
 /*empty comment*/
 /* line 16, ../scss/_custom/training/adobe/indesign/_indesign-essentials.scss */
 .indesign-course {
-  background-color: #C42A7C;
-  height: 120px;
   /* General */
   /* Secion borders */
   /* Headers */
@@ -13635,40 +13634,46 @@ body {
   /* Side bar - custom training */
   /* Side bar - testimonials */
 }
-/* line 10, ../scss/_custom/components/training/_banner.scss */
+/* line 5, ../scss/_custom/components/training/_banner.scss */
 .indesign-course .banner-row {
+  background-color: #C42A7C;
+  height: 120px;
+  margin-bottom: 12px;
+}
+/* line 13, ../scss/_custom/components/training/_banner.scss */
+.indesign-course .banner-row .banner-row {
   height: 120px;
   margin-bottom: 8px;
 }
-/* line 15, ../scss/_custom/components/training/_banner.scss */
-.indesign-course .category-logo {
+/* line 18, ../scss/_custom/components/training/_banner.scss */
+.indesign-course .banner-row .category-logo {
   margin: 35px 0 35px 15px;
 }
-/* line 19, ../scss/_custom/components/training/_banner.scss */
-.indesign-course .banner-text {
+/* line 22, ../scss/_custom/components/training/_banner.scss */
+.indesign-course .banner-row .banner-text {
   max-width: 75%;
   top: 35px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 19, ../scss/_custom/components/training/_banner.scss */
-  .indesign-course .banner-text {
+  /* line 22, ../scss/_custom/components/training/_banner.scss */
+  .indesign-course .banner-row .banner-text {
     max-width: 90%;
   }
 }
 /* line 3, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-course .banner-text .banner-header, .indesign-course .banner-text .banner-sub-header {
+.indesign-course .banner-row .banner-text .banner-header, .indesign-course .banner-row .banner-text .banner-sub-header {
   font-family: Raleway, Helvetica, sans-serif;
   color: #fff;
 }
 /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-course .banner-text .banner-header {
+.indesign-course .banner-row .banner-text .banner-header {
   font-size: 1.25em;
   line-height: 1.2em;
   line-height: 1em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-  .indesign-course .banner-text .banner-header {
+  .indesign-course .banner-row .banner-text .banner-header {
     font-size: 1.5em;
     line-height: 2em;
     line-height: 1em;
@@ -13676,14 +13681,14 @@ body {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-  .indesign-course .banner-text .banner-header {
+  .indesign-course .banner-row .banner-text .banner-header {
     font-size: 2em;
     line-height: 1.5em;
     line-height: 1em;
   }
 }
 /* line 24, ../scss/_custom/components/_cdt-typography.scss */
-.indesign-course .banner-text .banner-sub-header {
+.indesign-course .banner-row .banner-text .banner-sub-header {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
