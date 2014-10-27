@@ -14618,6 +14618,10 @@ body {
     width: 306px;
   }
 }
+/* line 20, ../scss/_custom/training/adobe/photoshop/_photoshop-category.scss */
+.photoshop-category .course-item .course-book-now {
+  background-color: #acd6fe;
+}
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {

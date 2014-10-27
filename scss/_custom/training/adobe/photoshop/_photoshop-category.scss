@@ -15,5 +15,9 @@
         @media #{$medium-up} {
             width: 306px;
         }
+    } 
+
+    .course-item .course-book-now {
+        background-color: lighten($photoshop-color, 10%); 
     }
 } 
