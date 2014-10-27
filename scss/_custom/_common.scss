@@ -14,11 +14,8 @@ body {
     font-family: Raleway, Helvetica, sans-serif;
 }
 
-// Fill containing element
-%cdt-full-height {
-    height: 100%;
-    width: 100%;
-}
+// CDT colors
+$indesign-color: #C42A7C;
 
 // Useful Common Functions
 
@@ -32,11 +29,15 @@ body {
     @return (($container-height - $elem-height) / 2);
 }
 
+
+// Usefull rules
 .nopadding {
     padding-left: 0;
     padding-right: 0;
 }
 
-.push-left{
-    padding-left: 15px;
+// Fill containing element
+%cdt-full-height {
+    height: 100%;
+    width: 100%;
 }

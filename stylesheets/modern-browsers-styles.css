@@ -18,7 +18,7 @@
   /*empty comment*/
   /* Title is too long, minimise gap */
 }
-/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials-framed {
   background-position: 0 -466px;
   /*  
@@ -36,7 +36,7 @@
   min-width: 55px;
   min-height: 55px;
 }
-/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .custom-training-logo {
   background-position: 0 0;
   /*  
@@ -54,7 +54,7 @@
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 24, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -70,7 +70,7 @@
     background-position: 0 0%;
   }
 }
-/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials {
   background-position: 0 -570px;
   /*  
@@ -89,7 +89,7 @@
   min-width: 38px;
   min-height: 45px;
 }
-/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-lite {
   background-position: 0 -812px;
   /*  
@@ -108,7 +108,7 @@
   min-width: 38px;
   min-height: 44px;
 }
-/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-advanced {
   background-position: 0 -216px;
   /*  
@@ -127,7 +127,7 @@
   min-width: 49px;
   min-height: 48px;
 }
-/* line 63, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-longdocuments {
   background-position: 0 -919px;
   /*  
@@ -147,16 +147,16 @@
   min-height: 47px;
 }
 @media screen and (min-width: 640px) and (max-width: 669px) {
-  /* line 63, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .id-longdocuments {
     margin-top: 10px;
   }
 }
-/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-/* line 81, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
@@ -175,7 +175,7 @@
   min-width: 65px;
   min-height: 56px;
 }
-/* line 90, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 88, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
@@ -194,7 +194,7 @@
   min-width: 59px;
   min-height: 48px;
 }
-/* line 99, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 97, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
@@ -214,7 +214,7 @@
   float: right;
   margin-left: 10px;
 }
-/* line 108, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
@@ -232,7 +232,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 115, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
@@ -250,7 +250,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 122, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 120, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
@@ -269,17 +269,28 @@
   min-height: 45px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 34, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .course-custom-training-logo, .indesign-course .id-advanced, .indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess {
   background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
-/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course {
   /*empty comment*/
 }
-/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials-framed {
   background-position: 0 -392px;
   /*  
@@ -297,7 +308,7 @@
   min-width: 55px;
   min-height: 55px;
 }
-/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-classrom {
   background-position: 0 -116px;
   /*  
@@ -318,7 +329,7 @@
   margin-top: 5px;
   margin-left: 12px;
 }
-/* line 37, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .pdf {
   background-position: 0 -829px;
   /*  
@@ -337,7 +348,7 @@
   min-height: 32px;
   top: -3px;
 }
-/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 44, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .indesign-cc-cs6 {
   background-position: 0 -700px;
   /*  
@@ -358,7 +369,7 @@
   margin-right: -15px;
   margin-top: -10px;
 }
-/* line 55, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-custom-training-logo {
   background-position: 0 0;
   /*  
@@ -376,7 +387,7 @@
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 55, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+  /* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
   .indesign-course .course-custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -392,7 +403,7 @@
     background-position: 0 0%;
   }
 }
-/* line 68, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-advanced {
   background-position: 0 -268px;
   /*  
@@ -411,7 +422,7 @@
   min-width: 65px;
   min-height: 63px;
 }
-/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 76, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials {
   background-position: 0 -496px;
   /*  
@@ -429,7 +440,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-/* line 85, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 84, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .ps-ess {
   background-position: 0 -933px;
   /*  
@@ -447,7 +458,7 @@
   min-width: 50px;
   min-height: 50px;
 }
-/* line 92, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 91, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .il-ess {
   background-position: 0 -597px;
   /*  

@@ -1,3 +1,4 @@
+@import "_custom/common";
 @import "_custom/components/btn-shadow";
 
 // Create sprite using Compass
@@ -14,8 +15,6 @@ $indesign-ess-spacing: 40px;
     $sprite-height: 996px;
      
     $id-essentials-framed-height: indesign-ess-sprite-height(id-essentials-framed);
-      
-    $indesign-color: #C42A7C;
 
     .id-essentials-framed { 
         @include indesign-ess-sprite(id-essentials-framed); 
