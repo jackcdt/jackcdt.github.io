@@ -1,9 +1,9 @@
 $trainig-banner-height: $base-line-height * 5;
 
-@mixin banner($logo-height, $color){
+@mixin banner($color){
 
     .banner-row {
-        $logo-height: min(50px, $logo-height);
+        $logo-height: 55px;
         $vertical-margin: vertical-margin-calc($trainig-banner-height, $logo-height);
 
         background-color: $color;
@@ -30,4 +30,4 @@ $trainig-banner-height: $base-line-height * 5;
             @include banner-title;
         }     
     }
-}
+} 

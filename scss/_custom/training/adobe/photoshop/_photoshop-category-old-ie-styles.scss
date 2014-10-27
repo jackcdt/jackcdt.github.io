@@ -1,0 +1,17 @@
+/* Hide all sprites */
+.id-essentials-framed, .custom-training-logo, .id-essentials, .id-lite, .id-advanced, .id-longdocuments,
+.id-interactivity, .id-accessibility, .id-epub, .package-indesign-ess, .package-illustrator-ess, .package-photoshop-ess {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.indesign-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

@@ -4,8 +4,8 @@
 @import "course-item";
 @import "testimonials";
 
-@mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
-    @include banner($logo-height, $color);
+@mixin category($color: #000){
+    @include banner($color);
 
     strong {
         @extend %t-bold;
