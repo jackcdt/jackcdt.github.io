@@ -2,6 +2,9 @@
     background-color: #FCCD39;
     color: #000;
     white-space: nowrap;
+    padding: 5px 10px;
+    border: 1px #c4c4c4 solid;
+    font-family: raleway;
 
     font-size: 13px;
     @extend %t-bold;

@@ -10760,7 +10760,7 @@ html {
 }
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
+.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
 .indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .photoshop-category strong, .photoshop-category .course-item .course-item-fee, .photoshop-category .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span {
   font-weight: 600;
 }
@@ -10954,10 +10954,13 @@ h4 {
 /* Color paragraph header */
 /* Color bold list header */
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn {
+.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn {
   background-color: #FCCD39;
   color: #000;
   white-space: nowrap;
+  padding: 5px 10px;
+  border: 1px #c4c4c4 solid;
+  font-family: raleway;
   font-size: 13px;
 }
 
@@ -12852,34 +12855,43 @@ body {
   padding: 4px 0;
 }
 
-/* line 21, ../scss/_custom/homepage/_home.scss */
-.plus-minus:before {
+/* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .plus-minus-icon:before {
   font-family: "foundation-icons";
   content: "\f199";
 }
-
-/* line 26, ../scss/_custom/homepage/_home.scss */
-.active .plus-minus:before {
-  content: "\f176";
+/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .active .plus-minus-icon:before {
   font-family: "foundation-icons";
+  content: "\f176";
 }
-
+/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .plus-minus-icon {
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 0.75em;
+  color: #959595;
+  line-height: 1.7em;
+  padding-left: 5px;
+}
 @media only screen and (min-width: 40.063em) {
-  /* line 34, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation .acc-container {
+  /* line 27, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container {
     height: 140px;
   }
-  /* line 37, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation .acc-container-lg {
+  /* line 30, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg {
     height: 190px;
   }
-  /* line 40, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation .acc-container-lg-1 {
+  /* line 33, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg-1 {
     height: 295px;
   }
 }
-/* line 44, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion .accordion-navigation a.panel-header {
+/* line 37, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation a.panel-header {
   color: #2089d3;
   font-size: 1.1em;
   font-weight: 400;
@@ -12889,85 +12901,85 @@ body {
   border-bottom: 2px solid #c4c4c4;
   padding: 0.5em 0.5em 0.5em 0.7em;
 }
-/* line 54, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion .accordion-navigation a.panel-header .plus-minus {
+/* line 47, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation a.panel-header .plus-minus {
   font-size: 12px;
   color: gray;
 }
-/* line 59, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion .accordion-navigation h3 {
+/* line 52, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation h3 {
   font-size: 0.90em;
   font-family: Raleway;
   font-weight: 400;
   padding-left: 5px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 59, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation h3 {
+  /* line 52, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation h3 {
     line-height: 2.8em;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 59, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation h3 {
+  /* line 52, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation h3 {
     line-height: 3em;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 59, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion .accordion-navigation h3 {
+  /* line 52, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation h3 {
     line-height: 2.4em;
   }
 }
-/* line 75, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion .accordion-navigation h3.two-line {
+/* line 68, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation h3.two-line {
   line-height: 1.5em;
 }
-/* line 79, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion .accordion-navigation.active a {
+/* line 72, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation.active a {
   background-color: transparent;
 }
-/* line 82, ../scss/_custom/homepage/_home.scss */
-.accordion-home .accordion p {
+/* line 75, ../scss/_custom/homepage/_home.scss */
+.accordion-home p {
   font-size: 0.85em;
   padding-right: 10px;
 }
 
-/* line 89, ../scss/_custom/homepage/_home.scss */
+/* line 81, ../scss/_custom/homepage/_home.scss */
 .footer-bg {
   background-color: #343534;
 }
-/* line 91, ../scss/_custom/homepage/_home.scss */
+/* line 83, ../scss/_custom/homepage/_home.scss */
 .footer-bg .footer-logo {
   padding: 15px 0 40px 0;
 }
-/* line 94, ../scss/_custom/homepage/_home.scss */
+/* line 86, ../scss/_custom/homepage/_home.scss */
 .footer-bg .wrapbuckets {
   color: #FFF;
 }
-/* line 96, ../scss/_custom/homepage/_home.scss */
+/* line 88, ../scss/_custom/homepage/_home.scss */
 .footer-bg .wrapbuckets a {
   color: #fff;
   text-decoration: none;
 }
-/* line 100, ../scss/_custom/homepage/_home.scss */
+/* line 92, ../scss/_custom/homepage/_home.scss */
 .footer-bg .wrapbuckets h3 {
   color: #fff;
   font-weight: 700;
   font-size: 0.95em;
   margin: 15px 0 2px;
 }
-/* line 106, ../scss/_custom/homepage/_home.scss */
+/* line 98, ../scss/_custom/homepage/_home.scss */
 .footer-bg .wrapbuckets .bucket ul {
   font-size: 0.85em;
 }
 
-/* line 113, ../scss/_custom/homepage/_home.scss */
+/* line 105, ../scss/_custom/homepage/_home.scss */
 .why-train-bg {
   background-color: #D7E9F7;
   border-bottom: 1px #c4c4c4 solid;
 }
-/* line 118, ../scss/_custom/homepage/_home.scss */
+/* line 110, ../scss/_custom/homepage/_home.scss */
 .why-train-bg .train-with-us h3 {
   font-size: 42px;
   font-weight: 200;
@@ -12975,23 +12987,12 @@ body {
   line-height: 1em;
   padding-bottom: 5px;
 }
-/* line 125, ../scss/_custom/homepage/_home.scss */
-.why-train-bg .train-with-us a {
-  background-color: #FCCD39;
-  color: #000;
-  white-space: nowrap;
-  font-size: 13px;
-  font-weight: 600;
-  font-family: raleway;
-  padding: 5px 10px;
-  border: 1px #c4c4c4 solid;
-}
-/* line 135, ../scss/_custom/homepage/_home.scss */
+/* line 118, ../scss/_custom/homepage/_home.scss */
 .why-train-bg .train-with-us a:hover {
   background-color: #FFCE77;
 }
 
-/* line 142, ../scss/_custom/homepage/_home.scss */
+/* line 128, ../scss/_custom/homepage/_home.scss */
 .no-padding {
   padding: 0;
 }
@@ -14706,38 +14707,38 @@ body {
   color: #2088D1;
   padding-bottom: 4px;
 }
-/* line 4, ../scss/_custom/components/_accordion-plus-minus.scss */
-.cdt-calendar .tabs-content .accordion .accordion-icon:before {
+/* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+.cdt-calendar .tabs-content .accordion .plus-minus-icon:before {
   font-family: "foundation-icons";
   content: "\f199";
 }
-/* line 10, ../scss/_custom/components/_accordion-plus-minus.scss */
-.cdt-calendar .tabs-content .accordion .active .accordion-icon:before {
+/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+.cdt-calendar .tabs-content .accordion .active .plus-minus-icon:before {
   font-family: "foundation-icons";
   content: "\f176";
 }
-/* line 86, ../scss/_custom/admin/_calendar.scss */
-.cdt-calendar .tabs-content .accordion .accordion-icon {
+/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+.cdt-calendar .tabs-content .accordion .plus-minus-icon {
   float: left;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-top: 2px;
   font-weight: 100;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   color: #959595;
   line-height: 1.7em;
   padding-left: 5px;
 }
-/* line 99, ../scss/_custom/admin/_calendar.scss */
+/* line 88, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive {
   border: none;
   border-spacing: 0px;
   display: block;
 }
-/* line 104, ../scss/_custom/admin/_calendar.scss */
+/* line 93, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead {
   background-color: #fff;
 }
-/* line 107, ../scss/_custom/admin/_calendar.scss */
+/* line 96, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead th {
   text-align: center;
   color: #2088D1;
@@ -14746,7 +14747,7 @@ body {
   font-size: 0.875em;
   line-height: 1.71429em;
 }
-/* line 117, ../scss/_custom/admin/_calendar.scss */
+/* line 106, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive thead .location {
   text-align: left;
   text-transform: uppercase;
@@ -14754,12 +14755,12 @@ body {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
-/* line 127, ../scss/_custom/admin/_calendar.scss */
+/* line 116, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive tbody tr td {
   border: 1px solid #dbdbdb;
   text-align: center;
 }
-/* line 132, ../scss/_custom/admin/_calendar.scss */
+/* line 121, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive td.row-name {
   text-align: left;
 }
@@ -14838,11 +14839,11 @@ body {
     text-align: center;
   }
 }
-/* line 144, ../scss/_custom/admin/_calendar.scss */
+/* line 133, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74;
 }
-/* line 150, ../scss/_custom/admin/_calendar.scss */
+/* line 139, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1;
   /*    background-color: #CECECE;*/
@@ -15123,39 +15124,39 @@ body {
 .faq .accordion {
   margin-bottom: 24px;
 }
-/* line 4, ../scss/_custom/components/_accordion-plus-minus.scss */
-.faq .accordion .accordion-icon:before {
+/* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+.faq .accordion .plus-minus-icon:before {
   font-family: "foundation-icons";
   content: "\f199";
 }
-/* line 10, ../scss/_custom/components/_accordion-plus-minus.scss */
-.faq .accordion .active .accordion-icon:before {
+/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+.faq .accordion .active .plus-minus-icon:before {
   font-family: "foundation-icons";
   content: "\f176";
 }
-/* line 93, ../scss/_custom/admin/_faq.scss */
-.faq .accordion .accordion-icon {
+/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+.faq .accordion .plus-minus-icon {
   float: left;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-top: 2px;
   font-weight: 100;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   color: #959595;
   line-height: 1.7em;
   padding-left: 5px;
 }
-/* line 104, ../scss/_custom/admin/_faq.scss */
+/* line 93, ../scss/_custom/admin/_faq.scss */
 .faq .accordion .accordion-navigation > .content,
 .faq .accordion dd > .content {
   padding: 0;
 }
-/* line 110, ../scss/_custom/admin/_faq.scss */
+/* line 99, ../scss/_custom/admin/_faq.scss */
 .faq .accordion-navigation p {
   font-size: .8em;
   line-height: 1.4em;
   padding: 0;
 }
-/* line 116, ../scss/_custom/admin/_faq.scss */
+/* line 105, ../scss/_custom/admin/_faq.scss */
 .faq .testimonials {
   height: 23em;
   background-color: #E4E4E4;
@@ -15215,19 +15216,19 @@ body {
   background-color: rgba(140, 140, 140, 0.5);
 }
 @media screen and (min-width: 640px) and (max-width: 680px) {
-  /* line 116, ../scss/_custom/admin/_faq.scss */
+  /* line 105, ../scss/_custom/admin/_faq.scss */
   .faq .testimonials {
     height: 68em;
   }
 }
 @media screen and (min-width: 681px) and (max-width: 780px) {
-  /* line 116, ../scss/_custom/admin/_faq.scss */
+  /* line 105, ../scss/_custom/admin/_faq.scss */
   .faq .testimonials {
     height: 53em;
   }
 }
 @media screen and (min-width: 781px) and (max-width: 1024px) {
-  /* line 116, ../scss/_custom/admin/_faq.scss */
+  /* line 105, ../scss/_custom/admin/_faq.scss */
   .faq .testimonials {
     height: 37em;
   }

@@ -18,17 +18,10 @@
 		}
 	} 
 }
-.plus-minus:before {
-  font-family: "foundation-icons";
-	content: "\f199";
-}
 
-.active .plus-minus:before {
-	content: "\f176";
-  font-family: "foundation-icons";
-}
 .accordion-home {
-.accordion {
+	@include plus-minus-icon;
+
 	.accordion-navigation {
 		@media #{$medium-up} {
 			.acc-container {
@@ -84,7 +77,6 @@
 		padding-right: 10px;
 	}
 }
-}
 
 .footer-bg {
 	background-color: #343534;
@@ -121,20 +113,14 @@
 			font-family: Raleway;
 			line-height: 1em;
 			padding-bottom: 5px;
+		} 
+		
+		a:hover {
+			background-color: #FFCE77;
 		}
-		a {
-			background-color: #FCCD39;
-			color: #000;
-			white-space: nowrap;
-			font-size: 13px;
-			font-weight: 600;
-			font-family: raleway;
-			padding: 5px 10px;
-			border: 1px #c4c4c4 solid;
 
-			&:hover {
-				background-color: #FFCE77;
-			}
+		.learn-more {
+			@extend %read-more-btn;
 		}
 	}
 }
