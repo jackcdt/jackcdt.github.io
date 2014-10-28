@@ -86,7 +86,7 @@ $photoshop-category-spacing: 40px;
     }
 
     .training-packages-images {
-        @media (min-width: 1024px) {
+        @media (min-width: 1025px) {
             margin: 6em 0 0 1em;
         }           
     }
@@ -110,14 +110,5 @@ $photoshop-category-spacing: 40px;
         @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5%);
         min-width: 47px;
         min-height: 45px;    
-    }
-
-    .id-epub {
-        @include photoshop-category-sprite(ps-id-epub); 
-        @include responsive-sprite($map, ps-id-epub, $sprite-width, $sprite-height, 6%);
-        min-width: 55px;
-        min-height: 72px;    
-        float: right;
-        margin-left: 10px;
     }
 } 

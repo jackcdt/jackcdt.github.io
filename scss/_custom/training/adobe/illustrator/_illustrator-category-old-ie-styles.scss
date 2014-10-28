@@ -1,0 +1,23 @@
+/* Hide all sprites */
+.il-essentials-framed, 
+.il-category-custom-training, 
+.il-essentials, 
+.il-lite, 
+.il-advanced, 
+.package-indesign-ess, 
+.package-illustrator-ess, 
+.package-photoshop-ess {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.illustrator-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

@@ -617,7 +617,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 34, ../scss/_custom/_common.scss */
+/* line 49, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -672,7 +672,7 @@ body {
   color: #FFF;
   text-align: center;
   font-weight: 700;
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 51, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
@@ -715,3 +715,53 @@ body {
     }
 
 */
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
+.ps-essentials-framed,
+.ps-category-custom-training,
+.ps-essentials,
+.ps-lite,
+.ps-advanced,
+.ps-web,
+.ps-retouching,
+.ps-lr,
+.package-indesign-ess,
+.package-illustrator-ess,
+.package-photoshop-ess {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 18, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
+.photoshop-category p {
+  margin-bottom: 24px;
+}
+/* line 22, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
+.photoshop-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
+.il-essentials-framed,
+.il-category-custom-training,
+.il-essentials,
+.il-lite,
+.il-advanced,
+.package-indesign-ess,
+.package-illustrator-ess,
+.package-photoshop-ess {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
+.illustrator-category p {
+  margin-bottom: 24px;
+}
+/* line 19, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
+.illustrator-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}

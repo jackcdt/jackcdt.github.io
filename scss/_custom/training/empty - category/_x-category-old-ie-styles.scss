@@ -1,0 +1,20 @@
+/* Hide all sprites */
+.xx-essentials-framed, 
+.xx-category-custom-training, 
+.xx-essentials, 
+.xx-lite, 
+.xx-advanced {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.xx-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}
