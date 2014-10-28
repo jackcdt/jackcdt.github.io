@@ -44,8 +44,9 @@ $acrobat-category-spacing: 40px;
         @include acrobat-category-sprite(acrobat-pdfforms); 
         @include responsive-sprite($map, acrobat-pdfforms, $sprite-width, $sprite-height, 5%);
         margin-left: 15px;
-
+        margin-top: -5px;
+        
         min-width: 38px;
-        min-height: 44px;    
+        min-height: 50px;
     }
 } 
