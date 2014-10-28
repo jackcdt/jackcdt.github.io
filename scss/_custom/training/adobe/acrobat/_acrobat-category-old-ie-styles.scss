@@ -1,0 +1,19 @@
+/* Hide all sprites */
+.acrobat-essentials-framed, 
+.acrobat-category-custom-training, 
+.acrobat-essentials, 
+.xx-pdfforms {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.acrobat-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

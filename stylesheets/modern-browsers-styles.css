@@ -929,6 +929,107 @@ body {
   min-height: 45px;
 }
 
+/* line 72, training/adobe/acrobat/acrobat-category/*.png */
+.acrobat-category-sprite, .acrobat-category .acrobat-essentials-framed, .acrobat-category .category-custom-training, .acrobat-category .acrobat-essentials, .acrobat-category .acrobat-pdfforms {
+  background-image: url('../images/training/adobe/acrobat/acrobat-category-s24dae38b86.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category {
+  /*empty comment*/
+}
+/* line 15, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-essentials-framed {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 280.30303%;
+  background-position: 0 0%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 22, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .category-custom-training {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 100%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 22, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+  .acrobat-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 100%;
+  }
+}
+/* line 34, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-essentials {
+  background-position: 0 -106px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5%;
+  background-size: 289.0625%;
+  background-position: 0 30.28571%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 43, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-pdfforms {
+  background-position: 0 -210px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.28571%;
+  background-size: 264.28571%;
+  background-position: 0 64.41718%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images/admin/calendar-s4dacfd9bea.png');
