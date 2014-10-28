@@ -60,7 +60,7 @@ $border-color: #2C2C2C;
         margin-bottom: $margin-bottom-default / 4;
     }
 
-    .download-and-book {
+    .book-now-section {
         border-top: 1px solid $color;
     }
 
@@ -143,6 +143,11 @@ $border-color: #2C2C2C;
                 @extend %t-small;
             }
         }
+    }
+
+    /* Download PDF button */
+    .download-pdf {
+        margin-top: $margin-bottom-default / 2;
     }
 
     /* Course outline - sylabus */
@@ -305,12 +310,10 @@ $border-color: #2C2C2C;
     }
 
     /* Side bar - download and book */
-    .download-and-book { 
-        li {
-            margin-top: $margin-bottom-default;
-            min-width: 9em;
-        }
-    }
+    .book-now-section { 
+        padding-top: $margin-bottom-default;
+        min-width: 9em;
+     }
 
     .download-text {
         font-size: 14px;
