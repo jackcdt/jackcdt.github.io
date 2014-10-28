@@ -1321,7 +1321,68 @@
             </div>
         </div>
     </div>
-    <!-- Footer End --><!-- #EndLibraryItem --><script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+            // Fix for foundation stylesheets being picked up as "null" or "not an object",
+            // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
+            (function($) {
+                if (!Foundation.stylesheet) {
+                    Foundation._style_element = $('').appendTo('head')[0];
+                    Foundation.stylesheet     = Foundation._style_element.styleSheet;
+                    
+                    if (Foundation.stylesheet) {
+                        Foundation.stylesheet.cssRules = {
+                            length: 0
+                        };
+
+                        Foundation.stylesheet.insertRule = function(rule, index) {
+                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            mediaMatch = mediaRegex.exec(rule);
+                            media      = '';
+
+                            if (mediaMatch) {
+                                media = '@media ' + mediaMatch[1] + ' ';
+                                rule  = mediaMatch[2];
+                            }
+
+                            ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            ruleMatch = ruleRegex.exec(rule);
+                            namespace = '' + media + ruleMatch[1];
+                            rule      = ruleMatch[2];
+
+                            return this.addRule(namespace, rule);
+                        };
+                    } else if (window.console) {
+                        console.log('Could not fix Foundation CSS rules…');
+                    }
+                }
+            })(jQuery);
+        </script>
+        <script src="/bower_components/foundation/js/foundation.min.js"></script>
+        <script src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
+        <!-- Mega Menu Plugins -->
+        <script>
+            $(document).ready(function ($) {
+                $('.megamenu').megaMenuCompleteSet({
+                    menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+                    menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+                    menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+                    menu_effect: 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+                    menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+                    menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+                    menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
+                });
+            });
+        </script>
+
+        <!-- Support rem units in older IEs -->
+        <!--[if lt IE 9]>
+            <script src="/js/rem.min.js"></script>
+        <![endif]-->
+	    <!-- Footer End -->
+        <!-- #EndLibraryItem --><script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script>
             // Fix for foundation stylesheets being picked up as "null" or "not an object",
              // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
