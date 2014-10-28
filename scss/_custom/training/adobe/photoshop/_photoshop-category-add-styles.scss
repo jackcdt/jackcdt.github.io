@@ -85,11 +85,17 @@ $photoshop-category-spacing: 40px;
         min-height: 47px;    
     }
 
+    .training-packages-images {
+        @media (min-width: 1024px) {
+            margin: 6em 0 0 1em;
+        }           
+    }
+
     .package-indesign-ess {
         @include photoshop-category-sprite(id-essentials); 
         @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
         min-width: 47px;
-        min-height: 45px;    
+        min-height: 45px; 
     }
 
     .package-illustrator-ess {
