@@ -16,4 +16,12 @@
             width: 330px;
         }
     } 
+
+    .training-checklist {
+        table {
+            thead, tr.even, tr.alt, tr:nth-of-type(even) {
+                background: lighten($html-css-color, 70%);
+            }
+        }
+    }
 } 

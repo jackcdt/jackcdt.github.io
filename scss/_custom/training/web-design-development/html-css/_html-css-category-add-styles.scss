@@ -8,7 +8,7 @@ $html-css-category-spacing: 40px;
 .html-css-category {
     $map: sprite-map("training/web-design-development/html-css/html-css-category/*.png", $spacing: $html-css-category-spacing); /*empty comment*/ 
     $sprite-width: 185px;
-    $sprite-height: 521px;
+    $sprite-height: 728px;
 
     .html-ess { 
         @include html-css-category-sprite(html-ess); 
@@ -17,7 +17,7 @@ $html-css-category-spacing: 40px;
         min-width: 44px;
         min-height: 47px;
     } 
-
+ 
     .category-custom-training {
         // Don't forget to change the name of the image for every page
         @include html-css-category-sprite(custom-training); 
@@ -56,4 +56,28 @@ $html-css-category-spacing: 40px;
         min-width: 45px;
         min-height: 48px;    
     } 
+
+    .html5-package {        
+        @include html-css-category-sprite(html5-package); 
+        @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 3%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
+
+    .dreamweaver-package {        
+        @include html-css-category-sprite(dreamweaver-package); 
+        @include responsive-sprite($map, dreamweaver-package, $sprite-width, $sprite-height, 3%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
+
+    .css3-package {        
+        @include html-css-category-sprite(css3-package); 
+        @include responsive-sprite($map, css3-package, $sprite-width, $sprite-height, 1%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
 } 
