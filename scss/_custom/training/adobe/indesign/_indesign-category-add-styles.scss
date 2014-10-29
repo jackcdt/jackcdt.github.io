@@ -89,7 +89,7 @@ $indesign-category-spacing: 40px;
         margin: 3px -4px 0 15px;
 
         min-width: 59px;
-        min-height: 48px;    
+        min-height: 41px;    
     }
 
     .id-epub {
@@ -106,7 +106,7 @@ $indesign-category-spacing: 40px;
         @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
         min-width: 47px;
         min-height: 45px;    
-    }
+    } 
 
     .package-illustrator-ess {
         @include indesign-category-sprite(il-ess); 

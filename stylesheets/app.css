@@ -13252,28 +13252,40 @@ body {
   line-height: 1.2em;
   color: #c42a7c;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .indesign-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .indesign-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info,
 .indesign-category .course-item .course-book-now {
   text-align: center;
@@ -13281,43 +13293,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info a, .indesign-category .course-item .course-item-info a:hover, .indesign-category .course-item .course-item-info a:focus,
 .indesign-category .course-item .course-book-now a,
 .indesign-category .course-item .course-book-now a:hover,
 .indesign-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-fee {
   color: #c42a7c;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-item-info {
   background-color: #c42a7c;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .indesign-category .course-item .course-book-now {
   background-color: #e588ba;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .indesign-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -14348,28 +14360,40 @@ body {
   line-height: 1.2em;
   color: #79bdfe;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .photoshop-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .photoshop-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .photoshop-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .photoshop-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-item-info,
 .photoshop-category .course-item .course-book-now {
   text-align: center;
@@ -14377,43 +14401,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-item-info a, .photoshop-category .course-item .course-item-info a:hover, .photoshop-category .course-item .course-item-info a:focus,
 .photoshop-category .course-item .course-book-now a,
 .photoshop-category .course-item .course-book-now a:hover,
 .photoshop-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-item-fee {
   color: #79bdfe;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-item-info {
   background-color: #79bdfe;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .photoshop-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .photoshop-category .course-item .course-book-now {
   background-color: #f8fbff;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .photoshop-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -14890,28 +14914,40 @@ body {
   line-height: 1.2em;
   color: #fa9a02;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .illustrator-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .illustrator-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .illustrator-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .illustrator-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-item-info,
 .illustrator-category .course-item .course-book-now {
   text-align: center;
@@ -14919,43 +14955,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-item-info a, .illustrator-category .course-item .course-item-info a:hover, .illustrator-category .course-item .course-item-info a:focus,
 .illustrator-category .course-item .course-book-now a,
 .illustrator-category .course-item .course-book-now a:hover,
 .illustrator-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-item-fee {
   color: #fa9a02;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-item-info {
   background-color: #fa9a02;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .illustrator-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .illustrator-category .course-item .course-book-now {
   background-color: #fecc7e;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .illustrator-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -15434,28 +15470,40 @@ body {
   line-height: 1.2em;
   color: #d82631;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .acrobat-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .acrobat-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .acrobat-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .acrobat-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-item-info,
 .acrobat-category .course-item .course-book-now {
   text-align: center;
@@ -15463,43 +15511,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-item-info a, .acrobat-category .course-item .course-item-info a:hover, .acrobat-category .course-item .course-item-info a:focus,
 .acrobat-category .course-item .course-book-now a,
 .acrobat-category .course-item .course-book-now a:hover,
 .acrobat-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-item-fee {
   color: #d82631;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-item-info {
   background-color: #d82631;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .acrobat-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .acrobat-category .course-item .course-book-now {
   background-color: #ec9297;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .acrobat-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -15976,28 +16024,40 @@ body {
   line-height: 1.2em;
   color: #c42a7c;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .digital-publishing-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .digital-publishing-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .digital-publishing-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .digital-publishing-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-item-info,
 .digital-publishing-category .course-item .course-book-now {
   text-align: center;
@@ -16005,43 +16065,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-item-info a, .digital-publishing-category .course-item .course-item-info a:hover, .digital-publishing-category .course-item .course-item-info a:focus,
 .digital-publishing-category .course-item .course-book-now a,
 .digital-publishing-category .course-item .course-book-now a:hover,
 .digital-publishing-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-item-fee {
   color: #c42a7c;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-item-info {
   background-color: #c42a7c;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .digital-publishing-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .digital-publishing-category .course-item .course-book-now {
   background-color: #e588ba;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .digital-publishing-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -16532,28 +16592,40 @@ body {
   line-height: 1.2em;
   color: #053c6a;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .html-css-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .html-css-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .html-css-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .html-css-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-item-info,
 .html-css-category .course-item .course-book-now {
   text-align: center;
@@ -16561,43 +16633,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-item-info a, .html-css-category .course-item .course-item-info a:hover, .html-css-category .course-item .course-item-info a:focus,
 .html-css-category .course-item .course-book-now a,
 .html-css-category .course-item .course-book-now a:hover,
 .html-css-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-item-fee {
   color: #053c6a;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-item-info {
   background-color: #053c6a;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .html-css-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .html-css-category .course-item .course-book-now {
   background-color: #0b81e4;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .html-css-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
@@ -17070,28 +17142,40 @@ body {
   line-height: 1.2em;
   color: #81d629;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .dreamweaver-category .course-item .course-item-header {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
   /* line 31, ../scss/_custom/components/training/_course-item.scss */
   .dreamweaver-category .course-item .course-item-header {
     height: 3.5em;
   }
 }
-/* line 37, ../scss/_custom/components/training/_course-item.scss */
+/* line 41, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-item-description {
   line-height: 1.5em;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
+  .dreamweaver-category .course-item .course-item-description {
+    margin-bottom: 12px;
+  }
+}
 @media only screen and (min-width: 64.063em) {
-  /* line 37, ../scss/_custom/components/training/_course-item.scss */
+  /* line 41, ../scss/_custom/components/training/_course-item.scss */
   .dreamweaver-category .course-item .course-item-description {
     height: 12em;
   }
 }
-/* line 46, ../scss/_custom/components/training/_course-item.scss */
+/* line 54, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .day-time {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
-/* line 50, ../scss/_custom/components/training/_course-item.scss */
+/* line 58, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-item-info,
 .dreamweaver-category .course-item .course-book-now {
   text-align: center;
@@ -17099,43 +17183,43 @@ body {
   line-height: 1.4em;
   padding: 4px 0;
 }
-/* line 59, ../scss/_custom/components/training/_course-item.scss */
+/* line 67, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-item-info a, .dreamweaver-category .course-item .course-item-info a:hover, .dreamweaver-category .course-item .course-item-info a:focus,
 .dreamweaver-category .course-item .course-book-now a,
 .dreamweaver-category .course-item .course-book-now a:hover,
 .dreamweaver-category .course-item .course-book-now a:focus {
   color: #fff;
 }
-/* line 64, ../scss/_custom/components/training/_course-item.scss */
+/* line 72, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-item-fee {
   color: #81d629;
   margin-bottom: 2px;
 }
-/* line 71, ../scss/_custom/components/training/_course-item.scss */
+/* line 79, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .big {
   line-height: 1.5em;
 }
-/* line 77, ../scss/_custom/components/training/_course-item.scss */
+/* line 85, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-item-info {
   background-color: #81d629;
   width: 90px;
   border-right: 3px solid #fff;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 77, ../scss/_custom/components/training/_course-item.scss */
+  /* line 85, ../scss/_custom/components/training/_course-item.scss */
   .dreamweaver-category .course-item .course-item-info {
     min-width: initial;
     width: 48%;
   }
 }
-/* line 88, ../scss/_custom/components/training/_course-item.scss */
+/* line 96, ../scss/_custom/components/training/_course-item.scss */
 .dreamweaver-category .course-item .course-book-now {
   background-color: #c0eb94;
   text-transform: uppercase;
   width: 85px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 88, ../scss/_custom/components/training/_course-item.scss */
+  /* line 96, ../scss/_custom/components/training/_course-item.scss */
   .dreamweaver-category .course-item .course-book-now {
     min-width: initial;
     width: 46%;
