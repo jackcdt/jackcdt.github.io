@@ -1,12 +1,13 @@
 @import "_custom/common";
 
-/* Hide all sprites */
-.id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
-.id-essentials, .ps-ess, .il-ess, .and {
-    display: none !important;
-}
-
 .indesign-course {
+
+    /* Hide all sprites */
+    .id-essentials-framed, .course-classrom, .pdf, .indesign-cc-cs6, .course-custom-training-logo, .id-advanced,
+    .id-essentials, .ps-ess, .il-ess, .and {
+        display: none !important;
+    }
+
     p {
         margin-bottom: 24px;
     }

@@ -1,20 +1,20 @@
-/* Hide all sprites */
-.ps-essentials-framed, 
-.ps-category-custom-training, 
-.ps-essentials, 
-.ps-lite, 
-.ps-advanced, 
-.ps-web,
-.ps-retouching, 
-.ps-lr, 
-.package-indesign-ess, 
-.package-illustrator-ess, 
-.package-photoshop-ess {
-    display: none;
-}
-
 /* Push up the custom training to compensate for no image */
 .photoshop-category {
+    /* Hide all sprites */
+    .ps-essentials-framed, 
+    .ps-category-custom-training, 
+    .ps-essentials, 
+    .ps-lite, 
+    .ps-advanced, 
+    .ps-web,
+    .ps-retouching, 
+    .ps-lr, 
+    .package-indesign-ess, 
+    .package-illustrator-ess, 
+    .package-photoshop-ess {
+        display: none;
+    }
+
     p {
         margin-bottom: 24px;
     }

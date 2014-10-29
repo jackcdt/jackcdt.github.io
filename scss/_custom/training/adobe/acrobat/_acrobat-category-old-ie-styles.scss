@@ -1,13 +1,13 @@
-/* Hide all sprites */
-.acrobat-essentials-framed, 
-.acrobat-category-custom-training, 
-.acrobat-essentials, 
-.acrobat-pdfforms {
-    display: none;
-}
-
 /* Push up the custom training to compensate for no image */
 .acrobat-category {
+    /* Hide all sprites */
+    .acrobat-essentials-framed, 
+    .acrobat-category-custom-training, 
+    .acrobat-essentials, 
+    .acrobat-pdfforms {
+        display: none;
+    }
+
     p {
         margin-bottom: 24px;
     }

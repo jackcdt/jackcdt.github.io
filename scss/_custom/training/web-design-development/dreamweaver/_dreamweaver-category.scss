@@ -1,0 +1,27 @@
+@import "../../../components/training/category";
+ 
+.dreamweaver-category {
+    @include category($dreamweaver-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 440px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 306px;
+        }
+    } 
+
+    .training-checklist {
+        table {
+            thead, tr.even, tr.alt, tr:nth-of-type(even) {
+                background: lighten($dreamweaver-color, 40%);
+            }
+        }
+    }
+} 

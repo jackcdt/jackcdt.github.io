@@ -1,16 +1,16 @@
-/* Hide all sprites */
-.id-ipad, 
-.category-custom-training, 
-.id-dps-pkg, 
-.id-dps-pro, 
-.id-dps-single,
-.id-interactivity,
-.id-epub {
-    display: none;
-}
-
 /* Push up the custom training to compensate for no image */
 .digital-publishing-category {
+    /* Hide all sprites */
+    .id-ipad, 
+    .category-custom-training, 
+    .id-dps-pkg, 
+    .id-dps-pro, 
+    .id-dps-single,
+    .id-interactivity,
+    .id-epub {
+        display: none;
+    }
+
     p {
         margin-bottom: 24px;
     }

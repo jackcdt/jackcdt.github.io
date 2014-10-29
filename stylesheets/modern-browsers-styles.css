@@ -274,7 +274,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 50, ../scss/_custom/_common.scss */
+/* line 51, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -1392,6 +1392,202 @@ body {
 }
 /* line 76, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .css3-package {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 1%;
+  display: block;
+  height: 0;
+  padding-bottom: 1.42857%;
+  background-size: 880.95238%;
+  background-position: 0 0%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+
+/* line 112, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
+.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .dw-dynamic, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-sa541b46ec8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-essentials-framed {
+  background-position: 0 -365px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 276.1194%;
+  background-position: 0 48.99329%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .category-custom-training {
+  background-position: 0 -70px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 9.52381%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+  .dreamweaver-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 9.52381%;
+  }
+}
+/* line 32, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-essentials {
+  background-position: 0 -471px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 284.61538%;
+  background-position: 0 63.05221%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html-css {
+  background-position: 0 -575px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.69231%;
+  background-size: 284.61538%;
+  background-position: 0 76.66667%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+/* line 50, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-dynamic {
+  background-position: 0 -253px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.15556%;
+  background-size: 228.39506%;
+  background-position: 0 34.23545%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
+}
+/* line 59, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html-ess {
+  background-position: 0 -676px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 90.61662%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
+}
+/* line 68, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html5-package {
+  background-position: 0 -781px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.09091%;
+  background-size: 840.90909%;
+  background-position: 0 100%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 76, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dreamweaver-package {
+  background-position: 0 -186px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 2.89286%;
+  background-size: 660.71429%;
+  background-position: 0 23.72449%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 84, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .css3-package {
   background-position: 0 0;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  

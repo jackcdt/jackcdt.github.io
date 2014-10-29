@@ -1,14 +1,12 @@
 /* Push up the custom training to compensate for no image */
-.illustrator-category {
+.dreamweaver-category {
     /* Hide all sprites */
-    .il-essentials-framed, 
-    .il-category-custom-training, 
-    .il-essentials, 
-    .il-lite, 
-    .il-advanced, 
-    .package-indesign-ess, 
-    .package-illustrator-ess, 
-    .package-photoshop-ess {
+    .dw-dynamic, 
+    .custom-training, 
+    .dw-essentials, 
+    .dw-essentials-framed, 
+    .html-css,
+    .html-ess {
         display: none;
     }
 

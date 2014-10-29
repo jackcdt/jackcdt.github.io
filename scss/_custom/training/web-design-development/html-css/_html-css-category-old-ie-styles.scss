@@ -1,14 +1,14 @@
-/* Hide all sprites */
-.html-css, 
-.html-ess, 
-.html5css, 
-.htmlnews, 
-.custom-training {
-    display: none;
-}
-
 /* Push up the custom training to compensate for no image */
 .html-css-category {
+    /* Hide all sprites */
+    .html-css, 
+    .html-ess, 
+    .html5css, 
+    .htmlnews, 
+    .custom-training {
+        display: none;
+    }
+
     p {
         margin-bottom: 24px;
     }

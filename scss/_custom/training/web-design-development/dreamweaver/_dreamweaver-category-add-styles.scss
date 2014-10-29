@@ -1,0 +1,91 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$dreamweaver-category-spacing: 40px; 
+
+@import "training/web-design-development/dreamweaver/dreamweaver-category/*.png"; 
+.dreamweaver-category {
+    $map: sprite-map("training/web-design-development/dreamweaver/dreamweaver-category/*.png", $spacing: $dreamweaver-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 811px;
+
+    .dw-essentials-framed { 
+        @include dreamweaver-category-sprite(dw-essentials-framed); 
+        @include responsive-sprite($map, dw-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include dreamweaver-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .dw-essentials {
+        @include dreamweaver-category-sprite(dw-essentials); 
+        @include responsive-sprite($map, dw-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .html-css {
+        @include dreamweaver-category-sprite(html-css); 
+        @include responsive-sprite($map, html-css, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .dw-dynamic {
+        @include dreamweaver-category-sprite(dw-dynamic); 
+        @include responsive-sprite($map, dw-dynamic, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    } 
+
+    .html-ess {
+        @include dreamweaver-category-sprite(html-ess); 
+        @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    } 
+
+    .html5-package {        
+        @include dreamweaver-category-sprite(html5-package); 
+        @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 3%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
+
+    .dreamweaver-package {        
+        @include dreamweaver-category-sprite(dreamweaver-package); 
+        @include responsive-sprite($map, dreamweaver-package, $sprite-width, $sprite-height, 3%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
+
+    .css3-package {        
+        @include dreamweaver-category-sprite(css3-package); 
+        @include responsive-sprite($map, css3-package, $sprite-width, $sprite-height, 1%);
+        margin: -8px 15px 15px 15px;
+        min-width: 27px;
+        min-height: 42px;
+    }
+} 
