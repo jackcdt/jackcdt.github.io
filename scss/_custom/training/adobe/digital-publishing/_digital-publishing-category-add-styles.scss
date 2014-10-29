@@ -13,7 +13,7 @@ $digital-publishing-category-spacing: 40px;
     .id-ipad { 
         @include digital-publishing-category-sprite(id-ipad); 
         @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
-        margin-left: 9px;
+        margin-left: 5px;
         margin-top: -5px;
 
         min-width: 56px;
