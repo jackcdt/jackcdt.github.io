@@ -8,7 +8,7 @@
                     document.write('<img src="/images/footer-logos/' + theImage + '" alt="">');
                 </script>
             </div>
-        </div>
+        </div> 
         <div class="row wrapbuckets">
             <div class="medium-3 columns hide-for-small-only bucket">
                 <h3>POPULAR COURSES</h3>
