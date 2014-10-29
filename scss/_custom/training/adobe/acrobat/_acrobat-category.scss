@@ -21,7 +21,25 @@
         height: 12em;
     }
 
+    .side-pannel {
+        @media #{$medium-up} {
+            margin-top: 2em;
+        }
+
+        @media #{$large-up} {
+            margin-top: 0;
+        }
+    }
+
     .course-item .course-item-description {
-        height: 17em;
+        @media #{$medium-up} {
+            height: auto;
+            margin-bottom: $margin-bottom-default / 2;
+        }
+
+        @media #{$large-up} {
+            height: 17em;
+            margin-bottom: $margin-bottom-default / 2;
+        }
     }
 } 

@@ -15772,9 +15772,31 @@ body {
 .acrobat-category .testimonials {
   height: 12em;
 }
-/* line 24, ../scss/_custom/training/adobe/acrobat/_acrobat-category.scss */
-.acrobat-category .course-item .course-item-description {
-  height: 17em;
+@media only screen and (min-width: 40.063em) {
+  /* line 24, ../scss/_custom/training/adobe/acrobat/_acrobat-category.scss */
+  .acrobat-category .side-pannel {
+    margin-top: 2em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 24, ../scss/_custom/training/adobe/acrobat/_acrobat-category.scss */
+  .acrobat-category .side-pannel {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 34, ../scss/_custom/training/adobe/acrobat/_acrobat-category.scss */
+  .acrobat-category .course-item .course-item-description {
+    height: auto;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 34, ../scss/_custom/training/adobe/acrobat/_acrobat-category.scss */
+  .acrobat-category .course-item .course-item-description {
+    height: 17em;
+    margin-bottom: 12px;
+  }
 }
 
 /* Mixin for styling of custom training logo, to be used on category and course pages 
@@ -16888,9 +16910,31 @@ body {
 .flash-category .testimonials {
   height: 12em;
 }
-/* line 32, ../scss/_custom/training/adobe/flash/_flash-category.scss */
-.flash-category .course-item .course-item-description {
-  height: 16em;
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 28, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .testimonials {
+    height: 21em;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 37, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .course-item .course-item-description {
+    height: auto;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 37, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .course-item .course-item-description {
+    height: 16em;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 49, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .course-item .course-item-header {
+    height: 3em;
+  }
 }
 
 /* Mixin for styling of custom training logo, to be used on category and course pages 
