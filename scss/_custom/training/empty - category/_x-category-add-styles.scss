@@ -10,8 +10,6 @@ $xx-category-spacing: 40px;
     $sprite-width: 185px;
     $sprite-height: 1160px;
 
-    $xx-essentials-framed-height: xx-category-sprite-height(xx-essentials-framed);
-
     .xx-essentials-framed { 
         @include xx-category-sprite(xx-essentials-framed); 
         @include responsive-sprite($map, xx-essentials-framed, $sprite-width, $sprite-height, 5.8%);

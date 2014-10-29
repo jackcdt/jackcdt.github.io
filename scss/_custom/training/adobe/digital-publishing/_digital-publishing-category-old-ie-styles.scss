@@ -1,13 +1,16 @@
 /* Hide all sprites */
-.acrobat-essentials-framed, 
-.acrobat-category-custom-training, 
-.acrobat-essentials, 
-.acrobat-pdfforms {
+.id-ipad, 
+.category-custom-training, 
+.id-dps-pkg, 
+.id-dps-pro, 
+.id-dps-single,
+.id-interactivity,
+.id-epub {
     display: none;
 }
 
 /* Push up the custom training to compensate for no image */
-.acrobat-category {
+.digital-publishing-category {
     p {
         margin-bottom: 24px;
     }

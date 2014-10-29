@@ -18,7 +18,7 @@
   /*empty comment*/
   /* Title is too long, minimise gap */
 }
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 13, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials-framed {
   background-position: 0 -466px;
   /*  
@@ -36,7 +36,7 @@
   min-width: 55px;
   min-height: 58px;
 }
-/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .custom-training-logo {
   background-position: 0 0;
   /*  
@@ -54,7 +54,7 @@
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 20, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -70,7 +70,7 @@
     background-position: 0 0%;
   }
 }
-/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 32, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials {
   background-position: 0 -570px;
   /*  
@@ -89,7 +89,7 @@
   min-width: 38px;
   min-height: 45px;
 }
-/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 41, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-lite {
   background-position: 0 -812px;
   /*  
@@ -108,7 +108,7 @@
   min-width: 38px;
   min-height: 44px;
 }
-/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 50, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-advanced {
   background-position: 0 -216px;
   /*  
@@ -127,7 +127,7 @@
   min-width: 49px;
   min-height: 48px;
 }
-/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-longdocuments {
   background-position: 0 -919px;
   /*  
@@ -147,16 +147,16 @@
   min-height: 47px;
 }
 @media screen and (min-width: 640px) and (max-width: 669px) {
-  /* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 59, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .id-longdocuments {
     margin-top: 10px;
   }
 }
-/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
@@ -175,7 +175,7 @@
   min-width: 65px;
   min-height: 56px;
 }
-/* line 88, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 86, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
@@ -194,7 +194,7 @@
   min-width: 59px;
   min-height: 48px;
 }
-/* line 97, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 95, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
@@ -214,7 +214,7 @@
   float: right;
   margin-left: 10px;
 }
-/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 104, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
@@ -232,7 +232,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 111, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
@@ -250,7 +250,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 120, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 118, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
@@ -274,7 +274,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 49, ../scss/_custom/_common.scss */
+/* line 50, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -290,7 +290,7 @@ body {
 .indesign-course {
   /*empty comment*/
 }
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials-framed {
   background-position: 0 -392px;
   /*  
@@ -308,7 +308,7 @@ body {
   min-width: 55px;
   min-height: 55px;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-classrom {
   background-position: 0 -116px;
   /*  
@@ -329,7 +329,7 @@ body {
   margin-top: 5px;
   margin-left: 12px;
 }
-/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .pdf {
   background-position: 0 -829px;
   /*  
@@ -348,7 +348,7 @@ body {
   min-height: 32px;
   top: -3px;
 }
-/* line 44, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 42, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .indesign-cc-cs6 {
   background-position: 0 -700px;
   /*  
@@ -369,7 +369,7 @@ body {
   margin-right: -15px;
   margin-top: -10px;
 }
-/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .course-custom-training-logo {
   background-position: 0 0;
   /*  
@@ -387,7 +387,7 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+  /* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
   .indesign-course .course-custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -403,7 +403,7 @@ body {
     background-position: 0 0%;
   }
 }
-/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-advanced {
   background-position: 0 -268px;
   /*  
@@ -422,7 +422,7 @@ body {
   min-width: 65px;
   min-height: 63px;
 }
-/* line 76, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 74, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .id-essentials {
   background-position: 0 -496px;
   /*  
@@ -440,7 +440,7 @@ body {
   min-width: 50px;
   min-height: 50px;
 }
-/* line 84, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 82, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .ps-ess {
   background-position: 0 -933px;
   /*  
@@ -458,7 +458,7 @@ body {
   min-width: 50px;
   min-height: 50px;
 }
-/* line 91, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+/* line 89, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-course .il-ess {
   background-position: 0 -597px;
   /*  
@@ -522,7 +522,7 @@ body {
 .photoshop-category {
   /*empty comment*/
 }
-/* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 13, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-essentials-framed {
   background-position: 0 -444px;
   /*  
@@ -540,7 +540,7 @@ body {
   min-width: 56px;
   min-height: 55px;
 }
-/* line 22, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-category-custom-training {
   background-position: 0 -328px;
   /*  
@@ -558,7 +558,7 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 22, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+  /* line 20, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
   .photoshop-category .ps-category-custom-training {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -574,7 +574,7 @@ body {
     background-position: 0 30.2583%;
   }
 }
-/* line 34, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 32, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-essentials {
   background-position: 0 -549px;
   /*  
@@ -593,7 +593,7 @@ body {
   min-width: 38px;
   min-height: 45px;
 }
-/* line 43, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 41, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-lite {
   background-position: 0 -778px;
   /*  
@@ -612,7 +612,7 @@ body {
   min-width: 38px;
   min-height: 44px;
 }
-/* line 52, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 50, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-advanced {
   background-position: 0 -204px;
   /*  
@@ -631,7 +631,7 @@ body {
   min-width: 49px;
   min-height: 48px;
 }
-/* line 61, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 59, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-web {
   background-position: 0 -1095px;
   /*  
@@ -650,7 +650,7 @@ body {
   min-width: 40px;
   min-height: 43px;
 }
-/* line 70, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 68, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-retouching {
   background-position: 0 -988px;
   /*  
@@ -669,7 +669,7 @@ body {
   min-width: 48px;
   min-height: 46px;
 }
-/* line 79, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 77, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-lr {
   background-position: 0 -885px;
   /*  
@@ -689,12 +689,12 @@ body {
   min-height: 47px;
 }
 @media (min-width: 1025px) {
-  /* line 88, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+  /* line 86, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
   .photoshop-category .training-packages-images {
     margin: 6em 0 0 1em;
   }
 }
-/* line 94, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 92, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .package-indesign-ess {
   background-position: 0 0;
   /*  
@@ -712,7 +712,7 @@ body {
   min-width: 47px;
   min-height: 45px;
 }
-/* line 101, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 99, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .package-illustrator-ess {
   background-position: 0 -101px;
   /*  
@@ -730,7 +730,7 @@ body {
   min-width: 47px;
   min-height: 45px;
 }
-/* line 108, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+/* line 106, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .package-photoshop-ess {
   background-position: 0 -549px;
   /*  
@@ -759,7 +759,7 @@ body {
 .illustrator-category {
   /*empty comment*/
 }
-/* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 13, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-essentials-framed {
   background-position: 0 -340px;
   /*  
@@ -777,7 +777,7 @@ body {
   min-width: 56px;
   min-height: 59px;
 }
-/* line 22, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .category-custom-training {
   background-position: 0 0;
   /*  
@@ -795,7 +795,7 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 22, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+  /* line 20, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
   .illustrator-category .category-custom-training {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -811,7 +811,7 @@ body {
     background-position: 0 0%;
   }
 }
-/* line 34, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 32, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-essentials {
   background-position: 0 -445px;
   /*  
@@ -830,7 +830,7 @@ body {
   min-width: 40px;
   min-height: 45px;
 }
-/* line 43, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 41, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-lite {
   background-position: 0 -548px;
   /*  
@@ -849,7 +849,7 @@ body {
   min-width: 40px;
   min-height: 44px;
 }
-/* line 52, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 50, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-advanced {
   background-position: 0 -217px;
   /*  
@@ -869,12 +869,12 @@ body {
   min-height: 48px;
 }
 @media (min-width: 1025px) {
-  /* line 61, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+  /* line 59, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
   .illustrator-category .training-packages-images {
     margin: 6em 0 0 1em;
   }
 }
-/* line 67, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 65, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .package-indesign-ess {
   background-position: 0 -116px;
   /*  
@@ -892,7 +892,7 @@ body {
   min-width: 47px;
   min-height: 45px;
 }
-/* line 74, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 72, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .package-illustrator-ess {
   background-position: 0 -445px;
   /*  
@@ -910,7 +910,7 @@ body {
   min-width: 47px;
   min-height: 45px;
 }
-/* line 81, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+/* line 79, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .package-photoshop-ess {
   background-position: 0 -655px;
   /*  
@@ -939,7 +939,7 @@ body {
 .acrobat-category {
   /*empty comment*/
 }
-/* line 15, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+/* line 13, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
 .acrobat-category .acrobat-essentials-framed {
   background-position: 0 0;
   /*  
@@ -957,7 +957,7 @@ body {
   min-width: 56px;
   min-height: 55px;
 }
-/* line 22, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
 .acrobat-category .category-custom-training {
   background-position: 0 -338px;
   /*  
@@ -975,7 +975,7 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 22, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+  /* line 20, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
   .acrobat-category .category-custom-training {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -991,7 +991,7 @@ body {
     background-position: 0 100%;
   }
 }
-/* line 34, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+/* line 32, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
 .acrobat-category .acrobat-essentials {
   background-position: 0 -106px;
   /*  
@@ -1010,7 +1010,7 @@ body {
   min-width: 38px;
   min-height: 45px;
 }
-/* line 43, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+/* line 41, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
 .acrobat-category .acrobat-pdfforms {
   background-position: 0 -210px;
   /*  
@@ -1029,6 +1029,229 @@ body {
   margin-top: -5px;
   min-width: 38px;
   min-height: 50px;
+}
+
+/* line 120, training/adobe/digital-publishing/digital-publishing-category/*.png */
+.digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .package-indesign-ess, .digital-publishing-category .package-illustrator-ess, .digital-publishing-category .package-photoshop-ess {
+  background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-s6bc122d55f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-ipad {
+  background-position: 0 -854px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 207.86517%;
+  background-position: 0 80.56604%;
+  margin-left: 9px;
+  margin-top: -5px;
+  min-width: 56px;
+  min-height: 49px;
+}
+/* line 23, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 23, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+  .digital-publishing-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 35, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-pkg {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.18421%;
+  background-size: 243.42105%;
+  background-position: 0 11.12176%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 44, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-pro {
+  background-position: 0 -250px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.43182%;
+  background-size: 210.22727%;
+  background-position: 0 23.60718%;
+  margin-left: 9px;
+  margin-top: -5px;
+  min-width: 52px;
+  min-height: 47px;
+}
+/* line 53, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-single {
+  background-position: 0 -368px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.43182%;
+  background-size: 210.22727%;
+  background-position: 0 34.74976%;
+  margin-left: 9px;
+  margin-top: -5px;
+  min-width: 52px;
+  min-height: 47px;
+}
+/* line 62, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-interactivity {
+  background-position: 0 -713px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.63303%;
+  background-size: 169.72477%;
+  background-position: 0 68.82239%;
+  margin: -12px -8px 0 5px;
+  min-width: 65px;
+  min-height: 56px;
+}
+/* line 71, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-epub {
+  background-position: 0 -486px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.51515%;
+  background-size: 280.30303%;
+  background-position: 0 46.24167%;
+  margin-left: 15px;
+  margin-top: -5px;
+  min-width: 38px;
+  min-height: 51px;
+}
+@media (min-width: 1025px) {
+  /* line 79, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+  .digital-publishing-category .training-packages-images {
+    margin: 6em 0 0 1em;
+  }
+}
+/* line 85, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .package-indesign-ess {
+  background-position: 0 -612px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.76563%;
+  background-size: 289.0625%;
+  background-position: 0 56.87732%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 92, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .package-illustrator-ess {
+  background-position: 0 -971px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 90.40968%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 99, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .package-photoshop-ess {
+  background-position: 0 -1074px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  min-width: 47px;
+  min-height: 45px;
 }
 
 /* line 64, admin/calendar/*.png */

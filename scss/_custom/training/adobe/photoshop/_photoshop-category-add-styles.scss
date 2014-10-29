@@ -10,8 +10,6 @@ $photoshop-category-spacing: 40px;
     $sprite-width: 185px;
     $sprite-height: 1160px;
 
-    $ps-essentials-framed-height: photoshop-category-sprite-height(ps-essentials-framed);
-
     .ps-essentials-framed { 
         @include photoshop-category-sprite(ps-essentials-framed); 
         @include responsive-sprite($map, ps-essentials-framed, $sprite-width, $sprite-height, 5.8%);

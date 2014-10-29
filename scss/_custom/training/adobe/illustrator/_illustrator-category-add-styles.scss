@@ -10,8 +10,6 @@ $illustrator-category-spacing: 40px;
     $sprite-width: 185px;
     $sprite-height: 718px;
 
-    $il-essentials-framed-height: illustrator-category-sprite-height(il-essentials-framed);
-
     .il-essentials-framed { 
         @include illustrator-category-sprite(il-essentials-framed); 
         @include responsive-sprite($map, il-essentials-framed, $sprite-width, $sprite-height, 5.8%);

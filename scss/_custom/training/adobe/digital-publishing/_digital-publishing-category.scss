@@ -1,0 +1,19 @@
+@import "../../../components/training/category";
+ 
+.digital-publishing-category {
+    @include category($digital-publishing-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 440px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 377px;
+        }
+    } 
+} 

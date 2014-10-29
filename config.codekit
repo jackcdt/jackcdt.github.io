@@ -42,6 +42,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/adobe-acrobat-courses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/adobe-acrobat-courses.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/adobe-illustrator-courses.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3718,6 +3727,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/digital-publishing-courses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/digital-publishing-courses.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4990,6 +5008,127 @@
 		"initialSize": 7946,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category\/category-custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category\/category-custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pkg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3876,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pkg.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pkg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4183,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pro.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-single.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4238,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-single.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-dps-single.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-epub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4436,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-epub.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-epub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2938,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-interactivity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4211,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-interactivity.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-interactivity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3573,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-ipad.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2829,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2729,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6324,6 +6463,70 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/adobe\/acrobat\/_acrobat-category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/acrobat\/_acrobat-category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_acrobat-category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_digital-publishing-category-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_digital-publishing-category-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/digital-publishing\/_digital-publishing-category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_digital-publishing-category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-category-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6988,6 +7191,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/stylesheets\/app.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/app.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/ie.css": {
 		"fileType": 16,
