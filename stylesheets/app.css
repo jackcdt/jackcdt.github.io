@@ -17377,18 +17377,22 @@ body {
 @media only screen and (min-width: 40.063em) {
   /* line 8, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category.scss */
   .dreamweaver-category .tight-header-1 {
-    width: 440px;
+    width: 352px;
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 14, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category.scss */
   .dreamweaver-category .tight-header-2 {
-    width: 306px;
+    width: 342px;
   }
 }
 /* line 22, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category.scss */
 .dreamweaver-category .training-checklist table thead, .dreamweaver-category .training-checklist table tr.even, .dreamweaver-category .training-checklist table tr.alt, .dreamweaver-category .training-checklist table tr:nth-of-type(even) {
   background: #e6f7d4;
+}
+/* line 28, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category.scss */
+.dreamweaver-category .side-pannel {
+  top: -1em;
 }
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */

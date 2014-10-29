@@ -50,19 +50,17 @@ $dreamweaver-category-spacing: 40px;
     .dw-dynamic {
         @include dreamweaver-category-sprite(dw-dynamic); 
         @include responsive-sprite($map, dw-dynamic, $sprite-width, $sprite-height, 5.8%);
-        margin: -7px 0 0 2px;
-
-        min-width: 49px;
-        min-height: 48px;    
+        margin: -2px 0 0 15px;
+        min-width: 47px;
+        min-height: 47px;    
     } 
 
     .html-ess {
         @include dreamweaver-category-sprite(html-ess); 
         @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
-        margin: -7px 0 0 2px;
-
-        min-width: 49px;
-        min-height: 48px;    
+        margin: 2px 0 0 15px;
+        min-width: 37px;
+        min-height: 38px;
     } 
 
     .html5-package {        

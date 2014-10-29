@@ -1525,11 +1525,11 @@ body {
   padding-bottom: 5.15556%;
   background-size: 228.39506%;
   background-position: 0 34.23545%;
-  margin: -7px 0 0 2px;
-  min-width: 49px;
-  min-height: 48px;
+  margin: -2px 0 0 15px;
+  min-width: 47px;
+  min-height: 47px;
 }
-/* line 59, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html-ess {
   background-position: 0 -676px;
   /*  
@@ -1544,11 +1544,11 @@ body {
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
   background-position: 0 90.61662%;
-  margin: -7px 0 0 2px;
-  min-width: 49px;
-  min-height: 48px;
+  margin: 2px 0 0 15px;
+  min-width: 37px;
+  min-height: 38px;
 }
-/* line 68, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html5-package {
   background-position: 0 -781px;
   /*  
@@ -1567,7 +1567,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 76, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -1586,7 +1586,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 84, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 82, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .css3-package {
   background-position: 0 0;
   /*  
