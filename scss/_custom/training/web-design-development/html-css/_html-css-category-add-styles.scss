@@ -1,0 +1,58 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$html-css-category-spacing: 40px; 
+
+@import "training/web-design-development/html-css/html-css-category/*.png"; 
+.html-css-category {
+    $map: sprite-map("training/web-design-development/html-css/html-css-category/*.png", $spacing: $html-css-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 521px;
+
+    .html-ess { 
+        @include html-css-category-sprite(html-ess); 
+        @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include html-css-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .html5css {
+        @include html-css-category-sprite(html5css); 
+        @include responsive-sprite($map, html5css, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .htmlnews {
+        @include html-css-category-sprite(htmlnews); 
+        @include responsive-sprite($map, htmlnews, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .html-css {
+        @include html-css-category-sprite(html-css); 
+        @include responsive-sprite($map, html-css, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    } 
+} 

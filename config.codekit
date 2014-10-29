@@ -3736,6 +3736,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/html-courses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html-courses.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5012,13 +5021,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png": {
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s1edf5684a6.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s6bc122d55f.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s1edf5684a6.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-s1edf5684a6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5030,6 +5039,28 @@
 		"initialSize": 7954,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/dps-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1161,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/dps-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/dps-package.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/eg-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3397,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/eg-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/eg-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5078,17 +5109,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2938,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-interactivity.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5107,28 +5127,6 @@
 		"initialSize": 3573,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-ipad.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/id-ipad.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2829,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/il-ess.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2729,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category\/ps-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5591,6 +5589,72 @@
 		"initialSize": 3105,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-web.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34542,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/html-css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3097,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-css.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/html5css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18974,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5css.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/htmlnews.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3220,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/htmlnews.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/htmlnews.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6791,6 +6855,54 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_html-css-category-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_html-css-category-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_html-css-category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/_settings.scss": {
 		"createSourceMap": 0,

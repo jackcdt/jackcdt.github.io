@@ -617,7 +617,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 49, ../scss/_custom/_common.scss */
+/* line 50, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -672,7 +672,7 @@ body {
   color: #FFF;
   text-align: center;
   font-weight: 700;
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 51, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
@@ -762,6 +762,70 @@ body {
 }
 /* line 19, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
 .illustrator-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
+.acrobat-essentials-framed,
+.acrobat-category-custom-training,
+.acrobat-essentials,
+.acrobat-pdfforms {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 11, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
+.acrobat-category p {
+  margin-bottom: 24px;
+}
+/* line 15, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
+.acrobat-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-old-ie-styles.scss */
+.id-ipad,
+.category-custom-training,
+.id-dps-pkg,
+.id-dps-pro,
+.id-dps-single,
+.id-interactivity,
+.id-epub {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 14, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-old-ie-styles.scss */
+.digital-publishing-category p {
+  margin-bottom: 24px;
+}
+/* line 18, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-old-ie-styles.scss */
+.digital-publishing-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Hide all sprites */
+/* line 2, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
+.html-css,
+.html-ess,
+.html5css,
+.htmlnews,
+.custom-training {
+  display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
+.html-css-category p {
+  margin-bottom: 24px;
+}
+/* line 16, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
+.html-css-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
 }

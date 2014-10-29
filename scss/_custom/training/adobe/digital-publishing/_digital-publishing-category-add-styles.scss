@@ -1,14 +1,14 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
- 
+  
 // Required for correct operation, must be named same as the sprite
 $digital-publishing-category-spacing: 40px; 
 
 @import "training/adobe/digital-publishing/digital-publishing-category/*.png"; 
-.digital-publishing-category {
+.digital-publishing-category { 
     $map: sprite-map("training/adobe/digital-publishing/digital-publishing-category/*.png", $spacing: $digital-publishing-category-spacing); /*empty comment*/ 
     $sprite-width: 185px;
-    $sprite-height: 1137px;
+    $sprite-height: 993px;
 
     .id-ipad { 
         @include digital-publishing-category-sprite(id-ipad); 
@@ -70,36 +70,26 @@ $digital-publishing-category-spacing: 40px;
 
     .id-epub {
         @include digital-publishing-category-sprite(id-epub); 
-        @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 5%);margin-left: 15px;
+        @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
         margin-top: -5px;
         min-width: 38px;
         min-height: 51px;
     }
 
-    .training-packages-images {
-        @media (min-width: 1025px) {
-            margin: 6em 0 0 1em;
-        }           
+    .dps-package {
+        @include digital-publishing-category-sprite(dps-package); 
+        @include responsive-sprite($map, dps-package, $sprite-width, $sprite-height, 5%);
+        margin: -4px 15px 12px 15px;
+        min-width: 38px;
+        min-height: 38px;
     }
 
-    .package-indesign-ess {
-        @include digital-publishing-category-sprite(id-essentials); 
-        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
-        min-width: 47px;
-        min-height: 45px;    
-    }
-
-    .package-illustrator-ess {
-        @include digital-publishing-category-sprite(il-ess); 
-        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5%);
-        min-width: 47px;
-        min-height: 45px;    
-    }
-
-    .package-photoshop-ess {
-        @include digital-publishing-category-sprite(ps-ess); 
-        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5%);
-        min-width: 47px;
-        min-height: 45px;    
+    .eg-essentials {
+        @include digital-publishing-category-sprite(eg-essentials); 
+        @include responsive-sprite($map, eg-essentials, $sprite-width, $sprite-height, 5%);
+        margin: -4px 15px 12px 15px;
+        min-width: 38px;
+        min-height: 38px;
     }
 } 

@@ -1031,9 +1031,9 @@ body {
   min-height: 50px;
 }
 
-/* line 120, training/adobe/digital-publishing/digital-publishing-category/*.png */
-.digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .package-indesign-ess, .digital-publishing-category .package-illustrator-ess, .digital-publishing-category .package-photoshop-ess {
-  background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-s6bc122d55f.png');
+/* line 112, training/adobe/digital-publishing/digital-publishing-category/*.png */
+.digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .dps-package, .digital-publishing-category .eg-essentials {
+  background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-sa4038a2480.png');
   background-repeat: no-repeat;
 }
 
@@ -1043,7 +1043,7 @@ body {
 }
 /* line 13, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-ipad {
-  background-position: 0 -854px;
+  background-position: 0 -916px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1055,7 +1055,7 @@ body {
   height: 0;
   padding-bottom: 5.01798%;
   background-size: 207.86517%;
-  background-position: 0 80.56604%;
+  background-position: 0 100%;
   margin-left: 5px;
   margin-top: -5px;
   min-width: 56px;
@@ -1097,7 +1097,7 @@ body {
 }
 /* line 35, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-dps-pkg {
-  background-position: 0 -116px;
+  background-position: 0 -279px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1109,14 +1109,14 @@ body {
   height: 0;
   padding-bottom: 6.18421%;
   background-size: 243.42105%;
-  background-position: 0 11.12176%;
+  background-position: 0 31.03448%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px;
 }
 /* line 44, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-dps-pro {
-  background-position: 0 -250px;
+  background-position: 0 -413px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1128,7 +1128,7 @@ body {
   height: 0;
   padding-bottom: 4.43182%;
   background-size: 210.22727%;
-  background-position: 0 23.60718%;
+  background-position: 0 45.13661%;
   margin-left: 9px;
   margin-top: -5px;
   min-width: 52px;
@@ -1136,7 +1136,7 @@ body {
 }
 /* line 53, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-dps-single {
-  background-position: 0 -368px;
+  background-position: 0 -531px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1148,7 +1148,7 @@ body {
   height: 0;
   padding-bottom: 4.43182%;
   background-size: 210.22727%;
-  background-position: 0 34.74976%;
+  background-position: 0 58.03279%;
   margin-left: 9px;
   margin-top: -5px;
   min-width: 52px;
@@ -1156,7 +1156,7 @@ body {
 }
 /* line 62, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-interactivity {
-  background-position: 0 -713px;
+  background-position: 0 -775px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1168,14 +1168,14 @@ body {
   height: 0;
   padding-bottom: 4.63303%;
   background-size: 169.72477%;
-  background-position: 0 68.82239%;
+  background-position: 0 86.88341%;
   margin: -12px -8px 0 5px;
   min-width: 65px;
   min-height: 56px;
 }
 /* line 71, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
 .digital-publishing-category .id-epub {
-  background-position: 0 -486px;
+  background-position: 0 -649px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1187,21 +1187,116 @@ body {
   height: 0;
   padding-bottom: 6.51515%;
   background-size: 280.30303%;
-  background-position: 0 46.24167%;
+  background-position: 0 71.55458%;
   margin-left: 15px;
   margin-top: -5px;
   min-width: 38px;
   min-height: 51px;
 }
-@media (min-width: 1025px) {
-  /* line 79, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
-  .digital-publishing-category .training-packages-images {
-    margin: 6em 0 0 1em;
+/* line 80, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .dps-package {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.82143%;
+  background-size: 660.71429%;
+  background-position: 0 12.00828%;
+  margin: -4px 15px 12px 15px;
+  min-width: 38px;
+  min-height: 38px;
+}
+/* line 88, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .eg-essentials {
+  background-position: 0 -183px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.91228%;
+  background-size: 324.5614%;
+  background-position: 0 19.53042%;
+  margin: -4px 15px 12px 15px;
+  min-width: 38px;
+  min-height: 38px;
+}
+
+/* line 80, training/web-design-development/html-css/html-css-category/*.png */
+.html-css-category-sprite, .html-css-category .html-ess, .html-css-category .category-custom-training, .html-css-category .html5css, .html-css-category .htmlnews, .html-css-category .html-css {
+  background-image: url('../images/training/web-design-development/html-css/html-css-category-s4672a39083.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html-ess {
+  background-position: 0 -217px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 47.58772%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+  .html-css-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
   }
 }
-/* line 85, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
-.digital-publishing-category .package-indesign-ess {
-  background-position: 0 -612px;
+/* line 32, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html5css {
+  background-position: 0 -322px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1211,47 +1306,50 @@ body {
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 4.76563%;
+  padding-bottom: 4.74684%;
+  background-size: 234.17722%;
+  background-position: 0 72.19731%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .htmlnews {
+  background-position: 0 -437px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.5625%;
   background-size: 289.0625%;
-  background-position: 0 56.87732%;
-  min-width: 47px;
-  min-height: 45px;
-}
-/* line 92, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
-.digital-publishing-category .package-illustrator-ess {
-  background-position: 0 -971px;
-  /*  
-      // Calculate sprite map dimentions - currently not working due to path issues  
-      $sprite-file: sprite-path($map);
-      $sprite-width: image-width($sprite-file);
-      $sprite-height: image-height($sprite-file);
-  */
-  width: 5%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.84615%;
-  background-size: 284.61538%;
-  background-position: 0 90.40968%;
-  min-width: 47px;
-  min-height: 45px;
-}
-/* line 99, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
-.digital-publishing-category .package-photoshop-ess {
-  background-position: 0 -1074px;
-  /*  
-      // Calculate sprite map dimentions - currently not working due to path issues  
-      $sprite-file: sprite-path($map);
-      $sprite-width: image-width($sprite-file);
-      $sprite-height: image-height($sprite-file);
-  */
-  width: 5%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.84615%;
-  background-size: 284.61538%;
   background-position: 0 100%;
-  min-width: 47px;
-  min-height: 45px;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+/* line 50, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html-css {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 284.61538%;
+  background-position: 0 25.21739%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
 }
 
 /* line 64, admin/calendar/*.png */

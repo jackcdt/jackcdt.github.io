@@ -1,0 +1,20 @@
+/* Hide all sprites */
+.html-css, 
+.html-ess, 
+.html5css, 
+.htmlnews, 
+.custom-training {
+    display: none;
+}
+
+/* Push up the custom training to compensate for no image */
+.html-css-category {
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}
