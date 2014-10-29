@@ -27,5 +27,9 @@
 
     .side-pannel {
         top: -1em;
+
+        @media #{$large-up} {
+            top: 0; 
+        }
     }
 } 

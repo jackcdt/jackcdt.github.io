@@ -14,7 +14,7 @@ $dreamweaver-category-spacing: 40px;
         @include dreamweaver-category-sprite(dw-essentials-framed); 
         @include responsive-sprite($map, dw-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 56px;
-        min-height: 55px;
+        min-height: 58px;
     } 
 
     .category-custom-training {

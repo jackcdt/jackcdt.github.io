@@ -17431,6 +17431,12 @@ body {
 .dreamweaver-category .side-pannel {
   top: -1em;
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 28, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category.scss */
+  .dreamweaver-category .side-pannel {
+    top: 0;
+  }
+}
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {
