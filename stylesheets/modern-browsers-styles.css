@@ -1257,10 +1257,11 @@ body {
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
   background-position: 0 47.58772%;
-  min-width: 56px;
-  min-height: 55px;
+  margin-left: 15px;
+  min-width: 44px;
+  min-height: 47px;
 }
-/* line 20, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 21, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .category-custom-training {
   background-position: 0 0;
   /*  
@@ -1278,7 +1279,7 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 20, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+  /* line 21, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
   .html-css-category .category-custom-training {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -1294,7 +1295,7 @@ body {
     background-position: 0 0%;
   }
 }
-/* line 32, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 33, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .html5css {
   background-position: 0 -322px;
   /*  
@@ -1310,10 +1311,10 @@ body {
   background-size: 234.17722%;
   background-position: 0 72.19731%;
   margin-left: 15px;
-  min-width: 38px;
+  min-width: 48px;
   min-height: 45px;
 }
-/* line 41, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .htmlnews {
   background-position: 0 -437px;
   /*  
@@ -1329,10 +1330,10 @@ body {
   background-size: 289.0625%;
   background-position: 0 100%;
   margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px;
+  min-width: 42px;
+  min-height: 57px;
 }
-/* line 50, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 51, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .html-css {
   background-position: 0 -116px;
   /*  
@@ -1347,8 +1348,8 @@ body {
   padding-bottom: 5.44308%;
   background-size: 284.61538%;
   background-position: 0 25.21739%;
-  margin: -7px 0 0 2px;
-  min-width: 49px;
+  margin-left: 15px;
+  min-width: 45px;
   min-height: 48px;
 }
 

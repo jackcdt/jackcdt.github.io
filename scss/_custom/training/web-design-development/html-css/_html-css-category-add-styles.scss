@@ -13,8 +13,9 @@ $html-css-category-spacing: 40px;
     .html-ess { 
         @include html-css-category-sprite(html-ess); 
         @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
-        min-width: 56px;
-        min-height: 55px;
+        margin-left: 15px;
+        min-width: 44px;
+        min-height: 47px;
     } 
 
     .category-custom-training {
@@ -34,7 +35,7 @@ $html-css-category-spacing: 40px;
         @include responsive-sprite($map, html5css, $sprite-width, $sprite-height, 5%);
         margin-left: 15px;
 
-        min-width: 38px;
+        min-width: 48px;
         min-height: 45px;    
     }
 
@@ -43,16 +44,16 @@ $html-css-category-spacing: 40px;
         @include responsive-sprite($map, htmlnews, $sprite-width, $sprite-height, 5%);
         margin-left: 15px;
 
-        min-width: 38px;
-        min-height: 44px;    
+        min-width: 42px;
+        min-height: 57px;    
     }
 
     .html-css {
         @include html-css-category-sprite(html-css); 
         @include responsive-sprite($map, html-css, $sprite-width, $sprite-height, 5.8%);
-        margin: -7px 0 0 2px;
+        margin-left: 15px;
 
-        min-width: 49px;
+        min-width: 45px;
         min-height: 48px;    
     } 
 } 
