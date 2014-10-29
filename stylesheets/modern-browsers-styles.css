@@ -274,7 +274,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 51, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -1230,6 +1230,130 @@ body {
   margin: -4px 15px 12px 15px;
   min-width: 38px;
   min-height: 38px;
+}
+
+/* line 80, training/adobe/flash/flash-category/*.png */
+.flash-category-sprite, .flash-category .fl-essentials-framed, .flash-category .category-custom-training, .flash-category .fl-essentials, .flash-category .fl-actionscript, .flash-category .fl-banners {
+  background-image: url('../images/training/adobe/flash/flash-category-s66d4c3c7ab.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-essentials-framed {
+  background-position: 0 -322px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71212%;
+  background-size: 280.30303%;
+  background-position: 0 75.76471%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+  .flash-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 32, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-essentials {
+  background-position: 0 -427px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92188%;
+  background-size: 289.0625%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-actionscript {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.35106%;
+  background-size: 196.80851%;
+  background-position: 0 27.16628%;
+  margin-left: 5px;
+  min-width: 60px;
+  min-height: 47px;
+}
+/* line 49, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-actionscript-title {
+  margin-top: -6px;
+}
+/* line 53, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-banners {
+  background-position: 0 -219px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.84632%;
+  background-size: 194.73684%;
+  background-position: 0 51.28806%;
+  margin: -7px 0 0 2px;
+  min-width: 56px;
+  min-height: 57px;
 }
 
 /* line 104, training/web-design-development/html-css/html-css-category/*.png */

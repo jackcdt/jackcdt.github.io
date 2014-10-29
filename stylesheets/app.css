@@ -10734,13 +10734,14 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 51, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
 .nopadding, .indesign-category .course-item .course-item-info,
 .indesign-category .course-item .course-book-now, .photoshop-category .course-item .course-item-info,
 .photoshop-category .course-item .course-book-now, .illustrator-category .course-item .course-item-info,
 .illustrator-category .course-item .course-book-now, .acrobat-category .course-item .course-item-info,
 .acrobat-category .course-item .course-book-now, .digital-publishing-category .course-item .course-item-info,
-.digital-publishing-category .course-item .course-book-now, .html-css-category .course-item .course-item-info,
+.digital-publishing-category .course-item .course-book-now, .flash-category .course-item .course-item-info,
+.flash-category .course-item .course-book-now, .html-css-category .course-item .course-item-info,
 .html-css-category .course-item .course-book-now, .dreamweaver-category .course-item .course-item-info,
 .dreamweaver-category .course-item .course-book-now {
   padding-left: 0;
@@ -10760,13 +10761,13 @@ html {
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .part-time-options, .photoshop-category .part-time-options, .illustrator-category .part-time-options, .acrobat-category .part-time-options, .digital-publishing-category .part-time-options, .html-css-category .part-time-options, .dreamweaver-category .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
+.indesign-category .part-time-options, .photoshop-category .part-time-options, .illustrator-category .part-time-options, .acrobat-category .part-time-options, .digital-publishing-category .part-time-options, .flash-category .part-time-options, .html-css-category .part-time-options, .dreamweaver-category .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by {
   font-weight: 700;
 }
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
-.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .illustrator-category .seminars-ad .read-more-btn, .illustrator-category .read-more-btn, .acrobat-category .seminars-ad .read-more-btn, .acrobat-category .read-more-btn, .digital-publishing-category .seminars-ad .read-more-btn, .digital-publishing-category .read-more-btn, .html-css-category .seminars-ad .read-more-btn, .html-css-category .read-more-btn, .dreamweaver-category .seminars-ad .read-more-btn, .dreamweaver-category .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
-.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .photoshop-category strong, .photoshop-category .course-item .course-item-fee, .photoshop-category .testimonials .category-testimonial span, .illustrator-category strong, .illustrator-category .course-item .course-item-fee, .illustrator-category .testimonials .category-testimonial span, .acrobat-category strong, .acrobat-category .course-item .course-item-fee, .acrobat-category .testimonials .category-testimonial span, .digital-publishing-category strong, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .testimonials .category-testimonial span, .html-css-category strong, .html-css-category .course-item .course-item-fee, .html-css-category .testimonials .category-testimonial span, .dreamweaver-category strong, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span {
+.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .illustrator-category .seminars-ad .read-more-btn, .illustrator-category .read-more-btn, .acrobat-category .seminars-ad .read-more-btn, .acrobat-category .read-more-btn, .digital-publishing-category .seminars-ad .read-more-btn, .digital-publishing-category .read-more-btn, .flash-category .seminars-ad .read-more-btn, .flash-category .read-more-btn, .html-css-category .seminars-ad .read-more-btn, .html-css-category .read-more-btn, .dreamweaver-category .seminars-ad .read-more-btn, .dreamweaver-category .read-more-btn, .indesign-category strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-course strong, .indesign-course .overview-list .item-course-specific,
+.indesign-course .overview-list .course-specific, .indesign-course .download-text, .indesign-course .testimonials .category-testimonial span, .photoshop-category strong, .photoshop-category .course-item .course-item-fee, .photoshop-category .testimonials .category-testimonial span, .illustrator-category strong, .illustrator-category .course-item .course-item-fee, .illustrator-category .testimonials .category-testimonial span, .acrobat-category strong, .acrobat-category .course-item .course-item-fee, .acrobat-category .testimonials .category-testimonial span, .digital-publishing-category strong, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .testimonials .category-testimonial span, .flash-category strong, .flash-category .course-item .course-item-fee, .flash-category .testimonials .category-testimonial span, .html-css-category strong, .html-css-category .course-item .course-item-fee, .html-css-category .testimonials .category-testimonial span, .dreamweaver-category strong, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span {
   font-weight: 600;
 }
 
@@ -10776,19 +10777,20 @@ html {
 .photoshop-category .course-item .course-book-now, .photoshop-category .training-checklist th, .photoshop-category .training-checklist .training-checklist-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial-client-name, .photoshop-category .testimonials .category-testimonial-course-name, .photoshop-category .paragraph-header, .illustrator-category .banner-row .banner-text .banner-sub-header, .illustrator-category .sw-ver, .illustrator-category .course-item .course-item-info,
 .illustrator-category .course-item .course-book-now, .illustrator-category .training-checklist th, .illustrator-category .training-checklist .training-checklist-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial-client-name, .illustrator-category .testimonials .category-testimonial-course-name, .illustrator-category .paragraph-header, .acrobat-category .banner-row .banner-text .banner-sub-header, .acrobat-category .sw-ver, .acrobat-category .course-item .course-item-info,
 .acrobat-category .course-item .course-book-now, .acrobat-category .training-checklist th, .acrobat-category .training-checklist .training-checklist-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial-client-name, .acrobat-category .testimonials .category-testimonial-course-name, .acrobat-category .paragraph-header, .digital-publishing-category .banner-row .banner-text .banner-sub-header, .digital-publishing-category .sw-ver, .digital-publishing-category .course-item .course-item-info,
-.digital-publishing-category .course-item .course-book-now, .digital-publishing-category .training-checklist th, .digital-publishing-category .training-checklist .training-checklist-header, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial-client-name, .digital-publishing-category .testimonials .category-testimonial-course-name, .digital-publishing-category .paragraph-header, .html-css-category .banner-row .banner-text .banner-sub-header, .html-css-category .sw-ver, .html-css-category .course-item .course-item-info,
+.digital-publishing-category .course-item .course-book-now, .digital-publishing-category .training-checklist th, .digital-publishing-category .training-checklist .training-checklist-header, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial-client-name, .digital-publishing-category .testimonials .category-testimonial-course-name, .digital-publishing-category .paragraph-header, .flash-category .banner-row .banner-text .banner-sub-header, .flash-category .sw-ver, .flash-category .course-item .course-item-info,
+.flash-category .course-item .course-book-now, .flash-category .training-checklist th, .flash-category .training-checklist .training-checklist-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial-client-name, .flash-category .testimonials .category-testimonial-course-name, .flash-category .paragraph-header, .html-css-category .banner-row .banner-text .banner-sub-header, .html-css-category .sw-ver, .html-css-category .course-item .course-item-info,
 .html-css-category .course-item .course-book-now, .html-css-category .training-checklist th, .html-css-category .training-checklist .training-checklist-header, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial-client-name, .html-css-category .testimonials .category-testimonial-course-name, .html-css-category .paragraph-header, .dreamweaver-category .banner-row .banner-text .banner-sub-header, .dreamweaver-category .sw-ver, .dreamweaver-category .course-item .course-item-info,
 .dreamweaver-category .course-item .course-book-now, .dreamweaver-category .training-checklist th, .dreamweaver-category .training-checklist .training-checklist-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial-client-name, .dreamweaver-category .testimonials .category-testimonial-course-name, .dreamweaver-category .paragraph-header, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial-client-name, .faq .testimonials .category-testimonial-course-name {
   font-weight: 500;
 }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .indesign-category .banner-row .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-category .course-item .big, .indesign-course .banner-row .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .photoshop-category .banner-row .banner-text .banner-header, .photoshop-category .category-description-section p, .photoshop-category .course-item .course-item-title h3, .photoshop-category .course-item .big, .illustrator-category .banner-row .banner-text .banner-header, .illustrator-category .category-description-section p, .illustrator-category .course-item .course-item-title h3, .illustrator-category .course-item .big, .acrobat-category .banner-row .banner-text .banner-header, .acrobat-category .category-description-section p, .acrobat-category .course-item .course-item-title h3, .acrobat-category .course-item .big, .digital-publishing-category .banner-row .banner-text .banner-header, .digital-publishing-category .category-description-section p, .digital-publishing-category .course-item .course-item-title h3, .digital-publishing-category .course-item .big, .html-css-category .banner-row .banner-text .banner-header, .html-css-category .category-description-section p, .html-css-category .course-item .course-item-title h3, .html-css-category .course-item .big, .dreamweaver-category .banner-row .banner-text .banner-header, .dreamweaver-category .category-description-section p, .dreamweaver-category .course-item .course-item-title h3, .dreamweaver-category .course-item .big, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
+.header-logos .training-text, .indesign-category .banner-row .banner-text .banner-header, .indesign-category .category-description-section p, .indesign-category .course-item .course-item-title h3, .indesign-category .course-item .big, .indesign-course .banner-row .banner-text .banner-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-price, .indesign-course .download-text span, .photoshop-category .banner-row .banner-text .banner-header, .photoshop-category .category-description-section p, .photoshop-category .course-item .course-item-title h3, .photoshop-category .course-item .big, .illustrator-category .banner-row .banner-text .banner-header, .illustrator-category .category-description-section p, .illustrator-category .course-item .course-item-title h3, .illustrator-category .course-item .big, .acrobat-category .banner-row .banner-text .banner-header, .acrobat-category .category-description-section p, .acrobat-category .course-item .course-item-title h3, .acrobat-category .course-item .big, .digital-publishing-category .banner-row .banner-text .banner-header, .digital-publishing-category .category-description-section p, .digital-publishing-category .course-item .course-item-title h3, .digital-publishing-category .course-item .big, .flash-category .banner-row .banner-text .banner-header, .flash-category .category-description-section p, .flash-category .course-item .course-item-title h3, .flash-category .course-item .big, .html-css-category .banner-row .banner-text .banner-header, .html-css-category .category-description-section p, .html-css-category .course-item .course-item-title h3, .html-css-category .course-item .big, .dreamweaver-category .banner-row .banner-text .banner-header, .dreamweaver-category .category-description-section p, .dreamweaver-category .course-item .course-item-title h3, .dreamweaver-category .course-item .big, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content {
   font-weight: 400;
 }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .tight-header, .photoshop-category .tight-header-1, .photoshop-category .tight-header-2, .photoshop-category .tight-header-3, .photoshop-category .seminars-ad .seminars-ad-title, .photoshop-category .and, .illustrator-category .tight-header, .illustrator-category .tight-header-1, .illustrator-category .tight-header-2, .illustrator-category .tight-header-3, .illustrator-category .seminars-ad .seminars-ad-title, .illustrator-category .and, .acrobat-category .tight-header, .acrobat-category .tight-header-1, .acrobat-category .tight-header-2, .acrobat-category .tight-header-3, .acrobat-category .seminars-ad .seminars-ad-title, .acrobat-category .and, .digital-publishing-category .tight-header, .digital-publishing-category .tight-header-1, .digital-publishing-category .tight-header-2, .digital-publishing-category .tight-header-3, .digital-publishing-category .seminars-ad .seminars-ad-title, .digital-publishing-category .and, .html-css-category .tight-header, .html-css-category .tight-header-1, .html-css-category .tight-header-2, .html-css-category .tight-header-3, .html-css-category .seminars-ad .seminars-ad-title, .html-css-category .and, .dreamweaver-category .tight-header, .dreamweaver-category .tight-header-1, .dreamweaver-category .tight-header-2, .dreamweaver-category .tight-header-3, .dreamweaver-category .seminars-ad .seminars-ad-title, .dreamweaver-category .and, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-category .tight-header, .indesign-category .tight-header-1, .indesign-category .tight-header-2, .indesign-category .tight-header-3, .indesign-category .seminars-ad .seminars-ad-title, .indesign-category .and, .indesign-course .course-header, .indesign-course .course-header-2, .indesign-course .and, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .tight-header, .photoshop-category .tight-header-1, .photoshop-category .tight-header-2, .photoshop-category .tight-header-3, .photoshop-category .seminars-ad .seminars-ad-title, .photoshop-category .and, .illustrator-category .tight-header, .illustrator-category .tight-header-1, .illustrator-category .tight-header-2, .illustrator-category .tight-header-3, .illustrator-category .seminars-ad .seminars-ad-title, .illustrator-category .and, .acrobat-category .tight-header, .acrobat-category .tight-header-1, .acrobat-category .tight-header-2, .acrobat-category .tight-header-3, .acrobat-category .seminars-ad .seminars-ad-title, .acrobat-category .and, .digital-publishing-category .tight-header, .digital-publishing-category .tight-header-1, .digital-publishing-category .tight-header-2, .digital-publishing-category .tight-header-3, .digital-publishing-category .seminars-ad .seminars-ad-title, .digital-publishing-category .and, .flash-category .tight-header, .flash-category .tight-header-1, .flash-category .tight-header-2, .flash-category .tight-header-3, .flash-category .seminars-ad .seminars-ad-title, .flash-category .and, .html-css-category .tight-header, .html-css-category .tight-header-1, .html-css-category .tight-header-2, .html-css-category .tight-header-3, .html-css-category .seminars-ad .seminars-ad-title, .html-css-category .and, .dreamweaver-category .tight-header, .dreamweaver-category .tight-header-1, .dreamweaver-category .tight-header-2, .dreamweaver-category .tight-header-3, .dreamweaver-category .seminars-ad .seminars-ad-title, .dreamweaver-category .and, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
 .faq .about-courses,
 .faq .course-benefits,
 .faq .organise-course,
@@ -10799,35 +10801,35 @@ html {
 }
 
 /* line 48, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li, .indesign-category .course-item .course-item-title h3 span, .indesign-category .seminars-ad .seminars-ad-content, .indesign-course .course-header-1, .indesign-course .seminars-ad .seminars-ad-content, .photoshop-category .course-item .course-item-title h3 span, .photoshop-category .seminars-ad .seminars-ad-content, .illustrator-category .course-item .course-item-title h3 span, .illustrator-category .seminars-ad .seminars-ad-content, .acrobat-category .course-item .course-item-title h3 span, .acrobat-category .seminars-ad .seminars-ad-content, .digital-publishing-category .course-item .course-item-title h3 span, .digital-publishing-category .seminars-ad .seminars-ad-content, .html-css-category .course-item .course-item-title h3 span, .html-css-category .seminars-ad .seminars-ad-content, .dreamweaver-category .course-item .course-item-title h3 span, .dreamweaver-category .seminars-ad .seminars-ad-content, .cdt-calendar h1, .cdt-wtwu h1, .faq h1 {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li, .indesign-category .course-item .course-item-title h3 span, .indesign-category .seminars-ad .seminars-ad-content, .indesign-course .course-header-1, .indesign-course .seminars-ad .seminars-ad-content, .photoshop-category .course-item .course-item-title h3 span, .photoshop-category .seminars-ad .seminars-ad-content, .illustrator-category .course-item .course-item-title h3 span, .illustrator-category .seminars-ad .seminars-ad-content, .acrobat-category .course-item .course-item-title h3 span, .acrobat-category .seminars-ad .seminars-ad-content, .digital-publishing-category .course-item .course-item-title h3 span, .digital-publishing-category .seminars-ad .seminars-ad-content, .flash-category .course-item .course-item-title h3 span, .flash-category .seminars-ad .seminars-ad-content, .html-css-category .course-item .course-item-title h3 span, .html-css-category .seminars-ad .seminars-ad-content, .dreamweaver-category .course-item .course-item-title h3 span, .dreamweaver-category .seminars-ad .seminars-ad-content, .cdt-calendar h1, .cdt-wtwu h1, .faq h1 {
   font-weight: 200;
 }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.indesign-category .training-checklist i, .photoshop-category .training-checklist i, .illustrator-category .training-checklist i, .acrobat-category .training-checklist i, .digital-publishing-category .training-checklist i, .html-css-category .training-checklist i, .dreamweaver-category .training-checklist i, .cdt-calendar .training-checklist i {
+.indesign-category .training-checklist i, .photoshop-category .training-checklist i, .illustrator-category .training-checklist i, .acrobat-category .training-checklist i, .digital-publishing-category .training-checklist i, .flash-category .training-checklist i, .html-css-category .training-checklist i, .dreamweaver-category .training-checklist i, .cdt-calendar .training-checklist i {
   font-weight: 100;
 }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
-.custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .part-time-options, .indesign-course .overview-list .course-specific, .indesign-course .overview-list .overview-list-data span, .indesign-course .course-outline-block ul li, .indesign-course .course-dates .date, .photoshop-category .course-item .course-item-description, .photoshop-category .course-item .course-item-fee, .photoshop-category .training-checklist .note, .photoshop-category .training-checklist .foot-note, .photoshop-category .part-time-options, .illustrator-category .course-item .course-item-description, .illustrator-category .course-item .course-item-fee, .illustrator-category .training-checklist .note, .illustrator-category .training-checklist .foot-note, .illustrator-category .part-time-options, .acrobat-category .course-item .course-item-description, .acrobat-category .course-item .course-item-fee, .acrobat-category .training-checklist .note, .acrobat-category .training-checklist .foot-note, .acrobat-category .part-time-options, .digital-publishing-category .course-item .course-item-description, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .training-checklist .note, .digital-publishing-category .training-checklist .foot-note, .digital-publishing-category .part-time-options, .html-css-category .course-item .course-item-description, .html-css-category .course-item .course-item-fee, .html-css-category .training-checklist .note, .html-css-category .training-checklist .foot-note, .html-css-category .part-time-options, .dreamweaver-category .course-item .course-item-description, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .training-checklist .note, .dreamweaver-category .training-checklist .foot-note, .dreamweaver-category .part-time-options, .cdt-calendar .training-checklist .note, .cdt-calendar .training-checklist .foot-note {
+.custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .part-time-options, .indesign-course .overview-list .course-specific, .indesign-course .overview-list .overview-list-data span, .indesign-course .course-outline-block ul li, .indesign-course .course-dates .date, .photoshop-category .course-item .course-item-description, .photoshop-category .course-item .course-item-fee, .photoshop-category .training-checklist .note, .photoshop-category .training-checklist .foot-note, .photoshop-category .part-time-options, .illustrator-category .course-item .course-item-description, .illustrator-category .course-item .course-item-fee, .illustrator-category .training-checklist .note, .illustrator-category .training-checklist .foot-note, .illustrator-category .part-time-options, .acrobat-category .course-item .course-item-description, .acrobat-category .course-item .course-item-fee, .acrobat-category .training-checklist .note, .acrobat-category .training-checklist .foot-note, .acrobat-category .part-time-options, .digital-publishing-category .course-item .course-item-description, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .training-checklist .note, .digital-publishing-category .training-checklist .foot-note, .digital-publishing-category .part-time-options, .flash-category .course-item .course-item-description, .flash-category .course-item .course-item-fee, .flash-category .training-checklist .note, .flash-category .training-checklist .foot-note, .flash-category .part-time-options, .html-css-category .course-item .course-item-description, .html-css-category .course-item .course-item-fee, .html-css-category .training-checklist .note, .html-css-category .training-checklist .foot-note, .html-css-category .part-time-options, .dreamweaver-category .course-item .course-item-description, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .training-checklist .note, .dreamweaver-category .training-checklist .foot-note, .dreamweaver-category .part-time-options, .cdt-calendar .training-checklist .note, .cdt-calendar .training-checklist .foot-note {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 
 /* line 84, ../scss/_custom/_custom-fonts.scss */
-h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .seminars-ad .seminars-ad-title, .illustrator-category .seminars-ad .seminars-ad-title, .acrobat-category .seminars-ad .seminars-ad-title, .digital-publishing-category .seminars-ad .seminars-ad-title, .html-css-category .seminars-ad .seminars-ad-title, .dreamweaver-category .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3 {
+h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .seminars-ad .seminars-ad-title, .illustrator-category .seminars-ad .seminars-ad-title, .acrobat-category .seminars-ad .seminars-ad-title, .digital-publishing-category .seminars-ad .seminars-ad-title, .flash-category .seminars-ad .seminars-ad-title, .html-css-category .seminars-ad .seminars-ad-title, .dreamweaver-category .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3 {
   font-size: 1em;
   line-height: 1.5em;
 }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .photoshop-category .training-checklist th, .photoshop-category .training-checklist .training-checklist-header, .photoshop-category .training-checklist i, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial span, .photoshop-category .paragraph-header, .illustrator-category .training-checklist th, .illustrator-category .training-checklist .training-checklist-header, .illustrator-category .training-checklist i, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-category .paragraph-header, .acrobat-category .training-checklist th, .acrobat-category .training-checklist .training-checklist-header, .acrobat-category .training-checklist i, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .digital-publishing-category .training-checklist th, .digital-publishing-category .training-checklist .training-checklist-header, .digital-publishing-category .training-checklist i, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial span, .digital-publishing-category .paragraph-header, .html-css-category .training-checklist th, .html-css-category .training-checklist .training-checklist-header, .html-css-category .training-checklist i, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial span, .html-css-category .paragraph-header, .dreamweaver-category .training-checklist th, .dreamweaver-category .training-checklist .training-checklist-header, .dreamweaver-category .training-checklist i, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial span, .dreamweaver-category .paragraph-header, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .training-checklist i, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-category .paragraph-header, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial span, .photoshop-category .training-checklist th, .photoshop-category .training-checklist .training-checklist-header, .photoshop-category .training-checklist i, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial span, .photoshop-category .paragraph-header, .illustrator-category .training-checklist th, .illustrator-category .training-checklist .training-checklist-header, .illustrator-category .training-checklist i, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-category .paragraph-header, .acrobat-category .training-checklist th, .acrobat-category .training-checklist .training-checklist-header, .acrobat-category .training-checklist i, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .digital-publishing-category .training-checklist th, .digital-publishing-category .training-checklist .training-checklist-header, .digital-publishing-category .training-checklist i, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial span, .digital-publishing-category .paragraph-header, .flash-category .training-checklist th, .flash-category .training-checklist .training-checklist-header, .flash-category .training-checklist i, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial span, .flash-category .paragraph-header, .html-css-category .training-checklist th, .html-css-category .training-checklist .training-checklist-header, .html-css-category .training-checklist i, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial span, .html-css-category .paragraph-header, .dreamweaver-category .training-checklist th, .dreamweaver-category .training-checklist .training-checklist-header, .dreamweaver-category .training-checklist i, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial span, .dreamweaver-category .paragraph-header, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .cdt-calendar .training-checklist i, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 
 /* line 90, ../scss/_custom/_custom-fonts.scss */
-h2, .indesign-category .course-item .big, .indesign-category .and, .indesign-course .and, .photoshop-category .course-item .big, .photoshop-category .and, .illustrator-category .course-item .big, .illustrator-category .and, .acrobat-category .course-item .big, .acrobat-category .and, .digital-publishing-category .course-item .big, .digital-publishing-category .and, .html-css-category .course-item .big, .html-css-category .and, .dreamweaver-category .course-item .big, .dreamweaver-category .and {
+h2, .indesign-category .course-item .big, .indesign-category .and, .indesign-course .and, .photoshop-category .course-item .big, .photoshop-category .and, .illustrator-category .course-item .big, .illustrator-category .and, .acrobat-category .course-item .big, .acrobat-category .and, .digital-publishing-category .course-item .big, .digital-publishing-category .and, .flash-category .course-item .big, .flash-category .and, .html-css-category .course-item .big, .html-css-category .and, .dreamweaver-category .course-item .big, .dreamweaver-category .and {
   font-size: 1.5em;
   line-height: 2em;
 }
@@ -10964,7 +10966,7 @@ h4 {
 /* Color paragraph header */
 /* Color bold list header */
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
-.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .illustrator-category .seminars-ad .read-more-btn, .illustrator-category .read-more-btn, .acrobat-category .seminars-ad .read-more-btn, .acrobat-category .read-more-btn, .digital-publishing-category .seminars-ad .read-more-btn, .digital-publishing-category .read-more-btn, .html-css-category .seminars-ad .read-more-btn, .html-css-category .read-more-btn, .dreamweaver-category .seminars-ad .read-more-btn, .dreamweaver-category .read-more-btn {
+.why-train-bg .train-with-us .learn-more, .indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-category .read-more-btn, .indesign-course .read-more-btn, .indesign-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-category .read-more-btn, .illustrator-category .seminars-ad .read-more-btn, .illustrator-category .read-more-btn, .acrobat-category .seminars-ad .read-more-btn, .acrobat-category .read-more-btn, .digital-publishing-category .seminars-ad .read-more-btn, .digital-publishing-category .read-more-btn, .flash-category .seminars-ad .read-more-btn, .flash-category .read-more-btn, .html-css-category .seminars-ad .read-more-btn, .html-css-category .read-more-btn, .dreamweaver-category .seminars-ad .read-more-btn, .dreamweaver-category .read-more-btn {
   background-color: #FCCD39;
   color: #000;
   white-space: nowrap;
@@ -13026,7 +13028,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -13034,16 +13036,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -13054,37 +13056,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -13092,7 +13094,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -13573,7 +13575,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -13581,16 +13583,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -13601,37 +13603,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -13639,7 +13641,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -14129,7 +14131,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -14137,16 +14139,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -14157,37 +14159,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -14195,7 +14197,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -14678,7 +14680,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -14686,16 +14688,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -14706,37 +14708,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -14744,7 +14746,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -15229,7 +15231,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -15237,16 +15239,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -15257,37 +15259,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -15295,7 +15297,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -15778,7 +15780,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -15786,16 +15788,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -15806,37 +15808,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -15844,7 +15846,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -16341,7 +16343,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -16349,16 +16351,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -16369,37 +16371,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -16407,7 +16409,560 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+  padding: 0 8px;
+  position: relative;
+  float: right;
+}
+
+/* line 5, ../scss/_custom/components/training/_banner.scss */
+.flash-category .banner-row {
+  background-color: #fa1a20;
+  height: 120px;
+  margin-bottom: 12px;
+}
+/* line 13, ../scss/_custom/components/training/_banner.scss */
+.flash-category .banner-row .banner-row {
+  height: 120px;
+  margin-bottom: 8px;
+}
+/* line 18, ../scss/_custom/components/training/_banner.scss */
+.flash-category .banner-row .category-logo {
+  margin: 32.5px 0 32.5px 15px;
+}
+/* line 22, ../scss/_custom/components/training/_banner.scss */
+.flash-category .banner-row .banner-text {
+  max-width: 75%;
+  top: 32.5px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 22, ../scss/_custom/components/training/_banner.scss */
+  .flash-category .banner-row .banner-text {
+    max-width: 90%;
+  }
+}
+/* line 3, ../scss/_custom/components/_cdt-typography.scss */
+.flash-category .banner-row .banner-text .banner-header, .flash-category .banner-row .banner-text .banner-sub-header {
+  font-family: Raleway, Helvetica, sans-serif;
+  color: #fff;
+}
+/* line 8, ../scss/_custom/components/_cdt-typography.scss */
+.flash-category .banner-row .banner-text .banner-header {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  line-height: 1em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+  .flash-category .banner-row .banner-text .banner-header {
+    font-size: 1.5em;
+    line-height: 2em;
+    line-height: 1em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+  .flash-category .banner-row .banner-text .banner-header {
+    font-size: 2em;
+    line-height: 1.5em;
+    line-height: 1em;
+  }
+}
+/* line 24, ../scss/_custom/components/_cdt-typography.scss */
+.flash-category .banner-row .banner-text .banner-sub-header {
+  font-size: 0.875em;
+  line-height: 1.71429em;
+}
+/* line 14, ../scss/_custom/components/training/_category.scss */
+.flash-category .breadcrumb-active {
+  color: #fa1a20;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 26, ../scss/_custom/components/training/_category.scss */
+  .flash-category .category-description-section {
+    margin-bottom: 24px;
+  }
+}
+/* line 32, ../scss/_custom/components/training/_category.scss */
+.flash-category .tight-header, .flash-category .tight-header-1, .flash-category .tight-header-2, .flash-category .tight-header-3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  line-height: 1em;
+  display: block;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+/* line 36, ../scss/_custom/components/training/_category.scss */
+.flash-category .tight-header-1 {
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/
+}
+/* line 47, ../scss/_custom/components/training/_category.scss */
+.flash-category .tight-header-2 {
+  margin-bottom: 8px;
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/
+}
+/* line 59, ../scss/_custom/components/training/_category.scss */
+.flash-category .tight-header-3 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 65, ../scss/_custom/components/training/_category.scss */
+.flash-category .sw-ver {
+  color: #fa1a20;
+  text-decoration: underline;
+}
+/* line 71, ../scss/_custom/components/training/_category.scss */
+.flash-category .courses-list {
+  margin-bottom: 12px;
+}
+/* line 75, ../scss/_custom/components/training/_category.scss */
+.flash-category .course-item {
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 75, ../scss/_custom/components/training/_category.scss */
+  .flash-category .course-item {
+    width: 93%;
+  }
+}
+/* line 9, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-title {
+  padding: 3px 0 0 7px;
+  text-transform: uppercase;
+  float: left !important;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 9, ../scss/_custom/components/training/_course-item.scss */
+  .flash-category .course-item .course-item-title {
+    float: right;
+  }
+}
+/* line 18, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-title h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+  line-height: 1.2em;
+  color: #fa1a20;
+}
+/* line 31, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-header {
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .flash-category .course-item .course-item-header {
+    height: 3.5em;
+    margin-bottom: 0;
+  }
+}
+/* line 40, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-description {
+  line-height: 1.5em;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 40, ../scss/_custom/components/training/_course-item.scss */
+  .flash-category .course-item .course-item-description {
+    height: 12em;
+    margin-bottom: 0;
+  }
+}
+/* line 51, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .day-time {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+}
+/* line 55, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-info,
+.flash-category .course-item .course-book-now {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.4em;
+  padding: 4px 0;
+}
+/* line 64, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-info a, .flash-category .course-item .course-item-info a:hover, .flash-category .course-item .course-item-info a:focus,
+.flash-category .course-item .course-book-now a,
+.flash-category .course-item .course-book-now a:hover,
+.flash-category .course-item .course-book-now a:focus {
+  color: #fff;
+}
+/* line 69, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-fee {
+  color: #fa1a20;
+  margin-bottom: 2px;
+}
+/* line 76, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .big {
+  line-height: 1.5em;
+}
+/* line 82, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-item-info {
+  background-color: #fa1a20;
+  width: 90px;
+  border-right: 3px solid #fff;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 82, ../scss/_custom/components/training/_course-item.scss */
+  .flash-category .course-item .course-item-info {
+    min-width: initial;
+    width: 48%;
+  }
+}
+/* line 93, ../scss/_custom/components/training/_course-item.scss */
+.flash-category .course-item .course-book-now {
+  background-color: #fd979a;
+  text-transform: uppercase;
+  width: 85px;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 93, ../scss/_custom/components/training/_course-item.scss */
+  .flash-category .course-item .course-book-now {
+    min-width: initial;
+    width: 46%;
+  }
+}
+/* line 79, ../scss/_custom/components/training/_category.scss */
+.flash-category .category-video {
+  margin-bottom: 14.4px;
+}
+@media only screen and (max-width: 40em) {
+  /* line 83, ../scss/_custom/components/training/_category.scss */
+  .flash-category .custom-training {
+    margin-bottom: 36px !important;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 83, ../scss/_custom/components/training/_category.scss */
+  .flash-category .custom-training {
+    margin-bottom: 36px !important;
+  }
+}
+/* line 95, ../scss/_custom/components/training/_category.scss */
+.flash-category .seminars-ad {
+  background-color: #fa1a20;
+  color: #fff;
+  padding: 0 6px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-bottom: 14.4px;
+}
+/* line 8, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .seminars-ad .seminars-ad-title {
+  font-size: 1em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+/* line 16, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .seminars-ad .seminars-ad-content {
+  font-size: 0.75em;
+  line-height: 2em;
+  line-height: 1.6em;
+  padding-bottom: 4px;
+}
+/* line 23, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .seminars-ad .read-more-btn {
+  padding: 2px 8px;
+}
+/* line 99, ../scss/_custom/components/training/_category.scss */
+.flash-category .training-checklist {
+  border: 1px solid #fa1a20;
+  /*    background-color: #CECECE;*/
+  margin-bottom: 14.4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 36, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist th, .flash-category .training-checklist td {
+  padding: 0 0 4px 5px;
+}
+/* line 40, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist td {
+  font-size: 14px;
+  text-align: left;
+}
+/* line 45, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist th {
+  text-align: left;
+}
+/* line 52, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist .training-checklist-header {
+  color: #fa1a20;
+}
+/* line 58, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist table {
+  margin-top: 4px;
+  border-top: none;
+  margin-bottom: 1em;
+  width: 100%;
+}
+/* line 64, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist table .center-content {
+  text-align: center;
+}
+/* line 68, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist table thead, .flash-category .training-checklist table tr.even, .flash-category .training-checklist table tr.alt, .flash-category .training-checklist table tr:nth-of-type(even) {
+  background: white;
+}
+/* line 77, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist .foot-note {
+  margin-left: 10px;
+  display: block;
+}
+/* line 83, ../scss/_custom/components/training/_side-pannel.scss */
+.flash-category .training-checklist i {
+  color: #fa1a20;
+}
+/* line 103, ../scss/_custom/components/training/_category.scss */
+.flash-category .testimonials {
+  height: 23em;
+  background-color: #E4E4E4;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /*    -webkit-overflow-scrolling: touch;*/
+  border: solid 1px #646464;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 14, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials .testimonials-title {
+  color: #fa1a20;
+  margin: 6px 9px;
+}
+/* line 21, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials .category-testimonial {
+  margin: 5px 10px 12px 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/* line 26, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials .category-testimonial span {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fa1a20;
+  font-style: italic;
+  display: inline;
+}
+/* line 36, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials .category-testimonial-client-name {
+  margin-top: 6px;
+  font-size: 15px;
+}
+/* line 42, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials .category-testimonial-course-name {
+  color: #fa1a20;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+/* line 49, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+/* line 53, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials::-webkit-scrollbar:vertical {
+  width: 5px;
+}
+/* line 57, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+/* line 61, ../scss/_custom/components/training/_testimonials.scss */
+.flash-category .testimonials::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgba(140, 140, 140, 0.5);
+}
+@media screen and (min-width: 640px) and (max-width: 680px) {
+  /* line 103, ../scss/_custom/components/training/_category.scss */
+  .flash-category .testimonials {
+    height: 68em;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  /* line 103, ../scss/_custom/components/training/_category.scss */
+  .flash-category .testimonials {
+    height: 53em;
+  }
+}
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  /* line 103, ../scss/_custom/components/training/_category.scss */
+  .flash-category .testimonials {
+    height: 37em;
+  }
+}
+/* line 121, ../scss/_custom/components/training/_category.scss */
+.flash-category .and {
+  text-align: center;
+  width: 38px;
+}
+/* line 128, ../scss/_custom/components/training/_category.scss */
+.flash-category .read-more-btn {
+  padding: 3px 8px;
+}
+/* line 133, ../scss/_custom/components/training/_category.scss */
+.flash-category .promo-read-more {
+  padding-left: 0;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+/* line 139, ../scss/_custom/components/training/_category.scss */
+.flash-category .paragraph-header {
+  color: #fa1a20;
+  line-height: 1.5em;
+}
+/* line 143, ../scss/_custom/components/training/_category.scss */
+.flash-category .part-time-options {
+  color: #fa1a20;
+}
+/* line 149, ../scss/_custom/components/training/_category.scss */
+.flash-category .category-promo-section {
+  margin-top: 2em;
+}
+/* line 153, ../scss/_custom/components/training/_category.scss */
+.flash-category .promo-packages {
+  margin-bottom: 24px;
+}
+/* line 157, ../scss/_custom/components/training/_category.scss */
+.flash-category [class*="block-grid-"] > li {
+  padding-bottom: 0;
+}
+@media screen and (min-width: 640px) and (max-width: 680px) {
+  /* line 162, ../scss/_custom/components/training/_category.scss */
+  .flash-category .category-description-section {
+    width: 55%;
+  }
+  /* line 166, ../scss/_custom/components/training/_category.scss */
+  .flash-category .custom-training {
+    width: 45%;
+  }
+  /* line 170, ../scss/_custom/components/training/_category.scss */
+  .flash-category .side-pannel {
+    top: -7em;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  /* line 176, ../scss/_custom/components/training/_category.scss */
+  .flash-category .side-pannel {
+    top: -6em;
+  }
+}
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  /* line 182, ../scss/_custom/components/training/_category.scss */
+  .flash-category .side-pannel {
+    top: -1em;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 8, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .tight-header-1 {
+    width: 440px;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .tight-header-2 {
+    width: 306px;
+  }
+}
+/* line 22, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+.flash-category .training-checklist table thead, .flash-category .training-checklist table tr.even, .flash-category .training-checklist table tr.alt, .flash-category .training-checklist table tr:nth-of-type(even) {
+  background: #fee2e2;
+}
+/* line 28, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+.flash-category .testimonials {
+  height: 12em;
+}
+/* line 32, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+.flash-category .course-item .course-item-description {
+  height: 16em;
+}
+
+/* Mixin for styling of custom training logo, to be used on category and course pages 
+*/
+/* line 3, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 10, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+  margin-bottom: 14.4px;
+}
+/* line 13, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+/* line 17, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  color: #fff;
+  background-color: #686F74;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  top: -3px;
+  padding: 0 8px;
+}
+/* line 18, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+  font-size: 0.8125em;
+  line-height: 1.84615em;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 17, ../scss/_custom/components/training/_custom-training.scss */
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+    width: 65%;
+  }
+}
+/* line 35, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+  font-size: 1.4em;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+/* line 43, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+  list-style-type: none;
+  margin-bottom: 6px;
+  margin-left: 8px;
+  -webkit-margin-after: 6px;
+}
+/* line 50, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+  content: "-";
+  left: -4px;
+  position: relative;
+}
+/* line 56, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  line-height: 1.5em;
+  margin-left: -5px;
+  margin-bottom: 3px;
+}
+/* line 66, ../scss/_custom/components/training/_custom-training.scss */
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
@@ -16908,7 +17463,7 @@ body {
 /* Mixin for styling of custom training logo, to be used on category and course pages 
 */
 /* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
+.indesign-category .custom-training-logo, .indesign-course .course-custom-training-logo, .photoshop-category .custom-training-logo, .illustrator-category .custom-training-logo, .acrobat-category .custom-training-logo, .digital-publishing-category .custom-training-logo, .flash-category .custom-training-logo, .html-css-category .custom-training-logo, .dreamweaver-category .custom-training-logo, .cdt-calendar .custom-training .custom-training-logo {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 0;
@@ -16916,16 +17471,16 @@ body {
 }
 
 /* line 10, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
+.indesign-category .custom-training, .indesign-course .custom-training, .photoshop-category .custom-training, .illustrator-category .custom-training, .acrobat-category .custom-training, .digital-publishing-category .custom-training, .flash-category .custom-training, .html-css-category .custom-training, .dreamweaver-category .custom-training, .cdt-calendar .custom-training {
   margin-bottom: 14.4px;
 }
 /* line 13, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
+.indesign-category .custom-training .custom-training-text-header, .indesign-course .custom-training .custom-training-text-header, .photoshop-category .custom-training .custom-training-text-header, .illustrator-category .custom-training .custom-training-text-header, .acrobat-category .custom-training .custom-training-text-header, .digital-publishing-category .custom-training .custom-training-text-header, .flash-category .custom-training .custom-training-text-header, .html-css-category .custom-training .custom-training-text-header, .dreamweaver-category .custom-training .custom-training-text-header, .cdt-calendar .custom-training .custom-training-text-header {
   font-size: 1.25em;
   line-height: 1.2em;
 }
 /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+.indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
   color: #fff;
   background-color: #686F74;
   border-top-left-radius: 0;
@@ -16936,37 +17491,37 @@ body {
   padding: 0 8px;
 }
 /* line 18, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
+.indesign-category .custom-training .prefer-custom-training-text .custom-text, .indesign-course .custom-training .prefer-custom-training-text .custom-text, .photoshop-category .custom-training .prefer-custom-training-text .custom-text, .illustrator-category .custom-training .prefer-custom-training-text .custom-text, .acrobat-category .custom-training .prefer-custom-training-text .custom-text, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-text, .flash-category .custom-training .prefer-custom-training-text .custom-text, .html-css-category .custom-training .prefer-custom-training-text .custom-text, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-text, .cdt-calendar .custom-training .prefer-custom-training-text .custom-text {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
   /* line 17, ../scss/_custom/components/training/_custom-training.scss */
-  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
+  .indesign-category .custom-training .prefer-custom-training-text, .indesign-course .custom-training .prefer-custom-training-text, .photoshop-category .custom-training .prefer-custom-training-text, .illustrator-category .custom-training .prefer-custom-training-text, .acrobat-category .custom-training .prefer-custom-training-text, .digital-publishing-category .custom-training .prefer-custom-training-text, .flash-category .custom-training .prefer-custom-training-text, .html-css-category .custom-training .prefer-custom-training-text, .dreamweaver-category .custom-training .prefer-custom-training-text, .cdt-calendar .custom-training .prefer-custom-training-text {
     width: 65%;
   }
 }
 /* line 35, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
+.indesign-category .custom-training .prefer-custom-training-text .custom-training-text-header, .indesign-course .custom-training .prefer-custom-training-text .custom-training-text-header, .photoshop-category .custom-training .prefer-custom-training-text .custom-training-text-header, .illustrator-category .custom-training .prefer-custom-training-text .custom-training-text-header, .acrobat-category .custom-training .prefer-custom-training-text .custom-training-text-header, .digital-publishing-category .custom-training .prefer-custom-training-text .custom-training-text-header, .flash-category .custom-training .prefer-custom-training-text .custom-training-text-header, .html-css-category .custom-training .prefer-custom-training-text .custom-training-text-header, .dreamweaver-category .custom-training .prefer-custom-training-text .custom-training-text-header, .cdt-calendar .custom-training .prefer-custom-training-text .custom-training-text-header {
   font-size: 1.4em;
   margin-top: 6px;
   margin-bottom: 6px;
 }
 /* line 43, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
+.indesign-category .custom-training .prefer-custom-training-text ul, .indesign-course .custom-training .prefer-custom-training-text ul, .photoshop-category .custom-training .prefer-custom-training-text ul, .illustrator-category .custom-training .prefer-custom-training-text ul, .acrobat-category .custom-training .prefer-custom-training-text ul, .digital-publishing-category .custom-training .prefer-custom-training-text ul, .flash-category .custom-training .prefer-custom-training-text ul, .html-css-category .custom-training .prefer-custom-training-text ul, .dreamweaver-category .custom-training .prefer-custom-training-text ul, .cdt-calendar .custom-training .prefer-custom-training-text ul {
   list-style-type: none;
   margin-bottom: 6px;
   margin-left: 8px;
   -webkit-margin-after: 6px;
 }
 /* line 50, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
+.indesign-category .custom-training .prefer-custom-training-text ul li:before, .indesign-course .custom-training .prefer-custom-training-text ul li:before, .photoshop-category .custom-training .prefer-custom-training-text ul li:before, .illustrator-category .custom-training .prefer-custom-training-text ul li:before, .acrobat-category .custom-training .prefer-custom-training-text ul li:before, .digital-publishing-category .custom-training .prefer-custom-training-text ul li:before, .flash-category .custom-training .prefer-custom-training-text ul li:before, .html-css-category .custom-training .prefer-custom-training-text ul li:before, .dreamweaver-category .custom-training .prefer-custom-training-text ul li:before, .cdt-calendar .custom-training .prefer-custom-training-text ul li:before {
   content: "-";
   left: -4px;
   position: relative;
 }
 /* line 56, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
+.indesign-category .custom-training .prefer-custom-training-text ul li, .indesign-course .custom-training .prefer-custom-training-text ul li, .photoshop-category .custom-training .prefer-custom-training-text ul li, .illustrator-category .custom-training .prefer-custom-training-text ul li, .acrobat-category .custom-training .prefer-custom-training-text ul li, .digital-publishing-category .custom-training .prefer-custom-training-text ul li, .flash-category .custom-training .prefer-custom-training-text ul li, .html-css-category .custom-training .prefer-custom-training-text ul li, .dreamweaver-category .custom-training .prefer-custom-training-text ul li, .cdt-calendar .custom-training .prefer-custom-training-text ul li {
   font-size: 0.875em;
   line-height: 1.71429em;
   line-height: 1.5em;
@@ -16974,7 +17529,7 @@ body {
   margin-bottom: 3px;
 }
 /* line 66, ../scss/_custom/components/training/_custom-training.scss */
-.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
+.indesign-category .custom-training .prefer-custom-training-text .read-more-btn, .indesign-course .custom-training .prefer-custom-training-text .read-more-btn, .photoshop-category .custom-training .prefer-custom-training-text .read-more-btn, .illustrator-category .custom-training .prefer-custom-training-text .read-more-btn, .acrobat-category .custom-training .prefer-custom-training-text .read-more-btn, .digital-publishing-category .custom-training .prefer-custom-training-text .read-more-btn, .flash-category .custom-training .prefer-custom-training-text .read-more-btn, .html-css-category .custom-training .prefer-custom-training-text .read-more-btn, .dreamweaver-category .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn {
   padding: 0 8px;
   position: relative;
   float: right;
