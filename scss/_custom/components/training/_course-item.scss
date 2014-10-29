@@ -29,25 +29,22 @@
     }
 
     .course-item-header {        
-        @media #{$medium-only} {
-             margin-bottom: $margin-bottom-default / 2;
-        } 
+        margin-bottom: $margin-bottom-default / 2;
 
         @media #{$large-up} {
-             height: 3.5em; 
+             height: 3.5em;
+             margin-bottom: 0; 
         }        
     }
 
     .course-item-description {
         @extend %t-small;
         @include adjust-leading-to(1, $base-font-size);
-
-        @media #{$medium-only} {
-             margin-bottom: $margin-bottom-default / 2;
-        } 
+        margin-bottom: $margin-bottom-default / 2;
 
         @media #{$large-up} {
              height: 12em;
+             margin-bottom: 0;
         }        
     }
 

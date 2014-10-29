@@ -3736,6 +3736,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dreamweaver-courses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dreamweaver-courses.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html-courses.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5593,13 +5602,134 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png": {
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-sa541b46ec8.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 34542,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-s4672a39083.png",
+		"initialSize": 47822,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-sa541b46ec8.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-sa541b46ec8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/css3-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1558,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/css3-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/css3-package.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dreamweaver-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 864,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dreamweaver-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dreamweaver-package.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-dynamic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4872,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-dynamic.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-dynamic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4595,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4569,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/dw-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3097,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-css.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html5-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1553,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html5-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html5-package.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39829,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/css3-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1558,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/css3-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/css3-package.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5611,6 +5741,17 @@
 		"initialSize": 7954,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/dreamweaver-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 864,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/dreamweaver-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/dreamweaver-package.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5633,6 +5774,17 @@
 		"initialSize": 2789,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-ess.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/html-css\/html-css-category\/html5-package.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1553,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5-package.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5-package.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6855,6 +7007,54 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_dreamweaver-category-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_dreamweaver-category-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-category.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_dreamweaver-category.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/_custom\/training\/web-design-development\/html-css\/_html-css-category-add-styles.scss": {
 		"createSourceMap": 0,
