@@ -1813,9 +1813,9 @@ body {
   min-height: 55px;
 }
 
-/* line 88, training/video-editing/after-effects/after-effects-category/*.png */
-.after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials, .after-effects-category .pr-advanced {
-  background-image: url('../images/training/video-editing/after-effects/after-effects-category-s724016f460.png');
+/* line 80, training/video-editing/after-effects/after-effects-category/*.png */
+.after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
+  background-image: url('../images/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
   background-repeat: no-repeat;
 }
 
@@ -1837,9 +1837,9 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
-  background-position: 0 21.57895%;
+  background-position: 0 27.57848%;
   min-width: 56px;
-  min-height: 55px;
+  min-height: 57px;
 }
 /* line 20, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .category-custom-training {
@@ -1855,7 +1855,7 @@ body {
   height: 0;
   padding-bottom: 41.08108%;
   background-size: 100%;
-  background-position: 0 59.21288%;
+  background-position: 0 76.09195%;
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
@@ -1872,7 +1872,7 @@ body {
     height: 0;
     padding-bottom: 26.7027%;
     background-size: 100%;
-    background-position: 0 59.21288%;
+    background-position: 0 76.09195%;
   }
 }
 /* line 32, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
@@ -1889,7 +1889,7 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 284.61538%;
-  background-position: 0 39.86014%;
+  background-position: 0 50.89286%;
   margin-left: 15px;
   min-width: 40px;
   min-height: 45px;
@@ -1915,7 +1915,7 @@ body {
 }
 /* line 49, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .pr-essentials {
-  background-position: 0 -571px;
+  background-position: 0 -447px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -1928,34 +1928,15 @@ body {
   padding-bottom: 4.92308%;
   background-size: 284.61538%;
   background-position: 0 100%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
 }
-/* line 58, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
-.after-effects-category .pr-advanced {
-  background-position: 0 -447px;
-  /*  
-      // Calculate sprite map dimentions - currently not working due to path issues  
-      $sprite-file: sprite-path($map);
-      $sprite-width: image-width($sprite-file);
-      $sprite-height: image-height($sprite-file);
-  */
-  width: 5%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.82759%;
-  background-size: 212.64368%;
-  background-position: 0 81.12523%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px;
-}
-/* line 67, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+/* line 57, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .package-training-logo {
-  margin: -5px 15px 0;
-  min-width: 38px;
-  min-height: 38px;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
 }
 
 /* line 64, admin/calendar/*.png */

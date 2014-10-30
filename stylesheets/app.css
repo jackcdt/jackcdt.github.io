@@ -19173,6 +19173,10 @@ body {
 .after-effects-category .course-item .course-book-now {
   background-color: #d3abfc;
 }
+/* line 24, ../scss/_custom/training/video-editing/after-effects/_after-effects-category.scss */
+.after-effects-category .testimonials {
+  height: 19em;
+}
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {
