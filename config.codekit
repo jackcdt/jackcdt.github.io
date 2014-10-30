@@ -6038,6 +6038,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7954,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/jq-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2862,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/jq-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/jq-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2177,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1862,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/web-design-development\/wordpress\/wordpress-category-s5802519e43.png": {
 		"fileType": 32768,
 		"ignore": 0,
