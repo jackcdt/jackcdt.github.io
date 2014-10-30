@@ -1,0 +1,19 @@
+/* Push up the custom training to compensate for no image */
+.javascript-jquery-category {
+    /* Hide all sprites */
+    .js-essentials-framed, 
+    .custom-training, 
+    .jq-essentials-essentials, 
+    .js-essentials {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

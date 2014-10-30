@@ -673,7 +673,7 @@ body {
   color: #FFF;
   text-align: center;
   font-weight: 700;
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
@@ -861,6 +861,49 @@ body {
 }
 /* line 17, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
+.wordpress-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
+.wordpress-category .wp-essentials,
+.wordpress-category .custom-training,
+.wordpress-category .wp-advanced {
+  display: none;
+}
+/* line 10, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
+.wordpress-category p {
+  margin-bottom: 24px;
+}
+/* line 14, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
+.wordpress-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-old-ie-styles.scss */
+.javascript-jquery-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-old-ie-styles.scss */
+.javascript-jquery-category .js-essentials-framed,
+.javascript-jquery-category .custom-training,
+.javascript-jquery-category .jq-essentials-essentials,
+.javascript-jquery-category .js-essentials {
+  display: none;
+}
+/* line 11, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-old-ie-styles.scss */
+.javascript-jquery-category p {
+  margin-bottom: 24px;
+}
+/* line 15, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-old-ie-styles.scss */
+.javascript-jquery-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
 }

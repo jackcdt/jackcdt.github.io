@@ -481,8 +481,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -501,10 +501,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-course .validate-participants:active {
@@ -1811,6 +1811,107 @@ body {
   margin-top: -10px;
   min-width: 56px;
   min-height: 55px;
+}
+
+/* line 72, training/web-design-development/javascript-jquery/javascript-jquery-category/*.png */
+.javascript-jquery-category-sprite, .javascript-jquery-category .js-essentials-framed, .javascript-jquery-category .category-custom-training, .javascript-jquery-category .js-essentials, .javascript-jquery-category .jq-essentials {
+  background-image: url('../images/training/web-design-development/javascript-jquery/javascript-jquery-category-sfeb0fee7a0.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .js-essentials-framed {
+  background-position: 0 -191px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.9381%;
+  background-size: 440.47619%;
+  background-position: 0 70.22059%;
+  min-width: 49px;
+  min-height: 52px;
+}
+/* line 20, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+  .javascript-jquery-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 32, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .js-essentials {
+  background-position: 0 -274px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.125%;
+  background-size: 462.5%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .jq-essentials {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.86111%;
+  background-size: 513.88889%;
+  background-position: 0 41.42857%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
 }
 
 /* line 80, training/video-editing/after-effects/after-effects-category/*.png */
