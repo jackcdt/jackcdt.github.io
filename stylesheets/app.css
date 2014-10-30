@@ -19177,6 +19177,10 @@ body {
 .after-effects-category .testimonials {
   height: 19em;
 }
+/* line 28, ../scss/_custom/training/video-editing/after-effects/_after-effects-category.scss */
+.after-effects-category .side-pannel {
+  top: 0;
+}
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {
