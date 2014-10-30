@@ -1730,6 +1730,89 @@ body {
   min-height: 42px;
 }
 
+/* line 64, training/web-design-development/wordpress/wordpress-category/*.png */
+.wordpress-category-sprite, .wordpress-category .wp-essentials, .wordpress-category .category-custom-training, .wordpress-category .wp-advanced {
+  background-image: url('../images/training/web-design-development/wordpress/wordpress-category-s5802519e43.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .wp-essentials {
+  background-position: 0 -238px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70794%;
+  background-size: 293.65079%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 47px;
+  min-height: 47px;
+}
+/* line 22, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 22, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+  .wordpress-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 34, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .wp-advanced {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.88095%;
+  background-size: 220.2381%;
+  background-position: 0 53.21101%;
+  margin-top: -10px;
+  min-width: 56px;
+  min-height: 55px;
+}
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images/admin/calendar-s4dacfd9bea.png');

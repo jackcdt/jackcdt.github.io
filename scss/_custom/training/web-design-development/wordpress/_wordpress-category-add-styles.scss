@@ -1,0 +1,42 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$wordpress-category-spacing: 40px; 
+
+@import "training/web-design-development/wordpress/wordpress-category/*.png"; 
+.wordpress-category {
+    $map: sprite-map("training/web-design-development/wordpress/wordpress-category/*.png", $spacing: $wordpress-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 300px;
+
+    .wp-essentials { 
+        @include wordpress-category-sprite(wp-essentials); 
+        @include responsive-sprite($map, wp-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+
+        min-width: 47px;
+        min-height: 47px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include wordpress-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .wp-advanced {
+        @include wordpress-category-sprite(wp-advanced); 
+        @include responsive-sprite($map, wp-advanced, $sprite-width, $sprite-height, 5%);
+        margin-top: -10px;
+
+        min-width: 56px;
+        min-height: 55px;   
+    }
+} 

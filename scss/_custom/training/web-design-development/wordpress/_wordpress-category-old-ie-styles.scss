@@ -1,0 +1,18 @@
+/* Push up the custom training to compensate for no image */
+.wordpress-category {
+    /* Hide all sprites */
+    .wp-essentials, 
+    .custom-training, 
+    .wp-advanced {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,38 @@
+@import "../../../components/training/category";
+ 
+.wordpress-category {
+    @include category($wordpress-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 340px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 310px;
+        }
+    } 
+
+    .course-item {
+        .course-item-description {
+
+            @media #{$large-up} {
+                height: 17em;
+            }        
+        }
+
+        .course-item-header {
+            @media #{$medium-only} {
+                height: 3em;
+            }
+        }
+    }
+
+    .testimonials {
+        height: 12em;
+    }
+} 
