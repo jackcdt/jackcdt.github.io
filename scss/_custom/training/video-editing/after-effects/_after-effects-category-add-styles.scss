@@ -1,0 +1,72 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$after-effects-category-spacing: 40px; 
+
+@import "training/video-editing/after-effects/after-effects-category/*.png"; 
+.after-effects-category {
+    $map: sprite-map("training/video-editing/after-effects/after-effects-category/*.png", $spacing: $after-effects-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 635px;
+
+    .ae-essentials-framed { 
+        @include after-effects-category-sprite(ae-essentials-framed); 
+        @include responsive-sprite($map, ae-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include after-effects-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .ae-essentials {
+        @include after-effects-category-sprite(ae-essentials); 
+        @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 40px;
+        min-height: 45px; 
+    }
+
+    .ae-advanced {
+        @include after-effects-category-sprite(ae-advanced); 
+        @include responsive-sprite($map, ae-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin-top: -9px;
+        min-width: 53px;
+        min-height: 52px;
+    } 
+
+    .pr-essentials {
+        @include after-effects-category-sprite(pr-essentials); 
+        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .pr-advanced {
+        @include after-effects-category-sprite(pr-advanced); 
+        @include responsive-sprite($map, pr-advanced, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .package-training-logo {
+        margin: -5px 15px 0;
+        min-width: 38px;
+        min-height: 38px;
+    }   
+} 

@@ -619,7 +619,7 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 50, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
@@ -673,7 +673,7 @@ body {
   color: #FFF;
   text-align: center;
   font-weight: 700;
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-course .book-now-btn:hover {
@@ -861,6 +861,29 @@ body {
 }
 /* line 17, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
+.after-effects-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
+.after-effects-category .ae-essentials-framed,
+.after-effects-category .custom-training,
+.after-effects-category .ae-essentials,
+.after-effects-category .ae-advanced,
+.after-effects-category .pr-essentials {
+  display: none;
+}
+/* line 12, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
+.after-effects-category p {
+  margin-bottom: 24px;
+}
+/* line 16, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
+.after-effects-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;
 }

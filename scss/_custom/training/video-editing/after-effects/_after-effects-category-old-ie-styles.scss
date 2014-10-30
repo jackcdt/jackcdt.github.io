@@ -1,0 +1,20 @@
+/* Push up the custom training to compensate for no image */
+.after-effects-category {
+    /* Hide all sprites */
+    .ae-essentials-framed, 
+    .custom-training, 
+    .ae-essentials, 
+    .ae-advanced, 
+    .pr-essentials {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

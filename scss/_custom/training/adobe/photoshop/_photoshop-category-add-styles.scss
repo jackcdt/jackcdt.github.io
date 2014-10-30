@@ -14,7 +14,7 @@ $photoshop-category-spacing: 40px;
         @include photoshop-category-sprite(ps-essentials-framed); 
         @include responsive-sprite($map, ps-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 56px;
-        min-height: 55px;
+        min-height: 58px;
     } 
 
     .ps-category-custom-training {

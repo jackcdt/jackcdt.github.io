@@ -14,12 +14,12 @@ $indesign-ess-spacing: 40px;
     $sprite-width: 200px;
     $sprite-height: 996px;
 
-    .id-essentials-framed { 
+    .id-essentials-framed {  
         @include indesign-ess-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 55px;
         min-height: 55px;
-    }
+    } 
 
     .course-classrom { 
         @include indesign-ess-sprite(course-classrom); 

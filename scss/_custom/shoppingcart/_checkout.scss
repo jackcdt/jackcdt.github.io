@@ -45,3 +45,87 @@ border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
  background-image: -o-linear-gradient(top, #26759e, #133d5b);
  background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
 }
+/* STYLES ADDED BY JACK - FOR FOUDNATION MODIFICATION */
+
+.wrapper{
+	background: url("../images/pagebkg.jpg") repeat-x scroll center top;
+}
+.pad-btm {
+padding-bottom: 30px;
+}
+.ptitle {
+margin: 20px 0 26px;
+font-weight: 400;
+}
+.breadcrumb {
+color: #2089D3;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
+font-size: .875em;
+margin: 48px 0 0;
+}
+a#catshopbuy:link, a#catshopbuy:visited {
+background: none repeat scroll 0 0 #2089D3;
+color: #FFFFFF;
+display: block;
+font-size: 26px;
+font-weight: bold;
+margin: 0;
+padding: 5px 0;
+text-align: center;
+text-decoration: none;
+text-shadow: 1px 1px #005588;
+text-transform: uppercase;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+@media only screen and (min-width: 896px) {
+
+.phone-number {
+padding-top: 14px;
+font-size: 16px;
+padding-right: 75px;
+}
+}
+
+@media only screen and (max-width: 895px) {
+	.phone-number {
+		font-size: 0px;
+		padding: 0;
+		margin: 0;
+
+		}
+}
+.medium {
+font-size: 35px;
+padding: 0 5px;
+}
+
+
+.download-and-book .shop-product-large .details ul li, .catProdAttributeTitle {
+font-size: 14px;
+    font-family: Raleway;
+    background-color: #E5E5E5;
+    margin: 0;
+}
+.download-and-book table.productTable.productSmall {
+	background-color: #E5E5E5;
+    border: none;
+}
+.summary-cart td.cartSummaryItem {
+	color: #FFF;
+}
+.summary-cart span#catCartSummary table.cartSummaryTable {
+	border: none;
+}
+
+/*Product List View CSS Added by Bosweb*/
+
+.shop-product-large.list-view{text-align:left}.shop-product-large.list-view .details{float:none;min-width:0;width:auto}.shop-product-large.list-view .details ul{list-style:none}.shop-product-large.list-view .participant+.participant{margin-top:5px}.shop-product-large.list-view .participant input{float:left;width:45%}.shop-product-large.list-view .participant input+input{float:right}.shop-product-large.list-view .quantity-field{width:50px}.shop-product-large.list-view .pointer{cursor:pointer}.cf{zoom:1}.cf:after{clear:both}.cf:before,.cf:after{content:"";display:block}
+
+.download-and-book .shop-product-large {
+	margin-bottom: 0;
+}
