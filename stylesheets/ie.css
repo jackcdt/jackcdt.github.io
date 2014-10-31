@@ -930,3 +930,27 @@ body {
   padding-right: 16px;
   margin-bottom: 0;
 }
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-old-ie-styles.scss */
+.premiere-pro-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-old-ie-styles.scss */
+.premiere-pro-category .pr-essentials-framed,
+.premiere-pro-category .category-custom-training,
+.premiere-pro-category .pr-essentials,
+.premiere-pro-category .pr-elements,
+.premiere-pro-category .pr-advanced,
+.premiere-pro-category .ae-essentials {
+  display: none;
+}
+/* line 13, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-old-ie-styles.scss */
+.premiere-pro-category p {
+  margin-bottom: 24px;
+}
+/* line 17, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-old-ie-styles.scss */
+.premiere-pro-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}

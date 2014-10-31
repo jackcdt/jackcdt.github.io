@@ -1,0 +1,21 @@
+/* Push up the custom training to compensate for no image */
+.premiere-pro-category {
+    /* Hide all sprites */
+    .pr-essentials-framed, 
+    .category-custom-training, 
+    .pr-essentials, 
+    .pr-elements, 
+    .pr-advanced,
+    .ae-essentials {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

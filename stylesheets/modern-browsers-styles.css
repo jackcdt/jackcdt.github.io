@@ -2040,6 +2040,151 @@ body {
   min-height: 36px;
 }
 
+/* line 88, training/video-editing/premiere-pro/premiere-pro-category/*.png */
+.premiere-pro-category-sprite, .premiere-pro-category .pr-essentials-framed, .premiere-pro-category .category-custom-training, .premiere-pro-category .pr-essentials, .premiere-pro-category .ae-essentials, .premiere-pro-category .pr-elements, .premiere-pro-category .pr-advanced {
+  background-image: url('../images/training/video-editing/premiere-pro/premiere-pro-category-s5f9276f45e.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-essentials-framed {
+  background-position: 0 -446px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 276.1194%;
+  background-position: 0 81.09091%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .category-custom-training {
+  background-position: 0 -103px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 19.07407%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+  .premiere-pro-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 19.07407%;
+  }
+}
+/* line 32, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-essentials {
+  background-position: 0 -552px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .ae-essentials {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 0%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 49, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-elements {
+  background-position: 0 -343px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 62.02532%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 42px;
+}
+/* line 58, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-advanced {
+  background-position: 0 -219px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 212.64368%;
+  background-position: 0 41.16541%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
+}
+/* line 67, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images/admin/calendar-s4dacfd9bea.png');
