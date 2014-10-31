@@ -819,6 +819,29 @@ body {
 }
 
 /* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
+.flash-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
+.flash-category .fl-essentials-framed,
+.flash-category .custom-training,
+.flash-category .fl-essentials,
+.flash-category .fl-banners,
+.flash-category .fl-actionscript {
+  display: none;
+}
+/* line 12, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
+.flash-category p {
+  margin-bottom: 24px;
+}
+/* line 16, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
+.flash-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+/* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
 .html-css-category {
   /* Hide all sprites */

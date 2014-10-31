@@ -268,13 +268,6 @@ $border-color: #2C2C2C;
         @extend %t-xlarge;
     }
 
-    .color-specific, 
-    .course-length {
-        color: $color;
-        line-height: 1em;
-        display: inline-block;
-    }
-
     .course-length {
         font-size: 14px;
         @extend %t-emphasize;
@@ -282,31 +275,6 @@ $border-color: #2C2C2C;
 
     .course-price-info {
         margin-bottom: $margin-bottom-default;
-    }
-
-    .course-dates {
-        li {
-            min-width: 7em;
-        }
-
-        h3 {
-            @extend %t-base;
-            @extend %t-emphasize;
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        .date {
-            @extend %t-small;
-            margin-left: -16px;
-        }
-
-        .date a {
-            color: $color;
-            font-style: italic;
-        }
     }
 
     /* Side bar - download and book */

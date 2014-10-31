@@ -10790,7 +10790,7 @@ html {
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .indesign-category .banner-row .banner-text .banner-sub-header, .indesign-category .sw-ver, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-row .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .course-dates h3, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .photoshop-category .banner-row .banner-text .banner-sub-header, .photoshop-category .sw-ver, .photoshop-category .course-item .course-item-info,
+.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-category .paragraph-header, .indesign-course .banner-row .banner-text .banner-sub-header, .indesign-course .sw-ver, .indesign-course .paragraph-header, .indesign-course .paragraph-header-def-color, .indesign-course .course-outline-block h3, .indesign-course .course-length, .indesign-course .testimonials .testimonials-title, .indesign-course .testimonials .category-testimonial-client-name, .indesign-course .testimonials .category-testimonial-course-name, .photoshop-category .banner-row .banner-text .banner-sub-header, .photoshop-category .sw-ver, .photoshop-category .course-item .course-item-info,
 .photoshop-category .course-item .course-book-now, .photoshop-category .training-checklist th, .photoshop-category .training-checklist .training-checklist-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial-client-name, .photoshop-category .testimonials .category-testimonial-course-name, .photoshop-category .paragraph-header, .illustrator-category .banner-row .banner-text .banner-sub-header, .illustrator-category .sw-ver, .illustrator-category .course-item .course-item-info,
 .illustrator-category .course-item .course-book-now, .illustrator-category .training-checklist th, .illustrator-category .training-checklist .training-checklist-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial-client-name, .illustrator-category .testimonials .category-testimonial-course-name, .illustrator-category .paragraph-header, .acrobat-category .banner-row .banner-text .banner-sub-header, .acrobat-category .sw-ver, .acrobat-category .course-item .course-item-info,
 .acrobat-category .course-item .course-book-now, .acrobat-category .training-checklist th, .acrobat-category .training-checklist .training-checklist-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial-client-name, .acrobat-category .testimonials .category-testimonial-course-name, .acrobat-category .paragraph-header, .digital-publishing-category .banner-row .banner-text .banner-sub-header, .digital-publishing-category .sw-ver, .digital-publishing-category .course-item .course-item-info,
@@ -10833,13 +10833,13 @@ html {
 }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
-.custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .part-time-options, .indesign-course .overview-list .course-specific, .indesign-course .overview-list .overview-list-data span, .indesign-course .course-outline-block ul li, .indesign-course .course-dates .date, .photoshop-category .course-item .course-item-description, .photoshop-category .course-item .course-item-fee, .photoshop-category .training-checklist .note, .photoshop-category .training-checklist .foot-note, .photoshop-category .part-time-options, .illustrator-category .course-item .course-item-description, .illustrator-category .course-item .course-item-fee, .illustrator-category .training-checklist .note, .illustrator-category .training-checklist .foot-note, .illustrator-category .part-time-options, .acrobat-category .course-item .course-item-description, .acrobat-category .course-item .course-item-fee, .acrobat-category .training-checklist .note, .acrobat-category .training-checklist .foot-note, .acrobat-category .part-time-options, .digital-publishing-category .course-item .course-item-description, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .training-checklist .note, .digital-publishing-category .training-checklist .foot-note, .digital-publishing-category .part-time-options, .flash-category .course-item .course-item-description, .flash-category .course-item .course-item-fee, .flash-category .training-checklist .note, .flash-category .training-checklist .foot-note, .flash-category .part-time-options, .html-css-category .course-item .course-item-description, .html-css-category .course-item .course-item-fee, .html-css-category .training-checklist .note, .html-css-category .training-checklist .foot-note, .html-css-category .part-time-options, .dreamweaver-category .course-item .course-item-description, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .training-checklist .note, .dreamweaver-category .training-checklist .foot-note, .dreamweaver-category .part-time-options, .wordpress-category .course-item .course-item-description, .wordpress-category .course-item .course-item-fee, .wordpress-category .training-checklist .note, .wordpress-category .training-checklist .foot-note, .wordpress-category .part-time-options, .javascript-jquery-category .course-item .course-item-description, .javascript-jquery-category .course-item .course-item-fee, .javascript-jquery-category .training-checklist .note, .javascript-jquery-category .training-checklist .foot-note, .javascript-jquery-category .part-time-options, .after-effects-category .course-item .course-item-description, .after-effects-category .course-item .course-item-fee, .after-effects-category .training-checklist .note, .after-effects-category .training-checklist .foot-note, .after-effects-category .part-time-options, .premiere-pro-category .course-item .course-item-description, .premiere-pro-category .course-item .course-item-fee, .premiere-pro-category .training-checklist .note, .premiere-pro-category .training-checklist .foot-note, .premiere-pro-category .part-time-options, .captivate-category .course-item .course-item-description, .captivate-category .course-item .course-item-fee, .captivate-category .training-checklist .note, .captivate-category .training-checklist .foot-note, .captivate-category .part-time-options, .cdt-calendar .training-checklist .note, .cdt-calendar .training-checklist .foot-note {
+.custom-breadcrumbs, .indesign-category .course-item .course-item-description, .indesign-category .course-item .course-item-fee, .indesign-category .training-checklist .note, .indesign-category .training-checklist .foot-note, .indesign-category .part-time-options, .indesign-course .overview-list .course-specific, .indesign-course .overview-list .overview-list-data span, .indesign-course .course-outline-block ul li, .photoshop-category .course-item .course-item-description, .photoshop-category .course-item .course-item-fee, .photoshop-category .training-checklist .note, .photoshop-category .training-checklist .foot-note, .photoshop-category .part-time-options, .illustrator-category .course-item .course-item-description, .illustrator-category .course-item .course-item-fee, .illustrator-category .training-checklist .note, .illustrator-category .training-checklist .foot-note, .illustrator-category .part-time-options, .acrobat-category .course-item .course-item-description, .acrobat-category .course-item .course-item-fee, .acrobat-category .training-checklist .note, .acrobat-category .training-checklist .foot-note, .acrobat-category .part-time-options, .digital-publishing-category .course-item .course-item-description, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .training-checklist .note, .digital-publishing-category .training-checklist .foot-note, .digital-publishing-category .part-time-options, .flash-category .course-item .course-item-description, .flash-category .course-item .course-item-fee, .flash-category .training-checklist .note, .flash-category .training-checklist .foot-note, .flash-category .part-time-options, .html-css-category .course-item .course-item-description, .html-css-category .course-item .course-item-fee, .html-css-category .training-checklist .note, .html-css-category .training-checklist .foot-note, .html-css-category .part-time-options, .dreamweaver-category .course-item .course-item-description, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .training-checklist .note, .dreamweaver-category .training-checklist .foot-note, .dreamweaver-category .part-time-options, .wordpress-category .course-item .course-item-description, .wordpress-category .course-item .course-item-fee, .wordpress-category .training-checklist .note, .wordpress-category .training-checklist .foot-note, .wordpress-category .part-time-options, .javascript-jquery-category .course-item .course-item-description, .javascript-jquery-category .course-item .course-item-fee, .javascript-jquery-category .training-checklist .note, .javascript-jquery-category .training-checklist .foot-note, .javascript-jquery-category .part-time-options, .after-effects-category .course-item .course-item-description, .after-effects-category .course-item .course-item-fee, .after-effects-category .training-checklist .note, .after-effects-category .training-checklist .foot-note, .after-effects-category .part-time-options, .premiere-pro-category .course-item .course-item-description, .premiere-pro-category .course-item .course-item-fee, .premiere-pro-category .training-checklist .note, .premiere-pro-category .training-checklist .foot-note, .premiere-pro-category .part-time-options, .captivate-category .course-item .course-item-description, .captivate-category .course-item .course-item-fee, .captivate-category .training-checklist .note, .captivate-category .training-checklist .foot-note, .captivate-category .part-time-options, .cdt-calendar .training-checklist .note, .cdt-calendar .training-checklist .foot-note {
   font-size: 0.8125em;
   line-height: 1.84615em;
 }
 
 /* line 84, ../scss/_custom/_custom-fonts.scss */
-h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .course-dates h3, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .seminars-ad .seminars-ad-title, .illustrator-category .seminars-ad .seminars-ad-title, .acrobat-category .seminars-ad .seminars-ad-title, .digital-publishing-category .seminars-ad .seminars-ad-title, .flash-category .seminars-ad .seminars-ad-title, .html-css-category .seminars-ad .seminars-ad-title, .dreamweaver-category .seminars-ad .seminars-ad-title, .wordpress-category .seminars-ad .seminars-ad-title, .javascript-jquery-category .seminars-ad .seminars-ad-title, .after-effects-category .seminars-ad .seminars-ad-title, .premiere-pro-category .seminars-ad .seminars-ad-title, .captivate-category .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3 {
+h4, .indesign-category .seminars-ad .seminars-ad-title, .indesign-course .seminars-ad .seminars-ad-title, .photoshop-category .seminars-ad .seminars-ad-title, .illustrator-category .seminars-ad .seminars-ad-title, .acrobat-category .seminars-ad .seminars-ad-title, .digital-publishing-category .seminars-ad .seminars-ad-title, .flash-category .seminars-ad .seminars-ad-title, .html-css-category .seminars-ad .seminars-ad-title, .dreamweaver-category .seminars-ad .seminars-ad-title, .wordpress-category .seminars-ad .seminars-ad-title, .javascript-jquery-category .seminars-ad .seminars-ad-title, .after-effects-category .seminars-ad .seminars-ad-title, .premiere-pro-category .seminars-ad .seminars-ad-title, .captivate-category .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3 {
   font-size: 1em;
   line-height: 1.5em;
 }
@@ -13989,50 +13989,26 @@ body {
   margin-bottom: 12px;
 }
 /* line 271, ../scss/_custom/components/training/_course.scss */
-.indesign-course .color-specific,
-.indesign-course .course-length {
-  color: #c42a7c;
-  line-height: 1em;
-  display: inline-block;
-}
-/* line 278, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-length {
   font-size: 14px;
 }
-/* line 283, ../scss/_custom/components/training/_course.scss */
+/* line 276, ../scss/_custom/components/training/_course.scss */
 .indesign-course .course-price-info {
   margin-bottom: 24px;
 }
-/* line 288, ../scss/_custom/components/training/_course.scss */
-.indesign-course .course-dates li {
-  min-width: 7em;
-}
-/* line 297, ../scss/_custom/components/training/_course.scss */
-.indesign-course .course-dates ul {
-  list-style-type: none;
-}
-/* line 301, ../scss/_custom/components/training/_course.scss */
-.indesign-course .course-dates .date {
-  margin-left: -16px;
-}
-/* line 306, ../scss/_custom/components/training/_course.scss */
-.indesign-course .course-dates .date a {
-  color: #c42a7c;
-  font-style: italic;
-}
-/* line 313, ../scss/_custom/components/training/_course.scss */
+/* line 281, ../scss/_custom/components/training/_course.scss */
 .indesign-course .book-now-section {
   padding-top: 24px;
   min-width: 9em;
 }
-/* line 318, ../scss/_custom/components/training/_course.scss */
+/* line 286, ../scss/_custom/components/training/_course.scss */
 .indesign-course .download-text {
   font-size: 14px;
   line-height: 1em;
   margin-left: -10px;
   color: #c42a7c;
 }
-/* line 332, ../scss/_custom/components/training/_course.scss */
+/* line 300, ../scss/_custom/components/training/_course.scss */
 .indesign-course .seminars-ad {
   background-color: #c42a7c;
   color: #fff;
@@ -14062,27 +14038,27 @@ body {
   padding: 2px 8px;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 339, ../scss/_custom/components/training/_course.scss */
+  /* line 307, ../scss/_custom/components/training/_course.scss */
   .indesign-course .lower-aside-section {
     width: 43%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 339, ../scss/_custom/components/training/_course.scss */
+  /* line 307, ../scss/_custom/components/training/_course.scss */
   .indesign-course .lower-aside-section {
     width: 37%;
   }
 }
-/* line 356, ../scss/_custom/components/training/_course.scss */
+/* line 324, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training .prefer-custom-training-text {
   margin-bottom: 16px;
   margin-top: -9px;
 }
-/* line 361, ../scss/_custom/components/training/_course.scss */
+/* line 329, ../scss/_custom/components/training/_course.scss */
 .indesign-course .custom-training .read-more-btn {
   margin-top: -6px;
 }
-/* line 367, ../scss/_custom/components/training/_course.scss */
+/* line 335, ../scss/_custom/components/training/_course.scss */
 .indesign-course .testimonials {
   height: 33em;
   max-width: 30em;
@@ -14143,7 +14119,7 @@ body {
   background-color: rgba(140, 140, 140, 0.5);
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 367, ../scss/_custom/components/training/_course.scss */
+  /* line 335, ../scss/_custom/components/training/_course.scss */
   .indesign-course .testimonials {
     height: 87em;
   }
