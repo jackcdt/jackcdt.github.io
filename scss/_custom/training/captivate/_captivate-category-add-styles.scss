@@ -8,7 +8,7 @@ $captivate-category-spacing: 40px;
 .captivate-category {
     $map: sprite-map("training/captivate/captivate-category/*.png", $spacing: $captivate-category-spacing); /*empty comment*/ 
     $sprite-width: 185px;
-    $sprite-height: 533px;
+    $sprite-height: 712px;
 
     .cp-ess { 
         @include captivate-category-sprite(cp-ess); 
@@ -46,7 +46,7 @@ $captivate-category-spacing: 40px;
     .cp-whatsnew {
         @include captivate-category-sprite(cp-whatsnew); 
         @include responsive-sprite($map, cp-whatsnew, $sprite-width, $sprite-height, 5%);
-        margin: -7px 0 0 12px;
+        margin: -7px -7px 0 12px;
         min-width: 54px;
         min-height: 52px;
     }
@@ -57,6 +57,11 @@ $captivate-category-spacing: 40px;
         margin: -5px 15px 15px;
         min-width: 36px;
         min-height: 36px;
+    } 
+
+    .cap-consult {
+        @include captivate-category-sprite(cap-consult); 
+        @include responsive-sprite($map, cap-consult, $sprite-width, $sprite-height, 95%);
     } 
 
     .package-training-logo {

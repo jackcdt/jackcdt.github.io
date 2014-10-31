@@ -20847,8 +20847,29 @@ body {
 @media only screen and (min-width: 64.063em) {
   /* line 28, ../scss/_custom/training/captivate/_captivate-category.scss */
   .captivate-category .course-item .course-item-description {
-    height: 14em;
+    height: 16em;
   }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 34, ../scss/_custom/training/captivate/_captivate-category.scss */
+  .captivate-category .captivate-consulting .course-item-description {
+    height: 9em;
+  }
+}
+/* line 40, ../scss/_custom/training/captivate/_captivate-category.scss */
+.captivate-category .captivate-consulting .day-time {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 44, ../scss/_custom/training/captivate/_captivate-category.scss */
+  .captivate-category .category-promo-section {
+    margin-top: 1em;
+  }
+}
+/* line 50, ../scss/_custom/training/captivate/_captivate-category.scss */
+.captivate-category .cap-consult-medium {
+  margin-top: 4.5em;
 }
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */

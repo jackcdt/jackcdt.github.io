@@ -965,14 +965,16 @@ body {
 .captivate-category .custom-training,
 .captivate-category .ps-essentials,
 .captivate-category .cp-adv,
-.captivate-category .cp-whatsnew {
+.captivate-category .cp-whatsnew,
+.captivate-category .cap-consult-medium,
+.captivate-category .cap-consult {
   display: none;
 }
-/* line 12, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+/* line 14, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
 .captivate-category p {
   margin-bottom: 24px;
 }
-/* line 16, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+/* line 18, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
 .captivate-category .category-description-section {
   padding-right: 16px;
   margin-bottom: 0;

@@ -2185,9 +2185,9 @@ body {
   min-height: 36px;
 }
 
-/* line 80, training/captivate/captivate-category/*.png */
-.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials {
-  background-image: url('../images/training/captivate/captivate-category-s74bc8dc9b1.png');
+/* line 88, training/captivate/captivate-category/*.png */
+.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
+  background-image: url('../images/training/captivate/captivate-category-s59d8a1273b.png');
   background-repeat: no-repeat;
 }
 
@@ -2197,7 +2197,7 @@ body {
 }
 /* line 13, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-ess {
-  background-position: 0 -123px;
+  background-position: 0 -302px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -2209,13 +2209,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 284.61538%;
-  background-position: 0 26.17021%;
+  background-position: 0 46.53313%;
   min-width: 56px;
   min-height: 55px;
 }
 /* line 20, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .category-custom-training {
-  background-position: 0 -354px;
+  background-position: 0 -533px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -2227,7 +2227,7 @@ body {
   height: 0;
   padding-bottom: 41.08108%;
   background-size: 100%;
-  background-position: 0 77.46171%;
+  background-position: 0 83.80503%;
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
@@ -2244,7 +2244,7 @@ body {
     height: 0;
     padding-bottom: 26.7027%;
     background-size: 100%;
-    background-position: 0 77.46171%;
+    background-position: 0 83.80503%;
   }
 }
 /* line 32, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
@@ -2255,7 +2255,7 @@ body {
 }
 /* line 38, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-adv {
-  background-position: 0 0;
+  background-position: 0 -179px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -2267,14 +2267,14 @@ body {
   height: 0;
   padding-bottom: 4.71591%;
   background-size: 210.22727%;
-  background-position: 0 0%;
+  background-position: 0 28.45787%;
   margin: -8px 0 0 4px;
   min-width: 52px;
   min-height: 51px;
 }
 /* line 46, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-whatsnew {
-  background-position: 0 -226px;
+  background-position: 0 -405px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -2286,14 +2286,14 @@ body {
   height: 0;
   padding-bottom: 4.94382%;
   background-size: 207.86517%;
-  background-position: 0 50.78652%;
-  margin: -7px 0 0 12px;
+  background-position: 0 64.90385%;
+  margin: -7px -7px 0 12px;
   min-width: 54px;
   min-height: 52px;
 }
 /* line 54, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .ps-essentials {
-  background-position: 0 -470px;
+  background-position: 0 -649px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -2311,6 +2311,22 @@ body {
   min-height: 36px;
 }
 /* line 62, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cap-consult {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 95%;
+  display: block;
+  height: 0;
+  padding-bottom: 71.37838%;
+  background-size: 100%;
+  background-position: 0 0%;
+}
+/* line 67, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .package-training-logo {
   margin: -5px 15px 15px;
   min-width: 36px;
