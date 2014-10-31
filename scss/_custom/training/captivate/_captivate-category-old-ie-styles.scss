@@ -1,0 +1,20 @@
+/* Push up the custom training to compensate for no image */
+.captivate-category {
+    /* Hide all sprites */
+    .cp-ess, 
+    .custom-training, 
+    .ps-essentials, 
+    .cp-adv, 
+    .cp-whatsnew {
+        display: none;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+
+    .category-description-section {
+        padding-right: 16px;
+        margin-bottom: 0;
+    }
+}

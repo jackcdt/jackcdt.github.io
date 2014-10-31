@@ -2185,6 +2185,138 @@ body {
   min-height: 36px;
 }
 
+/* line 80, training/captivate/captivate-category/*.png */
+.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials {
+  background-image: url('../images/training/captivate/captivate-category-s74bc8dc9b1.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-ess {
+  background-position: 0 -123px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 284.61538%;
+  background-position: 0 26.17021%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .category-custom-training {
+  background-position: 0 -354px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 77.46171%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+  .captivate-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 77.46171%;
+  }
+}
+/* line 32, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-ess-course {
+  margin: 2px 0 0 15px;
+  min-width: 40px;
+  min-height: 40px;
+}
+/* line 38, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-adv {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.71591%;
+  background-size: 210.22727%;
+  background-position: 0 0%;
+  margin: -8px 0 0 4px;
+  min-width: 52px;
+  min-height: 51px;
+}
+/* line 46, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-whatsnew {
+  background-position: 0 -226px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.94382%;
+  background-size: 207.86517%;
+  background-position: 0 50.78652%;
+  margin: -7px 0 0 12px;
+  min-width: 54px;
+  min-height: 52px;
+}
+/* line 54, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .ps-essentials {
+  background-position: 0 -470px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 62, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images/admin/calendar-s4dacfd9bea.png');

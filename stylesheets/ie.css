@@ -954,3 +954,26 @@ body {
   padding-right: 16px;
   margin-bottom: 0;
 }
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+.captivate-category {
+  /* Hide all sprites */
+}
+/* line 4, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+.captivate-category .cp-ess,
+.captivate-category .custom-training,
+.captivate-category .ps-essentials,
+.captivate-category .cp-adv,
+.captivate-category .cp-whatsnew {
+  display: none;
+}
+/* line 12, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+.captivate-category p {
+  margin-bottom: 24px;
+}
+/* line 16, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
+.captivate-category .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0;
+}
