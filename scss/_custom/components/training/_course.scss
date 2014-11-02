@@ -254,6 +254,11 @@ $border-color: #2C2C2C;
         @media #{$small-only} {
             width: 80%;
         }
+
+        .color-specific,
+        .course-length {
+            color: $color;
+        }
     }
 
     .course-dates-city-block {
