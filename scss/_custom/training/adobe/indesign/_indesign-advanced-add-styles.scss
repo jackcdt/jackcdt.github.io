@@ -1,0 +1,117 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$indesign-advanced-spacing: 40px; 
+
+@import "training/adobe/indesign/indesign-advanced/*.png";  
+
+.indesign-advanced-course {
+    $map: sprite-map("training/adobe/indesign/indesign-advanced/*.png", $spacing: $indesign-advanced-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 1291px;
+
+    .course-classrom { 
+        @include indesign-advanced-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include indesign-advanced-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .indesign-cc-cs6 {
+        @include indesign-advanced-sprite(indesign-cc-cs6); 
+        @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
+        min-width: 115px;
+        min-height: 93px; 
+        float: right;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include indesign-advanced-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .id-advanced {
+        @include indesign-advanced-sprite(id-advanced); 
+        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+
+        margin-top: 20px !important;
+        min-width: 65px;
+        min-height: 63px; 
+    }
+ 
+    .id-interactivity {
+        @include indesign-advanced-sprite(id-interactivity); 
+        @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 5px;
+        margin-top: -12px;
+        min-width: 66px;
+        min-height: 57px;
+    }
+
+    .id-ipad {
+        @include indesign-advanced-sprite(id-ipad); 
+        @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+        min-width: 58px;
+        min-height: 50px;
+    }
+
+    .id-longdocuments {
+        @include indesign-advanced-sprite(id-longdocuments); 
+        @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+        min-width: 66px;
+        min-height: 50px;
+    }
+
+    .id-essentials {
+        @include indesign-advanced-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin: -5px 15px 15px; 
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .ps-ess {
+        @include indesign-advanced-sprite(ps-ess); 
+        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+        margin: -5px 15px 15px; 
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .il-ess {
+        @include indesign-advanced-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        margin: -5px 15px 15px; 
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    @include btn-shadow($indesign-color);
+}

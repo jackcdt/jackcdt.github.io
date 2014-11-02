@@ -206,7 +206,7 @@ $border-color: #2C2C2C;
     }
 
     .related-course {
-        max-width: 5em;
+        max-width: 7em;
     }
 
     .pricing-table, .title, .description {
@@ -301,6 +301,10 @@ $border-color: #2C2C2C;
         @include seminars-ad($color); 
 
         margin-bottom: $margin-bottom-default / 4;
+
+        @media #{$small-only} {
+            width: 80%;
+        }
     }
 
     /* Side bar - custom training */

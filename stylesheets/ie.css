@@ -711,16 +711,41 @@ body {
 }
 
 /* line 3, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
-.indesign-course {
+.indesign-essentials-course {
   /* Hide all sprites */
 }
 /* line 6, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
-.indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .course-custom-training-logo, .indesign-course .id-advanced,
-.indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess, .indesign-course .and {
+.indesign-essentials-course .id-essentials-framed, .indesign-essentials-course .course-classrom, .indesign-essentials-course .pdf, .indesign-essentials-course .indesign-cc-cs6, .indesign-essentials-course .course-custom-training-logo, .indesign-essentials-course .id-advanced,
+.indesign-essentials-course .id-essentials, .indesign-essentials-course .ps-ess, .indesign-essentials-course .il-ess, .indesign-essentials-course .and {
   display: none !important;
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
-.indesign-course .book-now-btn {
+.indesign-essentials-course .book-now-btn {
+  background-color: #c42a7c;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
+.indesign-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
+.indesign-advanced-course .id-essentials-framed, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .indesign-cc-cs6, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced,
+.indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess, .indesign-advanced-course .and {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
+.indesign-advanced-course .book-now-btn {
   background-color: #c42a7c;
 }
 
