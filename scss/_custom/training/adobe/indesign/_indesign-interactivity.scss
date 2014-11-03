@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.indesign-interactivity-course {
+    @include course($indesign-color); 
+}

@@ -799,6 +799,31 @@ body {
   background-color: #C42A7C;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
+.indesign-interactivity-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
+.indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .indesign-cc-cs6, .indesign-interactivity-course .custom-training, .indesign-interactivity-course .id-advanced,
+.indesign-interactivity-course .id-interactivity, .indesign-interactivity-course id-ipad {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
+.indesign-interactivity-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
 .photoshop-category {
