@@ -3801,15 +3801,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/illustrator-lite.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/illustrator-lite.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/images\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5148,6 +5139,17 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-essentials\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57467,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10210,29 +10212,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training-courses\/acrobat-forms.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/acrobat-forms.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training-courses\/advanced-indesign-long-documents.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training-courses\/advanced-indesign-long-documents.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/training-courses\/illustrator-training-advanced.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/training-courses\/illustrator-training-advanced.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/training-courses\/illustrator-training-intro.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/training-courses\/illustrator-training-intro.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
