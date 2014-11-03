@@ -1034,6 +1034,30 @@ body {
   background-color: #fa9a02;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-old-ie-styles.scss */
+.illustrator-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-old-ie-styles.scss */
+.illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .custom-training, .illustrator-advanced-course .il-advanced {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-old-ie-styles.scss */
+.illustrator-advanced-course .book-now-btn {
+  background-color: #fa9a02;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
 .acrobat-category {
