@@ -868,6 +868,31 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-old-ie-styles.scss */
+.photoshop-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-old-ie-styles.scss */
+.photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .custom-training, .photoshop-essentials-course .id-essentials,
+.photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .il-ess, .photoshop-essentials-course .and {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-old-ie-styles.scss */
+.photoshop-essentials-course .book-now-btn {
+  background-color: #79bdfe;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
 .illustrator-category {

@@ -39,16 +39,6 @@ $XX-spacing: 40px;
         top: -3px;
     }
 
-    .indesign-cc-cs6 {
-        @include XX-sprite(indesign-cc-cs6); 
-        @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
-        min-width: 115px;
-        min-height: 93px; 
-        float: right;
-        margin-right: -15px;
-        margin-top: -10px;
-    }
-
     .course-custom-training-logo {
         // Don't forget to change the name of the image for every page
         @include XX-sprite(custom-training); 

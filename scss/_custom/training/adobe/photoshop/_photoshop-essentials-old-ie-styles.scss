@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.photoshop-essentials-course {
+
+    /* Hide all sprites */
+    .ps-essentials-framed, .course-classrom, .pdf, .custom-training, .id-essentials,
+    .ps-essentials, .ps-advanced, .il-ess, .and {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $photoshop-color;
+    } 
+}
