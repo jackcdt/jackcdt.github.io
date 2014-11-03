@@ -1095,6 +1095,30 @@ body {
   background-color: #d82631;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-old-ie-styles.scss */
+.acrobat-pdfforms-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-old-ie-styles.scss */
+.acrobat-pdfforms-course .acrobat-essentials, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .custom-training, .acrobat-pdfforms-course .acrobat-pdfforms {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-old-ie-styles.scss */
+.acrobat-pdfforms-course .book-now-btn {
+  background-color: #d82631;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-old-ie-styles.scss */
 .digital-publishing-category {

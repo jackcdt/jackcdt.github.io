@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.acrobat-pdfforms-course {
+
+    /* Hide all sprites */
+    .acrobat-essentials, .course-classrom, .pdf, .custom-training, .acrobat-pdfforms {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $acrobat-color;
+    } 
+}
