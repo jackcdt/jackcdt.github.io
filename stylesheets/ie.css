@@ -1135,6 +1135,31 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .custom-training, .indesign-to-ipad-course .eg-essentials,
+.indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .id-ipad {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
 .flash-category {
