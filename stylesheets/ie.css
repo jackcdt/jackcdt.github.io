@@ -893,6 +893,30 @@ body {
   background-color: #79bdfe;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-old-ie-styles.scss */
+.photoshop-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-old-ie-styles.scss */
+.photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .custom-training, .photoshop-advanced-course .ps-advanced {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-old-ie-styles.scss */
+.photoshop-advanced-course .book-now-btn {
+  background-color: #79bdfe;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/illustrator/_illustrator-category-old-ie-styles.scss */
 .illustrator-category {

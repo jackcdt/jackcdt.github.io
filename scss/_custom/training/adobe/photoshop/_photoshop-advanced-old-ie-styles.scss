@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.photoshop-advanced-course {
+
+    /* Hide all sprites */
+    .course-classrom, .pdf, .custom-training, .ps-advanced {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $photoshop-color;
+    } 
+}
