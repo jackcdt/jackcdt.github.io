@@ -1009,6 +1009,31 @@ body {
   background-color: #fa9a02;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
+.illustrator-lite-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
+.illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .custom-training, .illustrator-lite-course .id-lites,
+.illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .il-lite {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
+.illustrator-lite-course .book-now-btn {
+  background-color: #fa9a02;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
 .acrobat-category {
