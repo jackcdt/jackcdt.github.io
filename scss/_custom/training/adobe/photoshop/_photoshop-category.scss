@@ -1,0 +1,27 @@
+@import "../../../components/training/category";
+ 
+.photoshop-category {
+    @include category($photoshop-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 440px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 306px;
+        }
+    } 
+
+    .course-item .course-book-now {
+        background-color: lighten($photoshop-color, 10%); 
+    }
+
+    .ps-retouching-title {
+        margin-top: -8px;
+    }
+} 

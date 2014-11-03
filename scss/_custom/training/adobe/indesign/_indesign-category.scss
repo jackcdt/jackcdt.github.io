@@ -1,20 +1,8 @@
 @import "../../../components/training/category";
  
-// Create sprite using Compass
-@import "compass/utilities/sprites";
-
-$indesign-category-spacing: 40px;
-
-@import "training/adobe/indesign/indesign-category/*.png"; 
- 
-$map: sprite-map("training/adobe/indesign/indesign-category/*.png", $spacing: $indesign-category-spacing); /*empty comment*/ 
-$sprite-width: 185px;
-$sprite-height: 1226px;
-
-$id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
 
 .indesign-category {
-    @include category($id-essentials-framed-height, $map, $sprite-width, $sprite-height, $indesign-color);
+    @include category($indesign-color);
 
     // Media queries are not supported on older IE, to use borders on medium 
     // screens and up - define width in a way all browsers understand
@@ -27,6 +15,12 @@ $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-fram
     .tight-header-2 {
         @media #{$medium-up} {
             width: 283px;
+        }
+    }
+
+    .courses-list {
+        @media #{$large-up} {
+            margin-top: -1em;
         }
     }
 } 

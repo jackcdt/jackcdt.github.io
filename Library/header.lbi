@@ -1,0 +1,254 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">    <!-- Header Start -->
+    <header>
+        <div class="header-banner">
+            <div class="row header-banner-container header-logos">
+                <div class="small-6 medium-2 columns cdt-logo"></div>
+                <div class="medium-2 columns show-for-medium-up aatc-logo"></div>
+                <div class="medium-3 columns training-text">
+                    Training at your office
+                    <br/>or our computer labs
+                </div>
+                <div class="small-6 medium-3 columns book-now-col book-now"></div>
+                <div class="medium-1 columns show-for-medium-up years-in-business"></div>
+            </div>
+            <!--End header-logos -->
+        </div>
+        <!-- End header-banner -->
+    </header>
+    <!-- Header End -->
+    <!-- Megamenu Start --> 
+    <div class="contain-to-grid">
+        <div class="megamenu_container megamenu_dark_bar megamenu_light">
+            <!-- Begin Menu Container -->
+            <div class="row">
+                <ul class="megamenu">
+                    <!-- Begin Mega Menu -->
+<li class="megamenu_button"><a href="#_">&#9776;&nbsp;Menu<span class="right">1300 441 891</span></a>
+                    </li>
+                    <li><a href="#_" class="megamenu_drop">Courses</a> 
+                        <!-- Begin Item -->
+                        <div class="dropdown_fullwidth">
+                            <!-- Begin Item Container -->
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Adobe Graphic Design</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/adobe-indesign-courses.html">InDesign Training</a>
+                                            </li>
+                                            <li><a href="/adobe-photoshop-courses.html">Photoshop Training</a>
+                                            </li>
+                                            <li><a href="/adobe-illustrator-courses.html">Illustrator Training</a>
+                                            </li>
+                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
+                                            </li>
+                                            <li><a href="/adobe-cs6-new-features.html">CC/CS6 New Features</a>
+                                            </li>
+                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Digital Publishing</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/digital-magazine-mobile-devices-training.html">InDesign to iPad/Android</a>
+                                            </li>
+                                            <li><a href="/training-courses/adobe-dps-single-edition-training.html">DPS Single App Publishing</a>
+                                            </li>
+                                            <li><a href="/training-courses/adobe-dps-professional-training.html">DPS Pro App Publishing</a>
+                                            </li>
+                                            <li><a href="/training-courses/indesign-interactivity-training.html">InDesign Interactive PDFs</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Web Design &amp; Development</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/html-training-intro.html">HTML Essentials</a>
+                                            </li>
+                                            <li><a href="/html-courses.html">HTML5 &amp; CSS Courses</a>
+                                            </li>
+                                            <li><a href="/dreamweaver-courses.html">Dreamweaver Training</a>
+                                            </li>
+                                            <li><a href="/web-design-courses.html">Web Design Package</a>
+                                            </li>
+                                            <li><a href="/html-email-courses.html">eNewsletters</a>
+                                            </li>
+                                            <li><a href="/flash-courses.html">Flash Courses</a>
+                                            </li> 
+                                            <li><a href="/training-courses/edge-animate-intro-courses.html">Edge Intro Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/edge-animate-advanced-courses.html">Edge Adv Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/muse-training-intro.html">Muse Training</a>
+                                            </li>
+                                            <li><a href="/wordpress-training-courses.html">WordPress Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/javascript-training.html">JavaScript Courses</a>
+                                            </li>
+                                            <li><a href="/jquery-training.html">jQuery Training</a>
+                                            </li>
+                                            <li><a href="/php-training-courses.html">PHP Courses</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row"> 
+                                    <div class="large-12 columns">
+                                        <h3>Video Editing &amp; Special Effects</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/adobe-after-effects-training.html">After Effects Training</a> 
+                                            </li>
+                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro Courses</a>
+                                            </li>
+                                            <li><a href="/premiere-elements-training.html">Premiere Elements Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>eLearning</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/advanced-captivate-training.html">Captivate Advanced</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Face-to-Face Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="#">LinkedIn for Business</a>
+                                            </li>
+                                            <li><a href="#">Facebook for Business</a>
+                                            </li>
+                                            <li><a href="#">Twitter for Business</a>
+                                            </li>
+                                            <li><a href="#">Social Media &amp; Digital Strategy</a>
+                                            </li>
+                                            <li><a href="#">Google Analytics</a>
+                                            </li>
+                                            <li><a href="#">SEO (Search Engine Optimisation)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Self Paced Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="#">LinkedIn for Business</a>
+                                            </li>
+                                            <li><a href="#">Facebook for Business</a>
+                                            </li>
+                                            <li><a href="#">Twitter for Business</a>
+                                            </li>
+                                            <li><a href="#">Social Media &amp; Digital Strategy</a>
+                                            </li>
+                                            <li><a href="#">Google Analytics</a>
+                                            </li>
+                                            <li><a href="#">SEO (Search Engine Optimisation)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">About</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_2columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="dropdown_flyout">
+                                <li><a href="#_">About Us</a>
+                                </li>
+                                <li><a href="#_">FAQs</a>
+                                </li>
+                                <li><a href="#_">Contact Us</a>
+                                </li>
+                                <li><a href="#_">Testimonials</a>
+                                </li>
+                                <li><a href="#_">Refreshers</a>
+                                </li>
+                                <li><a href="#_">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#">Deals</a>
+                    </li>
+                    <li><a href="#">Custom Training</a> 
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#">Course Dates</a>
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">Locations</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_3columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="list_unstyled">
+                                <li><a href="#_">Sydney | 60 York St</a>
+                                </li>
+                                <li><a href="#_">Melbourne | 20 Queen St</a>
+                                </li>
+                                <li><a href="#_">Brisbane | 320 Adelaide St</a>
+                                </li>
+                                <li><a href="#_">Canberra | 33 Ainslie Pl</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">Tips</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_3columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="list_unstyled">
+                                <li><a href="#_">Adobe Software Versions</a>
+                                </li>
+                                <li><a href="#_">Desktop Publishing</a>
+                                </li>
+                                <li><a href="#_">Digital Publishing | DPS</a>
+                                </li>
+                                <li><a href="#_">PDF, App or eBook?</a>
+                                </li>
+                                <li><a href="#_">Web Design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li class="right hide-for-small-only phone-number">1300 441 891</li>
+                </ul>
+                <!-- End Mega Menu -->
+            </div>
+        </div>
+        <!-- End Menu Container -->
+    </div>
+    <!-- Megamenu End -->

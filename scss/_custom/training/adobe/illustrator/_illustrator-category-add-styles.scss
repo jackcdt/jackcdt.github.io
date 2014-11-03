@@ -1,0 +1,85 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$illustrator-category-spacing: 40px; 
+
+@import "training/adobe/illustrator/illustrator-category/*.png"; 
+.illustrator-category {
+    $map: sprite-map("training/adobe/illustrator/illustrator-category/*.png", $spacing: $illustrator-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 718px;
+
+    .il-essentials-framed { 
+        @include illustrator-category-sprite(il-essentials-framed); 
+        @include responsive-sprite($map, il-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 59px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include illustrator-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .il-essentials {
+        @include illustrator-category-sprite(il-essentials); 
+        @include responsive-sprite($map, il-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 40px;
+        min-height: 45px;    
+    }
+
+    .il-lite {
+        @include illustrator-category-sprite(il-lite); 
+        @include responsive-sprite($map, il-lite, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 40px;
+        min-height: 44px;    
+    }
+
+    .il-advanced {
+        @include illustrator-category-sprite(il-advanced); 
+        @include responsive-sprite($map, il-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 52px;
+        min-height: 48px;    
+    } 
+
+    .training-packages-images {
+        @media (min-width: 1025px) {
+            margin: 6em 0 0 1em;
+        }           
+    }
+    
+    .package-indesign-ess {
+        @include illustrator-category-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px; 
+    }
+
+    .package-illustrator-ess {
+        @include illustrator-category-sprite(il-essentials); 
+        @include responsive-sprite($map, il-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+
+    .package-photoshop-ess {
+        @include illustrator-category-sprite(ps-essentials); 
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+} 

@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.photoshop-lite-course {
+
+    /* Hide all sprites */
+    .course-classrom, .pdf, .custom-training, .ps-lite,
+    .ps-essentials, .id-lite, .il-lite {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $photoshop-color;
+    } 
+}

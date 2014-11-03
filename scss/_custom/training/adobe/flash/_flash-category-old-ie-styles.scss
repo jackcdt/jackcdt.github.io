@@ -1,0 +1,11 @@
+/* Push up the custom training to compensate for no image */
+.flash-category {
+    /* Hide all sprites */
+    .fl-essentials-framed, 
+    .custom-training, 
+    .fl-essentials, 
+    .fl-banners, 
+    .fl-actionscript {
+        display: none;
+    }
+}

@@ -29,17 +29,22 @@
     }
 
     .course-item-header {        
+        margin-bottom: $margin-bottom-default / 2;
+
         @media #{$large-up} {
              height: 3.5em;
+             margin-bottom: 0; 
         }        
     }
 
     .course-item-description {
         @extend %t-small;
         @include adjust-leading-to(1, $base-font-size);
+        margin-bottom: $margin-bottom-default / 2;
 
         @media #{$large-up} {
              height: 12em;
+             margin-bottom: 0;
         }        
     }
 
@@ -70,6 +75,7 @@
 
     .big {
         @extend %t-large;
+        @extend %t-regular;
         line-height: 1.5em;
     }
 

@@ -4,7 +4,7 @@
 // Create sprite using Compass
 @import "compass/utilities/sprites";
 @import "../images/header-footer/*.png";
-
+ 
 $header-footer-spacing: 20px;
 
 $cdt-logo-height: header-footer-sprite-height(cdt-logo);
@@ -88,19 +88,30 @@ $banner-border-height: ($banner-height-with-border - $banner-content-height + $b
     color: #fff;
     //border-bottom: #4F4E4E solid ($banner-height-with-border - $banner-content-height + $base-line-height);
 }
-
-.header-banner-border {
-    height: $banner-border-height;
-    background-color: #4F4E4E;
-    color: #fff;
-
-    .phone-no {
-        float: right;
-    }
+.contain-to-grid ul.right li.contact-no a {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: $base-font-size;
 }
+
+
 
 .header-banner-container {
     position: relative;
     overflow: visible;
-    z-index: 1;
+    z-index: 99999;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

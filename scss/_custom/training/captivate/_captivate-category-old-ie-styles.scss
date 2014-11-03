@@ -1,0 +1,13 @@
+/* Push up the custom training to compensate for no image */
+.captivate-category {
+    /* Hide all sprites */
+    .cp-ess, 
+    .custom-training, 
+    .ps-essentials, 
+    .cp-adv, 
+    .cp-whatsnew,
+    .cap-consult-medium,
+    .cap-consult {
+        display: none;
+    }
+}

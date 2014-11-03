@@ -1,0 +1,61 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$flash-category-spacing: 40px; 
+
+@import "training/adobe/flash/flash-category/*.png"; 
+.flash-category {
+    $map: sprite-map("training/adobe/flash/flash-category/*.png", $spacing: $flash-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 490px;
+
+    .fl-essentials-framed { 
+        @include flash-category-sprite(fl-essentials-framed); 
+        @include responsive-sprite($map, fl-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include flash-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .fl-essentials {
+        @include flash-category-sprite(fl-essentials); 
+        @include responsive-sprite($map, fl-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 41px;    
+    }
+
+    .fl-actionscript {
+        @include flash-category-sprite(fl-actionscript); 
+        @include responsive-sprite($map, fl-actionscript, $sprite-width, $sprite-height, 5%);
+        margin-left: 5px;
+        min-width: 60px;
+        min-height: 47px;    
+    }
+
+    .fl-actionscript-title {
+        margin-top: -6px;
+    }
+
+    .fl-banners {
+        @include flash-category-sprite(fl-banners); 
+        @include responsive-sprite($map, fl-banners, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 56px;
+        min-height: 57px;  
+    } 
+} 

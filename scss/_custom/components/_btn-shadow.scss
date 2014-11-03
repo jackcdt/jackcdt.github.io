@@ -9,7 +9,7 @@
     $box-shadow-color: lighten($color, 50%);
     $border-color: darken($color, 15%);
 
-    .book-now-btn {
+    .validate-participants {
             -moz-box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
             -webkit-box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
             box-shadow:inset 0px 1px 0px 0px $box-shadow-color;
@@ -31,14 +31,14 @@
             @include set-border-radius(4px);
     }
 
-    .book-now-btn:hover {
+    .validate-participants:hover {
         background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, $color), color-stop(1, $lighter-color) );
         background:-moz-linear-gradient( center top, $color 5%, $lighter-color 100% );
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
         background-color:$color;
     }
 
-    .book-now-btn:active {
+    .validate-participants:active {
         position:relative;
         top:1px;
     }

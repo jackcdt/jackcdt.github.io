@@ -1,97 +1,1389 @@
 <!doctype html>
+<html itemscope="City Desktop Training" itemtype="http://schema.org/Organization" lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>City Desktop Traininig</title>
-        <link rel="stylesheet" href="stylesheets/app.css" />
-        <!-- For debug - show baseline grid -->
-        <link rel="stylesheet" href="http://basehold.it/24">
-        <script src="bower_components/modernizr/modernizr.js"></script>
-    </head>
-    <body>
-        <header>
-            <div class="header-banner">
-                <div class="row header-banner-container header-logos">
-                    <div class="small-6 medium-2 columns cdt-logo"></div>
-                    <div class="medium-2 columns show-for-medium-up aatc-logo"></div>
-                    <div class="medium-4 columns training-text">
-                        Training at your office<br/> or our computer labs
-                    </div>
-                    <div class="small-6 medium-3 columns book-now-col book-now"></div>
-                    <div class="medium-1 columns show-for-medium-up years-in-business"></div>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <title>City Desktop Traininig</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!--[if !IE]>-->
+    <link href="../../../stylesheets/modern-browsers-styles.css" rel="stylesheet" />
+    <!--<![endif]-->
+    <!--[if lt IE 9]>            
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+            <script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+            <script src="http://html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+            <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+            <link href="/css/ie8.css" rel="stylesheet" /> 
+        <![endif]-->
+    <!--[if IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+        <![endif]-->
+</head>
+
+<body><!-- #BeginLibraryItem "Library/header.lbi" -->    <!-- Header Start -->
+    <header>
+        <div class="header-banner">
+            <div class="row header-banner-container header-logos">
+                <div class="small-6 medium-2 columns cdt-logo"></div>
+                <div class="medium-2 columns show-for-medium-up aatc-logo"></div>
+                <div class="medium-3 columns training-text">
+                    Training at your office
+                    <br/>or our computer labs
                 </div>
+                <div class="small-6 medium-3 columns book-now-col book-now"></div>
+                <div class="medium-1 columns show-for-medium-up years-in-business"></div>
             </div>
-            <div class="header-banner-border">
-                <div class="row">
-                    <div class="small-offset-8 small-4 medium-offset-9 medium-2 large-offset-10 large-2 phone-no">
-                        1300 441 891
-                    </div>
-                </div>
-            </div>
-        </header>
-        <nav class="top-bar" data-topbar role="navigation"> 
-            <ul class="title-area"> 
-                <li class="name"> 
-                    <h1><a href="#">My Site</a></h1> 
-                </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> 
-                <li class="toggle-topbar menu-icon">
-                    <a href="#"><span>Menu</span></a>
-                </li> 
-            </ul> 
-            <section class="top-bar-section"> <!-- Right Nav Section --> 
-                <ul class="left">
-                    <li class="has-dropdown"><a href="#">Item 1</a>
-
-                        <ul class="dropdown">
-                          <li><label>Level One</label></li>
-                          <li><a href="#">Sub-item 1</a></li>
-                          <li><a href="#">Sub-item 2</a></li>
-                          <li class="divider"></li>
-                          <li><a href="#">Sub-item 3</a></li>
-                          <li class="has-dropdown"><a href="#">Sub-item 4</a>
-
-                            <ul class="dropdown">
-                              <li><label>Level Two</label></li>
-                              <li class="has-dropdown"><a href="#">Sub-item 1</a>
-
-                                <ul class="dropdown">
-                                  <li><label>Level Three</label></li>
-                                  <li class="has-dropdown"><a href="#">Sub-item 1</a>
-
-                                    <ul class="dropdown">
-                                      <li><label>Level Four</label></li>
-                                      <li><a href="#">Sub-item 1</a></li>
-                                    </ul>
-                                  </li>
-                                  <li><a href="#">Sub-item 2</a></li>
-                                  <li><a href="#">Sub-item 3</a></li>
-                                  <li class="divider"></li>
-                                  <li><a href="#">Sub-item 4</a></li>
-                                </ul>
-                              </li>
-                              <li><a href="#">Sub-item 2</a></li>
-                              <li><a href="#">Sub-item 3</a></li>
-                              <li><a href="#">Sub-item 4</a>
+            <!--End header-logos -->
+        </div>
+        <!-- End header-banner -->
+    </header>
+    <!-- Header End -->
+    <!-- Megamenu Start --> 
+    <div class="contain-to-grid">
+        <div class="megamenu_container megamenu_dark_bar megamenu_light">
+            <!-- Begin Menu Container -->
+            <div class="row">
+                <ul class="megamenu">
+                    <!-- Begin Mega Menu -->
+<li class="megamenu_button"><a href="#_">&#9776;&nbsp;Menu<span class="right">1300 441 891</span></a>
+                    </li>
+                    <li><a href="#_" class="megamenu_drop">Courses</a> 
+                        <!-- Begin Item -->
+                        <div class="dropdown_fullwidth">
+                            <!-- Begin Item Container -->
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Adobe Graphic Design</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/adobe-indesign-courses.html">InDesign Training</a>
+                                            </li>
+                                            <li><a href="/adobe-photoshop-courses.html">Photoshop Training</a>
+                                            </li>
+                                            <li><a href="/adobe-illustrator-courses.html">Illustrator Training</a>
+                                            </li>
+                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
+                                            </li>
+                                            <li><a href="/adobe-cs6-new-features.html">CC/CS6 New Features</a>
+                                            </li>
+                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Digital Publishing</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/digital-magazine-mobile-devices-training.html">InDesign to iPad/Android</a>
+                                            </li>
+                                            <li><a href="/training-courses/adobe-dps-single-edition-training.html">DPS Single App Publishing</a>
+                                            </li>
+                                            <li><a href="/training-courses/adobe-dps-professional-training.html">DPS Pro App Publishing</a>
+                                            </li>
+                                            <li><a href="/training-courses/indesign-interactivity-training.html">InDesign Interactive PDFs</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Web Design &amp; Development</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/html-training-intro.html">HTML Essentials</a>
+                                            </li>
+                                            <li><a href="/html-courses.html">HTML5 &amp; CSS Courses</a>
+                                            </li>
+                                            <li><a href="/dreamweaver-courses.html">Dreamweaver Training</a>
+                                            </li>
+                                            <li><a href="/web-design-courses.html">Web Design Package</a>
+                                            </li>
+                                            <li><a href="/html-email-courses.html">eNewsletters</a>
+                                            </li>
+                                            <li><a href="/flash-courses.html">Flash Courses</a>
+                                            </li> 
+                                            <li><a href="/training-courses/edge-animate-intro-courses.html">Edge Intro Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/edge-animate-advanced-courses.html">Edge Adv Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/muse-training-intro.html">Muse Training</a>
+                                            </li>
+                                            <li><a href="/wordpress-training-courses.html">WordPress Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/javascript-training.html">JavaScript Courses</a>
+                                            </li>
+                                            <li><a href="/jquery-training.html">jQuery Training</a>
+                                            </li>
+                                            <li><a href="/php-training-courses.html">PHP Courses</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row"> 
+                                    <div class="large-12 columns">
+                                        <h3>Video Editing &amp; Special Effects</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/adobe-after-effects-training.html">After Effects Training</a> 
+                                            </li>
+                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro Courses</a>
+                                            </li>
+                                            <li><a href="/premiere-elements-training.html">Premiere Elements Courses</a>
+                                            </li>
+                                            <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>eLearning</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/advanced-captivate-training.html">Captivate Advanced</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="medium-3 columns">
+                                <!-- Heading 1 -->
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Face-to-Face Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="#">LinkedIn for Business</a>
+                                            </li>
+                                            <li><a href="#">Facebook for Business</a>
+                                            </li>
+                                            <li><a href="#">Twitter for Business</a>
+                                            </li>
+                                            <li><a href="#">Social Media &amp; Digital Strategy</a>
+                                            </li>
+                                            <li><a href="#">Google Analytics</a>
+                                            </li>
+                                            <li><a href="#">SEO (Search Engine Optimisation)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Self Paced Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="#">LinkedIn for Business</a>
+                                            </li>
+                                            <li><a href="#">Facebook for Business</a>
+                                            </li>
+                                            <li><a href="#">Twitter for Business</a>
+                                            </li>
+                                            <li><a href="#">Social Media &amp; Digital Strategy</a>
+                                            </li>
+                                            <li><a href="#">Google Analytics</a>
+                                            </li>
+                                            <li><a href="#">SEO (Search Engine Optimisation)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">About</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_2columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="dropdown_flyout">
+                                <li><a href="#_">About Us</a>
+                                </li>
+                                <li><a href="#_">FAQs</a>
+                                </li>
+                                <li><a href="#_">Contact Us</a>
+                                </li>
+                                <li><a href="#_">Testimonials</a>
+                                </li>
+                                <li><a href="#_">Refreshers</a>
+                                </li>
+                                <li><a href="#_">Support</a>
+                                </li>
                             </ul>
-                          </li>
-                          <li><a href="#">Sub-item 5</a></li>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#">Deals</a>
+                    </li>
+                    <li><a href="#">Custom Training</a> 
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#">Course Dates</a>
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">Locations</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_3columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="list_unstyled">
+                                <li><a href="#_">Sydney | 60 York St</a>
+                                </li>
+                                <li><a href="#_">Melbourne | 20 Queen St</a>
+                                </li>
+                                <li><a href="#_">Brisbane | 320 Adelaide St</a>
+                                </li>
+                                <li><a href="#_">Canberra | 33 Ainslie Pl</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li><a href="#_" class="megamenu_drop">Tips</a>
+                        <!-- Begin Item -->
+                        <div class="dropdown_3columns dropdown_container">
+                            <!-- Begin Item Container -->
+                            <ul class="list_unstyled">
+                                <li><a href="#_">Adobe Software Versions</a>
+                                </li>
+                                <li><a href="#_">Desktop Publishing</a>
+                                </li>
+                                <li><a href="#_">Digital Publishing | DPS</a>
+                                </li>
+                                <li><a href="#_">PDF, App or eBook?</a>
+                                </li>
+                                <li><a href="#_">Web Design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Item Container -->
+                    </li>
+                    <!-- End Item -->
+                    <li class="right hide-for-small-only phone-number">1300 441 891</li>
+                </ul>
+                <!-- End Mega Menu -->
+            </div>
+        </div>
+        <!-- End Menu Container -->
+    </div>
+    <!-- Megamenu End -->
+<!-- #EndLibraryItem --><main>
+    <ul class="example-orbit-content hide-for-small-only" data-orbit data-options="animation:slide;
+                  pause_on_hover:true;
+                  animation_speed:500;
+                  navigation_arrows:true;
+                  bullets:false;">
+            <li data-orbit-slide="slider-1">
+                <div class="slider-1">
+                    <div class="row slider-one">
+                        <h1>Training Courses</h1>
+                        <p>for Adobe Software, Video Editing,
+                            <br>Web Design &amp; Development,
+                            <br>Social Media &amp; SEO
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-2">
+                <div class="slider-2">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">Design Production</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/adobe-illustrator-courses.html">
+                                    <img class="sprite-illustrator slider-img" src="images/homepage/landing-page-banner/Illustrator.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/adobe-indesign-courses.html">
+                                    <img class="sprite-indesign slider-img" alt="image" src="images/homepage/landing-page-banner/InDesign.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/adobe-photoshop-courses.html">
+                                    <img class="sprite-photoshop slider-img" alt="image" src="images/homepage/landing-page-banner/Photoshop.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-3">
+                <div class="slider-3">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">Digital Publishing</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/digital-magazine-mobile-devices-training.html">
+                                    <img class="slider-img" src="images/homepage/landing-page-banner/DPS.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/adobe-dps-single-edition-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/singleEdition.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/indesign-to-epubs-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/ePub.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-4">
+                <div class="slider-4">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">Web Design &amp; Development</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/html-training-intro.html">
+                                    <img class="slider-img" src="images/homepage/landing-page-banner/HTML5.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/wordpress-training-courses.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/Wordpress.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/javascript-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/JavaScript.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-5">
+                <div class="slider-5">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">Video Special Effects &amp; Animation</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/adobe-after-effects-training.html">
+                                    <img class="slider-img" src="images/homepage/landing-page-banner/afterEffects.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/adobe-premiere-pro-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/premierePro.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/edge-animate-intro-courses.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/edgeAnimate.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-6">
+                <div class="slider-6">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">eLearning</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/captivate-training.html">
+                                    <img class="slider-img" src="images/homepage/landing-page-banner/captivate1.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/captivate-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/captivate2.png" width="320px">
+                                </a>
+                            </div>
+                            <div class="show-for-large-up course-img-caption">
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/captivate-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/captivate3.png" width="320px">
+                                </a>
+                            </div>
+                            <div class="show-for-large-up course-img-caption">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-orbit-slide="slider-7">
+                <div class="slider-7">
+                    <div class="row learn-banner">
+                        <div class="medium-2 columns">
+                            <img alt="" src="images/homepage/landing-page-banner/learn.png">
+                        </div>
+                        <div class="medium-10 columns">Social Media for Internet Marketing</div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/twitter-training.html">
+                                    <img class="slider-img" src="images/homepage/landing-page-banner/Twitter.png" alt="Image" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/facebook-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/Facebook.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="medium-4 columns slider-columns">
+                            <div class="course-img">
+                                <a href="http://www.cd.com.au/training-courses/linkedin-training.html">
+                                    <img class="slider-img" alt="image" src="images/homepage/landing-page-banner/LinkedIn.png" width="320px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="blue-bar show-for-medium-up">
+            <div class="row">
+                <div class="small-2 columns fb-icon">
+                    <img src="images/homepage/fb_icon.png" alt="">
+                    <img src="images/homepage/tweeter_icon.png" alt="">
+                </div>
+                <div class="small-10 columns custom-txt">
+                    <p class="text-right">Custom training and short courses in SYDNEY, MELBOURNE, BRISBANE &amp; CANBERRA</p>
+                </div>
+            </div>
+        </div>
+        <div class="why-train-bg show-for-medium-up">
+            <div class="row train-with-us">
+                <div class="small-12 columns">
+                    <h3>Why train with us?</h3>
+                </div>
+                <div class="why-train-intro-text">
+                    <div class="why-train-block-left medium-5 columns">
+                        <ul>
+                            <li class="why-train-bullet why-train-bullet-1" itemprop="makesOffer">Certified trainers with real project experience</li>
+                            <li class="why-train-bullet why-train-bullet-2" itemprop="makesOffer">Adobe and Apple Authorised training centre</li>
+                            <li class="why-train-bullet why-train-bullet-3" itemprop="makesOffer">Ultra-modern and central training facilities</li>
                         </ul>
-                      </li>
-                      <li class="divider"></li>
+                        <a href="training/training-benefits.html" class="button tiny learn-more">Learn More</a>
+                    </div>
+                    <div class="why-train-block-right medium-3 columns">
+                        <ul>
+                            <li class="why-train-bullet why-train-bullet-4" itemprop="makesOffer">Free course resit</li>
+                            <li class="why-train-bullet why-train-bullet-5" itemprop="makesOffer">1 year help desk support</li>
+                            <li class="why-train-bullet why-train-bullet-6" itemprop="makesOffer">Small classes</li>
+                        </ul>
+                    </div>
+                    <div class="why-train-block-right medium-4 columns">
+                        <ul>
+                            <li class="why-train-bullet why-train-bullet-7" itemprop="makesOffer">CC, CS6 or CS5 versions</li>
+                            <li class="why-train-bullet why-train-bullet-8" itemprop="makesOffer">Both Mac and PC available*</li>
+                            <li class="why-train-bullet why-train-bullet-9" itemprop="makesOffer">Competitive pricing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row accordion-home">
+            <dl class="accordion" data-accordion>
+                <dd class="accordion-navigation">
+                    <a href="#panel1" class="panel-header">
+                        <span class="plus-minus-icon"></span>Graphic Design Training &amp; Courses</a>
+                    <div id="panel1" class="content active">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Learn best practices and time-saving workflows for Adobe's graphic design programs.</strong>
+                                </p>
+                                <p>Whether you are a beginner or an advanced user, we can help you better utilise the Adobe design applications to create professional documents and marketing materials. Learn from industry experienced and Adobe Certified instructors who are passionate about design.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-indesign.png" alt="InDesign Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-indesign-courses.html">
+                                                <h3>ADOBE INDESIGN</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn Adobe InDesign for print and digital publishing.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-photoshop.png" alt="Photoshop Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-photoshop-courses.html">
+                                                <h3>ADOBE PHOTOSHOP</h3>
+                                            </a>
+                                        </div>
+                                        <p>Photoshop courses for print, web and digital publishing.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-illustrator.png" alt="Illustrator Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-illustrator-courses.html">
+                                                <h3>ADOBE ILLUSTRATOR</h3>
+                                            </a>
+                                        </div>
+                                        <p>Design logos, posters, illustrations, icons, fashion and more.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-acrobat.png" alt="Acrobat Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-acrobat-courses.html">
+                                                <h3>ADOBE ACROBAT</h3>
+                                            </a>
+                                        </div>
+                                        <p>Convert and edit secure PDF documents and create forms.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-whatsnew.png" alt="Adobe CC/CS New Features" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/adobe-cs6-new-features.html">
+                                                <h3 class="two-line">ADOBE CC/CS6 NEW
+                                                    <br>FEATURES</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn Adobe InDesign for print and digital publishing.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-package-design.png" alt="Desktop Publishing Package" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/desktop-publishing-design-courses.html">
+                                                <h3 class="two-line">DESKTOP PUBLISHING
+                                                    <br>PACKAGE</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn Adobe InDesign for print and digital publishing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel2" class="panel-header">
+                        <span class="plus-minus-icon"></span>Digital Publishing</a>
+                    <div id="panel2" class="content <!--[if lte IE 7]>active<![endif]-->">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Create Apps, eBooks and Interactive PDFs.</strong>
+                                </p>
+                                <p>Create interactive magazines, annual reports, cataglogues, sales, promotional, training materials and other apps using the Adobe Digital Publishing Suite.</p>
+                                <p>Use existing InDesign documents to create eBooks and interactive PDFs.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-dps.png" alt="InDesign to iPad" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/digital-magazine-mobile-devices-training.html">
+                                                <h3>INDESIGN TO IPAD</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create apps using the Adobe Digital Publishing Suite (DPS).</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-dps.png" alt="Adobe DPS Single Edition Publishing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/adobe-dps-single-edition-training.html">
+                                                <h3 class="two-line">ADOBE DPS SINGLE
+                                                    <br>EDITION PUBLISHING</h3>
+                                            </a>
+                                        </div>
+                                        <p>You've built your app, now publish it to the App Store.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-dps.png" alt="Adobe DPS Pro Edition Publishing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/adobe-dps-professional-training.html">
+                                                <h3 class="two-line">ADOBE DPS PRO
+                                                    <br>EDITION PUBLISHING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Publishing to multiple devices, analytics and subscriptions.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-indesign.png" alt="InDesign Interactive PDFs" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/indesign-interactivity-training.html">
+                                                <h3 class="two-line">INDESIGN
+                                                    <br>INTERACTIVE PDFS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Include sound, video, animation and interactivity in interactive PDFs.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-epub.png" alt="InDesign to ePub" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/indesign-to-epubs-training.html">
+                                                <h3>INDESIGN TO ePUB</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create eBooks for eReaders such as Amazon Kindle and iBooks on iPad.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel3" class="panel-header">
+                        <span class="plus-minus-icon"></span>Web Design &amp; Development</a>
+                    <div id="panel3" class="content">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Keeping you up-to-date with the latest technology developments for the web, eNewsletters and animation.</strong>
+                                </p>
+                                <p>Whether you are creating static or dynamic websites, we now offer more courses to help you achieve the website you want to design and develop. Courses range from basic HTML and Dreamweaver, to WordPress or learning scripting languages such as JavaScript.</p>
+                                <p>Design and building websites are part of the process. It may also be important to understand SEO (Search Engine Optimisation) - or to understand how to read your site's analytics - see Internet Marketing below for more information.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-html5.png" alt="HTML5 Web Principles" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/html-training-intro.html">
+                                                <h3>HTML5 WEB PRINCIPLES</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn HTML for use with websites, eNewsletters or SEO.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-css3.png" alt="CSS Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/css-training.html">
+                                                <h3>CSS TRAINING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create and style useable, efficient, responsive websites.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-html5-css3.png" alt="HTML5 &amp; CSS3" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/html5-css3-training.html">
+                                                <h3>HTML5 &amp; CSS3</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn the latest advanced techniques for HTML5 &amp; CSS3.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-enewsletter.png" alt="HTML eNewsletters" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/html-email-courses.html">
+                                                <h3 class="two-line">HTML
+                                                    <br>eNEWSLETTERS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Design and produce responsive HTML newsletters.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-wordpress.png" alt="WordPress" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/wordpress-training-courses.html">
+                                                <h3>WORDPRESS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Edit, publish and customise websites with WordPress.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-dreamweaver.png" alt="Adobe Dreamweaver" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/dreamweaver-courses.html">
+                                                <h3 class="two-line">ADOBE
+                                                    <br>DREAMWEAVER</h3>
+                                            </a>
+                                        </div>
+                                        <p>Build responsive sites with Adobe's industry standard software.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-edge-animate.png" alt="Edge Animate" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/edge-animate-intro-courses.html">
+                                                <h3>EDGE ANIMATE</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create animations and interactivity for all devices, including Apple.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-flash.png" alt="Adobe Flash" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/flash-courses.html">
+                                                <h3>ADOBE FLASH</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create web banners, animations &amp; interactive multimedia content.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-muse.png" alt="Adobe Muse" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/muse-training-intro.html">
+                                                <h3>ADOBE MUSE</h3>
+                                            </a>
+                                        </div>
+                                        <p>Build personal websites fast - without having to code!</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-javascript.png" alt="JavaScript" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/javascript-training.html">
+                                                <h3>JAVSCRIPT</h3>
+                                            </a>
+                                        </div>
+                                        <p>An introduction to coding animation, interactivity and interface controls.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-jquery.png" alt="jQuery" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/jquery-training.html">
+                                                <h3>JQUERY</h3>
+                                            </a>
+                                        </div>
+                                        <p>Utilise jQuery libraries for advanced JavaScript site capabilities.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-php.png" alt="PHP Custom Training" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/php-training-courses.html">
+                                                <h3 class="two-line">PHP CUSTOM
+                                                    <br>TRAINING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Build database driven sites, CMSs and e-commerce sites.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel4" class="panel-header">
+                        <span class="plus-minus-icon"></span>Video Editing, Special Effects &amp; Animation</a>
+                    <div id="panel4" class="content">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Produce, edit and add special effects to your videos.</strong>
+                                </p>
+                                <p>Both websites and mobile content are now utilising animations, video and special effects to create a better user experience and understanding of your business.</p>
+                                <p>
+                                    <strong>After Effects, Premiere Pro and Edge Animate are all included in the Creative Cloud!</strong>
+                                </p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-aftereffects.png" alt="Adobe After Effects" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-indesign-courses.html">
+                                                <h3 class="two-line">ADOBE AFTER
+                                                    <br>EFFECTS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create professional cinematic effects and sophisticated motion graphics.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-premiere.png" alt="Adobe Premiere Pro" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/adobe-premiere-pro-training.html">
+                                                <h3 class="two-line">ADOBE PREMIERE
+                                                    <br>PRO</h3>
+                                            </a>
+                                        </div>
+                                        <p>Edit video footage with speed and precision and export to a number of formats.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-final-cut-pro.png" alt="Apple Final Cut Pro" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="adobe-illustrator-courses.html">
+                                                <h3 class="two-line">APPLE FINAL CUT
+                                                    <br>PRO</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn Apple's powerful video editing and special effects software.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-edge-animate.png" alt="Edge Animate" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/training-courses/edge-animate-intro-courses.html">
+                                                <h3>EDGE ANIMATE</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create animations and interactivity for all devices, including Apple.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-flash.png" alt="Adobe Flash" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/flash-courses.html">
+                                                <h3>ADOBE FLASH</h3>
+                                            </a>
+                                        </div>
+                                        <p>Animation and interactivity for e-learning, games and the web.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel5" class="panel-header">
+                        <span class="plus-minus-icon"></span>e-Learning</a>
+                    <div id="panel5" class="content">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Create your own eLearning projects using Adobe Captivate.</strong>
+                                </p>
+                                <p>With Adobe Captivate, create professional eLearning projects and learn how to produce interactive simulations, software demonstrations, animation effects, assessments and quizzes.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-captivate.png" alt="Adobe Captivate" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/captivate-training.html">
+                                                <h3>ADOBE CAPTIVATE</h3>
+                                            </a>
+                                        </div>
+                                        <p>Create interactive training materials using Adobe Captivate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel6" class="panel-header">
+                        <span class="plus-minus-icon"></span>Internet Marketing &amp; Social Media: Online Courses</a>
+                    <div id="panel6" class="content">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Online courses from industry leaders – at your own pace.</strong>
+                                </p>
+                                <p>From the fundamentals of SEO, Social Media, Web Analytics, Paid Search, Conversion Optimisation, and Email Marketing, you'll have confidence when talking with contractors, vendors, or your own internal marketing groups as you make intelligent and well-informed decisions about your Internet marketing strategies.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-marketing-fundamentals.png" alt="Online Marketing Fundamentals" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/online-marketing-fundamentals.html">
+                                                <h3 class="two-line">ONLINE MARKETING
+                                                    <br>FUNDAMENTALS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Gain a comprehensive overview of Internet marketing, and finish with a solid understanding of not only how each discipline works, but how the disciplines work together.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-ppc.png" alt="PPC Marketing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/pay-per-click-marketing.html">
+                                                <h3 class="two-line">PPC (Pay-Per-Click)
+                                                    <br>MARKETING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn a comprehensive, cross-discipline approach to designing, building, and maintaining your PPC programs.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-social-media-marketing.png" alt="Social Media Marketing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/social-media-marketing.html">
+                                                <h3 class="two-line">SOCIAL MEDIA
+                                                    <br>MARKETING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Social Media is evolving fast. Keep up with all the options, platforms, and trends and know which ones are worth pursuing.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-conversion-optimisation.png" alt="Conversion Optimisation" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/landing-page-conversion-optimisation.html">
+                                                <h3 class="two-line">CONVERSION
+                                                    <br>OPTIMISATION</h3>
+                                            </a>
+                                        </div>
+                                        <p>Getting users to your site is only half the battle. Getting them to purchase, register or fill out your form, that is your end goal. Learn how to convert web site visitors to customers.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-seo.png" alt="Search Engine Optimisation" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/search-engine-optimisation.html">
+                                                <h3 class="two-line">SEARCH ENGINE
+                                                    <br>OPTIMISATION</h3>
+                                            </a>
+                                        </div>
+                                        <p>Take your SEO training to the next level. You'll learn all you need to know to take on small, medium or large SEO projects and work them from start to finish.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-web-analytics.png" alt="Web Analytics" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/web-analytics.html">
+                                                <h3>WEB ANALYTICS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Gain an in-depth understanding of KPIs, Segmentation, Reports, Experimentation and a lot more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="accordion-navigation">
+                    <a href="#panel7" class="panel-header">
+                        <span class="plus-minus-icon"></span>Internet Marketing &amp; Social Media: Face-to-Face Courses</a>
+                    <div id="panel7" class="content">
+                        <div class="row">
+                            <div class="medium-4 large-3 columns">
+                                <p>
+                                    <strong>Face-to-face internet marketing &amp; Social Media courses or custom training.</strong>
+                                </p>
+                                <p>Everyone knows the power and reach of Facebook, Twitter, LinkedIn and other online marketing tools, but not many businesses are using them to their full potential. Defining a clear and organised approach, and understanding which areas to focus on first, will help your business have a professional and interactive online profile.</p>
+                            </div>
+                            <div class="medium-8 large-9 columns">
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg-1">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-marketing-fundamentals.png" alt="Online Marketing Fundamentals" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/online-marketing-fundamentals.html">
+                                                <h3 class="two-line">ONLINE MARKETING
+                                                    <br>FUNDAMENTALS</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn how to navigate the world’s largest professional networking site. This wide ranging course will show how to manage your professional identity online by building a credible LinkedIn profile, target relevant industry groups, connect with professionals, review users looking at your profile and more!</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg-1">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-ppc.png" alt="PPC Marketing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/pay-per-click-marketing.html">
+                                                <h3 class="two-line">PPC (Pay-Per-Click)
+                                                    <br>MARKETING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Facebook provides a platform for businesses big and small to help them gain exposure, increase engagement with existing and potential customers, and create brand loyalty. Learn how to build a Facebook page specifically for your business.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg-1">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-social-media-marketing.png" alt="Social Media Marketing" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/social-media-marketing.html">
+                                                <h3 class="two-line">SOCIAL MEDIA
+                                                    <br>MARKETING</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn how to set up a Twitter account, write Tweets, create conversations, find and maintain followers and use apps to manage Tweeting.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg-1">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-conversion-optimisation.png" alt="Conversion Optimisation" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/landing-page-conversion-optimisation.html">
+                                                <h3 class="two-line">CONVERSION
+                                                    <br>OPTIMISATION</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn a wide variety of relevant strategy and tactics, with a key theme being how to use social media, and more broadly digital marketing and sales methods, to promote and / or sell the material that’s important for you.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                    <div class="row acc-container-lg-1">
+                                        <div class="small-1 medium-2 large-2 columns no-padding">
+                                            <img src="images/homepage/logo-seo.png" alt="Search Engine Optimisation" class="course-icon">
+                                        </div>
+                                        <div class="small-11 medium-10 large-10 columns no-padding">
+                                            <a href="/online-courses/search-engine-optimisation.html">
+                                                <h3 class="two-line">SEARCH ENGINE
+                                                    <br>OPTIMISATION</h3>
+                                            </a>
+                                        </div>
+                                        <p>Learn how to find and interpret important stats about your website performance, increase conversions and generate more sales and leads online.</p>
+                                    </div>
+                                </div>
+                                <div class="medium-6 large-4 columns">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </main><!-- #BeginLibraryItem "Library/footer.lbi" -->    <!-- Footer Start -->
+    <div class="footer-bg">
+        <div class="row footer-logo">
+            <div class="thumbnail footer-affiliates-img">
+                <script>
+                    var imageChoices = ["footer-logos-1.png", "footer-logos-2.png", "footer-logos-3.png", "footer-logos-4.png", "footer-logos-5.png"];
+                    var theImage = imageChoices[Math.round(4 * Math.random())];
+                    document.write('<img src="/images/footer-logos/' + theImage + '" alt="">');
+                </script>
+            </div>
+        </div> 
+        <div class="row wrapbuckets">
+            <div class="medium-3 columns hide-for-small-only bucket">
+                <h3>POPULAR COURSES</h3>
+                <ul class="no-bullet">
+                    <li><a title="Adobe InDesign Training &amp; Courses" href="http://www.cd.com.au/adobe-indesign-courses.html">Adobe InDesign</a>
+                    </li> 
+                    <li><a title="Illustrator Training" href="http://www.cd.com.au/adobe-illustrator-courses.html">Adobe Illustrator</a>
+                    </li>
+                    <li><a title="Adobe Photoshop Training &amp; Courses" href="http://www.cd.com.au/adobe-photoshop-courses.html">Adobe Photoshop</a>
+                    </li>
+                    <li><a title="Adobe Captivate Training" href="http://www.cd.com.au/captivate-training.html">Adobe Captivate</a>
+                    </li>
+                    <li><a title="HTML Training &amp; Courses" href="http://www.cd.com.au/html-courses.html">HTML Courses</a>
+                    </li>
+                    <li><a title="Training Packages" href="http://www.cd.com.au/training/training-course-packages.html">Training Packages</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="medium-3 small-6 columns bucket">
+                <h3>GET IN TOUCH</h3>
+                <ul class="no-bullet">
+                    <li>
+                        <strong>
+                            <span itemprop="telephone">1300 441 891</span>
+                        </strong>
+                    </li>
+                    <li><a href="mailto:info@cd.com.au?subject=enquiry from the website">info@cd.com.au</a> 
+                    </li>
+                </ul>
+                <h3>HELP &amp; SUPPORT</h3>
+                <ul class="no-bullet">
+                    <li>info@cd.com.au</li>
+                    <li>&nbsp;</li>
+                    <li><a href="http://www.cd.com.au/training/sitemap.html">Sitemap</a>
+                    </li>
+                    <li><a rel="nofollow" href="http://www.cd.com.au/training/terms-conditions-policies.html">Terms and Conditions</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="medium-3 columns hide-for-small-only bucket">
+                <h3>LOCATIONS</h3>
+                <ul class="no-bullet">
+                    <li>
+                        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                            <span itemprop="address">
+                                <strong>Sydney:</strong>Lvl 4, 60 York St</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                            <span itemprop="address">
+                                <strong>Melbourne:</strong>Lvl 7, 20 Queen St</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                            <span itemprop="address">
+                                <strong>Brisbane:</strong>Lvl 1, 320 Adelaide St</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                            <span itemprop="address">
+                                <strong>Canberra:</strong>Lvl 1, 33 Ainslie Pl</span>
+                        </div>
+                    </li>
+                    <li>&nbsp;</li>
+                    <li><a href="http://www.cd.com.au/computer-training-room-hire.html">Computer Room Hire</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="medium-3 small-6 columns bucket">
+                <h3 class="org fn n">
+                    <span itemprop="name">City Desktop Training</span>&nbsp;PL</h3>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <ul class="no-bullet">
+                        <li>ABN: 131 189 38631</li>
+                        <li>Postal Address:</li>
+                        <li>PO Box
+                            <span itemprop="postOfficeBoxNumber">Q336</span>
+                        </li>
+                        <li>
+                            <span itemprop="streetAddress">Queen Victoria Building</span>
+                        </li>
+                        <li>
+                            <span itemprop="addressLocality">Sydney</span>,
+                            <span itemprop="addressRegion">NSW</span>
+                            <span itemprop="postalCode">1230</span>
+                            <span itemprop="addressCountry">Australia</span>
+                        </li>
                     </ul>
-                    <!-- Right Nav Section -->
-                    <ul class="right">
-                      <li class="divider"></li>
-                      <li><a href="#">Item 2</a></li>
-                    </ul>
-            </section> 
-        </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+            // Fix for foundation stylesheets being picked up as "null" or "not an object",
+            // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
+            (function($) {
+                if (!Foundation.stylesheet) {
+                    Foundation._style_element = $('').appendTo('head')[0];
+                    Foundation.stylesheet     = Foundation._style_element.styleSheet;
+                    
+                    if (Foundation.stylesheet) {
+                        Foundation.stylesheet.cssRules = {
+                            length: 0
+                        };
 
-        <main>
-        </main>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
+                        Foundation.stylesheet.insertRule = function(rule, index) {
+                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            mediaMatch = mediaRegex.exec(rule);
+                            media      = '';
+
+                            if (mediaMatch) {
+                                media = '@media ' + mediaMatch[1] + ' ';
+                                rule  = mediaMatch[2];
+                            }
+
+                            ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            ruleMatch = ruleRegex.exec(rule);
+                            namespace = '' + media + ruleMatch[1];
+                            rule      = ruleMatch[2];
+
+                            return this.addRule(namespace, rule);
+                        };
+                    } else if (window.console) {
+                        console.log('Could not fix Foundation CSS rules…');
+                    }
+                }
+            })(jQuery);
+        </script>
+        <script src="/bower_components/foundation/js/foundation.min.js"></script>
+        <script src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
+        <!-- Mega Menu Plugins -->
+        <script>
+            $(document).ready(function ($) {
+                $('.megamenu').megaMenuCompleteSet({
+                    menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+                    menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+                    menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+                    menu_effect: 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+                    menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+                    menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+                    menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
+                });
+            });
+        </script>
+
+        <!-- Support rem units in older IEs -->
+        <!--[if lt IE 9]>
+            <script src="/js/rem.min.js"></script>
+        <![endif]-->
+	    <!-- Footer End -->
+        <!-- #EndLibraryItem -->
     </body>
+
 </html>

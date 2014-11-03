@@ -1,0 +1,55 @@
+@import "../../../components/training/category";
+ 
+.flash-category {
+    @include category($flash-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 440px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 306px;
+        }
+    } 
+
+    .training-checklist {
+        table {
+            thead, tr.even, tr.alt, tr:nth-of-type(even) {
+                background: lighten($flash-color, 40%);
+            }
+        }
+    }
+
+    .testimonials {
+        height: 12em;
+
+        @media #{$medium-only} {
+            height: 21em;
+        }
+    }
+
+    .course-item {
+        .course-item-description {
+            @media #{$medium-up} {
+                height: auto;
+                margin-bottom: $margin-bottom-default / 2;
+            }
+
+            @media #{$large-up} {
+                height: 16em;
+                margin-bottom: $margin-bottom-default / 2;
+            }        
+        }
+
+        .course-item-header {
+            @media #{$medium-only} {
+                height: 3em;
+            }
+        }
+    }
+} 

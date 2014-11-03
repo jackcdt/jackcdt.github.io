@@ -87,19 +87,8 @@ $faq-color: #2088D1;
     }
 
     .accordion {
-        @include accordion-plus-minus;
+        @include plus-minus-icon;
         margin-bottom: $margin-bottom-default;
-
-        .accordion-icon {
-            float: left;
-            margin-right: 5px;
-            margin-top: 2px;
-            font-weight: 100;
-            font-size: 0.8125em;
-            color: #959595;
-            line-height: 1.7em;
-            padding-left: 5px;
-        }
 
         .accordion-navigation > .content,
         dd > .content {

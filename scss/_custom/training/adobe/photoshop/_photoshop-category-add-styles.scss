@@ -1,0 +1,112 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$photoshop-category-spacing: 40px; 
+
+@import "training/adobe/photoshop/photoshop-category/*.png"; 
+.photoshop-category {
+    $map: sprite-map("training/adobe/photoshop/photoshop-category/*.png", $spacing: $photoshop-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 1160px;
+
+    .ps-essentials-framed { 
+        @include photoshop-category-sprite(ps-essentials-framed); 
+        @include responsive-sprite($map, ps-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 58px;
+    } 
+
+    .ps-category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include photoshop-category-sprite(ps-category-custom-training); 
+        @include responsive-sprite($map, ps-category-custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, ps-category-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .ps-essentials {
+        @include photoshop-category-sprite(ps-essentials); 
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .ps-lite {
+        @include photoshop-category-sprite(ps-lite); 
+        @include responsive-sprite($map, ps-lite, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .ps-advanced {
+        @include photoshop-category-sprite(ps-advanced); 
+        @include responsive-sprite($map, ps-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    } 
+
+    .ps-web {
+        @include photoshop-category-sprite(ps-web); 
+        @include responsive-sprite($map, ps-web, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+
+        min-width: 40px;
+        min-height: 43px;    
+    }
+
+    .ps-retouching {
+        @include photoshop-category-sprite(ps-retouching); 
+        @include responsive-sprite($map, ps-retouching, $sprite-width, $sprite-height, 5.8%);
+        margin: -10px 0 0 15px;
+
+        min-width: 48px;
+        min-height: 46px;    
+    } 
+
+    .ps-lr {
+        @include photoshop-category-sprite(ps-lr);  
+        @include responsive-sprite($map, ps-lr, $sprite-width, $sprite-height, 5.8%);
+        margin: -3px 0 0 15px;
+
+        min-width: 42px;
+        min-height: 47px;    
+    }
+
+    .training-packages-images {
+        @media (min-width: 1025px) {
+            margin: 6em 0 0 1em;
+        }           
+    }
+
+    .package-indesign-ess {
+        @include photoshop-category-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px; 
+    }
+
+    .package-illustrator-ess {
+        @include photoshop-category-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+
+    .package-photoshop-ess {
+        @include photoshop-category-sprite(ps-essentials); 
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5%);
+        min-width: 47px;
+        min-height: 45px;    
+    }
+} 

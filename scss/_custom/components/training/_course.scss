@@ -4,8 +4,8 @@
 
 $border-color: #2C2C2C;
 
-@mixin course($logo-height, $map, $map-width, $map-height, $color: #000){
-    @include banner($logo-height, $color);
+@mixin course($color: #000){
+    @include banner($color);
  
     .breadcrumb-active {
         color: $color;
@@ -60,7 +60,7 @@ $border-color: #2C2C2C;
         margin-bottom: $margin-bottom-default / 4;
     }
 
-    .download-and-book {
+    .book-now-section {
         border-top: 1px solid $color;
     }
 
@@ -145,6 +145,11 @@ $border-color: #2C2C2C;
         }
     }
 
+    /* Download PDF button */
+    .download-pdf {
+        margin-top: $margin-bottom-default / 2;
+    }
+
     /* Course outline - sylabus */
     .course-outline-section {
         @media #{$medium-only} {
@@ -201,7 +206,8 @@ $border-color: #2C2C2C;
     }
 
     .related-course {
-        max-width: 5em;
+        max-width: 7em;
+        padding-left: 0;
     }
 
     .pricing-table, .title, .description {
@@ -239,7 +245,7 @@ $border-color: #2C2C2C;
  
     .course-dates-promo {
         background-color: #E5E5E5;
-        margin-bottom: $margin-bottom-default;
+        margin-bottom: 16px;
         max-width: 30em;
         padding-left: 10px;
         padding-right: 10px;
@@ -248,6 +254,11 @@ $border-color: #2C2C2C;
 
         @media #{$small-only} {
             width: 80%;
+        }
+
+        .color-specific,
+        .course-length {
+            color: $color;
         }
     }
 
@@ -263,13 +274,6 @@ $border-color: #2C2C2C;
         @extend %t-xlarge;
     }
 
-    .color-specific, 
-    .course-length {
-        color: $color;
-        line-height: 1em;
-        display: inline-block;
-    }
-
     .course-length {
         font-size: 14px;
         @extend %t-emphasize;
@@ -279,38 +283,11 @@ $border-color: #2C2C2C;
         margin-bottom: $margin-bottom-default;
     }
 
-    .course-dates {
-        li {
-            min-width: 7em;
-        }
-
-        h3 {
-            @extend %t-base;
-            @extend %t-emphasize;
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        .date {
-            @extend %t-small;
-            margin-left: -16px;
-        }
-
-        .date a {
-            color: $color;
-            font-style: italic;
-        }
-    }
-
     /* Side bar - download and book */
-    .download-and-book { 
-        li {
-            margin-top: $margin-bottom-default;
-            min-width: 9em;
-        }
-    }
+    .book-now-section { 
+        padding-top: $margin-bottom-default;
+        min-width: 9em;
+     }
 
     .download-text {
         font-size: 14px;
@@ -327,10 +304,13 @@ $border-color: #2C2C2C;
 
     /* Side bar - seminars ad */
     .seminars-ad {
-        @include seminars-ad($color);
+        @include seminars-ad($color); 
 
         margin-bottom: $margin-bottom-default / 4;
-        margin-top: $margin-bottom-default;
+
+        @media #{$small-only} {
+            width: 80%;
+        }
     }
 
     /* Side bar - custom training */

@@ -18,7 +18,7 @@
   /*empty comment*/
   /* Title is too long, minimise gap */
 }
-/* line 15, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 13, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials-framed {
   background-position: 0 -466px;
   /*  
@@ -34,9 +34,9 @@
   background-size: 280.30303%;
   background-position: 0 40.10327%;
   min-width: 55px;
-  min-height: 55px;
+  min-height: 58px;
 }
-/* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 20, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .custom-training-logo {
   background-position: 0 0;
   /*  
@@ -54,7 +54,7 @@
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 20, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
@@ -70,7 +70,7 @@
     background-position: 0 0%;
   }
 }
-/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 32, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials {
   background-position: 0 -570px;
   /*  
@@ -89,7 +89,7 @@
   min-width: 38px;
   min-height: 45px;
 }
-/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 41, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-lite {
   background-position: 0 -812px;
   /*  
@@ -108,7 +108,7 @@
   min-width: 38px;
   min-height: 44px;
 }
-/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 50, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-advanced {
   background-position: 0 -216px;
   /*  
@@ -127,7 +127,7 @@
   min-width: 49px;
   min-height: 48px;
 }
-/* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 59, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-longdocuments {
   background-position: 0 -919px;
   /*  
@@ -147,16 +147,16 @@
   min-height: 47px;
 }
 @media screen and (min-width: 640px) and (max-width: 669px) {
-  /* line 61, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+  /* line 59, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
   .indesign-category .id-longdocuments {
     margin-top: 10px;
   }
 }
-/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .indesign-long-docs-title {
   padding-left: 5px !important;
 }
-/* line 79, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 77, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
   background-position: 0 -671px;
   /*  
@@ -175,7 +175,7 @@
   min-width: 65px;
   min-height: 56px;
 }
-/* line 88, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 86, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-accessibility {
   background-position: 0 -116px;
   /*  
@@ -192,9 +192,9 @@
   background-position: 0 9.94854%;
   margin: 3px -4px 0 15px;
   min-width: 59px;
-  min-height: 48px;
+  min-height: 41px;
 }
-/* line 97, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 95, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
   background-position: 0 -340px;
   /*  
@@ -214,7 +214,7 @@
   float: right;
   margin-left: 10px;
 }
-/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 104, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
   background-position: 0 -570px;
   /*  
@@ -232,7 +232,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 113, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 111, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-illustrator-ess {
   background-position: 0 -1060px;
   /*  
@@ -250,7 +250,7 @@
   min-width: 47px;
   min-height: 45px;
 }
-/* line 120, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
+/* line 118, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-photoshop-ess {
   background-position: 0 -1163px;
   /*  
@@ -274,24 +274,24 @@ body {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-/* line 34, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0;
 }
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
-.indesign-ess-sprite, .indesign-course .id-essentials-framed, .indesign-course .course-classrom, .indesign-course .pdf, .indesign-course .indesign-cc-cs6, .indesign-course .course-custom-training-logo, .indesign-course .id-advanced, .indesign-course .id-essentials, .indesign-course .ps-ess, .indesign-course .il-ess {
+.indesign-ess-sprite, .indesign-essentials-course .id-essentials-framed, .indesign-essentials-course .course-classrom, .indesign-essentials-course .pdf, .indesign-essentials-course .indesign-cc-cs6, .indesign-essentials-course .course-custom-training-logo, .indesign-essentials-course .id-advanced, .indesign-essentials-course .id-essentials, .indesign-essentials-course .ps-ess, .indesign-essentials-course .il-ess {
   background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
 /* line 12, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course {
+.indesign-essentials-course {
   /*empty comment*/
 }
-/* line 19, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .id-essentials-framed {
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .id-essentials-framed {
   background-position: 0 -392px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -308,8 +308,8 @@ body {
   min-width: 55px;
   min-height: 55px;
 }
-/* line 26, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .course-classrom {
+/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .course-classrom {
   background-position: 0 -116px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -329,8 +329,8 @@ body {
   margin-top: 5px;
   margin-left: 12px;
 }
-/* line 36, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .pdf {
+/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .pdf {
   background-position: 0 -829px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -348,8 +348,8 @@ body {
   min-height: 32px;
   top: -3px;
 }
-/* line 44, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .indesign-cc-cs6 {
+/* line 42, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .indesign-cc-cs6 {
   background-position: 0 -700px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -369,8 +369,8 @@ body {
   margin-right: -15px;
   margin-top: -10px;
 }
-/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .course-custom-training-logo {
+/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .course-custom-training-logo {
   background-position: 0 0;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -387,8 +387,8 @@ body {
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
-  /* line 54, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-  .indesign-course .course-custom-training-logo {
+  /* line 52, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+  .indesign-essentials-course .course-custom-training-logo {
     /*  
         // Calculate sprite map dimentions - currently not working due to path issues  
         $sprite-file: sprite-path($map);
@@ -403,8 +403,8 @@ body {
     background-position: 0 0%;
   }
 }
-/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .id-advanced {
+/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .id-advanced {
   background-position: 0 -268px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -422,8 +422,8 @@ body {
   min-width: 65px;
   min-height: 63px;
 }
-/* line 76, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .id-essentials {
+/* line 74, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .id-essentials {
   background-position: 0 -496px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -440,8 +440,8 @@ body {
   min-width: 50px;
   min-height: 50px;
 }
-/* line 84, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .ps-ess {
+/* line 82, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .ps-ess {
   background-position: 0 -933px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -458,8 +458,8 @@ body {
   min-width: 50px;
   min-height: 50px;
 }
-/* line 91, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
-.indesign-course .il-ess {
+/* line 89, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .il-ess {
   background-position: 0 -597px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
@@ -477,7 +477,7 @@ body {
   min-height: 50px;
 }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.indesign-course .book-now-btn {
+.indesign-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -500,16 +500,3502 @@ body {
   -moz-border-radius: 4px;
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.indesign-course .book-now-btn:hover {
+.indesign-essentials-course .validate-participants:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
   background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
   background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.indesign-course .book-now-btn:active {
+.indesign-essentials-course .validate-participants:active {
   position: relative;
   top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 128, training/adobe/indesign/indesign-advanced/*.png */
+.indesign-advanced-sprite, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .indesign-cc-cs6, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments, .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess {
+  background-image: url('../images/training/adobe/indesign/indesign-advanced-s74a2324c71.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .pdf {
+  background-position: 0 -1124px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 91.60554%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .indesign-cc-cs6 {
+  background-position: 0 -995px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.33782%;
+  background-size: 168.06723%;
+  background-position: 0 82.7787%;
+  min-width: 115px;
+  min-height: 93px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 12.51029%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 45, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+  .indesign-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 12.51029%;
+  }
+}
+/* line 58, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .id-advanced {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 22.20381%;
+  margin-top: 20px !important;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 67, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .id-interactivity {
+  background-position: 0 -493px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 183.48624%;
+  background-position: 0 41.42857%;
+  margin-left: 5px;
+  margin-top: -12px;
+  min-width: 66px;
+  min-height: 57px;
+}
+/* line 76, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .id-ipad {
+  background-position: 0 -634px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 52.22405%;
+  margin-left: 15px;
+  min-width: 58px;
+  min-height: 50px;
+}
+/* line 84, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .id-longdocuments {
+  background-position: 0 -751px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 183.48624%;
+  background-position: 0 63.10924%;
+  margin-left: 15px;
+  min-width: 66px;
+  min-height: 50px;
+}
+/* line 92, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .id-essentials {
+  background-position: 0 -392px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 312.5%;
+  background-position: 0 31.86992%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 100, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .ps-ess {
+  background-position: 0 -1228px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 108, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .il-ess {
+  background-position: 0 -892px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 72.63844%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 104, training/adobe/indesign/indesign-lite/*.png */
+.indesign-lite-sprite, .indesign-lite-course .id-lite, .indesign-lite-course .course-classrom, .indesign-lite-course .pdf, .indesign-lite-course .indesign-cc-cs6, .indesign-lite-course .course-custom-training-logo, .indesign-lite-course .il-lite, .indesign-lite-course .ps-lite, .indesign-lite-course .id-essentials {
+  background-image: url('../images/training/adobe/indesign/indesign-lite-sd7c1fa190f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .id-lite {
+  background-position: 0 -369px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.88788%;
+  background-size: 303.0303%;
+  background-position: 0 45.22059%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .pdf {
+  background-position: 0 -712px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 86.93529%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .indesign-cc-cs6 {
+  background-position: 0 -583px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.33782%;
+  background-size: 168.06723%;
+  background-position: 0 73.42569%;
+  min-width: 115px;
+  min-height: 93px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+/* line 52, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 18.83519%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 52, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+  .indesign-lite-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 18.83519%;
+  }
+}
+/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .il-lite {
+  background-position: 0 -476px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.88788%;
+  background-size: 303.0303%;
+  background-position: 0 58.33333%;
+  margin-left: 20px;
+  min-width: 52px;
+  min-height: 52px;
+}
+/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .ps-lite {
+  background-position: 0 -816px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 298.50746%;
+  background-position: 0 100%;
+  margin-left: 20px;
+  min-width: 52px;
+  min-height: 52px;
+}
+/* line 81, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .id-essentials {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 312.5%;
+  background-position: 0 32.60341%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-lite-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-lite-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-lite-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/adobe/indesign/indesign-long-docs/*.png */
+.indesign-long-docs-sprite, .indesign-long-docs-course .id-longdocuments, .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .indesign-cc-cs6, .indesign-long-docs-course .course-custom-training-logo, .indesign-long-docs-course .id-advanced {
+  background-image: url('../images/training/adobe/indesign/indesign-long-docs-sc6515dcb8c.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .id-longdocuments {
+  background-position: 0 -392px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 183.48624%;
+  background-position: 0 62.72%;
+  margin-top: 28px !important;
+  min-width: 83px;
+  min-height: 63px;
+}
+/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .pdf {
+  background-position: 0 -662px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .indesign-cc-cs6 {
+  background-position: 0 -533px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.33782%;
+  background-size: 168.06723%;
+  background-position: 0 83.67347%;
+  min-width: 115px;
+  min-height: 93px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 23.38462%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 53, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+  .indesign-long-docs-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 23.38462%;
+  }
+}
+/* line 66, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .id-advanced {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 41.74455%;
+  margin-left: 9px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-long-docs-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-long-docs-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-long-docs-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/adobe/indesign/indesign-interactivity/*.png */
+.indesign-interactivity-sprite, .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .indesign-cc-cs6, .indesign-interactivity-course .course-custom-training-logo, .indesign-interactivity-course .id-advanced, .indesign-interactivity-course .id-ipad {
+  background-image: url('../images/training/adobe/indesign/indesign-interactivity-sbc3786cd4f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .id-interactivity {
+  background-position: 0 -392px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 183.48624%;
+  background-position: 0 52.83019%;
+  margin-top: 12px !important;
+  min-width: 93px;
+  min-height: 83px;
+}
+/* line 25, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .pdf {
+  background-position: 0 -779px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .indesign-cc-cs6 {
+  background-position: 0 -650px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.33782%;
+  background-size: 168.06723%;
+  background-position: 0 86.2069%;
+  min-width: 115px;
+  min-height: 93px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 19.81747%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 53, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+  .indesign-interactivity-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 19.81747%;
+  }
+}
+/* line 66, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .id-advanced {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 35.30962%;
+  margin-left: 10px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 75, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .id-ipad {
+  background-position: 0 -533px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 69.58225%;
+  margin-left: 15px;
+  min-width: 67px;
+  min-height: 64px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-interactivity-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-interactivity-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-interactivity-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 80, training/adobe/indesign/indesign-accessibility/*.png */
+.indesign-accessibility-sprite, .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .indesign-cc-cs6, .indesign-accessibility-course .course-custom-training-logo, .indesign-accessibility-course .id-accessibility {
+  background-image: url('../images/training/adobe/indesign/indesign-accessibility-se3ecea84e0.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 27, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .pdf {
+  background-position: 0 -497px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 35, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .indesign-cc-cs6 {
+  background-position: 0 -368px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.33782%;
+  background-size: 168.06723%;
+  background-position: 0 77.9661%;
+  min-width: 115px;
+  min-height: 93px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -10px;
+}
+/* line 45, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 31.34021%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 45, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+  .indesign-accessibility-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 31.34021%;
+  }
+}
+/* line 58, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .id-accessibility {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.51515%;
+  background-size: 202.0202%;
+  background-position: 0 53.49301%;
+  min-width: 98px;
+  min-height: 63px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-accessibility-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-accessibility-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-accessibility-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 128, training/adobe/photoshop/photoshop-category/*.png */
+.photoshop-category-sprite, .photoshop-category .ps-essentials-framed, .photoshop-category .ps-category-custom-training, .photoshop-category .ps-essentials, .photoshop-category .ps-lite, .photoshop-category .ps-advanced, .photoshop-category .ps-web, .photoshop-category .ps-retouching, .photoshop-category .ps-lr, .photoshop-category .package-indesign-ess, .photoshop-category .package-illustrator-ess, .photoshop-category .package-photoshop-ess {
+  background-image: url('../images/training/adobe/photoshop/photoshop-category-seec19b54f1.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-essentials-framed {
+  background-position: 0 -444px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 40.54795%;
+  min-width: 56px;
+  min-height: 58px;
+}
+/* line 20, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-category-custom-training {
+  background-position: 0 -328px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 30.2583%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+  .photoshop-category .ps-category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 30.2583%;
+  }
+}
+/* line 32, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-essentials {
+  background-position: 0 -549px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 50.04558%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-lite {
+  background-position: 0 -778px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5%;
+  background-size: 276.1194%;
+  background-position: 0 71.18024%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+/* line 50, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-advanced {
+  background-position: 0 -204px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 212.64368%;
+  background-position: 0 18.95911%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
+}
+/* line 59, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-web {
+  background-position: 0 -1095px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 40px;
+  min-height: 43px;
+}
+/* line 68, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-retouching {
+  background-position: 0 -988px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.18133%;
+  background-size: 246.66667%;
+  background-position: 0 90.39341%;
+  margin: -10px 0 0 15px;
+  min-width: 48px;
+  min-height: 46px;
+}
+/* line 77, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .ps-lr {
+  background-position: 0 -885px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 284.61538%;
+  background-position: 0 80.67457%;
+  margin: -3px 0 0 15px;
+  min-width: 42px;
+  min-height: 47px;
+}
+@media (min-width: 1025px) {
+  /* line 86, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+  .photoshop-category .training-packages-images {
+    margin: 6em 0 0 1em;
+  }
+}
+/* line 92, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .package-indesign-ess {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.76563%;
+  background-size: 289.0625%;
+  background-position: 0 0%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 99, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .package-illustrator-ess {
+  background-position: 0 -101px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 9.20693%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 106, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .package-photoshop-ess {
+  background-position: 0 -549px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 50.04558%;
+  min-width: 47px;
+  min-height: 45px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 104, training/adobe/photoshop/photoshop-essentials/*.png */
+.photoshop-essentials-sprite, .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .course-custom-training-logo, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .id-essentials, .photoshop-essentials-course .il-ess {
+  background-image: url('../images/training/adobe/photoshop/photoshop-essentials-s8dc9f2b9c1.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .ps-essentials-framed {
+  background-position: 0 -700px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 87.1731%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .pdf {
+  background-position: 0 -472px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 58.70647%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 19.19192%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+  .photoshop-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 19.19192%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .ps-advanced {
+  background-position: 0 -576px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 73.46939%;
+  margin-top: -13px;
+  min-width: 60px;
+  min-height: 58px;
+}
+/* line 69, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .ps-essentials {
+  background-position: 0 -805px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  min-width: 45px;
+  min-height: 47px;
+}
+/* line 76, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .id-essentials {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 312.5%;
+  background-position: 0 33.20942%;
+  min-width: 45px;
+  min-height: 47px;
+}
+/* line 83, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .il-ess {
+  background-position: 0 -369px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 45.83851%;
+  min-width: 45px;
+  min-height: 47px;
+}
+/* line 90, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .id-essentials-related,
+.photoshop-essentials-course .il-ess-related {
+  margin-left: 15px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bdfe), color-stop(1, #2d98fd));
+  background: -moz-linear-gradient(center top, #79bdfe 5%, #2d98fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #79bdfe;
+  text-indent: 0;
+  border: 1px solid #0271dc;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d98fd), color-stop(1, #79bdfe));
+  background: -moz-linear-gradient(center top, #2d98fd 5%, #79bdfe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #2d98fd;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 72, training/adobe/photoshop/photoshop-advanced/*.png */
+.photoshop-advanced-sprite, .photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .course-custom-training-logo, .photoshop-advanced-course .ps-advanced {
+  background-image: url('../images/training/adobe/photoshop/photoshop-advanced-s6b147a9e62.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 27, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course .pdf {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 68.36735%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 35, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 40%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 35, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+  .photoshop-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 40%;
+  }
+}
+/* line 48, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course .ps-advanced {
+  background-position: 0 -372px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 100%;
+  margin-top: 18px !important;
+  min-width: 73px;
+  min-height: 70px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bdfe), color-stop(1, #2d98fd));
+  background: -moz-linear-gradient(center top, #79bdfe 5%, #2d98fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #79bdfe;
+  text-indent: 0;
+  border: 1px solid #0271dc;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d98fd), color-stop(1, #79bdfe));
+  background: -moz-linear-gradient(center top, #2d98fd 5%, #79bdfe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #2d98fd;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/adobe/photoshop/photoshop-lite/*.png */
+.photoshop-lite-sprite, .photoshop-lite-course .ps-lite, .photoshop-lite-course .course-classrom, .photoshop-lite-course .pdf, .photoshop-lite-course .course-custom-training-logo, .photoshop-lite-course .ps-essentials, .photoshop-lite-course .il-lite, .photoshop-lite-course .id-lite {
+  background-image: url('../images/training/adobe/photoshop/photoshop-lite-s047effbfbf.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .ps-lite {
+  background-position: 0 -689px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 298.50746%;
+  background-position: 0 100%;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 24, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .pdf {
+  background-position: 0 -482px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 69.65318%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 22.35294%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+  .photoshop-lite-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 22.35294%;
+  }
+}
+/* line 61, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .ps-essentials {
+  background-position: 0 -586px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 84.55988%;
+  margin: -5px 0 0 20px;
+  min-width: 45px;
+  min-height: 46px;
+}
+/* line 68, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .il-lite {
+  background-position: 0 -375px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.88788%;
+  background-size: 303.0303%;
+  background-position: 0 54.42671%;
+  margin: -5px 0 0 20px;
+  min-width: 45px;
+  min-height: 46px;
+}
+/* line 75, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .id-lite {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.88788%;
+  background-size: 303.0303%;
+  background-position: 0 38.89695%;
+  margin: -5px 0 0 20px;
+  min-width: 45px;
+  min-height: 46px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lite-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bdfe), color-stop(1, #2d98fd));
+  background: -moz-linear-gradient(center top, #79bdfe 5%, #2d98fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #79bdfe;
+  text-indent: 0;
+  border: 1px solid #0271dc;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lite-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d98fd), color-stop(1, #79bdfe));
+  background: -moz-linear-gradient(center top, #2d98fd 5%, #79bdfe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #2d98fd;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lite-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 96, training/adobe/illustrator/illustrator-category/*.png */
+.illustrator-category-sprite, .illustrator-category .il-essentials-framed, .illustrator-category .category-custom-training, .illustrator-category .il-essentials, .illustrator-category .il-lite, .illustrator-category .il-advanced, .illustrator-category .package-indesign-ess, .illustrator-category .package-illustrator-ess, .illustrator-category .package-photoshop-ess {
+  background-image: url('../images/training/adobe/illustrator/illustrator-category-s97b47fb17e.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .il-essentials-framed {
+  background-position: 0 -340px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 52.06738%;
+  min-width: 56px;
+  min-height: 59px;
+}
+/* line 20, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+  .illustrator-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 32, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .il-essentials {
+  background-position: 0 -445px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 67.93893%;
+  margin-left: 15px;
+  min-width: 40px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .il-lite {
+  background-position: 0 -548px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.07576%;
+  background-size: 280.30303%;
+  background-position: 0 84.17819%;
+  margin-left: 15px;
+  min-width: 40px;
+  min-height: 44px;
+}
+/* line 50, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .il-advanced {
+  background-position: 0 -217px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 212.64368%;
+  background-position: 0 34.17323%;
+  margin: -7px 0 0 2px;
+  min-width: 52px;
+  min-height: 48px;
+}
+@media (min-width: 1025px) {
+  /* line 59, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+  .illustrator-category .training-packages-images {
+    margin: 6em 0 0 1em;
+  }
+}
+/* line 65, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .package-indesign-ess {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.76563%;
+  background-size: 289.0625%;
+  background-position: 0 17.65601%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 72, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .package-illustrator-ess {
+  background-position: 0 -445px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 67.93893%;
+  min-width: 47px;
+  min-height: 45px;
+}
+/* line 79, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
+.illustrator-category .package-photoshop-ess {
+  background-position: 0 -655px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  min-width: 47px;
+  min-height: 45px;
+}
+
+/* line 72, training/adobe/acrobat/acrobat-category/*.png */
+.acrobat-category-sprite, .acrobat-category .acrobat-essentials-framed, .acrobat-category .category-custom-training, .acrobat-category .acrobat-essentials, .acrobat-category .acrobat-pdfforms {
+  background-image: url('../images/training/adobe/acrobat/acrobat-category-s24dae38b86.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-essentials-framed {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 280.30303%;
+  background-position: 0 0%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .category-custom-training {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 100%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+  .acrobat-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 100%;
+  }
+}
+/* line 32, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-essentials {
+  background-position: 0 -106px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5%;
+  background-size: 289.0625%;
+  background-position: 0 30.28571%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
+.acrobat-category .acrobat-pdfforms {
+  background-position: 0 -210px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.28571%;
+  background-size: 264.28571%;
+  background-position: 0 64.41718%;
+  margin-left: 15px;
+  margin-top: -5px;
+  min-width: 38px;
+  min-height: 50px;
+}
+
+/* line 112, training/adobe/digital-publishing/digital-publishing-category/*.png */
+.digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .dps-package, .digital-publishing-category .eg-essentials {
+  background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-sa4038a2480.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-ipad {
+  background-position: 0 -916px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 207.86517%;
+  background-position: 0 100%;
+  margin-left: 5px;
+  margin-top: -5px;
+  min-width: 56px;
+  min-height: 49px;
+}
+/* line 23, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 23, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+  .digital-publishing-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 35, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-pkg {
+  background-position: 0 -279px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.18421%;
+  background-size: 243.42105%;
+  background-position: 0 31.03448%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px;
+}
+/* line 44, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-pro {
+  background-position: 0 -413px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.43182%;
+  background-size: 210.22727%;
+  background-position: 0 45.13661%;
+  margin-left: 9px;
+  margin-top: -5px;
+  min-width: 52px;
+  min-height: 47px;
+}
+/* line 53, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-dps-single {
+  background-position: 0 -531px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.43182%;
+  background-size: 210.22727%;
+  background-position: 0 58.03279%;
+  margin-left: 9px;
+  margin-top: -5px;
+  min-width: 52px;
+  min-height: 47px;
+}
+/* line 62, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-interactivity {
+  background-position: 0 -775px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.63303%;
+  background-size: 169.72477%;
+  background-position: 0 86.88341%;
+  margin: -12px -8px 0 5px;
+  min-width: 65px;
+  min-height: 56px;
+}
+/* line 71, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .id-epub {
+  background-position: 0 -649px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.51515%;
+  background-size: 280.30303%;
+  background-position: 0 71.55458%;
+  margin-left: 15px;
+  margin-top: -5px;
+  min-width: 38px;
+  min-height: 51px;
+}
+/* line 80, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .dps-package {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.82143%;
+  background-size: 660.71429%;
+  background-position: 0 12.00828%;
+  margin: -4px 15px 12px 15px;
+  min-width: 38px;
+  min-height: 38px;
+}
+/* line 88, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .eg-essentials {
+  background-position: 0 -183px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.91228%;
+  background-size: 324.5614%;
+  background-position: 0 19.53042%;
+  margin: -4px 15px 12px 15px;
+  min-width: 38px;
+  min-height: 38px;
+}
+
+/* line 80, training/adobe/flash/flash-category/*.png */
+.flash-category-sprite, .flash-category .fl-essentials-framed, .flash-category .category-custom-training, .flash-category .fl-essentials, .flash-category .fl-actionscript, .flash-category .fl-banners {
+  background-image: url('../images/training/adobe/flash/flash-category-s66d4c3c7ab.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-essentials-framed {
+  background-position: 0 -322px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71212%;
+  background-size: 280.30303%;
+  background-position: 0 75.76471%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+  .flash-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 32, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-essentials {
+  background-position: 0 -427px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92188%;
+  background-size: 289.0625%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-actionscript {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.35106%;
+  background-size: 196.80851%;
+  background-position: 0 27.16628%;
+  margin-left: 5px;
+  min-width: 60px;
+  min-height: 47px;
+}
+/* line 49, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-actionscript-title {
+  margin-top: -6px;
+}
+/* line 53, ../scss/_custom/training/adobe/flash/_flash-category-add-styles.scss */
+.flash-category .fl-banners {
+  background-position: 0 -219px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.84632%;
+  background-size: 194.73684%;
+  background-position: 0 51.28806%;
+  margin: -7px 0 0 2px;
+  min-width: 56px;
+  min-height: 57px;
+}
+
+/* line 104, training/web-design-development/html-css/html-css-category/*.png */
+.html-css-category-sprite, .html-css-category .html-ess, .html-css-category .category-custom-training, .html-css-category .html5css, .html-css-category .htmlnews, .html-css-category .html-css, .html-css-category .html5-package, .html-css-category .dreamweaver-package, .html-css-category .css3-package {
+  background-image: url('../images/training/web-design-development/html-css/html-css-category-sfcc696b092.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html-ess {
+  background-position: 0 -354px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 53.39367%;
+  margin-left: 15px;
+  min-width: 44px;
+  min-height: 47px;
+}
+/* line 21, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .category-custom-training {
+  background-position: 0 -70px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 10.7362%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 21, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+  .html-css-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 10.7362%;
+  }
+}
+/* line 33, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html5css {
+  background-position: 0 -529px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.74684%;
+  background-size: 234.17722%;
+  background-position: 0 81.01072%;
+  margin-left: 15px;
+  min-width: 48px;
+  min-height: 45px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .htmlnews {
+  background-position: 0 -644px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.5625%;
+  background-size: 289.0625%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 42px;
+  min-height: 57px;
+}
+/* line 51, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html-css {
+  background-position: 0 -253px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 284.61538%;
+  background-position: 0 37.93103%;
+  margin-left: 15px;
+  min-width: 45px;
+  min-height: 48px;
+}
+/* line 60, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .html5-package {
+  background-position: 0 -459px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.09091%;
+  background-size: 840.90909%;
+  background-position: 0 65.75931%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 68, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .dreamweaver-package {
+  background-position: 0 -186px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 2.89286%;
+  background-size: 660.71429%;
+  background-position: 0 26.53352%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 76, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+.html-css-category .css3-package {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 1%;
+  display: block;
+  height: 0;
+  padding-bottom: 1.42857%;
+  background-size: 880.95238%;
+  background-position: 0 0%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+
+/* line 112, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
+.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .dw-dynamic, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-sa541b46ec8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-essentials-framed {
+  background-position: 0 -365px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 276.1194%;
+  background-position: 0 48.99329%;
+  min-width: 56px;
+  min-height: 58px;
+}
+/* line 20, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .category-custom-training {
+  background-position: 0 -70px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 9.52381%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+  .dreamweaver-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 9.52381%;
+  }
+}
+/* line 32, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-essentials {
+  background-position: 0 -471px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 284.61538%;
+  background-position: 0 63.05221%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html-css {
+  background-position: 0 -575px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.69231%;
+  background-size: 284.61538%;
+  background-position: 0 76.66667%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+/* line 50, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dw-dynamic {
+  background-position: 0 -253px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.15556%;
+  background-size: 228.39506%;
+  background-position: 0 34.23545%;
+  margin: -2px 0 0 15px;
+  min-width: 47px;
+  min-height: 47px;
+}
+/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html-ess {
+  background-position: 0 -676px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 90.61662%;
+  margin: 2px 0 0 15px;
+  min-width: 37px;
+  min-height: 38px;
+}
+/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .html5-package {
+  background-position: 0 -781px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.09091%;
+  background-size: 840.90909%;
+  background-position: 0 100%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .dreamweaver-package {
+  background-position: 0 -186px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 3%;
+  display: block;
+  height: 0;
+  padding-bottom: 2.89286%;
+  background-size: 660.71429%;
+  background-position: 0 23.72449%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 82, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .css3-package {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 1%;
+  display: block;
+  height: 0;
+  padding-bottom: 1.42857%;
+  background-size: 880.95238%;
+  background-position: 0 0%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+
+/* line 64, training/web-design-development/wordpress/wordpress-category/*.png */
+.wordpress-category-sprite, .wordpress-category .wp-essentials, .wordpress-category .category-custom-training, .wordpress-category .wp-advanced {
+  background-image: url('../images/training/web-design-development/wordpress/wordpress-category-s5802519e43.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .wp-essentials {
+  background-position: 0 -238px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70794%;
+  background-size: 293.65079%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 47px;
+  min-height: 47px;
+}
+/* line 22, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 22, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+  .wordpress-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 34, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
+.wordpress-category .wp-advanced {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.88095%;
+  background-size: 220.2381%;
+  background-position: 0 53.21101%;
+  margin-top: -10px;
+  min-width: 56px;
+  min-height: 55px;
+}
+
+/* line 72, training/web-design-development/javascript-jquery/javascript-jquery-category/*.png */
+.javascript-jquery-category-sprite, .javascript-jquery-category .js-essentials-framed, .javascript-jquery-category .category-custom-training, .javascript-jquery-category .js-essentials, .javascript-jquery-category .jq-essentials {
+  background-image: url('../images/training/web-design-development/javascript-jquery/javascript-jquery-category-sfeb0fee7a0.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .js-essentials-framed {
+  background-position: 0 -191px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.9381%;
+  background-size: 440.47619%;
+  background-position: 0 70.22059%;
+  min-width: 49px;
+  min-height: 52px;
+}
+/* line 20, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .category-custom-training {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 0%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+  .javascript-jquery-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 0%;
+  }
+}
+/* line 32, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .js-essentials {
+  background-position: 0 -274px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.125%;
+  background-size: 462.5%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-add-styles.scss */
+.javascript-jquery-category .jq-essentials {
+  background-position: 0 -116px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.86111%;
+  background-size: 513.88889%;
+  background-position: 0 41.42857%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 44px;
+}
+
+/* line 80, training/video-editing/after-effects/after-effects-category/*.png */
+.after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
+  background-image: url('../images/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .ae-essentials-framed {
+  background-position: 0 -123px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 276.1194%;
+  background-position: 0 27.57848%;
+  min-width: 56px;
+  min-height: 57px;
+}
+/* line 20, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .category-custom-training {
+  background-position: 0 -331px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 76.09195%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+  .after-effects-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 76.09195%;
+  }
+}
+/* line 32, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .ae-essentials {
+  background-position: 0 -228px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 50.89286%;
+  margin-left: 15px;
+  min-width: 40px;
+  min-height: 45px;
+}
+/* line 41, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .ae-advanced {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 212.64368%;
+  background-position: 0 0%;
+  margin-top: -9px;
+  min-width: 53px;
+  min-height: 52px;
+}
+/* line 49, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .pr-essentials {
+  background-position: 0 -447px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 57, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+/* line 88, training/video-editing/premiere-pro/premiere-pro-category/*.png */
+.premiere-pro-category-sprite, .premiere-pro-category .pr-essentials-framed, .premiere-pro-category .category-custom-training, .premiere-pro-category .pr-essentials, .premiere-pro-category .ae-essentials, .premiere-pro-category .pr-elements, .premiere-pro-category .pr-advanced {
+  background-image: url('../images/training/video-editing/premiere-pro/premiere-pro-category-s5f9276f45e.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-essentials-framed {
+  background-position: 0 -446px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 276.1194%;
+  background-position: 0 81.09091%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .category-custom-training {
+  background-position: 0 -103px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 19.07407%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+  .premiere-pro-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 19.07407%;
+  }
+}
+/* line 32, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-essentials {
+  background-position: 0 -552px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 41px;
+}
+/* line 41, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .ae-essentials {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 0%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 49, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-elements {
+  background-position: 0 -343px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 284.61538%;
+  background-position: 0 62.02532%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 42px;
+}
+/* line 58, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-advanced {
+  background-position: 0 -219px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 212.64368%;
+  background-position: 0 41.16541%;
+  margin: -7px 0 0 2px;
+  min-width: 49px;
+  min-height: 48px;
+}
+/* line 67, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+/* line 88, training/captivate/captivate-category/*.png */
+.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
+  background-image: url('../images/training/captivate/captivate-category-s59d8a1273b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 8, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category {
+  /*empty comment*/
+}
+/* line 13, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-ess {
+  background-position: 0 -302px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 284.61538%;
+  background-position: 0 46.53313%;
+  min-width: 56px;
+  min-height: 55px;
+}
+/* line 20, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .category-custom-training {
+  background-position: 0 -533px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 100%;
+  background-position: 0 83.80503%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 20, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+  .captivate-category .category-custom-training {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 100%;
+    background-position: 0 83.80503%;
+  }
+}
+/* line 32, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-ess-course {
+  margin: 2px 0 0 15px;
+  min-width: 40px;
+  min-height: 40px;
+}
+/* line 38, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-adv {
+  background-position: 0 -179px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.71591%;
+  background-size: 210.22727%;
+  background-position: 0 28.45787%;
+  margin: -8px 0 0 4px;
+  min-width: 52px;
+  min-height: 51px;
+}
+/* line 46, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-whatsnew {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.94382%;
+  background-size: 207.86517%;
+  background-position: 0 64.90385%;
+  margin: -7px -7px 0 12px;
+  min-width: 54px;
+  min-height: 52px;
+}
+/* line 54, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .ps-essentials {
+  background-position: 0 -649px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 284.61538%;
+  background-position: 0 100%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 62, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cap-consult {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 95%;
+  display: block;
+  height: 0;
+  padding-bottom: 71.37838%;
+  background-size: 100%;
+  background-position: 0 0%;
+}
+/* line 67, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
 }
 
 /* line 64, admin/calendar/*.png */

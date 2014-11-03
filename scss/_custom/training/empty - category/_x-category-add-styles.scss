@@ -1,0 +1,58 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$xx-category-spacing: 40px; 
+
+@import "training/adobe/xx/xx-category/*.png"; 
+.xx-category {
+    $map: sprite-map("training/adobe/xx/xx-category/*.png", $spacing: $xx-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 1160px;
+
+    .xx-essentials-framed { 
+        @include xx-category-sprite(xx-essentials-framed); 
+        @include responsive-sprite($map, xx-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include xx-category-sprite(category-custom-training); 
+        @include responsive-sprite($map, category-custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, category-custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .xx-essentials {
+        @include xx-category-sprite(xx-essentials); 
+        @include responsive-sprite($map, xx-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .xx-lite {
+        @include xx-category-sprite(xx-lite); 
+        @include responsive-sprite($map, xx-lite, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 44px;    
+    }
+
+    .xx-advanced {
+        @include xx-category-sprite(xx-advanced); 
+        @include responsive-sprite($map, xx-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin: -7px 0 0 2px;
+
+        min-width: 49px;
+        min-height: 48px;    
+    } 
+} 

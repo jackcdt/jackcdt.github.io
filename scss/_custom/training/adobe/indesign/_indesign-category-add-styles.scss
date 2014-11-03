@@ -10,13 +10,11 @@ $indesign-category-spacing: 40px;
     $sprite-width: 185px;
     $sprite-height: 1226px;
 
-    $id-essentials-framed-height: indesign-category-sprite-height(id-essentials-framed);
-
     .id-essentials-framed { 
         @include indesign-category-sprite(id-essentials-framed); 
         @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
         min-width: 55px;
-        min-height: 55px;
+        min-height: 58px;
     } 
 
     .custom-training-logo {
@@ -91,7 +89,7 @@ $indesign-category-spacing: 40px;
         margin: 3px -4px 0 15px;
 
         min-width: 59px;
-        min-height: 48px;    
+        min-height: 41px;    
     }
 
     .id-epub {
@@ -108,7 +106,7 @@ $indesign-category-spacing: 40px;
         @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5%);
         min-width: 47px;
         min-height: 45px;    
-    }
+    } 
 
     .package-illustrator-ess {
         @include indesign-category-sprite(il-ess); 

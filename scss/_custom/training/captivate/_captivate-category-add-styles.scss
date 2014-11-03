@@ -1,0 +1,72 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$captivate-category-spacing: 40px; 
+
+@import "training/captivate/captivate-category/*.png"; 
+.captivate-category {
+    $map: sprite-map("training/captivate/captivate-category/*.png", $spacing: $captivate-category-spacing); /*empty comment*/ 
+    $sprite-width: 185px;
+    $sprite-height: 712px;
+
+    .cp-ess { 
+        @include captivate-category-sprite(cp-ess); 
+        @include responsive-sprite($map, cp-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        // Don't forget to change the name of the image for every page
+        @include captivate-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .cp-ess-course { 
+        margin: 2px 0 0 15px;
+        min-width: 40px;
+        min-height: 40px;
+    } 
+
+    .cp-adv {
+        @include captivate-category-sprite(cp-adv); 
+        @include responsive-sprite($map, cp-adv, $sprite-width, $sprite-height, 5%);
+        margin: -8px 0 0 4px;
+        min-width: 52px;
+        min-height: 51px;
+    }
+
+    .cp-whatsnew {
+        @include captivate-category-sprite(cp-whatsnew); 
+        @include responsive-sprite($map, cp-whatsnew, $sprite-width, $sprite-height, 5%);
+        margin: -7px -7px 0 12px;
+        min-width: 54px;
+        min-height: 52px;
+    }
+
+    .ps-essentials {
+        @include captivate-category-sprite(ps-essentials); 
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    } 
+
+    .cap-consult {
+        @include captivate-category-sprite(cap-consult); 
+        @include responsive-sprite($map, cap-consult, $sprite-width, $sprite-height, 95%);
+    } 
+
+    .package-training-logo {
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    }   
+} 

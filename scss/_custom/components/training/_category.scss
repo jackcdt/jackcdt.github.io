@@ -4,8 +4,8 @@
 @import "course-item";
 @import "testimonials";
 
-@mixin category($logo-height, $map, $map-width, $map-height, $color: #000){
-    @include banner($logo-height, $color);
+@mixin category($color: #000){
+    @include banner($color);
 
     strong {
         @extend %t-bold;
@@ -69,10 +69,6 @@
     }
 
     .courses-list {
-        @media #{$large-up} {
-            margin-top: -1em;
-        }
-
         margin-bottom: $margin-bottom-default / 2;
     }
 
@@ -148,6 +144,10 @@
         color: $color;
         @extend %t-small;
         @extend %t-strong;   
+    }
+
+    .category-promo-section {
+        margin-top: 2em;
     }
 
     .promo-packages {

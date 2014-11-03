@@ -7,16 +7,57 @@
 @import "_custom/components/border-radius";
 @import "_custom/components/cdt-typography";
 @import "_custom/components/read-more-btn";
-@import "_custom/components/accordion-plus-minus";
+@import "_custom/components/plus-minus-icon";
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
+@import "_custom/header/header";
+
+// Homepage
+@import "_custom/homepage/slider";
+@import "_custom/homepage/megamenu";
+@import "_custom/homepage/home";
 
 // Training Material
 @import "_custom/training/adobe/indesign/indesign-category";
 @import "_custom/training/adobe/indesign/indesign-essentials";
+@import "_custom/training/adobe/indesign/indesign-advanced";
+@import "_custom/training/adobe/indesign/indesign-lite";
+@import "_custom/training/adobe/indesign/indesign-long-docs";
+@import "_custom/training/adobe/indesign/indesign-interactivity";
+@import "_custom/training/adobe/indesign/indesign-accessibility";
+
+@import "_custom/training/adobe/photoshop/photoshop-category";
+@import "_custom/training/adobe/photoshop/photoshop-essentials";
+@import "_custom/training/adobe/photoshop/photoshop-advanced";
+@import "_custom/training/adobe/photoshop/photoshop-lite";
+
+@import "_custom/training/adobe/illustrator/illustrator-category"; 
+
+@import "_custom/training/adobe/acrobat/acrobat-category";
+
+@import "_custom/training/adobe/digital-publishing/digital-publishing-category";
+
+@import "_custom/training/adobe/flash/flash-category"; 
+
+@import "_custom/training/web-design-development/html-css/html-css-category"; 
+
+@import "_custom/training/web-design-development/dreamweaver/dreamweaver-category"; 
+
+@import "_custom/training/web-design-development/wordpress/wordpress-category"; 
+
+@import "_custom/training/web-design-development/javascript-jquery/javascript-jquery-category"; 
+
+@import "_custom/training/video-editing/after-effects/after-effects-category"; 
+
+@import "_custom/training/video-editing/premiere-pro/premiere-pro-category"; 
+
+@import "_custom/training/captivate/captivate-category"; 
 
 // Admin Pages
 @import "_custom/admin/calendar";
 @import "_custom/admin/training-benefits";
 @import "_custom/admin/faq";
 
+
+//Shopping Cart Pages
+@import "_custom/shoppingcart/checkout"
