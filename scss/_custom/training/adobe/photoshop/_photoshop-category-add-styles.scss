@@ -71,7 +71,11 @@ $photoshop-category-spacing: 40px;
         margin: -10px 0 0 15px;
 
         min-width: 48px;
-        min-height: 46px;    
+        min-height: 46px;   
+    
+        @media (min-width: 641px) {
+            min-height: 53px; 
+        }
     } 
 
     .ps-lr {

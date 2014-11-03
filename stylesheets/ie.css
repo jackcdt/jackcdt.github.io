@@ -984,6 +984,31 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
+.illustrator-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
+.illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .custom-training, .illustrator-essentials-course .il-advanced,
+.illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .and {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
+.illustrator-essentials-course .book-now-btn {
+  background-color: #fa9a02;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/acrobat/_acrobat-category-old-ie-styles.scss */
 .acrobat-category {
