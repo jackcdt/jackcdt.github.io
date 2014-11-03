@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.indesign-accessibility-course {
+
+    /* Hide all sprites */
+    .course-classrom, .pdf, .indesign-cc-cs6, .custom-training, .id-accessibility {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $indesign-color;
+    } 
+}

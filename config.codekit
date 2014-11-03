@@ -5341,6 +5341,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/id-accessibility.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3225,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/id-accessibility.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/id-accessibility.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/indesign-cc-cs6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6245,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/indesign-cc-cs6.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/indesign-cc-cs6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5711,6 +5766,17 @@
 		"initialSize": 2721,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/ps-ess.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess\/ps-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7722,6 +7788,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-accessibility-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-accessibility-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/indesign\/_indesign-accessibility.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_indesign-accessibility.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/adobe\/indesign\/_indesign-advanced-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -8949,6 +9063,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training-courses\/advanced-indesign-long-documents.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-accessibility-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-accessibility-training.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

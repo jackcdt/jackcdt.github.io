@@ -824,6 +824,30 @@ body {
   background-color: #C42A7C;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
+.indesign-accessibility-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
+.indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .indesign-cc-cs6, .indesign-accessibility-course .custom-training, .indesign-accessibility-course .id-accessibility {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
+.indesign-accessibility-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
 .photoshop-category {
