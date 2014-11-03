@@ -3221,6 +3221,156 @@ body {
   top: 1px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 72, training/adobe/illustrator/illustrator-advanced/*.png */
+.illustrator-advanced-sprite, .illustrator-advanced-course .il-advanced, .illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .course-custom-training-logo {
+  background-image: url('../images/training/adobe/illustrator/illustrator-advanced-s2a4f7466a8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course .il-advanced {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 229.88506%;
+  background-position: 0 72.04301%;
+  margin-top: 19px !important;
+  min-width: 74px;
+  min-height: 70px;
+}
+/* line 25, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course .pdf {
+  background-position: 0 -391px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 40.10554%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+  .illustrator-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 40.10554%;
+  }
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.illustrator-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fffefc;
+  box-shadow: inset 0px 1px 0px 0px #fffefc;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #feb84b), color-stop(1, #fa9a02));
+  background: -moz-linear-gradient(center top, #feb84b 5%, #fa9a02 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #feb84b;
+  text-indent: 0;
+  border: 1px solid #ae6b01;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.illustrator-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fa9a02), color-stop(1, #feb84b));
+  background: -moz-linear-gradient(center top, #fa9a02 5%, #feb84b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #fa9a02;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.illustrator-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 72, training/adobe/acrobat/acrobat-category/*.png */
 .acrobat-category-sprite, .acrobat-category .acrobat-essentials-framed, .acrobat-category .category-custom-training, .acrobat-category .acrobat-essentials, .acrobat-category .acrobat-pdfforms {
   background-image: url('../images/training/adobe/acrobat/acrobat-category-s24dae38b86.png');

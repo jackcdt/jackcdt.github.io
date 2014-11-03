@@ -5262,6 +5262,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/illustrator\/illustrate-advanced\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/illustrator\/illustrate-advanced\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/illustrator\/illustrate-advanced\/il-advanced.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4772,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/il-advanced.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/il-advanced.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/illustrator\/illustrate-advanced\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrate-advanced\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8275,6 +8319,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_illustrator-advanced-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_illustrator-advanced-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-advanced.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_illustrator-advanced.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/adobe\/illustrator\/_illustrator-category-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9886,6 +9978,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training-courses\/advanced-indesign-long-documents.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/illustrator-training-advanced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/illustrator-training-advanced.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
