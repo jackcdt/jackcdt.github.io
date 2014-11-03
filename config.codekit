@@ -6331,6 +6331,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/adobe\/photoshop\/photoshop-lite\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6404,6 +6415,72 @@
 		"initialSize": 3671,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite\/ps-lite.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite\/ps-lite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2797,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-lite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3671,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-lite.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-lite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-web-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3069,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-web-framed.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web\/ps-web-framed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
