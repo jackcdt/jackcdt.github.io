@@ -774,6 +774,31 @@ body {
   background-color: #C42A7C;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
+.indesign-long-docs-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
+.indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .indesign-cc-cs6, .indesign-long-docs-course .custom-training, .indesign-long-docs-course .id-advanced,
+.indesign-long-docs-course .id-longdocuments {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
+.indesign-long-docs-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/photoshop/_photoshop-category-old-ie-styles.scss */
 .photoshop-category {
