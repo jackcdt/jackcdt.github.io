@@ -2414,6 +2414,193 @@ body {
   top: 1px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/adobe/photoshop/photoshop-web/*.png */
+.photoshop-web-sprite, .photoshop-web-course .ps-web-framed, .photoshop-web-course .course-classrom, .photoshop-web-course .pdf, .photoshop-web-course .course-custom-training-logo, .photoshop-web-course .ps-lite, .photoshop-web-course .ps-essentials {
+  background-image: url('../images/training/adobe/photoshop/photoshop-web-sb6569b5aaf.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .ps-web-framed {
+  background-position: 0 -582px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 298.50746%;
+  background-position: 0 100%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .pdf {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 45.81197%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 26.52705%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+  .photoshop-web-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 26.52705%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .ps-lite {
+  background-position: 0 -475px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 298.50746%;
+  background-position: 0 81.61512%;
+  margin-left: 21px;
+  min-width: 52px;
+  min-height: 51px;
+}
+/* line 64, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .ps-essentials {
+  background-position: 0 -372px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 63.48123%;
+  margin-left: 21px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-web-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bdfe), color-stop(1, #2d98fd));
+  background: -moz-linear-gradient(center top, #79bdfe 5%, #2d98fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #79bdfe;
+  text-indent: 0;
+  border: 1px solid #0271dc;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-web-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d98fd), color-stop(1, #79bdfe));
+  background: -moz-linear-gradient(center top, #2d98fd 5%, #79bdfe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #2d98fd;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-web-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 96, training/adobe/illustrator/illustrator-category/*.png */
 .illustrator-category-sprite, .illustrator-category .il-essentials-framed, .illustrator-category .category-custom-training, .illustrator-category .il-essentials, .illustrator-category .il-lite, .illustrator-category .il-advanced, .illustrator-category .package-indesign-ess, .illustrator-category .package-illustrator-ess, .illustrator-category .package-photoshop-ess {
   background-image: url('../images/training/adobe/illustrator/illustrator-category-s97b47fb17e.png');
