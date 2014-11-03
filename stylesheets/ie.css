@@ -1071,6 +1071,30 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-old-ie-styles.scss */
+.acrobat-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-old-ie-styles.scss */
+.acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .custom-training, .acrobat-essentials-course .acrobat-pdfforms {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-old-ie-styles.scss */
+.acrobat-essentials-course .book-now-btn {
+  background-color: #d82631;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-old-ie-styles.scss */
 .digital-publishing-category {
