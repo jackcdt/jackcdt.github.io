@@ -3473,6 +3473,343 @@ body {
   min-height: 50px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 80, training/adobe/acrobat/acrobat-essentials/*.png */
+.acrobat-essentials-sprite, .acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .course-custom-training-logo, .acrobat-essentials-course .acrobat-pdfforms {
+  background-image: url('../images/training/adobe/acrobat/acrobat-essentials-s0a67036e25.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .acrobat-essentials-framed {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 303.0303%;
+  background-position: 0 0%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .course-classrom {
+  background-position: 0 -234px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 51.54185%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .pdf {
+  background-position: 0 -502px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .course-custom-training-logo {
+  background-position: 0 -386px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 78.77551%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+  .acrobat-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 78.77551%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .acrobat-pdfforms {
+  background-position: 0 -106px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.29143%;
+  background-size: 285.71429%;
+  background-position: 0 22.17573%;
+  margin-left: 12px;
+  min-width: 65px;
+  min-height: 84px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fffefe;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fffefe;
+  box-shadow: inset 0px 1px 0px 0px #fffefe;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4666e), color-stop(1, #d82631));
+  background: -moz-linear-gradient(center top, #e4666e 5%, #d82631 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #e4666e;
+  text-indent: 0;
+  border: 1px solid #971b22;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d82631), color-stop(1, #e4666e));
+  background: -moz-linear-gradient(center top, #d82631 5%, #e4666e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #d82631;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 80, training/adobe/acrobat/acrobat-pdfforms/*.png */
+.acrobat-pdfforms-sprite, .acrobat-pdfforms-course .acrobat-pdfforms, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .course-custom-training-logo, .acrobat-pdfforms-course .acrobat-essentials {
+  background-image: url('../images/training/adobe/acrobat/acrobat-pdfforms-s0ece181ee6.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course .acrobat-pdfforms {
+  background-position: 0 -104px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.29143%;
+  background-size: 285.71429%;
+  background-position: 0 21.75732%;
+  margin-top: 16px !important;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 25, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course .course-classrom {
+  background-position: 0 -232px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 51.10132%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course .pdf {
+  background-position: 0 -500px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 99.60159%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course .course-custom-training-logo {
+  background-position: 0 -384px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 78.36735%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+  .acrobat-pdfforms-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 78.36735%;
+  }
+}
+/* line 56, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
+.acrobat-pdfforms-course .acrobat-essentials {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 0%;
+  margin-left: 20px;
+  min-width: 52px;
+  min-height: 54px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-pdfforms-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fffefe;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fffefe;
+  box-shadow: inset 0px 1px 0px 0px #fffefe;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4666e), color-stop(1, #d82631));
+  background: -moz-linear-gradient(center top, #e4666e 5%, #d82631 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #e4666e;
+  text-indent: 0;
+  border: 1px solid #971b22;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-pdfforms-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d82631), color-stop(1, #e4666e));
+  background: -moz-linear-gradient(center top, #d82631 5%, #e4666e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #d82631;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.acrobat-pdfforms-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 112, training/adobe/digital-publishing/digital-publishing-category/*.png */
 .digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .dps-package, .digital-publishing-category .eg-essentials {
   background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-sa4038a2480.png');

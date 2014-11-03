@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.acrobat-essentials-course {
+    @include course($acrobat-color); 
+}
