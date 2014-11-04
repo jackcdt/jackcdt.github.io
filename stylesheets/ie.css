@@ -1553,6 +1553,55 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
+.javascript-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
+.javascript-essentials-course .js-essentials-framed, .javascript-essentials-course .course-classrom, .javascript-essentials-course .pdf, .javascript-essentials-course .custom-training, .javascript-essentials-course .jq-essentials {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
+.javascript-essentials-course .book-now-btn {
+  background-color: #454A4D;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
+.jquery-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
+.jquery-essentials-course .id-essentials-framed, .jquery-essentials-course .course-classrom, .jquery-essentials-course .pdf, .jquery-essentials-course .custom-training, .jquery-essentials-course .id-advanced,
+.jquery-essentials-course .id-essentials, .jquery-essentials-course .ps-ess, .jquery-essentials-course .il-ess, .jquery-essentials-course .and {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
+.jquery-essentials-course .book-now-btn {
+  background-color: #454A4D;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
 .after-effects-category {
