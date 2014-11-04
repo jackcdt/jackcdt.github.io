@@ -1135,6 +1135,106 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .custom-training, .indesign-to-ipad-course .eg-essentials,
+.indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .id-ipad {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
+.indesign-to-ipad-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
+.dps-single-app-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
+.dps-single-app-course .id-essentials-framed, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .custom-training, .dps-single-app-course .id-advanced,
+.dps-single-app-course .id-essentials, .dps-single-app-course .ps-ess, .dps-single-app-course .il-ess, .dps-single-app-course .and {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
+.dps-single-app-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
+.dps-pro-app-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
+.dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .custom-training, .dps-pro-app-course .id-dps-single,
+.dps-pro-app-course .id-ipad {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
+.dps-pro-app-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
+.indesign-to-ebook-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
+.indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .custom-training, .indesign-to-ebook-course .id-advanced,
+.indesign-to-ebook-course .id-interactivity, .indesign-to-ebook-course .id-ipad {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
+.indesign-to-ebook-course .book-now-btn {
+  background-color: #C42A7C;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/adobe/flash/_flash-category-old-ie-styles.scss */
 .flash-category {

@@ -1,0 +1,94 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$dps-single-app-spacing: 40px; 
+
+@import "training/adobe/digital-publishing/dps-single-app/*.png";  
+
+.dps-single-app-course {
+    $map: sprite-map("training/adobe/digital-publishing/dps-single-app/*.png", $spacing: $dps-single-app-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 848px;
+
+    .id-dps-single {  
+        @include dps-single-app-sprite(id-dps-single); 
+        @include responsive-sprite($map, id-dps-single, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include dps-single-app-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include dps-single-app-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include dps-single-app-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .id-dps-pro {
+        @include dps-single-app-sprite(id-dps-pro); 
+        @include responsive-sprite($map, id-dps-pro, $sprite-width, $sprite-height, 5.8%);
+
+        margin-left: 15px;
+        min-width: 65px;
+        min-height: 63px; 
+    }
+
+    .id-ipad {
+        @include dps-single-app-sprite(id-ipad); 
+        @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
+
+        margin-left: 15px;
+        min-width: 65px;
+        min-height: 63px; 
+    }
+
+    @mixin package-training-logo {
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    }   
+
+    .dps-package {
+        @include indesign-to-ipad-sprite(dps-package); 
+        @include responsive-sprite($map, dps-package, $sprite-width, $sprite-height, 5.8%);
+
+        @include package-training-logo; 
+    }
+
+    .eg-essentials {
+        @include indesign-to-ipad-sprite(eg-essentials); 
+        @include responsive-sprite($map, eg-essentials, $sprite-width, $sprite-height, 5.8%);
+
+        @include package-training-logo; 
+    }
+
+    @include btn-shadow($digital-publishing-color);
+}

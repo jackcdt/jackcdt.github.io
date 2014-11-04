@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.indesign-to-ipad-course {
+    @include course($digital-publishing-color); 
+}

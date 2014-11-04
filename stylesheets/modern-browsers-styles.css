@@ -4011,6 +4011,849 @@ body {
   min-height: 38px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 104, training/adobe/digital-publishing/indesign-to-ipad/*.png */
+.indesign-to-ipad-sprite, .indesign-to-ipad-course .id-ipad, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .course-custom-training-logo, .indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .eg-essentials, .dps-single-app-course .dps-package, .dps-single-app-course .eg-essentials {
+  background-image: url('../images/training/adobe/digital-publishing/indesign-to-ipad-s5066f7d96e.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .id-ipad {
+  background-position: 0 -667px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 86.51102%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .pdf {
+  background-position: 0 -784px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 19.68912%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+  .indesign-to-ipad-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 19.68912%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .id-dps-pro {
+  background-position: 0 -431px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 55.97403%;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 63, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .id-dps-single {
+  background-position: 0 -549px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 71.2987%;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 77, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .dps-package {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 32.64312%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 84, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .eg-essentials {
+  background-position: 0 -335px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69825%;
+  background-size: 350.87719%;
+  background-position: 0 42.29798%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ipad-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ipad-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ipad-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 104, training/adobe/digital-publishing/dps-single-app/*.png */
+.dps-single-app-sprite, .dps-single-app-course .id-dps-single, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .course-custom-training-logo, .dps-single-app-course .id-dps-pro, .dps-single-app-course .id-ipad {
+  background-image: url('../images/training/adobe/digital-publishing/dps-single-app-s8f12f3b425.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .id-dps-single {
+  background-position: 0 -549px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 71.2987%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .pdf {
+  background-position: 0 -784px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 19.68912%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+  .dps-single-app-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 19.68912%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .id-dps-pro {
+  background-position: 0 -431px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 55.97403%;
+  margin-left: 15px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 64, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .id-ipad {
+  background-position: 0 -667px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 86.51102%;
+  margin-left: 15px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 79, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .dps-package {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 32.64312%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 86, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
+.dps-single-app-course .eg-essentials {
+  background-position: 0 -335px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69825%;
+  background-size: 350.87719%;
+  background-position: 0 42.29798%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.dps-single-app-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.dps-single-app-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.dps-single-app-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/adobe/digital-publishing/dps-pro-app/*.png */
+.dps-pro-app-sprite, .dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .course-custom-training-logo, .dps-pro-app-course .id-dps-single, .dps-pro-app-course .id-ipad {
+  background-image: url('../images/training/adobe/digital-publishing/dps-pro-app-s76d6f5b224.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .id-dps-pro {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 44.15157%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .pdf {
+  background-position: 0 -621px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 24.95895%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+  .dps-pro-app-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 24.95895%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .id-dps-single {
+  background-position: 0 -386px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.14091%;
+  background-size: 227.27273%;
+  background-position: 0 63.59143%;
+  margin-left: 15px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 63, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .id-ipad {
+  background-position: 0 -504px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 82.89474%;
+  margin-left: 15px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.dps-pro-app-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.dps-pro-app-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.dps-pro-app-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/adobe/digital-publishing/indesign-to-ebook/*.png */
+.indesign-to-ebook-sprite, .indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .course-custom-training-logo, .indesign-to-ebook-course .id-advanced, .indesign-to-ebook-course .id-interactivity, .indesign-to-ebook-course .id-ipad {
+  background-image: url('../images/training/adobe/digital-publishing/indesign-to-ebook-se7d0e2a283.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .id-epub {
+  background-position: 0 -392px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.55758%;
+  background-size: 303.0303%;
+  background-position: 0 51.98939%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .pdf {
+  background-position: 0 -776px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 19.89529%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+  .indesign-to-ebook-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 19.89529%;
+  }
+}
+/* line 55, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .id-advanced {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 35.44974%;
+  margin-left: 7px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 63, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .id-interactivity {
+  background-position: 0 -518px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 183.48624%;
+  background-position: 0 70.09472%;
+  margin-bottom: 4px !important;
+  margin-top: -8px;
+  margin-left: 5px;
+  min-width: 83px;
+  min-height: 76px;
+}
+/* line 73, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
+.indesign-to-ebook-course .id-ipad {
+  background-position: 0 -659px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.01798%;
+  background-size: 224.7191%;
+  background-position: 0 86.36959%;
+  margin-left: 15px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ebook-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  box-shadow: inset 0px 1px 0px 0px #fcf1f7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #dd5ea1;
+  text-indent: 0;
+  border: 1px solid #851d54;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ebook-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #C42A7C;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.indesign-to-ebook-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 80, training/adobe/flash/flash-category/*.png */
 .flash-category-sprite, .flash-category .fl-essentials-framed, .flash-category .category-custom-training, .flash-category .fl-essentials, .flash-category .fl-actionscript, .flash-category .fl-banners {
   background-image: url('../images/training/adobe/flash/flash-category-s66d4c3c7ab.png');
