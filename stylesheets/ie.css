@@ -1389,6 +1389,31 @@ body {
   background-color: #053c6a;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course .html-ess, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .custom-training, .html-responsive-course .htmlnews,
+.html-responsive-course .ps-web {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course .book-now-btn {
+  background-color: #053c6a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category {

@@ -6264,6 +6264,194 @@ body {
   top: 1px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/web-design-development/html-css/html-responsive/*.png */
+.html-responsive-sprite, .html-responsive-course .htmlnews, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .course-custom-training-logo, .html-responsive-course .html-ess, .html-responsive-course .ps-web {
+  background-image: url('../images/training/web-design-development/html-css/html-responsive-s0f4b281bbe.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .htmlnews {
+  background-position: 0 -373px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.6125%;
+  background-size: 312.5%;
+  background-position: 0 64.08935%;
+  margin-top: 22px !important;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 25, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .pdf {
+  background-position: 0 -497px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 82.55814%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 25.76271%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+  .html-responsive-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 25.76271%;
+  }
+}
+/* line 56, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .html-ess {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 44.59235%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 64, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .ps-web {
+  background-position: 0 -601px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 104, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
 .dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
   background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-s373887c318.png');
