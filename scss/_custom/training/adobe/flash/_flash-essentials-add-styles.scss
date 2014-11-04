@@ -57,7 +57,7 @@ $flash-essentials-spacing: 40px;
         @include responsive-sprite($map, fl-banners, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 65px;
-        min-height: 63px; 
+        min-height: 60px; 
     }
 
     .fl-actionscript {

@@ -1274,6 +1274,31 @@ body {
   background-color: #fa1a20;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/flash/_flash-web-banners-old-ie-styles.scss */
+.flash-web-banners-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/flash/_flash-web-banners-old-ie-styles.scss */
+.flash-web-banners-course .eg-essentials, .flash-web-banners-course .course-classrom, .flash-web-banners-course .pdf, .flash-web-banners-course .custom-training, .flash-web-banners-course .fl-banners,
+.flash-web-banners-course .fl-essentials {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/flash/_flash-web-banners-old-ie-styles.scss */
+.flash-web-banners-course .book-now-btn {
+  background-color: #fa1a20;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
 .html-css-category {

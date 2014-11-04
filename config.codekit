@@ -5517,7 +5517,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 74696,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
 		"outputPathIsOutsideProject": 0,
@@ -5916,6 +5916,17 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-essentials\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
