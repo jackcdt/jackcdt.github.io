@@ -1338,6 +1338,32 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .custom-training, .html-web-principles-course .css3-package,
+.html-web-principles-course .dreamweaver-package, .html-web-principles-course .dw-essentials, .html-web-principles-course .html5css, .html-web-principles-course .html5-package,
+.html-web-principles-course .html-css, .html-web-principles-course .html-ess {
+  display: none !important;
+}
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course .book-now-btn {
+  background-color: #053c6a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category {

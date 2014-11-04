@@ -5680,7 +5680,7 @@ body {
   min-width: 45px;
   min-height: 48px;
 }
-/* line 60, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 66, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .html5-package {
   background-position: 0 -459px;
   /*  
@@ -5699,7 +5699,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 68, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 73, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -5718,7 +5718,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 76, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 80, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .css3-package {
   background-position: 0 0;
   /*  
@@ -5736,6 +5736,269 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 120, training/web-design-development/html-css/html-web-principles/*.png */
+.html-web-principles-sprite, .html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .course-custom-training-logo, .html-web-principles-course .dw-essentials, .html-web-principles-course .htmlnews, .html-web-principles-course .html-css, .html-web-principles-course .css3-package, .html-web-principles-course .dreamweaver-package, .html-web-principles-course .html5-package {
+  background-image: url('../images/training/web-design-development/html-css/html-web-principles-s73f6714009.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html-ess {
+  background-position: 0 -610px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 67.18062%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .pdf {
+  background-position: 0 -909px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .course-custom-training-logo {
+  background-position: 0 -222px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 24.74916%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+  .html-web-principles-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 24.74916%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .dw-essentials {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 307.69231%;
+  background-position: 0 44.55446%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 63, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .htmlnews {
+  background-position: 0 -785px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.6125%;
+  background-size: 312.5%;
+  background-position: 0 88.30146%;
+  margin: -10px 0 4px 15px !important;
+  min-width: 50px;
+  min-height: 64px;
+}
+/* line 71, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html-css {
+  background-position: 0 -509px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 55.8114%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 85, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .css3-package {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 952.38095%;
+  background-position: 0 16.11877%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 92, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .dreamweaver-package {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 35.72939%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 99, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html5-package {
+  background-position: 0 -715px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 909.09091%;
+  background-position: 0 75.82185%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants:active {
+  position: relative;
+  top: 1px;
 }
 
 /* line 104, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
