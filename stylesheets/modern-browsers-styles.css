@@ -5857,7 +5857,7 @@ body {
   min-width: 37px;
   min-height: 38px;
 }
-/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 65, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html5-package {
   background-position: 0 -669px;
   /*  
@@ -5876,7 +5876,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 72, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -5895,7 +5895,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 79, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .css3-package {
   background-position: 0 0;
   /*  
@@ -5913,6 +5913,270 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 120, training/web-design-development/dreamweaver/dreamweaver-essentials/*.png */
+.dreamweaver-essentials-sprite, .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .course-custom-training-logo, .dreamweaver-essentials-course .html5css, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .html5-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-essentials-s4788f9ead8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .dw-essentials-framed {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 298.50746%;
+  background-position: 0 45%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .pdf {
+  background-position: 0 -902px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .course-custom-training-logo {
+  background-position: 0 -222px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 24.94382%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+  .dreamweaver-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 24.94382%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html5css {
+  background-position: 0 -787px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.50633%;
+  background-size: 253.16456%;
+  background-position: 0 88.32772%;
+  margin-top: -10px;
+  margin-left: 15px;
+  min-width: 58px;
+  min-height: 59px;
+}
+/* line 64, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html-css {
+  background-position: 0 -511px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 56.46409%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 72, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html-ess {
+  background-position: 0 -612px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 67.92453%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 86, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .css3-package {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 952.38095%;
+  background-position: 0 16.23932%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 93, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .dreamweaver-package {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 35.99574%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 100, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html5-package {
+  background-position: 0 -717px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 909.09091%;
+  background-position: 0 76.60256%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8eda3e), color-stop(1, #67ab21));
+  background: -moz-linear-gradient(center top, #8eda3e 5%, #67ab21 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #8eda3e;
+  text-indent: 0;
+  border: 1px solid #416b14;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #67ab21), color-stop(1, #8eda3e));
+  background: -moz-linear-gradient(center top, #67ab21 5%, #8eda3e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #67ab21;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
 }
 
 /* line 64, training/web-design-development/wordpress/wordpress-category/*.png */

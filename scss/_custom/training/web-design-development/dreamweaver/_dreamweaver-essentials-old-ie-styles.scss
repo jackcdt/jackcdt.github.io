@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.dreamweaver-essentials-course {
+
+    /* Hide all sprites */
+    .dw-essentials-framed, .course-classrom, .pdf, .custom-training, .html5css,
+    .dreamweaver-package, .css3-package, .html5-package, .html-css, .html-ess {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $dreamweaver-color;
+    } 
+}

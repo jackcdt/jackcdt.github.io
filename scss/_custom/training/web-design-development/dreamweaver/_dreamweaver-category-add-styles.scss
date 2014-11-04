@@ -55,27 +55,31 @@ $dreamweaver-category-spacing: 40px;
         min-height: 38px;
     } 
 
-    .html5-package {        
-        @include dreamweaver-category-sprite(html5-package); 
-        @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 3%);
+
+    @mixin package-training-logo {
         margin: -8px 15px 15px 15px;
         min-width: 27px;
         min-height: 42px;
+    }   
+
+    .html5-package {        
+        @include dreamweaver-category-sprite(html5-package); 
+        @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 3%);
+
+        @include package-training-logo; 
     }
 
     .dreamweaver-package {        
         @include dreamweaver-category-sprite(dreamweaver-package); 
         @include responsive-sprite($map, dreamweaver-package, $sprite-width, $sprite-height, 3%);
-        margin: -8px 15px 15px 15px;
-        min-width: 27px;
-        min-height: 42px;
+
+        @include package-training-logo; 
     }
 
     .css3-package {        
         @include dreamweaver-category-sprite(css3-package); 
         @include responsive-sprite($map, css3-package, $sprite-width, $sprite-height, 1%);
-        margin: -8px 15px 15px 15px;
-        min-width: 27px;
-        min-height: 42px;
+
+        @include package-training-logo; 
     }
 } 
