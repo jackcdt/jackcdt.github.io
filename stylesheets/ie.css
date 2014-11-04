@@ -1249,6 +1249,31 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/adobe/flash/_flash-essentials-old-ie-styles.scss */
+.flash-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/adobe/flash/_flash-essentials-old-ie-styles.scss */
+.flash-essentials-course .fl-essentials-framed, .flash-essentials-course .course-classrom, .flash-essentials-course .pdf, .flash-essentials-course .custom-training, .flash-essentials-course .fl-banners,
+.flash-essentials-course .fl-actionscript, .flash-essentials-course .eg-essentials {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/adobe/flash/_flash-essentials-old-ie-styles.scss */
+.flash-essentials-course .book-now-btn {
+  background-color: #fa1a20;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/html-css/_html-css-category-old-ie-styles.scss */
 .html-css-category {
