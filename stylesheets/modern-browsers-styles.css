@@ -481,8 +481,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -501,10 +501,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:active {
@@ -767,8 +767,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -787,10 +787,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:active {
@@ -994,8 +994,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1014,10 +1014,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:active {
@@ -1184,8 +1184,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1204,10 +1204,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:active {
@@ -1393,8 +1393,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1413,10 +1413,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:active {
@@ -1563,8 +1563,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1583,10 +1583,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:active {
@@ -4203,8 +4203,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4223,10 +4223,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:active {
@@ -4428,8 +4428,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4448,10 +4448,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:active {
@@ -4615,8 +4615,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4635,10 +4635,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:active {
@@ -4823,8 +4823,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4843,10 +4843,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #c42a7c;
+  background-color: #C42A7C;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:active {
@@ -7160,6 +7160,421 @@ body {
   margin-top: -10px;
   min-width: 56px;
   min-height: 55px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/web-design-development/wordpress/wordpress-essentials/*.png */
+.wordpress-essentials-sprite, .wordpress-essentials-course .wp-essentials-framed, .wordpress-essentials-course .course-classrom, .wordpress-essentials-course .pdf, .wordpress-essentials-course .course-custom-training-logo, .wordpress-essentials-course .wp-advanced, .wordpress-essentials-course .html-css, .wordpress-essentials-course .html-ess {
+  background-image: url('../images/training/web-design-development/wordpress/wordpress-essentials-sf8fa45791f.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .wp-essentials-framed {
+  background-position: 0 -700px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70794%;
+  background-size: 317.46032%;
+  background-position: 0 100%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .pdf {
+  background-position: 0 -474px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 67.90831%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 22.15743%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+  .wordpress-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 22.15743%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .wp-advanced {
+  background-position: 0 -578px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6619%;
+  background-size: 238.09524%;
+  background-position: 0 85%;
+  margin-left: 15px;
+  margin-top: -13px;
+  min-width: 65px;
+  min-height: 63px;
+}
+/* line 64, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .html-css {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 38.2311%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 72, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .html-ess {
+  background-position: 0 -369px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 52.94118%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2ec1d6), color-stop(1, #1e8a9a));
+  background: -moz-linear-gradient(center top, #2ec1d6 5%, #1e8a9a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #2ec1d6;
+  text-indent: 0;
+  border: 1px solid #12515a;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e8a9a), color-stop(1, #2ec1d6));
+  background: -moz-linear-gradient(center top, #1e8a9a 5%, #2ec1d6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #1e8a9a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/web-design-development/wordpress/wordpress-advanced/*.png */
+.wordpress-advanced-sprite, .wordpress-advanced-course .wp-advanced-framed, .wordpress-advanced-course .course-classrom, .wordpress-advanced-course .pdf, .wordpress-advanced-course .course-custom-training-logo, .wordpress-advanced-course .wp-essentials, .wordpress-advanced-course .html-css, .wordpress-advanced-course .html-ess {
+  background-image: url('../images/training/web-design-development/wordpress/wordpress-advanced-sb5d1afcf29.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .wp-advanced-framed {
+  background-position: 0 -578px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6619%;
+  background-size: 238.09524%;
+  background-position: 0 85%;
+  margin-top: 18px !important;
+  min-width: 71px;
+  min-height: 69px;
+}
+/* line 25, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .pdf {
+  background-position: 0 -474px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 67.90831%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 22.15743%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+  .wordpress-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 22.15743%;
+  }
+}
+/* line 56, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .wp-essentials {
+  background-position: 0 -700px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70794%;
+  background-size: 317.46032%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  margin-top: -5px;
+  min-width: 55px;
+  min-height: 54px;
+}
+/* line 65, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .html-css {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 38.2311%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 73, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .html-ess {
+  background-position: 0 -369px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 52.94118%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  box-shadow: inset 0px 1px 0px 0px #c4edf3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2ec1d6), color-stop(1, #1e8a9a));
+  background: -moz-linear-gradient(center top, #2ec1d6 5%, #1e8a9a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #2ec1d6;
+  text-indent: 0;
+  border: 1px solid #12515a;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e8a9a), color-stop(1, #2ec1d6));
+  background: -moz-linear-gradient(center top, #1e8a9a 5%, #2ec1d6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #1e8a9a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.wordpress-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px;
 }
 
 /* line 72, training/web-design-development/javascript-jquery/javascript-jquery-category/*.png */
