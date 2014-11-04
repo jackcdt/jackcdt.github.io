@@ -481,8 +481,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -501,10 +501,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:active {
@@ -767,8 +767,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -787,10 +787,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:active {
@@ -994,8 +994,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1014,10 +1014,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:active {
@@ -1184,8 +1184,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1204,10 +1204,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:active {
@@ -1393,8 +1393,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1413,10 +1413,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:active {
@@ -1563,8 +1563,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1583,10 +1583,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:active {
@@ -4203,8 +4203,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4223,10 +4223,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:active {
@@ -4428,8 +4428,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4448,10 +4448,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:active {
@@ -4615,8 +4615,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4635,10 +4635,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:active {
@@ -4823,8 +4823,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4843,10 +4843,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:active {
@@ -5738,9 +5738,9 @@ body {
   min-height: 42px;
 }
 
-/* line 112, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
-.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .dw-dynamic, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
-  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-sa541b46ec8.png');
+/* line 104, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
+.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-s373887c318.png');
   background-repeat: no-repeat;
 }
 
@@ -5750,7 +5750,7 @@ body {
 }
 /* line 13, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dw-essentials-framed {
-  background-position: 0 -365px;
+  background-position: 0 -253px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5762,7 +5762,7 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 276.1194%;
-  background-position: 0 48.99329%;
+  background-position: 0 39.9684%;
   min-width: 56px;
   min-height: 58px;
 }
@@ -5780,7 +5780,7 @@ body {
   height: 0;
   padding-bottom: 41.08108%;
   background-size: 100%;
-  background-position: 0 9.52381%;
+  background-position: 0 11.23596%;
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
@@ -5797,12 +5797,12 @@ body {
     height: 0;
     padding-bottom: 26.7027%;
     background-size: 100%;
-    background-position: 0 9.52381%;
+    background-position: 0 11.23596%;
   }
 }
 /* line 32, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dw-essentials {
-  background-position: 0 -471px;
+  background-position: 0 -359px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5814,14 +5814,14 @@ body {
   height: 0;
   padding-bottom: 4.92308%;
   background-size: 284.61538%;
-  background-position: 0 63.05221%;
+  background-position: 0 56.53543%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 41px;
 }
 /* line 41, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html-css {
-  background-position: 0 -575px;
+  background-position: 0 -463px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5833,33 +5833,14 @@ body {
   height: 0;
   padding-bottom: 4.69231%;
   background-size: 284.61538%;
-  background-position: 0 76.66667%;
+  background-position: 0 72.57053%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px;
 }
 /* line 50, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
-.dreamweaver-category .dw-dynamic {
-  background-position: 0 -253px;
-  /*  
-      // Calculate sprite map dimentions - currently not working due to path issues  
-      $sprite-file: sprite-path($map);
-      $sprite-width: image-width($sprite-file);
-      $sprite-height: image-height($sprite-file);
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.15556%;
-  background-size: 228.39506%;
-  background-position: 0 34.23545%;
-  margin: -2px 0 0 15px;
-  min-width: 47px;
-  min-height: 47px;
-}
-/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html-ess {
-  background-position: 0 -676px;
+  background-position: 0 -564px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5871,14 +5852,14 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
-  background-position: 0 90.61662%;
+  background-position: 0 88.95899%;
   margin: 2px 0 0 15px;
   min-width: 37px;
   min-height: 38px;
 }
-/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html5-package {
-  background-position: 0 -781px;
+  background-position: 0 -669px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5895,7 +5876,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -5909,12 +5890,12 @@ body {
   height: 0;
   padding-bottom: 2.89286%;
   background-size: 660.71429%;
-  background-position: 0 23.72449%;
+  background-position: 0 27.67857%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px;
 }
-/* line 82, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .css3-package {
   background-position: 0 0;
   /*  
