@@ -1,0 +1,92 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$XX-spacing: 40px; 
+
+@import "training/adobe/XX/XX/*.png";  
+
+.XX-course {
+    $map: sprite-map("training/adobe/XX/XX/*.png", $spacing: $XX-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 996px;
+
+    .id-essentials-framed {  
+        @include XX-sprite(id-essentials-framed); 
+        @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include XX-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include XX-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include XX-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .id-advanced {
+        @include XX-sprite(id-advanced); 
+        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+
+        min-width: 65px;
+        min-height: 63px; 
+    }
+
+    .id-essentials {
+        @include XX-sprite(id-essentials); 
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    @mixin package-training-logo {
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    }   
+
+    .ps-ess {
+        @include XX-sprite(ps-ess); 
+        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+
+        @include package-training-logo; 
+    }
+
+    .il-ess {
+        @include XX-sprite(il-ess); 
+        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+
+        @include package-training-logo; 
+    }
+
+    @include btn-shadow($XX-color);
+}
