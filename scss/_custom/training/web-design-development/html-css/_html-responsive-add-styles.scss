@@ -18,8 +18,8 @@ $html-responsive-spacing: 40px;
         @include html-responsive-sprite(htmlnews); 
         @include responsive-sprite($map, htmlnews, $sprite-width, $sprite-height, 5.8%);
         margin-top: 22px !important;
-        min-width: 55px;
-        min-height: 55px;
+        min-width: 48px;
+        min-height: 48px;
     } 
 
     .course-classrom { 
