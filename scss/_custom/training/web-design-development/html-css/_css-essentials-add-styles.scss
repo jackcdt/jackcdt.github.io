@@ -5,24 +5,24 @@
 @import "compass/utilities/sprites";
  
 // Required for correct operation, must be named same as the sprite
-$dreamweaver-essentials-spacing: 40px; 
+$css-essentials-spacing: 40px; 
 
-@import "training/web-design-development/dreamweaver/dreamweaver-essentials/*.png";  
+@import "training/web-design-development/html-css/css-essentials/*.png";  
 
-.dreamweaver-essentials-course {
-    $map: sprite-map("training/web-design-development/dreamweaver/dreamweaver-essentials/*.png", $spacing: $dreamweaver-essentials-spacing); /*empty comment*/ 
+.css-essentials-course {
+    $map: sprite-map("training/web-design-development/html-css/css-essentials/*.png", $spacing: $css-essentials-spacing); /*empty comment*/ 
     $sprite-width: 200px;
-    $sprite-height: 966px;
+    $sprite-height: 964px;
 
-    .dw-essentials-framed {  
-        @include dreamweaver-essentials-sprite(dw-essentials-framed); 
-        @include responsive-sprite($map, dw-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+    .html-css {  
+        @include css-essentials-sprite(html-css); 
+        @include responsive-sprite($map, html-css, $sprite-width, $sprite-height, 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
-        @include dreamweaver-essentials-sprite(course-classrom); 
+        @include css-essentials-sprite(course-classrom); 
         @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
@@ -32,7 +32,7 @@ $dreamweaver-essentials-spacing: 40px;
     }
  
     .pdf {
-        @include dreamweaver-essentials-sprite(pdf); 
+        @include css-essentials-sprite(pdf); 
         @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
         min-width: 32px;
         min-height: 32px;
@@ -41,35 +41,35 @@ $dreamweaver-essentials-spacing: 40px;
 
     .course-custom-training-logo {
         // Don't forget to change the name of the image for every page
-        @include dreamweaver-essentials-sprite(custom-training); 
+        @include css-essentials-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
- 
+
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
-        }
+        } 
 
         border: 1px solid #686F74; 
     }
 
     .html5css {
-        @include dreamweaver-essentials-sprite(html5css); 
+        @include css-essentials-sprite(html5css); 
         @include responsive-sprite($map, html5css, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
     }
 
-    .html-css {
-        @include dreamweaver-essentials-sprite(html-css); 
-        @include responsive-sprite($map, html-css, $sprite-width, $sprite-height, 5.8%);
+    .dw-essentials {
+        @include css-essentials-sprite(dw-essentials); 
+        @include responsive-sprite($map, dw-essentials, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
     }
 
     .html-ess {
-        @include dreamweaver-essentials-sprite(html-ess); 
+        @include css-essentials-sprite(html-ess); 
         @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 50px;
@@ -83,25 +83,25 @@ $dreamweaver-essentials-spacing: 40px;
     }   
 
     .css3-package {
-        @include dreamweaver-essentials-sprite(css3-package); 
+        @include html-web-principles-sprite(css3-package); 
         @include responsive-sprite($map, css3-package, $sprite-width, $sprite-height, 5.8%);
 
-        @include package-training-logo;  
+        @include package-training-logo; 
     }
 
     .dreamweaver-package {
-        @include dreamweaver-essentials-sprite(dreamweaver-package); 
+        @include html-web-principles-sprite(dreamweaver-package); 
         @include responsive-sprite($map, dreamweaver-package, $sprite-width, $sprite-height, 5.8%);
 
         @include package-training-logo; 
     }
 
     .html5-package {
-        @include dreamweaver-essentials-sprite(html5-package); 
+        @include html-web-principles-sprite(html5-package); 
         @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 5.8%);
 
         @include package-training-logo; 
     }
 
-    @include btn-shadow(darken($dreamweaver-color, 10%));
+    @include btn-shadow($html-css-color);
 }

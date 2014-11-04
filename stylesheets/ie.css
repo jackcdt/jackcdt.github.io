@@ -1364,6 +1364,31 @@ body {
   background-color: #053c6a;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .custom-training, .css-essentials-course .css3-package,
+.css-essentials-course .dreamweaver-package, .css-essentials-course .dw-essentials, .css-essentials-course .html5css, .css-essentials-course .html5-package, .css-essentials-course .html-ess {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course .book-now-btn {
+  background-color: #053c6a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category {
