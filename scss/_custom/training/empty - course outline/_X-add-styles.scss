@@ -56,7 +56,6 @@ $XX-spacing: 40px;
         @include XX-sprite(id-advanced); 
         @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
 
-        margin-top: -9px;
         min-width: 65px;
         min-height: 63px; 
     }

@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.flash-essentials-course {
+    @include course($flash-color); 
+}
