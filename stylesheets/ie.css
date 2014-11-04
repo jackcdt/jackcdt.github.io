@@ -1414,6 +1414,31 @@ body {
   background-color: #053c6a;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .custom-training, .html5-css3-course .jq-essentials,
+.html5-css3-course .js-essentials {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course .book-now-btn {
+  background-color: #053c6a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category {
