@@ -8501,6 +8501,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8519,6 +8530,28 @@
 		"initialSize": 7946,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3097,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-css.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced\/html-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8600,13 +8633,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sbc5921ed8b.png": {
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 62679,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sbc5921ed8b.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sbc5921ed8b.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8629,6 +8662,28 @@
 		"initialSize": 7946,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3097,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-css.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-essentials\/html-ess.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12355,6 +12410,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training\/training-benefits.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wordpress-advanced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wordpress-advanced.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -1515,6 +1515,31 @@ body {
   background-color: #1e8a9a;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-old-ie-styles.scss */
+.wordpress-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-old-ie-styles.scss */
+.wordpress-advanced-course .wp-advanced-framed, .wordpress-advanced-course .course-classrom, .wordpress-advanced-course .pdf, .wordpress-advanced-course .custom-training, .wordpress-advanced-course .wp-essentials,
+.wordpress-advanced-course .html-css, .wordpress-advanced-course .html-ess {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-old-ie-styles.scss */
+.wordpress-advanced-course .book-now-btn {
+  background-color: #1e8a9a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-jquery-category-old-ie-styles.scss */
 .javascript-jquery-category {
