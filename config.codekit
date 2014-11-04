@@ -5700,68 +5700,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/course-classrom.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59973,
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10335,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/course-classrom.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/course-classrom.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/course-classrom.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/custom-training.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7946,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/custom-training.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/custom-training.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/custom-training.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/eg-essentials.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/eg-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3291,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/eg-essentials.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/eg-essentials.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/eg-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/eg-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/fl-actionscript.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/fl-actionscript.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3314,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/fl-actionscript.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/fl-actionscript.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/fl-actionscript.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/fl-actionscript.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/js-essentials.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/js-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1862,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/js-essentials.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/js-essentials.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/js-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/js-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-action-script\/pdf.png": {
+	"\/images\/training\/adobe\/flash\/flash-actionscript\/pdf.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2904,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/pdf.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-action-script\/pdf.png",
+		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript\/pdf.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9305,15 +9316,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script-add-styles.scss": {
+	"\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script-add-styles.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_flash-action-script-add-styles.css",
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_flash-actionscript-add-styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9321,15 +9332,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script-old-ie-styles.scss": {
+	"\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript-old-ie-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script-old-ie-styles.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_flash-action-script-old-ie-styles.css",
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_flash-actionscript-old-ie-styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -9337,15 +9348,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script.scss": {
+	"\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-action-script.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_flash-action-script.css",
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/adobe\/flash\/_flash-actionscript.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_flash-actionscript.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
