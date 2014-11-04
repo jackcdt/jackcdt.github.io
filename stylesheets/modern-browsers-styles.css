@@ -481,8 +481,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -501,10 +501,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants:active {
@@ -767,8 +767,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -787,10 +787,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants:active {
@@ -994,8 +994,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1014,10 +1014,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants:active {
@@ -1184,8 +1184,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1204,10 +1204,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants:active {
@@ -1393,8 +1393,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1413,10 +1413,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants:active {
@@ -1563,8 +1563,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -1583,10 +1583,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants:active {
@@ -4203,8 +4203,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4223,10 +4223,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants:active {
@@ -4428,8 +4428,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4448,10 +4448,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-single-app-course .validate-participants:active {
@@ -4615,8 +4615,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4635,10 +4635,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants:active {
@@ -4823,8 +4823,8 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   -webkit-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
   box-shadow: inset 0px 1px 0px 0px #fcf1f7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #C42A7C));
-  background: -moz-linear-gradient(center top, #dd5ea1 5%, #C42A7C 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dd5ea1), color-stop(1, #c42a7c));
+  background: -moz-linear-gradient(center top, #dd5ea1 5%, #c42a7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
   background-color: #dd5ea1;
   text-indent: 0;
@@ -4843,10 +4843,10 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C42A7C), color-stop(1, #dd5ea1));
-  background: -moz-linear-gradient(center top, #C42A7C 5%, #dd5ea1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c42a7c), color-stop(1, #dd5ea1));
+  background: -moz-linear-gradient(center top, #c42a7c 5%, #dd5ea1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ebook-course .validate-participants:active {
@@ -5680,7 +5680,7 @@ body {
   min-width: 45px;
   min-height: 48px;
 }
-/* line 60, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 66, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .html5-package {
   background-position: 0 -459px;
   /*  
@@ -5699,7 +5699,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 68, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 73, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -5718,7 +5718,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 76, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
+/* line 80, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .css3-package {
   background-position: 0 0;
   /*  
@@ -5738,9 +5738,910 @@ body {
   min-height: 42px;
 }
 
-/* line 112, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
-.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .dw-dynamic, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
-  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-sa541b46ec8.png');
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 120, training/web-design-development/html-css/html-web-principles/*.png */
+.html-web-principles-sprite, .html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .course-custom-training-logo, .html-web-principles-course .dw-essentials, .html-web-principles-course .htmlnews, .html-web-principles-course .html-css, .html-web-principles-course .css3-package, .html-web-principles-course .dreamweaver-package, .html-web-principles-course .html5-package, .css-essentials-course .css3-package, .css-essentials-course .dreamweaver-package, .css-essentials-course .html5-package {
+  background-image: url('../images/training/web-design-development/html-css/html-web-principles-s73f6714009.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html-ess {
+  background-position: 0 -610px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 67.18062%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .pdf {
+  background-position: 0 -909px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .course-custom-training-logo {
+  background-position: 0 -222px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 24.74916%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+  .html-web-principles-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 24.74916%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .dw-essentials {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 307.69231%;
+  background-position: 0 44.55446%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 63, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .htmlnews {
+  background-position: 0 -785px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.6125%;
+  background-size: 312.5%;
+  background-position: 0 88.30146%;
+  margin: -10px 0 4px 15px !important;
+  min-width: 50px;
+  min-height: 64px;
+}
+/* line 71, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html-css {
+  background-position: 0 -509px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 55.8114%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 85, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .css3-package {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 952.38095%;
+  background-position: 0 16.11877%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 92, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .dreamweaver-package {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 35.72939%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 99, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .html5-package {
+  background-position: 0 -715px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 909.09091%;
+  background-position: 0 75.82185%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.html-web-principles-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 120, training/web-design-development/html-css/css-essentials/*.png */
+.css-essentials-sprite, .css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .course-custom-training-logo, .css-essentials-course .html5css, .css-essentials-course .dw-essentials, .css-essentials-course .html-ess {
+  background-image: url('../images/training/web-design-development/html-css/css-essentials-scf24783571.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .html-css {
+  background-position: 0 -509px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 56.36766%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .pdf {
+  background-position: 0 -900px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .course-custom-training-logo {
+  background-position: 0 -222px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 25%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+  .css-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 25%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .html5css {
+  background-position: 0 -785px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.50633%;
+  background-size: 253.16456%;
+  background-position: 0 88.30146%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 63, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .dw-essentials {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 307.69231%;
+  background-position: 0 45%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 71, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .html-ess {
+  background-position: 0 -610px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 67.85317%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 85, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .css3-package {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 952.38095%;
+  background-position: 0 16.27409%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 92, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .dreamweaver-package {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 36.07257%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 99, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .html5-package {
+  background-position: 0 -715px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 909.09091%;
+  background-position: 0 76.55246%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.css-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.css-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.css-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/web-design-development/html-css/html-responsive/*.png */
+.html-responsive-sprite, .html-responsive-course .htmlnews, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .course-custom-training-logo, .html-responsive-course .html-ess, .html-responsive-course .ps-web {
+  background-image: url('../images/training/web-design-development/html-css/html-responsive-s0f4b281bbe.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .htmlnews {
+  background-position: 0 -373px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.6125%;
+  background-size: 312.5%;
+  background-position: 0 64.08935%;
+  margin-top: 22px !important;
+  min-width: 48px;
+  min-height: 48px;
+}
+/* line 25, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .pdf {
+  background-position: 0 -497px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 82.55814%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 25.76271%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+  .html-responsive-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 25.76271%;
+  }
+}
+/* line 56, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .html-ess {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 44.59235%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 64, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .ps-web {
+  background-position: 0 -601px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.html-responsive-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 88, training/web-design-development/html-css/html5-css3/*.png */
+.html5-css3-sprite, .html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .course-custom-training-logo, .html5-css3-course .jq-essentials, .html5-css3-course .js-essentials {
+  background-image: url('../images/training/web-design-development/html-css/html5-css3-sa05d5fd5ff.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .html5css {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.50633%;
+  background-size: 253.16456%;
+  background-position: 0 50.75758%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .pdf {
+  background-position: 0 -539px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 28.8425%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+  .html5-css3-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 28.8425%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .jq-essentials {
+  background-position: 0 -383px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.63889%;
+  background-size: 555.55556%;
+  background-position: 0 67.42958%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 63, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .js-essentials {
+  background-position: 0 -458px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.945%;
+  background-size: 500%;
+  background-position: 0 81.49466%;
+  margin-left: 20px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.html5-css3-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  box-shadow: inset 0px 1px 0px 0px #75bdf9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0865b3), color-stop(1, #053c6a));
+  background: -moz-linear-gradient(center top, #0865b3 5%, #053c6a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #0865b3;
+  text-indent: 0;
+  border: 1px solid #021321;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.html5-css3-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #053c6a), color-stop(1, #0865b3));
+  background: -moz-linear-gradient(center top, #053c6a 5%, #0865b3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #053c6a;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.html5-css3-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 104, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
+.dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .html-ess, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-s373887c318.png');
   background-repeat: no-repeat;
 }
 
@@ -5750,7 +6651,7 @@ body {
 }
 /* line 13, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dw-essentials-framed {
-  background-position: 0 -365px;
+  background-position: 0 -253px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5762,7 +6663,7 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 276.1194%;
-  background-position: 0 48.99329%;
+  background-position: 0 39.9684%;
   min-width: 56px;
   min-height: 58px;
 }
@@ -5780,7 +6681,7 @@ body {
   height: 0;
   padding-bottom: 41.08108%;
   background-size: 100%;
-  background-position: 0 9.52381%;
+  background-position: 0 11.23596%;
   border: 1px solid #686F74;
 }
 @media screen and (min-width: 420px) and (max-width: 639px) {
@@ -5797,12 +6698,12 @@ body {
     height: 0;
     padding-bottom: 26.7027%;
     background-size: 100%;
-    background-position: 0 9.52381%;
+    background-position: 0 11.23596%;
   }
 }
 /* line 32, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dw-essentials {
-  background-position: 0 -471px;
+  background-position: 0 -359px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5814,14 +6715,14 @@ body {
   height: 0;
   padding-bottom: 4.92308%;
   background-size: 284.61538%;
-  background-position: 0 63.05221%;
+  background-position: 0 56.53543%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 41px;
 }
 /* line 41, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html-css {
-  background-position: 0 -575px;
+  background-position: 0 -463px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5833,33 +6734,14 @@ body {
   height: 0;
   padding-bottom: 4.69231%;
   background-size: 284.61538%;
-  background-position: 0 76.66667%;
+  background-position: 0 72.57053%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px;
 }
 /* line 50, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
-.dreamweaver-category .dw-dynamic {
-  background-position: 0 -253px;
-  /*  
-      // Calculate sprite map dimentions - currently not working due to path issues  
-      $sprite-file: sprite-path($map);
-      $sprite-width: image-width($sprite-file);
-      $sprite-height: image-height($sprite-file);
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.15556%;
-  background-size: 228.39506%;
-  background-position: 0 34.23545%;
-  margin: -2px 0 0 15px;
-  min-width: 47px;
-  min-height: 47px;
-}
-/* line 58, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html-ess {
-  background-position: 0 -676px;
+  background-position: 0 -564px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5871,14 +6753,14 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
-  background-position: 0 90.61662%;
+  background-position: 0 88.95899%;
   margin: 2px 0 0 15px;
   min-width: 37px;
   min-height: 38px;
 }
-/* line 66, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 65, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .html5-package {
-  background-position: 0 -781px;
+  background-position: 0 -669px;
   /*  
       // Calculate sprite map dimentions - currently not working due to path issues  
       $sprite-file: sprite-path($map);
@@ -5895,7 +6777,7 @@ body {
   min-width: 27px;
   min-height: 42px;
 }
-/* line 74, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 72, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .dreamweaver-package {
   background-position: 0 -186px;
   /*  
@@ -5909,12 +6791,12 @@ body {
   height: 0;
   padding-bottom: 2.89286%;
   background-size: 660.71429%;
-  background-position: 0 23.72449%;
+  background-position: 0 27.67857%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px;
 }
-/* line 82, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+/* line 79, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
 .dreamweaver-category .css3-package {
   background-position: 0 0;
   /*  
@@ -5932,6 +6814,269 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 120, training/web-design-development/dreamweaver/dreamweaver-essentials/*.png */
+.dreamweaver-essentials-sprite, .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .course-custom-training-logo, .dreamweaver-essentials-course .html5css, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .html5-package {
+  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-essentials-s4788f9ead8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .dw-essentials-framed {
+  background-position: 0 -405px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71343%;
+  background-size: 298.50746%;
+  background-position: 0 45%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .pdf {
+  background-position: 0 -902px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .course-custom-training-logo {
+  background-position: 0 -222px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 24.94382%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+  .dreamweaver-essentials-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 24.94382%;
+  }
+}
+/* line 55, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html5css {
+  background-position: 0 -787px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.50633%;
+  background-size: 253.16456%;
+  background-position: 0 88.32772%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 63, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html-css {
+  background-position: 0 -511px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 307.69231%;
+  background-position: 0 56.46409%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 71, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html-ess {
+  background-position: 0 -612px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 67.92453%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 85, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .css3-package {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 952.38095%;
+  background-position: 0 16.23932%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 92, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .dreamweaver-package {
+  background-position: 0 -338px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 35.99574%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 99, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .html5-package {
+  background-position: 0 -717px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 909.09091%;
+  background-position: 0 76.60256%;
+  margin: -8px 15px 15px 15px;
+  min-width: 27px;
+  min-height: 42px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  box-shadow: inset 0px 1px 0px 0px #e6f7d4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8eda3e), color-stop(1, #67ab21));
+  background: -moz-linear-gradient(center top, #8eda3e 5%, #67ab21 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #8eda3e;
+  text-indent: 0;
+  border: 1px solid #416b14;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #67ab21), color-stop(1, #8eda3e));
+  background: -moz-linear-gradient(center top, #67ab21 5%, #8eda3e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #67ab21;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.dreamweaver-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
 }
 
 /* line 64, training/web-design-development/wordpress/wordpress-category/*.png */

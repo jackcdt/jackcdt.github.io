@@ -1,0 +1,15 @@
+@import "_custom/common";
+
+.html-web-principles-course {
+
+    /* Hide all sprites */
+    .html-ess, .course-classrom, .pdf, .custom-training, .css3-package,
+    .dreamweaver-package, .dw-essentials, .html5css, .html5-package,
+    .html-css, .html-ess {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $html-css-color;
+    } 
+}

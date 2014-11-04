@@ -721,7 +721,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-essentials-old-ie-styles.scss */
 .indesign-essentials-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -746,7 +746,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
 .indesign-advanced-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -771,7 +771,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-lite-old-ie-styles.scss */
 .indesign-lite-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -796,7 +796,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
 .indesign-long-docs-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -821,7 +821,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
 .indesign-interactivity-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -845,7 +845,7 @@ body {
 }
 /* line 10, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
 .indesign-accessibility-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* Push up the custom training to compensate for no image */
@@ -1157,7 +1157,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
 .indesign-to-ipad-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -1182,7 +1182,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
 .dps-single-app-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -1207,7 +1207,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
 .dps-pro-app-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -1232,7 +1232,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
 .indesign-to-ebook-course .book-now-btn {
-  background-color: #C42A7C;
+  background-color: #c42a7c;
 }
 
 /* Push up the custom training to compensate for no image */
@@ -1338,19 +1338,144 @@ body {
   display: none;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .custom-training, .html-web-principles-course .css3-package,
+.html-web-principles-course .dreamweaver-package, .html-web-principles-course .dw-essentials, .html-web-principles-course .html5css, .html-web-principles-course .html5-package,
+.html-web-principles-course .html-css, .html-web-principles-course .html-ess {
+  display: none !important;
+}
+/* line 12, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
+.html-web-principles-course .book-now-btn {
+  background-color: #053c6a;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .custom-training, .css-essentials-course .css3-package,
+.css-essentials-course .dreamweaver-package, .css-essentials-course .dw-essentials, .css-essentials-course .html5css, .css-essentials-course .html5-package, .css-essentials-course .html-ess {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
+.css-essentials-course .book-now-btn {
+  background-color: #053c6a;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course .html-ess, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .custom-training, .html-responsive-course .htmlnews,
+.html-responsive-course .ps-web {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
+.html-responsive-course .book-now-btn {
+  background-color: #053c6a;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .custom-training, .html5-css3-course .jq-essentials,
+.html5-css3-course .js-essentials {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
+.html5-css3-course .book-now-btn {
+  background-color: #053c6a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
 .dreamweaver-category {
   /* Hide all sprites */
 }
 /* line 4, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-old-ie-styles.scss */
-.dreamweaver-category .dw-dynamic,
 .dreamweaver-category .custom-training,
 .dreamweaver-category .dw-essentials,
 .dreamweaver-category .dw-essentials-framed,
 .dreamweaver-category .html-css,
 .dreamweaver-category .html-ess {
   display: none;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
+.dreamweaver-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
+.dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .custom-training, .dreamweaver-essentials-course .html5css,
+.dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .html5-package, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
+.dreamweaver-essentials-course .book-now-btn {
+  background-color: #81d629;
 }
 
 /* Push up the custom training to compensate for no image */

@@ -1,0 +1,73 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$html-responsive-spacing: 40px; 
+
+@import "training/web-design-development/html-css/html-responsive/*.png";  
+
+.html-responsive-course {
+    $map: sprite-map("training/web-design-development/html-css/html-responsive/*.png", $spacing: $html-responsive-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 666px;
+
+    .htmlnews {  
+        @include html-responsive-sprite(htmlnews); 
+        @include responsive-sprite($map, htmlnews, $sprite-width, $sprite-height, 5.8%);
+        margin-top: 22px !important;
+        min-width: 48px;
+        min-height: 48px;
+    } 
+
+    .course-classrom { 
+        @include html-responsive-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include html-responsive-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include html-responsive-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .html-ess {
+        @include html-responsive-sprite(html-ess); 
+        @include responsive-sprite($map, html-ess, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 20px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    .ps-web {
+        @include html-responsive-sprite(ps-web); 
+        @include responsive-sprite($map, ps-web, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 20px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    @include btn-shadow($html-css-color);
+}

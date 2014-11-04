@@ -1,0 +1,72 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$html5-css3-spacing: 40px; 
+
+@import "training/web-design-development/html-css/html5-css3/*.png";  
+
+.html5-css3-course {
+    $map: sprite-map("training/web-design-development/html-css/html5-css3/*.png", $spacing: $html5-css3-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 603px;
+
+    .html5css {  
+        @include html5-css3-sprite(html5css); 
+        @include responsive-sprite($map, html5css, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include html5-css3-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include html5-css3-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include html5-css3-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .jq-essentials {
+        @include html5-css3-sprite(jq-essentials); 
+        @include responsive-sprite($map, jq-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 20px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    .js-essentials {
+        @include html5-css3-sprite(js-essentials); 
+        @include responsive-sprite($map, js-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 20px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    @include btn-shadow($html-css-color);
+}
