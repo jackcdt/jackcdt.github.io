@@ -55,9 +55,9 @@ $javascript-essentials-spacing: 40px;
     .jq-essentials {
         @include javascript-essentials-sprite(jq-essentials); 
         @include responsive-sprite($map, jq-essentials, $sprite-width, $sprite-height, 5.8%);
-        margin-left: 15px;
-        min-width: 65px;
-        min-height: 63px; 
+        margin-left: 23px;
+        min-width: 50px;
+        min-height: 50px;
     }
 
     @include btn-shadow($javascript-jquery-color);
