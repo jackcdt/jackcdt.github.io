@@ -1,0 +1,64 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$premiere-elements-spacing: 40px; 
+
+@import "training/video-editing/premiere-pro/premiere-elements/*.png";  
+
+.premiere-elements-course {
+    $map: sprite-map("training/video-editing/premiere-pro/premiere-elements/*.png", $spacing: $premiere-elements-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 541px;
+
+    .pr-elements-framed {  
+        @include premiere-elements-sprite(pr-elements-framed); 
+        @include responsive-sprite($map, pr-elements-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include premiere-elements-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include premiere-elements-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include premiere-elements-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .pr-essentials {
+        @include premiere-elements-sprite(pr-essentials); 
+        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+        min-width: 65px;
+        min-height: 63px; 
+    }
+
+    @include btn-shadow(darken($premiere-pro-color, 10%));
+}
