@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.premiere-pro-essentials-course {
+
+    /* Hide all sprites */
+    .pr-essentials-framed, .course-classrom, .pdf, .custom-training, .pr-advanced,
+    .ae-essentials, .ps-essentials, .pr-essentials {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $premiere-pro-color;
+    } 
+}

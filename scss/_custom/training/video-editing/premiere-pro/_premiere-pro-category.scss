@@ -29,5 +29,11 @@
                 background: lighten($premiere-pro-color, 30%);
             }
         }
+    } 
+
+    .course-item .course-item-description {
+        @media #{$large-up} {
+            height: 15em;
+        }
     }
 } 
