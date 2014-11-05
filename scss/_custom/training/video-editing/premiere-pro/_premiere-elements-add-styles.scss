@@ -55,7 +55,7 @@ $premiere-elements-spacing: 40px;
     .pr-essentials {
         @include premiere-elements-sprite(pr-essentials); 
         @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
-        margin-left: 15px;
+        margin-left: 15px; 
         min-width: 65px;
         min-height: 63px; 
     }

@@ -7511,6 +7511,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/captivate\/captivate-advanced\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-advanced\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-advanced\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/captivate\/captivate-category-s59d8a1273b.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7584,6 +7617,61 @@
 		"initialSize": 2797,
 		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category\/ps-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials\/cp-adv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4240,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/cp-adv.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/cp-adv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials\/cp-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2837,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/cp-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/cp-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/pdf.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7837,6 +7925,17 @@
 		"initialSize": 2797,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-essentials\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-essentials\/ps-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
