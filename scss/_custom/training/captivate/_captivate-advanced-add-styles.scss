@@ -5,24 +5,25 @@
 @import "compass/utilities/sprites";
  
 // Required for correct operation, must be named same as the sprite
-$captivate-essentials-spacing: 40px; 
+$captivate-advanced-spacing: 40px; 
 
-@import "training/captivate/captivate-essentials/*.png";  
+@import "training/captivate/captivate-advanced/*.png";  
 
-.captivate-essentials-course {
-    $map: sprite-map("training/captivate/captivate-essentials/*.png", $spacing: $captivate-essentials-spacing); /*empty comment*/ 
+.captivate-advanced-course {
+    $map: sprite-map("training/captivate/captivate-advanced/*.png", $spacing: $captivate-advanced-spacing); /*empty comment*/ 
     $sprite-width: 200px;
     $sprite-height: 558px;
 
-    .cp-ess {  
-        @include captivate-essentials-sprite(cp-ess); 
-        @include responsive-sprite($map, cp-ess, $sprite-width, $sprite-height, 5.8%);
-        min-width: 55px;
-        min-height: 55px;
+    .cp-adv {  
+        @include captivate-advanced-sprite(cp-adv); 
+        @include responsive-sprite($map, cp-adv, $sprite-width, $sprite-height, 5.8%);
+        margin-top: 18px !important;
+        min-width: 73px;
+        min-height: 72px;
     } 
 
     .course-classrom { 
-        @include captivate-essentials-sprite(course-classrom); 
+        @include captivate-advanced-sprite(course-classrom); 
         @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
@@ -32,7 +33,7 @@ $captivate-essentials-spacing: 40px;
     }
  
     .pdf {
-        @include captivate-essentials-sprite(pdf); 
+        @include captivate-advanced-sprite(pdf); 
         @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
         min-width: 32px;
         min-height: 32px;
@@ -41,7 +42,7 @@ $captivate-essentials-spacing: 40px;
 
     .course-custom-training-logo {
         // Don't forget to change the name of the image for every page
-        @include captivate-essentials-sprite(custom-training); 
+        @include captivate-advanced-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 
  
@@ -52,12 +53,12 @@ $captivate-essentials-spacing: 40px;
         border: 1px solid #686F74; 
     }
 
-    .cp-adv {
-        @include captivate-essentials-sprite(cp-adv); 
-        @include responsive-sprite($map, cp-adv, $sprite-width, $sprite-height, 5.8%);
-        margin-left: 8px;
-        min-width: 63px;
-        min-height: 63px;
+    .cp-ess {
+        @include captivate-advanced-sprite(cp-ess); 
+        @include responsive-sprite($map, cp-ess, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 23px;
+        min-width: 50px;
+        min-height: 50px; 
     }
 
     @include btn-shadow($captivate-color);
