@@ -1771,3 +1771,27 @@ body {
 .captivate-category .cap-consult {
   display: none;
 }
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/captivate/_captivate-essentials-old-ie-styles.scss */
+.captivate-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/captivate/_captivate-essentials-old-ie-styles.scss */
+.captivate-essentials-course .cp-ess, .captivate-essentials-course .course-classrom, .captivate-essentials-course .pdf, .captivate-essentials-course .custom-training, .captivate-essentials-course .cp-adv {
+  display: none !important;
+}
+/* line 10, ../scss/_custom/training/captivate/_captivate-essentials-old-ie-styles.scss */
+.captivate-essentials-course .book-now-btn {
+  background-color: #3ac69d;
+}

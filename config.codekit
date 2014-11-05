@@ -7522,6 +7522,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/captivate\/captivate-advanced\/cp-adv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4240,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/cp-adv.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/cp-adv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-advanced\/cp-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2837,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/cp-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/cp-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/captivate\/captivate-advanced\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7540,6 +7562,17 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-advanced\/ps-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2797,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/ps-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/ps-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7617,6 +7650,17 @@
 		"initialSize": 2797,
 		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category\/ps-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57707,
+		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
+		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11702,6 +11746,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/captivate\/_captivate-essentials-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/captivate\/_captivate-essentials-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_captivate-essentials-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/captivate\/_captivate-essentials-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/captivate\/_captivate-essentials-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_captivate-essentials-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/captivate\/_captivate-essentials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/captivate\/_captivate-essentials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_captivate-essentials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/empty - category\/_x-category-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -13230,6 +13322,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training-courses\/adobe-captivate-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/adobe-captivate-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training-courses\/adobe-dps-professional-training.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13253,6 +13354,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training-courses\/advanced-after-effects-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/advanced-captivate-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/advanced-captivate-training.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
