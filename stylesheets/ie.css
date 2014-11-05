@@ -1706,6 +1706,31 @@ body {
   background-color: #d253fc;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-old-ie-styles.scss */
+.premiere-pro-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-old-ie-styles.scss */
+.premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .custom-training, .premiere-pro-advanced-course .pr-essentials,
+.premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-old-ie-styles.scss */
+.premiere-pro-advanced-course .book-now-btn {
+  background-color: #d253fc;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
 .captivate-category {

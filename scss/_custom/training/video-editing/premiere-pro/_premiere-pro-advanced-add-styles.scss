@@ -5,24 +5,25 @@
 @import "compass/utilities/sprites";
  
 // Required for correct operation, must be named same as the sprite
-$premiere-pro-essentials-spacing: 40px; 
+$premiere-pro-advanced-spacing: 40px; 
 
-@import "training/video-editing/premiere-pro/premiere-pro-essentials/*.png";  
+@import "training/video-editing/premiere-pro/premiere-pro-advanced/*.png";  
 
-.premiere-pro-essentials-course {
-    $map: sprite-map("training/video-editing/premiere-pro/premiere-pro-essentials/*.png", $spacing: $premiere-pro-essentials-spacing); /*empty comment*/ 
+.premiere-pro-advanced-course {
+    $map: sprite-map("training/video-editing/premiere-pro/premiere-pro-advanced/*.png", $spacing: $premiere-pro-advanced-spacing); /*empty comment*/ 
     $sprite-width: 200px;
-    $sprite-height: 872px;
+    $sprite-height: 786px;
 
-    .pr-essentials-framed {  
-        @include premiere-pro-essentials-sprite(pr-essentials-framed); 
-        @include responsive-sprite($map, pr-essentials-framed, $sprite-width, $sprite-height, 5.8%);
-        min-width: 55px;
-        min-height: 55px;
+    .pr-advanced-framed {  
+        @include premiere-pro-advanced-sprite(pr-advanced-framed); 
+        @include responsive-sprite($map, pr-advanced-framed, $sprite-width, $sprite-height, 5.8%);
+        margin-top: 18px !important;
+        min-width: 73px;
+        min-height: 72px;
     } 
 
     .course-classrom { 
-        @include premiere-pro-essentials-sprite(course-classrom); 
+        @include premiere-pro-advanced-sprite(course-classrom); 
         @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
@@ -32,7 +33,7 @@ $premiere-pro-essentials-spacing: 40px;
     }
  
     .pdf {
-        @include premiere-pro-essentials-sprite(pdf); 
+        @include premiere-pro-advanced-sprite(pdf); 
         @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
         min-width: 32px;
         min-height: 32px;
@@ -41,7 +42,7 @@ $premiere-pro-essentials-spacing: 40px;
 
     .course-custom-training-logo {
         // Don't forget to change the name of the image for every page
-        @include premiere-pro-essentials-sprite(custom-training); 
+        @include premiere-pro-advanced-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 
  
@@ -52,34 +53,26 @@ $premiere-pro-essentials-spacing: 40px;
         border: 1px solid #686F74; 
     }
 
-    .pr-advanced {
-        @include premiere-pro-essentials-sprite(pr-advanced); 
-        @include responsive-sprite($map, pr-advanced, $sprite-width, $sprite-height, 5.8%);
-        margin-left: -5px;
-        margin-top: -17px;
-        min-width: 66px;
-        min-height: 66px;
-    }
-
     .ae-essentials {
-        @include premiere-pro-essentials-sprite(ae-essentials); 
+        @include premiere-pro-advanced-sprite(ae-essentials); 
         @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
     }
 
-    .pr-essentials {
-        @include premiere-pro-essentials-sprite(pr-essentials); 
-        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
-        margin-left: 15px;
-        min-width: 50px;
-        min-height: 50px;    
+    .ae-advanced {
+        @include premiere-pro-advanced-sprite(ae-advanced); 
+        @include responsive-sprite($map, ae-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin-top: -13px;
+        margin-left: -5px;
+        min-width: 66px;
+        min-height: 64px;
     }
 
-    .ps-essentials {
-        @include premiere-pro-essentials-sprite(ps-essentials); 
-        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+    .pr-essentials {
+        @include premiere-pro-advanced-sprite(pr-essentials); 
+        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
