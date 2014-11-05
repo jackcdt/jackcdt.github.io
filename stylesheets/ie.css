@@ -1641,6 +1641,31 @@ body {
   background-color: #b979fb;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .custom-training, .after-effects-advanced-course .ae-essentials,
+.after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course .book-now-btn {
+  background-color: #b979fb;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-old-ie-styles.scss */
 .premiere-pro-category {

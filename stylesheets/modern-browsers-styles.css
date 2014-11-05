@@ -8338,12 +8338,12 @@ body {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
   -webkit-box-shadow: inset 0px 1px 0px 0px white;
   box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e0c3fd), color-stop(1, #b979fb));
-  background: -moz-linear-gradient(center top, #e0c3fd 5%, #b979fb 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c692fc), color-stop(1, #9f47fa));
+  background: -moz-linear-gradient(center top, #c692fc 5%, #9f47fa 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #e0c3fd;
+  background-color: #c692fc;
   text-indent: 0;
-  border: 1px solid #922ff9;
+  border: 1px solid #7807ed;
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -8358,13 +8358,227 @@ body {
 }
 /* line 34, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b979fb), color-stop(1, #e0c3fd));
-  background: -moz-linear-gradient(center top, #b979fb 5%, #e0c3fd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9f47fa), color-stop(1, #c692fc));
+  background: -moz-linear-gradient(center top, #9f47fa 5%, #c692fc 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #b979fb;
+  background-color: #9f47fa;
 }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 96, training/video-editing/after-effects/after-effects-advanced/*.png */
+.after-effects-advanced-sprite, .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .course-custom-training-logo, .after-effects-advanced-course .ae-essentials, .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
+  background-image: url('../images/training/video-editing/after-effects/after-effects-advanced-sc7167ef069.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .ae-advanced-framed {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 229.88506%;
+  background-position: 0 0%;
+  margin-top: 18px !important;
+  min-width: 73px;
+  min-height: 72px;
+}
+/* line 25, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .course-classrom {
+  background-position: 0 -226px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 33.53116%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .pdf {
+  background-position: 0 -494px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 68.42105%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .course-custom-training-logo {
+  background-position: 0 -378px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 53.23944%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+  .after-effects-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 53.23944%;
+  }
+}
+/* line 56, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .ae-essentials {
+  background-position: 0 -123px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 17.01245%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 64, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .pr-essentials {
+  background-position: 0 -722px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 72, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .pr-advanced {
+  background-position: 0 -598px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.6%;
+  background-size: 229.88506%;
+  background-position: 0 85.18519%;
+  margin-left: -5px;
+  margin-top: -15px;
+  min-width: 68px;
+  min-height: 66px;
+}
+/* line 81, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .package-training-logo {
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.after-effects-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c692fc), color-stop(1, #9f47fa));
+  background: -moz-linear-gradient(center top, #c692fc 5%, #9f47fa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #c692fc;
+  text-indent: 0;
+  border: 1px solid #7807ed;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.after-effects-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9f47fa), color-stop(1, #c692fc));
+  background: -moz-linear-gradient(center top, #9f47fa 5%, #c692fc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #9f47fa;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.after-effects-advanced-course .validate-participants:active {
   position: relative;
   top: 1px;
 }

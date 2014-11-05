@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.after-effects-advanced-course {
+
+    /* Hide all sprites */
+    .ae-advanced-framed, .course-classrom, .pdf, .custom-training, .ae-essentials,
+    .pr-essentials, .pr-advanced {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $after-effects-color;
+    } 
+}

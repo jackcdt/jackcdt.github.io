@@ -88,5 +88,5 @@ $after-effects-essentials-spacing: 40px;
         min-height: 36px;
     }   
 
-    @include btn-shadow($after-effects-color);
+    @include btn-shadow(darken($after-effects-color, 10%));
 }
