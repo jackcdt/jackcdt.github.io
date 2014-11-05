@@ -9658,6 +9658,175 @@ body {
   top: 1px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 80, training/captivate/captivate-advanced/*.png */
+.captivate-advanced-sprite, .captivate-advanced-course .cp-adv, .captivate-advanced-course .course-classrom, .captivate-advanced-course .pdf, .captivate-advanced-course .course-custom-training-logo, .captivate-advanced-course .cp-ess {
+  background-image: url('../images/training/captivate/captivate-advanced-s40e03a7be9.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .cp-adv {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.47045%;
+  background-size: 227.27273%;
+  background-position: 0 32%;
+  margin-top: 18px !important;
+  min-width: 73px;
+  min-height: 72px;
+}
+/* line 25, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 35, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .pdf {
+  background-position: 0 -494px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 43, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .course-custom-training-logo {
+  background-position: 0 -378px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 78.42324%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 43, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+  .captivate-advanced-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 78.42324%;
+  }
+}
+/* line 56, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .cp-ess {
+  background-position: 0 -275px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 55.55556%;
+  margin-left: 23px;
+  min-width: 50px;
+  min-height: 50px;
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.captivate-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #75d7bb), color-stop(1, #3ac69d));
+  background: -moz-linear-gradient(center top, #75d7bb 5%, #3ac69d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #75d7bb;
+  text-indent: 0;
+  border: 1px solid #288b6e;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.captivate-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3ac69d), color-stop(1, #75d7bb));
+  background: -moz-linear-gradient(center top, #3ac69d 5%, #75d7bb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #3ac69d;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.captivate-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images/admin/calendar-s4dacfd9bea.png');
