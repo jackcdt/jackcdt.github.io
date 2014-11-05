@@ -46,6 +46,12 @@ $after-effects-category-spacing: 40px;
         min-height: 52px;
     } 
 
+    .package-training-logo {
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    }   
+
     .pr-essentials {
         @include after-effects-category-sprite(pr-essentials); 
         @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5%);
@@ -53,10 +59,4 @@ $after-effects-category-spacing: 40px;
         min-width: 36px;
         min-height: 36px;
     }
-
-    .package-training-logo {
-        margin: -5px 15px 15px;
-        min-width: 36px;
-        min-height: 36px;
-    }   
 } 

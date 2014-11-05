@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.after-effects-advanced-course {
+    @include course($after-effects-color); 
+}

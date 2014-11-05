@@ -1,0 +1,92 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$after-effects-essentials-spacing: 40px; 
+
+@import "training/video-editing/after-effects/after-effects-essentials/*.png";  
+
+.after-effects-essentials-course {
+    $map: sprite-map("training/video-editing/after-effects/after-effects-essentials/*.png", $spacing: $after-effects-essentials-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 870px;
+
+    .ae-essentials-framed {  
+        @include after-effects-essentials-sprite(ae-essentials-framed); 
+        @include responsive-sprite($map, ae-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include after-effects-essentials-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px; 
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include after-effects-essentials-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+        // Don't forget to change the name of the image for every page
+        @include after-effects-essentials-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .ae-advanced {
+        @include after-effects-essentials-sprite(ae-advanced); 
+        @include responsive-sprite($map, ae-advanced, $sprite-width, $sprite-height, 5.8%);
+        margin-left: -5px;
+        margin-top: -15px;
+        min-width: 68px;
+        min-height: 66px;
+    }
+
+    .pr-essentials {
+        @include after-effects-essentials-sprite(pr-essentials); 
+        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    .ps-essentials {
+        @include after-effects-essentials-sprite(ps-essentials); 
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+        margin-left: 15px;
+        min-width: 50px;
+        min-height: 50px;    
+    }
+
+    .ae-essentials {
+        @include after-effects-essentials-sprite(ae-essentials); 
+        @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5.8%);
+    }
+
+    .package-training-logo {
+        margin: -5px 15px 15px;
+        min-width: 36px;
+        min-height: 36px;
+    }   
+
+    @include btn-shadow(darken($after-effects-color, 10%));
+}

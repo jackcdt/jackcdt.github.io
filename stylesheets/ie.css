@@ -1574,7 +1574,7 @@ body {
 }
 /* line 10, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
 .javascript-essentials-course .book-now-btn {
-  background-color: #454A4D;
+  background-color: #656C70;
 }
 
 /* line 13, ../scss/_custom/_common.scss */
@@ -1599,7 +1599,7 @@ body {
 }
 /* line 11, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
 .jquery-essentials-course .book-now-btn {
-  background-color: #454A4D;
+  background-color: #656C70;
 }
 
 /* Push up the custom training to compensate for no image */
@@ -1614,6 +1614,56 @@ body {
 .after-effects-category .ae-advanced,
 .after-effects-category .pr-essentials {
   display: none;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-old-ie-styles.scss */
+.after-effects-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-old-ie-styles.scss */
+.after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .custom-training, .after-effects-essentials-course .ae-advanced,
+.after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-old-ie-styles.scss */
+.after-effects-essentials-course .book-now-btn {
+  background-color: #b979fb;
+}
+
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .custom-training, .after-effects-advanced-course .ae-essentials,
+.after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
+.after-effects-advanced-course .book-now-btn {
+  background-color: #b979fb;
 }
 
 /* Push up the custom training to compensate for no image */
