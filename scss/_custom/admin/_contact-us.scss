@@ -1,0 +1,16 @@
+.contact-us {
+	top-padding: 10px;
+
+	h3 {
+        @include list-header(#2089D3);
+    }
+    .location {
+    	.fi-map, .fi-mail {
+    		color: #2089D3;
+    		font-size: 44px;
+    	}
+    	.columns .icon-container {
+    		padding-top: 12px;
+    	}
+    }
+}
