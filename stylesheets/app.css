@@ -9014,8 +9014,8 @@ th.hide-for-touch {
  */
 @font-face {
   font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.eot?1414025847');
-  src: url('../fonts/foundation-icons.eot?&1414025847#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1414025847') format("woff"), url('../fonts/foundation-icons.ttf?1414025847') format("truetype"), url('../fonts/foundation-icons.svg?1414025847#fontcustom') format("svg");
+  src: url('../fonts/foundation-icons.eot?1415246298');
+  src: url('../fonts/foundation-icons.eot?&1415246298#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1415246298') format("woff"), url('../fonts/foundation-icons.ttf?1415246298') format("truetype"), url('../fonts/foundation-icons.svg?1415246298#fontcustom') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10809,7 +10809,7 @@ html {
 .premiere-pro-advanced-course .overview-list .course-specific, .premiere-pro-advanced-course .download-text, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course strong, .premiere-elements-course .overview-list .item-course-specific,
 .premiere-elements-course .overview-list .course-specific, .premiere-elements-course .download-text, .premiere-elements-course .testimonials .category-testimonial span, .captivate-category strong, .captivate-category .course-item .course-item-fee, .captivate-category .testimonials .category-testimonial span, .captivate-essentials-course strong, .captivate-essentials-course .overview-list .item-course-specific,
 .captivate-essentials-course .overview-list .course-specific, .captivate-essentials-course .download-text, .captivate-essentials-course .testimonials .category-testimonial span, .captivate-advanced-course strong, .captivate-advanced-course .overview-list .item-course-specific,
-.captivate-advanced-course .overview-list .course-specific, .captivate-advanced-course .download-text, .captivate-advanced-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span {
+.captivate-advanced-course .overview-list .course-specific, .captivate-advanced-course .download-text, .captivate-advanced-course .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span, .contact-us h3 {
   font-weight: 600;
 }
 
@@ -41584,6 +41584,30 @@ body {
   .faq .testimonials {
     height: 37em;
   }
+}
+
+/* line 1, ../scss/_custom/admin/_contact-us.scss */
+.contact-us {
+  top-padding: 10px;
+}
+/* line 4, ../scss/_custom/admin/_contact-us.scss */
+.contact-us h3 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  line-height: 1.5em;
+  color: #2089D3;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+/* line 8, ../scss/_custom/admin/_contact-us.scss */
+.contact-us .location .fi-map, .contact-us .location .fi-mail {
+  color: #2089D3;
+  font-size: 44px;
+}
+/* line 12, ../scss/_custom/admin/_contact-us.scss */
+.contact-us .location .columns .icon-container {
+  padding-top: 12px;
 }
 
 /* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
