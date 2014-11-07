@@ -8389,6 +8389,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/video-editing\/finalcut-pro\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/video-editing\/finalcut-pro\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/video-editing\/finalcut-pro\/finalcut-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3193,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/finalcut-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/finalcut-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/video-editing\/finalcut-pro\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8946,6 +8990,17 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12657,6 +12712,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/video-editing\/premiere-pro\/_premiere-elements-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -14086,6 +14189,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training-courses\/dreamweaver-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/final-cut-pro-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/final-cut-pro-training.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

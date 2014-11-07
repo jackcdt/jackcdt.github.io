@@ -9548,6 +9548,155 @@ body {
   top: 1px;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 72, training/video-editing/finalcut-pro/*.png */
+.finalcut-pro-sprite, .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf, .finalcut-pro-course .course-custom-training-logo {
+  background-image: url('../images/training/video-editing/finalcut-pro-s71b4a76136.png');
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .finalcut-ess {
+  background-position: 0 -268px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53231%;
+  background-size: 307.69231%;
+  background-position: 0 72.04301%;
+  min-width: 55px;
+  min-height: 55px;
+}
+/* line 24, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .course-classrom {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+/* line 34, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .pdf {
+  background-position: 0 -370px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px;
+}
+/* line 42, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 42.4581%;
+  border: 1px solid #686F74;
+}
+@media screen and (min-width: 420px) and (max-width: 639px) {
+  /* line 42, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+  .finalcut-pro-course .course-custom-training-logo {
+    /*  
+        // Calculate sprite map dimentions - currently not working due to path issues  
+        $sprite-file: sprite-path($map);
+        $sprite-width: image-width($sprite-file);
+        $sprite-height: image-height($sprite-file);
+    */
+    width: 65%;
+    display: block;
+    height: 0;
+    padding-bottom: 26.7027%;
+    background-size: 108.10811%;
+    background-position: 0 42.4581%;
+  }
+}
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.finalcut-pro-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #c7d5e9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #c7d5e9;
+  box-shadow: inset 0px 1px 0px 0px #c7d5e9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4875b6), color-stop(1, #32527f));
+  background: -moz-linear-gradient(center top, #4875b6 5%, #32527f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #4875b6;
+  text-indent: 0;
+  border: 1px solid #1c2f48;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.finalcut-pro-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #32527f), color-stop(1, #4875b6));
+  background: -moz-linear-gradient(center top, #32527f 5%, #4875b6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #32527f;
+}
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.finalcut-pro-course .validate-participants:active {
+  position: relative;
+  top: 1px;
+}
+
 /* line 88, training/captivate/captivate-category/*.png */
 .captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
   background-image: url('../images/training/captivate/captivate-category-s59d8a1273b.png');

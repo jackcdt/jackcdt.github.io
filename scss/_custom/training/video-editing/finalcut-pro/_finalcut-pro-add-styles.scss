@@ -1,0 +1,56 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$finalcut-pro-spacing: 40px; 
+
+@import "training/video-editing/finalcut-pro/*.png";  
+
+.finalcut-pro-course {
+    $map: sprite-map("training/video-editing/finalcut-pro/*.png", $spacing: $finalcut-pro-spacing); /*empty comment*/ 
+    $sprite-width: 200px;
+    $sprite-height: 434px;
+
+    .finalcut-ess {  
+        @include finalcut-pro-sprite(finalcut-ess); 
+        @include responsive-sprite($map, finalcut-ess, $sprite-width, $sprite-height, 5.8%);
+        min-width: 55px;
+        min-height: 55px;
+    } 
+
+    .course-classrom { 
+        @include finalcut-pro-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include finalcut-pro-sprite(pdf); 
+        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    .course-custom-training-logo {
+         
+        @include finalcut-pro-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    @include btn-shadow($final-cut-pro-color);
+}
