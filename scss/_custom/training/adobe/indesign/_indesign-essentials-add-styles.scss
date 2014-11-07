@@ -50,7 +50,7 @@ $indesign-ess-spacing: 40px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include indesign-ess-sprite(class-custom-training); 
         @include responsive-sprite($map, class-custom-training, $sprite-width, $sprite-height, 100%);
 

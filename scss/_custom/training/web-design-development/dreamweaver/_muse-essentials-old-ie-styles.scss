@@ -1,0 +1,14 @@
+@import "_custom/common";
+
+.muse-essentials-course {
+
+    /* Hide all sprites */
+    .mu-essentials-framed, .course-classrom, .pdf, .custom-training, 
+    .ps-essentials, .html-ess {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $muse-color;
+    } 
+}

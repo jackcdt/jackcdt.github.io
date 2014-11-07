@@ -40,7 +40,7 @@ $photoshop-essentials-spacing: 40px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include photoshop-essentials-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 

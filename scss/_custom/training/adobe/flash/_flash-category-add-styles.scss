@@ -18,7 +18,7 @@ $flash-category-spacing: 40px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
+         
         @include flash-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 

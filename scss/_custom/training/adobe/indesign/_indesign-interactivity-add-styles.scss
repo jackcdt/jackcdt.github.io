@@ -51,7 +51,7 @@ $indesign-interactivity-spacing: 40px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include indesign-interactivity-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 

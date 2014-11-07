@@ -18,7 +18,7 @@ $indesign-category-spacing: 40px;
     } 
 
     .custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include indesign-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 

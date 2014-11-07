@@ -18,7 +18,7 @@ $premiere-pro-category-spacing: 40px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
+         
         @include premiere-pro-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 

@@ -8,7 +8,7 @@ $dreamweaver-category-spacing: 40px;
 .dreamweaver-category {
     $map: sprite-map("training/web-design-development/dreamweaver/dreamweaver-category/*.png", $spacing: $dreamweaver-category-spacing); /*empty comment*/ 
     $sprite-width: 185px;
-    $sprite-height: 699px;
+    $sprite-height: 794px;
 
     .dw-essentials-framed { 
         @include dreamweaver-category-sprite(dw-essentials-framed); 
@@ -18,7 +18,7 @@ $dreamweaver-category-spacing: 40px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
+         
         @include dreamweaver-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
 
@@ -54,7 +54,15 @@ $dreamweaver-category-spacing: 40px;
         min-width: 37px;
         min-height: 38px;
     } 
+    
+    .mu-essentials {
+        @include dreamweaver-category-sprite(mu-essentials); 
+        @include responsive-sprite($map, mu-essentials, $sprite-width, $sprite-height, 5%);
+        margin-left: 15px;
 
+        min-width: 40px;
+        min-height: 42px;
+    }
 
     @mixin package-training-logo {
         margin: -8px 15px 15px 15px;

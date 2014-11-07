@@ -18,7 +18,7 @@ $photoshop-category-spacing: 40px;
     } 
 
     .ps-category-custom-training {
-        // Don't forget to change the name of the image for every page
+         
         @include photoshop-category-sprite(ps-category-custom-training); 
         @include responsive-sprite($map, ps-category-custom-training, $sprite-width, $sprite-height, 100%);
 

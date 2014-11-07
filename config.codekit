@@ -8719,13 +8719,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png": {
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 40826,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8814,6 +8814,17 @@
 		"initialSize": 1553,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html5-package.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/html5-package.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2709,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8935,6 +8946,72 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2635,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2797,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12868,6 +12945,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/web-design-development\/html-css\/_css-essentials-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -13844,6 +13969,303 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/modern-browsers-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/acrobat-essentials.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/acrobat-essentials.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/acrobat-forms.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/acrobat-forms.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/adobe-captivate-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/adobe-captivate-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/adobe-dps-professional-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/adobe-dps-professional-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/adobe-dps-single-edition-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/adobe-dps-single-edition-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/advanced-after-effects-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/advanced-after-effects-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/advanced-captivate-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/advanced-captivate-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/advanced-indesign-long-documents.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/advanced-indesign-long-documents.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/advanced-premiere-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/advanced-premiere-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/after-effects-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/after-effects-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/css-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/css-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/digital-magazine-mobile-devices-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/digital-magazine-mobile-devices-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/dreamweaver-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/dreamweaver-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/flash-actionscript-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/flash-actionscript-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/flash-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/flash-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/html-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/html-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/illustrator-training-advanced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/illustrator-training-advanced.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/illustrator-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/illustrator-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-accessibility-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-accessibility-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-interactivity-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-interactivity-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-to-epubs-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-to-epubs-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-training-advanced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-training-advanced.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/indesign-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/indesign-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/javascript-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/javascript-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/muse-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/muse-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/photoshop-training-advanced.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/photoshop-training-advanced.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/photoshop-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/photoshop-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/photoshop-web-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/photoshop-web-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/premiere-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/premiere-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training-courses\/X.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/X.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training\/faq.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/faq.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training\/locations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/locations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training\/training-benefits.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/training-benefits.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

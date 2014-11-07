@@ -1478,6 +1478,31 @@ body {
   background-color: #81D629;
 }
 
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* line 52, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 3, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
+.muse-essentials-course {
+  /* Hide all sprites */
+}
+/* line 6, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
+.muse-essentials-course .mu-essentials-framed, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf, .muse-essentials-course .custom-training,
+.muse-essentials-course .ps-essentials, .muse-essentials-course .html-ess {
+  display: none !important;
+}
+/* line 11, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
+.muse-essentials-course .book-now-btn {
+  background-color: #96be4a;
+}
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
 .wordpress-category {

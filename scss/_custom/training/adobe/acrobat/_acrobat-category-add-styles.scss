@@ -18,7 +18,6 @@ $acrobat-category-spacing: 40px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
         @include acrobat-category-sprite(category-custom-training); 
         @include responsive-sprite($map, category-custom-training, $sprite-width, $sprite-height, 100%);
 
