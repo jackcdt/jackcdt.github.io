@@ -41610,6 +41610,82 @@ body {
   padding-top: 12px;
 }
 
+/* line 3, ../scss/_custom/admin/_training-packages.scss */
+.training-packages .intro h1, .training-packages .intro h2 {
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 36px;
+}
+/* line 8, ../scss/_custom/admin/_training-packages.scss */
+.training-packages .intro p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* line 15, ../scss/_custom/admin/_training-packages.scss */
+.package-includes {
+  padding-bottom: 40px;
+}
+
+/* line 19, ../scss/_custom/admin/_training-packages.scss */
+.package-overview h3 {
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #2089D3;
+  padding: 5px 10px;
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+/* line 30, ../scss/_custom/admin/_training-packages.scss */
+.package-price {
+  background-color: #F6BB00;
+  border: 1px solid #000;
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  width: 140px;
+  margin-top: 30px;
+}
+
+/* line 40, ../scss/_custom/admin/_training-packages.scss */
+.package-gst {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 44, ../scss/_custom/admin/_training-packages.scss */
+.book-now-specials {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #E4E4E4;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* line 57, ../scss/_custom/admin/_training-packages.scss */
+.package-includes {
+  line-height: 2.0em;
+}
+/* line 59, ../scss/_custom/admin/_training-packages.scss */
+.package-includes a {
+  color: #334c57;
+  font-weight: 500;
+}
+/* line 63, ../scss/_custom/admin/_training-packages.scss */
+.package-includes .cs-text {
+  padding: 0 0 0 3px;
+}
+
 /* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
 .checkout-form {
   border: 1px solid #C4C4C4;
