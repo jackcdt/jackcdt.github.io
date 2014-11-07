@@ -1,0 +1,89 @@
+// Create sprite using Compass
+@import"compass/utilities/sprites";
+// Required for correct operation, must be named same as the sprite
+$training-packages-spacing: 40px;
+@import"admin/training-packages/*.png";
+.training-packages {
+    $map: sprite-map("admin/training-packages/*.png", $spacing: $training-packages-spacing);
+    /*empty comment*/
+    
+    $sprite-width: 88px;
+    $sprite-height: 1107px;
+    @mixin package-training-logo {
+        margin-top: 3px;
+        min-width: 25px;
+        min-height: 25px;
+    }
+    .id-essentials {
+        @include training-packages-sprite(id-essentials);
+        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .ps-essentials {
+        @include training-packages-sprite(ps-essentials);
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .il-essentials {
+        @include training-packages-sprite(il-essentials);
+        @include responsive-sprite($map, il-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .ae-essentials {
+        @include training-packages-sprite(ae-essentials);
+        @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .pr-essentials {
+        @include training-packages-sprite(pr-essentials);
+        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .dps-package {
+        @include training-packages-sprite(dps-package);
+        @include responsive-sprite($map, dps-package, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .eg-essentials {
+        @include training-packages-sprite(eg-essentials);
+        @include responsive-sprite($map, eg-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .cp-adv {
+        @include training-packages-sprite(cp-adv);
+        @include responsive-sprite($map, cp-adv, $sprite-width, $sprite-height, 5.8%);
+        margin: -8px 0 0 4px;
+        min-width: 52px;
+        min-height: 51px;
+    }
+    .cp-ess {
+        @include training-packages-sprite(cp-ess);
+        @include responsive-sprite($map, cp-ess, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    .ps-essentials {
+        @include training-packages-sprite(ps-essentials);
+        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package-training-logo;
+    }
+    @mixin package2-training-logo {
+        // margin: -8px 15px 15px 15px;
+        min-width: 25px;
+        min-height: 34px;
+    }
+    .css3-package {
+        @include training-packages-sprite(css3-package);
+        @include responsive-sprite($map, css3-package, $sprite-width, $sprite-height, 5.8%);
+        @include package2-training-logo;
+    }
+    .dw-essentials {
+        @include training-packages-sprite(dw-essentials);
+        @include responsive-sprite($map, dw-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include package2-training-logo;
+    }
+    .html5-package {
+        @include training-packages-sprite(html5-package);
+        @include responsive-sprite($map, html5-package, $sprite-width, $sprite-height, 5.8%);
+        @include package2-training-logo;
+    }
+}

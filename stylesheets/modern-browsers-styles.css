@@ -10339,3 +10339,258 @@ body {
   background-position: 0 100%;
   float: right;
 }
+
+/* line 136, admin/training-packages/*.png */
+.training-packages-sprite, .training-packages .id-essentials, .training-packages .ps-essentials, .training-packages .il-essentials, .training-packages .ae-essentials, .training-packages .pr-essentials, .training-packages .dps-package, .training-packages .eg-essentials, .training-packages .cp-adv, .training-packages .cp-ess, .training-packages .css3-package, .training-packages .dw-essentials, .training-packages .html5-package {
+  background-image: url('../images/admin/training-packages-sf6734cc984.png');
+  background-repeat: no-repeat;
+}
+
+/* line 6, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages {
+  /*empty comment*/
+}
+/* line 17, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .id-essentials {
+  background-position: 0 -736px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 137.5%;
+  background-position: 0 70.36329%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 22, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .ps-essentials {
+  background-position: 0 -1044px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 135.38462%;
+  background-position: 0 100%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 27, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .il-essentials {
+  background-position: 0 -837px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 135.38462%;
+  background-position: 0 80.17241%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 32, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .ae-essentials {
+  background-position: 0 0;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 135.38462%;
+  background-position: 0 0%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 37, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .pr-essentials {
+  background-position: 0 -940px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 135.38462%;
+  background-position: 0 90.12464%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 42, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .dps-package {
+  background-position: 0 -399px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 314.28571%;
+  background-position: 0 36.94444%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 47, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .eg-essentials {
+  background-position: 0 -570px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69825%;
+  background-size: 154.38596%;
+  background-position: 0 54.23406%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 52, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .cp-adv {
+  background-position: 0 -103px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.47045%;
+  background-size: 100%;
+  background-position: 0 10.05859%;
+  margin: -8px 0 0 4px;
+  min-width: 52px;
+  min-height: 51px;
+}
+/* line 59, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .cp-ess {
+  background-position: 0 -226px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 135.38462%;
+  background-position: 0 21.64751%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 64, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .ps-essentials {
+  background-position: 0 -1044px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 135.38462%;
+  background-position: 0 100%;
+  margin-top: 3px;
+  min-width: 25px;
+  min-height: 25px;
+}
+/* line 74, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .css3-package {
+  background-position: 0 -329px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.28571%;
+  background-size: 419.04762%;
+  background-position: 0 30.54782%;
+  min-width: 25px;
+  min-height: 34px;
+}
+/* line 79, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .dw-essentials {
+  background-position: 0 -466px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 135.38462%;
+  background-position: 0 44.67881%;
+  min-width: 25px;
+  min-height: 34px;
+}
+/* line 84, ../scss/_custom/admin/_training-packages-styles.scss */
+.training-packages .html5-package {
+  background-position: 0 -666px;
+  /*  
+      // Calculate sprite map dimentions - currently not working due to path issues  
+      $sprite-file: sprite-path($map);
+      $sprite-width: image-width($sprite-file);
+      $sprite-height: image-height($sprite-file);
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.90909%;
+  background-size: 400%;
+  background-position: 0 61.83844%;
+  min-width: 25px;
+  min-height: 34px;
+}
