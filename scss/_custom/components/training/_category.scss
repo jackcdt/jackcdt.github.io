@@ -6,91 +6,19 @@
 
 @mixin category($color: #000){
     @include banner($color);
-
-    strong {
-        @extend %t-bold;
-    }
  
     .breadcrumb-active {
         color: $color;
     } 
 
-    .custom-training-logo {
-        @extend %custom-training-styling;
-    } 
-
-    .category-description-section p {
-        @extend %t-regular;
-    } 
-
-    .category-description-section {        
-        @media #{$medium-up} {
-            margin-bottom: $margin-bottom-default;
-        }
-    }
-
-    .tight-header {
-        @include large-title-with-border;
-    } 
-
-    .tight-header-1 {
-        @extend .tight-header;
-
-        /* Not supported in IE (old and above 9)
-        @media #{$medium-up} {
-            width: intrinsic;           // Safari/WebKit uses a non-standard name 
-            width: -moz-max-content;    //Firefox/Gecko 
-            width: -webkit-max-content; // Chrome 
-        }*/
-    }
-
-    .tight-header-2 {
-        @extend .tight-header;
-        margin-bottom: 8px;
-
-        /* Not supported in IE (old and above 9)
-        @media #{$medium-up} {
-            width: intrinsic;           // Safari/WebKit uses a non-standard name 
-            width: -moz-max-content;    //Firefox/Gecko 
-            width: -webkit-max-content; // Chrome 
-        }*/
-    }
-
-    .tight-header-3 {
-        @extend .tight-header;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
     .sw-ver {
         color: $color;
-        text-decoration: underline;
-        @extend %t-emphasize;
-    }
-
-    .courses-list {
-        margin-bottom: $margin-bottom-default / 2;
     }
 
     .course-item {
         @include course-item($color);
     }
 
-    .category-video {
-        margin-bottom: $margin-bottom-default * 0.6;  
-    }
-
-    .custom-training {
-        @extend %custom-training;
-
-        @media #{$small-only} {
-            margin-bottom: $margin-bottom-default * 1.5 !important;
-        }
-
-        @media #{$medium-only} {
-            margin-bottom: $margin-bottom-default * 1.5 !important;
-        }
-    }
 
     .seminars-ad {
         @include seminars-ad($color);
@@ -100,87 +28,15 @@
         @include training-checklist($color);
     }
 
-    .testimonials {
-        height: 23em;
-
-        @include testimonials($color);
-
-        @media screen and (min-width: 640px) and (max-width: 680px) {
-            height: 68em;        
-        }
-
-        @media screen and (min-width: 681px) and (max-width: 780px) {
-            height: 53em;
-        }
-        
-        @media screen and (min-width: 781px) and (max-width: 1024px) {
-            height: 37em;
-        }            
-    }  
- 
-    .and {
-        @extend %t-large;
-        @extend %t-light;
-        text-align: center;
-        width: 38px;        
-    }
-
-    .read-more-btn {
-        @extend %read-more-btn;
-        padding: 3px 8px;
-    } 
-
-    .promo-read-more {
-        padding-left: 0;
-        margin-top: $margin-bottom-default / 4;
-        margin-bottom: 30px;
-    }
-
     .paragraph-header {
         @include paragraph-header($color); 
     }
 
     .part-time-options {
         color: $color;
-        @extend %t-small;
-        @extend %t-strong;   
     }
 
-    .category-promo-section {
-        margin-top: 2em;
-    }
-
-    .promo-packages {
-        margin-bottom: $margin-bottom-default
-    }
-
-    [class*="block-grid-"] > li {
-        padding-bottom: 0;
-    }
-
-    @media screen and (min-width: 640px) and (max-width: 680px) {
-        .category-description-section {
-            width: 55%;
-        } 
-
-        .custom-training {
-            width: 45%;
-        }
-
-        .side-pannel {
-            top: -7em;
-        }
-    }
-
-    @media screen and (min-width: 681px) and (max-width: 780px) {
-        .side-pannel {
-            top: -6em;
-        }
-    }
-
-    @media screen and (min-width: 781px) and (max-width: 1024px) {
-        .side-pannel {
-            top: -1em;
-        }
+    .testimonials {
+        @include testimonials($color);
     }
 }

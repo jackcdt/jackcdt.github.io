@@ -2,8 +2,7 @@
 @import "testimonials";
 @import "custom-training";
 
-$border-color: #2C2C2C;
-
+/* Color specific items */
 @mixin course($color: #000){
     @include banner($color);
  
@@ -17,8 +16,6 @@ $border-color: #2C2C2C;
 
     .sw-ver {
         color: $color;
-        text-decoration: underline;
-        @extend %t-emphasize;
     } 
  
     /* General */
@@ -28,328 +25,46 @@ $border-color: #2C2C2C;
     }
 
     /* Secion borders */
-    .upper-row {
-        border-bottom: 1px solid $border-color;
-        margin-bottom: $margin-bottom-default;
-    }
- 
-    .course-info-upper {
-        margin-bottom: $margin-bottom-default / 3;
-
-        @media #{$medium-up} {
-            border-right: 1px dashed $border-color;
-            width: 64%;
-        }
-    }
-
-    .paragraph-header-def-color {
-        border-bottom: 1px dashed $border-color;
-    }
-
-    .course-outline {
-        padding-left: 0;
-        margin-bottom: $margin-bottom-default;
-
-        @media #{$medium-up} {
-            border-right: 3px solid lighten( $border-color, 50% );
-        }
-    }
-
-    .course-dates h3 {
-        border-bottom: 1px dashed $border-color;
-        margin-bottom: $margin-bottom-default / 4;
-    }
-
     .book-now-section {
         border-top: 1px solid $color;
     }
 
     /* Headers */
-    .course-header {
-        @include large-title-with-border;
-    }
-
-    .course-header-1 {
-        @include large-thin-title;
-    } 
-
     .course-header-2 {
-        @include adjust-font-size-to($large-font-size, 1);
-        @extend %t-light;
-
-        line-height: 1em;
-        padding: 3px 0;
         color: $color;
-        margin-bottom: 0;
     }
 
     .paragraph-header {
         @include paragraph-header($color); 
     }
 
-    .paragraph-header-def-color {
-        @include paragraph-header(#000);
-        @extend %t-regular;
-
-        margin-top: $margin-bottom-default / 2;
-        margin-bottom: $margin-bottom-default / 2;
-        height: 1.65em;
-    }
-
     /* Course overview */
-    .note {
-        font-size: 12px;
-    }
-
     .overview-list {
-        ul {
-            list-style-type: none;
-            margin-bottom: $margin-bottom-default / 4;
-            -webkit-margin-after: 0;
-        }
-
-        ul li:before { 
-            content:"-"; 
-            position:relative; 
-            left: -10px;
-        }
-
-        ul li {
-            @include adjust-font-size-to(14px, 1);
-            margin-left: -10px;
-        }
-
-        .to-upper {
-            text-transform: uppercase;
-        }
-
         .item-course-specific,
         .course-specific {
             color: $color;
-            @extend %t-bold;
-        }
-
-        .course-specific {
-            margin-left: 10px;
-            width: 20em;
-
-            @extend %t-small;
-        }
-
-        .overview-list-data {
-            margin-bottom: $margin-bottom-default / 4;
-
-            span {
-                @extend %t-small;
-            }
-        }
-    }
-
-    /* Download PDF button */
-    .download-pdf {
-        margin-top: $margin-bottom-default / 2;
-    }
-
-    /* Course outline - sylabus */
-    .course-outline-section {
-        @media #{$medium-only} {
-            width: 57%;
-        }
-        @media #{$large-up} {
-            width: 63%;
-        }
-    }
-
-    .course-outline-block {
-        h3 {
-            @include adjust-font-size-to($base-font-size, 1);
-            @extend %t-emphasize;
-        }
-
-        ul {
-            list-style-type: none;
-            margin-bottom: 5px;
-            -webkit-margin-after: $margin-bottom-default;
-        }
-
-        ul li {
-            @extend %t-small;
-            margin-left: -5px;
-        }
-    }
-
-    .course-column {
-        min-width: 15em;
-        padding-right: 15px;
-    }
-
-    .broken-column {
-        -webkit-margin-after: 0 !important;
-    }
-
-    /* Read more buttons */
-    .read-more-btn {
-        @extend %read-more-btn;
-        padding: 3px 8px;
-    }
-
-    /* Training packages and related courses */
-    .and {
-        @extend %t-large;
-        @extend %t-light;
-        text-align: center;
-        width: 38px;
-    }
-
-    .package-logos-read-more {
-        margin: $margin-bottom-default / 2 0 $margin-bottom-default 0;
-    }
-
-    .related-course {
-        max-width: 7em;
-        padding-left: 0;
-    }
-
-    .pricing-table, .title, .description {
-        border: none;
-    }
-
-    .pricing-table {
-        margin-top: $margin-bottom-default;
-
-        .title {
-            background-color: #fff;
-            margin-bottom: 8px;
-        }
- 
-        .description {
-            padding: 0;
-        }
-    } 
-
-    .advanced-table {
-        margin-top: 19px;
-        margin-left: -17px;
-
-        .description {
-            padding-left: 15px;
-        }
-    }
-
-    /* Side bar - pricing and dates*/
-    .upper-side {
-        @media #{$medium-up} {
-            width: 36%;
         }
     }
  
     .course-dates-promo {
-        background-color: #E5E5E5;
-        margin-bottom: 16px;
-        max-width: 30em;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        @include set-border-radius(4px);
-
-        @media #{$small-only} {
-            width: 80%;
-        }
-
         .color-specific,
         .course-length {
             color: $color;
         }
     }
 
-    .course-dates-city-block {
-        margin-bottom: $margin-bottom-default / 2;
-    }
-
-    .course-price {
-        @extend %t-regular;
-    }
-
-    .old-price, .new-price {
-        @extend %t-xlarge;
-    }
-
-    .course-length {
-        font-size: 14px;
-        @extend %t-emphasize;
-    }
-
-    .course-price-info {
-        margin-bottom: $margin-bottom-default;
-    }
-
-    /* Side bar - download and book */
-    .book-now-section { 
-        padding-top: $margin-bottom-default;
-        min-width: 9em;
-     }
-
     .download-text {
-        font-size: 14px;
-        @extend %t-bold;
-        line-height: 1em;
-        
-        margin-left: -10px;
         color: $color;
-
-        span {
-            @extend %t-regular;
-        }
     }
 
     /* Side bar - seminars ad */
     .seminars-ad {
         @include seminars-ad($color); 
-
-        margin-bottom: $margin-bottom-default / 4;
-
-        @media #{$small-only} {
-            width: 80%;
-        }
     }
 
-    /* Side bar - custom training */
-    .lower-aside-section {
-        @media #{$medium-only} {
-            width: 43%;
-        } 
-
-        @media #{$large-up} {
-            width: 37%;
-        } 
-    }
-
-    .course-custom-training-logo {
-        @extend %custom-training-styling;
-    } 
-
-    .custom-training {
-        @extend %custom-training;
-
-        .prefer-custom-training-text {
-            margin-bottom: 16px;
-            margin-top: -9px;
-        }
-
-        .read-more-btn {
-            margin-top: -6px;
-        }
-    }
 
     /* Side bar - testimonials */
     .testimonials {
-        height: 33em;
-        max-width: 30em;
-
         @include testimonials($color);
-
-        @media #{$medium-only} {
-           height: 87em;
-        }
     }
 }

@@ -8389,6 +8389,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/training\/video-editing\/finalcut-pro-s71b4a76136.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55348,
+		"inputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro-s71b4a76136.png",
+		"outputAbbreviatedPath": "\/images\/training\/video-editing\/finalcut-pro-s71b4a76136.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/training\/video-editing\/finalcut-pro\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10710,6 +10721,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/components\/training\/_category-no-color-items.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_category-no-color-items.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_category-no-color-items.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/components\/training\/_category.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10735,6 +10762,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course-item.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_course-item.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_course-no-color-items.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course-no-color-items.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_course-no-color-items.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
