@@ -1,4 +1,5 @@
 /* Mixin for creating a responsive sprite 
+* https://gist.github.com/apauly/7917906
 * 
 * $map - sprite map, created using sprite-map function
 * $img - name of the png file in the map
@@ -9,7 +10,7 @@
 */
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
-  background-image: url('../images/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-category-sf8bc9463ca.png');
   background-repeat: no-repeat;
 }
 
@@ -282,7 +283,7 @@ body {
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-essentials-course .id-essentials-framed, .indesign-essentials-course .course-classrom, .indesign-essentials-course .pdf, .indesign-essentials-course .indesign-cc-cs6, .indesign-essentials-course .course-custom-training-logo, .indesign-essentials-course .id-advanced, .indesign-essentials-course .id-essentials, .indesign-essentials-course .ps-ess, .indesign-essentials-course .il-ess {
-  background-image: url('../images/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-ess-sadf3781bcb.png');
   background-repeat: no-repeat;
 }
 
@@ -525,7 +526,7 @@ body {
 
 /* line 128, training/adobe/indesign/indesign-advanced/*.png */
 .indesign-advanced-sprite, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .indesign-cc-cs6, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments, .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess {
-  background-image: url('../images/training/adobe/indesign/indesign-advanced-s74a2324c71.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-advanced-s74a2324c71.png');
   background-repeat: no-repeat;
 }
 
@@ -811,7 +812,7 @@ body {
 
 /* line 104, training/adobe/indesign/indesign-lite/*.png */
 .indesign-lite-sprite, .indesign-lite-course .id-lite, .indesign-lite-course .course-classrom, .indesign-lite-course .pdf, .indesign-lite-course .indesign-cc-cs6, .indesign-lite-course .course-custom-training-logo, .indesign-lite-course .il-lite, .indesign-lite-course .ps-lite, .indesign-lite-course .id-essentials {
-  background-image: url('../images/training/adobe/indesign/indesign-lite-sd7c1fa190f.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-lite-sd7c1fa190f.png');
   background-repeat: no-repeat;
 }
 
@@ -1038,7 +1039,7 @@ body {
 
 /* line 88, training/adobe/indesign/indesign-long-docs/*.png */
 .indesign-long-docs-sprite, .indesign-long-docs-course .id-longdocuments, .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .indesign-cc-cs6, .indesign-long-docs-course .course-custom-training-logo, .indesign-long-docs-course .id-advanced {
-  background-image: url('../images/training/adobe/indesign/indesign-long-docs-sc6515dcb8c.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-long-docs-sc6515dcb8c.png');
   background-repeat: no-repeat;
 }
 
@@ -1228,7 +1229,7 @@ body {
 
 /* line 96, training/adobe/indesign/indesign-interactivity/*.png */
 .indesign-interactivity-sprite, .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .indesign-cc-cs6, .indesign-interactivity-course .course-custom-training-logo, .indesign-interactivity-course .id-advanced, .indesign-interactivity-course .id-ipad {
-  background-image: url('../images/training/adobe/indesign/indesign-interactivity-sbc3786cd4f.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-interactivity-sbc3786cd4f.png');
   background-repeat: no-repeat;
 }
 
@@ -1437,7 +1438,7 @@ body {
 
 /* line 80, training/adobe/indesign/indesign-accessibility/*.png */
 .indesign-accessibility-sprite, .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .indesign-cc-cs6, .indesign-accessibility-course .course-custom-training-logo, .indesign-accessibility-course .id-accessibility {
-  background-image: url('../images/training/adobe/indesign/indesign-accessibility-se3ecea84e0.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-accessibility-se3ecea84e0.png');
   background-repeat: no-repeat;
 }
 
@@ -1596,7 +1597,7 @@ body {
 
 /* line 128, training/adobe/photoshop/photoshop-category/*.png */
 .photoshop-category-sprite, .photoshop-category .ps-essentials-framed, .photoshop-category .ps-category-custom-training, .photoshop-category .ps-essentials, .photoshop-category .ps-lite, .photoshop-category .ps-advanced, .photoshop-category .ps-web, .photoshop-category .ps-retouching, .photoshop-category .ps-lr, .photoshop-category .package-indesign-ess, .photoshop-category .package-illustrator-ess, .photoshop-category .package-photoshop-ess {
-  background-image: url('../images/training/adobe/photoshop/photoshop-category-seec19b54f1.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-category-seec19b54f1.png');
   background-repeat: no-repeat;
 }
 
@@ -1850,7 +1851,7 @@ body {
 
 /* line 104, training/adobe/photoshop/photoshop-essentials/*.png */
 .photoshop-essentials-sprite, .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .course-custom-training-logo, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .id-essentials, .photoshop-essentials-course .il-ess {
-  background-image: url('../images/training/adobe/photoshop/photoshop-essentials-s8dc9f2b9c1.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-essentials-s8dc9f2b9c1.png');
   background-repeat: no-repeat;
 }
 
@@ -2077,7 +2078,7 @@ body {
 
 /* line 72, training/adobe/photoshop/photoshop-advanced/*.png */
 .photoshop-advanced-sprite, .photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .course-custom-training-logo, .photoshop-advanced-course .ps-advanced {
-  background-image: url('../images/training/adobe/photoshop/photoshop-advanced-s6b147a9e62.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-advanced-s6b147a9e62.png');
   background-repeat: no-repeat;
 }
 
@@ -2227,7 +2228,7 @@ body {
 
 /* line 96, training/adobe/photoshop/photoshop-lite/*.png */
 .photoshop-lite-sprite, .photoshop-lite-course .ps-lite, .photoshop-lite-course .course-classrom, .photoshop-lite-course .pdf, .photoshop-lite-course .course-custom-training-logo, .photoshop-lite-course .ps-essentials, .photoshop-lite-course .il-lite, .photoshop-lite-course .id-lite {
-  background-image: url('../images/training/adobe/photoshop/photoshop-lite-s047effbfbf.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-lite-s047effbfbf.png');
   background-repeat: no-repeat;
 }
 
@@ -2433,7 +2434,7 @@ body {
 
 /* line 88, training/adobe/photoshop/photoshop-web/*.png */
 .photoshop-web-sprite, .photoshop-web-course .ps-web-framed, .photoshop-web-course .course-classrom, .photoshop-web-course .pdf, .photoshop-web-course .course-custom-training-logo, .photoshop-web-course .ps-lite, .photoshop-web-course .ps-essentials {
-  background-image: url('../images/training/adobe/photoshop/photoshop-web-sb6569b5aaf.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-web-sb6569b5aaf.png');
   background-repeat: no-repeat;
 }
 
@@ -2609,7 +2610,7 @@ body {
 
 /* line 96, training/adobe/illustrator/illustrator-category/*.png */
 .illustrator-category-sprite, .illustrator-category .il-essentials-framed, .illustrator-category .category-custom-training, .illustrator-category .il-essentials, .illustrator-category .il-lite, .illustrator-category .il-advanced, .illustrator-category .package-indesign-ess, .illustrator-category .package-illustrator-ess, .illustrator-category .package-photoshop-ess {
-  background-image: url('../images/training/adobe/illustrator/illustrator-category-s97b47fb17e.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-category-s97b47fb17e.png');
   background-repeat: no-repeat;
 }
 
@@ -2800,7 +2801,7 @@ body {
 
 /* line 104, training/adobe/illustrator/illustrator-essentials/*.png */
 .illustrator-essentials-sprite, .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .course-custom-training-logo, .illustrator-essentials-course .il-advanced, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials {
-  background-image: url('../images/training/adobe/illustrator/illustrator-essentials-s9df9d6a7bf.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-essentials-s9df9d6a7bf.png');
   background-repeat: no-repeat;
 }
 
@@ -3027,7 +3028,7 @@ body {
 
 /* line 96, training/adobe/illustrator/illustrator-lite/*.png */
 .illustrator-lite-sprite, .illustrator-lite-course .il-lite, .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .course-custom-training-logo, .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .id-lite {
-  background-image: url('../images/training/adobe/illustrator/illustrator-lite-s53740e9368.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-lite-s53740e9368.png');
   background-repeat: no-repeat;
 }
 
@@ -3234,7 +3235,7 @@ body {
 
 /* line 72, training/adobe/illustrator/illustrator-advanced/*.png */
 .illustrator-advanced-sprite, .illustrator-advanced-course .il-advanced, .illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .course-custom-training-logo {
-  background-image: url('../images/training/adobe/illustrator/illustrator-advanced-s2a4f7466a8.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-advanced-s2a4f7466a8.png');
   background-repeat: no-repeat;
 }
 
@@ -3373,7 +3374,7 @@ body {
 
 /* line 72, training/adobe/acrobat/acrobat-category/*.png */
 .acrobat-category-sprite, .acrobat-category .acrobat-essentials-framed, .acrobat-category .category-custom-training, .acrobat-category .acrobat-essentials, .acrobat-category .acrobat-pdfforms {
-  background-image: url('../images/training/adobe/acrobat/acrobat-category-s24dae38b86.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-category-s24dae38b86.png');
   background-repeat: no-repeat;
 }
 
@@ -3486,7 +3487,7 @@ body {
 
 /* line 80, training/adobe/acrobat/acrobat-essentials/*.png */
 .acrobat-essentials-sprite, .acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .course-custom-training-logo, .acrobat-essentials-course .acrobat-pdfforms {
-  background-image: url('../images/training/adobe/acrobat/acrobat-essentials-s0a67036e25.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-essentials-s0a67036e25.png');
   background-repeat: no-repeat;
 }
 
@@ -3654,7 +3655,7 @@ body {
 
 /* line 80, training/adobe/acrobat/acrobat-pdfforms/*.png */
 .acrobat-pdfforms-sprite, .acrobat-pdfforms-course .acrobat-pdfforms, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .course-custom-training-logo, .acrobat-pdfforms-course .acrobat-essentials {
-  background-image: url('../images/training/adobe/acrobat/acrobat-pdfforms-s0ece181ee6.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-pdfforms-s0ece181ee6.png');
   background-repeat: no-repeat;
 }
 
@@ -3812,7 +3813,7 @@ body {
 
 /* line 112, training/adobe/digital-publishing/digital-publishing-category/*.png */
 .digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .dps-package, .digital-publishing-category .eg-essentials {
-  background-image: url('../images/training/adobe/digital-publishing/digital-publishing-category-sa4038a2480.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/digital-publishing-category-sa4038a2480.png');
   background-repeat: no-repeat;
 }
 
@@ -4024,7 +4025,7 @@ body {
 
 /* line 104, training/adobe/digital-publishing/indesign-to-ipad/*.png */
 .indesign-to-ipad-sprite, .indesign-to-ipad-course .id-ipad, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .course-custom-training-logo, .indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .eg-essentials, .dps-single-app-course .dps-package, .dps-single-app-course .eg-essentials {
-  background-image: url('../images/training/adobe/digital-publishing/indesign-to-ipad-s5066f7d96e.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ipad-s5066f7d96e.png');
   background-repeat: no-repeat;
 }
 
@@ -4247,7 +4248,7 @@ body {
 
 /* line 104, training/adobe/digital-publishing/dps-single-app/*.png */
 .dps-single-app-sprite, .dps-single-app-course .id-dps-single, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .course-custom-training-logo, .dps-single-app-course .id-dps-pro, .dps-single-app-course .id-ipad {
-  background-image: url('../images/training/adobe/digital-publishing/dps-single-app-s8f12f3b425.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/dps-single-app-s8f12f3b425.png');
   background-repeat: no-repeat;
 }
 
@@ -4472,7 +4473,7 @@ body {
 
 /* line 88, training/adobe/digital-publishing/dps-pro-app/*.png */
 .dps-pro-app-sprite, .dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .course-custom-training-logo, .dps-pro-app-course .id-dps-single, .dps-pro-app-course .id-ipad {
-  background-image: url('../images/training/adobe/digital-publishing/dps-pro-app-s76d6f5b224.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/dps-pro-app-s76d6f5b224.png');
   background-repeat: no-repeat;
 }
 
@@ -4659,7 +4660,7 @@ body {
 
 /* line 96, training/adobe/digital-publishing/indesign-to-ebook/*.png */
 .indesign-to-ebook-sprite, .indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .course-custom-training-logo, .indesign-to-ebook-course .id-advanced, .indesign-to-ebook-course .id-interactivity, .indesign-to-ebook-course .id-ipad {
-  background-image: url('../images/training/adobe/digital-publishing/indesign-to-ebook-se7d0e2a283.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ebook-se7d0e2a283.png');
   background-repeat: no-repeat;
 }
 
@@ -4856,7 +4857,7 @@ body {
 
 /* line 80, training/adobe/flash/flash-category/*.png */
 .flash-category-sprite, .flash-category .fl-essentials-framed, .flash-category .category-custom-training, .flash-category .fl-essentials, .flash-category .fl-actionscript, .flash-category .fl-banners {
-  background-image: url('../images/training/adobe/flash/flash-category-s66d4c3c7ab.png');
+  background-image: url('../images-dist/training/adobe/flash/flash-category-s66d4c3c7ab.png');
   background-repeat: no-repeat;
 }
 
@@ -4991,7 +4992,7 @@ body {
 
 /* line 96, training/adobe/flash/flash-essentials/*.png */
 .flash-essentials-sprite, .flash-essentials-course .fl-essentials-framed, .flash-essentials-course .course-classrom, .flash-essentials-course .pdf, .flash-essentials-course .course-custom-training-logo, .flash-essentials-course .fl-banners, .flash-essentials-course .fl-actionscript, .flash-essentials-course .eg-essentials {
-  background-image: url('../images/training/adobe/flash/flash-essentials-s95e771beaa.png');
+  background-image: url('../images-dist/training/adobe/flash/flash-essentials-s95e771beaa.png');
   background-repeat: no-repeat;
 }
 
@@ -5198,7 +5199,7 @@ body {
 
 /* line 88, training/adobe/flash/flash-web-banners/*.png */
 .flash-web-banners-sprite, .flash-web-banners-course .fl-banners, .flash-web-banners-course .course-classrom, .flash-web-banners-course .pdf, .flash-web-banners-course .course-custom-training-logo, .flash-web-banners-course .eg-essentials, .flash-web-banners-course .fl-essentials {
-  background-image: url('../images/training/adobe/flash/flash-web-banners-sa3111e69a3.png');
+  background-image: url('../images-dist/training/adobe/flash/flash-web-banners-sa3111e69a3.png');
   background-repeat: no-repeat;
 }
 
@@ -5386,7 +5387,7 @@ body {
 
 /* line 88, training/adobe/flash/flash-actionscript/*.png */
 .flash-actionscript-sprite, .flash-actionscript-course .fl-actionscript, .flash-actionscript-course .course-classrom, .flash-actionscript-course .pdf, .flash-actionscript-course .course-custom-training-logo, .flash-actionscript-course .js-essentials, .flash-actionscript-course .eg-essentials {
-  background-image: url('../images/training/adobe/flash/flash-actionscript-s1651aa7a40.png');
+  background-image: url('../images-dist/training/adobe/flash/flash-actionscript-s1651aa7a40.png');
   background-repeat: no-repeat;
 }
 
@@ -5562,7 +5563,7 @@ body {
 
 /* line 104, training/web-design-development/html-css/html-css-category/*.png */
 .html-css-category-sprite, .html-css-category .html-ess, .html-css-category .category-custom-training, .html-css-category .html5css, .html-css-category .htmlnews, .html-css-category .html-css, .html-css-category .html5-package, .html-css-category .dreamweaver-package, .html-css-category .css3-package {
-  background-image: url('../images/training/web-design-development/html-css/html-css-category-sfcc696b092.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html-css-category-sfcc696b092.png');
   background-repeat: no-repeat;
 }
 
@@ -5751,7 +5752,7 @@ body {
 
 /* line 120, training/web-design-development/html-css/html-web-principles/*.png */
 .html-web-principles-sprite, .html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .course-custom-training-logo, .html-web-principles-course .dw-essentials, .html-web-principles-course .htmlnews, .html-web-principles-course .html-css, .html-web-principles-course .css3-package, .html-web-principles-course .dreamweaver-package, .html-web-principles-course .html5-package, .css-essentials-course .css3-package, .css-essentials-course .dreamweaver-package, .css-essentials-course .html5-package {
-  background-image: url('../images/training/web-design-development/html-css/html-web-principles-s73f6714009.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html-web-principles-s73f6714009.png');
   background-repeat: no-repeat;
 }
 
@@ -6014,7 +6015,7 @@ body {
 
 /* line 120, training/web-design-development/html-css/css-essentials/*.png */
 .css-essentials-sprite, .css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .course-custom-training-logo, .css-essentials-course .html5css, .css-essentials-course .dw-essentials, .css-essentials-course .html-ess {
-  background-image: url('../images/training/web-design-development/html-css/css-essentials-scf24783571.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/css-essentials-scf24783571.png');
   background-repeat: no-repeat;
 }
 
@@ -6277,7 +6278,7 @@ body {
 
 /* line 88, training/web-design-development/html-css/html-responsive/*.png */
 .html-responsive-sprite, .html-responsive-course .htmlnews, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .course-custom-training-logo, .html-responsive-course .html-ess, .html-responsive-course .ps-web {
-  background-image: url('../images/training/web-design-development/html-css/html-responsive-s0f4b281bbe.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html-responsive-s0f4b281bbe.png');
   background-repeat: no-repeat;
 }
 
@@ -6465,7 +6466,7 @@ body {
 
 /* line 88, training/web-design-development/html-css/html5-css3/*.png */
 .html5-css3-sprite, .html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .course-custom-training-logo, .html5-css3-course .jq-essentials, .html5-css3-course .js-essentials {
-  background-image: url('../images/training/web-design-development/html-css/html5-css3-sa05d5fd5ff.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html5-css3-sa05d5fd5ff.png');
   background-repeat: no-repeat;
 }
 
@@ -6641,7 +6642,7 @@ body {
 
 /* line 112, training/web-design-development/dreamweaver/dreamweaver-category/*.png */
 .dreamweaver-category-sprite, .dreamweaver-category .dw-essentials-framed, .dreamweaver-category .category-custom-training, .dreamweaver-category .dw-essentials, .dreamweaver-category .html-css, .dreamweaver-category .html-ess, .dreamweaver-category .mu-essentials, .dreamweaver-category .html5-package, .dreamweaver-category .dreamweaver-package, .dreamweaver-category .css3-package {
-  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-category-s9d3f2c3667.png');
+  background-image: url('../images-dist/training/web-design-development/dreamweaver/dreamweaver-category-s9d3f2c3667.png');
   background-repeat: no-repeat;
 }
 
@@ -6848,7 +6849,7 @@ body {
 
 /* line 120, training/web-design-development/dreamweaver/dreamweaver-essentials/*.png */
 .dreamweaver-essentials-sprite, .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .course-custom-training-logo, .dreamweaver-essentials-course .html5css, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .html5-package {
-  background-image: url('../images/training/web-design-development/dreamweaver/dreamweaver-essentials-s4788f9ead8.png');
+  background-image: url('../images-dist/training/web-design-development/dreamweaver/dreamweaver-essentials-s4788f9ead8.png');
   background-repeat: no-repeat;
 }
 
@@ -7111,7 +7112,7 @@ body {
 
 /* line 88, training/web-design-development/dreamweaver/muse-essentials/*.png */
 .muse-essentials-sprite, .muse-essentials-course .mu-essentials, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf, .muse-essentials-course .course-custom-training-logo, .muse-essentials-course .html-ess, .muse-essentials-course .ps-essentials {
-  background-image: url('../images/training/web-design-development/dreamweaver/muse-essentials-s6f5b9c4b8b.png');
+  background-image: url('../images-dist/training/web-design-development/dreamweaver/muse-essentials-s6f5b9c4b8b.png');
   background-repeat: no-repeat;
 }
 
@@ -7287,7 +7288,7 @@ body {
 
 /* line 64, training/web-design-development/wordpress/wordpress-category/*.png */
 .wordpress-category-sprite, .wordpress-category .wp-essentials, .wordpress-category .category-custom-training, .wordpress-category .wp-advanced {
-  background-image: url('../images/training/web-design-development/wordpress/wordpress-category-s5802519e43.png');
+  background-image: url('../images-dist/training/web-design-development/wordpress/wordpress-category-s5802519e43.png');
   background-repeat: no-repeat;
 }
 
@@ -7381,7 +7382,7 @@ body {
 
 /* line 96, training/web-design-development/wordpress/wordpress-essentials/*.png */
 .wordpress-essentials-sprite, .wordpress-essentials-course .wp-essentials-framed, .wordpress-essentials-course .course-classrom, .wordpress-essentials-course .pdf, .wordpress-essentials-course .course-custom-training-logo, .wordpress-essentials-course .wp-advanced, .wordpress-essentials-course .html-css, .wordpress-essentials-course .html-ess {
-  background-image: url('../images/training/web-design-development/wordpress/wordpress-essentials-sf8fa45791f.png');
+  background-image: url('../images-dist/training/web-design-development/wordpress/wordpress-essentials-sf8fa45791f.png');
   background-repeat: no-repeat;
 }
 
@@ -7588,7 +7589,7 @@ body {
 
 /* line 96, training/web-design-development/wordpress/wordpress-advanced/*.png */
 .wordpress-advanced-sprite, .wordpress-advanced-course .wp-advanced-framed, .wordpress-advanced-course .course-classrom, .wordpress-advanced-course .pdf, .wordpress-advanced-course .course-custom-training-logo, .wordpress-advanced-course .wp-essentials, .wordpress-advanced-course .html-css, .wordpress-advanced-course .html-ess {
-  background-image: url('../images/training/web-design-development/wordpress/wordpress-advanced-sb5d1afcf29.png');
+  background-image: url('../images-dist/training/web-design-development/wordpress/wordpress-advanced-sb5d1afcf29.png');
   background-repeat: no-repeat;
 }
 
@@ -7785,7 +7786,7 @@ body {
 
 /* line 72, training/web-design-development/javascript-jquery/javascript-jquery-category/*.png */
 .javascript-jquery-category-sprite, .javascript-jquery-category .js-essentials-framed, .javascript-jquery-category .category-custom-training, .javascript-jquery-category .js-essentials, .javascript-jquery-category .jq-essentials {
-  background-image: url('../images/training/web-design-development/javascript-jquery/javascript-jquery-category-sfeb0fee7a0.png');
+  background-image: url('../images-dist/training/web-design-development/javascript-jquery/javascript-jquery-category-sfeb0fee7a0.png');
   background-repeat: no-repeat;
 }
 
@@ -7897,7 +7898,7 @@ body {
 
 /* line 80, training/web-design-development/javascript-jquery/javascript-essentials/*.png */
 .javascript-essentials-sprite, .javascript-essentials-course .js-essentials-framed, .javascript-essentials-course .course-classrom, .javascript-essentials-course .pdf, .javascript-essentials-course .course-custom-training-logo, .javascript-essentials-course .jq-essentials {
-  background-image: url('../images/training/web-design-development/javascript-jquery/javascript-essentials-s06955e5288.png');
+  background-image: url('../images-dist/training/web-design-development/javascript-jquery/javascript-essentials-s06955e5288.png');
   background-repeat: no-repeat;
 }
 
@@ -8065,7 +8066,7 @@ body {
 
 /* line 80, training/web-design-development/javascript-jquery/jquery-essentials/*.png */
 .jquery-essentials-sprite, .jquery-essentials-course .jq-essentials-framed, .jquery-essentials-course .course-classrom, .jquery-essentials-course .pdf, .jquery-essentials-course .course-custom-training-logo, .jquery-essentials-course .js-essentials {
-  background-image: url('../images/training/web-design-development/javascript-jquery/jquery-essentials-s70f0885034.png');
+  background-image: url('../images-dist/training/web-design-development/javascript-jquery/jquery-essentials-s70f0885034.png');
   background-repeat: no-repeat;
 }
 
@@ -8222,7 +8223,7 @@ body {
 
 /* line 80, training/video-editing/after-effects/after-effects-category/*.png */
 .after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
-  background-image: url('../images/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
   background-repeat: no-repeat;
 }
 
@@ -8359,7 +8360,7 @@ body {
 
 /* line 104, training/video-editing/after-effects/after-effects-essentials/*.png */
 .after-effects-essentials-sprite, .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .course-custom-training-logo, .after-effects-essentials-course .ae-advanced, .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials, .after-effects-essentials-course .ae-essentials {
-  background-image: url('../images/training/video-editing/after-effects/after-effects-essentials-s511ea29c62.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-essentials-s511ea29c62.png');
   background-repeat: no-repeat;
 }
 
@@ -8588,7 +8589,7 @@ body {
 
 /* line 96, training/video-editing/after-effects/after-effects-advanced/*.png */
 .after-effects-advanced-sprite, .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .course-custom-training-logo, .after-effects-advanced-course .ae-essentials, .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
-  background-image: url('../images/training/video-editing/after-effects/after-effects-advanced-sc7167ef069.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-advanced-sc7167ef069.png');
   background-repeat: no-repeat;
 }
 
@@ -8791,7 +8792,7 @@ body {
 
 /* line 88, training/video-editing/premiere-pro/premiere-pro-category/*.png */
 .premiere-pro-category-sprite, .premiere-pro-category .pr-essentials-framed, .premiere-pro-category .category-custom-training, .premiere-pro-category .pr-essentials, .premiere-pro-category .ae-essentials, .premiere-pro-category .pr-elements, .premiere-pro-category .pr-advanced {
-  background-image: url('../images/training/video-editing/premiere-pro/premiere-pro-category-s5f9276f45e.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-category-s5f9276f45e.png');
   background-repeat: no-repeat;
 }
 
@@ -8947,7 +8948,7 @@ body {
 
 /* line 104, training/video-editing/premiere-pro/premiere-pro-essentials/*.png */
 .premiere-pro-essentials-sprite, .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .course-custom-training-logo, .premiere-pro-essentials-course .pr-advanced, .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .pr-essentials, .premiere-pro-essentials-course .ps-essentials {
-  background-image: url('../images/training/video-editing/premiere-pro/premiere-pro-essentials-sdbef47c607.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-essentials-sdbef47c607.png');
   background-repeat: no-repeat;
 }
 
@@ -9179,7 +9180,7 @@ body {
 
 /* line 96, training/video-editing/premiere-pro/premiere-pro-advanced/*.png */
 .premiere-pro-advanced-sprite, .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .course-custom-training-logo, .premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced, .premiere-pro-advanced-course .pr-essentials {
-  background-image: url('../images/training/video-editing/premiere-pro/premiere-pro-advanced-s4321e30df6.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-advanced-s4321e30df6.png');
   background-repeat: no-repeat;
 }
 
@@ -9393,7 +9394,7 @@ body {
 
 /* line 80, training/video-editing/premiere-pro/premiere-elements/*.png */
 .premiere-elements-sprite, .premiere-elements-course .pr-elements-framed, .premiere-elements-course .course-classrom, .premiere-elements-course .pdf, .premiere-elements-course .course-custom-training-logo, .premiere-elements-course .pr-essentials {
-  background-image: url('../images/training/video-editing/premiere-pro/premiere-elements-s62b21c7fd1.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-elements-s62b21c7fd1.png');
   background-repeat: no-repeat;
 }
 
@@ -9561,7 +9562,7 @@ body {
 
 /* line 72, training/video-editing/finalcut-pro/*.png */
 .finalcut-pro-sprite, .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf, .finalcut-pro-course .course-custom-training-logo {
-  background-image: url('../images/training/video-editing/finalcut-pro-s71b4a76136.png');
+  background-image: url('../images-dist/training/video-editing/finalcut-pro-s71b4a76136.png');
   background-repeat: no-repeat;
 }
 
@@ -9699,7 +9700,7 @@ body {
 
 /* line 88, training/captivate/captivate-category/*.png */
 .captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
-  background-image: url('../images/training/captivate/captivate-category-s59d8a1273b.png');
+  background-image: url('../images-dist/training/captivate/captivate-category-s59d8a1273b.png');
   background-repeat: no-repeat;
 }
 
@@ -9858,7 +9859,7 @@ body {
 
 /* line 80, training/captivate/captivate-essentials/*.png */
 .captivate-essentials-sprite, .captivate-essentials-course .cp-ess, .captivate-essentials-course .course-classrom, .captivate-essentials-course .pdf, .captivate-essentials-course .course-custom-training-logo, .captivate-essentials-course .cp-adv {
-  background-image: url('../images/training/captivate/captivate-essentials-sbf683ff5a7.png');
+  background-image: url('../images-dist/training/captivate/captivate-essentials-sbf683ff5a7.png');
   background-repeat: no-repeat;
 }
 
@@ -10026,7 +10027,7 @@ body {
 
 /* line 80, training/captivate/captivate-advanced/*.png */
 .captivate-advanced-sprite, .captivate-advanced-course .cp-adv, .captivate-advanced-course .course-classrom, .captivate-advanced-course .pdf, .captivate-advanced-course .course-custom-training-logo, .captivate-advanced-course .cp-ess {
-  background-image: url('../images/training/captivate/captivate-advanced-s40e03a7be9.png');
+  background-image: url('../images-dist/training/captivate/captivate-advanced-s40e03a7be9.png');
   background-repeat: no-repeat;
 }
 
@@ -10184,7 +10185,7 @@ body {
 
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
-  background-image: url('../images/admin/calendar-s4dacfd9bea.png');
+  background-image: url('../images-dist/admin/calendar-s4dacfd9bea.png');
   background-repeat: no-repeat;
 }
 
@@ -10262,6 +10263,7 @@ body {
 }
 
 /* Mixin for creating a responsive sprite 
+* https://gist.github.com/apauly/7917906
 * 
 * $map - sprite map, created using sprite-map function
 * $img - name of the png file in the map
@@ -10272,7 +10274,7 @@ body {
 */
 /* line 88, admin/why-train-with-us/*.png */
 .why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background, .cdt-wtwu .gradient-top {
-  background-image: url('../images/admin/why-train-with-us-s5a438105d0.png');
+  background-image: url('../images-dist/admin/why-train-with-us-s5a438105d0.png');
   background-repeat: no-repeat;
 }
 
@@ -10454,6 +10456,7 @@ body {
 }
 
 /* Mixin for creating a responsive sprite 
+* https://gist.github.com/apauly/7917906
 * 
 * $map - sprite map, created using sprite-map function
 * $img - name of the png file in the map
@@ -10464,7 +10467,7 @@ body {
 */
 /* line 144, admin/faq/*.png */
 .faq-sprite, .faq .faq-gradient-top, .faq .faq-adobe-badge, .faq .faq-certificate, .faq .faq-course-cancel, .faq .faq-feedback, .faq .faq-for-hire, .faq .faq-location, .faq .faq-loyalty-card, .faq .faq-nerd, .faq .faq-platform, .faq .faq-puzzled, .faq .faq-tea-biscuits, .faq .faq-techhie {
-  background-image: url('../images/admin/faq-s95bcec6c91.png');
+  background-image: url('../images-dist/admin/faq-s95bcec6c91.png');
   background-repeat: no-repeat;
 }
 
@@ -10696,6 +10699,7 @@ body {
 }
 
 /* Mixin for creating a responsive sprite 
+* https://gist.github.com/apauly/7917906
 * 
 * $map - sprite map, created using sprite-map function
 * $img - name of the png file in the map
@@ -10706,7 +10710,7 @@ body {
 */
 /* line 72, admin/room-hire/*.png */
 .room-hire-sprite, .room-hire .room-hire-gradient-top, .room-hire .room-hire-breakout, .room-hire .win-mac-logo, .room-hire .banner-image, .locations .locations-gradient-top {
-  background-image: url('../images/admin/room-hire-sa4af54d574.png');
+  background-image: url('../images-dist/admin/room-hire-sa4af54d574.png');
   background-repeat: no-repeat;
 }
 
@@ -10785,6 +10789,7 @@ body {
 }
 
 /* Mixin for creating a responsive sprite 
+* https://gist.github.com/apauly/7917906
 * 
 * $map - sprite map, created using sprite-map function
 * $img - name of the png file in the map
@@ -10795,7 +10800,7 @@ body {
 */
 /* line 80, admin/locations/*.png */
 .locations-sprite, .locations .sydney, .locations .melbourne, .locations .brisbane, .locations .canberra {
-  background-image: url('../images/admin/locations-s5ae1cf25ad.png');
+  background-image: url('../images-dist/admin/locations-s5ae1cf25ad.png');
   background-repeat: no-repeat;
 }
 
