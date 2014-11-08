@@ -6,13 +6,11 @@ $digital-publishing-category-spacing: 40px;
 
 @import "training/adobe/digital-publishing/digital-publishing-category/*.png"; 
 .digital-publishing-category { 
-    $map: sprite-map("training/adobe/digital-publishing/digital-publishing-category/*.png", $spacing: $digital-publishing-category-spacing); /*empty comment*/ 
-    $sprite-width: 185px;
-    $sprite-height: 993px;
+    $map: $digital-publishing-category-sprites;
 
     .id-ipad { 
         @include digital-publishing-category-sprite(id-ipad); 
-        @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-ipad, 5.8%);
         margin-left: 5px;
         margin-top: -5px;
 
@@ -23,10 +21,10 @@ $digital-publishing-category-spacing: 40px;
     .category-custom-training {
          
         @include digital-publishing-category-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training, 100%);
 
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+            @include responsive-sprite($map, custom-training, 65%);
         }
         
         border: 1px solid #686F74; 
@@ -34,7 +32,7 @@ $digital-publishing-category-spacing: 40px;
 
     .id-dps-pkg {
         @include digital-publishing-category-sprite(id-dps-pkg); 
-        @include responsive-sprite($map, id-dps-pkg, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, id-dps-pkg, 5%);
         margin-left: 15px;
 
         min-width: 38px;
@@ -43,7 +41,7 @@ $digital-publishing-category-spacing: 40px;
 
     .id-dps-pro {
         @include digital-publishing-category-sprite(id-dps-pro); 
-        @include responsive-sprite($map, id-dps-pro, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, id-dps-pro, 5%);
         margin-left: 9px;
         margin-top: -5px;
         min-width: 52px;
@@ -52,7 +50,7 @@ $digital-publishing-category-spacing: 40px;
 
     .id-dps-single {
         @include digital-publishing-category-sprite(id-dps-single); 
-        @include responsive-sprite($map, id-dps-single, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, id-dps-single, 5%);
         margin-left: 9px;
         margin-top: -5px;
         min-width: 52px;
@@ -61,7 +59,7 @@ $digital-publishing-category-spacing: 40px;
 
     .id-interactivity {
         @include digital-publishing-category-sprite(id-interactivity); 
-        @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, id-interactivity, 5%);
         margin: -12px -8px 0 5px;
 
         min-width: 65px;
@@ -70,7 +68,7 @@ $digital-publishing-category-spacing: 40px;
 
     .id-epub {
         @include digital-publishing-category-sprite(id-epub); 
-        @include responsive-sprite($map, id-epub, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, id-epub, 5%);
         margin-left: 15px;
         margin-top: -5px;
         min-width: 38px;
@@ -79,7 +77,7 @@ $digital-publishing-category-spacing: 40px;
 
     .dps-package {
         @include digital-publishing-category-sprite(dps-package); 
-        @include responsive-sprite($map, dps-package, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, dps-package, 5%);
         margin: -4px 15px 12px 15px;
         min-width: 38px;
         min-height: 38px;
@@ -87,7 +85,7 @@ $digital-publishing-category-spacing: 40px;
 
     .eg-essentials {
         @include digital-publishing-category-sprite(eg-essentials); 
-        @include responsive-sprite($map, eg-essentials, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, eg-essentials, 5%);
         margin: -4px 15px 12px 15px;
         min-width: 38px;
         min-height: 38px;

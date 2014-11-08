@@ -10,20 +10,18 @@ $dps-pro-app-spacing: 40px;
 @import "training/adobe/digital-publishing/dps-pro-app/*.png";  
 
 .dps-pro-app-course {
-    $map: sprite-map("training/adobe/digital-publishing/dps-pro-app/*.png", $spacing: $dps-pro-app-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 685px;
+    $map: $dps-pro-app-sprites;
 
     .id-dps-pro {  
         @include dps-pro-app-sprite(id-dps-pro); 
-        @include responsive-sprite($map, id-dps-pro, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-dps-pro, 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
         @include dps-pro-app-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -33,7 +31,7 @@ $dps-pro-app-spacing: 40px;
  
     .pdf {
         @include dps-pro-app-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf, 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
@@ -42,11 +40,11 @@ $dps-pro-app-spacing: 40px;
     .course-custom-training-logo {
          
         @include dps-pro-app-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training, 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training, 65%);
         }
 
         border: 1px solid #686F74; 
@@ -54,7 +52,7 @@ $dps-pro-app-spacing: 40px;
 
     .id-dps-single {
         @include dps-pro-app-sprite(id-dps-single); 
-        @include responsive-sprite($map, id-dps-single, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-dps-single, 5.8%);
         margin-left: 15px;
         min-width: 65px;
         min-height: 63px; 
@@ -62,7 +60,7 @@ $dps-pro-app-spacing: 40px;
 
     .id-ipad {
         @include dps-pro-app-sprite(id-ipad); 
-        @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-ipad, 5.8%);
         margin-left: 15px;
         min-width: 65px;
         min-height: 63px; 

@@ -10,20 +10,18 @@ $photoshop-essentials-spacing: 40px;
 @import "training/adobe/photoshop/photoshop-essentials/*.png";  
 
 .photoshop-essentials-course {
-    $map: sprite-map("training/adobe/photoshop/photoshop-essentials/*.png", $spacing: $photoshop-essentials-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 868px;
+    $map: $photoshop-essentials-sprites;
 
     .ps-essentials-framed {  
         @include photoshop-essentials-sprite(ps-essentials-framed); 
-        @include responsive-sprite($map, ps-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ps-essentials-framed, 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
         @include photoshop-essentials-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -33,7 +31,7 @@ $photoshop-essentials-spacing: 40px;
  
     .pdf {
         @include photoshop-essentials-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf, 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
@@ -42,11 +40,11 @@ $photoshop-essentials-spacing: 40px;
     .course-custom-training-logo {
          
         @include photoshop-essentials-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training, 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training, 65%);
         }
 
         border: 1px solid #686F74; 
@@ -54,7 +52,7 @@ $photoshop-essentials-spacing: 40px;
 
     .ps-advanced {
         @include photoshop-essentials-sprite(ps-advanced); 
-        @include responsive-sprite($map, ps-advanced, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ps-advanced, 5.8%);
 
         margin-top: -13px;
         min-width: 60px;
@@ -68,21 +66,21 @@ $photoshop-essentials-spacing: 40px;
 
     .ps-essentials {
         @include photoshop-essentials-sprite(ps-essentials); 
-        @include responsive-sprite($map, ps-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ps-essentials, 5.8%);
 
         @include package-training-logo; 
     }
 
     .id-essentials {
         @include photoshop-essentials-sprite(id-essentials); 
-        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-essentials, 5.8%);
 
         @include package-training-logo;    
     }
 
     .il-ess {
         @include photoshop-essentials-sprite(il-ess); 
-        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, il-ess, 5.8%);
 
         @include package-training-logo; 
     }

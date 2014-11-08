@@ -11,7 +11,8 @@ images_dir = "images"
 javascripts_dir = "js"
 generated_images_path = File.expand_path('./images-dist')
 generated_images_dir = File.expand_path('./images-dist')
-http_images_dir = File.expand_path('./images-dist')
+http_generated_images_path = File.expand_path('./images-dist')
+http_generated_images_dir = File.expand_path('./images-dist')
 
 # generated_images_path = File.expand_path('./images/dist')
 # generated_images_dir = File.expand_path('./images/dist')

@@ -10,20 +10,18 @@ $html5-css3-spacing: 40px;
 @import "training/web-design-development/html-css/html5-css3/*.png";  
 
 .html5-css3-course {
-    $map: sprite-map("training/web-design-development/html-css/html5-css3/*.png", $spacing: $html5-css3-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 603px;
+    $map: $html5-css3-sprites;
 
     .html5css {  
         @include html5-css3-sprite(html5css); 
-        @include responsive-sprite($map, html5css, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, html5css , 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
         @include html5-css3-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom , 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -33,7 +31,7 @@ $html5-css3-spacing: 40px;
  
     .pdf {
         @include html5-css3-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf , 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
@@ -42,11 +40,11 @@ $html5-css3-spacing: 40px;
     .course-custom-training-logo {
          
         @include html5-css3-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training , 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training , 65%);
         }
 
         border: 1px solid #686F74; 
@@ -54,7 +52,7 @@ $html5-css3-spacing: 40px;
 
     .jq-essentials {
         @include html5-css3-sprite(jq-essentials); 
-        @include responsive-sprite($map, jq-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, jq-essentials , 5.8%);
         margin-left: 20px;
         min-width: 50px;
         min-height: 50px;    
@@ -62,7 +60,7 @@ $html5-css3-spacing: 40px;
 
     .js-essentials {
         @include html5-css3-sprite(js-essentials); 
-        @include responsive-sprite($map, js-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, js-essentials , 5.8%);
         margin-left: 20px;
         min-width: 50px;
         min-height: 50px;    

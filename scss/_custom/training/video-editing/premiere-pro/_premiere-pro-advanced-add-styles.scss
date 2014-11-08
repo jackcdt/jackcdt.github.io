@@ -10,13 +10,11 @@ $premiere-pro-advanced-spacing: 40px;
 @import "training/video-editing/premiere-pro/premiere-pro-advanced/*.png";  
 
 .premiere-pro-advanced-course {
-    $map: sprite-map("training/video-editing/premiere-pro/premiere-pro-advanced/*.png", $spacing: $premiere-pro-advanced-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 786px;
+    $map: $premiere-pro-advanced-sprites;
 
     .pr-advanced-framed {  
         @include premiere-pro-advanced-sprite(pr-advanced-framed); 
-        @include responsive-sprite($map, pr-advanced-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pr-advanced-framed , 5.8%);
         margin-top: 18px !important;
         min-width: 73px;
         min-height: 72px;
@@ -24,7 +22,7 @@ $premiere-pro-advanced-spacing: 40px;
 
     .course-classrom { 
         @include premiere-pro-advanced-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom , 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -34,7 +32,7 @@ $premiere-pro-advanced-spacing: 40px;
  
     .pdf {
         @include premiere-pro-advanced-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf , 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
@@ -43,11 +41,11 @@ $premiere-pro-advanced-spacing: 40px;
     .course-custom-training-logo {
          
         @include premiere-pro-advanced-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training , 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training , 65%);
         }
 
         border: 1px solid #686F74; 
@@ -55,7 +53,7 @@ $premiere-pro-advanced-spacing: 40px;
 
     .ae-essentials {
         @include premiere-pro-advanced-sprite(ae-essentials); 
-        @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ae-essentials , 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
@@ -63,7 +61,7 @@ $premiere-pro-advanced-spacing: 40px;
 
     .ae-advanced {
         @include premiere-pro-advanced-sprite(ae-advanced); 
-        @include responsive-sprite($map, ae-advanced, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ae-advanced , 5.8%);
         margin-top: -13px;
         margin-left: -5px;
         min-width: 66px;
@@ -72,7 +70,7 @@ $premiere-pro-advanced-spacing: 40px;
 
     .pr-essentials {
         @include premiere-pro-advanced-sprite(pr-essentials); 
-        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pr-essentials , 5.8%);
         margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    

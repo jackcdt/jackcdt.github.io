@@ -8,20 +8,20 @@
 * $img-size-percent - required sprite size
 *
 */
-@mixin responsive-sprite($map, $img, $map-width, $map-height, $img-size-percent: 100%){
+@mixin responsive-sprite($map, $img, $img-size-percent: 100%){
     $icon-file: sprite-file($map, $img);
     $icon-width: image-width($icon-file);
     $icon-height: image-height($icon-file);
      
-    $sprite-width: $map-width;
+/*    $sprite-width: $map-width;
     $sprite-height: $map-height;
-     
-/*  
+*/     
+  
     // Calculate sprite map dimentions - currently not working due to path issues  
     $sprite-file: sprite-path($map);
     $sprite-width: image-width($sprite-file);
     $sprite-height: image-height($sprite-file);
-*/
+
 
     $space-top: floor(nth(sprite-position($map, $img), 2));
     @if $space-top == 0 {

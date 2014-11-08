@@ -10,13 +10,11 @@ $indesign-advanced-spacing: 40px;
 @import "training/adobe/indesign/indesign-advanced/*.png";  
 
 .indesign-advanced-course {
-    $map: sprite-map("training/adobe/indesign/indesign-advanced/*.png", $spacing: $indesign-advanced-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 1291px;
+    $map: $indesign-advanced-sprites;
 
     .course-classrom { 
         @include indesign-advanced-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -26,7 +24,7 @@ $indesign-advanced-spacing: 40px;
  
     .pdf {
         @include indesign-advanced-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf, 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
@@ -34,7 +32,7 @@ $indesign-advanced-spacing: 40px;
 
     .indesign-cc-cs6 {
         @include indesign-advanced-sprite(indesign-cc-cs6); 
-        @include responsive-sprite($map, indesign-cc-cs6, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, indesign-cc-cs6, 5.8%);
         min-width: 115px;
         min-height: 93px; 
         float: right;
@@ -45,11 +43,11 @@ $indesign-advanced-spacing: 40px;
     .course-custom-training-logo {
          
         @include indesign-advanced-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training, 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training, 65%);
         }
 
         border: 1px solid #686F74; 
@@ -57,7 +55,7 @@ $indesign-advanced-spacing: 40px;
 
     .id-advanced {
         @include indesign-advanced-sprite(id-advanced); 
-        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-advanced, 5.8%);
 
         margin-top: 20px !important;
         min-width: 65px;
@@ -66,7 +64,7 @@ $indesign-advanced-spacing: 40px;
  
     .id-interactivity {
         @include indesign-advanced-sprite(id-interactivity); 
-        @include responsive-sprite($map, id-interactivity, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-interactivity, 5.8%);
         margin-left: 5px;
         margin-top: -12px;
         min-width: 66px;
@@ -75,7 +73,7 @@ $indesign-advanced-spacing: 40px;
 
     .id-ipad {
         @include indesign-advanced-sprite(id-ipad); 
-        @include responsive-sprite($map, id-ipad, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-ipad, 5.8%);
         margin-left: 15px;
         min-width: 58px;
         min-height: 50px;
@@ -83,7 +81,7 @@ $indesign-advanced-spacing: 40px;
 
     .id-longdocuments {
         @include indesign-advanced-sprite(id-longdocuments); 
-        @include responsive-sprite($map, id-longdocuments, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-longdocuments, 5.8%);
         margin-left: 15px;
         min-width: 66px;
         min-height: 50px;
@@ -91,7 +89,7 @@ $indesign-advanced-spacing: 40px;
 
     .id-essentials {
         @include indesign-advanced-sprite(id-essentials); 
-        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-essentials, 5.8%);
         margin: -5px 15px 15px; 
         min-width: 36px;
         min-height: 36px;
@@ -99,7 +97,7 @@ $indesign-advanced-spacing: 40px;
 
     .ps-ess {
         @include indesign-advanced-sprite(ps-ess); 
-        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ps-ess, 5.8%);
         margin: -5px 15px 15px; 
         min-width: 36px;
         min-height: 36px;
@@ -107,7 +105,7 @@ $indesign-advanced-spacing: 40px;
 
     .il-ess {
         @include indesign-advanced-sprite(il-ess); 
-        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, il-ess, 5.8%);
         margin: -5px 15px 15px; 
         min-width: 36px;
         min-height: 36px;
