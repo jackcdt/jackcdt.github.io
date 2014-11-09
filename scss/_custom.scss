@@ -11,7 +11,9 @@
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
 @import "_custom/header/header";
-
+@import "_custom/components/training/course-no-color-items";
+@import "_custom/components/training/category-no-color-items";
+ 
 // Homepage
 @import "_custom/homepage/slider";
 @import "_custom/homepage/megamenu";
@@ -60,6 +62,7 @@
 
 @import "_custom/training/web-design-development/dreamweaver/dreamweaver-category"; 
 @import "_custom/training/web-design-development/dreamweaver/dreamweaver-essentials"; 
+@import "_custom/training/web-design-development/dreamweaver/muse-essentials"; 
 
 @import "_custom/training/web-design-development/wordpress/wordpress-category";
 @import "_custom/training/web-design-development/wordpress/wordpress-essentials"; 
@@ -78,6 +81,8 @@
 @import "_custom/training/video-editing/premiere-pro/premiere-pro-advanced"; 
 @import "_custom/training/video-editing/premiere-pro/premiere-elements"; 
 
+@import "_custom/training/video-editing/finalcut-pro/finalcut-pro"; 
+
 @import "_custom/training/captivate/captivate-category"; 
 @import "_custom/training/captivate/captivate-essentials"; 
 @import "_custom/training/captivate/captivate-advanced"; 
@@ -86,8 +91,13 @@
 @import "_custom/admin/calendar";
 @import "_custom/admin/training-benefits";
 @import "_custom/admin/faq";
+<<<<<<< HEAD
 @import "_custom/admin/contact-us";
 @import "_custom/admin/training-packages";
+=======
+@import "_custom/admin/room-hire";
+@import "_custom/admin/locations";
+>>>>>>> irena-cdt-live
 
 
 //Shopping Cart Pages

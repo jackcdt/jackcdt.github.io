@@ -16,14 +16,14 @@ $XX-spacing: 40px;
 
     .id-essentials-framed {  
         @include XX-sprite(id-essentials-framed); 
-        @include responsive-sprite($map, id-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-essentials-framed , 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
         @include XX-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom , 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -33,20 +33,20 @@ $XX-spacing: 40px;
  
     .pdf {
         @include XX-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf , 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include XX-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training , 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training , 65%);
         }
 
         border: 1px solid #686F74; 
@@ -54,7 +54,7 @@ $XX-spacing: 40px;
 
     .id-advanced {
         @include XX-sprite(id-advanced); 
-        @include responsive-sprite($map, id-advanced, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-advanced , 5.8%);
 
         min-width: 65px;
         min-height: 63px; 
@@ -62,7 +62,7 @@ $XX-spacing: 40px;
 
     .id-essentials {
         @include XX-sprite(id-essentials); 
-        @include responsive-sprite($map, id-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, id-essentials , 5.8%);
 
         min-width: 50px;
         min-height: 50px;    
@@ -76,14 +76,14 @@ $XX-spacing: 40px;
 
     .ps-ess {
         @include XX-sprite(ps-ess); 
-        @include responsive-sprite($map, ps-ess, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, ps-ess , 5.8%);
 
         @include package-training-logo; 
     }
 
     .il-ess {
         @include XX-sprite(il-ess); 
-        @include responsive-sprite($map, il-ess, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, il-ess , 5.8%);
 
         @include package-training-logo; 
     }

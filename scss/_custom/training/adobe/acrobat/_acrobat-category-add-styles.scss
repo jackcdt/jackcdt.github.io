@@ -6,24 +6,21 @@ $acrobat-category-spacing: 40px;
 
 @import "training/adobe/acrobat/acrobat-category/*.png"; 
 .acrobat-category {
-    $map: sprite-map("training/adobe/acrobat/acrobat-category/*.png", $spacing: $acrobat-category-spacing); /*empty comment*/ 
-    $sprite-width: 185px;
-    $sprite-height: 414px;
+    $map: $acrobat-category-sprites;
 
     .acrobat-essentials-framed { 
         @include acrobat-category-sprite(acrobat-essentials-framed); 
-        @include responsive-sprite($map, acrobat-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, acrobat-essentials-framed, 5.8%);
         min-width: 56px;
         min-height: 55px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
         @include acrobat-category-sprite(category-custom-training); 
-        @include responsive-sprite($map, category-custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, category-custom-training, 100%);
 
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-            @include responsive-sprite($map, category-custom-training, $sprite-width, $sprite-height, 65%);
+            @include responsive-sprite($map, category-custom-training, 65%);
         }
         
         border: 1px solid #686F74; 
@@ -31,7 +28,7 @@ $acrobat-category-spacing: 40px;
 
     .acrobat-essentials {
         @include acrobat-category-sprite(acrobat-essentials); 
-        @include responsive-sprite($map, acrobat-essentials, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, acrobat-essentials, 5%);
         margin-left: 15px;
 
         min-width: 38px;
@@ -40,7 +37,7 @@ $acrobat-category-spacing: 40px;
 
     .acrobat-pdfforms {
         @include acrobat-category-sprite(acrobat-pdfforms); 
-        @include responsive-sprite($map, acrobat-pdfforms, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, acrobat-pdfforms, 5%);
         margin-left: 15px;
         margin-top: -5px;
         

@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.finalcut-pro-course {
+    @include course($final-cut-pro-color); 
+}

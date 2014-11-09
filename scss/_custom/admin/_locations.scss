@@ -1,0 +1,39 @@
+$locations-color: #2088D1; 
+  
+.locations { 
+    .custom-breadcrumbs {
+        margin-top: $margin-bottom-default / 2;
+    }
+
+    .breadcrumb-active {
+        color: $locations-color;
+    }  
+
+    .locations-breadcrumbs {
+        @media #{$medium-up} {
+            margin-top: -1.5em;
+        }
+    }
+
+    h1 {
+        @include large-thin-title;
+        margin-bottom: 6px;
+
+        @media #{$medium-up} {
+            margin-top: -1em;
+        }
+    }
+    
+    h2 {
+        @include list-header($locations-color);
+    }
+
+
+    h3 {
+        @include list-header(#fff);
+    }
+
+    .city-intro {
+        height: 14em;
+    }
+}

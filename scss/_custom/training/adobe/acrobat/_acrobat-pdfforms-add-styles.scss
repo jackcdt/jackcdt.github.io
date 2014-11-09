@@ -10,13 +10,11 @@ $acrobat-pdfforms-spacing: 40px;
 @import "training/adobe/acrobat/acrobat-pdfforms/*.png";  
 
 .acrobat-pdfforms-course {
-    $map: sprite-map("training/adobe/acrobat/acrobat-pdfforms/*.png", $spacing: $acrobat-pdfforms-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 566px;
+    $map: $acrobat-pdfforms-sprites;
 
     .acrobat-pdfforms {  
         @include acrobat-pdfforms-sprite(acrobat-pdfforms); 
-        @include responsive-sprite($map, acrobat-pdfforms, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, acrobat-pdfforms, 5.8%);
         margin-top: 16px !important;
         min-width: 55px;
         min-height: 55px;
@@ -24,7 +22,7 @@ $acrobat-pdfforms-spacing: 40px;
 
     .course-classrom { 
         @include acrobat-pdfforms-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom, 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -34,20 +32,20 @@ $acrobat-pdfforms-spacing: 40px;
  
     .pdf {
         @include acrobat-pdfforms-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf, 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include acrobat-pdfforms-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training, 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training, 65%);
         }
 
         border: 1px solid #686F74; 
@@ -55,7 +53,7 @@ $acrobat-pdfforms-spacing: 40px;
 
     .acrobat-essentials {
         @include acrobat-pdfforms-sprite(acrobat-essentials); 
-        @include responsive-sprite($map, acrobat-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, acrobat-essentials, 5.8%);
 
         margin-left: 20px;
         min-width: 52px;

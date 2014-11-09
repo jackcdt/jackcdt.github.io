@@ -1,7 +1,7 @@
 @import "_custom/responsive-sprite";
 
 @import "_custom/training/adobe/indesign/indesign-category-add-styles";
-@import "_custom/training/adobe/indesign/indesign-essentials-add-styles";  
+@import "_custom/training/adobe/indesign/indesign-essentials-add-styles";   
 @import "_custom/training/adobe/indesign/indesign-advanced-add-styles";
 @import "_custom/training/adobe/indesign/indesign-lite-add-styles";
 @import "_custom/training/adobe/indesign/indesign-long-docs-add-styles";
@@ -39,9 +39,10 @@
 @import "_custom/training/web-design-development/html-css/css-essentials-add-styles";
 @import "_custom/training/web-design-development/html-css/html-responsive-add-styles";
 @import "_custom/training/web-design-development/html-css/html5-css3-add-styles";
-
+ 
 @import "_custom/training/web-design-development/dreamweaver/dreamweaver-category-add-styles"; 
 @import "_custom/training/web-design-development/dreamweaver/dreamweaver-essentials-add-styles"; 
+@import "_custom/training/web-design-development/dreamweaver/muse-essentials-add-styles"; 
 
 @import "_custom/training/web-design-development/wordpress/wordpress-category-add-styles"; 
 @import "_custom/training/web-design-development/wordpress/wordpress-essentials-add-styles"; 
@@ -50,7 +51,7 @@
 @import "_custom/training/web-design-development/javascript-jquery/javascript-jquery-category-add-styles"; 
 @import "_custom/training/web-design-development/javascript-jquery/javascript-essentials-add-styles"; 
 @import "_custom/training/web-design-development/javascript-jquery/jquery-essentials-add-styles"; 
-
+  
 @import "_custom/training/video-editing/after-effects/after-effects-category-add-styles";  
 @import "_custom/training/video-editing/after-effects/after-effects-essentials-add-styles"; 
 @import "_custom/training/video-editing/after-effects/after-effects-advanced-add-styles"; 
@@ -59,13 +60,20 @@
 @import "_custom/training/video-editing/premiere-pro/premiere-pro-essentials-add-styles"; 
 @import "_custom/training/video-editing/premiere-pro/premiere-pro-advanced-add-styles"; 
 @import "_custom/training/video-editing/premiere-pro/premiere-elements-add-styles"; 
-  
+
+@import "_custom/training/video-editing/finalcut-pro/finalcut-pro-add-styles"; 
+
 @import "_custom/training/captivate/captivate-category-add-styles"; 
 @import "_custom/training/captivate/captivate-essentials-add-styles"; 
 @import "_custom/training/captivate/captivate-advanced-add-styles"; 
-
+  
 // Admin Pages  
 @import "_custom/admin/calendar-add-styles";
 @import "_custom/admin/training-benefits-add-styles";
 @import "_custom/admin/faq-add-styles"; 
+<<<<<<< HEAD
  @import "_custom/admin/training-packages-styles";
+=======
+@import "_custom/admin/room-hire-add-styles";
+@import "_custom/admin/locations-add-styles";
+>>>>>>> irena-cdt-live

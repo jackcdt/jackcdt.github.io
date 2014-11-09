@@ -10,20 +10,18 @@ $javascript-essentials-spacing: 40px;
 @import "training/web-design-development/javascript-jquery/javascript-essentials/*.png";  
 
 .javascript-essentials-course {
-    $map: sprite-map("training/web-design-development/javascript-jquery/javascript-essentials/*.png", $spacing: $javascript-essentials-spacing); /*empty comment*/ 
-    $sprite-width: 200px;
-    $sprite-height: 490px;
+    $map: $javascript-essentials-sprites;
 
     .js-essentials-framed {  
         @include javascript-essentials-sprite(js-essentials-framed); 
-        @include responsive-sprite($map, js-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, js-essentials-framed , 5.8%);
         min-width: 55px;
         min-height: 55px;
     } 
 
     .course-classrom { 
         @include javascript-essentials-sprite(course-classrom); 
-        @include responsive-sprite($map, course-classrom, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, course-classrom , 5.8%);
         width: 77%; 
         padding-bottom: 42%;
         border: 1px solid #000;
@@ -33,20 +31,20 @@ $javascript-essentials-spacing: 40px;
  
     .pdf {
         @include javascript-essentials-sprite(pdf); 
-        @include responsive-sprite($map, pdf, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pdf , 5.8%);
         min-width: 32px;
         min-height: 32px;
         top: -3px;
     }
 
     .course-custom-training-logo {
-        // Don't forget to change the name of the image for every page
+         
         @include javascript-essentials-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training , 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+           @include responsive-sprite($map, custom-training , 65%);
         }
 
         border: 1px solid #686F74; 
@@ -54,7 +52,7 @@ $javascript-essentials-spacing: 40px;
 
     .jq-essentials {
         @include javascript-essentials-sprite(jq-essentials); 
-        @include responsive-sprite($map, jq-essentials, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, jq-essentials , 5.8%);
         margin-left: 23px;
         min-width: 50px;
         min-height: 50px;

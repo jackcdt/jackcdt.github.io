@@ -6,24 +6,22 @@ $premiere-pro-category-spacing: 40px;
 
 @import "training/video-editing/premiere-pro/premiere-pro-category/*.png"; 
 .premiere-pro-category {
-    $map: sprite-map("training/video-editing/premiere-pro/premiere-pro-category/*.png", $spacing: $premiere-pro-category-spacing); /*empty comment*/ 
-    $sprite-width: 185px;
-    $sprite-height: 616px;
+    $map: $premiere-pro-category-sprites;
 
     .pr-essentials-framed { 
         @include premiere-pro-category-sprite(pr-essentials-framed); 
-        @include responsive-sprite($map, pr-essentials-framed, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pr-essentials-framed , 5.8%);
         min-width: 56px;
         min-height: 55px;
     } 
 
     .category-custom-training {
-        // Don't forget to change the name of the image for every page
+         
         @include premiere-pro-category-sprite(custom-training); 
-        @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 100%);
+        @include responsive-sprite($map, custom-training , 100%);
 
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-            @include responsive-sprite($map, custom-training, $sprite-width, $sprite-height, 65%);
+            @include responsive-sprite($map, custom-training , 65%);
         }
         
         border: 1px solid #686F74; 
@@ -31,7 +29,7 @@ $premiere-pro-category-spacing: 40px;
 
     .pr-essentials {
         @include premiere-pro-category-sprite(pr-essentials); 
-        @include responsive-sprite($map, pr-essentials, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, pr-essentials , 5%);
         margin-left: 15px;
 
         min-width: 38px;
@@ -40,7 +38,7 @@ $premiere-pro-category-spacing: 40px;
 
     .ae-essentials {
         @include premiere-pro-category-sprite(ae-essentials); 
-        @include responsive-sprite($map, ae-essentials, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, ae-essentials , 5%);
         margin: -5px 15px 15px;
         min-width: 36px;
         min-height: 36px;
@@ -48,7 +46,7 @@ $premiere-pro-category-spacing: 40px;
 
     .pr-elements {
         @include premiere-pro-category-sprite(pr-elements); 
-        @include responsive-sprite($map, pr-elements, $sprite-width, $sprite-height, 5%);
+        @include responsive-sprite($map, pr-elements , 5%);
         margin-left: 15px;
 
         min-width: 38px;
@@ -57,7 +55,7 @@ $premiere-pro-category-spacing: 40px;
 
     .pr-advanced {
         @include premiere-pro-category-sprite(pr-advanced); 
-        @include responsive-sprite($map, pr-advanced, $sprite-width, $sprite-height, 5.8%);
+        @include responsive-sprite($map, pr-advanced , 5.8%);
         margin: -7px 0 0 2px;
 
         min-width: 49px;
