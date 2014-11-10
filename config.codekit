@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "18027",
 "files": {
 	"\/_dev\/js\/min\/ng_responsive_tables.min.js": {
 		"fileType": 64,
@@ -3756,6 +3756,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/computer-training-room-hire.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/computer-training-room-hire.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -3837,13 +3846,640 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/admin\/calendar-s4dacfd9bea.png": {
+	"\/images-dist\/admin\/calendar-s4dacfd9bea.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 44356,
-		"inputAbbreviatedPath": "\/images\/admin\/calendar-s4dacfd9bea.png",
-		"outputAbbreviatedPath": "\/images\/admin\/calendar-s4dacfd9bea.png",
+		"inputAbbreviatedPath": "\/images-dist\/admin\/calendar-s4dacfd9bea.png",
+		"outputAbbreviatedPath": "\/images-dist\/admin\/calendar-s4dacfd9bea.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/admin\/faq-s95bcec6c91.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23782,
+		"inputAbbreviatedPath": "\/images-dist\/admin\/faq-s95bcec6c91.png",
+		"outputAbbreviatedPath": "\/images-dist\/admin\/faq-s95bcec6c91.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/admin\/locations-s5ae1cf25ad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 425007,
+		"inputAbbreviatedPath": "\/images-dist\/admin\/locations-s5ae1cf25ad.png",
+		"outputAbbreviatedPath": "\/images-dist\/admin\/locations-s5ae1cf25ad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/admin\/room-hire-sa4af54d574.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 627027,
+		"inputAbbreviatedPath": "\/images-dist\/admin\/room-hire-sa4af54d574.png",
+		"outputAbbreviatedPath": "\/images-dist\/admin\/room-hire-sa4af54d574.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/admin\/why-train-with-us-s5a438105d0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248451,
+		"inputAbbreviatedPath": "\/images-dist\/admin\/why-train-with-us-s5a438105d0.png",
+		"outputAbbreviatedPath": "\/images-dist\/admin\/why-train-with-us-s5a438105d0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29838,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57492,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57467,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67005,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70520,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77757,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74696,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77757,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59973,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32093,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67189,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62974,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54955,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44351,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69445,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71772,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67269,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95156,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66711,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82071,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80018,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85962,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73102,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54026,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63453,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67914,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71961,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62631,
+		"inputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/captivate\/captivate-advanced-s40e03a7be9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57707,
+		"inputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-advanced-s40e03a7be9.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-advanced-s40e03a7be9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/captivate\/captivate-category-s59d8a1273b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73526,
+		"inputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-category-s59d8a1273b.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-category-s59d8a1273b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/captivate\/captivate-essentials-sbf683ff5a7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57707,
+		"inputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65896,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32593,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68496,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/finalcut-pro-s71b4a76136.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55348,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/finalcut-pro-s71b4a76136.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/finalcut-pro-s71b4a76136.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54930,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65760,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34419,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67427,
+		"inputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44039,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s9d3f2c3667.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73057,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58884,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/dreamweaver\/muse-essentials-s6f5b9c4b8b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73044,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39829,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61069,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72222,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57272,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51886,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21411,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58219,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70469,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/wordpress\/wordpress-category-s5802519e43.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31166,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-category-s5802519e43.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-category-s5802519e43.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images-dist\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70615,
+		"inputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png",
+		"outputAbbreviatedPath": "\/images-dist\/training\/web-design-development\/wordpress\/wordpress-essentials-sf8fa45791f.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3877,17 +4513,6 @@
 		"initialSize": 7954,
 		"inputAbbreviatedPath": "\/images\/admin\/calendar\/calendar-custom-training.png",
 		"outputAbbreviatedPath": "\/images\/admin\/calendar\/calendar-custom-training.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/admin\/faq-s95bcec6c91.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/admin\/faq-s95bcec6c91.png",
-		"outputAbbreviatedPath": "\/images\/admin\/faq-s95bcec6c91.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4277,17 +4902,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/admin\/why-train-with-us-s5a438105d0.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/admin\/why-train-with-us-s5a438105d0.png",
-		"outputAbbreviatedPath": "\/images\/admin\/why-train-with-us-s5a438105d0.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/admin\/why-train-with-us\/gradient-top.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4405,17 +5019,6 @@
 		"initialSize": 41615,
 		"inputAbbreviatedPath": "\/images\/footer-logos\/footer-logos-5.png",
 		"outputAbbreviatedPath": "\/images\/footer-logos\/footer-logos-5.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/header-footer-sd88e9d5b6c.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/header-footer-sd88e9d5b6c.png",
-		"outputAbbreviatedPath": "\/images\/header-footer-sd88e9d5b6c.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4556,7 +5159,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 190006,
+		"initialSize": 22137,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/afterEffects.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/afterEffects.png",
 		"outputPathIsOutsideProject": 0,
@@ -4567,7 +5170,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82372,
+		"initialSize": 82682,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/background.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/background.png",
 		"outputPathIsOutsideProject": 0,
@@ -4578,7 +5181,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1262,
+		"initialSize": 1277,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/buttonLeft.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/buttonLeft.png",
 		"outputPathIsOutsideProject": 0,
@@ -4589,7 +5192,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1229,
+		"initialSize": 1244,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/buttonRight.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/buttonRight.png",
 		"outputPathIsOutsideProject": 0,
@@ -4600,7 +5203,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 192751,
+		"initialSize": 25609,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate1.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate1.png",
 		"outputPathIsOutsideProject": 0,
@@ -4611,7 +5214,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 170484,
+		"initialSize": 19613,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate2.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate2.png",
 		"outputPathIsOutsideProject": 0,
@@ -4622,7 +5225,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 197416,
+		"initialSize": 23303,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate3.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/captivate3.png",
 		"outputPathIsOutsideProject": 0,
@@ -4633,7 +5236,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 189486,
+		"initialSize": 25673,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/DPS.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/DPS.png",
 		"outputPathIsOutsideProject": 0,
@@ -4644,7 +5247,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 191777,
+		"initialSize": 24956,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/edgeAnimate.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/edgeAnimate.png",
 		"outputPathIsOutsideProject": 0,
@@ -4655,7 +5258,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 241697,
+		"initialSize": 99020,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/ePub.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/ePub.png",
 		"outputPathIsOutsideProject": 0,
@@ -4666,7 +5269,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 190953,
+		"initialSize": 23770,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Facebook.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Facebook.png",
 		"outputPathIsOutsideProject": 0,
@@ -4677,7 +5280,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 158281,
+		"initialSize": 18040,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/HTML5.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/HTML5.png",
 		"outputPathIsOutsideProject": 0,
@@ -4688,7 +5291,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 162396,
+		"initialSize": 18706,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Illustrator.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Illustrator.png",
 		"outputPathIsOutsideProject": 0,
@@ -4699,7 +5302,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 185870,
+		"initialSize": 22483,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/InDesign.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/InDesign.png",
 		"outputPathIsOutsideProject": 0,
@@ -4710,7 +5313,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 180784,
+		"initialSize": 26407,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/JavaScript.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/JavaScript.png",
 		"outputPathIsOutsideProject": 0,
@@ -4721,7 +5324,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2046,
+		"initialSize": 2102,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/learn.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/learn.png",
 		"outputPathIsOutsideProject": 0,
@@ -4732,7 +5335,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 131460,
+		"initialSize": 18285,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/LinkedIn.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/LinkedIn.png",
 		"outputPathIsOutsideProject": 0,
@@ -4743,7 +5346,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 304681,
+		"initialSize": 445560,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/main-slider-image.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/main-slider-image.png",
 		"outputPathIsOutsideProject": 0,
@@ -4754,7 +5357,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 259373,
+		"initialSize": 26091,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Photoshop.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Photoshop.png",
 		"outputPathIsOutsideProject": 0,
@@ -4765,7 +5368,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 203007,
+		"initialSize": 20878,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/premierePro.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/premierePro.png",
 		"outputPathIsOutsideProject": 0,
@@ -4776,7 +5379,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 179546,
+		"initialSize": 64936,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/singleEdition.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/singleEdition.png",
 		"outputPathIsOutsideProject": 0,
@@ -4787,7 +5390,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 203768,
+		"initialSize": 29398,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Twitter.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Twitter.png",
 		"outputPathIsOutsideProject": 0,
@@ -4798,7 +5401,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 690,
+		"initialSize": 2665,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/why-train-with-us.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/why-train-with-us.png",
 		"outputPathIsOutsideProject": 0,
@@ -4809,7 +5412,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 143629,
+		"initialSize": 17728,
 		"inputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Wordpress.png",
 		"outputAbbreviatedPath": "\/images\/homepage\/landing-page-banner\/Wordpress.png",
 		"outputPathIsOutsideProject": 0,
@@ -5234,11 +5837,297 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/PNG's with black border-temp\/acrobat-pdfforms-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3355,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/acrobat-pdfforms-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/acrobat-pdfforms-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/ae-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5849,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ae-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ae-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/css3-package-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6765,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/css3-package-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/css3-package-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/fl-actionscript-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3528,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/fl-actionscript-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/fl-actionscript-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/fl-banners-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6130,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/fl-banners-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/fl-banners-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/html-css-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4356,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html-css-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html-css-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/html5-package-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6559,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html5-package-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html5-package-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/html5css-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4760,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html5css-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/html5css-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-accessibility-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4495,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-accessibility-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-accessibility-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5618,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-dps-pkg-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6202,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-pkg-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-pkg-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-dps-pro-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7869,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-pro-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-pro-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-dps-single-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8333,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-single-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-dps-single-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-epub-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8397,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-epub-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-epub-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-interactivity-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8256,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-interactivity-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-interactivity-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-lite-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6118,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-lite-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-lite-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/id-longdocuments-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5586,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-longdocuments-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/id-longdocuments-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/il-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6515,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/il-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/il-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/il-lite-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6925,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/il-lite-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/il-lite-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/indesign-cc-cs6-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14470,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/indesign-cc-cs6-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/indesign-cc-cs6-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/jq-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7835,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/jq-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/jq-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/pr-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5170,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/pr-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/pr-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/ps-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5683,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ps-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ps-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/ps-lite-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6207,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ps-lite-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/ps-lite-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/wp-advanced-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7481,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/wp-advanced-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/wp-advanced-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PNG's with black border-temp\/wp-essentials-framed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6204,
+		"inputAbbreviatedPath": "\/images\/PNG's with black border-temp\/wp-essentials-framed.png",
+		"outputAbbreviatedPath": "\/images\/PNG's with black border-temp\/wp-essentials-framed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/shopping-cart\/credit-cards.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8141,
+		"initialSize": 5781,
 		"inputAbbreviatedPath": "\/images\/shopping-cart\/credit-cards.png",
 		"outputAbbreviatedPath": "\/images\/shopping-cart\/credit-cards.png",
 		"outputPathIsOutsideProject": 0,
@@ -5249,7 +6138,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5782,
+		"initialSize": 3307,
 		"inputAbbreviatedPath": "\/images\/shopping-cart\/eft-cheque.png",
 		"outputAbbreviatedPath": "\/images\/shopping-cart\/eft-cheque.png",
 		"outputPathIsOutsideProject": 0,
@@ -5260,7 +6149,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2755,
+		"initialSize": 1523,
 		"inputAbbreviatedPath": "\/images\/shopping-cart\/invoice.png",
 		"outputAbbreviatedPath": "\/images\/shopping-cart\/invoice.png",
 		"outputPathIsOutsideProject": 0,
@@ -5296,17 +6185,6 @@
 		"initialSize": 391,
 		"inputAbbreviatedPath": "\/images\/shopping-cart\/step-3.png",
 		"outputAbbreviatedPath": "\/images\/shopping-cart\/step-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29838,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category-s24dae38b86.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5351,17 +6229,6 @@
 		"initialSize": 7946,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category\/category-custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-category\/category-custom-training.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-essentials-s0a67036e25.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5421,17 +6288,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57467,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms-s0ece181ee6.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/acrobat\/acrobat-pdfforms\/acrobat-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5483,17 +6339,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/acrobat\/acrobat-pdfforms\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/digital-publishing-category-sa4038a2480.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5597,17 +6442,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 70520,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-pro-app-s76d6f5b224.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/digital-publishing\/dps-pro-app\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5670,17 +6504,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-pro-app\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-pro-app\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77757,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/dps-single-app-s8f12f3b425.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5773,17 +6596,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74696,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook-se7d0e2a283.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5857,17 +6669,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ebook\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77757,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/digital-publishing\/indesign-to-ipad-s5066f7d96e.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5960,17 +6761,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59973,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-actionscript-s1651aa7a40.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/flash\/flash-actionscript\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6037,17 +6827,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32093,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category-s66d4c3c7ab.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/flash\/flash-category\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6085,7 +6864,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2760,
+		"initialSize": 17795,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category\/fl-essentials-framed.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category\/fl-essentials-framed.png",
 		"outputPathIsOutsideProject": 0,
@@ -6096,20 +6875,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2754,
+		"initialSize": 2399,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category\/fl-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-category\/fl-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-essentials-s95e771beaa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6191,17 +6959,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/flash\/flash-web-banners-sa3111e69a3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/flash\/flash-web-banners\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6268,17 +7025,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54955,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-advanced-s2a4f7466a8.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/illustrator\/illustrator-advanced\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6319,17 +7065,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-advanced\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-advanced\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44351,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-category-s97b47fb17e.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6407,17 +7142,6 @@
 		"initialSize": 2797,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-category\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-category\/ps-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69445,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-essentials-s9df9d6a7bf.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6510,17 +7234,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71772,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/illustrator\/illustrator-lite-s53740e9368.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/illustrator\/illustrator-lite\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6598,17 +7311,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67269,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility-se3ecea84e0.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-accessibility\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6660,17 +7362,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-accessibility\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 95156,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-advanced-s74a2324c71.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6796,17 +7487,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66711,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-category-sf8bc9463ca.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-category\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6928,17 +7608,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 82071,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-ess-sadf3781bcb.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-ess\/class-custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7038,17 +7707,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80018,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity-sbc3786cd4f.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-interactivity\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7122,17 +7780,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-interactivity\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 85962,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-lite-sd7c1fa190f.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7225,17 +7872,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73102,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/indesign\/indesign-long-docs-sc6515dcb8c.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/indesign\/indesign-long-docs\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7302,17 +7938,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54026,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-advanced-s6b147a9e62.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/photoshop\/photoshop-advanced\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7357,22 +7982,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63453,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category-seec19b54f1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/photoshop\/photoshop-category\/id-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2934,
+		"initialSize": 2938,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/id-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/id-essentials.png",
 		"outputPathIsOutsideProject": 0,
@@ -7383,7 +7997,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2821,
+		"initialSize": 2829,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/il-ess.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/il-ess.png",
 		"outputPathIsOutsideProject": 0,
@@ -7394,7 +8008,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3543,
+		"initialSize": 3538,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-advanced.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-advanced.png",
 		"outputPathIsOutsideProject": 0,
@@ -7405,7 +8019,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7946,
+		"initialSize": 7954,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-category-custom-training.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-category-custom-training.png",
 		"outputPathIsOutsideProject": 0,
@@ -7416,7 +8030,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2801,
+		"initialSize": 18418,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials-framed.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials-framed.png",
 		"outputPathIsOutsideProject": 0,
@@ -7427,7 +8041,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2797,
+		"initialSize": 18855,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-essentials.png",
 		"outputPathIsOutsideProject": 0,
@@ -7449,7 +8063,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3671,
+		"initialSize": 3642,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-lite.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-lite.png",
 		"outputPathIsOutsideProject": 0,
@@ -7460,7 +8074,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2968,
+		"initialSize": 3127,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-lr.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-lr.png",
 		"outputPathIsOutsideProject": 0,
@@ -7471,7 +8085,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3495,
+		"initialSize": 3297,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-retouching.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-retouching.png",
 		"outputPathIsOutsideProject": 0,
@@ -7482,20 +8096,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3069,
+		"initialSize": 3105,
 		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-web.png",
 		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-category\/ps-web.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67914,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-essentials-s8dc9f2b9c1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7588,17 +8191,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 71961,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-lite-s047effbfbf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/photoshop\/photoshop-lite\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7676,17 +8268,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62631,
-		"inputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png",
-		"outputAbbreviatedPath": "\/images\/training\/adobe\/photoshop\/photoshop-web-sb6569b5aaf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/adobe\/photoshop\/photoshop-web\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7753,17 +8334,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/captivate\/captivate-advanced-s40e03a7be9.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57707,
-		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced-s40e03a7be9.png",
-		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced-s40e03a7be9.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/captivate\/captivate-advanced\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7815,17 +8385,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-advanced\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/captivate\/captivate-category-s59d8a1273b.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73526,
-		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category-s59d8a1273b.png",
-		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-category-s59d8a1273b.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7896,17 +8455,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57707,
-		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
-		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials-sbf683ff5a7.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/captivate\/captivate-essentials\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -7958,17 +8506,6 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/pdf.png",
 		"outputAbbreviatedPath": "\/images\/training\/captivate\/captivate-essentials\/pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 65896,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-advanced-sc7167ef069.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8050,22 +8587,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32593,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category-s615e03219a.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/video-editing\/after-effects\/after-effects-category\/ae-advanced.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3656,
+		"initialSize": 3499,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/ae-advanced.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/ae-advanced.png",
 		"outputPathIsOutsideProject": 0,
@@ -8087,7 +8613,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2868,
+		"initialSize": 2858,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/ae-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/ae-essentials.png",
 		"outputPathIsOutsideProject": 0,
@@ -8112,17 +8638,6 @@
 		"initialSize": 2832,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/pr-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-category\/pr-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 68496,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/after-effects\/after-effects-essentials-s511ea29c62.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8259,17 +8774,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements-s62b21c7fd1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/video-editing\/premiere-pro\/premiere-elements\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8321,17 +8825,6 @@
 		"initialSize": 2832,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements\/pr-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-elements\/pr-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-advanced-s4321e30df6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8413,17 +8906,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 34419,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category-s5f9276f45e.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/ae-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8450,7 +8932,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3518,
+		"initialSize": 3508,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-advanced.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-advanced.png",
 		"outputPathIsOutsideProject": 0,
@@ -8461,7 +8943,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2683,
+		"initialSize": 2535,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-elements.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-elements.png",
 		"outputPathIsOutsideProject": 0,
@@ -8472,7 +8954,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2834,
+		"initialSize": 3010,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-essentials-framed.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-essentials-framed.png",
 		"outputPathIsOutsideProject": 0,
@@ -8483,20 +8965,9 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2832,
+		"initialSize": 3010,
 		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-category\/pr-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png",
-		"outputAbbreviatedPath": "\/images\/training\/video-editing\/premiere-pro\/premiere-pro-essentials-sdbef47c607.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8589,17 +9060,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40826,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category-s373887c318.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/css3-package.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8688,13 +9148,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png": {
+	"\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73057,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-essentials-s4788f9ead8.png",
+		"initialSize": 2635,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/dreamweaver-category\/mu-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8809,13 +9269,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png": {
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73044,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/css-essentials-scf24783571.png",
+		"initialSize": 10335,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/course-classrom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7946,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/custom-training.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2789,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/html-ess.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2635,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/mu-essentials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2904,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/pdf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2797,
+		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png",
+		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/dreamweaver\/muse-essentials\/ps-essentials.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8930,17 +9445,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39829,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category-sfcc696b092.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/web-design-development\/html-css\/html-css-category\/css3-package.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9011,7 +9515,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3492,
+		"initialSize": 18974,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5css.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/html5css.png",
 		"outputPathIsOutsideProject": 0,
@@ -9025,17 +9529,6 @@
 		"initialSize": 3220,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/htmlnews.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-css-category\/htmlnews.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61069,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-responsive-s0f4b281bbe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9102,17 +9595,6 @@
 		"initialSize": 3069,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-responsive\/ps-web.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-responsive\/ps-web.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72222,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html-web-principles-s73f6714009.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9227,17 +9709,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57272,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/html-css\/html5-css3-sa05d5fd5ff.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/web-design-development\/html-css\/html5-css3\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9304,17 +9775,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51886,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-essentials-s06955e5288.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-essentials\/course-classrom.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9370,17 +9830,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21411,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category-sfeb0fee7a0.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/custom-training.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9421,17 +9870,6 @@
 		"initialSize": 1862,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/javascript-jquery-category\/js-essentials.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58219,
-		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png",
-		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/javascript-jquery\/jquery-essentials-s70f0885034.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9495,7 +9933,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 70469,
 		"inputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
 		"outputAbbreviatedPath": "\/images\/training\/web-design-development\/wordpress\/wordpress-advanced-sb5d1afcf29.png",
 		"outputPathIsOutsideProject": 0,
@@ -10224,6 +10662,70 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/admin\/_locations-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_locations-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_locations-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/admin\/_locations.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_locations.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_locations.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/admin\/_room-hire-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_room-hire-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_room-hire-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/admin\/_room-hire.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/admin\/_room-hire.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_room-hire.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/admin\/_training-benefits-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10432,6 +10934,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/components\/training\/_category-no-color-items.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_category-no-color-items.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_category-no-color-items.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/components\/training\/_category.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10457,6 +10975,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course-item.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_course-item.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/components\/training\/_course-no-color-items.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/components\/training\/_course-no-color-items.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_course-no-color-items.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -12434,6 +12968,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/video-editing\/finalcut-pro\/_finalcut-pro.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_finalcut-pro.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_custom\/training\/video-editing\/premiere-pro\/_premiere-elements-add-styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -12715,6 +13297,54 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_dreamweaver-essentials.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/_dreamweaver-essentials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-add-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-add-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials-add-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-old-ie-styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials-old-ie-styles.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials-old-ie-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_custom\/training\/web-design-development\/dreamweaver\/_muse-essentials.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/_muse-essentials.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -13650,11 +14280,45 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/stylesheets\/app.css": {
+	"\/scss\/room-hire-temp.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/room-hire-temp.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/room-hire-temp.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/seo-training-courses - for Irena, temp.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/seo-training-courses - for Irena, temp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/_custom\/ie-support\/ie-grid-support.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/_custom\/ie-support\/ie-grid-support.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/foundation-icons.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/app.css",
+		"inputAbbreviatedPath": "\/stylesheets\/foundation-icons.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13682,6 +14346,24 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/modern-browsers-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/room-hire-temp.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/room-hire-temp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/temp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/temp.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13803,6 +14485,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training-courses\/final-cut-pro-training.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/final-cut-pro-training.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training-courses\/flash-actionscript-training-intro.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13902,6 +14593,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training-courses\/muse-training-intro.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training-courses\/muse-training-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training-courses\/photoshop-training-advanced.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13947,6 +14647,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training\/faq.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -13956,11 +14665,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/training\/locations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/locations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/training\/training-benefits.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/training\/training-benefits.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/training\/training-course-packages.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/training\/training-course-packages.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14004,7 +14731,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Admin",
+"lastSavedByUser": "Jack",
 "manualImportLinks": {
 	},
 "projectAttributes": {
