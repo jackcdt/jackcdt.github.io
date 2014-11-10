@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.linkedin-course {
+    @include course($marketing-color); 
+}
