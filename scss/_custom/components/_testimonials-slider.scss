@@ -32,9 +32,9 @@
         @media screen and (max-width: 767px) {
             visibility: hidden;
         }
-    
-        .testimonial-content {
-            text-align: center;
+
+        %slider-typography {
+           text-align: center;
             @include adjust-font-size-to(24px, 1);
             line-height: 1.25em;
             color: rgb(32, 136, 209);
@@ -43,6 +43,16 @@
             @media screen and (max-width: 991px) {
                 @include adjust-font-size-to(20px, 1);
             }
+        }
+
+        .slide-header {
+            @extend %slider-typography;
+            @extend %t-strong;
+
+         }
+
+        .testimonial-content {
+            @extend %slider-typography;
         }
 
         .testimonial-by {
