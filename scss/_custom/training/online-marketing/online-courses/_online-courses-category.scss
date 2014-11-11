@@ -1,0 +1,160 @@
+@import "../../../components/training/category";
+ 
+.online-courses-category {
+    @include category($online-courses-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 440px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 306px;
+        }
+    } 
+
+    .online-marketing-course-details {
+        font-family: Arial,Helvetica,sans-serif;
+            font-size: .8em;
+            color: #06C;
+            padding: 0;
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: .7em;
+            margin-left: 0;
+            text-align: right;
+    }
+
+    .online-marketing-course-description {
+        font-family: Arial,Helvetica,sans-serif;
+        font-size: .8em;
+        color: #666;
+        padding: 0;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: .8em;
+        margin-left: 70px;
+    }   
+
+    .online-marketing-course-book-now {
+    font-family: Arial,Helvetica,sans-serif;
+        font-size: .8em;
+        color: #666;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 70px;
+        text-align: right;
+    }
+
+    p.online-marketing-course-book-now a {
+        color: #FFF;
+        background-color: #FF6801;
+        padding: 5px 30px;
+        margin: 0;
+        border-radius: 5px;
+        text-decoration: none;
+        line-height: 1.4em;
+    }
+
+    .accordion {
+        a, a:link {
+            display: block;
+            font-size: 1em;
+            padding: .5em .5em .5em .7em;
+            font-weight: normal;
+            text-decoration: none;
+            background-color: #EEE;
+        }
+
+        h3 {
+            color: #787878;
+        }
+    }
+
+    .sidbear-bundle {
+        height: 1800px;
+        background-color: #EEE;
+        margin-top: 15px;
+    }
+
+    .bundle-heading {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.36;
+        color: #2088D1;
+        margin: 5px 10px 0 10px;
+    }
+
+    .bundle-intro {
+        background-color: #C2D2E4;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .bundle-title {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1.36;
+        color: #000;
+        margin: 0 10px;
+    }
+
+    .bundle-intro h4 span.bundle-sign {
+        font-size: 18px;
+    }
+
+    .bundle-intro h4 span.bundle-price {
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+
+    .bundle-intro h4 span.bundle-gst {
+        font-size: 14px;
+    }
+
+    .bundle-info {
+        color: #000;
+        margin: 0 10px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .bundle-info span {
+        color: #2088D1;
+    }
+
+    .bundle-list-title {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #2088D1;
+        margin: 0;
+    }
+
+    .bundle-list {
+        margin-left: 10px;
+    }
+
+    .bundle-list .bundle-courses {
+        padding-top: 15px;
+        border-bottom: 1px solid #686F74;
+        font-weight: 600;
+        color: #000;
+
+        a {
+            color: #334C57;
+        }
+
+        span {
+            color: #2088D1;
+        }
+    }
+} 
