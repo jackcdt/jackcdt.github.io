@@ -2,4 +2,8 @@
 
 .linkedin-course {
     @include course($marketing-color); 
+
+    .course-outline-block ul li{
+        margin-bottom: 12px;
+    }
 }
