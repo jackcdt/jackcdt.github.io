@@ -582,7 +582,7 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 53, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -1212,3 +1212,22 @@ body {
   /* line 10, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
   .seo-essentials-course .book-now-btn {
     background-color: #f06f2a; }
+
+/* line 1, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-old-ie-styles.scss */
+conversion-optimisation
+.online-courses-category {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-old-ie-styles.scss */
+  conversion-optimisation
+  .online-courses-category .conversion-optimisation,
+  conversion-optimisation
+  .online-courses-category .internet-marketing-logo,
+  conversion-optimisation
+  .online-courses-category .ppc,
+  conversion-optimisation
+  .online-courses-category .seo,
+  conversion-optimisation
+  .online-courses-category .social-media-logo,
+  conversion-optimisation
+  .online-courses-category .web-analytics {
+    display: none; }
