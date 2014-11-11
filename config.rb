@@ -8,11 +8,16 @@ css_dir = "stylesheets"
 sass_dir = "scss"
 images_dir = "images"
 javascripts_dir = "js"
-generated_images_path = File.expand_path('./images-dist')
-generated_images_dir = File.expand_path('./images-dist')
-http_generated_images_path = File.expand_path('./images-dist')
-http_generated_images_dir = File.expand_path('./images-dist')
+generated_images_path = "images-dist"
+generated_images_dir = "images-dist"
+http_generated_images_path = "images-dist"
+http_generated_images_dir = "images-dist"
 
+
+# generated_images_path = File.expand_path('./images-dist')
+# generated_images_dir = File.expand_path('./images-dist')
+# http_generated_images_path = File.expand_path('./images-dist')
+# http_generated_images_dir = File.expand_path('./images-dist')
 
 output_style = :nested
 

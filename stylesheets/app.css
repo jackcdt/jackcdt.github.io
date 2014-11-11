@@ -19498,15 +19498,16 @@ body {
 
 /* line 3, ../scss/_custom/admin/_training-packages.scss */
 .training-packages .intro h1, .training-packages .intro h2 {
+  font-size: 36px;
   font-weight: 200;
   padding-top: 20px;
-  font-size: 36px; }
-/* line 8, ../scss/_custom/admin/_training-packages.scss */
+  line-height: 1.5em; }
+/* line 9, ../scss/_custom/admin/_training-packages.scss */
 .training-packages .intro p {
-  font-weight: 200;
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 200; }
 
-/* line 15, ../scss/_custom/admin/_training-packages.scss */
+/* line 16, ../scss/_custom/admin/_training-packages.scss */
 .package-includes {
   padding-bottom: 40px; }
 
@@ -19521,7 +19522,7 @@ body {
   margin-bottom: 5px;
   display: inline-block; }
 
-/* line 30, ../scss/_custom/admin/_training-packages.scss */
+/* line 29, ../scss/_custom/admin/_training-packages.scss */
 .package-price {
   background-color: #F6BB00;
   border: 1px solid #000;
@@ -19530,14 +19531,16 @@ body {
   font-weight: 600;
   text-align: center;
   width: 140px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  max-height: 80px;
+  margin-bottom: 50px; }
 
-/* line 40, ../scss/_custom/admin/_training-packages.scss */
+/* line 41, ../scss/_custom/admin/_training-packages.scss */
 .package-gst {
   font-size: 20px;
   font-weight: 400; }
 
-/* line 44, ../scss/_custom/admin/_training-packages.scss */
+/* line 45, ../scss/_custom/admin/_training-packages.scss */
 .book-now-specials {
   font-size: 17px;
   font-weight: 400;
@@ -19547,21 +19550,33 @@ body {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
   width: 100px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  color: #000; }
+  color: #000;
+  margin-top: 4px;
+  margin-left: 4px; }
 
-/* line 57, ../scss/_custom/admin/_training-packages.scss */
+/* line 58, ../scss/_custom/admin/_training-packages.scss */
 .package-includes {
-  line-height: 2.0em; }
-  /* line 59, ../scss/_custom/admin/_training-packages.scss */
-  .package-includes a {
-    color: #334c57;
-    font-weight: 500; }
-  /* line 63, ../scss/_custom/admin/_training-packages.scss */
-  .package-includes .cs-text {
-    padding: 0 0 0 3px; }
+  line-height: 2.0em;
+  font-size: 14px; }
 
+/* line 64, ../scss/_custom/admin/_training-packages.scss */
+.package-includes a {
+  color: #334c57;
+  font-weight: 500; }
+
+/* line 68, ../scss/_custom/admin/_training-packages.scss */
+.cs-text {
+  margin: 0;
+  padding: 0; }
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 73, ../scss/_custom/admin/_training-packages.scss */
+  .cs-text {
+    padding-left: 10px; } }
+@media only screen and (max-width: 40em) {
+  /* line 80, ../scss/_custom/admin/_training-packages.scss */
+  .cs-text {
+    padding-left: 5px; } }
 /* line 4, ../scss/_custom/admin/_room-hire.scss */
 .room-hire .custom-breadcrumbs {
   margin-top: 12px; }
@@ -19920,3 +19935,156 @@ a#catshopbuy:link, a#catshopbuy:visited {
 /* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .download-and-book .shop-product-large {
   margin-bottom: 0; }
+
+/* line 2, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started h2 {
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.5em; }
+/* line 8, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started .gt-intro p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5em; }
+/* line 14, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started h3 {
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 300;
+  padding: 5px 10px; }
+/* line 21, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started h4 {
+  color: #2288d5;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 10px; }
+/* line 28, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started p {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 5px; }
+/* line 33, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started ul li {
+  font-size: 15px;
+  line-height: 1.5em; }
+/* line 38, ../scss/_custom/tips/_getting-started.scss */
+.adobe-getting-started .cc-video iframe {
+  min-height: 300px;
+  min-width: 450px;
+  padding-bottom: 20px; }
+@media only screen and (max-width: 40em) {
+  /* line 44, ../scss/_custom/tips/_getting-started.scss */
+  .adobe-getting-started .cc-video iframe {
+    min-height: 250px;
+    min-width: 350px; } }
+
+/* line 51, ../scss/_custom/tips/_getting-started.scss */
+.gts-banner {
+  background-image: url(/images-dist/tips/adobe-software-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 120px; }
+  /* line 56, ../scss/_custom/tips/_getting-started.scss */
+  .gts-banner .bn-cc-icon {
+    margin-right: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    width: 90px;
+    height: 90px; }
+  /* line 63, ../scss/_custom/tips/_getting-started.scss */
+  .gts-banner h1 {
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 1.38em;
+    padding-top: 20px; }
+  /* line 69, ../scss/_custom/tips/_getting-started.scss */
+  .gts-banner p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.38em; }
+  @media only screen and (max-width: 40em) {
+    /* line 76, ../scss/_custom/tips/_getting-started.scss */
+    .gts-banner h1 {
+      font-size: 22px;
+      font-weight: 600;
+      padding-top: 24px; } }
+
+/* line 84, ../scss/_custom/tips/_getting-started.scss */
+.gts-gradient {
+  background-image: url(/images-dist/tips/gradient-top.jpg);
+  background-position: center center;
+  background-size: auto auto;
+  height: 46px;
+  background-repeat: repeat-x; }
+
+/* line 1, ../scss/_custom/tips/_desktop-pub-package.scss */
+.desktop-pub {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  /* line 5, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .title-text h1 {
+    font-size: 2.0em;
+    font-weight: 400;
+    color: #2089D3;
+    line-height: 1.5em; }
+  /* line 11, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .title-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666; }
+  /* line 19, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .desktop-intro h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #666;
+    padding-bottom: 0;
+    line-height: 1.5em; }
+  /* line 26, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .desktop-intro p {
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #666;
+    padding-bottom: 0;
+    margin-bottom: 5px; }
+  /* line 34, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .desktop-intro a {
+    font-weight: 400; }
+
+/* line 1, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+.digi-gts {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  /* line 5, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+  .digi-gts .title-text h1 {
+    font-size: 2.0em;
+    font-weight: 400;
+    color: #2089D3;
+    line-height: 1.5em; }
+  /* line 11, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+  .digi-gts .title-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #666; }
+  /* line 19, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+  .digi-gts .digi-intro h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #666;
+    padding-bottom: 0;
+    line-height: 1.5em; }
+  /* line 26, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+  .digi-gts .digi-intro p {
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #666;
+    padding-bottom: 0;
+    margin-bottom: 10px; }
+  /* line 34, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
+  .digi-gts .digi-intro a {
+    font-weight: 400; }

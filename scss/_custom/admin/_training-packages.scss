@@ -1,22 +1,22 @@
 .training-packages {
     .intro {
         h1, h2 {
-        font-weight: 200;
-        padding-top: 20px;
         font-size: 36px;
+        font-weight: 200;
+            padding-top: 20px;
+            line-height: 1.5em;
         }
         p {
-        font-weight: 200;
-        font-size: 20px;
+            font-size: 20px;
+            font-weight: 200;
         }
     }
 }
 
 .package-includes {
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 }
-.package-overview {
-    h3 {
+.package-overview h3 {
 	font-size: 20px;
 	color: #FFFFFF;
 	background-color: #2089D3;
@@ -25,7 +25,6 @@
 	border-radius: 3px;
 	margin-bottom: 5px;
 	display: inline-block;
-    }
 }
 .package-price {
 	background-color: #F6BB00;
@@ -36,13 +35,15 @@
 	text-align: center;
 	width: 140px;
 	margin-top: 30px;
+	max-height: 80px;
+	margin-bottom: 50px;
 }
 .package-gst {
-    font-size: 20px;
-    font-weight: 400;
+	font-size: 20px;
+	font-weight: 400;
 }
 .book-now-specials {
-    font-size: 17px;
+	font-size: 17px;
 	font-weight: 400;
 	text-align: center;
 	background-color: #E4E4E4;
@@ -50,18 +51,35 @@
 	border-right: 1px solid #000;
 	border-bottom: 1px solid #000;
 	width: 100px;
-	margin-top:30px;
-		margin-bottom: 20px;
-		color:#000;
+	color:#000;
+	margin-top: 4px;
+	margin-left: 4px;
 }
 .package-includes {
-    line-height: 2.0em;
-    a {
-        color: #334c57;
-        font-weight: 500;
-    }
-    .cs-text {
-        padding: 0 0 0 3px;
-    }
+	line-height: 2.0em;
+	font-size: 14px;
+
 }
 
+.package-includes a {
+		color: #334c57;
+		font-weight: 500;
+}
+.cs-text {
+	margin: 0;
+	padding: 0;
+}
+@media #{$medium-only} { 
+.cs-text {
+		padding-left: 10px; 
+   
+ }
+
+}
+@media #{$small-only} { 
+.cs-text {
+		padding-left: 5px; 
+   
+ }
+
+}
