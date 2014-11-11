@@ -14,12 +14,12 @@ $custom-training-spacing: 40px;
 
     .new-skills-banner { 
         @include custom-training-sprite(new-skills-banner); 
-        @include responsive-sprite($map, new-skills-banner, 100%);
+        @include responsive-sprite($map, new-skills-banner, 12%);
 
         float: right;
     } 
  
-    .private-training-logo { 
+    .private-training { 
         @include custom-training-sprite(private-training); 
         @include responsive-sprite($map, private-training , 100%);
 
@@ -36,7 +36,7 @@ $custom-training-spacing: 40px;
         @media (min-width: 1380px) {
             padding-bottom: 250px;
         }
-    }  
+    }   
 
     .gradient-top { 
         @include custom-training-sprite(gradient-top); 

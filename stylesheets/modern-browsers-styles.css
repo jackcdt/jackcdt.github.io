@@ -8835,3 +8835,76 @@ body {
       padding-bottom: 60.65217%;
       background-size: 579.13043%;
       background-position: 0 30.58485%; } }
+
+/* line 72, admin/custom-training/*.png */
+.custom-training-sprite, .cdt-custom-training .new-skills-banner, .cdt-custom-training .private-training, .cdt-custom-training .custom-training-background, .cdt-custom-training .gradient-top {
+  background-image: url('../images-dist/admin/custom-training-s61708c4bb2.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/admin/_custom-training-add-styles.scss */
+.cdt-custom-training .new-skills-banner {
+  background-position: 0 -376px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 12%;
+  display: block;
+  height: 0;
+  padding-bottom: 12%;
+  background-size: 1665.0%;
+  background-position: 0 55.6213%;
+  float: right; }
+/* line 22, ../scss/_custom/admin/_custom-training-add-styles.scss */
+.cdt-custom-training .private-training {
+  background-position: 0 -496px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 54.96829%;
+  background-size: 281.60677%;
+  background-position: 0 100%; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 22, ../scss/_custom/admin/_custom-training-add-styles.scss */
+    .cdt-custom-training .private-training {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 35.72939%;
+      background-size: 281.60677%;
+      background-position: 0 100%; } }
+/* line 31, ../scss/_custom/admin/_custom-training-add-styles.scss */
+.cdt-custom-training .custom-training-background {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 18.76877%;
+  background-size: 100%;
+  background-position: 0 0%; }
+  @media (min-width: 1380px) {
+    /* line 31, ../scss/_custom/admin/_custom-training-add-styles.scss */
+    .cdt-custom-training .custom-training-background {
+      padding-bottom: 250px; } }
+/* line 41, ../scss/_custom/admin/_custom-training-add-styles.scss */
+.cdt-custom-training .gradient-top {
+  background-position: 0 -290px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.45345%;
+  background-size: 100%;
+  background-position: 0 40.84507%;
+  max-height: 46px;
+  margin-top: -2px; }
