@@ -43,7 +43,7 @@ $cdt-custom-training-color: #2088D1;
         @media #{$medium-up} {
             margin-top: 50px;
         }
-    }
+    } 
 
     .testimonials-slider {
         @extend %testimonials-slider;
@@ -65,7 +65,7 @@ $cdt-custom-training-color: #2088D1;
     .specification ul li,
     .on-site-section,
     .on-site-section ul li,
-    .costs-section-details {
+    .costs-section-details p {
         @include adjust-font-size-to(14px);
     }
 
@@ -75,6 +75,11 @@ $cdt-custom-training-color: #2088D1;
         min-height: 303px;
         margin-bottom: $margin-bottom-default;
         padding-left: 20px;
+
+
+        @media #{$small-only} {
+            width: 55%;
+        }
 
         h3 {
             font-size: 16px;

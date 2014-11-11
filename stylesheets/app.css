@@ -21001,7 +21001,7 @@ body {
 .cdt-custom-training .specification ul li,
 .cdt-custom-training .on-site-section,
 .cdt-custom-training .on-site-section ul li,
-.cdt-custom-training .costs-section-details {
+.cdt-custom-training .costs-section-details p {
   font-size: 0.875em;
   line-height: 1.71429em; }
 /* line 72, ../scss/_custom/admin/_custom-training.scss */
@@ -21011,7 +21011,11 @@ body {
   min-height: 303px;
   margin-bottom: 24px;
   padding-left: 20px; }
-  /* line 79, ../scss/_custom/admin/_custom-training.scss */
+  @media only screen and (max-width: 40em) {
+    /* line 72, ../scss/_custom/admin/_custom-training.scss */
+    .cdt-custom-training .costs-section-details {
+      width: 55%; } }
+  /* line 84, ../scss/_custom/admin/_custom-training.scss */
   .cdt-custom-training .costs-section-details h3 {
     font-size: 16px;
     font-weight: 600;
@@ -21020,7 +21024,7 @@ body {
     color: #FFF;
     margin-bottom: 24px;
     padding: 20px 20px 0; }
-  /* line 89, ../scss/_custom/admin/_custom-training.scss */
+  /* line 94, ../scss/_custom/admin/_custom-training.scss */
   .cdt-custom-training .costs-section-details a {
     color: #fff;
     padding: 8px;
