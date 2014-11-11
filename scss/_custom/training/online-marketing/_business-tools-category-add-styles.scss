@@ -19,7 +19,7 @@ $business-tools-category-spacing: 40px;
         min-height: 55px;
     } 
 
-    .course-custom-training-logo {
+    .category-custom-training {
          
         @include business-tools-category-sprite(custom-training); 
         @include responsive-sprite($map, custom-training , 100%);
@@ -35,7 +35,7 @@ $business-tools-category-spacing: 40px;
     .ga-essentials {
         @include business-tools-category-sprite(ga-essentials); 
         @include responsive-sprite($map, ga-essentials, 5.8%);
-
+        margin-left: 15px;
         min-width: 50px;
         min-height: 50px; 
     }
@@ -43,7 +43,7 @@ $business-tools-category-spacing: 40px;
     .linkedin-essentials {
         @include business-tools-category-sprite(linkedin-essentials); 
         @include responsive-sprite($map, linkedin-essentials, 5.8%);
-
+        margin-left: 15px;
         min-width: 50px;
         min-height: 50px;     
     }
@@ -51,7 +51,7 @@ $business-tools-category-spacing: 40px;
     .seo-ess { 
         @include business-tools-category-sprite(seo-ess); 
         @include responsive-sprite($map, seo-ess, 5.8%);
-
+        margin-left: 15px;
         min-width: 50px;
         min-height: 50px;    
     }

@@ -1,10 +1,4 @@
-@import "../../../components/training/category";
-
-.business-tools-category {
-    @include course($marketing-color); 
-}
-
-
+@import "../../components/training/category";
  
 .business-tools-category {
     @include category($marketing-color);
@@ -13,15 +7,15 @@
     // screens and up - define width in a way all browsers understand
     .tight-header-1 {
         @media #{$medium-up} {
-            width: 440px;
+            width: 480px;
         }
     }
 
     .tight-header-2 {
         @media #{$medium-up} {
-            width: 306px;
+            width: 376px;
         }
-    } 
+    }  
 
     .testimonials {
         height: 12em;
@@ -44,7 +38,7 @@
         }
 
         @media #{$large-up} {
-            height: 17em;
+            height: 18em;
             margin-bottom: $margin-bottom-default / 2;
         }
     }

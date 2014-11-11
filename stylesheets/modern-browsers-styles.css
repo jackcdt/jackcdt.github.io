@@ -7647,7 +7647,7 @@ body {
   top: 1px; }
 
 /* line 80, training/online-marketing/business-tools-category/*.png */
-.business-tools-category-sprite, .business-tools-category .socialmedia-essentials, .business-tools-category .course-custom-training-logo, .business-tools-category .ga-essentials, .business-tools-category .linkedin-essentials, .business-tools-category .seo-ess {
+.business-tools-category-sprite, .business-tools-category .socialmedia-essentials, .business-tools-category .category-custom-training, .business-tools-category .ga-essentials, .business-tools-category .linkedin-essentials, .business-tools-category .seo-ess {
   background-image: url('../images-dist/training/online-marketing/business-tools-category-s0f7c6a8f5c.png');
   background-repeat: no-repeat; }
 
@@ -7666,7 +7666,7 @@ body {
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .course-custom-training-logo {
+.business-tools-category .category-custom-training {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
@@ -7680,7 +7680,7 @@ body {
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 22, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-    .business-tools-category .course-custom-training-logo {
+    .business-tools-category .category-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
       */
@@ -7702,6 +7702,7 @@ body {
   padding-bottom: 4.53913%;
   background-size: 201.08696%;
   background-position: 0 27.16628%;
+  margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 43, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
@@ -7716,6 +7717,7 @@ body {
   padding-bottom: 5.8%;
   background-size: 284.61538%;
   background-position: 0 52.53456%;
+  margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 51, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
@@ -7730,6 +7732,7 @@ body {
   padding-bottom: 5.62154%;
   background-size: 284.61538%;
   background-position: 0 76.37615%;
+  margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
