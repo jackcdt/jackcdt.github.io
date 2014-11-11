@@ -1,0 +1,99 @@
+.dps-gts-bnr {
+    background-image: url(/images-dist/tips/dps-banner-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 120px;
+    .bn-dps-icon {
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 30px;
+        width: 90px;
+        height: 90px;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 200;
+        line-height: 1.38em;
+        padding-top: 20px;
+        color: #FFF;
+    }
+    p {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.38em;
+        color: #FFF;
+    }
+    @media only screen and (max-width: 40em) {
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            padding-top: 24px;
+        }
+    }
+}
+.dps-gts-gradient {
+    background-image: url(/images-dist/tips/gradient-top.jpg);
+    background-position: center center;
+    background-size: auto auto;
+    height: 46px;
+    background-repeat: repeat-x;
+}
+.dps-gts {
+    .intro {
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.5em;
+            margin-top: 10px;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 200;
+            line-height: 1.38em;
+        }
+    }
+    .dps-gts-content {
+        h2 {
+            border: 1px solid black;
+            font-size: 26px;
+            font-weight: 300;
+            padding: 0px 5px 0px 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        h3 {
+            color: #2288d5;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.6em;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5em;
+            padding-bottom: 10px;
+        }
+        .learn-dps-btn {
+            padding-top: 5px;
+            padding-right: 14px;
+            padding-bottom: 5px;
+            padding-left: 14px;
+            font-size: 18px;
+            background-color: #2288d5;
+        }
+        .tip-icon {
+            padding-right: 0;
+            margin-right: 0;
+            width: 56px;
+        }
+        .tip-text {
+            padding-left: 6px;
+            padding-top: 5px;
+        }
+        img {
+            padding-bottom: 10px;
+        }
+    }
+}
