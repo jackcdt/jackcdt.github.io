@@ -68,4 +68,22 @@ $cdt-custom-training-color: #2088D1;
     .costs-section-details {
         @include adjust-font-size-to(14px);
     }
-}
+
+    .costs-section-details {
+        background-color: #676E74;
+        color: #FFF;
+        min-height: 303px;
+        margin-bottom: $margin-bottom-default;
+        padding-left: 20px;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            color: #FFF;
+            margin-bottom: $margin-bottom-default;
+            padding: 20px 20px 0;
+        }
+    }
+}   

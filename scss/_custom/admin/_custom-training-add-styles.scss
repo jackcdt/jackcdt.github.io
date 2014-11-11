@@ -21,12 +21,8 @@ $custom-training-spacing: 40px;
  
     .private-training { 
         @include custom-training-sprite(private-training); 
-        @include responsive-sprite($map, private-training , 100%);
-
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
-            @include responsive-sprite($map, private-training , 65%);
-        }
-    }  
+        @include responsive-sprite($map, private-training , 55%);
+    }   
 
     .custom-training-background { 
         @include custom-training-sprite(custom-training-background); 

@@ -20560,6 +20560,22 @@ body {
 .cdt-custom-training .costs-section-details {
   font-size: 0.875em;
   line-height: 1.71429em; }
+/* line 72, ../scss/_custom/admin/_custom-training.scss */
+.cdt-custom-training .costs-section-details {
+  background-color: #676E74;
+  color: #FFF;
+  min-height: 303px;
+  margin-bottom: 24px;
+  padding-left: 20px; }
+  /* line 79, ../scss/_custom/admin/_custom-training.scss */
+  .cdt-custom-training .costs-section-details h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 24px;
+    padding: 20px 20px 0; }
 
 /* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
 .checkout-form {
