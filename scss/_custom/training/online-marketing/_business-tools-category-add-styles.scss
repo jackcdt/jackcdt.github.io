@@ -5,7 +5,7 @@
 @import "compass/utilities/sprites";
  
 // Required for correct operation, must be named same as the sprite
-business-tools-category-spacing: 40px; 
+$business-tools-category-spacing: 40px; 
 
 @import "training/online-marketing/business-tools-category/*.png";  
 
@@ -45,10 +45,10 @@ business-tools-category-spacing: 40px;
         @include responsive-sprite($map, linkedin-essentials, 5.8%);
 
         min-width: 50px;
-        min-height: 50px;    
+        min-height: 50px;     
     }
 
-    .seo-ess {
+    .seo-ess { 
         @include business-tools-category-sprite(seo-ess); 
         @include responsive-sprite($map, seo-ess, 5.8%);
 
