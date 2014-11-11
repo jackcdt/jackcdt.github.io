@@ -19433,6 +19433,9 @@ body {
     .google-analytics-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
+  /* line 6, ../scss/_custom/training/online-marketing/_google-analytics-course.scss */
+  .google-analytics-course .course-outline-block ul li {
+    margin-bottom: 12px; }
 
 /* line 3, ../scss/_custom/training/online-marketing/_linkedin-course.scss */
 .linkedin-course {
@@ -19590,6 +19593,12 @@ body {
     .linkedin-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
+  /* line 6, ../scss/_custom/training/online-marketing/_linkedin-course.scss */
+  .linkedin-course .course-outline-block ul li {
+    margin-bottom: 12px; }
+  /* line 10, ../scss/_custom/training/online-marketing/_linkedin-course.scss */
+  .linkedin-course .testimonials {
+    height: 12em; }
 
 /* line 3, ../scss/_custom/training/online-marketing/_seo-essentials-course.scss */
 .seo-essentials-course {
@@ -19747,6 +19756,12 @@ body {
     .seo-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
+  /* line 6, ../scss/_custom/training/online-marketing/_seo-essentials-course.scss */
+  .seo-essentials-course .course-outline-block ul li {
+    margin-bottom: 12px; }
+  /* line 10, ../scss/_custom/training/online-marketing/_seo-essentials-course.scss */
+  .seo-essentials-course .testimonials {
+    height: 12em; }
 
 /* line 5, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar *:focus {
