@@ -1,10 +1,9 @@
 @import "_custom/common";
 
-.XX-course {
+.google-analytics-course {
 
     /* Hide all sprites */
-    .id-essentials-framed, .course-classrom, .pdf, .custom-training, .id-advanced,
-    .id-essentials, .ps-ess, .il-ess, .and {
+    .course-classrom, .custom-training, .ga-essentials, .pdf {
         display: none !important;
     }
 

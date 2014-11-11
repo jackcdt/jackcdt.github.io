@@ -1,10 +1,9 @@
 @import "_custom/common";
 
-.XX-course {
+.linkedin-course {
 
     /* Hide all sprites */
-    .id-essentials-framed, .course-classrom, .pdf, .custom-training, .id-advanced,
-    .id-essentials, .ps-ess, .il-ess, .and {
+    .course-classrom, .custom-training, .linkedin-essentials-framed, .pdf {
         display: none !important;
     }
 
