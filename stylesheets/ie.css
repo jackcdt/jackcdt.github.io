@@ -1172,3 +1172,43 @@ body {
   /* line 10, ../scss/_custom/training/captivate/_captivate-advanced-old-ie-styles.scss */
   .captivate-advanced-course .book-now-btn {
     background-color: #3ac69d; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+.business-tools-category {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+  .business-tools-category .custom-training, .business-tools-category .ga-essentials, .business-tools-category .linkedin-essentials, .business-tools-category .seo-ess, .business-tools-category .socialmedia-essentials {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+  .business-tools-category .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+.google-analytics-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+  .google-analytics-course .course-classrom, .google-analytics-course .custom-training, .google-analytics-course .ga-essentials, .google-analytics-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+  .google-analytics-course .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+.linkedin-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+  .linkedin-course .course-classrom, .linkedin-course .custom-training, .linkedin-course .linkedin-essentials-framed, .linkedin-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+  .linkedin-course .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+.seo-essentials-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+  .seo-essentials-course .course-classrom, .seo-essentials-course .custom-training, .seo-essentials-course .seo-ess, .seo-essentials-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+  .seo-essentials-course .book-now-btn {
+    background-color: #f06f2a; }

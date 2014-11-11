@@ -7765,6 +7765,333 @@ body {
   position: relative;
   top: 1px; }
 
+/* line 72, training/online-marketing/google-analytics-course/*.png */
+.google-analytics-course-sprite, .google-analytics-course .ga-essentials, .google-analytics-course .course-custom-training-logo, .google-analytics-course .course-classrom, .google-analytics-course .pdf {
+  background-image: url('../images-dist/training/online-marketing/google-analytics-course-sb4b192c2d8.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
+.google-analytics-course .ga-essentials {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.53913%;
+  background-size: 217.3913%;
+  background-position: 0 72.04301%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 23, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
+.google-analytics-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 41.30435%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 23, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
+    .google-analytics-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 41.30435%; } }
+/* line 35, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
+.google-analytics-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 45, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
+.google-analytics-course .pdf {
+  background-position: 0 -380px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.google-analytics-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
+  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #f59f71;
+  text-indent: 0;
+  border: 1px solid #c04c0e;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.google-analytics-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
+  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #f06f2a; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.google-analytics-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 72, training/online-marketing/linkedin-course/*.png */
+.linkedin-course-sprite, .linkedin-course .linkedin-essentials-framed, .linkedin-course .course-custom-training-logo, .linkedin-course .course-classrom, .linkedin-course .pdf {
+  background-image: url('../images-dist/training/online-marketing/linkedin-course-scf2f03eccb.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
+.linkedin-course .linkedin-essentials-framed {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 298.50746%;
+  background-position: 0 72.04301%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 23, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
+.linkedin-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 41.87328%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 23, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
+    .linkedin-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 41.87328%; } }
+/* line 35, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
+.linkedin-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 45, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
+.linkedin-course .pdf {
+  background-position: 0 -375px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.linkedin-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
+  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #f59f71;
+  text-indent: 0;
+  border: 1px solid #c04c0e;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.linkedin-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
+  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #f06f2a; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.linkedin-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 72, training/online-marketing/seo-essentials-course/*.png */
+.seo-essentials-course-sprite, .seo-essentials-course .seo-ess, .seo-essentials-course .course-custom-training-logo, .seo-essentials-course .course-classrom, .seo-essentials-course .pdf {
+  background-image: url('../images-dist/training/online-marketing/seo-essentials-course-s8c8d7b99cb.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
+.seo-essentials-course .seo-ess {
+  background-position: 0 -372px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 307.69231%;
+  background-position: 0 100%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 23, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
+.seo-essentials-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 42.33983%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 23, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
+    .seo-essentials-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 42.33983%; } }
+/* line 35, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
+.seo-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 45, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
+.seo-essentials-course .pdf {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 72.2372%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.seo-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
+  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #f59f71;
+  text-indent: 0;
+  border: 1px solid #c04c0e;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.seo-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
+  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #f06f2a; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.seo-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images-dist/admin/calendar-s4dacfd9bea.png');
