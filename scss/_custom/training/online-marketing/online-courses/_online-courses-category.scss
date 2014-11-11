@@ -6,22 +6,28 @@
     // Media queries are not supported on older IE, to use borders on medium 
     // screens and up - define width in a way all browsers understand
     .tight-header-1 {
-        @media #{$medium-up} {
+        @media #{$large-up} {
             width: 647px;
         }
     }
 
     .tight-header-2 {
-        @media #{$medium-up} {
+        @media #{$large-up} {
             width: 235px;
         }
     } 
 
     .tight-header-3 {
-        @media #{$medium-up} {
+        @media #{$large-up} {
             width: 273px;
         }
     } 
+
+    .course-item .course-item-description {
+        @media #{$large-up} {
+            height: 13em;
+        }
+    }
 
     .online-marketing-course-details {
         font-family: Arial,Helvetica,sans-serif;
@@ -55,21 +61,13 @@
         margin-right: 0;
         margin-bottom: 0;
         margin-left: 70px;
-        text-align: right;
-    }
-
-    p.online-marketing-course-book-now a {
-        color: #FFF;
-        background-color: #FF6801;
-        padding: 5px 30px;
-        margin: 0;
-        border-radius: 5px;
-        text-decoration: none;
-        line-height: 1.4em;
+        text-align: center;
     }
 
     .accordion {
-        a, a:link {
+        @include plus-minus-icon;
+
+        a {
             display: block;
             font-size: 1em;
             padding: .5em .5em .5em .7em;
@@ -83,10 +81,29 @@
         }
     }
 
+    p.online-marketing-course-book-now a {
+        color: #FFF;
+        background-color: #FF6801;
+        padding: 5px 30px;
+        margin: 0;
+        border-radius: 5px;
+        text-decoration: none;
+        line-height: 1.4em;
+    }
+
+    .category-description-section {
+        @media #{$large-up} {
+            width: 62%;
+        }   
+    }
+
     .sidbear-bundle {
-        height: 1800px;
         background-color: #EEE;
-        margin-top: 15px;
+        margin: 15px 0;
+
+        @media #{$large-up} {
+            width: 38%;
+        }   
     }
 
     .bundle-heading {
