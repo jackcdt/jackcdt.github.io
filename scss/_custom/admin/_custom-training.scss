@@ -83,7 +83,13 @@ $cdt-custom-training-color: #2088D1;
             text-transform: uppercase;
             color: #FFF;
             margin-bottom: $margin-bottom-default;
-            padding: 20px 20px 0;
+            padding: 20px 20px 0; 
+        }
+ 
+        a {
+            color: #fff;
+            padding: 8px;
+            background-color: $cdt-custom-training-color;
         }
     }
 }   

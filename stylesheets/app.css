@@ -6782,7 +6782,7 @@ html {
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
-.category-page .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
+.category-page .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .slide-header, .cdt-custom-training .testimonials-slider .slider-content .slide-header, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
   font-weight: 700; }
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
@@ -20022,12 +20022,16 @@ body {
 @media only screen and (min-width: 40.063em) {
   /* line 8, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .tight-header-1 {
-    width: 440px; } }
+    width: 647px; } }
 @media only screen and (min-width: 40.063em) {
   /* line 14, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .tight-header-2 {
-    width: 306px; } }
-/* line 20, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+    width: 235px; } }
+@media only screen and (min-width: 40.063em) {
+  /* line 20, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  .online-courses-category .tight-header-3 {
+    width: 273px; } }
+/* line 26, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-details {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -20038,7 +20042,7 @@ body {
   margin-bottom: .7em;
   margin-left: 0;
   text-align: right; }
-/* line 32, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 38, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-description {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -20048,7 +20052,7 @@ body {
   margin-right: 0;
   margin-bottom: .8em;
   margin-left: 70px; }
-/* line 43, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 49, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-book-now {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -20059,7 +20063,7 @@ body {
   margin-bottom: 0;
   margin-left: 70px;
   text-align: right; }
-/* line 55, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 61, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category p.online-marketing-course-book-now a {
   color: #FFF;
   background-color: #FF6801;
@@ -20068,7 +20072,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   line-height: 1.4em; }
-/* line 66, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 72, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .accordion a, .online-courses-category .accordion a:link {
   display: block;
   font-size: 1em;
@@ -20076,53 +20080,53 @@ body {
   font-weight: normal;
   text-decoration: none;
   background-color: #EEE; }
-/* line 75, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 81, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .accordion h3 {
   color: #787878; }
-/* line 80, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 86, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .sidbear-bundle {
   height: 1800px;
   background-color: #EEE;
   margin-top: 15px; }
-/* line 86, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 92, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-heading {
   font-size: 36px;
   font-weight: 600;
   line-height: 1.36;
   color: #2088D1;
   margin: 5px 10px 0 10px; }
-/* line 94, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 100, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro {
   background-color: #C2D2E4;
   margin-top: 10px;
   padding-bottom: 10px; }
-/* line 100, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 106, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-title {
   font-size: 26px;
   font-weight: 600;
   line-height: 1.36;
   color: #000;
   margin: 0 10px; }
-/* line 108, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 114, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-sign {
   font-size: 18px; }
-/* line 112, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 118, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-price {
   font-size: 20px;
   text-decoration: line-through; }
-/* line 117, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 123, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-gst {
   font-size: 14px; }
-/* line 121, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 127, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-info {
   color: #000;
   margin: 0 10px;
   font-size: 14px;
   line-height: 1.5; }
-/* line 128, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 134, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-info span {
   color: #2088D1; }
-/* line 132, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 138, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list-title {
   padding-top: 10px;
   padding-right: 10px;
@@ -20131,19 +20135,19 @@ body {
   font-weight: 600;
   color: #2088D1;
   margin: 0; }
-/* line 142, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 148, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list {
   margin-left: 10px; }
-/* line 146, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 152, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list .bundle-courses {
   padding-top: 15px;
   border-bottom: 1px solid #686F74;
   font-weight: 600;
   color: #000; }
-  /* line 152, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 158, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .bundle-list .bundle-courses a {
     color: #334C57; }
-  /* line 156, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 162, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .bundle-list .bundle-courses span {
     color: #2088D1; }
 
@@ -20397,7 +20401,7 @@ body {
     .cdt-wtwu .testimonials-slider .slider-content, .cdt-custom-training .testimonials-slider .slider-content {
       visibility: hidden; } }
   /* line 36, ../scss/_custom/components/_testimonials-slider.scss */
-  .cdt-wtwu .testimonials-slider .slider-content .testimonial-content, .cdt-custom-training .testimonials-slider .slider-content .testimonial-content {
+  .cdt-wtwu .testimonials-slider .slider-content .slide-header, .cdt-custom-training .testimonials-slider .slider-content .slide-header {
     text-align: center;
     font-size: 1.5em;
     line-height: 1em;
@@ -20405,17 +20409,29 @@ body {
     color: #2088d1; }
     @media screen and (max-width: 991px) {
       /* line 36, ../scss/_custom/components/_testimonials-slider.scss */
-      .cdt-wtwu .testimonials-slider .slider-content .testimonial-content, .cdt-custom-training .testimonials-slider .slider-content .testimonial-content {
+      .cdt-wtwu .testimonials-slider .slider-content .slide-header, .cdt-custom-training .testimonials-slider .slider-content .slide-header {
         font-size: 1.25em;
         line-height: 1.2em; } }
   /* line 48, ../scss/_custom/components/_testimonials-slider.scss */
+  .cdt-wtwu .testimonials-slider .slider-content .testimonial-content, .cdt-custom-training .testimonials-slider .slider-content .testimonial-content {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+    line-height: 1.25em;
+    color: #2088d1; }
+    @media screen and (max-width: 991px) {
+      /* line 48, ../scss/_custom/components/_testimonials-slider.scss */
+      .cdt-wtwu .testimonials-slider .slider-content .testimonial-content, .cdt-custom-training .testimonials-slider .slider-content .testimonial-content {
+        font-size: 1.25em;
+        line-height: 1.2em; } }
+  /* line 60, ../scss/_custom/components/_testimonials-slider.scss */
   .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
     text-align: right;
     font-size: 1em;
     line-height: 1.5em;
     color: black; }
     @media screen and (max-width: 991px) {
-      /* line 48, ../scss/_custom/components/_testimonials-slider.scss */
+      /* line 60, ../scss/_custom/components/_testimonials-slider.scss */
       .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
         font-size: 0.875em;
         line-height: 1.71429em;
@@ -20960,6 +20976,11 @@ body {
     color: #FFF;
     margin-bottom: 24px;
     padding: 20px 20px 0; }
+  /* line 89, ../scss/_custom/admin/_custom-training.scss */
+  .cdt-custom-training .costs-section-details a {
+    color: #fff;
+    padding: 8px;
+    background-color: #2088D1; }
 
 /* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
 .checkout-form {

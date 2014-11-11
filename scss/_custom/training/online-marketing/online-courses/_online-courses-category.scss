@@ -7,13 +7,19 @@
     // screens and up - define width in a way all browsers understand
     .tight-header-1 {
         @media #{$medium-up} {
-            width: 440px;
+            width: 647px;
         }
     }
 
     .tight-header-2 {
         @media #{$medium-up} {
-            width: 306px;
+            width: 235px;
+        }
+    } 
+
+    .tight-header-3 {
+        @media #{$medium-up} {
+            width: 273px;
         }
     } 
 

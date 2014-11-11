@@ -8,20 +8,30 @@ $online-courses-category-spacing: 40px;
 .online-courses-category {
     $map: $online-courses-category-sprites;
 
-    .conversion-optimisation { 
-        @include online-courses-category-sprite(conversion-optimisation); 
-        @include responsive-sprite($map, conversion-optimisation, 5.8%);
+    .online-social-media-course {
+        @include online-courses-category-sprite(online-social-media-course); 
+        @include responsive-sprite($map, online-social-media-course , 5.8%);
         margin-left: 15px;
         min-width: 56px;
         min-height: 55px;
-    } 
+    }
 
     .internet-marketing-logo {
         @include online-courses-category-sprite(internet-marketing-logo); 
         @include responsive-sprite($map, internet-marketing-logo , 5.8%);
         margin-left: 15px;
-        min-width: 56px;
-        min-height: 55px;
+
+        min-width: 38px;
+        min-height: 45px;    
+    }
+
+    .conversion-optimisation { 
+        @include online-courses-category-sprite(conversion-optimisation); 
+        @include responsive-sprite($map, conversion-optimisation, 5.8%);
+        margin-left: 15px;
+
+        min-width: 38px;
+        min-height: 45px;    
     }
 
     .ppc {

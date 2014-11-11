@@ -8095,23 +8095,23 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 88, training/online-marketing/online-courses/online-courses-category/*.png */
-.online-courses-category-sprite, .online-courses-category .conversion-optimisation, .online-courses-category .internet-marketing-logo, .online-courses-category .ppc, .online-courses-category .seo, .online-courses-category .social-media-logo, .online-courses-category .web-analytics {
-  background-image: url('../images-dist/training/online-marketing/online-courses/online-courses-category-s7a0158d186.png');
+/* line 96, training/online-marketing/online-courses/online-courses-category/*.png */
+.online-courses-category-sprite, .online-courses-category .online-social-media-course, .online-courses-category .internet-marketing-logo, .online-courses-category .conversion-optimisation, .online-courses-category .ppc, .online-courses-category .seo, .online-courses-category .social-media-logo, .online-courses-category .web-analytics {
+  background-image: url('../images-dist/training/online-marketing/online-courses/online-courses-category-sa2b3be144b.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .conversion-optimisation {
-  background-position: 0 0;
+.online-courses-category .online-social-media-course {
+  background-position: 0 -182px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.8%;
+  padding-bottom: 4.57465%;
   background-size: 100%;
-  background-position: 0 0%;
+  background-position: 0 33.33333%;
   margin-left: 15px;
   min-width: 56px;
   min-height: 55px; }
@@ -8125,14 +8125,29 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.8%;
-  background-size: 104%;
-  background-position: 0 20.17544%;
+  background-size: 142%;
+  background-position: 0 16.66667%;
   margin-left: 15px;
-  min-width: 56px;
-  min-height: 55px; }
-/* line 27, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
+  min-width: 38px;
+  min-height: 45px; }
+/* line 28, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
+.online-courses-category .conversion-optimisation {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 136.53846%;
+  background-position: 0 0%;
+  margin-left: 15px;
+  min-width: 38px;
+  min-height: 45px; }
+/* line 37, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
 .online-courses-category .ppc {
-  background-position: 0 -182px;
+  background-position: 0 -278px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8140,14 +8155,14 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.57692%;
-  background-size: 100%;
-  background-position: 0 39.91228%;
+  background-size: 136.53846%;
+  background-position: 0 50.36232%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px; }
-/* line 36, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
+/* line 46, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
 .online-courses-category .seo {
-  background-position: 0 -272px;
+  background-position: 0 -368px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8155,14 +8170,14 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.8%;
-  background-size: 100%;
-  background-position: 0 59.91189%;
+  background-size: 136.53846%;
+  background-position: 0 66.90909%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px; }
-/* line 45, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
+/* line 55, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
 .online-courses-category .social-media-logo {
-  background-position: 0 -364px;
+  background-position: 0 -460px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8170,14 +8185,14 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.8%;
-  background-size: 104%;
-  background-position: 0 79.82456%;
+  background-size: 142%;
+  background-position: 0 83.33333%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px; }
-/* line 54, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
+/* line 64, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
 .online-courses-category .web-analytics {
-  background-position: 0 -454px;
+  background-position: 0 -550px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8185,7 +8200,7 @@ body {
   display: block;
   height: 0;
   padding-bottom: 6.032%;
-  background-size: 104%;
+  background-size: 142%;
   background-position: 0 100%;
   margin-left: 15px;
   min-width: 38px;
