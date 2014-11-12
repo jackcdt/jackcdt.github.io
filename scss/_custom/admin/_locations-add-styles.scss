@@ -22,37 +22,21 @@ $locations-spacing: 40px;
     .sydney { 
         @include locations-sprite(sydney); 
         @include responsive-sprite($map, sydney , 100%);
-
-        @media screen and (max-width: 640px) { 
-            @include responsive-sprite($map, sydney , 50%);
-        } 
     }  
 
     .melbourne { 
         @include locations-sprite(melbourne); 
         @include responsive-sprite($map, melbourne , 100%);
-
-        @media screen and (max-width: 640px) { 
-            @include responsive-sprite($map, melbourne , 50%);
-        } 
     }  
 
     .brisbane { 
         @include locations-sprite(brisbane); 
         @include responsive-sprite($map, brisbane , 100%);
-
-        @media screen and (max-width: 640px) { 
-            @include responsive-sprite($map, brisbane , 50%);
-        } 
     }  
 
     .canberra { 
         @include locations-sprite(canberra); 
         @include responsive-sprite($map, canberra , 100%);
-
-        @media screen and (max-width: 640px) { 
-            @include responsive-sprite($map, canberra , 50%);
-        } 
     }  
 }
 

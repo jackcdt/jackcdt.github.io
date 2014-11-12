@@ -8862,19 +8862,7 @@ body {
   padding-bottom: 121.30435%;
   background-size: 579.13043%;
   background-position: 0 100%; }
-  @media screen and (max-width: 640px) {
-    /* line 22, ../scss/_custom/admin/_locations-add-styles.scss */
-    .locations .sydney {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 50%;
-      display: block;
-      height: 0;
-      padding-bottom: 60.65217%;
-      background-size: 579.13043%;
-      background-position: 0 100%; } }
-/* line 31, ../scss/_custom/admin/_locations-add-styles.scss */
+/* line 27, ../scss/_custom/admin/_locations-add-styles.scss */
 .locations .melbourne {
   background-position: 0 -724px;
   /*    $sprite-width: $map-width;
@@ -8886,19 +8874,7 @@ body {
   padding-bottom: 121.30435%;
   background-size: 579.13043%;
   background-position: 0 69.41515%; }
-  @media screen and (max-width: 640px) {
-    /* line 31, ../scss/_custom/admin/_locations-add-styles.scss */
-    .locations .melbourne {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 50%;
-      display: block;
-      height: 0;
-      padding-bottom: 60.65217%;
-      background-size: 579.13043%;
-      background-position: 0 69.41515%; } }
-/* line 40, ../scss/_custom/admin/_locations-add-styles.scss */
+/* line 32, ../scss/_custom/admin/_locations-add-styles.scss */
 .locations .brisbane {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
@@ -8910,19 +8886,7 @@ body {
   padding-bottom: 120.77922%;
   background-size: 576.62338%;
   background-position: 0 0%; }
-  @media screen and (max-width: 640px) {
-    /* line 40, ../scss/_custom/admin/_locations-add-styles.scss */
-    .locations .brisbane {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 50%;
-      display: block;
-      height: 0;
-      padding-bottom: 60.38961%;
-      background-size: 576.62338%;
-      background-position: 0 0%; } }
-/* line 49, ../scss/_custom/admin/_locations-add-styles.scss */
+/* line 37, ../scss/_custom/admin/_locations-add-styles.scss */
 .locations .canberra {
   background-position: 0 -319px;
   /*    $sprite-width: $map-width;
@@ -8934,18 +8898,6 @@ body {
   padding-bottom: 121.30435%;
   background-size: 579.13043%;
   background-position: 0 30.58485%; }
-  @media screen and (max-width: 640px) {
-    /* line 49, ../scss/_custom/admin/_locations-add-styles.scss */
-    .locations .canberra {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 50%;
-      display: block;
-      height: 0;
-      padding-bottom: 60.65217%;
-      background-size: 579.13043%;
-      background-position: 0 30.58485%; } }
 
 /* line 72, admin/custom-training/*.png */
 .custom-training-sprite, .cdt-custom-training .new-skills-banner, .cdt-custom-training .private-training, .cdt-custom-training .custom-training-background, .cdt-custom-training .gradient-top {
