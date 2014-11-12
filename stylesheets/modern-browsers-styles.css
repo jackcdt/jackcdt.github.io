@@ -6182,335 +6182,6 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 72, training/web-design-development/edge-animate/edge-animate-category/*.png */
-.edge-animate-category-sprite, .edge-animate-category .eg-essentials-framed, .edge-animate-category .category-custom-training, .edge-animate-category .eg-essentials, .edge-animate-category .dps-package {
-  background-image: url('../images-dist/training/web-design-development/edge-animate/edge-animate-category-s92b396c4e7.png');
-  background-repeat: no-repeat; }
-
-/* line 11, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-.edge-animate-category .eg-essentials-framed {
-  background-position: 0 -183px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.70169%;
-  background-size: 313.55932%;
-  background-position: 0 65.5914%;
-  min-width: 56px;
-  min-height: 55px; }
-/* line 18, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-.edge-animate-category .category-custom-training {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 100%;
-  background-position: 0 0%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 18, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-    .edge-animate-category .category-custom-training {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 100%;
-      background-position: 0 0%; } }
-/* line 29, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-.edge-animate-category .eg-essentials {
-  background-position: 0 -281px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.69825%;
-  background-size: 324.5614%;
-  background-position: 0 100%;
-  margin: -4px 15px 12px 15px;
-  min-width: 38px;
-  min-height: 38px; }
-/* line 37, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-.edge-animate-category .dps-package {
-  background-position: 0 -116px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.59286%;
-  background-size: 660.71429%;
-  background-position: 0 37.41935%;
-  margin: -4px 15px 12px 15px;
-  min-width: 38px;
-  min-height: 38px; }
-/* line 45, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-add-styles.scss */
-.edge-animate-category .course-item-logo {
-  min-width: 42px;
-  min-height: 45px;
-  margin-left: 15px;
-  margin-right: 1px; }
-
-/* line 88, training/web-design-development/edge-animate/edge-animate-essentials/*.png */
-.edge-animate-essentials-sprite, .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .course-custom-training-logo, .edge-animate-essentials-course .dps-package, .edge-animate-essentials-course .eg-essentials {
-  background-image: url('../images-dist/training/web-design-development/edge-animate/edge-animate-essentials-s11e1c8e968.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .eg-essentials-framed {
-  background-position: 0 -335px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.70169%;
-  background-size: 338.98305%;
-  background-position: 0 62.61682%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 22, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .course-classrom {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.248%;
-  background-size: 100%;
-  background-position: 0 0%;
-  width: 77%;
-  padding-bottom: 42%;
-  border: 1px solid #000;
-  margin-top: 5px;
-  margin-left: 12px; }
-/* line 32, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .pdf {
-  background-position: 0 -529px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 312.5%;
-  background-position: 0 100%;
-  min-width: 32px;
-  min-height: 32px;
-  top: -3px; }
-/* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .course-custom-training-logo {
-  background-position: 0 -152px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 108.10811%;
-  background-position: 0 29.40039%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-    .edge-animate-essentials-course .course-custom-training-logo {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 108.10811%;
-      background-position: 0 29.40039%; } }
-/* line 59, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .dps-package {
-  background-position: 0 -268px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.59286%;
-  background-size: 714.28571%;
-  background-position: 0 47.34982%;
-  margin: -5px 15px 15px;
-  min-width: 36px;
-  min-height: 36px; }
-/* line 66, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
-.edge-animate-essentials-course .eg-essentials {
-  background-position: 0 -433px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.69825%;
-  background-size: 350.87719%;
-  background-position: 0 80.63315%;
-  margin: -5px 15px 15px;
-  min-width: 36px;
-  min-height: 36px; }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-essentials-course .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ded7ff), color-stop(1, #9d8bff));
-  background: -moz-linear-gradient(center top, #ded7ff 5%, #9d8bff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #ded7ff;
-  text-indent: 0;
-  border: 1px solid #5c3fff;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9d8bff), color-stop(1, #ded7ff));
-  background: -moz-linear-gradient(center top, #9d8bff 5%, #ded7ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #9d8bff; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-essentials-course .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
-/* line 72, training/web-design-development/edge-animate/edge-animate-advanced/*.png */
-.edge-animate-advanced-sprite, .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .course-custom-training-logo {
-  background-image: url('../images-dist/training/web-design-development/edge-animate/edge-animate-advanced-s11ef7dfcbd.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
-.edge-animate-advanced-course .eg-essentials-framed {
-  background-position: 0 -268px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.70169%;
-  background-size: 338.98305%;
-  background-position: 0 72.04301%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 22, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
-.edge-animate-advanced-course .course-classrom {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.248%;
-  background-size: 100%;
-  background-position: 0 0%;
-  width: 77%;
-  padding-bottom: 42%;
-  border: 1px solid #000;
-  margin-top: 5px;
-  margin-left: 12px; }
-/* line 32, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
-.edge-animate-advanced-course .pdf {
-  background-position: 0 -366px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 312.5%;
-  background-position: 0 100%;
-  min-width: 32px;
-  min-height: 32px;
-  top: -3px; }
-/* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
-.edge-animate-advanced-course .course-custom-training-logo {
-  background-position: 0 -152px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 108.10811%;
-  background-position: 0 42.93785%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
-    .edge-animate-advanced-course .course-custom-training-logo {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 108.10811%;
-      background-position: 0 42.93785%; } }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-advanced-course .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ded7ff), color-stop(1, #9d8bff));
-  background: -moz-linear-gradient(center top, #ded7ff 5%, #9d8bff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #ded7ff;
-  text-indent: 0;
-  border: 1px solid #5c3fff;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-advanced-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9d8bff), color-stop(1, #ded7ff));
-  background: -moz-linear-gradient(center top, #9d8bff 5%, #ded7ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #9d8bff; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.edge-animate-advanced-course .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
 /* line 80, training/video-editing/after-effects/after-effects-category/*.png */
 .after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
   background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
@@ -7979,566 +7650,6 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 80, training/online-marketing/business-tools-category/*.png */
-.business-tools-category-sprite, .business-tools-category .socialmedia-essentials, .business-tools-category .category-custom-training, .business-tools-category .ga-essentials, .business-tools-category .linkedin-essentials, .business-tools-category .seo-ess {
-  background-image: url('../images-dist/training/online-marketing/business-tools-category-s0f7c6a8f5c.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .socialmedia-essentials {
-  background-position: 0 -436px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.14648%;
-  background-size: 260.56338%;
-  background-position: 0 100%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 22, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .category-custom-training {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 100%;
-  background-position: 0 0%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 22, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-    .business-tools-category .category-custom-training {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 100%;
-      background-position: 0 0%; } }
-/* line 35, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .ga-essentials {
-  background-position: 0 -116px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.53913%;
-  background-size: 201.08696%;
-  background-position: 0 27.16628%;
-  margin-left: 15px;
-  min-width: 50px;
-  min-height: 50px; }
-/* line 43, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .linkedin-essentials {
-  background-position: 0 -228px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 284.61538%;
-  background-position: 0 52.53456%;
-  margin-left: 15px;
-  min-width: 50px;
-  min-height: 50px; }
-/* line 51, ../scss/_custom/training/online-marketing/_business-tools-category-add-styles.scss */
-.business-tools-category .seo-ess {
-  background-position: 0 -333px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.62154%;
-  background-size: 284.61538%;
-  background-position: 0 76.37615%;
-  margin-left: 15px;
-  min-width: 50px;
-  min-height: 50px; }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.business-tools-category .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
-  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #f59f71;
-  text-indent: 0;
-  border: 1px solid #c04c0e;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.business-tools-category .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
-  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #f06f2a; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.business-tools-category .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
-/* line 72, training/online-marketing/google-analytics-course/*.png */
-.google-analytics-course-sprite, .google-analytics-course .ga-essentials, .google-analytics-course .course-custom-training-logo, .google-analytics-course .course-classrom, .google-analytics-course .pdf {
-  background-image: url('../images-dist/training/online-marketing/google-analytics-course-sb4b192c2d8.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
-.google-analytics-course .ga-essentials {
-  background-position: 0 -268px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.53913%;
-  background-size: 217.3913%;
-  background-position: 0 72.04301%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 23, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
-.google-analytics-course .course-custom-training-logo {
-  background-position: 0 -152px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 108.10811%;
-  background-position: 0 41.30435%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 23, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
-    .google-analytics-course .course-custom-training-logo {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 108.10811%;
-      background-position: 0 41.30435%; } }
-/* line 35, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
-.google-analytics-course .course-classrom {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.248%;
-  background-size: 100%;
-  background-position: 0 0%;
-  width: 77%;
-  padding-bottom: 42%;
-  border: 1px solid #000;
-  margin-top: 5px;
-  margin-left: 12px; }
-/* line 45, ../scss/_custom/training/online-marketing/_google-analytics-course-add-styles.scss */
-.google-analytics-course .pdf {
-  background-position: 0 -380px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 312.5%;
-  background-position: 0 100%;
-  min-width: 32px;
-  min-height: 32px;
-  top: -3px; }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.google-analytics-course .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
-  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #f59f71;
-  text-indent: 0;
-  border: 1px solid #c04c0e;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.google-analytics-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
-  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #f06f2a; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.google-analytics-course .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
-/* line 72, training/online-marketing/linkedin-course/*.png */
-.linkedin-course-sprite, .linkedin-course .linkedin-essentials-framed, .linkedin-course .course-custom-training-logo, .linkedin-course .course-classrom, .linkedin-course .pdf {
-  background-image: url('../images-dist/training/online-marketing/linkedin-course-scf2f03eccb.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
-.linkedin-course .linkedin-essentials-framed {
-  background-position: 0 -268px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 298.50746%;
-  background-position: 0 72.04301%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 23, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
-.linkedin-course .course-custom-training-logo {
-  background-position: 0 -152px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 108.10811%;
-  background-position: 0 41.87328%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 23, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
-    .linkedin-course .course-custom-training-logo {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 108.10811%;
-      background-position: 0 41.87328%; } }
-/* line 35, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
-.linkedin-course .course-classrom {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.248%;
-  background-size: 100%;
-  background-position: 0 0%;
-  width: 77%;
-  padding-bottom: 42%;
-  border: 1px solid #000;
-  margin-top: 5px;
-  margin-left: 12px; }
-/* line 45, ../scss/_custom/training/online-marketing/_linkedin-course-add-styles.scss */
-.linkedin-course .pdf {
-  background-position: 0 -375px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 312.5%;
-  background-position: 0 100%;
-  min-width: 32px;
-  min-height: 32px;
-  top: -3px; }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.linkedin-course .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
-  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #f59f71;
-  text-indent: 0;
-  border: 1px solid #c04c0e;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.linkedin-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
-  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #f06f2a; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.linkedin-course .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
-/* line 72, training/online-marketing/seo-essentials-course/*.png */
-.seo-essentials-course-sprite, .seo-essentials-course .seo-ess, .seo-essentials-course .course-custom-training-logo, .seo-essentials-course .course-classrom, .seo-essentials-course .pdf {
-  background-image: url('../images-dist/training/online-marketing/seo-essentials-course-s8c8d7b99cb.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
-.seo-essentials-course .seo-ess {
-  background-position: 0 -372px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.62154%;
-  background-size: 307.69231%;
-  background-position: 0 100%;
-  min-width: 55px;
-  min-height: 55px; }
-/* line 23, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
-.seo-essentials-course .course-custom-training-logo {
-  background-position: 0 -152px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 41.08108%;
-  background-size: 108.10811%;
-  background-position: 0 42.33983%;
-  border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 23, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
-    .seo-essentials-course .course-custom-training-logo {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 26.7027%;
-      background-size: 108.10811%;
-      background-position: 0 42.33983%; } }
-/* line 35, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
-.seo-essentials-course .course-classrom {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.248%;
-  background-size: 100%;
-  background-position: 0 0%;
-  width: 77%;
-  padding-bottom: 42%;
-  border: 1px solid #000;
-  margin-top: 5px;
-  margin-left: 12px; }
-/* line 45, ../scss/_custom/training/online-marketing/_seo-essentials-course-add-styles.scss */
-.seo-essentials-course .pdf {
-  background-position: 0 -268px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 312.5%;
-  background-position: 0 72.2372%;
-  min-width: 32px;
-  min-height: 32px;
-  top: -3px; }
-/* line 12, ../scss/_custom/components/_btn-shadow.scss */
-.seo-essentials-course .validate-participants {
-  -moz-box-shadow: inset 0px 1px 0px 0px white;
-  -webkit-box-shadow: inset 0px 1px 0px 0px white;
-  box-shadow: inset 0px 1px 0px 0px white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f59f71), color-stop(1, #f06f2a));
-  background: -moz-linear-gradient(center top, #f59f71 5%, #f06f2a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
-  background-color: #f59f71;
-  text-indent: 0;
-  border: 1px solid #c04c0e;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 1px 1px 0px #707070;
-  padding: 0 10px;
-  color: #FFF;
-  text-align: center;
-  font-weight: 500;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-/* line 34, ../scss/_custom/components/_btn-shadow.scss */
-.seo-essentials-course .validate-participants:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06f2a), color-stop(1, #f59f71));
-  background: -moz-linear-gradient(center top, #f06f2a 5%, #f59f71 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
-  background-color: #f06f2a; }
-/* line 41, ../scss/_custom/components/_btn-shadow.scss */
-.seo-essentials-course .validate-participants:active {
-  position: relative;
-  top: 1px; }
-
-/* line 96, training/online-marketing/online-courses/online-courses-category/*.png */
-.online-courses-category-sprite, .online-courses-category .online-social-media-course, .online-courses-category .internet-marketing-logo, .online-courses-category .conversion-optimisation, .online-courses-category .ppc, .online-courses-category .seo, .online-courses-category .social-media-logo, .online-courses-category .web-analytics {
-  background-image: url('../images-dist/training/online-marketing/online-courses/online-courses-category-sa2b3be144b.png');
-  background-repeat: no-repeat; }
-
-/* line 11, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .online-social-media-course {
-  background-position: 0 -182px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.57465%;
-  background-size: 100%;
-  background-position: 0 33.33333%;
-  margin-left: 15px;
-  min-width: 56px;
-  min-height: 55px; }
-/* line 19, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .internet-marketing-logo {
-  background-position: 0 -92px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 142%;
-  background-position: 0 16.66667%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 45px; }
-/* line 28, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .conversion-optimisation {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 136.53846%;
-  background-position: 0 0%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 45px; }
-/* line 37, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .ppc {
-  background-position: 0 -278px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.57692%;
-  background-size: 136.53846%;
-  background-position: 0 50.36232%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 45px; }
-/* line 46, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .seo {
-  background-position: 0 -368px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 136.53846%;
-  background-position: 0 66.90909%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px; }
-/* line 55, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .social-media-logo {
-  background-position: 0 -460px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 5.8%;
-  background-size: 142%;
-  background-position: 0 83.33333%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px; }
-/* line 64, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-add-styles.scss */
-.online-courses-category .web-analytics {
-  background-position: 0 -550px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 6.032%;
-  background-size: 142%;
-  background-position: 0 100%;
-  margin-left: 15px;
-  min-width: 38px;
-  min-height: 44px; }
-
 /* line 64, admin/calendar/*.png */
 .calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
   background-image: url('../images-dist/admin/calendar-s4dacfd9bea.png');
@@ -9232,67 +8343,6 @@ body {
   background-size: 579.13043%;
   background-position: 0 30.58485%; }
 
-/* line 72, admin/custom-training/*.png */
-.custom-training-sprite, .cdt-custom-training .new-skills-banner, .cdt-custom-training .private-training, .cdt-custom-training .custom-training-background, .cdt-custom-training .gradient-top {
-  background-image: url('../images-dist/admin/custom-training-s61708c4bb2.png');
-  background-repeat: no-repeat; }
-
-/* line 15, ../scss/_custom/admin/_custom-training-add-styles.scss */
-.cdt-custom-training .new-skills-banner {
-  background-position: 0 -376px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 12%;
-  display: block;
-  height: 0;
-  padding-bottom: 12%;
-  background-size: 1665.0%;
-  background-position: 0 55.6213%;
-  float: right; }
-/* line 22, ../scss/_custom/admin/_custom-training-add-styles.scss */
-.cdt-custom-training .private-training {
-  background-position: 0 -496px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 55%;
-  display: block;
-  height: 0;
-  padding-bottom: 30.23256%;
-  background-size: 281.60677%;
-  background-position: 0 100%; }
-/* line 27, ../scss/_custom/admin/_custom-training-add-styles.scss */
-.cdt-custom-training .custom-training-background {
-  background-position: 0 0;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 18.76877%;
-  background-size: 100%;
-  background-position: 0 0%; }
-  @media (min-width: 1380px) {
-    /* line 27, ../scss/_custom/admin/_custom-training-add-styles.scss */
-    .cdt-custom-training .custom-training-background {
-      padding-bottom: 250px; } }
-/* line 37, ../scss/_custom/admin/_custom-training-add-styles.scss */
-.cdt-custom-training .gradient-top {
-  background-position: 0 -290px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 3.45345%;
-  background-size: 100%;
-  background-position: 0 40.84507%;
-  max-height: 46px;
-  margin-top: -2px; }
-
 /* line 2, ../scss/_custom/tips/_getting-started.scss */
 .adobe-getting-started h2 {
   font-size: 36px;
@@ -9608,3 +8658,264 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 1, ../scss/_custom/admin/_feedback.scss */
+.feedback {
+  padding-top: 10px; }
+  /* line 3, ../scss/_custom/admin/_feedback.scss */
+  .feedback p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  /* line 9, ../scss/_custom/admin/_feedback.scss */
+  .feedback .feedback-jump-menu-text {
+    padding: 5px 5px;
+    color: #FFF;
+    background-color: #0092D8;
+    border: 1px solid #E4E4E4;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px; }
+  /* line 18, ../scss/_custom/admin/_feedback.scss */
+  .feedback [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+  /* line 21, ../scss/_custom/admin/_feedback.scss */
+  .feedback h3 {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 10px; }
+  /* line 26, ../scss/_custom/admin/_feedback.scss */
+  .feedback .sydney, .feedback .brisbane, .feedback .melbourne, .feedback .canberra {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px; }
+
+/* line 35, ../scss/_custom/admin/_feedback.scss */
+.feedback-banner {
+  background-color: #0092D8;
+  min-height: 100px; }
+  /* line 38, ../scss/_custom/admin/_feedback.scss */
+  .feedback-banner h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 1, ../scss/_custom/shoppingcart/_checkout.scss */
+.checkout-form {
+  border: 1px solid #C4C4C4;
+  padding-top: 20px; }
+  /* line 4, ../scss/_custom/shoppingcart/_checkout.scss */
+  .checkout-form p {
+    font-size: 13px;
+    line-height: 1.5em; }
+
+/* line 9, ../scss/_custom/shoppingcart/_checkout.scss */
+.pd-top {
+  margin-top: 20px; }
+  /* line 12, ../scss/_custom/shoppingcart/_checkout.scss */
+  .pd-top .tabs dd a, .pd-top .tabs .tab-title a {
+    background-color: #FFF;
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    margin: 10px; }
+
+/* line 19, ../scss/_custom/shoppingcart/_checkout.scss */
+.secure-web {
+  font-size: 12px; }
+
+/* line 23, ../scss/_custom/shoppingcart/_checkout.scss */
+.cart-button {
+  border: 1px solid #25729a;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #3093c7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+  background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+  background-image: linear-gradient(to bottom, #3093c7, #1c5a85);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85); }
+  /* line 31, ../scss/_custom/shoppingcart/_checkout.scss */
+  .cart-button p {
+    color: #FFF;
+    font-size: 14px;
+    padding: 0;
+    margin: 0; }
+
+/* line 39, ../scss/_custom/shoppingcart/_checkout.scss */
+.cart-button:hover {
+  border: 1px solid #1c5675;
+  background-color: #26759e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+  background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+  background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+  background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+  background-image: -o-linear-gradient(top, #26759e, #133d5b);
+  background-image: linear-gradient(to bottom, #26759e, #133d5b);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b); }
+
+/* STYLES ADDED BY JACK - FOR FOUDNATION MODIFICATION */
+/* line 50, ../scss/_custom/shoppingcart/_checkout.scss */
+.wrapper {
+  background: url("../images/pagebkg.jpg") repeat-x scroll center top; }
+
+/* line 53, ../scss/_custom/shoppingcart/_checkout.scss */
+.pad-btm {
+  padding-bottom: 30px; }
+
+/* line 56, ../scss/_custom/shoppingcart/_checkout.scss */
+.ptitle {
+  margin: 20px 0 26px;
+  font-weight: 400; }
+
+/* line 60, ../scss/_custom/shoppingcart/_checkout.scss */
+.breadcrumb {
+  color: #2089D3;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: .875em;
+  margin: 48px 0 0; }
+
+/* line 67, ../scss/_custom/shoppingcart/_checkout.scss */
+a#catshopbuy:link, a#catshopbuy:visited {
+  background: none repeat scroll 0 0 #2089D3;
+  color: #FFFFFF;
+  display: block;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px #005588;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+@media only screen and (min-width: 896px) {
+  /* line 87, ../scss/_custom/shoppingcart/_checkout.scss */
+  .phone-number {
+    padding-top: 14px;
+    font-size: 16px;
+    padding-right: 75px; } }
+@media only screen and (max-width: 895px) {
+  /* line 95, ../scss/_custom/shoppingcart/_checkout.scss */
+  .phone-number {
+    font-size: 0px;
+    padding: 0;
+    margin: 0; } }
+/* line 102, ../scss/_custom/shoppingcart/_checkout.scss */
+.medium {
+  font-size: 35px;
+  padding: 0 5px; }
+
+/* line 108, ../scss/_custom/shoppingcart/_checkout.scss */
+.download-and-book .shop-product-large .details ul li, .catProdAttributeTitle {
+  font-size: 14px;
+  font-family: Raleway;
+  background-color: #E5E5E5;
+  margin: 0; }
+
+/* line 114, ../scss/_custom/shoppingcart/_checkout.scss */
+.download-and-book table.productTable.productSmall {
+  background-color: #E5E5E5;
+  border: none; }
+
+/* line 118, ../scss/_custom/shoppingcart/_checkout.scss */
+.summary-cart td.cartSummaryItem {
+  color: #FFF; }
+
+/* line 121, ../scss/_custom/shoppingcart/_checkout.scss */
+.summary-cart span#catCartSummary table.cartSummaryTable {
+  border: none; }
+
+/* line 124, ../scss/_custom/shoppingcart/_checkout.scss */
+.payment-button {
+  display: inline-block;
+  background-color: #0090D0;
+  margin: .5em;
+  padding: .5em 1em;
+  font-size: .9325em;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  text-align: center; }
+
+/*Product List View CSS Added by Bosweb*/
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view {
+  text-align: left; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .details {
+  float: none;
+  min-width: 0;
+  width: auto; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .details ul {
+  list-style: none; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .participant + .participant {
+  margin-top: 5px; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .participant input {
+  float: left;
+  width: 45%; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .participant input + input {
+  float: right; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .quantity-field {
+  width: 50px; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.shop-product-large.list-view .pointer {
+  cursor: pointer; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.cf {
+  zoom: 1; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.cf:after {
+  clear: both; }
+
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+.cf:before, .cf:after {
+  content: "";
+  display: block; }
+
+/* line 147, ../scss/_custom/shoppingcart/_checkout.scss */
+.download-and-book .shop-product-large {
+  margin-bottom: 0; }

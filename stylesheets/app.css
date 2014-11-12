@@ -21808,56 +21808,75 @@ a#catshopbuy:link, a#catshopbuy:visited {
 .summary-cart span#catCartSummary table.cartSummaryTable {
   border: none; }
 
+/* line 124, ../scss/_custom/shoppingcart/_checkout.scss */
+.payment-button {
+  display: inline-block;
+  background-color: #0090D0;
+  margin: .5em;
+  padding: .5em 1em;
+  font-size: .9325em;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  text-align: center; }
+
 /*Product List View CSS Added by Bosweb*/
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view {
   text-align: left; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .details {
   float: none;
   min-width: 0;
   width: auto; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .details ul {
   list-style: none; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant + .participant {
   margin-top: 5px; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant input {
   float: left;
   width: 45%; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant input + input {
   float: right; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .quantity-field {
   width: 50px; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .pointer {
   cursor: pointer; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf {
   zoom: 1; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf:after {
   clear: both; }
 
-/* line 127, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf:before, .cf:after {
   content: "";
   display: block; }
 
-/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 147, ../scss/_custom/shoppingcart/_checkout.scss */
 .download-and-book .shop-product-large {
   margin-bottom: 0; }
 
@@ -22172,6 +22191,53 @@ a#catshopbuy:link, a#catshopbuy:visited {
   /* line 24, ../scss/_custom/admin/_terms-condition.scss */
   .tc-banner h1 {
     padding-top: 35px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 1, ../scss/_custom/admin/_feedback.scss */
+.feedback {
+  padding-top: 10px; }
+  /* line 3, ../scss/_custom/admin/_feedback.scss */
+  .feedback p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  /* line 9, ../scss/_custom/admin/_feedback.scss */
+  .feedback .feedback-jump-menu-text {
+    padding: 5px 5px;
+    color: #FFF;
+    background-color: #0092D8;
+    border: 1px solid #E4E4E4;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px; }
+  /* line 18, ../scss/_custom/admin/_feedback.scss */
+  .feedback [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+  /* line 21, ../scss/_custom/admin/_feedback.scss */
+  .feedback h3 {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 10px; }
+  /* line 26, ../scss/_custom/admin/_feedback.scss */
+  .feedback .sydney, .feedback .brisbane, .feedback .melbourne, .feedback .canberra {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px; }
+
+/* line 35, ../scss/_custom/admin/_feedback.scss */
+.feedback-banner {
+  background-color: #0092D8;
+  min-height: 100px; }
+  /* line 38, ../scss/_custom/admin/_feedback.scss */
+  .feedback-banner h1 {
+    padding-top: 30px;
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 500;
