@@ -1,0 +1,54 @@
+@import "_custom/common";
+@import "_custom/components/btn-shadow";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$linkedin-course-spacing: 40px; 
+
+@import "training/online-marketing/linkedin-course/*.png";  
+
+.linkedin-course {
+    $map: $linkedin-course-sprites;
+
+    .linkedin-essentials-framed {
+        @include linkedin-course-sprite(linkedin-essentials-framed); 
+        @include responsive-sprite($map, linkedin-essentials-framed, 5.8%);
+
+        min-width: 55px;
+        min-height: 55px; 
+    }
+
+    .course-custom-training-logo {         
+        @include linkedin-course-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training , 100%);
+
+ 
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+           @include responsive-sprite($map, custom-training , 65%);
+        }
+
+        border: 1px solid #686F74; 
+    }
+
+    .course-classrom { 
+        @include linkedin-course-sprite(course-classrom); 
+        @include responsive-sprite($map, course-classrom , 5.8%);
+        width: 77%; 
+        padding-bottom: 42%;
+        border: 1px solid #000;
+        margin-top: 5px;
+        margin-left: 12px;
+    }
+ 
+    .pdf {
+        @include linkedin-course-sprite(pdf); 
+        @include responsive-sprite($map, pdf , 5.8%);
+        min-width: 32px;
+        min-height: 32px;
+        top: -3px;
+    }
+
+    @include btn-shadow($marketing-color);
+}

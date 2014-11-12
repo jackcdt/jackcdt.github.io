@@ -582,7 +582,7 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -1050,6 +1050,34 @@ body {
     background-color: #656C70; }
 
 /* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-old-ie-styles.scss */
+.edge-animate-category {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-old-ie-styles.scss */
+  .edge-animate-category .custom-training, .edge-animate-category .dps-package, .edge-animate-category .eg-essentials, .edge-animate-category .eg-essentials-framed {
+    display: none; }
+
+/* line 3, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+.edge-animate-essentials-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+  .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .custom-training, .edge-animate-essentials-course .dps-package {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+  .edge-animate-essentials-course .book-now-btn {
+    background-color: #9d8bff; }
+
+/* line 3, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+.edge-animate-advanced-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+  .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .custom-training, .edge-animate-advanced-course .dps-package {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+  .edge-animate-advanced-course .book-now-btn {
+    background-color: #9d8bff; }
+
+/* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
 .after-effects-category {
   /* Hide all sprites */ }
@@ -1172,3 +1200,62 @@ body {
   /* line 10, ../scss/_custom/training/captivate/_captivate-advanced-old-ie-styles.scss */
   .captivate-advanced-course .book-now-btn {
     background-color: #3ac69d; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+.business-tools-category {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+  .business-tools-category .custom-training, .business-tools-category .ga-essentials, .business-tools-category .linkedin-essentials, .business-tools-category .seo-ess, .business-tools-category .socialmedia-essentials {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
+  .business-tools-category .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+.google-analytics-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+  .google-analytics-course .course-classrom, .google-analytics-course .custom-training, .google-analytics-course .ga-essentials, .google-analytics-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_google-analytics-course-old-ie-styles.scss */
+  .google-analytics-course .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+.linkedin-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+  .linkedin-course .course-classrom, .linkedin-course .custom-training, .linkedin-course .linkedin-essentials-framed, .linkedin-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_linkedin-course-old-ie-styles.scss */
+  .linkedin-course .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 3, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+.seo-essentials-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+  .seo-essentials-course .course-classrom, .seo-essentials-course .custom-training, .seo-essentials-course .seo-ess, .seo-essentials-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/online-marketing/_seo-essentials-course-old-ie-styles.scss */
+  .seo-essentials-course .book-now-btn {
+    background-color: #f06f2a; }
+
+/* line 1, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-old-ie-styles.scss */
+conversion-optimisation
+.online-courses-category {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category-old-ie-styles.scss */
+  conversion-optimisation
+  .online-courses-category .conversion-optimisation,
+  conversion-optimisation
+  .online-courses-category .internet-marketing-logo,
+  conversion-optimisation
+  .online-courses-category .ppc,
+  conversion-optimisation
+  .online-courses-category .seo,
+  conversion-optimisation
+  .online-courses-category .social-media-logo,
+  conversion-optimisation
+  .online-courses-category .web-analytics {
+    display: none; }

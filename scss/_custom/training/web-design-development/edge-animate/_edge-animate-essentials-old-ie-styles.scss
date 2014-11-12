@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.edge-animate-essentials-course {
+
+    /* Hide all sprites */
+    .eg-essentials-framed, .course-classrom, .pdf, .custom-training, .dps-package {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $edge-animate-color;
+    } 
+}

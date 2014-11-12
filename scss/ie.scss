@@ -19,14 +19,13 @@
     }
 }
  
-
 // Include special styling for old IE  
 
 // Various components
 @import "_custom/components/training/old-ie-styles";
 @import "_custom/training/category-old-ie-styles";
 @import "_custom/training/course-outline-old-ie-styles";
-
+ 
 // Page specific
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
 @import "_custom/training/adobe/indesign/indesign-essentials-old-ie-styles";
@@ -61,7 +60,7 @@
 @import "_custom/training/adobe/flash/flash-essentials-old-ie-styles"; 
 @import "_custom/training/adobe/flash/flash-web-banners-old-ie-styles"; 
 @import "_custom/training/adobe/flash/flash-actionscript-old-ie-styles"; 
-
+ 
 @import "_custom/training/web-design-development/html-css/html-css-category-old-ie-styles";
 @import "_custom/training/web-design-development/html-css/html-web-principles-old-ie-styles"; 
 @import "_custom/training/web-design-development/html-css/css-essentials-old-ie-styles";
@@ -80,6 +79,10 @@
 @import "_custom/training/web-design-development/javascript-jquery/javascript-essentials-old-ie-styles"; 
 @import "_custom/training/web-design-development/javascript-jquery/jquery-essentials-old-ie-styles"; 
 
+@import "_custom/training/web-design-development/edge-animate/edge-animate-category-old-ie-styles"; 
+@import "_custom/training/web-design-development/edge-animate/edge-animate-essentials-old-ie-styles"; 
+@import "_custom/training/web-design-development/edge-animate/edge-animate-advanced-old-ie-styles"; 
+
 @import "_custom/training/video-editing/after-effects/after-effects-category-old-ie-styles";
 @import "_custom/training/video-editing/after-effects/after-effects-essentials-old-ie-styles"; 
 @import "_custom/training/video-editing/after-effects/after-effects-advanced-old-ie-styles"; 
@@ -88,9 +91,16 @@
 @import "_custom/training/video-editing/premiere-pro/premiere-pro-essentials-old-ie-styles"; 
 @import "_custom/training/video-editing/premiere-pro/premiere-pro-advanced-old-ie-styles"; 
 @import "_custom/training/video-editing/premiere-pro/premiere-elements-old-ie-styles"; 
-
+ 
 @import "_custom/training/video-editing/finalcut-pro/finalcut-pro-old-ie-styles"; 
-  
+   
 @import "_custom/training/captivate/captivate-category-old-ie-styles"; 
 @import "_custom/training/captivate/captivate-essentials-old-ie-styles"; 
 @import "_custom/training/captivate/captivate-advanced-old-ie-styles"; 
+
+@import "_custom/training/online-marketing/business-tools-category-old-ie-styles";
+@import "_custom/training/online-marketing/google-analytics-course-old-ie-styles";
+@import "_custom/training/online-marketing/linkedin-course-old-ie-styles";
+@import "_custom/training/online-marketing/seo-essentials-course-old-ie-styles";
+
+@import "_custom/training/online-marketing/online-courses/online-courses-category-old-ie-styles";

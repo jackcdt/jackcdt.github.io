@@ -65,7 +65,7 @@ $indesign-advanced-spacing: 40px;
     .id-interactivity {
         @include indesign-advanced-sprite(id-interactivity); 
         @include responsive-sprite($map, id-interactivity, 5.8%);
-        margin-left: 5px;
+        margin-left: 15px;
         margin-top: -12px;
         min-width: 66px;
         min-height: 57px;
@@ -74,7 +74,7 @@ $indesign-advanced-spacing: 40px;
     .id-ipad {
         @include indesign-advanced-sprite(id-ipad); 
         @include responsive-sprite($map, id-ipad, 5.8%);
-        margin-left: 15px;
+        margin-left: 20px;
         min-width: 58px;
         min-height: 50px;
     }

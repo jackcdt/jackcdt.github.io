@@ -1,0 +1,28 @@
+@import "../../../components/training/category";
+ 
+.edge-animate-category {
+    @include category($edge-animate-color);
+
+    // Media queries are not supported on older IE, to use borders on medium 
+    // screens and up - define width in a way all browsers understand
+    .tight-header-1 {
+        @media #{$medium-up} {
+            width: 344px;
+        }
+    }
+
+    .tight-header-2 {
+        @media #{$medium-up} {
+            width: 344px;
+        }
+    } 
+
+    .side-pannel {
+        top: 0em;
+    }
+
+    .course-item .course-book-now {
+        background-color: lighten($edge-animate-color, 10%); 
+    }
+
+} 

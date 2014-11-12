@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.linkedin-course {
+
+    /* Hide all sprites */
+    .course-classrom, .custom-training, .linkedin-essentials-framed, .pdf {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $marketing-color;
+    } 
+}

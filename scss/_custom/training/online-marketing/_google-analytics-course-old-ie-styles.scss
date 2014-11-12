@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.google-analytics-course {
+
+    /* Hide all sprites */
+    .course-classrom, .custom-training, .ga-essentials, .pdf {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $marketing-color;
+    } 
+}

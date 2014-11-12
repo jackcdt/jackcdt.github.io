@@ -25,7 +25,9 @@ $locations-color: #2088D1;
     }
     
     h2 {
-        @include list-header($locations-color);
+        @include large-title-with-border;
+        margin-bottom: 0;
+        text-align: center;
     }
 
 
@@ -33,7 +35,46 @@ $locations-color: #2088D1;
         @include list-header(#fff);
     }
 
+    .address {
+        @include list-header($locations-color);
+
+        @media #{$medium-only} {
+            height: 6em;
+        }
+    }
+
+    .map {
+        margin-bottom: $margin-bottom-default;
+    }
+
     .city-intro {
-        height: 14em;
+        @media #{$small-only} {
+            height: 11em;
+        }
+
+        @media #{$medium-only} {
+            height: 22em;
+        }
+
+        @media #{$large-up} {
+            height: 14em;
+        }
+        
+        @include adjust-font-size-to(14px);
+        margin-bottom: $margin-bottom-default;
+    }
+
+    .general-title,
+    .refresh-title {
+        @include list-header($locations-color);
+    }
+
+    .general-intro,
+    .refresh-intro {
+        color: $locations-color;
+    }
+
+    .refresh-intro {
+        margin-bottom: $margin-bottom-default;
     }
 } 
