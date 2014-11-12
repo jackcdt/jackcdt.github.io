@@ -8702,3 +8702,50 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 1, ../scss/_custom/admin/_feedback.scss */
+.feedback {
+  padding-top: 10px; }
+  /* line 3, ../scss/_custom/admin/_feedback.scss */
+  .feedback p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  /* line 9, ../scss/_custom/admin/_feedback.scss */
+  .feedback .feedback-jump-menu-text {
+    padding: 5px 5px;
+    color: #FFF;
+    background-color: #0092D8;
+    border: 1px solid #E4E4E4;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 5px; }
+  /* line 18, ../scss/_custom/admin/_feedback.scss */
+  .feedback [class*="column"] + [class*="column"]:last-child {
+    float: left; }
+  /* line 21, ../scss/_custom/admin/_feedback.scss */
+  .feedback h3 {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 10px; }
+  /* line 26, ../scss/_custom/admin/_feedback.scss */
+  .feedback .sydney, .feedback .brisbane, .feedback .melbourne, .feedback .canberra {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px; }
+
+/* line 35, ../scss/_custom/admin/_feedback.scss */
+.feedback-banner {
+  background-color: #0092D8;
+  min-height: 100px; }
+  /* line 38, ../scss/_custom/admin/_feedback.scss */
+  .feedback-banner h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
