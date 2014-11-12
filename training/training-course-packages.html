@@ -19,7 +19,10 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adobe Training Packages | City Desktop Traininig</title>
+<title>Adobe Training Packages for Print, Web, Digital Publishing and eLearning</title>
+   <meta name="Description" content="City Desktop's Package Deals allows you to choose the courses needed for the areas you wish to work in. Choose packages that include the following courses: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, HTML &amp; Dreamweaver, Flash, After Effects and Captivate." />
+<meta name="keywords" content="Adobe CS6 Dreamweaver indesign illustrator photoshop html" />
+
     <link rel="stylesheet" href="/stylesheets/app.css" />
 
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -85,7 +88,11 @@
                                             </li>
                                             <li><a href="/adobe-illustrator-courses.html">Illustrator Training</a>
                                             </li>
+<<<<<<< HEAD
                                             <li><a href="/digital-publishing-training.html">Digital Publishing Training</a>
+=======
+                                            <li><a href="/digital-publishing-courses.html">Digital Publishing Training</a>
+>>>>>>> master
                                             </li>
                                             <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat Training</a>
                                             </li>
@@ -171,11 +178,46 @@
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
+<<<<<<< HEAD
                                         <h3>Online Marketing Business Tools Courses</h3>
                                         <ul class="list_unstyled">
                                             <li><a href="/training-courses/social-media-training.html">Face-to-Face Online Marketing Training</a>
                                             </li>
                                             <li><a href="/online-marketing-training-courses.html">Self Paced Online Marketing Training</a>
+=======
+                                        <h3>Face-to-Face Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/training-courses/linkedin-training.html">LinkedIn for Business</a>
+                                            </li>
+                                            <li><a href="/training-courses/facebook-training.html">Facebook for Business</a>
+                                            </li>
+                                            <li><a href="/training-courses/twitter-training.html">Twitter for Business</a>
+                                            </li>
+                                            <li><a href="/training-courses/social-media-essentials.html">Social Media &amp; Digital Strategy</a>
+                                            </li>
+                                            <li><a href="/training-courses/google-analytics-training.html">Google Analytics</a>
+                                            </li>
+                                            <li><a href="/training-courses/seo-training-intro.html">SEO (Search Engine Optimisation)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>Self Paced Online Marketing Courses</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/online-courses/online-marketing-fundamentals.html">Online Marketing Fundamentals</a>
+                                            </li>
+                                            <li><a href="/online-courses/pay-per-click-marketing.html">PPC (Pay-Per-Click)</a>
+                                            </li>
+                                            <li><a href="/online-courses/social-media-marketing.html">Social Media Marketing</a>
+                                            </li>
+                                            <li><a href="/online-courses/landing-page-conversion-optimisation.html">Conversion Optimisation</a>
+                                            </li>
+                                            <li><a href="/online-courses/search-engine-optimisation.html">Search Engine Optimisation</a>
+                                            </li>
+                                            <li><a href="/online-courses/web-analytics.html">Web Analytics</a>
+>>>>>>> master
                                             </li>
                                         </ul>
                                     </div>
@@ -191,11 +233,19 @@
                             <!-- Begin Item Container -->
                             <ul class="dropdown_flyout">
                                 <li><a href="/training/training-benefits.html">Why Train With Us</a>
+<<<<<<< HEAD
                                 </li>
                                 <li><a href="/training/faq.html">FAQs &amp; Student Info</a>
                                 </li>
                                 <li><a href="/computer-training-room-hire.html">Computer Room Hire</a>
                                 </li>
+=======
+                                </li>
+                                <li><a href="/training/faq.html">FAQs &amp; Student Info</a>
+                                </li>
+                                <li><a href="/computer-training-room-hire.html">Computer Room Hire</a>
+                                </li>
+>>>>>>> master
                                 <li><a href="/training/contact.html">Contact Us</a>
                                 </li>
                                 <li><a href="#_">Testimonials</a>
@@ -225,9 +275,15 @@
                                 <li><a href="/training/locations.html#sydney-map">Sydney | 60 York St</a>
                                 </li>
                                 <li><a href="/training/locations.html#melbourne-map">Melbourne | 20 Queen St</a>
+<<<<<<< HEAD
                                 </li> 
                                 <li><a href="/training/locations.html#brisbane-map">Brisbane | 320 Adelaide St</a>
                                 </li>
+=======
+                                </li>
+                                <li><a href="/training/locations.html#brisbane-map">Brisbane | 320 Adelaide St</a>
+                                </li>
+>>>>>>> master
                                 <li><a href="/training/locations.html#canberra-map">Canberra | 33 Ainslie Pl</a>
                                 </li>
                             </ul>
@@ -609,6 +665,7 @@
                         Foundation.stylesheet.cssRules = {
                             length: 0
                         };
+<<<<<<< HEAD
 
                         Foundation.stylesheet.insertRule = function(rule, index) {
                             var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
@@ -621,6 +678,20 @@
                                 rule  = mediaMatch[2];
                             }
 
+=======
+
+                        Foundation.stylesheet.insertRule = function(rule, index) {
+                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                            mediaMatch = mediaRegex.exec(rule);
+                            media      = '';
+
+                            if (mediaMatch) {
+                                media = '@media ' + mediaMatch[1] + ' ';
+                                rule  = mediaMatch[2];
+                            }
+
+>>>>>>> master
                             ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
                             ruleMatch = ruleRegex.exec(rule);
                             namespace = '' + media + ruleMatch[1];
