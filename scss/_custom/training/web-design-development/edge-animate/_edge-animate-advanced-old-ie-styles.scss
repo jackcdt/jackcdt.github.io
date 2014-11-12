@@ -1,14 +1,13 @@
 @import "_custom/common";
 
-.XX-course {
+.edge-animate-advanced-course {
 
     /* Hide all sprites */
-    .id-essentials-framed, .course-classrom, .pdf, .custom-training, .id-advanced,
-    .id-essentials, .ps-ess, .il-ess, .and {
+    .eg-essentials-framed, .course-classrom, .pdf, .custom-training, .dps-package {
         display: none !important;
     }
 
     .book-now-btn {
-        background-color: $XX-color;
+        background-color: $edge-animate-color;
     } 
 }

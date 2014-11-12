@@ -1057,6 +1057,26 @@ body {
   .edge-animate-category .custom-training, .edge-animate-category .dps-package, .edge-animate-category .eg-essentials, .edge-animate-category .eg-essentials-framed {
     display: none; }
 
+/* line 3, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+.edge-animate-essentials-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+  .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .custom-training, .edge-animate-essentials-course .dps-package {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
+  .edge-animate-essentials-course .book-now-btn {
+    background-color: #9d8bff; }
+
+/* line 3, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+.edge-animate-advanced-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+  .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .custom-training, .edge-animate-advanced-course .dps-package {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
+  .edge-animate-advanced-course .book-now-btn {
+    background-color: #9d8bff; }
+
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
 .after-effects-category {

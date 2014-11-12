@@ -6263,6 +6263,254 @@ body {
   margin-left: 15px;
   margin-right: 1px; }
 
+/* line 88, training/web-design-development/edge-animate/edge-animate-essentials/*.png */
+.edge-animate-essentials-sprite, .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .course-custom-training-logo, .edge-animate-essentials-course .dps-package, .edge-animate-essentials-course .eg-essentials {
+  background-image: url('../images-dist/training/web-design-development/edge-animate/edge-animate-essentials-s11e1c8e968.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .eg-essentials-framed {
+  background-position: 0 -335px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70169%;
+  background-size: 338.98305%;
+  background-position: 0 62.61682%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 22, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 32, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .pdf {
+  background-position: 0 -529px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 29.40039%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+    .edge-animate-essentials-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 29.40039%; } }
+/* line 59, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .dps-package {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.59286%;
+  background-size: 714.28571%;
+  background-position: 0 47.34982%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 66, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-add-styles.scss */
+.edge-animate-essentials-course .eg-essentials {
+  background-position: 0 -433px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69825%;
+  background-size: 350.87719%;
+  background-position: 0 80.63315%;
+  margin: -5px 15px 15px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-essentials-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ded7ff), color-stop(1, #9d8bff));
+  background: -moz-linear-gradient(center top, #ded7ff 5%, #9d8bff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #ded7ff;
+  text-indent: 0;
+  border: 1px solid #5c3fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-essentials-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9d8bff), color-stop(1, #ded7ff));
+  background: -moz-linear-gradient(center top, #9d8bff 5%, #ded7ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #9d8bff; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-essentials-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 72, training/web-design-development/edge-animate/edge-animate-advanced/*.png */
+.edge-animate-advanced-sprite, .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .course-custom-training-logo {
+  background-image: url('../images-dist/training/web-design-development/edge-animate/edge-animate-advanced-s11ef7dfcbd.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
+.edge-animate-advanced-course .eg-essentials-framed {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70169%;
+  background-size: 338.98305%;
+  background-position: 0 72.04301%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 22, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
+.edge-animate-advanced-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 32, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
+.edge-animate-advanced-course .pdf {
+  background-position: 0 -366px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
+.edge-animate-advanced-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 42.93785%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 40, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-add-styles.scss */
+    .edge-animate-advanced-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 42.93785%; } }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-advanced-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ded7ff), color-stop(1, #9d8bff));
+  background: -moz-linear-gradient(center top, #ded7ff 5%, #9d8bff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #ded7ff;
+  text-indent: 0;
+  border: 1px solid #5c3fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-advanced-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9d8bff), color-stop(1, #ded7ff));
+  background: -moz-linear-gradient(center top, #9d8bff 5%, #ded7ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #9d8bff; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.edge-animate-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
 /* line 80, training/video-editing/after-effects/after-effects-category/*.png */
 .after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
   background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s615e03219a.png');
