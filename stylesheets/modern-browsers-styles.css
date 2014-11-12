@@ -8669,3 +8669,35 @@ body {
 /* line 95, ../scss/_custom/tips/_dps-getting-started.scss */
 .dps-gts .dps-gts-content img {
   padding-bottom: 10px; }
+
+/* line 1, ../scss/_custom/admin/_terms-condition.scss */
+.terms-conditions {
+  padding-top: 10px; }
+  /* line 3, ../scss/_custom/admin/_terms-condition.scss */
+  .terms-conditions h2 {
+    font-size: 22px;
+    color: #2089D3;
+    font-weight: 400; }
+  /* line 8, ../scss/_custom/admin/_terms-condition.scss */
+  .terms-conditions h3,
+  .terms-conditions h4 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px; }
+  /* line 14, ../scss/_custom/admin/_terms-condition.scss */
+  .terms-conditions p {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 8px; }
+
+/* line 21, ../scss/_custom/admin/_terms-condition.scss */
+.tc-banner {
+  background-color: #E6E6E6;
+  min-height: 120px; }
+  /* line 24, ../scss/_custom/admin/_terms-condition.scss */
+  .tc-banner h1 {
+    padding-top: 35px;
+    font-size: 30px;
+    color: #2089D3;
+    font-weight: 500; }
