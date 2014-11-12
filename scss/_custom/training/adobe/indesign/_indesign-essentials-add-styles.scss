@@ -63,7 +63,7 @@ $indesign-ess-spacing: 40px;
     .id-advanced {
         @include indesign-ess-sprite(id-advanced); 
         @include responsive-sprite($map, id-advanced, 5.8%);
-
+        margin-left: 15px;
         margin-top: -9px;
         min-width: 65px;
         min-height: 63px; 
@@ -89,6 +89,10 @@ $indesign-ess-spacing: 40px;
         @include responsive-sprite($map, il-ess, 5.8%);
         min-width: 50px;
         min-height: 50px; 
+    }
+
+    .related-course-logo {
+        margin-left: 15px;
     }
 
     @include btn-shadow($indesign-color);

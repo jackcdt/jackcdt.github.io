@@ -323,6 +323,7 @@ body {
   padding-bottom: 5.6%;
   background-size: 229.88506%;
   background-position: 0 29.38596%;
+  margin-left: 15px;
   margin-top: -9px;
   min-width: 65px;
   min-height: 63px; }
@@ -368,6 +369,9 @@ body {
   background-position: 0 63.98714%;
   min-width: 50px;
   min-height: 50px; }
+/* line 94, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .related-course-logo {
+  margin-left: 15px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -507,7 +511,7 @@ body {
   padding-bottom: 5.37431%;
   background-size: 183.48624%;
   background-position: 0 41.42857%;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-top: -12px;
   min-width: 66px;
   min-height: 57px; }
@@ -523,7 +527,7 @@ body {
   padding-bottom: 5.01798%;
   background-size: 224.7191%;
   background-position: 0 52.22405%;
-  margin-left: 15px;
+  margin-left: 20px;
   min-width: 58px;
   min-height: 50px; }
 /* line 82, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */

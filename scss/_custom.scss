@@ -10,10 +10,10 @@
 @import "_custom/components/plus-minus-icon";
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
-@import "_custom/header/header";
+@import "_custom/header/header"; 
 @import "_custom/components/training/course-no-color-items";
 @import "_custom/components/training/category-no-color-items";
- 
+    
 // Homepage
 @import "_custom/homepage/slider";
 @import "_custom/homepage/megamenu";
@@ -112,4 +112,6 @@
 @import "_custom/tips/getting-started";
 @import "_custom/tips/desktop-pub-package";
 @import "_custom/tips/digital-publishing-courses-gst";
-    
+
+// Print styles
+@import "_custom/print";    
