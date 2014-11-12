@@ -1,0 +1,51 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$edge-animate-category-spacing: 40px; 
+
+@import "training/web-design-development/edge-animate/edge-animate-category/*.png"; 
+.edge-animate-category {
+    $map: $edge-animate-category-sprites;
+
+    .eg-essentials-framed { 
+        @include edge-animate-category-sprite(eg-essentials-framed); 
+        @include responsive-sprite($map, eg-essentials-framed , 5.8%);
+        min-width: 56px;
+        min-height: 55px;
+    } 
+
+    .category-custom-training {
+        @include edge-animate-category-sprite(custom-training); 
+        @include responsive-sprite($map, custom-training , 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 639px) { 
+            @include responsive-sprite($map, custom-training , 65%);
+        }
+        
+        border: 1px solid #686F74; 
+    }
+
+    .eg-essentials {
+        @include edge-animate-category-sprite(eg-essentials); 
+        @include responsive-sprite($map, eg-essentials , 5.8%);
+        margin: -4px 15px 12px 15px;
+        min-width: 38px;
+        min-height: 38px;
+    }
+
+    .dps-package {
+        @include edge-animate-category-sprite(dps-package); 
+        @include responsive-sprite($map, dps-package , 5.8%);
+        margin: -4px 15px 12px 15px;
+        min-width: 38px;
+        min-height: 38px;
+    }
+
+    .course-item-logo {
+        min-width: 42px;
+        min-height: 45px;
+        margin-left: 15px;
+        margin-right: 1px;    
+    }
+} 

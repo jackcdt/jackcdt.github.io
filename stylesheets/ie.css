@@ -582,7 +582,7 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 53, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -1048,6 +1048,14 @@ body {
   /* line 11, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
   .jquery-essentials-course .book-now-btn {
     background-color: #656C70; }
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-old-ie-styles.scss */
+.edge-animate-category {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-category-old-ie-styles.scss */
+  .edge-animate-category .custom-training, .edge-animate-category .dps-package, .edge-animate-category .eg-essentials, .edge-animate-category .eg-essentials-framed {
+    display: none; }
 
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-old-ie-styles.scss */
