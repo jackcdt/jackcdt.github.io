@@ -665,7 +665,6 @@
                         Foundation.stylesheet.cssRules = {
                             length: 0
                         };
-<<<<<<< HEAD
 
                         Foundation.stylesheet.insertRule = function(rule, index) {
                             var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
@@ -678,20 +677,6 @@
                                 rule  = mediaMatch[2];
                             }
 
-=======
-
-                        Foundation.stylesheet.insertRule = function(rule, index) {
-                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
-                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
-                            mediaMatch = mediaRegex.exec(rule);
-                            media      = '';
-
-                            if (mediaMatch) {
-                                media = '@media ' + mediaMatch[1] + ' ';
-                                rule  = mediaMatch[2];
-                            }
-
->>>>>>> master
                             ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
                             ruleMatch = ruleRegex.exec(rule);
                             namespace = '' + media + ruleMatch[1];
