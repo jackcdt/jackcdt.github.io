@@ -19444,6 +19444,10 @@ body {
       color: #959595;
       line-height: 1.7em;
       padding-left: 5px; }
+  /* line 11, ../scss/_custom/training/captivate/_captivate-essentials.scss */
+  .captivate-essentials-course .accordion .accordion-navigation > a:hover,
+  .captivate-essentials-course .accordion dd > a:hover {
+    background: #868686; }
 
 /* line 3, ../scss/_custom/training/captivate/_captivate-advanced.scss */
 .captivate-advanced-course {
@@ -19622,6 +19626,10 @@ body {
       color: #959595;
       line-height: 1.7em;
       padding-left: 5px; }
+  /* line 11, ../scss/_custom/training/captivate/_captivate-advanced.scss */
+  .captivate-advanced-course .accordion .accordion-navigation > a:hover,
+  .captivate-advanced-course .accordion dd > a:hover {
+    background: #868686; }
 
 /* line 5, ../scss/_custom/components/training/_banner.scss */
 .business-tools-category .banner-row {
