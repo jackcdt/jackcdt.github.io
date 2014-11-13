@@ -2,4 +2,14 @@
 
 .captivate-essentials-course {
     @include course($captivate-color); 
+
+    .accordion {
+        @include plus-minus-icon; 
+        margin-bottom: 16px;
+    }
+
+    .accordion .accordion-navigation > a:hover, 
+    .accordion dd > a:hover {
+        background: #868686;
+    }
 }

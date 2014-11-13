@@ -20,12 +20,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Google Analytics | City Desktop Traininig</title>
         
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-
-        <link rel="stylesheet" href="/stylesheets/app.css" />
+        <meta name="description" content="Learn how to use Google Analytics to verify and improve your site perfomance in small instuctor-led courses or organise private training." />
+        <meta name="keywords" content="Google Analytics, Google Analytics course, Google Analytics training" />
 
         <!--[if lt IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
+
             <link href="/stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -40,13 +42,30 @@
             <link href="/stylesheets/ie7.css" rel="stylesheet" /> 
         <![endif]-->
 
-        <!--[if IE 9]>
+        <!--[if eq IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
+
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
-        <![endif]-->
+            <![endif]-->
+            
         <!--[if !IE]>-->
+            <link rel="stylesheet" href="/stylesheets/app.css" />
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
+
+        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-27725385-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </head>
     <body><!-- #BeginLibraryItem "/Library/header.lbi" -->    <!-- Header Start -->
     <header>
@@ -76,45 +95,35 @@
                     <li class="megamenu_button"><a href="#_">&#9776;&nbsp;Menu<span class="right">1300 441 891</span></a>
                     </li>
                     <li><a href="#_" class="megamenu_drop">Courses</a> 
-                        <!-- Begin Item -->
+                        <!-- Begin Item --> 
                         <div class="dropdown_fullwidth">
                             <!-- Begin Item Container -->
-                            <div class="medium-3 columns">
+                            <div class="medium-3 columns"> 
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Adobe Graphic Design</h3>
+                                        <h3>Adobe Design</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/adobe-indesign-courses.html">InDesign Training</a>
+                                            <li><a href="/adobe-indesign-courses.html">InDesign</a>
                                             </li>
-                                            <li><a href="/adobe-photoshop-courses.html">Photoshop Training</a>
+                                            <li><a href="/adobe-photoshop-courses.html">Photoshop</a>
+                                            </li> 
+                                            <li><a href="/adobe-illustrator-courses.html">Illustrator</a>
                                             </li>
-                                            <li><a href="/adobe-illustrator-courses.html">Illustrator Training</a>
+                                            <li><a href="/digital-publishing-training.html">Digital Publishing</a>
                                             </li>
-                                            <li><a href="/digital-publishing-training.html">Digital Publishing Training</a>
-                                            </li>
-                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat Training</a>
-                                            </li>
-                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
-                                            </li>
-                                            <li><a href="/tips/adobe-software-getting-started.html">CC/CS6 New Features</a>
+                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Our Most Popular Courses</h3>
+                                        <h3>Packages</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials Course</a>
+                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
                                             </li>
-                                            <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles Course</a>
+                                            <li><a href="/web-design-courses.html">Web Design Package</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -124,23 +133,28 @@
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Web Design &amp; Development</h3>
+                                        <h3>Web</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/html-courses.html">HTML5 &amp; CSS Training</a>
+                                            <li><a href="/html-courses.html">HTML5 &amp; CSS3</a>
                                             </li>
-                                            <li><a href="/dreamweaver-courses.html">Dreamweaver Training</a>
+                                            <li><a href="/dreamweaver-courses.html">Dreamweaver</a>
                                             </li>
-                                            <li><a href="/flash-courses.html">Flash Training</a>
+                                            <li><a href="/flash-courses.html">Flash</a>
                                             </li> 
-                                            <li><a href="/wordpress-training-courses.html">WordPress Training</a>
+                                            <li><a href="/wordpress-training-courses.html">WordPress</a>
                                             </li>
-                                            <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery Training</a>
+                                            <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery</a>
                                             </li>
-                                            <li><a href="/edge-animate-training.html">Edge Animate Training</a> 
+                                            <li><a href="/edge-animate-training.html">Edge Animate</a> 
                                             </li>
-                                            <li><a href="/training-courses/muse-training-intro.html">Muse Training</a>
-                                            </li>
-                                            <li><a href="/php-training-courses.html">PHP Courses</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>eLearning</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/captivate-training.html">Captivate</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -150,11 +164,11 @@
                                 <!-- Heading 1 -->
                                 <div class="row"> 
                                     <div class="large-12 columns">
-                                        <h3>Video Editing &amp; Special Effects</h3>
+                                        <h3>Video</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/adobe-after-effects-training.html">After Effects Training</a> 
+                                            <li><a href="/adobe-after-effects-training.html">After Effects</a> 
                                             </li>
-                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro Training</a>
+                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro</a>
                                             </li>
                                             <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
                                             </li>
@@ -163,23 +177,30 @@
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>eLearning</h3>
+                                        <h3>Online Marketing</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/captivate-training.html">Captivate Training</a>
+                                            <li><a href="/training-courses/social-media-training.html">Face-to-Face Courses</a>
+                                            </li>
+                                            <li><a href="/online-marketing-training-courses.html">Self Paced Online Courses</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="medium-3 columns">
-                                <!-- Heading 1 -->
+                            <div class="medium-3 columns"> 
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Online Marketing Business Tools Courses</h3>
+                                        <h3>Most Popular Courses</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/training-courses/social-media-training.html">Face-to-Face Online Marketing Training</a>
+                                            <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a>
                                             </li>
-                                            <li><a href="/online-marketing-training-courses.html">Self Paced Online Marketing Training</a>
+                                            <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -201,13 +222,13 @@
                                 <li><a href="/computer-training-room-hire.html">Computer Room Hire</a>
                                 </li>
                                 <li><a href="/training/contact.html">Contact Us</a>
-                                </li>
-                                <li><a href="#_">Testimonials</a>
+                                </li> 
+                                <!--<li><a href="#_">Testimonials</a>
                                 </li>
                                 <li><a href="#_">Refreshers</a>
                                 </li>
                                 <li><a href="#_">Support</a>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                         <!-- End Item Container -->
@@ -285,7 +306,7 @@
                             <a href="/index.html">Home</a>
                         </li> 
                         <li>
-                            <a href="#">Online Marketing Business Tools Courses</a>
+                            <a href="/training-courses/social-media-training.html">Online Marketing Business Tools Courses</a>
                         </li> 
                         <li>
                             <a href="#" class="breadcrumb-active">Google Analytics for Business</a>
@@ -353,11 +374,8 @@
                                     <h2 class="course-header-2">Upcoming Course Dates</h2>
                                 </div>
                                 <div class="small-12 download-and-book">
-                                    <!-- INDIVIDUAL PRODUCT HERE -->{module_product,250313,9121680}<!-- INDIVIDUAL PRODUCT HERE -->
+                                    <!-- INDIVIDUAL PRODUCT HERE -->{module_product,90065,6073943}<!-- INDIVIDUAL PRODUCT HERE -->
                                 </div>
-                                
-                                TODO: Temporary item for color test - remove before uploading the page 
-                                <a class="pointer validate-participants">Book Now &gt;</a>
                             </div>
                         </section>
                     </div>
@@ -366,12 +384,6 @@
                     <div class="small-12 medium-7 large-8 columns course-outline-section">
                         <div class="small-12 columns">
                             <h2 class="small-8 columns course-header-1">Course Outline</h2>
-                            <div class="small-4 columns download-pdf">
-                                <a href="/course-pdfs/indesign-essential-course.pdf">
-                                    <div class="small-1 large-1 columns pdf"></div>  
-                                    <div class="small-8 large-8 columns end download-text">Download <br/><span>Course&nbsp;PDF</span></div>
-                                </a>
-                            </div>
                             <div class="small-12 columns course-outline">
                                 <section>
                                     <div class="small-12 large-6 columns course-column nopadding">
@@ -410,7 +422,7 @@
                                     <ul>
                                         <li>Looking for customised training?</li>
                                         <li>Have a group of colleagues?</li>
-                                        <li>Training on location?<a href="" class="btn btn-default read-more-btn">Read More</a></li>
+                                        <li>Training on location?<a href="/training/custom-training.html" class="btn btn-default read-more-btn">Read More</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -565,6 +577,7 @@
         <script src="/bower_components/foundation/js/foundation.min.js"></script>
         <script src="/js/app.js"></script>
         <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
+        <script type="text/javascript" src="/js/fastclick.js"></script>
         <!-- Mega Menu Plugins -->
         <script>
             $(document).ready(function ($) {
@@ -585,5 +598,7 @@
             <script src="/js/rem.min.js"></script>
         <![endif]-->
 	    <!-- Footer End -->
+        
+        <script type="text/javascript" src="/js/product-list-view.js"></script>
         <!-- #EndLibraryItem --></body>
 </html>
