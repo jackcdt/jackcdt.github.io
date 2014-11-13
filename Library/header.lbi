@@ -33,38 +33,28 @@
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Adobe Graphic Design</h3>
+                                        <h3>Adobe Design</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/adobe-indesign-courses.html">InDesign Training</a>
+                                            <li><a href="/adobe-indesign-courses.html">InDesign</a>
                                             </li>
-                                            <li><a href="/adobe-photoshop-courses.html">Photoshop Training</a>
+                                            <li><a href="/adobe-photoshop-courses.html">Photoshop</a>
                                             </li>
-                                            <li><a href="/adobe-illustrator-courses.html">Illustrator Training</a>
+                                            <li><a href="/adobe-illustrator-courses.html">Illustrator</a>
                                             </li>
-                                            <li><a href="/digital-publishing-training.html">Digital Publishing Training</a>
+                                            <li><a href="/digital-publishing-training.html">Digital Publishing</a>
                                             </li>
-                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat Training</a>
-                                            </li>
-                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
-                                            </li>
-                                            <li><a href="/tips/adobe-software-getting-started.html">CC/CS6 New Features</a>
+                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Our Most Popular Courses</h3>
+                                        <h3>Packages</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials Course</a>
+                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
                                             </li>
-                                            <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials Course</a>
-                                            </li>
-                                            <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles Course</a>
+                                            <li><a href="/web-design-courses.html">Web Design Package</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -74,23 +64,28 @@
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Web Design &amp; Development</h3>
+                                        <h3>Web</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/html-courses.html">HTML5 &amp; CSS Training</a>
+                                            <li><a href="/html-courses.html">HTML5 &amp; CSS</a>
                                             </li>
-                                            <li><a href="/dreamweaver-courses.html">Dreamweaver Training</a>
+                                            <li><a href="/dreamweaver-courses.html">Dreamweaver</a>
                                             </li>
-                                            <li><a href="/flash-courses.html">Flash Training</a>
+                                            <li><a href="/flash-courses.html">Flash</a>
                                             </li> 
-                                            <li><a href="/wordpress-training-courses.html">WordPress Training</a>
+                                            <li><a href="/wordpress-training-courses.html">WordPress</a>
                                             </li>
-                                            <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery Training</a>
+                                            <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery</a>
                                             </li>
-                                            <li><a href="/edge-animate-training.html">Edge Animate Training</a> 
+                                            <li><a href="/edge-animate-training.html">Edge Animate</a> 
                                             </li>
-                                            <li><a href="/training-courses/muse-training-intro.html">Muse Training</a>
-                                            </li>
-                                            <li><a href="/php-training-courses.html">PHP Courses</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <h3>eLearning</h3>
+                                        <ul class="list_unstyled">
+                                            <li><a href="/captivate-training.html">Captivate</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -100,11 +95,11 @@
                                 <!-- Heading 1 -->
                                 <div class="row"> 
                                     <div class="large-12 columns">
-                                        <h3>Video Editing &amp; Special Effects</h3>
+                                        <h3>Video</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/adobe-after-effects-training.html">After Effects Training</a> 
+                                            <li><a href="/adobe-after-effects-training.html">After Effects</a> 
                                             </li>
-                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro Training</a>
+                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro</a>
                                             </li>
                                             <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
                                             </li>
@@ -113,23 +108,30 @@
                                 </div>
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>eLearning</h3>
+                                        <h3>Online Marketing</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/captivate-training.html">Captivate Training</a>
+                                            <li><a href="/training-courses/social-media-training.html">Face-to-Face Courses</a>
+                                            </li>
+                                            <li><a href="/online-marketing-training-courses.html">Self Paced Online Courses</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="medium-3 columns"> 
-                                <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
-                                        <h3>Online Marketing Business Tools Courses</h3>
+                                        <h3>Most Popular Courses</h3>
                                         <ul class="list_unstyled">
-                                            <li><a href="/training-courses/social-media-training.html">Face-to-Face Online Marketing Training</a>
+                                            <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a>
                                             </li>
-                                            <li><a href="/online-marketing-training-courses.html">Self Paced Online Marketing Training</a>
+                                            <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a>
+                                            </li>
+                                            <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a>
                                             </li>
                                         </ul>
                                     </div>
