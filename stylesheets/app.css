@@ -19423,6 +19423,27 @@ body {
     .captivate-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
+  /* line 6, ../scss/_custom/training/captivate/_captivate-essentials.scss */
+  .captivate-essentials-course .accordion {
+    margin-bottom: 16px; }
+    /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-essentials-course .accordion .plus-minus-icon:before {
+      font-family: "foundation-icons";
+      content: "\f199"; }
+    /* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-essentials-course .accordion .active .plus-minus-icon:before {
+      font-family: "foundation-icons";
+      content: "\f176"; }
+    /* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-essentials-course .accordion .plus-minus-icon {
+      float: left;
+      margin-right: 10px;
+      margin-top: 2px;
+      font-weight: 100;
+      font-size: 0.75em;
+      color: #959595;
+      line-height: 1.7em;
+      padding-left: 5px; }
 
 /* line 3, ../scss/_custom/training/captivate/_captivate-advanced.scss */
 .captivate-advanced-course {
@@ -19580,6 +19601,27 @@ body {
     .captivate-advanced-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
+  /* line 6, ../scss/_custom/training/captivate/_captivate-advanced.scss */
+  .captivate-advanced-course .accordion {
+    margin-bottom: 16px; }
+    /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-advanced-course .accordion .plus-minus-icon:before {
+      font-family: "foundation-icons";
+      content: "\f199"; }
+    /* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-advanced-course .accordion .active .plus-minus-icon:before {
+      font-family: "foundation-icons";
+      content: "\f176"; }
+    /* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+    .captivate-advanced-course .accordion .plus-minus-icon {
+      float: left;
+      margin-right: 10px;
+      margin-top: 2px;
+      font-weight: 100;
+      font-size: 0.75em;
+      color: #959595;
+      line-height: 1.7em;
+      padding-left: 5px; }
 
 /* line 5, ../scss/_custom/components/training/_banner.scss */
 .business-tools-category .banner-row {

@@ -2,4 +2,9 @@
 
 .captivate-advanced-course {
     @include course($captivate-color); 
+
+    .accordion {
+        @include plus-minus-icon; 
+        margin-bottom: 16px;
+    }
 }
