@@ -21,9 +21,11 @@
     <meta name="Description" content="City Desktop Training Terms and Conditions" />
     <meta name="Keywords" content="City Desktop Training Terms and Conditions" />
 
-    <link rel="stylesheet" href="/stylesheets/app.css" />
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
 
-    <!--[if lt IE 9]>
             <link href="/stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -34,17 +36,24 @@
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
         <![endif]-->
 
-    <!--[if IE 7]>
+        <!--[if IE 7]>
             <link href="/stylesheets/ie7.css" rel="stylesheet" /> 
         <![endif]-->
 
-    <!--[if IE 9]>
+        <!--[if eq IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
+
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+            <![endif]-->
+            
+        <!--[if !IE]>-->
+            <link rel="stylesheet" href="/stylesheets/app.css" />
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
-        <![endif]-->
-    <!--[if !IE]>-->
-    <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
-    <!--<![endif]-->
+        <!--<![endif]-->
+
+        <script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 
 <body><!-- #BeginLibraryItem "/Library/header.lbi" -->    <!-- Header Start -->

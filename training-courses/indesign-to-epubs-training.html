@@ -23,9 +23,11 @@
         <meta name="description" content="InDesign to eBooks course teaches you how to create eBooks for viewing on eReaders such as Kindle or Kobo, take your InDesign document and format for ePub output." />
         <meta name="keywords" content="Adobe InDesign to eBooks, InDesign to eBooks training, InDesign course" />
 
-        <link rel="stylesheet" href="/stylesheets/app.css" />
-
         <!--[if lt IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
+
             <link href="/stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -40,13 +42,20 @@
             <link href="/stylesheets/ie7.css" rel="stylesheet" /> 
         <![endif]-->
 
-        <!--[if IE 9]>
+        <!--[if eq IE 9]>
+            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
+            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
+
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
-        <![endif]-->
+            <![endif]-->
+            
         <!--[if !IE]>-->
+            <link rel="stylesheet" href="/stylesheets/app.css" />
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
+
+        <script src="/bower_components/modernizr/modernizr.js"></script>
     </head>
     <body><!-- #BeginLibraryItem "/Library/header.lbi" -->    <!-- Header Start -->
     <header>
