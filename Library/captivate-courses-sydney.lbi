@@ -1,54 +1,53 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- <table class="dates-table">
-  <tr valign="top" class="dates-table-months">
-    <td><span class="location"><strong>SYDNEY</strong></span></td>
-    <th>Nov</th><th>Dec
-    </th><th>Jan
-    </th><th>Feb
-    </th><th>Mar
-    </th><th>Apr</th>
-  </tr>
-  <tr class="days-date-table">
-    <td colspan="7"><strong>Adobe Captivate 8 Courses</strong></td>
-   </tr>
-  <tr class="days-date-table">
-    <td>Captivate Essentials</td>
-    <td>25 &amp; 26</td>
-    <td>&mdash;</td>
-    <td>14 &amp; 15</td>
-    <td>11 &amp; 12</td>
-    <td>26 &amp; 27</td>
-    <td class="days-date-table">22 &amp; 23</td>
-  </tr>
-  <tr class="days-date-table">
-    <td>Captivate Advanced</td>
-    <td>&mdash;</td>
-    <td>12</td>
-    <td>16</td>
-    <td>&mdash;</td>
-    <td>6</td>
-    <td class="days-date-table">1 May</td>
-  </tr>
-  <tr class="days-date-table">
-    <td colspan="7"><strong>Adobe Captivate 7 &amp; 6 Courses</strong></td>
-   </tr>
-  <tr class="days-date-table">
-    <td>Captivate Essentials</td>
-    <td>&mdash;</td>
-    <td>2 &amp; 3</td>
-    <td>&mdash;</td>
-    <td>26 &amp; 27</td>
-    <td>&mdash;</td>
-    <td class="days-date-table">5 &amp; 6 May</td>
-  </tr>
-  <tr class="days-date-table">
-    <td>Captivate Advanced</td>
-    <td>&mdash;</td>
-    <td>&mdash;</td>
-    <td>22</td>
-    <td>&mdash;</td>
-    <td>9</td>
-    <td class="days-date-table">13 May</td>
-  </tr>
- </table>
- 
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>SYDNEY</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Captivate Essentials 8</td> 
+            <td>25 &amp; 26</td>
+            <td>&mdash;</td>
+            <td>14 &amp; 15</td>
+            <td>11 &amp; 12</td>
+            <td>26 &amp; 27</td>
+            <td>22 &amp; 23</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Advanced 8</td>  
+            <td>&mdash;</td>
+            <td>12</td>
+            <td>16</td>
+            <td>&mdash;</td>
+            <td>6</td>
+            <td>1 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Essentials 7</td> 
+            <td>&mdash;</td>
+            <td>2 &amp; 3</td>
+            <td>&mdash;</td>
+            <td>26 &amp; 27</td>
+            <td>&mdash;</td>
+            <td>5 &amp; 6 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Advanced 7</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>22</td>
+            <td>&mdash;</td>
+            <td>9</td>
+            <td>13 May</td>
+        </tr>
+    </tbody>    
+ </table>  
+
