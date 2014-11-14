@@ -1,0 +1,31 @@
+﻿ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="dates-table">
+       	        <tr valign="top" class="dates-table-months">
+       	          <td><span class="location"><strong>MELBOURNE</strong></span></td>
+       	          <th>Nov
+       	          </th><th>Dec
+       	          </th><th>Jan
+       	          </th><th>Feb
+       	          </th><th>Mar
+       	          </th><th>Apr</th>
+  </tr>
+       	        <tr class="days-date-table">
+       	          <td>Premiere Pro Essentials</td>
+       	          <td >13 &amp; 14</td>
+       	          <td >15 &amp; 16</td>
+       	          <td >13 &amp; 14</td>
+       	          <td >12 &amp; 13</td>
+       	          <td >12 &amp; 13</td>
+       	          <td >16 &amp; 17</td>
+   	            </tr>
+       	        <tr class="days-date-table" >
+       	          <td>Premiere Pro Advanced</td>
+       	          <td>&mdash;</td>
+       	          <td>17</td>
+       	          <td>&mdash;</td>
+       	          <td>&mdash;</td>
+       	          <td>5</td>
+       	          <td>7 May</td>
+   	            </tr>
+</table>
+       	      

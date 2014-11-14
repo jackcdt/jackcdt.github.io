@@ -1,0 +1,41 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="dates-table">
+          <tr class="dates-table-months">
+            <td valign="top"><span class="location"><strong>SYDNEY</strong></span></td>
+            <th valign="top">Nov</th><th valign="top">Dec
+            </th><th valign="top">Jan
+            </th><th valign="top">Feb
+            </th><th valign="top">Mar
+            </th><th valign="top">Apr</th>
+          </tr>
+          <tr class="days-date-table">
+            <td>Illustrator Lite</td>
+            <td>&mdash;</td>
+            <td>1</td>
+            <td>15</td>
+            <td>23</td>
+            <td>&mdash;</td>
+            <td class="days-date-table">1</td>
+          </tr>
+          <tr class="days-date-table">
+            <td>Illustrator Essentials</td>
+            <td> 12 &amp; 13</td>
+            <td> 1 &amp; 2<br>
+              17 &amp; 18</td>
+            <td> 15 &amp; 16</td>
+            <td> 2 &amp; 3<br>
+              17 &amp; 18</td>
+            <td> 5 &amp; 6<br>
+              23 &amp; 24</td>
+            <td class="days-date-table"> 9 &amp; 10</td>
+          </tr>
+          <tr class="days-date-table">
+            <td>Illustrator Advanced</td>
+            <td>17 &amp; 18</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>16 &amp; 17</td>
+            <td>&mdash;</td>
+            <td class="days-date-table">21 &amp; 22</td>
+          </tr>
+        </table>

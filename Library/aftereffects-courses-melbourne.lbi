@@ -1,0 +1,34 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">After Effects Essentials</td> 
+            <td>6 &amp; 7</td>
+            <td>4 &amp; 5</td>
+            <td>22 &amp; 23</td>
+            <td>19 &amp; 20</td>
+            <td>26 &amp; 27</td>
+            <td>30 Apr * 1 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">After Effects Advanced</td> 
+            <td>&mdash;</td>
+            <td>19</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>6</td>
+            <td>8 May</td>
+        </tr>
+    </tbody>    
+ </table>  
