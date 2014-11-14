@@ -28,3 +28,38 @@
        	          <td>20 &amp; 21</td>
    	            </tr>
    	          </table>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>SYDNEY</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Flash Web Banners</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>19</td>
+            <td>&mdash;</td>
+            <td>20</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Flash Essentials Courses</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>19 &amp; 20</td>
+            <td>&mdash;</td>
+            <td>20 &amp; 21</td>
+        </tr>
+    </tbody>    
+ </table>  
