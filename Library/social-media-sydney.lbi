@@ -1,62 +1,35 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<table class="dates-table">
-    <tr class="dates-table-months">
-        <td><span class="location"><strong>SYDNEY</strong></span></td>
-        <th>Nov
-        </th><th>Dec
-        </th><th>Jan
-        </th><th>Feb
-        </th><th>Mar
-        </th><th>Apr</th>
-    </tr>
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>SYDNEY</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
 
-    <tr class="days-date-table">
-      <td>Social Media &amp; Digital Strategy</td>
-      <td>20</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr class="days-date-table">
-        <td>Twittter for Business</td>
-        <td>17</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-    </tr>
+        <tr> 
+            <td class="row-name">LinkedIn for Business</td>
+            <td>19</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Google Analytics</td>
+            <td>21</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+        </tr>
+    </tbody>    
+ </table>  
 
-    <tr class="days-date-table">
-        <td>Facebook for Business</td>
-        <td>18</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-    </tr>
-
-    <tr class="days-date-table">
-        <td>LinkedIn for Business</td>
-        <td>19</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-    </tr>
-
-    <tr class="days-date-table">
-        <td>Google Analytics</td>
-        <td>21</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-        <td>&mdash;</td>
-    </tr>
-
-</table> 

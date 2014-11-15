@@ -36,3 +36,43 @@
        	          <td colspan="6">Call us on 1300 441 891</td>
   </tr>
    	          </table>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>CANBERRA</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Photoshop Lite</td>
+            <td>20</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>11</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Photoshop Essentials</td>
+            <td>20 &amp; 21</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>11 &amp; 12</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Photoshop Advanced</td>
+            <td colspan="6">Call us on 1300 441 891</td>
+        </tr>
+    </tbody>    
+ </table>  
+

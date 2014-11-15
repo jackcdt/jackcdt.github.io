@@ -1,48 +1,35 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<table class="dates-table">
-    <tr class="dates-table-months">
-        <td><span class="location"><strong>MELBOURNE</strong></span></td>
-        <th>Nov
-        </th><th>Dec
-        </th><th>Jan
-        </th><th>Feb
-        </th><th>Mar
-        </th><th>Apr</th>
-    </tr>
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
 
-    <tr class="days-date-table">
-      <td>Social Media</td>
-      <td>3</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>11</td>
-      <td>23</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr class="days-date-table">
-      <td>Twittter for Business</td>
-      <td colspan="6">Custom Training Available</td>
-    </tr>
-    <tr class="days-date-table">
-      <td>Facebook for Business</td>
-      <td colspan="6">Custom Training Available</td>
-    </tr>
-    <tr class="days-date-table">
-      <td>LinkedIn for Business</td>
-      <td>25</td>
-      <td>&mdash;</td>
-      <td>12</td>
-      <td>&mdash;</td>
-      <td>16</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr class="days-date-table">
-      <td>Google Analytics</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-      <td>13</td>
-      <td>&mdash;</td>
-      <td>17</td>
-      <td>&mdash;</td>
-    </tr>
-</table> 
+        <tr> 
+            <td class="row-name">LinkedIn for Business</td>
+            <td>25</td>
+            <td>&mdash;</td>
+            <td>12</td>
+            <td>&mdash;</td>
+            <td>16</td>
+            <td>&mdash;</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Google Analytics</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>13</td>
+            <td>&mdash;</td>
+            <td>17</td>
+            <td>&mdash;</td>
+        </tr>
+    </tbody>    
+ </table>  
+

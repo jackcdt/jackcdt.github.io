@@ -1,33 +1,40 @@
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<table class="dates-table">
-       	        <tr valign="top" class="dates-table-months">
-       	          <td><span class="location"><strong>BRISBANE</strong></span></td>
-       	          <th>Nov </th><th>Dec
-       	          </th><th>Jan
-       	          </th><th>Feb
-       	          </th><th>Mar
-       	          </th><th>Apr</th>
-  </tr>
-       	        <tr class="days-date-table">
-       	          <td>Illustrator Lite</td>
-       	          <td>&mdash;</td>
-       	          <td>17</td>
-       	          <td>&mdash;</td>
-       	          <td>10</td>
-       	          <td>18</td>
-       	          <td>20</td>
-  </tr> 
-       	        <tr class="days-date-table">
-       	          <td>Illustrator Essentials</td>
-       	          <td>&mdash;</td>
-       	          <td>17 &amp; 18</td>
-       	          <td>&mdash;</td>
-       	          <td>10 &amp; 11</td>
-       	          <td>18 &amp; 19</td>
-       	          <td>20 &amp; 21</td>
-   	            </tr>
-       	        <tr class="days-date-table">
-       	          <td>Illustrator Advanced</td>
-       	          <td colspan="6" align="left">Custom training can be organised.</td>
-   	            </tr>
-   	          </table>
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>BRISBANE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Illustrator Lite</td> 
+            <td>Illustrator Lite</td>
+            <td>&mdash;</td>
+            <td>17</td>
+            <td>&mdash;</td>
+            <td>10</td>
+            <td>18</td>
+            <td>20</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Illustrator Essentials</td> 
+            <td>&mdash;</td>
+            <td>17 &amp; 18</td>
+            <td>&mdash;</td>
+            <td>10 &amp; 11</td>
+            <td>18 &amp; 19</td>
+            <td>20 &amp; 21</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Illustrator Advanced</td>
+            <td colspan="6">Custom training can be organised.</td>
+        </tr>
+    </tbody>    
+ </table>  
