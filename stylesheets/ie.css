@@ -1266,20 +1266,18 @@ conversion-optimisation
   /* Hide all sprites */ }
   /* line 4, ../scss/_custom/shoppingcart/book/_book-old-ie-styles.scss */
   .cdt-book .acrobat-essentials,
-  .cdt-book .acrobat-pdfforms,
-  .cdt-book .ae-advanced,
   .cdt-book .ae-essentials,
   .cdt-book .custom-training,
   .cdt-book .book-and-pay-later,
   .cdt-book .book-and-pay-now,
   .cdt-book .booking-step-1,
-  .cdt-book .conversion-optimisation, .cdt-book .cp-adv, .cdt-book .cp-ess, .cdt-book .dps-package, .cdt-book .dw-essentials,
-  .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-actionscript, .cdt-book .fl-banners, .cdt-book .fl-essentials,
-  .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .htmlnews, .cdt-book .id-accessibility,
-  .cdt-book .id-advanced, .cdt-book .id-dps-pkg, .cdt-book .id-dps-pro, .cdt-book .id-dps-single, .cdt-book .id-epub, .cdt-book .id-essentials,
-  .cdt-book .id-interactivity, .cdt-book .id-ipad, .cdt-book .id-lite, .cdt-book .id-longdocuments, .cdt-book .il-advanced, .cdt-book .il-lite,
-  .cdt-book .il-essentials, .cdt-book .jq-essentials, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials,
-  .cdt-book .online-social-media-course, .cdt-book .ppc, .cdt-book .pr-advanced, .cdt-book .pr-elements, .cdt-book .pr-essentials,
-  .cdt-book .ps-advanced, .cdt-book .ps-essentials, .cdt-book .ps-lite, .cdt-book .ps-web, .cdt-book .seo-ess, .cdt-book .seo, .cdt-book .social-media-logo,
-  .cdt-book .web-analytics, .cdt-book .wp-advanced, .cdt-book .wp-essentials {
+  .cdt-book .cp-ess, .cdt-book .diag-dps-logo, .cdt-book .dw-essentials,
+  .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials,
+  .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css,
+  .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials,
+  .cdt-book .id-interactivity,
+  .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials,
+  .cdt-book .pr-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web,
+  .cdt-book .ps-advanced, .cdt-book .seo-ess,
+  .cdt-book .wp-essentials {
     display: none; }

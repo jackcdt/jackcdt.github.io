@@ -2,22 +2,20 @@
 .cdt-book {
     /* Hide all sprites */
     .acrobat-essentials,
-    .acrobat-pdfforms,
-    .ae-advanced,
     .ae-essentials,
     .custom-training,
     .book-and-pay-later,
     .book-and-pay-now,
     .booking-step-1,
-    .conversion-optimisation,.cp-adv,.cp-ess, .dps-package, .dw-essentials,
-    .eg-essentials, .finalcut-ess, .fl-actionscript, .fl-banners, .fl-essentials,
-    .ga-essentials, .html-css, .html-ess, .html5css, .htmlnews, .id-accessibility,
-    .id-advanced, .id-dps-pkg, .id-dps-pro, .id-dps-single, .id-epub, .id-essentials,
-    .id-interactivity, .id-ipad, .id-lite, .id-longdocuments, .il-advanced, .il-lite,
-    .il-essentials, .jq-essentials, .js-essentials, .linkedin-essentials, .mu-essentials,
-    .online-social-media-course, .ppc, .pr-advanced, .pr-elements, .pr-essentials,
-    .ps-advanced, .ps-essentials, .ps-lite, .ps-web, .seo-ess, .seo, .social-media-logo,
-    .web-analytics, .wp-advanced, .wp-essentials {
+    .cp-ess, .diag-dps-logo, .dw-essentials,
+    .eg-essentials, .finalcut-ess, .fl-essentials,
+    .ga-essentials, .html-css, .html-ess, .html5css,
+    .id-dps-pkg, .id-epub, .id-essentials,
+    .id-interactivity, 
+    .il-essentials, .internet-marketing-logo, .js-essentials, .linkedin-essentials, .mu-essentials,
+    .pr-essentials, .logo-package-design, .logo-package-web,
+    .ps-advanced, .seo-ess,
+    .wp-essentials {
         display: none;
     }
 }
