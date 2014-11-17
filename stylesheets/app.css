@@ -20928,7 +20928,7 @@ body {
   /* line 121, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
     text-align: left; }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1025px) {
   /* line 2, ../scss/_custom/components/_responsive-table.scss */
   .cdt-calendar .responsive {
     display: block; }

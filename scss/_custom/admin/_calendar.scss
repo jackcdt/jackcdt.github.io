@@ -123,7 +123,7 @@ $calendar-color: #2088D1;
         }
     }
 
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 1025px) {
         @include responsive-table($calendar-color);
     }
 
