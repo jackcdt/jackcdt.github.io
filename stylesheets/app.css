@@ -6955,6 +6955,10 @@ h4 {
   /* line 28, ../scss/_custom/components/_breadcrumbs.scss */
   .custom-breadcrumbs > *:before {
     top: 0; }
+  /* line 32, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs .breadcrumb-active, .custom-breadcrumbs .breadcrumb-active:focus, .custom-breadcrumbs .breadcrumb-active:hover {
+    text-decoration: none;
+    cursor: default; }
 
 /* Title and sub-title to be used on banners */
 /* Main content title (not necessarily h1)*/
@@ -22034,21 +22038,24 @@ a#catshopbuy:link, a#catshopbuy:visited {
     font-size: 0.8125em;
     line-height: 1.84615em; }
   /* line 50, ../scss/_custom/shoppingcart/book/_book.scss */
+  .cdt-book .tabs-content .content a:hover {
+    text-decoration: underline; }
+  /* line 54, ../scss/_custom/shoppingcart/book/_book.scss */
   .cdt-book .tabs-content .content .book-now a {
     background-color: #24b8ff;
     padding: 4px 8px 4px 8px;
     color: #fff;
     border-radius: 6px; }
-  /* line 57, ../scss/_custom/shoppingcart/book/_book.scss */
+  /* line 61, ../scss/_custom/shoppingcart/book/_book.scss */
   .cdt-book .tabs-content .content .rows-divider {
     margin: 4px 0;
     border-bottom: 1px dashed #ccc; }
-  /* line 62, ../scss/_custom/shoppingcart/book/_book.scss */
+  /* line 66, ../scss/_custom/shoppingcart/book/_book.scss */
   .cdt-book .tabs-content .content .special-offer {
     color: #bf0000;
     font-size: 0.8125em;
     line-height: 1.84615em; }
-/* line 68, ../scss/_custom/shoppingcart/book/_book.scss */
+/* line 72, ../scss/_custom/shoppingcart/book/_book.scss */
 .cdt-book .tabs-content h2 {
   border-bottom: 1px solid #A4A4A4;
   margin-top: 10px;
@@ -22056,7 +22063,7 @@ a#catshopbuy:link, a#catshopbuy:visited {
   padding: 5px;
   color: #2088D1;
   line-height: 1.5em; }
-/* line 77, ../scss/_custom/shoppingcart/book/_book.scss */
+/* line 81, ../scss/_custom/shoppingcart/book/_book.scss */
 .cdt-book .tabs-content h3 {
   margin-top: 2px;
   margin-bottom: 16px;
