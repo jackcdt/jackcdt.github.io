@@ -1,0 +1,20 @@
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$book-spacing: 40px; 
+
+@import "training/shopping-cart/book/*.png"; 
+
+.cdt-book {
+    $map: $book-sprites;
+
+    .xx-essentials {
+        @include book-sprite(xx-essentials); 
+        @include responsive-sprite($map, xx-essentials , 5%);
+        margin-left: 15px;
+
+        min-width: 40px;
+        min-height: 40px;    
+    }
+} 
