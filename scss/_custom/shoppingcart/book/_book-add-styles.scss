@@ -68,6 +68,7 @@ $book-spacing: 40px;
     .booking-step-1 {
         @include book-sprite(booking-step-1); 
         @include responsive-sprite($map, booking-step-1, 100%);
+        margin-bottom: $margin-bottom-default;
     }
 
     .cp-ess {

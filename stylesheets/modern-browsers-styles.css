@@ -9416,8 +9416,9 @@ body {
   height: 0;
   padding-bottom: 8.33333%;
   background-size: 100%;
-  background-position: 0 16.70792%; }
-/* line 73, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+  background-position: 0 16.70792%;
+  margin-bottom: 24px; }
+/* line 74, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .cp-ess {
   background-position: 0 -634px;
   /*    $sprite-width: $map-width;
@@ -9433,7 +9434,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 83, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 84, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .dw-essentials {
   background-position: 0 -941px;
   /*    $sprite-width: $map-width;
@@ -9449,7 +9450,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 93, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 94, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .eg-essentials {
   background-position: 0 -1045px;
   /*    $sprite-width: $map-width;
@@ -9465,7 +9466,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 103, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 104, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .finalcut-ess {
   background-position: 0 -1141px;
   /*    $sprite-width: $map-width;
@@ -9481,7 +9482,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 113, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 114, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .fl-essentials {
   background-position: 0 -1243px;
   /*    $sprite-width: $map-width;
@@ -9497,7 +9498,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 123, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 124, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .ga-essentials {
   background-position: 0 -1346px;
   /*    $sprite-width: $map-width;
@@ -9513,7 +9514,7 @@ body {
   margin-top: 10px;
   min-width: 57px;
   min-height: 48px; }
-/* line 132, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 133, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .html-css {
   background-position: 0 -1458px;
   /*    $sprite-width: $map-width;
@@ -9529,7 +9530,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 142, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 143, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .html-ess {
   background-position: 0 -1559px;
   /*    $sprite-width: $map-width;
@@ -9545,7 +9546,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 152, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 153, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .html5css {
   background-position: 0 -1664px;
   /*    $sprite-width: $map-width;
@@ -9561,7 +9562,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 162, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 163, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-dps-pkg {
   background-position: 0 -1779px;
   /*    $sprite-width: $map-width;
@@ -9577,7 +9578,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 172, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 173, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-epub {
   background-position: 0 -1913px;
   /*    $sprite-width: $map-width;
@@ -9593,7 +9594,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 182, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 183, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-essentials {
   background-position: 0 -2039px;
   /*    $sprite-width: $map-width;
@@ -9609,7 +9610,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 192, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 193, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-interactivity {
   background-position: 0 -2140px;
   /*    $sprite-width: $map-width;
@@ -9625,7 +9626,7 @@ body {
   margin-top: 10px;
   min-width: 61px;
   min-height: 53px; }
-/* line 201, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 202, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .il-essentials {
   background-position: 0 -2281px;
   /*    $sprite-width: $map-width;
@@ -9641,7 +9642,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 211, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 212, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .internet-marketing-logo {
   background-position: 0 -2384px;
   /*    $sprite-width: $map-width;
@@ -9657,7 +9658,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 221, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 222, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .js-essentials {
   background-position: 0 -2474px;
   /*    $sprite-width: $map-width;
@@ -9673,7 +9674,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 231, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 232, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .linkedin-essentials {
   background-position: 0 -2555px;
   /*    $sprite-width: $map-width;
@@ -9689,7 +9690,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 241, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 242, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .mu-essentials {
   background-position: 0 -2819px;
   /*    $sprite-width: $map-width;
@@ -9705,7 +9706,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 251, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 252, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .pr-essentials {
   background-position: 0 -2914px;
   /*    $sprite-width: $map-width;
@@ -9721,7 +9722,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 261, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 262, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .ps-essentials {
   background-position: 0 -3018px;
   /*    $sprite-width: $map-width;
@@ -9737,7 +9738,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 271, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 272, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .seo-ess {
   background-position: 0 -3121px;
   /*    $sprite-width: $map-width;
@@ -9753,7 +9754,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 281, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 282, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .wp-essentials {
   background-position: 0 -3224px;
   /*    $sprite-width: $map-width;
@@ -9769,7 +9770,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 291, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 292, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-design {
   background-position: 0 -2660px;
   /*    $sprite-width: $map-width;
@@ -9785,7 +9786,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 301, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 302, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-web {
   background-position: 0 -2740px;
   /*    $sprite-width: $map-width;
@@ -9801,7 +9802,7 @@ body {
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 311, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 312, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .diag-dps-logo {
   background-position: 0 -853px;
   /*    $sprite-width: $map-width;
