@@ -21857,7 +21857,7 @@ body {
 /* STYLES ADDED BY JACK - FOR FOUDNATION MODIFICATION */
 /* line 50, ../scss/_custom/shoppingcart/_checkout.scss */
 .wrapper {
-  background: url("../images/pagebkg.jpg") repeat-x scroll center top; }
+  background: url("../images-dist/shopping-cart/pagebkg.jpg") repeat-x scroll center top; }
 
 /* line 53, ../scss/_custom/shoppingcart/_checkout.scss */
 .pad-btm {
