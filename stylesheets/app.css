@@ -6976,9 +6976,9 @@ h4 {
   font-size: 13px; }
 
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
-/* line 112, ../images/header-footer/*.png */
+/* line 112, header-footer/*.png */
 .header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
-  background-image: url('../images-dist/../images/header-footer-sd88e9d5b6c.png');
+  background-image: url('../images-dist/header-footer-sbd3345fe8c.png');
   background-repeat: no-repeat; }
 
 /* line 28, ../scss/_custom/header/_header.scss */
