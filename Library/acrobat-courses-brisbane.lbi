@@ -1,0 +1,34 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>BRISBANE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Acrobat Essentials</td> 
+            <td>20</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>23</td>
+            <td>&mdash;</td>
+            <td>13 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Acrobat Forms</td> 
+            <td>21</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>24</td>
+            <td>&mdash;</td>
+            <td>14 May</td>
+        </tr>
+    </tbody>    
+ </table>  

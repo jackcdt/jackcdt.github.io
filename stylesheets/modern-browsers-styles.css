@@ -9292,3 +9292,529 @@ body {
   background-position: 0 40.84507%;
   max-height: 46px;
   margin-top: -2px; }
+
+/* line 288, shopping-cart/book/*.png */
+.book-sprite, .cdt-book .acrobat-essentials, .cdt-book .ae-essentials, .cdt-book .custom-training-logo, .cdt-book .book-and-pay-later, .cdt-book .book-and-pay-now, .cdt-book .booking-step-1, .cdt-book .cp-ess, .cdt-book .dw-essentials, .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials, .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials, .cdt-book .id-interactivity, .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials, .cdt-book .pr-essentials, .cdt-book .ps-essentials, .cdt-book .seo-ess, .cdt-book .wp-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web, .cdt-book .diag-dps-logo {
+  background-image: url('../images-dist/shopping-cart/book-s0ad026cb3e.png');
+  background-repeat: no-repeat; }
+
+/* line 12, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .acrobat-essentials {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 1012.5%;
+  background-position: 0 0%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 22, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .ae-essentials {
+  background-position: 0 -104px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 996.92308%;
+  background-position: 0 3.22681%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 32, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .custom-training-logo {
+  background-position: 0 -737px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 350.27027%;
+  background-position: 0 22.9595%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 32, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+    .cdt-book .custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 350.27027%;
+      background-position: 0 22.9595%; } }
+/* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .book-and-pay-later {
+  background-position: 0 -207px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 51.6129%;
+  background-size: 261.29032%;
+  background-position: 0 6.55478%;
+  margin-bottom: 16px; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+    .cdt-book .book-and-pay-later {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 33.54839%;
+      background-size: 261.29032%;
+      background-position: 0 6.55478%; } }
+/* line 56, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .book-and-pay-now {
+  background-position: 0 -375px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 50.40323%;
+  background-size: 261.29032%;
+  background-position: 0 11.86333%;
+  margin-bottom: 14px; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 56, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+    .cdt-book .book-and-pay-now {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 32.7621%;
+      background-size: 261.29032%;
+      background-position: 0 11.86333%; } }
+/* line 68, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .booking-step-1 {
+  background-position: 0 -540px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 8.33333%;
+  background-size: 100%;
+  background-position: 0 16.70792%;
+  margin-bottom: 24px; }
+/* line 74, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .cp-ess {
+  background-position: 0 -634px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 996.92308%;
+  background-position: 0 19.67111%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 84, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .dw-essentials {
+  background-position: 0 -941px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 996.92308%;
+  background-position: 0 29.20546%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 94, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .eg-essentials {
+  background-position: 0 -1045px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69825%;
+  background-size: 1136.84211%;
+  background-position: 0 32.35294%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 104, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .finalcut-ess {
+  background-position: 0 -1141px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53231%;
+  background-size: 996.92308%;
+  background-position: 0 35.39082%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 114, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .fl-essentials {
+  background-position: 0 -1243px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70938%;
+  background-size: 1012.5%;
+  background-position: 0 38.56655%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 124, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .ga-essentials {
+  background-position: 0 -1346px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.53913%;
+  background-size: 704.34783%;
+  background-position: 0 41.87928%;
+  margin-left: 2px;
+  margin-top: 10px;
+  min-width: 57px;
+  min-height: 48px; }
+/* line 133, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .html-css {
+  background-position: 0 -1458px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.44308%;
+  background-size: 996.92308%;
+  background-position: 0 45.2093%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 143, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .html-ess {
+  background-position: 0 -1559px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 967.16418%;
+  background-position: 0 48.40112%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 153, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .html5css {
+  background-position: 0 -1664px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.50633%;
+  background-size: 820.25316%;
+  background-position: 0 51.82186%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 163, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .id-dps-pkg {
+  background-position: 0 -1779px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.17368%;
+  background-size: 852.63158%;
+  background-position: 0 55.73308%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 173, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .id-epub {
+  background-position: 0 -1913px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.55758%;
+  background-size: 981.81818%;
+  background-position: 0 59.78125%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 183, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .id-essentials {
+  background-position: 0 -2039px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 1012.5%;
+  background-position: 0 63.22481%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 193, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .id-interactivity {
+  background-position: 0 -2140px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.37431%;
+  background-size: 594.49541%;
+  background-position: 0 67.18995%;
+  margin-left: 2px;
+  margin-top: 10px;
+  min-width: 61px;
+  min-height: 53px; }
+/* line 202, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .il-essentials {
+  background-position: 0 -2281px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 996.92308%;
+  background-position: 0 70.77257%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 212, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .internet-marketing-logo {
+  background-position: 0 -2384px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 1296%;
+  background-position: 0 73.6712%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 222, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .js-essentials {
+  background-position: 0 -2474px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.945%;
+  background-size: 1620%;
+  background-position: 0 76.24037%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 232, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .linkedin-essentials {
+  background-position: 0 -2555px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 996.92308%;
+  background-position: 0 79.32319%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 242, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .mu-essentials {
+  background-position: 0 -2819px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.69643%;
+  background-size: 1157.14286%;
+  background-position: 0 87.24853%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 252, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .pr-essentials {
+  background-position: 0 -2914px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.71077%;
+  background-size: 996.92308%;
+  background-position: 0 90.44072%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 262, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .ps-essentials {
+  background-position: 0 -3018px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 996.92308%;
+  background-position: 0 93.63947%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 272, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .seo-ess {
+  background-position: 0 -3121px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 996.92308%;
+  background-position: 0 96.83525%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 282, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .wp-essentials {
+  background-position: 0 -3224px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.70794%;
+  background-size: 1028.57143%;
+  background-position: 0 100%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 292, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .logo-package-design {
+  background-position: 0 -2660px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 1620%;
+  background-position: 0 81.94701%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 302, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .logo-package-web {
+  background-position: 0 -2740px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 1620%;
+  background-position: 0 84.38559%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 312, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .diag-dps-logo {
+  background-position: 0 -853px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 1350%;
+  background-position: 0 26.34342%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }

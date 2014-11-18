@@ -1,0 +1,35 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>SYDNEY</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Edge Animate Introduction</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>15</td>
+            <td>25</td>
+            <td>&mdash;</td>
+            <td>22</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Edge Animate Advanced</td> 
+            <td>&mdash;</td>
+            <td>&mdash; </td>
+            <td>16</td>
+            <td>&mdash;</td>
+            <td>11</td>
+            <td>22 May</td>
+        </tr>
+    </tbody>    
+ </table>  
+

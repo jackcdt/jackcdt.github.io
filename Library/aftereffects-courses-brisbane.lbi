@@ -1,0 +1,29 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>BRISBANE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr>  
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">After Effects Essentials</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>19 &amp; 20</td>
+            <td>&mdash;</td>
+            <td>27 &amp; 28</td>
+        </tr>
+        <tr> 
+            <td class="row-name">After Effects Advanced</td> 
+            <td colspan="6">On demand, please phone 1300 441 891</td>
+        </tr>
+    </tbody>    
+ </table>  

@@ -1,0 +1,54 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">HTML &amp; Web Principles</td> 
+            <td>19</td>
+            <td>15</td>
+            <td>14</td>
+            <td>2<br>
+              18</td>
+            <td>2<br>
+              23</td>
+            <td>21</td>
+        </tr>
+        <tr> 
+            <td class="row-name">HTML Email Newsletters</td> 
+            <td>10</td>
+            <td>16</td>
+            <td>20</td>
+            <td>&mdash;</td>
+            <td>3</td>
+            <td>22</td>
+        </tr>
+        <tr> 
+            <td class="row-name">CSS Essentials</td>
+            <td>&mdash;</td>
+            <td>9 &amp; 10</td>
+            <td>15 &amp; 16</td>
+            <td>26 &amp; 27</td>
+            <td>&mdash;</td>
+            <td>14 &amp; 15</td>
+        </tr>
+        <tr> 
+            <td class="row-name">HTML5 &amp; CSS3</td> 
+            <td>&mdash;</td>
+            <td>17 &amp; 18</td>
+            <td>&mdash;</td>
+            <td>9 &amp; 10</td>
+            <td>&mdash;</td>
+            <td>27 &amp; 28</td>
+        </tr>
+    </tbody>    
+ </table>  

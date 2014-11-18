@@ -1,0 +1,53 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Captivate Essentials 8</td> 
+            <td>&mdash;</td>
+            <td>2 &amp; 3</td>
+            <td>21 &amp; 22</td>
+            <td>16 &amp; 17</td>
+            <td>24 &amp; 25</td> 
+            <td>27 &amp; 28</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Advanced 8</td> 
+            <td>&mdash;</td>
+            <td>8</td>
+            <td>&mdash;</td>
+            <td>18</td>
+            <td>&mdash;</td>
+            <td>29</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Essentials 7 (6)</td> 
+            <td>&mdash;</td>
+            <td>11 &amp; 12</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>3 &amp; 4</td>
+            <td>13 &amp; 14</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Captivate Advanced 7</td> 
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>23</td>
+            <td>&mdash;</td>
+            <td>24 Jun</td>
+        </tr>
+    </tbody>    
+ </table>  
+

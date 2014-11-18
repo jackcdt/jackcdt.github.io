@@ -28,5 +28,10 @@
     & > *:before {
         top: 0;
     }
+
+    .breadcrumb-active, .breadcrumb-active:focus, .breadcrumb-active:hover {
+        text-decoration: none;
+        cursor: default;
+    }
 }
 

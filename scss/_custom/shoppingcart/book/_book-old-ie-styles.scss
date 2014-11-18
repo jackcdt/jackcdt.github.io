@@ -1,0 +1,21 @@
+/* Push up the custom training to compensate for no image */
+.cdt-book {
+    /* Hide all sprites */
+    .acrobat-essentials,
+    .ae-essentials,
+    .custom-training,
+    .book-and-pay-later,
+    .book-and-pay-now,
+    .booking-step-1,
+    .cp-ess, .diag-dps-logo, .dw-essentials,
+    .eg-essentials, .finalcut-ess, .fl-essentials,
+    .ga-essentials, .html-css, .html-ess, .html5css,
+    .id-dps-pkg, .id-epub, .id-essentials,
+    .id-interactivity, 
+    .il-essentials, .internet-marketing-logo, .js-essentials, .linkedin-essentials, .mu-essentials,
+    .pr-essentials, .logo-package-design, .logo-package-web,
+    .ps-advanced, .seo-ess,
+    .wp-essentials {
+        display: none;
+    }
+}

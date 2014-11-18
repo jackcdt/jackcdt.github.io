@@ -1259,3 +1259,25 @@ conversion-optimisation
   conversion-optimisation
   .online-courses-category .web-analytics {
     display: none; }
+
+/* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/shoppingcart/book/_book-old-ie-styles.scss */
+.cdt-book {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/shoppingcart/book/_book-old-ie-styles.scss */
+  .cdt-book .acrobat-essentials,
+  .cdt-book .ae-essentials,
+  .cdt-book .custom-training,
+  .cdt-book .book-and-pay-later,
+  .cdt-book .book-and-pay-now,
+  .cdt-book .booking-step-1,
+  .cdt-book .cp-ess, .cdt-book .diag-dps-logo, .cdt-book .dw-essentials,
+  .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials,
+  .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css,
+  .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials,
+  .cdt-book .id-interactivity,
+  .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials,
+  .cdt-book .pr-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web,
+  .cdt-book .ps-advanced, .cdt-book .seo-ess,
+  .cdt-book .wp-essentials {
+    display: none; }

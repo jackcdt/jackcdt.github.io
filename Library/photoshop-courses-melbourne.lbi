@@ -1,0 +1,61 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Photoshop Lite</td>
+            <td>26</td>
+            <td>5</td>
+            <td>15</td>
+            <td>9</td>
+            <td>23</td>
+            <td>1 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Photoshop Essentials</td>
+            <td>13 &amp; 14<br>
+              25 &amp; 26<br>
+              26 &amp; 27</td>
+            <td>10 &amp; 11<br>
+            17 &amp; 18</td>
+            <td>7 &amp; 8<br>
+              15 &amp; 16<br>
+              28 &amp; 29</td>
+            <td>9 &amp; 10<br>
+              26 &amp; 27</td>
+            <td>18 &amp; 19<br>
+              30 &amp; 31</td>
+            <td>16 &amp; 17<br>
+              6 &amp; 7 May</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Photoshop for Web</td>
+            <td>&mdash;</td>
+            <td>1</td>
+            <td>23</td>
+            <td>&mdash;</td>
+            <td>11</td>
+            <td>23</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Photoshop Advanced</td>
+            <td>17 &amp; 18</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>16 &amp; 17</td>
+            <td>26 &amp; 27</td>
+            <td>21 &amp; 22 May</td>
+        </tr>
+    </tbody>    
+ </table>  
+

@@ -1,0 +1,29 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table class="responsive">
+    <thead> 
+        <tr> 
+            <th width="150" class="location"><strong>MELBOURNE</strong></th> 
+            <th>Nov</th> 
+            <th>Dec</th> 
+            <th>Jan</th> 
+            <th>Feb</th> 
+            <th>Mar</th>  
+            <th>Apr</th>  
+        </tr> 
+    </thead> 
+    <tbody> 
+        <tr> 
+            <td class="row-name">Final Cut Pro X Essentials</td> 
+            <td>27 &amp; 28</td>
+            <td>&mdash;</td>
+            <td>29 &amp; 30</td>
+            <td>&mdash;</td>
+            <td>19 &amp; 20</td>
+            <td>23 &amp; 24</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Final Cut Pro 7 Essentials</td> 
+            <td colspan="6">Custom training only</td>
+        </tr>
+    </tbody>    
+ </table>  
