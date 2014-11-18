@@ -1,0 +1,84 @@
+<div class="wrapper">
+<div class="row pad-btm">
+<div class="column large-12">
+<h1 class="ptitle left">Your Shopping Cart</h1>
+<div class="breadcrumb right">{module_shoppingcartsummary}</div>
+</div>
+<!-- end .columns.large-12 -->
+</div>
+<!-- end .row -->
+<div class="row pad-btm">
+<div class="columns large-12">
+<div id="catCartDetails">
+<div class="cartrow">
+<div class="cartlabel cldetails">Item Details</div>
+<div class="cartlabel clprice">Price</div>
+<div class="cartlabel clqty">Qty</div>
+<div class="cartlabel cltax">GST</div>
+<div class="cartlabel clcost">Cost</div>
+<div class="cartlabel clremove">Remove</div>
+</div>
+<!-- End Row Tags -->
+<div class="clear"></div>
+<div class="cart-item product-title">{tag_productname}</div>
+<div class="cart-item product-price">{tag_productextaxamount}</div>
+<div class="cart-item product-qty">{tag_productquantity}</div>
+<div class="cart-item product-tax">{tag_producttaxrate}</div>
+<div class="cart-item product-total">{tag_producttotal}</div>
+<div class="cart-item product-remove">{tag_productremovelink}</div>
+<!--end shopping-cart-->
+<div class="row collapse">
+<div class="columns medium-4 large-4">
+<div class="cart-opt opt-discount">
+<div class="discount">
+<label for="discountcode">Discount Code</label>{tag_discountcode}
+<input type="submit" class="button tiny radius" value="Update" onclick="return false;" />
+</div>
+</div>
+</div>
+<!-- End Discounts -->
+<div class="columns medium-4 large-4">
+<div class="cart-opt payment-types">
+<p> <strong>We accept payment by:</strong>
+</p>
+<div class="medium-12 columns">
+<img alt="" src="/images-dist/shopping-cart/visa-mastercard.png" />
+</div>
+<div class="medium-6 columns">
+<img alt="" src="/images-dist/shopping-cart/invoice-512.png" />
+</div>
+<div class="medium-6 columns">
+<img alt="" src="/images-dist/shopping-cart/payroll.png" />
+</div>
+<div class="medium-6 columns">Get an Invoice &amp; Pay Later</div>
+<div class="medium-6 columns">Pay by EFT/Cheque</div>
+</div>
+</div>
+<div class="columns medium-4 large-4">
+<div id="opt-total-container">
+<div class="cart-opt opt-total">
+<div class="opt-total-data">Sub-Total: <strong>{tag_productgrandtotal}</strong>
+</div>
+<div class="opt-total-data">Total GST: <strong>{tag_producttaxtotal}</strong>
+</div>
+<div class="opt-total-data">
+<h3>TOTAL: {tag_invoicetotal}</h3>
+</div>
+</div>
+<!-- End Total -->
+<div class="cart-opt opt-btns">{tag_buybutton}</div>
+<!-- End Buttons -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end .columns.large-12 -->
+<div class="columns small-12">
+<p><span class="fi-info medium"></span> Our Face-to-Face courses includes 12 months
+support &amp; free resit *</p>
+</div>
+</div>
+<!-- end .row -->
+</div>
+<!-- end .wrapper -->
