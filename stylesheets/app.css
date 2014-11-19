@@ -21763,10 +21763,11 @@ body {
   margin-bottom: 24px; }
 /* line 50, ../scss/_custom/admin/_locations.scss */
 .locations .city-intro {
+  height: 17em;
   font-size: 0.875em;
   line-height: 1.71429em;
   margin-bottom: 24px; }
-  @media only screen and (max-width: 40em) {
+  @media (min-width: 540px) {
     /* line 50, ../scss/_custom/admin/_locations.scss */
     .locations .city-intro {
       height: 11em; } }
@@ -21778,7 +21779,7 @@ body {
     /* line 50, ../scss/_custom/admin/_locations.scss */
     .locations .city-intro {
       height: 14em; } }
-/* line 67, ../scss/_custom/admin/_locations.scss */
+/* line 69, ../scss/_custom/admin/_locations.scss */
 .locations .general-title,
 .locations .refresh-title {
   font-size: 1.125em;
@@ -21788,11 +21789,11 @@ body {
   margin-top: 16px;
   margin-bottom: 4px;
   text-transform: uppercase; }
-/* line 72, ../scss/_custom/admin/_locations.scss */
+/* line 74, ../scss/_custom/admin/_locations.scss */
 .locations .general-intro,
 .locations .refresh-intro {
   color: #2088D1; }
-/* line 77, ../scss/_custom/admin/_locations.scss */
+/* line 79, ../scss/_custom/admin/_locations.scss */
 .locations .refresh-intro {
   margin-bottom: 24px; }
 

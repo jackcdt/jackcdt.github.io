@@ -1,6 +1,172 @@
-@import url('app-ie-blessed2.css?z=1416378079431');
-@import url('app-ie-blessed1.css?z=1416378079431');
+@import url('app-ie-blessed2.css?z=1416439061435');
+@import url('app-ie-blessed1.css?z=1416439061435');
 
+    /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
+    .finalcut-pro-course .seminars-ad .seminars-ad-title {
+      font-size: 1em;
+      line-height: 1.5em;
+      text-transform: uppercase;
+      padding-top: 6px; }
+    /* line 16, ../scss/_custom/components/training/_side-pannel.scss */
+    .finalcut-pro-course .seminars-ad .seminars-ad-content {
+      font-size: 0.75em;
+      line-height: 2em;
+      line-height: 1.6em;
+      padding-bottom: 4px; }
+    /* line 23, ../scss/_custom/components/training/_side-pannel.scss */
+    .finalcut-pro-course .seminars-ad .read-more-btn {
+      padding: 2px 8px; }
+  /* line 67, ../scss/_custom/components/training/_course.scss */
+  .finalcut-pro-course .testimonials {
+    background-color: #E4E4E4;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*    -webkit-overflow-scrolling: touch;*/
+    border: solid 1px #646464;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    /* line 14, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials .testimonials-title {
+      color: #32527f;
+      margin: 6px 9px; }
+    /* line 21, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials .category-testimonial {
+      margin: 5px 10px 12px 10px;
+      font-size: 14px;
+      line-height: 1.5em; }
+      /* line 26, ../scss/_custom/components/training/_testimonials.scss */
+      .finalcut-pro-course .testimonials .category-testimonial span {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #32527f;
+        font-style: italic;
+        display: inline; }
+    /* line 36, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials .category-testimonial-client-name {
+      margin-top: 6px;
+      font-size: 15px; }
+    /* line 42, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials .category-testimonial-course-name {
+      color: #32527f;
+      font-size: 15px;
+      margin-bottom: 18px; }
+    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials::-webkit-scrollbar {
+      -webkit-appearance: none; }
+    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials::-webkit-scrollbar:vertical {
+      width: 5px; }
+    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials::-webkit-scrollbar:horizontal {
+      height: 5px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    .finalcut-pro-course .testimonials::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgba(140, 140, 140, 0.5); }
+
+/* line 5, ../scss/_custom/components/training/_banner.scss */
+.captivate-category .banner-row {
+  background-color: #3ac69d;
+  height: 120px;
+  margin-bottom: 12px; }
+  /* line 13, ../scss/_custom/components/training/_banner.scss */
+  .captivate-category .banner-row .banner-row {
+    height: 120px;
+    margin-bottom: 8px; }
+  /* line 18, ../scss/_custom/components/training/_banner.scss */
+  .captivate-category .banner-row .category-logo {
+    margin: 32.5px 0 32.5px 15px; }
+  /* line 22, ../scss/_custom/components/training/_banner.scss */
+  .captivate-category .banner-row .banner-text {
+    max-width: 75%;
+    top: 32.5px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 22, ../scss/_custom/components/training/_banner.scss */
+      .captivate-category .banner-row .banner-text {
+        max-width: 90%; } }
+    /* line 3, ../scss/_custom/components/_cdt-typography.scss */
+    .captivate-category .banner-row .banner-text .banner-header, .captivate-category .banner-row .banner-text .banner-sub-header {
+      font-family: Raleway, Helvetica, sans-serif;
+      color: #fff; }
+    /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+    .captivate-category .banner-row .banner-text .banner-header {
+      font-size: 1.25em;
+      line-height: 1.2em;
+      line-height: 1em; }
+      @media only screen and (min-width: 40.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .captivate-category .banner-row .banner-text .banner-header {
+          font-size: 1.5em;
+          line-height: 2em;
+          line-height: 1em; } }
+      @media only screen and (min-width: 64.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .captivate-category .banner-row .banner-text .banner-header {
+          font-size: 2em;
+          line-height: 1.5em;
+          line-height: 1em; } }
+    /* line 24, ../scss/_custom/components/_cdt-typography.scss */
+    .captivate-category .banner-row .banner-text .banner-sub-header {
+      font-size: 0.875em;
+      line-height: 1.71429em; }
+/* line 10, ../scss/_custom/components/training/_category.scss */
+.captivate-category .breadcrumb-active {
+  color: #3ac69d; }
+/* line 14, ../scss/_custom/components/training/_category.scss */
+.captivate-category .sw-ver {
+  color: #3ac69d; }
+/* line 18, ../scss/_custom/components/training/_category.scss */
+.captivate-category .course-item {
+  margin-bottom: 24px;
+  margin-top: 12px; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 18, ../scss/_custom/components/training/_category.scss */
+    .captivate-category .course-item {
+      width: 93%; } }
+  /* line 9, ../scss/_custom/components/training/_course-item.scss */
+  .captivate-category .course-item .course-item-title {
+    padding: 3px 0 0 7px;
+    text-transform: uppercase;
+    float: left !important; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 9, ../scss/_custom/components/training/_course-item.scss */
+      .captivate-category .course-item .course-item-title {
+        float: right; } }
+    /* line 18, ../scss/_custom/components/training/_course-item.scss */
+    .captivate-category .course-item .course-item-title h3 {
+      font-size: 1em;
+      line-height: 1.5em;
+      line-height: 1.2em;
+      color: #3ac69d; }
+  /* line 31, ../scss/_custom/components/training/_course-item.scss */
+  .captivate-category .course-item .course-item-header {
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 31, ../scss/_custom/components/training/_course-item.scss */
+      .captivate-category .course-item .course-item-header {
+        height: 3.5em;
+        margin-bottom: 0; } }
+  /* line 40, ../scss/_custom/components/training/_course-item.scss */
+  .captivate-category .course-item .course-item-description {
+    line-height: 1.5em;
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 40, ../scss/_custom/components/training/_course-item.scss */
+      .captivate-category .course-item .course-item-description {
+        height: 12em;
+        margin-bottom: 0; } }
+  /* line 51, ../scss/_custom/components/training/_course-item.scss */
+  .captivate-category .course-item .day-time {
+    font-size: 0.8125em;
+    line-height: 1.84615em; }
+  /* line 55, ../scss/_custom/components/training/_course-item.scss */
+  .captivate-category .course-item .course-item-info,
+  .captivate-category .course-item .course-book-now {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding: 4px 0; }
     /* line 64, ../scss/_custom/components/training/_course-item.scss */
     .captivate-category .course-item .course-item-info a, .captivate-category .course-item .course-item-info a:hover, .captivate-category .course-item .course-item-info a:focus,
     .captivate-category .course-item .course-book-now a,
@@ -2515,10 +2681,11 @@
   margin-bottom: 24px; }
 /* line 50, ../scss/_custom/admin/_locations.scss */
 .locations .city-intro {
+  height: 17em;
   font-size: 0.875em;
   line-height: 1.71429em;
   margin-bottom: 24px; }
-  @media only screen and (max-width: 40em) {
+  @media (min-width: 540px) {
     /* line 50, ../scss/_custom/admin/_locations.scss */
     .locations .city-intro {
       height: 11em; } }
@@ -2530,7 +2697,7 @@
     /* line 50, ../scss/_custom/admin/_locations.scss */
     .locations .city-intro {
       height: 14em; } }
-/* line 67, ../scss/_custom/admin/_locations.scss */
+/* line 69, ../scss/_custom/admin/_locations.scss */
 .locations .general-title,
 .locations .refresh-title {
   font-size: 1.125em;
@@ -2540,11 +2707,11 @@
   margin-top: 16px;
   margin-bottom: 4px;
   text-transform: uppercase; }
-/* line 72, ../scss/_custom/admin/_locations.scss */
+/* line 74, ../scss/_custom/admin/_locations.scss */
 .locations .general-intro,
 .locations .refresh-intro {
   color: #2088D1; }
-/* line 77, ../scss/_custom/admin/_locations.scss */
+/* line 79, ../scss/_custom/admin/_locations.scss */
 .locations .refresh-intro {
   margin-bottom: 24px; }
 
