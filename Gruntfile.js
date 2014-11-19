@@ -18,19 +18,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-image');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-rename');
     var mozjpeg = require('imagemin-mozjpeg');
+
 
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
-        bless: {
-            css: {
-              files: {
-                'stylesheets/app.css': 'stylesheets/app.css'
-              }
-            }
-        },
 
         concat: {
             dist: {
@@ -52,6 +46,32 @@ module.exports = function(grunt) {
             dist: {
                 src: 'temp/js/app.js',
                 dest: 'build/js/app.js'
+            }
+        },
+        copy: {
+            main: {
+                src: 'stylesheets/app.css',
+                dest: 'stylesheets/app-ie.css',
+            },
+            favicon: {
+                src: 'favicon.ico',
+                dest: 'build/favicon.ico',
+            },
+            coursePdfs: {
+                src: 'course-pdfs/*.pdf',
+                dest: 'build/',
+            },
+            sitemapXml: {
+                src: 'sitemap.xml',
+                dest: 'build/sitemap.xml',
+            }
+        },
+        bless: {
+            css: {
+                options: {},
+                files: {
+                    'stylesheets/app-ie.css': 'stylesheets/app-ie.css'
+                }
             }
         },
         cssmin: {
@@ -84,11 +104,31 @@ module.exports = function(grunt) {
                     dest: 'build/images-dist' // Destination path prefix
                 }]
             }
+        },
+        rename: {
+            main: {
+                files: [{
+                    src: 'build/stylesheets/app-ie.css',
+                    dest: 'build/stylesheets/app-part1.css'
+                }, ]
+            },
+            main2: {
+                files: [{
+                    src: 'build/stylesheets/app-ie-blessed2.css',
+                    dest: 'build/stylesheets/app-part2.css'
+                }, ]
+            },
+            main3: {
+                files: [{
+                    src: 'build/stylesheets/app-ie-blessed1.css',
+                    dest: 'build/stylesheets/app-part3.css'
+                }, ]
+            }
         }
-    });
+     });
 
 
     // Default task(s).
-    grunt.registerTask('default', ['compass', 'concat', 'uglify', 'cssmin', 'htmlmin', 'imagemin']);
+    grunt.registerTask('default', ['concat', 'compass', 'uglify', 'copy', 'bless', 'cssmin', 'htmlmin', 'imagemin', 'rename']);
 
 };
