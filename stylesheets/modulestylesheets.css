@@ -1994,3 +1994,43 @@ font-size: 14px;
 .summary-cart span#catCartSummary table.cartSummaryTable {
 	border: none;
 }
+
+/* Large Product Styles Added by Jack */
+
+.large-view .booking-step {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-view .shop-product-large h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.large-view .shop-product-large li.price {
+font-family: 'Raleway',sans-serif;
+font-size: 16px;
+font-weight: 200;
+padding: 0;
+margin: 5px 0 5px 0;
+}
+
+.large-view .shop-product-large .download-and-book .shop-product-large .details ul li, .catProductAttributeGroup .catProdAttributeTitle {
+    font-size: 14px;
+font-family: Raleway;
+background-color: #fff;
+margin: 0;
+font-weight: 300;
+}
+.large-view input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    margin: 0;
+}
+
+.large-view .booking-page-alert {
+font-size: 14px;
+padding: 15px 0 0 0;
+color: #C00;
+line-height: 1.4em;
+}
+.calendar .info-text p {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+}

@@ -7420,7 +7420,7 @@ h4 {
 
 /* line 1, ../scss/_custom/homepage/_slider.scss */
 .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-  background-image: url(/images/homepage/landing-page-banner/background.png);
+  background-image: url(/images-dist/homepage/landing-page-banner/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -7454,7 +7454,7 @@ h4 {
 
 /* line 32, ../scss/_custom/homepage/_slider.scss */
 .slider-1 {
-  background-image: url(/images/homepage/landing-page-banner/main-slider-image.png);
+  background-image: url(/images-dist/homepage/landing-page-banner/main-slider-image.png);
   background-repeat: no-repeat;
   background-size: cover; }
   @media only screen and (min-width: 64.063em) {

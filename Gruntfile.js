@@ -26,12 +26,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        concat: {
-            dist: {
-                src: ['js/fastclick.js', 'js/megamenu-plugins-min.js', 'js/ng_responsive_tables.js', 'js/product-list-view.js', 'bower_components/foundation/js/foundation.min.js'],
-                dest: 'temp/js/app.js'
-            }
-        },
+        // concat: {
+        //     dist: {
+        //         src: [ 'js/jquery.js', 'js/foundation.min.js', 'megamenu-plugins-min.js', 'ng_responsive_tables.js', 'product-list-view.js', 'participants.js', 'fastclick.js'],
+        //         dest: 'build/js/app.js'
+        //     }
+        // },
 
         compass: {
             dist: {
@@ -39,13 +39,6 @@ module.exports = function(grunt) {
                     config: 'config.rb',
                     force: true
                 }
-            }
-        },
-
-        uglify: {
-            dist: {
-                src: 'temp/js/app.js',
-                dest: 'build/js/app.js'
             }
         },
         copy: {
@@ -64,6 +57,46 @@ module.exports = function(grunt) {
             sitemapXml: {
                 src: 'sitemap.xml',
                 dest: 'build/sitemap.xml',
+            },
+            foundationJs: {
+                src: 'bower_components/foundation/js/foundation.min.js',
+                dest: 'build/bower_components/foundation/js/foundation.min.js',
+            },
+            appJs: {
+                src: 'js/app.js',
+                dest: 'build/js/app.js',
+            },
+            megamenuJs: {
+                src: 'js/megamenu-plugins-min.js',
+                dest: 'build/js/megamenu-plugins-min.js',
+            },
+            modernizrJs: {
+                src: 'bower_components/modernizr/modernizr.js',
+                dest: 'build/bower_components/modernizr/modernizr.js',
+            },
+            fastclickJs: {
+                src: 'js/fastclick.js',
+                dest: 'build/js/fastclick.js',
+            },
+            tableResponseJs: {
+                src: 'js/ng_responsive_tables.js',
+                dest: 'build/js/ng_responsive_tables.js',
+            },
+            participantsJs: {
+                src: 'js/participants.js',
+                dest: 'build/js/participants.js',
+            },
+            productListViewJs: {
+                src: 'js/product-list-view.js',
+                dest: 'build/js/product-list-view.js',
+            },
+            remJs: {
+                src: 'js/rem.min.js',
+                dest: 'build/js/rem.min.js',
+            },
+            fonts: {
+                src: 'fonts/*',
+                dest: 'build/',
             }
         },
         bless: {
@@ -129,6 +162,6 @@ module.exports = function(grunt) {
 
 
     // Default task(s).
-    grunt.registerTask('default', ['concat', 'compass', 'uglify', 'copy', 'bless', 'cssmin', 'htmlmin', 'imagemin', 'rename']);
+    grunt.registerTask('default', ['compass', 'copy', 'bless', 'cssmin', 'htmlmin', 'imagemin', 'rename']);
 
 };
