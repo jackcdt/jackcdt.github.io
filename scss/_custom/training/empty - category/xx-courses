@@ -582,14 +582,14 @@ To support REMs, use the REM-unit-polyfill
                     </div>
                     <div class="hide-for-small-only medium-5 large-4 end columns side-pannel">
                         <aside>
-                            <div class="seminars-ad">
+<!--                             <div class="seminars-ad">
                                 <div class="seminars-ad-title">Free InDesign Seminars</div>
                                 <div class="seminars-ad-content">
                                     Join one of our free 60 minute seminars on <strong>InDesign</strong>, <strong>Illustrator</strong> and <strong>Photoshop</strong> in Sydney.
                                     <a href="" class="btn btn-default read-more-btn">Read More</a>
                                 </div>
                             </div>
-                            <div class="training-checklist">
+ -->                            <div class="training-checklist">
                                 <table> 
                                     <thead> 
                                         <tr> 
