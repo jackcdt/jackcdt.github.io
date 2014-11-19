@@ -213,7 +213,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 54, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
+.show-link {
+  text-decoration: underline; }
+
+/* line 57, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }

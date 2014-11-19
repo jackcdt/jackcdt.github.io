@@ -49,6 +49,9 @@ $edge-animate-color: #9d8bff;
     @return (($container-height - $elem-height) / 2);
 }
 
+.show-link {
+    text-decoration: underline;
+}
 
 // Usefull rules
 .nopadding {
