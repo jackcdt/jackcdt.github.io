@@ -1,1 +1,67 @@
-!function(t){t.fn.ngResponsiveTables=function(n){var a={smallPaddingCharNo:5,mediumPaddingCharNo:10,largePaddingCharNo:15},i=this,d={opt:"",dataContent:"",globalWidth:0,init:function(){this.opt=t.extend(a,n),d.targetTable()},targetTable:function(){var n=this;i.find("tr").each(function(){t(this).find("td").each(function(a){n.checkForTableHead(t(this),a),t(this).addClass("tdno"+a)})})},checkForTableHead:function(n,a){this.dataContent=i.find("th").length?i.find("th")[a].textContent:i.find("tr:first td")[a].textContent,this.opt.smallPaddingCharNo>t.trim(this.dataContent).length?n.addClass("small-padding"):this.opt.mediumPaddingCharNo>t.trim(this.dataContent).length?n.addClass("medium-padding"):n.addClass("large-padding"),n.attr("data-content",this.dataContent)}};return t(function(){d.init()}),this}}(jQuery);
+$(document).ready(function() {
+  var switched = false;
+  var updateTables = function() {
+    if (($(window).width() < 1025) && !switched ){
+      switched = true;
+      $("table.responsive").each(function(i, element) {
+        splitTable($(element));
+      });
+      return true;
+    }
+    else if (switched && ($(window).width() >= 1025)) {
+      switched = false;
+      $("table.responsive").each(function(i, element) {
+        unsplitTable($(element));
+      });
+    }
+  };
+   
+  $(window).load(updateTables);
+  $(window).on("redraw",function(){switched=false;updateTables();}); // An event to listen for
+  $(window).on("resize", updateTables);
+   
+	
+	function splitTable(original)
+	{
+		original.wrap("<div class='table-wrapper' />");
+		
+		var copy = original.clone();
+		copy.find("td:not(:first-child), th:not(:first-child)").css("display", "none");
+		copy.removeClass("responsive");
+		
+		original.closest(".table-wrapper").append(copy);
+		copy.wrap("<div class='pinned' />");
+		original.wrap("<div class='scrollable' />");
+
+    setCellHeights(original, copy);
+	}
+	
+	function unsplitTable(original) {
+    original.closest(".table-wrapper").find(".pinned").remove();
+    original.unwrap();
+    original.unwrap();
+	}
+
+  function setCellHeights(original, copy) {
+    var tr = original.find('tr'),
+        tr_copy = copy.find('tr'),
+        heights = [];
+
+    tr.each(function (index) {
+      var self = $(this),
+          tx = self.find('th, td');
+
+      tx.each(function () {
+        var height = $(this).outerHeight(true);
+        heights[index] = heights[index] || 0;
+        if (height > heights[index]) heights[index] = height;
+      });
+
+    });
+
+    tr_copy.each(function (index) {
+      $(this).height(heights[index]);
+    });
+  }
+
+});
