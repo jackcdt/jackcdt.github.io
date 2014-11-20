@@ -1,5 +1,5 @@
-@import url('app-ie-blessed2.css?z=1416439061435');
-@import url('app-ie-blessed1.css?z=1416439061435');
+@import url('app-ie-blessed2.css?z=1416442329250');
+@import url('app-ie-blessed1.css?z=1416442329250');
 
     /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
     .finalcut-pro-course .seminars-ad .seminars-ad-title {
@@ -2007,8 +2007,9 @@
   /* line 116, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive tbody tr td {
     border: 1px solid #dbdbdb;
-    text-align: center; }
-  /* line 121, ../scss/_custom/admin/_calendar.scss */
+    text-align: center;
+    vertical-align: top; }
+  /* line 122, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
     text-align: left; }
 @media screen and (max-width: 1025px) {
@@ -2073,10 +2074,10 @@
     .cdt-calendar .responsive td.row-name {
       font-weight: 600;
       text-align: center; } }
-/* line 133, ../scss/_custom/admin/_calendar.scss */
+/* line 134, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 139, ../scss/_custom/admin/_calendar.scss */
+/* line 140, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1;
   /*    background-color: #CECECE;*/
