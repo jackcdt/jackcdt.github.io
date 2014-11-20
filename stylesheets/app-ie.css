@@ -1,5 +1,5 @@
-@import url('app-ie-blessed2.css?z=1416444758182');
-@import url('app-ie-blessed1.css?z=1416444758182');
+@import url('app-ie-blessed2.css?z=1416461246953');
+@import url('app-ie-blessed1.css?z=1416461246953');
 
     /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
     .finalcut-pro-course .seminars-ad .seminars-ad-title {
@@ -2012,72 +2012,102 @@
   /* line 122, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
     text-align: left; }
-@media screen and (max-width: 1025px) {
-  /* line 2, ../scss/_custom/components/_responsive-table.scss */
-  .cdt-calendar .responsive {
-    display: block; }
-    /* line 5, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive thead,
-    .cdt-calendar .responsive tbody,
-    .cdt-calendar .responsive th,
-    .cdt-calendar .responsive td,
-    .cdt-calendar .responsive tr {
-      display: block; }
-    /* line 10, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive thead tr {
+    /*    .responsive{
+            display: block;
+    
+            thead,
+            tbody,
+            th,
+            td,
+            tr { display: block; }
+            thead tr { position: absolute; top: -9999px; left: -9999px; }
+            tr { border: 1px solid #ccc; margin-bottom: 10px; }
+            td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%;}
+            td:before { position: absolute; top: 6px; left: 6px; width: 40%; padding-right: 10px; text-align: left; word-wrap: break-word;}
+            tr:first-child { position: absolute; top: -9999px; left: -9999px; }
+            td:before { 
+                content: attr(data-content); 
+                height: 50px; 
+                color: $color;
+                font-weight: 600;
+            }
+            td.small-padding { padding-top: 5px; padding-bottom: 5px; }
+            td.medium-padding { padding-top: 15px; padding-bottom: 15px; }
+            td.large-padding { padding-top: 25px; padding-bottom: 25px; }
+            td.row-name {font-weight: 600; text-align: center;}
+        }
+    */
+    margin-bottom: 0; }
+    /* line 29, ../scss/_custom/components/_responsive-table.scss */
+    .cdt-calendar .pinned {
       position: absolute;
-      top: -9999px;
-      left: -9999px; }
-    /* line 11, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive tr {
-      border: 1px solid #ccc;
-      margin-bottom: 10px; }
-    /* line 12, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td {
-      border: none;
-      border-bottom: 1px solid #eee;
+      left: 0;
+      top: 0;
+      background: #fff;
+      width: 35%;
+      overflow: hidden;
+      overflow-x: scroll;
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc; }
+      /* line 33, ../scss/_custom/components/_responsive-table.scss */
+      .cdt-calendar .pinned table {
+        border-spacing: 0px;
+        border-right: none;
+        border-left: none;
+        width: 100%; }
+      /* line 34, ../scss/_custom/components/_responsive-table.scss */
+      .cdt-calendar .pinned table th, .cdt-calendar .pinned table td {
+        white-space: nowrap;
+        height: 112px;
+        border: 1px solid #dbdbdb;
+        border-spacing: 0px; }
+      /* line 35, ../scss/_custom/components/_responsive-table.scss */
+      .cdt-calendar .pinned td:last-child {
+        border-bottom: 0; }
+    /* line 38, ../scss/_custom/components/_responsive-table.scss */
+    .cdt-calendar div.table-wrapper {
       position: relative;
-      padding-left: 50%; }
-    /* line 13, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td:before {
-      position: absolute;
-      top: 6px;
-      left: 6px;
-      width: 40%;
-      padding-right: 10px;
-      text-align: left;
-      word-wrap: break-word; }
-    /* line 14, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive tr:first-child {
-      position: absolute;
-      top: -9999px;
-      left: -9999px; }
-    /* line 15, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td:before {
-      content: attr(data-content);
-      height: 50px;
-      color: #2088D1;
-      font-weight: 600; }
-    /* line 21, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td.small-padding {
-      padding-top: 5px;
-      padding-bottom: 5px; }
-    /* line 22, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td.medium-padding {
-      padding-top: 15px;
-      padding-bottom: 15px; }
-    /* line 23, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td.large-padding {
-      padding-top: 25px;
-      padding-bottom: 25px; }
-    /* line 24, ../scss/_custom/components/_responsive-table.scss */
-    .cdt-calendar .responsive td.row-name {
-      font-weight: 600;
-      text-align: center; } }
-/* line 134, ../scss/_custom/admin/_calendar.scss */
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-right: 1px solid #ccc; }
+    /* line 39, ../scss/_custom/components/_responsive-table.scss */
+    .cdt-calendar div.table-wrapper div.scrollable {
+      margin-left: 35%; }
+    /* line 40, ../scss/_custom/components/_responsive-table.scss */
+    .cdt-calendar div.table-wrapper div.scrollable {
+      overflow: scroll;
+      overflow-y: hidden; }
+    /* line 42, ../scss/_custom/components/_responsive-table.scss */
+    .cdt-calendar .responsive {
+      border: none;
+      border-spacing: 0px; }
+      /* line 46, ../scss/_custom/components/_responsive-table.scss */
+      .cdt-calendar .responsive td, .cdt-calendar .responsive th {
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        height: 112px;
+        border: 1px solid #dbdbdb; }
+      /* line 47, ../scss/_custom/components/_responsive-table.scss */
+      .cdt-calendar .responsive th:first-child, .cdt-calendar .responsive td:first-child, .cdt-calendar .responsive td:first-child, .cdt-calendar .responsive .pinned td {
+        display: none; }
+    /* line 130, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar {
+      -webkit-appearance: none; }
+    /* line 134, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar:vertical {
+      width: 5px; }
+    /* line 138, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar:horizontal {
+      height: 5px; }
+    /* line 142, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgba(140, 140, 140, 0.5); } }
+/* line 151, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 140, ../scss/_custom/admin/_calendar.scss */
+/* line 157, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1;
   /*    background-color: #CECECE;*/

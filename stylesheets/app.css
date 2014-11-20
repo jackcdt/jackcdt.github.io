@@ -21175,11 +21175,24 @@ body {
         border: 1px solid #dbdbdb; }
       /* line 47, ../scss/_custom/components/_responsive-table.scss */
       .cdt-calendar .responsive th:first-child, .cdt-calendar .responsive td:first-child, .cdt-calendar .responsive td:first-child, .cdt-calendar .responsive .pinned td {
-        display: none; } }
-/* line 134, ../scss/_custom/admin/_calendar.scss */
+        display: none; }
+    /* line 130, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar {
+      -webkit-appearance: none; }
+    /* line 134, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar:vertical {
+      width: 5px; }
+    /* line 138, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar:horizontal {
+      height: 5px; }
+    /* line 142, ../scss/_custom/admin/_calendar.scss */
+    .cdt-calendar -webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgba(140, 140, 140, 0.5); } }
+/* line 151, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 140, ../scss/_custom/admin/_calendar.scss */
+/* line 157, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1;
   /*    background-color: #CECECE;*/

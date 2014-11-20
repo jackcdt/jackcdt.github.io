@@ -126,6 +126,23 @@ $calendar-color: #2088D1;
 
     @media screen and (max-width: 1025px) {
         @include responsive-table($calendar-color);
+         
+        -webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+
+        -webkit-scrollbar:vertical {
+            width: 5px;
+        }
+
+        -webkit-scrollbar:horizontal {
+            height: 5px;
+        } 
+
+        -webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: rgba(140, 140, 140, 0.5);
+        }
     }
 
     .custom-training {
