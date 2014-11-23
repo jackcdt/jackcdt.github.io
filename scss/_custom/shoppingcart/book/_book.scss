@@ -6,10 +6,7 @@
     }
 
     .custom-training {
-        @extend %custom-training;
-
         .custom-training-logo {
-            @extend %custom-training-styling;
             border: 1px solid #686F74; 
         } 
     } 

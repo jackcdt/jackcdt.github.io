@@ -1,19 +1,23 @@
-// Custom components 
-@import "foundation-icons";
+// Custom components   
+@import "foundation-icons";  
 @import "breakpoint/stylesheets/breakpoint";
-@import "_custom/common";
+@import "_custom/common";  
 @import "_custom/custom-fonts";  
 @import "_custom/components/breadcrumbs";
 @import "_custom/components/border-radius";
 @import "_custom/components/cdt-typography";
 @import "_custom/components/read-more-btn";
-@import "_custom/components/plus-minus-icon";
+@import "_custom/components/plus-minus-icon"; 
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
 @import "_custom/header/header"; 
+@import "_custom/components/training/banner-no-color";
+@import "_custom/components/training/side-panel-no-color";
+@import "_custom/components/training/custom-training-no-color"; 
+@import "_custom/components/training/course-item-no-color";
 @import "_custom/components/training/course-no-color-items";
-@import "_custom/components/training/category-no-color-items";
-    
+@import "_custom/components/training/category-no-color-items"; 
+     
 // Homepage
 @import "_custom/homepage/slider";
 @import "_custom/homepage/megamenu";
@@ -50,7 +54,7 @@
 @import "_custom/training/adobe/digital-publishing/dps-pro-app";
 @import "_custom/training/adobe/digital-publishing/indesign-to-ebook";
 
-@import "_custom/training/adobe/flash/flash-category";  
+@import "_custom/training/adobe/flash/flash-category";   
 @import "_custom/training/adobe/flash/flash-essentials"; 
 @import "_custom/training/adobe/flash/flash-web-banners";  
 @import "_custom/training/adobe/flash/flash-actionscript"; 
@@ -109,7 +113,6 @@
 @import "_custom/admin/locations";
 @import "_custom/admin/custom-training";
 @import "_custom/admin/sitemap"; 
-
 
 //Shopping Cart Pages
 @import "_custom/shoppingcart/checkout";

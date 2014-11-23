@@ -64,9 +64,7 @@
     }
 
     .custom-training {
-        @extend %custom-training;
-
-        @media #{$small-only} {
+        @media #{$small-only} { 
             margin-bottom: $margin-bottom-default * 1.5 !important;
         }
 
@@ -109,21 +107,6 @@
         margin-bottom: 30px;
     }
 
-    .category-video {
-        margin-bottom: $margin-bottom-default * 0.6;  
-    }
-
-    .custom-training {
-        @extend %custom-training;
-
-        @media #{$small-only} {
-            margin-bottom: $margin-bottom-default * 1.5 !important;
-        }
-
-        @media #{$medium-only} {
-            margin-bottom: $margin-bottom-default * 1.5 !important;
-        }
-    }
     .part-time-options {
         @extend %t-small;
         @extend %t-strong;   

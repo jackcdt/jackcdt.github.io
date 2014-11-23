@@ -1,5 +1,4 @@
-@mixin seminars-ad($color: #000) {
-    background-color: $color;
+.seminars-ad {
     color: #fff;
     padding: 0 $margin-bottom-default / 4;
     @include set-border-radius(4px);
@@ -26,8 +25,7 @@
     }
 }
 
-@mixin training-checklist($color: #000) {
-    border: 1px solid $color;
+.training-checklist {   
 /*    background-color: #CECECE;*/
     margin-bottom: $margin-bottom-default * 0.6;
 
@@ -50,7 +48,6 @@
     }
 
     .training-checklist-header {
-        color: $color;
         @extend %t-emphasize;
         @extend %t-medium;
      }
@@ -63,10 +60,6 @@
 
         .center-content {
             text-align: center;
-        }
-
-        thead, tr.even, tr.alt, tr:nth-of-type(even) {
-            background: lighten($color, 50%);
         }
     }
 
@@ -81,7 +74,6 @@
     }
 
     i {
-        color: $color;
         @extend %t-thinnest;
         @extend %t-medium;
     }
