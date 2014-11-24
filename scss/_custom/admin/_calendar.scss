@@ -1,3 +1,5 @@
+@import "../components/training/side-pannel"; 
+
 $calendar-color: #2088D1; 
   
 .cdt-calendar {
@@ -116,8 +118,9 @@ $calendar-color: #2088D1;
         tbody tr td {
             border: 1px solid #dbdbdb;
             text-align: center;
+            vertical-align: top;
         }
-        
+
         td.row-name {
             text-align: left;
         }
@@ -125,13 +128,27 @@ $calendar-color: #2088D1;
 
     @media screen and (max-width: 1025px) {
         @include responsive-table($calendar-color);
+         
+        -webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+
+        -webkit-scrollbar:vertical {
+            width: 5px;
+        }
+
+        -webkit-scrollbar:horizontal {
+            height: 5px;
+        } 
+
+        -webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: rgba(140, 140, 140, 0.5);
+        }
     }
 
     .custom-training {
-        @extend %custom-training;
-
         .custom-training-logo {
-            @extend %custom-training-styling;
             border: 1px solid #686F74; 
         } 
     }

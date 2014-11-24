@@ -48,14 +48,16 @@ $locations-color: #2088D1;
     }
 
     .city-intro {
-        @media #{$small-only} {
+        height: 17em;
+
+        @media (min-width: 540px) {
             height: 11em;
         }
 
         @media #{$medium-only} {
             height: 22em;
         }
-
+ 
         @media #{$large-up} {
             height: 14em;
         }

@@ -1,0 +1,13 @@
+@import "_custom/common";
+
+.photoshop-lr-course-course {
+
+    /* Hide all sprites */
+    .ps-lr-framed, .course-classrom, .pdf {
+        display: none !important;
+    }
+
+    .book-now-btn {
+        background-color: $photoshop-color;
+    } 
+}

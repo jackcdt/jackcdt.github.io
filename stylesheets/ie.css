@@ -489,6 +489,18 @@
 .custom-breadcrumbs > * a {
   margin: 6px 10px; }
 
+/* line 22, ../scss/_custom/components/training/_old-ie-styles.scss */
+.category-page .courses-list {
+  margin-top: 0; }
+
+/* line 26, ../scss/_custom/components/training/_old-ie-styles.scss */
+h1 {
+  margin-top: 0 !important; }
+
+/* line 30, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-training, .gradient-top {
+  display: none !important; }
+
 /* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
 .category-page p {
   margin-bottom: 24px; }
@@ -582,7 +594,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 54, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
+.show-link {
+  text-decoration: underline; }
+
+/* line 57, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -674,7 +690,7 @@ body {
 .photoshop-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-old-ie-styles.scss */
-  .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .custom-training, .photoshop-essentials-course .id-essentials,
+  .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .id-essentials,
   .photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .il-ess, .photoshop-essentials-course .and {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-old-ie-styles.scss */
@@ -685,7 +701,7 @@ body {
 .photoshop-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-old-ie-styles.scss */
-  .photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .custom-training, .photoshop-advanced-course .ps-advanced {
+  .photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .ps-advanced {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-old-ie-styles.scss */
   .photoshop-advanced-course .book-now-btn {
@@ -695,7 +711,7 @@ body {
 .photoshop-lite-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-old-ie-styles.scss */
-  .photoshop-lite-course .course-classrom, .photoshop-lite-course .pdf, .photoshop-lite-course .custom-training, .photoshop-lite-course .ps-lite,
+  .photoshop-lite-course .course-classrom, .photoshop-lite-course .pdf, .photoshop-lite-course .ps-lite,
   .photoshop-lite-course .ps-essentials, .photoshop-lite-course .id-lite, .photoshop-lite-course .il-lite {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-old-ie-styles.scss */
@@ -706,11 +722,21 @@ body {
 .photoshop-web-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-web-old-ie-styles.scss */
-  .photoshop-web-course .course-classrom, .photoshop-web-course .pdf, .photoshop-web-course .custom-training, .photoshop-web-course .id-advanced, .photoshop-web-course .ps-web-framed,
+  .photoshop-web-course .course-classrom, .photoshop-web-course .pdf, .photoshop-web-course .id-advanced, .photoshop-web-course .ps-web-framed,
   .photoshop-web-course .ps-essentials, .photoshop-web-course .ps-lite {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/photoshop/_photoshop-web-old-ie-styles.scss */
   .photoshop-web-course .book-now-btn {
+    background-color: #79bdfe; }
+
+/* line 3, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
+.photoshop-lr-course-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
+  .photoshop-lr-course-course .ps-lr-framed, .photoshop-lr-course-course .course-classrom, .photoshop-lr-course-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
+  .photoshop-lr-course-course .book-now-btn {
     background-color: #79bdfe; }
 
 /* Push up the custom training to compensate for no image */
@@ -732,7 +758,7 @@ body {
 .illustrator-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
-  .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .custom-training, .illustrator-essentials-course .il-advanced,
+  .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .il-advanced,
   .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .and {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
@@ -743,7 +769,7 @@ body {
 .illustrator-lite-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
-  .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .custom-training, .illustrator-lite-course .id-lites,
+  .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .id-lites,
   .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .il-lite {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
@@ -754,7 +780,7 @@ body {
 .illustrator-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-old-ie-styles.scss */
-  .illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .custom-training, .illustrator-advanced-course .il-advanced {
+  .illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .il-advanced {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-old-ie-styles.scss */
   .illustrator-advanced-course .book-now-btn {
@@ -775,7 +801,7 @@ body {
 .acrobat-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-old-ie-styles.scss */
-  .acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .custom-training, .acrobat-essentials-course .acrobat-pdfforms {
+  .acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .acrobat-pdfforms {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-old-ie-styles.scss */
   .acrobat-essentials-course .book-now-btn {
@@ -785,7 +811,7 @@ body {
 .acrobat-pdfforms-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-old-ie-styles.scss */
-  .acrobat-pdfforms-course .acrobat-essentials, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .custom-training, .acrobat-pdfforms-course .acrobat-pdfforms {
+  .acrobat-pdfforms-course .acrobat-essentials, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .acrobat-pdfforms {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-old-ie-styles.scss */
   .acrobat-pdfforms-course .book-now-btn {
@@ -809,7 +835,7 @@ body {
 .indesign-to-ipad-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
-  .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .custom-training, .indesign-to-ipad-course .eg-essentials,
+  .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .eg-essentials,
   .indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .id-ipad {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-old-ie-styles.scss */
@@ -820,7 +846,7 @@ body {
 .dps-single-app-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
-  .dps-single-app-course .id-essentials-framed, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .custom-training, .dps-single-app-course .id-advanced,
+  .dps-single-app-course .id-essentials-framed, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .id-advanced,
   .dps-single-app-course .id-essentials, .dps-single-app-course .ps-ess, .dps-single-app-course .il-ess, .dps-single-app-course .and {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-old-ie-styles.scss */
@@ -831,7 +857,7 @@ body {
 .dps-pro-app-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
-  .dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .custom-training, .dps-pro-app-course .id-dps-single,
+  .dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .id-dps-single,
   .dps-pro-app-course .id-ipad {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-old-ie-styles.scss */
@@ -842,7 +868,7 @@ body {
 .indesign-to-ebook-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
-  .indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .custom-training, .indesign-to-ebook-course .id-advanced,
+  .indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .id-advanced,
   .indesign-to-ebook-course .id-interactivity, .indesign-to-ebook-course .id-ipad {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-old-ie-styles.scss */
@@ -865,7 +891,7 @@ body {
 .flash-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/flash/_flash-essentials-old-ie-styles.scss */
-  .flash-essentials-course .fl-essentials-framed, .flash-essentials-course .course-classrom, .flash-essentials-course .pdf, .flash-essentials-course .custom-training, .flash-essentials-course .fl-banners,
+  .flash-essentials-course .fl-essentials-framed, .flash-essentials-course .course-classrom, .flash-essentials-course .pdf, .flash-essentials-course .fl-banners,
   .flash-essentials-course .fl-actionscript, .flash-essentials-course .eg-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/flash/_flash-essentials-old-ie-styles.scss */
@@ -876,7 +902,7 @@ body {
 .flash-web-banners-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/flash/_flash-web-banners-old-ie-styles.scss */
-  .flash-web-banners-course .eg-essentials, .flash-web-banners-course .course-classrom, .flash-web-banners-course .pdf, .flash-web-banners-course .custom-training, .flash-web-banners-course .fl-banners,
+  .flash-web-banners-course .eg-essentials, .flash-web-banners-course .course-classrom, .flash-web-banners-course .pdf, .flash-web-banners-course .fl-banners,
   .flash-web-banners-course .fl-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/flash/_flash-web-banners-old-ie-styles.scss */
@@ -887,7 +913,7 @@ body {
 .flash-actionscript-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/flash/_flash-actionscript-old-ie-styles.scss */
-  .flash-actionscript-course .eg-essentials, .flash-actionscript-course .course-classrom, .flash-actionscript-course .pdf, .flash-actionscript-course .custom-training, .flash-actionscript-course .fl-actionscript,
+  .flash-actionscript-course .eg-essentials, .flash-actionscript-course .course-classrom, .flash-actionscript-course .pdf, .flash-actionscript-course .fl-actionscript,
   .flash-actionscript-course .js-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/flash/_flash-actionscript-old-ie-styles.scss */
@@ -910,7 +936,7 @@ body {
 .html-web-principles-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-old-ie-styles.scss */
-  .html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .custom-training, .html-web-principles-course .css3-package,
+  .html-web-principles-course .html-ess, .html-web-principles-course .course-classrom, .html-web-principles-course .pdf, .html-web-principles-course .css3-package,
   .html-web-principles-course .dreamweaver-package, .html-web-principles-course .dw-essentials, .html-web-principles-course .html5css, .html-web-principles-course .html5-package,
   .html-web-principles-course .html-css, .html-web-principles-course .html-ess {
     display: none !important; }
@@ -922,7 +948,7 @@ body {
 .css-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
-  .css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .custom-training, .css-essentials-course .css3-package,
+  .css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .css3-package,
   .css-essentials-course .dreamweaver-package, .css-essentials-course .dw-essentials, .css-essentials-course .html5css, .css-essentials-course .html5-package, .css-essentials-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/html-css/_css-essentials-old-ie-styles.scss */
@@ -933,7 +959,7 @@ body {
 .html-responsive-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
-  .html-responsive-course .html-ess, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .custom-training, .html-responsive-course .htmlnews,
+  .html-responsive-course .html-ess, .html-responsive-course .course-classrom, .html-responsive-course .pdf, .html-responsive-course .htmlnews,
   .html-responsive-course .ps-web {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/html-css/_html-responsive-old-ie-styles.scss */
@@ -944,7 +970,7 @@ body {
 .html5-css3-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
-  .html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .custom-training, .html5-css3-course .jq-essentials,
+  .html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .jq-essentials,
   .html5-css3-course .js-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/html-css/_html5-css3-old-ie-styles.scss */
@@ -960,14 +986,15 @@ body {
   .dreamweaver-category .dw-essentials,
   .dreamweaver-category .dw-essentials-framed,
   .dreamweaver-category .html-css,
-  .dreamweaver-category .html-ess {
+  .dreamweaver-category .html-ess,
+  .dreamweaver-category .mu-essentials {
     display: none; }
 
 /* line 3, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
 .dreamweaver-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
-  .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .custom-training, .dreamweaver-essentials-course .html5css,
+  .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .html5css,
   .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .html5-package, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
@@ -978,7 +1005,7 @@ body {
 .muse-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
-  .muse-essentials-course .mu-essentials-framed, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf, .muse-essentials-course .custom-training,
+  .muse-essentials-course .mu-essentials, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf,
   .muse-essentials-course .ps-essentials, .muse-essentials-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
@@ -999,7 +1026,7 @@ body {
 .wordpress-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-old-ie-styles.scss */
-  .wordpress-essentials-course .wp-essentials-framed, .wordpress-essentials-course .course-classrom, .wordpress-essentials-course .pdf, .wordpress-essentials-course .custom-training, .wordpress-essentials-course .wp-advanced,
+  .wordpress-essentials-course .wp-essentials-framed, .wordpress-essentials-course .course-classrom, .wordpress-essentials-course .pdf, .wordpress-essentials-course .wp-advanced,
   .wordpress-essentials-course .html-css, .wordpress-essentials-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-old-ie-styles.scss */
@@ -1010,7 +1037,7 @@ body {
 .wordpress-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-old-ie-styles.scss */
-  .wordpress-advanced-course .wp-advanced-framed, .wordpress-advanced-course .course-classrom, .wordpress-advanced-course .pdf, .wordpress-advanced-course .custom-training, .wordpress-advanced-course .wp-essentials,
+  .wordpress-advanced-course .wp-advanced-framed, .wordpress-advanced-course .course-classrom, .wordpress-advanced-course .pdf, .wordpress-advanced-course .wp-essentials,
   .wordpress-advanced-course .html-css, .wordpress-advanced-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-old-ie-styles.scss */
@@ -1032,7 +1059,7 @@ body {
 .javascript-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
-  .javascript-essentials-course .js-essentials-framed, .javascript-essentials-course .course-classrom, .javascript-essentials-course .pdf, .javascript-essentials-course .custom-training, .javascript-essentials-course .jq-essentials {
+  .javascript-essentials-course .js-essentials-framed, .javascript-essentials-course .course-classrom, .javascript-essentials-course .pdf, .javascript-essentials-course .jq-essentials {
     display: none !important; }
   /* line 10, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-old-ie-styles.scss */
   .javascript-essentials-course .book-now-btn {
@@ -1042,7 +1069,7 @@ body {
 .jquery-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
-  .jquery-essentials-course .id-essentials-framed, .jquery-essentials-course .course-classrom, .jquery-essentials-course .pdf, .jquery-essentials-course .custom-training, .jquery-essentials-course .id-advanced,
+  .jquery-essentials-course .id-essentials-framed, .jquery-essentials-course .course-classrom, .jquery-essentials-course .pdf, .jquery-essentials-course .id-advanced,
   .jquery-essentials-course .id-essentials, .jquery-essentials-course .ps-ess, .jquery-essentials-course .il-ess, .jquery-essentials-course .and {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-old-ie-styles.scss */
@@ -1061,7 +1088,7 @@ body {
 .edge-animate-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
-  .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .custom-training, .edge-animate-essentials-course .dps-package {
+  .edge-animate-essentials-course .eg-essentials-framed, .edge-animate-essentials-course .course-classrom, .edge-animate-essentials-course .pdf, .edge-animate-essentials-course .dps-package {
     display: none !important; }
   /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-essentials-old-ie-styles.scss */
   .edge-animate-essentials-course .book-now-btn {
@@ -1071,7 +1098,7 @@ body {
 .edge-animate-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
-  .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .custom-training, .edge-animate-advanced-course .dps-package {
+  .edge-animate-advanced-course .eg-essentials-framed, .edge-animate-advanced-course .course-classrom, .edge-animate-advanced-course .pdf, .edge-animate-advanced-course .dps-package {
     display: none !important; }
   /* line 10, ../scss/_custom/training/web-design-development/edge-animate/_edge-animate-advanced-old-ie-styles.scss */
   .edge-animate-advanced-course .book-now-btn {
@@ -1093,7 +1120,7 @@ body {
 .after-effects-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-old-ie-styles.scss */
-  .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .custom-training, .after-effects-essentials-course .ae-advanced,
+  .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .ae-advanced,
   .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-old-ie-styles.scss */
@@ -1104,7 +1131,7 @@ body {
 .after-effects-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
-  .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .custom-training, .after-effects-advanced-course .ae-essentials,
+  .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .ae-essentials,
   .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
     display: none !important; }
   /* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-old-ie-styles.scss */
@@ -1128,7 +1155,7 @@ body {
 .premiere-pro-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-old-ie-styles.scss */
-  .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .custom-training, .premiere-pro-essentials-course .pr-advanced,
+  .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .pr-advanced,
   .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .ps-essentials, .premiere-pro-essentials-course .pr-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-old-ie-styles.scss */
@@ -1139,7 +1166,7 @@ body {
 .premiere-pro-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-old-ie-styles.scss */
-  .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .custom-training, .premiere-pro-advanced-course .pr-essentials,
+  .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .pr-essentials,
   .premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced {
     display: none !important; }
   /* line 11, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-old-ie-styles.scss */
@@ -1150,7 +1177,7 @@ body {
 .premiere-elements-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/premiere-pro/_premiere-elements-old-ie-styles.scss */
-  .premiere-elements-course .pr-elements-framed, .premiere-elements-course .course-classrom, .premiere-elements-course .pdf, .premiere-elements-course .custom-training,
+  .premiere-elements-course .pr-elements-framed, .premiere-elements-course .course-classrom, .premiere-elements-course .pdf,
   .premiere-elements-course .pr-essentials {
     display: none !important; }
   /* line 11, ../scss/_custom/training/video-editing/premiere-pro/_premiere-elements-old-ie-styles.scss */
@@ -1161,7 +1188,7 @@ body {
 .finalcut-pro-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
-  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf, .finalcut-pro-course .custom-training {
+  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf {
     display: none !important; }
   /* line 10, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
   .finalcut-pro-course .book-now-btn {
@@ -1185,7 +1212,7 @@ body {
 .captivate-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/captivate/_captivate-essentials-old-ie-styles.scss */
-  .captivate-essentials-course .cp-ess, .captivate-essentials-course .course-classrom, .captivate-essentials-course .pdf, .captivate-essentials-course .custom-training, .captivate-essentials-course .cp-adv {
+  .captivate-essentials-course .cp-ess, .captivate-essentials-course .course-classrom, .captivate-essentials-course .pdf, .captivate-essentials-course .cp-adv {
     display: none !important; }
   /* line 10, ../scss/_custom/training/captivate/_captivate-essentials-old-ie-styles.scss */
   .captivate-essentials-course .book-now-btn {
@@ -1195,7 +1222,7 @@ body {
 .captivate-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/captivate/_captivate-advanced-old-ie-styles.scss */
-  .captivate-advanced-course .cp-ess, .captivate-advanced-course .course-classrom, .captivate-advanced-course .pdf, .captivate-advanced-course .custom-training, .captivate-advanced-course .cp-adv {
+  .captivate-advanced-course .cp-ess, .captivate-advanced-course .course-classrom, .captivate-advanced-course .pdf, .captivate-advanced-course .cp-adv {
     display: none !important; }
   /* line 10, ../scss/_custom/training/captivate/_captivate-advanced-old-ie-styles.scss */
   .captivate-advanced-course .book-now-btn {
@@ -1281,3 +1308,14 @@ conversion-optimisation
   .cdt-book .ps-advanced, .cdt-book .seo-ess,
   .cdt-book .wp-essentials {
     display: none; }
+
+/* line 2, ../scss/_custom/admin/_calendar-old-ie-styles.scss */
+.cdt-calendar .calendar-custom-training {
+  display: none !important; }
+/* line 6, ../scss/_custom/admin/_calendar-old-ie-styles.scss */
+.cdt-calendar .accordion-navigation .content {
+  display: block !important; }
+
+/* line 3, ../scss/_custom/admin/_training-benefits-old-ie-styles.scss */
+.cdt-wtwu .testimonials-slider {
+  display: none !important; }

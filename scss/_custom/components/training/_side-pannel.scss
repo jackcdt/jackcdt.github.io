@@ -1,88 +1,21 @@
 @mixin seminars-ad($color: #000) {
     background-color: $color;
-    color: #fff;
-    padding: 0 $margin-bottom-default / 4;
-    @include set-border-radius(4px);
-    margin-bottom: $margin-bottom-default * 0.6;  
-
-    .seminars-ad-title {
-        @include adjust-font-size-to($base-font-size, 1);
-        @extend %t-light;
-        @extend %t-base;
-        text-transform: uppercase;
-        padding-top: $margin-bottom-default / 4;
-    }
-
-    .seminars-ad-content {
-        @extend %t-ultralight;
-        @include adjust-font-size-to(12px, 1);
-        line-height: 1.6em; 
-        padding-bottom: $margin-bottom-default / 6;
-    }
-
-    .read-more-btn {
-        @extend %read-more-btn;
-        padding: 2px 8px;
-    }
 }
 
 @mixin training-checklist($color: #000) {
     border: 1px solid $color;
-/*    background-color: #CECECE;*/
-    margin-bottom: $margin-bottom-default * 0.6;
-
-    @include set-border-radius(4px);
-
-    th, td {
-        padding: 0 0 4px 5px;
-    }
-
-    td {
-        font-size: 14px;
-        text-align: left;
-    }
-
-    th {
-        text-align: left;
-        
-        @extend %t-medium;
-        @extend %t-emphasize;
-    }
-
+    
     .training-checklist-header {
         color: $color;
-        @extend %t-emphasize;
-        @extend %t-medium;
      }
 
     table {
-        margin-top: $margin-bottom-default / 6;
-        border-top: none;
-        margin-bottom: 1em;
-        width: 100%;
-
-        .center-content {
-            text-align: center;
-        }
-
         thead, tr.even, tr.alt, tr:nth-of-type(even) {
             background: lighten($color, 50%);
         }
     }
 
-    .note {
-        @extend %t-small;
-    }
-
-    .foot-note {
-        @extend %t-small;
-        margin-left: 10px;
-        display: block;
-    }
-
     i {
         color: $color;
-        @extend %t-thinnest;
-        @extend %t-medium;
     }
 }

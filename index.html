@@ -17,11 +17,10 @@
     <meta name="description" content="Short instructor-led courses and custom training for Adobe, Digital Publishing, web design and web development, video editing, eLearning and online marketing." />
     <meta name="keywords" content="short courses, Adobe training, web design, web development" />
 
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
 
+        <link rel="stylesheet" href="/stylesheets/homepage.css" />
+
+        <!--[if lt IE 9]>
             <link href="/stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -37,20 +36,17 @@
         <![endif]-->
 
         <!--[if IE 9]>
-            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
-
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <![endif]-->
-            
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
+        <![endif]-->
+
         <!--[if !IE]>-->
-            <link rel="stylesheet" href="/stylesheets/app.css" />
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
-        <script src="/bower_components/modernizr/modernizr.js"></script>
+        <script src="/bower_components/modernizr/min/modernizr-min.js"></script>
         <script>
+
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -506,8 +502,12 @@
         <div class="blue-bar show-for-medium-up">
             <div class="row">
                 <div class="small-2 columns fb-icon">
-                    <img src="images-dist/homepage/fb_icon.png" alt="">
-                    <img src="images-dist/homepage/tweeter_icon.png" alt="">
+                    <a target="_blank" href="https://www.facebook.com/citydesktop">
+                        <img alt="tweeter" src="images-dist/homepage/fb_icon.png">
+                    </a>
+                    <a target="_blank" href="https://twitter.com/citydesktop">
+                        <img alt="facebook" src="images-dist/homepage/tweeter_icon.png">
+                    </a>
                 </div>
                 <div class="small-10 columns custom-txt">
                     <p class="text-right">Custom training and short courses in SYDNEY, MELBOURNE, BRISBANE &amp; CANBERRA</p>
@@ -547,7 +547,7 @@
         </div>
         <div class="row accordion-home">
             <dl class="accordion" data-accordion>
-                <dd class="accordion-navigation">
+                <dd class="accordion-navigation active">
                     <a href="#panel1" class="panel-header">
                         <span class="plus-minus-icon"></span>Graphic Design Training &amp; Courses</a>
                     <div id="panel1" class="content active">
@@ -617,7 +617,7 @@
                                             <img src="images-dist/homepage/logo-whatsnew.png" alt="Adobe CC/CS New Features" class="course-icon">
                                         </div>
                                         <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/adobe-cs6-new-features.html">
+                                            <a href="/tips/adobe-software-getting-started.html">
                                                 <h3 class="two-line">ADOBE CC/CS6 NEW
                                                     <br>FEATURES</h3>
                                             </a>
@@ -875,7 +875,7 @@
                                         <p>An introduction to coding animation, interactivity and interface controls.</p>
                                     </div>
                                 </div>
-                                <div class="medium-6 large-4 columns">
+                                <div class="medium-6 large-4 end columns">
                                     <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-jquery.png" alt="jQuery" class="course-icon">
@@ -888,7 +888,7 @@
                                         <p>Utilise jQuery libraries for advanced JavaScript site capabilities.</p>
                                     </div>
                                 </div>
-                                <div class="medium-6 large-4 columns">
+<!--                                 <div class="medium-6 large-4 columns">
                                     <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-php.png" alt="PHP Custom Training" class="course-icon">
@@ -902,7 +902,7 @@
                                         <p>Build database driven sites, CMSs and e-commerce sites.</p>
                                     </div>
                                 </div>
-                            </div>
+ -->                            </div>
                         </div>
                     </div>
                 </dd>
@@ -1138,74 +1138,44 @@
                                 <div class="medium-6 large-4 columns">
                                     <div class="row acc-container-lg-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
-                                            <img src="images-dist/homepage/logo-marketing-fundamentals.png" alt="Online Marketing Fundamentals" class="course-icon">
+                                            <img src="images-dist/homepage/seo-ess.png" alt="SEO Essentials" class="course-icon">
                                         </div>
                                         <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/online-courses/online-marketing-fundamentals.html">
-                                                <h3 class="two-line">ONLINE MARKETING
-                                                    <br>FUNDAMENTALS</h3>
+                                            <a href="/training-courses/seo-training-intro.html">
+                                                <h3 class="two-line">SEO
+                                                    <br>ESSENTIALS</h3>
                                             </a>
                                         </div>
-                                        <p>Learn how to navigate the world’s largest professional networking site. This wide ranging course will show how to manage your professional identity online by building a credible LinkedIn profile, target relevant industry groups, connect with professionals, review users looking at your profile and more!</p>
+                                        <p>If you want better results in the search engines then you must be prepared to fight for it, it won’t just happen on its own! The Search Engine Success Workshop is a power-packed hands-on program that will guide you through today’s leading marketing strategies showing you how you can rank higher in the search engines.</p>
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
                                     <div class="row acc-container-lg-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
-                                            <img src="images-dist/homepage/logo-ppc.png" alt="PPC Marketing" class="course-icon">
+                                            <img src="images-dist/homepage/ga-essentials.png" alt="Google Analytics" class="course-icon">
                                         </div>
                                         <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/online-courses/pay-per-click-marketing.html">
-                                                <h3 class="two-line">PPC (Pay-Per-Click)
-                                                    <br>MARKETING</h3>
+                                            <a href="/training-courses/google-analytics-training.html">
+                                                <h3 class="two-line">GOOGLE ANALYTICS
+                                                    <br>FOR BUSINESS</h3>
                                             </a>
                                         </div>
-                                        <p>Facebook provides a platform for businesses big and small to help them gain exposure, increase engagement with existing and potential customers, and create brand loyalty. Learn how to build a Facebook page specifically for your business.</p>
+                                        <p>This comprehensive course will provide you with the skills to understand and interpret the wealth of information provided by Google Analytics including understanding how people (and potential customers) are using your website.</p>
                                     </div>
                                 </div>
-                                <div class="medium-6 large-4 columns">
+                                <div class="medium-6 large-4 end columns">
                                     <div class="row acc-container-lg-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
-                                            <img src="images-dist/homepage/logo-social-media-marketing.png" alt="Social Media Marketing" class="course-icon">
+                                            <img src="images-dist/homepage/linkedin-essentials.png" alt="LinkedIn for Business" class="course-icon">
                                         </div>
                                         <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/online-courses/social-media-marketing.html">
-                                                <h3 class="two-line">SOCIAL MEDIA
-                                                    <br>MARKETING</h3>
+                                            <a href="/training-courses/linkedin-training.html">
+                                                <h3 class="two-line">LINKEDIN FOR
+                                                    <br>BUSINESS</h3>
                                             </a>
                                         </div>
-                                        <p>Learn how to set up a Twitter account, write Tweets, create conversations, find and maintain followers and use apps to manage Tweeting.</p>
+                                        <p>Learn how to navigate the world’s largest professional networking site. This wide ranging course will show how to manage your professional identity online by building a credible LinkedIn profile, target relevant industry groups, connect with professionals and more!</p>
                                     </div>
-                                </div>
-                                <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg-1">
-                                        <div class="small-1 medium-2 large-2 columns no-padding">
-                                            <img src="images-dist/homepage/logo-conversion-optimisation.png" alt="Conversion Optimisation" class="course-icon">
-                                        </div>
-                                        <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/online-courses/landing-page-conversion-optimisation.html">
-                                                <h3 class="two-line">CONVERSION
-                                                    <br>OPTIMISATION</h3>
-                                            </a>
-                                        </div>
-                                        <p>Learn a wide variety of relevant strategy and tactics, with a key theme being how to use social media, and more broadly digital marketing and sales methods, to promote and / or sell the material that’s important for you.</p>
-                                    </div>
-                                </div>
-                                <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg-1">
-                                        <div class="small-1 medium-2 large-2 columns no-padding">
-                                            <img src="images-dist/homepage/logo-seo.png" alt="Search Engine Optimisation" class="course-icon">
-                                        </div>
-                                        <div class="small-11 medium-10 large-10 columns no-padding">
-                                            <a href="/online-courses/search-engine-optimisation.html">
-                                                <h3 class="two-line">SEARCH ENGINE
-                                                    <br>OPTIMISATION</h3>
-                                            </a>
-                                        </div>
-                                        <p>Learn how to find and interpret important stats about your website performance, increase conversions and generate more sales and leads online.</p>
-                                    </div>
-                                </div>
-                                <div class="medium-6 large-4 columns">
                                 </div>
                             </div>
                         </div>
@@ -1320,44 +1290,47 @@
         </div>
     </div>
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script>
-            // Fix for foundation stylesheets being picked up as "null" or "not an object",
-            // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
-            (function($) {
-                if (!Foundation.stylesheet) {
-                    Foundation._style_element = $('').appendTo('head')[0];
-                    Foundation.stylesheet     = Foundation._style_element.styleSheet;
-                    
-                    if (Foundation.stylesheet) {
-                        Foundation.stylesheet.cssRules = {
-                            length: 0
-                        };
-
-                        Foundation.stylesheet.insertRule = function(rule, index) {
-                            var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
-                            mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
-                            mediaMatch = mediaRegex.exec(rule);
-                            media      = '';
-
-                            if (mediaMatch) {
-                                media = '@media ' + mediaMatch[1] + ' ';
-                                rule  = mediaMatch[2];
-                            }
-
-                            ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
-                            ruleMatch = ruleRegex.exec(rule);
-                            namespace = '' + media + ruleMatch[1];
-                            rule      = ruleMatch[2];
-
-                            return this.addRule(namespace, rule);
-                        };
-                    } else if (window.console) {
-                        console.log('Could not fix Foundation CSS rules…');
-                    }
-                }
-            })(jQuery);
-        </script>
         <script src="/bower_components/foundation/js/foundation.min.js"></script>
+        <!--[if lt IE 9]>
+            <script>
+                // Include Foundation js fix before initiating foundation
+                // Fix for foundation stylesheets being picked up as "null" or "not an object",
+                // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
+                (function($) {
+                    if (!Foundation.stylesheet) {
+                        Foundation._style_element = $('').appendTo('head')[0];
+                        Foundation.stylesheet     = Foundation._style_element.styleSheet;
+                        
+                        if (Foundation.stylesheet) {
+                            Foundation.stylesheet.cssRules = {
+                                length: 0
+                            };
+    
+                            Foundation.stylesheet.insertRule = function(rule, index) {
+                                var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                                mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                                mediaMatch = mediaRegex.exec(rule);
+                                media      = '';
+    
+                                if (mediaMatch) {
+                                    media = '@media ' + mediaMatch[1] + ' ';
+                                    rule  = mediaMatch[2];
+                                }
+    
+                                ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                                ruleMatch = ruleRegex.exec(rule);
+                                namespace = '' + media + ruleMatch[1];
+                                rule      = ruleMatch[2];
+    
+                                return this.addRule(namespace, rule);
+                            };
+                        } else if (window.console) {
+                            console.log('Could not fix Foundation CSS rules…');
+                        }
+                    }
+                })(jQuery);
+            </script>
+        <![endif]-->
         <script src="/js/app.js"></script>
         <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
         <script type="text/javascript" src="/js/fastclick.js"></script>

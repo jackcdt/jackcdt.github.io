@@ -1,133 +1,66 @@
-// Custom components 
-@import "foundation-icons";
+@import "settings";
+  
+// Selectively include Foundation components
+ @import
+   "foundation/components/accordion",
+   "foundation/components/alert-boxes",
+   "foundation/components/block-grid",
+   "foundation/components/breadcrumbs",
+   "foundation/components/button-groups",
+   "foundation/components/buttons",
+   "foundation/components/clearing",
+   "foundation/components/dropdown",
+   "foundation/components/dropdown-buttons",
+   "foundation/components/flex-video",
+   "foundation/components/forms",
+   "foundation/components/grid",
+   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+   "foundation/components/orbit",
+//   "foundation/components/pagination",
+   "foundation/components/panels",
+   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+   "foundation/components/tables",
+   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+   "foundation/components/visibility";
+
+
+// Custom components   
+@import "foundation-icons";   
 @import "breakpoint/stylesheets/breakpoint";
-@import "_custom/common";
+@import "_custom/common";  
 @import "_custom/custom-fonts";  
+@import "_custom/homepage/megamenu";
+@import "_custom/homepage/footer";
 @import "_custom/components/breadcrumbs";
 @import "_custom/components/border-radius";
-@import "_custom/components/cdt-typography";
+@import "_custom/components/cdt-typography"; 
 @import "_custom/components/read-more-btn";
-@import "_custom/components/plus-minus-icon";
+@import "_custom/components/plus-minus-icon"; 
 @import "_custom/components/responsive-table";
 @import "_custom/components/btn-shadow";
 @import "_custom/header/header"; 
+@import "_custom/components/training/banner-no-color";
+@import "_custom/components/training/side-panel-no-color";
+@import "_custom/components/training/custom-training-no-color"; 
+@import "_custom/components/training/course-item-no-color";
 @import "_custom/components/training/course-no-color-items";
-@import "_custom/components/training/category-no-color-items";
-    
-// Homepage
-@import "_custom/homepage/slider";
-@import "_custom/homepage/megamenu";
-@import "_custom/homepage/home";
+@import "_custom/components/training/category-no-color-items"; 
 
-// Training Material
-@import "_custom/training/adobe/indesign/indesign-category";
-@import "_custom/training/adobe/indesign/indesign-essentials";
-@import "_custom/training/adobe/indesign/indesign-advanced"; 
-@import "_custom/training/adobe/indesign/indesign-lite";
-@import "_custom/training/adobe/indesign/indesign-long-docs";
-@import "_custom/training/adobe/indesign/indesign-interactivity";
-@import "_custom/training/adobe/indesign/indesign-accessibility";
-
-@import "_custom/training/adobe/photoshop/photoshop-category";
-@import "_custom/training/adobe/photoshop/photoshop-essentials";
-@import "_custom/training/adobe/photoshop/photoshop-advanced";
-@import "_custom/training/adobe/photoshop/photoshop-lite";
-@import "_custom/training/adobe/photoshop/photoshop-web";  
- 
-@import "_custom/training/adobe/illustrator/illustrator-category"; 
-@import "_custom/training/adobe/illustrator/illustrator-essentials"; 
-@import "_custom/training/adobe/illustrator/illustrator-lite"; 
-@import "_custom/training/adobe/illustrator/illustrator-advanced"; 
- 
-@import "_custom/training/adobe/acrobat/acrobat-category";  
-@import "_custom/training/adobe/acrobat/acrobat-essentials";
-@import "_custom/training/adobe/acrobat/acrobat-pdfforms";
-
-@import "_custom/training/adobe/digital-publishing/digital-publishing-category";
-@import "_custom/training/adobe/digital-publishing/indesign-to-ipad";
-@import "_custom/training/adobe/digital-publishing/dps-single-app";
-@import "_custom/training/adobe/digital-publishing/dps-pro-app";
-@import "_custom/training/adobe/digital-publishing/indesign-to-ebook";
-
-@import "_custom/training/adobe/flash/flash-category";  
-@import "_custom/training/adobe/flash/flash-essentials"; 
-@import "_custom/training/adobe/flash/flash-web-banners";  
-@import "_custom/training/adobe/flash/flash-actionscript"; 
-
-@import "_custom/training/web-design-development/html-css/html-css-category";
-@import "_custom/training/web-design-development/html-css/html-web-principles"; 
-@import "_custom/training/web-design-development/html-css/css-essentials";
-@import "_custom/training/web-design-development/html-css/html-responsive";
-@import "_custom/training/web-design-development/html-css/html5-css3";
-
-@import "_custom/training/web-design-development/dreamweaver/dreamweaver-category"; 
-@import "_custom/training/web-design-development/dreamweaver/dreamweaver-essentials"; 
-@import "_custom/training/web-design-development/dreamweaver/muse-essentials"; 
-
-@import "_custom/training/web-design-development/wordpress/wordpress-category";
-@import "_custom/training/web-design-development/wordpress/wordpress-essentials"; 
-@import "_custom/training/web-design-development/wordpress/wordpress-advanced"; 
-
-@import "_custom/training/web-design-development/javascript-jquery/javascript-jquery-category"; 
-@import "_custom/training/web-design-development/javascript-jquery/javascript-essentials"; 
-@import "_custom/training/web-design-development/javascript-jquery/jquery-essentials"; 
-
-@import "_custom/training/web-design-development/edge-animate/edge-animate-category";  
-@import "_custom/training/web-design-development/edge-animate/edge-animate-essentials"; 
-@import "_custom/training/web-design-development/edge-animate/edge-animate-advanced"; 
-
-@import "_custom/training/video-editing/after-effects/after-effects-category"; 
-@import "_custom/training/video-editing/after-effects/after-effects-essentials"; 
-@import "_custom/training/video-editing/after-effects/after-effects-advanced"; 
-
-@import "_custom/training/video-editing/premiere-pro/premiere-pro-category"; 
-@import "_custom/training/video-editing/premiere-pro/premiere-pro-essentials"; 
-@import "_custom/training/video-editing/premiere-pro/premiere-pro-advanced"; 
-@import "_custom/training/video-editing/premiere-pro/premiere-elements"; 
-
-@import "_custom/training/video-editing/finalcut-pro/finalcut-pro"; 
-
-@import "_custom/training/captivate/captivate-category"; 
-@import "_custom/training/captivate/captivate-essentials"; 
-@import "_custom/training/captivate/captivate-advanced"; 
-
-@import "_custom/training/online-marketing/business-tools-category";
-@import "_custom/training/online-marketing/google-analytics-course";
-@import "_custom/training/online-marketing/linkedin-course";
-@import "_custom/training/online-marketing/seo-essentials-course";
- 
-@import "_custom/training/online-marketing/online-courses/online-courses-category";
-
-// Admin Pages
-@import "_custom/admin/calendar";
-@import "_custom/admin/training-benefits";
-@import "_custom/admin/faq";
-@import "_custom/admin/contact-us";
-@import "_custom/admin/training-packages";
-@import "_custom/admin/room-hire";
-@import "_custom/admin/locations";
-@import "_custom/admin/custom-training";
-@import "_custom/admin/sitemap"; 
-
-
-//Shopping Cart Pages
-@import "_custom/shoppingcart/checkout";
-@import "_custom/shoppingcart/your-cart";
-@import "_custom/shoppingcart/book/book";
-
-//Tips Pages
-@import "_custom/tips/getting-started";
-@import "_custom/tips/desktop-pub-package";
-@import "_custom/tips/digital-publishing-courses-gst";
-
-@import "_custom/tips/web-design-courses";
-@import "_custom/tips/dps-getting-started";
-
-//Terms & Conditions
-@import "_custom/admin/terms-condition";
-
-//Feeback
-@import "_custom/admin/feedback";
 
 // Print styles
 @import "_custom/print";    

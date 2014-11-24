@@ -1,42 +1,32 @@
-@import "settings";
-//@import "foundation";
+@import "custom";
 
-// Or selectively include components
- @import
-   "foundation/components/accordion",
-   "foundation/components/alert-boxes",
-   "foundation/components/block-grid",
-   "foundation/components/breadcrumbs",
-   "foundation/components/button-groups",
-   "foundation/components/buttons",
-   "foundation/components/clearing",
-   "foundation/components/dropdown",
-   "foundation/components/dropdown-buttons",
-   "foundation/components/flex-video",
-   "foundation/components/forms",
-   "foundation/components/grid",
-   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-   "foundation/components/orbit",
-//   "foundation/components/pagination",
-   "foundation/components/panels",
-   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-   "foundation/components/tables",
-   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-   "foundation/components/visibility";
+// Admin Pages 
+@import "_custom/admin/calendar";
+@import "_custom/admin/training-benefits";
+@import "_custom/admin/faq";
+@import "_custom/admin/contact-us";
+@import "_custom/admin/training-packages";
+@import "_custom/admin/room-hire";
+@import "_custom/admin/locations";
+@import "_custom/admin/custom-training";
+@import "_custom/admin/sitemap"; 
 
-@import "custom"; 
+//Shopping Cart Pages
+@import "_custom/shoppingcart/checkout";
+@import "_custom/shoppingcart/your-cart";
+@import "_custom/shoppingcart/book/book";
+
+//Tips Pages
+@import "_custom/tips/getting-started";
+@import "_custom/tips/desktop-pub-package";
+@import "_custom/tips/digital-publishing-courses-gst";
+
+@import "_custom/tips/web-design-courses";
+@import "_custom/tips/dps-getting-started";
+
+//Terms & Conditions
+@import "_custom/admin/terms-condition";
+
+//Feeback
+@import "_custom/admin/feedback";
+

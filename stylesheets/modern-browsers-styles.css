@@ -213,7 +213,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 54, ../scss/_custom/_common.scss */
+/* line 52, ../scss/_custom/_common.scss */
+.show-link {
+  text-decoration: underline; }
+
+/* line 57, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -1974,6 +1978,115 @@ body {
   background-color: #2d98fd; }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-web-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 72, training/adobe/photoshop/photoshop-lr/*.png */
+.photoshop-lr-sprite, .photoshop-lr-course .ps-lr-framed, .photoshop-lr-course .course-classrom, .photoshop-lr-course .pdf, .photoshop-lr-course .course-custom-training-logo {
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-lr-s8ce1759e02.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+.photoshop-lr-course .ps-lr-framed {
+  background-position: 0 -372px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62687%;
+  background-size: 298.50746%;
+  background-position: 0 100%;
+  min-width: 55px;
+  min-height: 57px; }
+/* line 22, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+.photoshop-lr-course .course-classrom {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 100%;
+  background-position: 0 0%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 32, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+.photoshop-lr-course .pdf {
+  background-position: 0 -268px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 312.5%;
+  background-position: 0 71.84987%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 40, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+.photoshop-lr-course .course-custom-training-logo {
+  background-position: 0 -152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 41.08108%;
+  background-size: 108.10811%;
+  background-position: 0 42.10526%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 40, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+    .photoshop-lr-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 108.10811%;
+      background-position: 0 42.10526%; } }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lr-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px 0px white;
+  box-shadow: inset 0px 1px 0px 0px white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bdfe), color-stop(1, #2d98fd));
+  background: -moz-linear-gradient(center top, #79bdfe 5%, #2d98fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #79bdfe;
+  text-indent: 0;
+  border: 1px solid #0271dc;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lr-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2d98fd), color-stop(1, #79bdfe));
+  background: -moz-linear-gradient(center top, #2d98fd 5%, #79bdfe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #2d98fd; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.photoshop-lr-course .validate-participants:active {
   position: relative;
   top: 1px; }
 
