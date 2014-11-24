@@ -497,8 +497,8 @@
 h1 {
   margin-top: 0 !important; }
 
-/* line 31, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-training {
+/* line 30, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-training, .gradient-top {
   display: none !important; }
 
 /* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
@@ -1315,3 +1315,7 @@ conversion-optimisation
 /* line 6, ../scss/_custom/admin/_calendar-old-ie-styles.scss */
 .cdt-calendar .accordion-navigation .content {
   display: block !important; }
+
+/* line 3, ../scss/_custom/admin/_training-benefits-old-ie-styles.scss */
+.cdt-wtwu .testimonials-slider {
+  display: none !important; }
