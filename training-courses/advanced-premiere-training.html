@@ -50,7 +50,33 @@
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    
+        <link rel="stylesheet" href="/stylesheets/app.css" />
+
+        <!--[if lt IE 9]>
+            <link href="/stylesheets/ie.css" rel="stylesheet" /> 
+
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+            <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+            <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+            <script src="https://github.com/es-shims/es5-shim/blob/master/es5-shim.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE678.js"></script>
+        <![endif]-->
+
+        <!--[if IE 7]>
+            <link href="/stylesheets/ie7.css" rel="stylesheet" /> 
+        <![endif]-->
+
+        <!--[if IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
+        <![endif]-->
+
+        <!--[if !IE]>-->
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
+        <!--<![endif]-->
+<script src="/bower_components/modernizr/min/modernizr-min.js"></script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -69,31 +95,25 @@
     </script>
 </head>
 
-<body>
-    <!-- #BeginLibraryItem "/Library/header.lbi" -->
-    <!-- Header Start -->
+<body><!-- #BeginLibraryItem "/Library/header.lbi" -->    <!-- Header Start -->
     <header>
         <div class="header-banner">
             <div class="row header-banner-container header-logos">
-                <a href="/index.html">
-                    <div class="small-6 medium-2 columns cdt-logo"></div>
-                </a>
+                <a href="/index.html"><div class="small-6 medium-2 columns cdt-logo"></div></a>
                 <div class="medium-2 columns show-for-medium-up aatc-logo"></div>
                 <div class="medium-3 columns training-text">
                     Training at your office
                     <br/>or our computer labs
                 </div>
-                <a href="/book.html">
-                    <div class="small-6 medium-3 columns book-now-col book-now"></div>
-                </a>
+                <a href="/book.html"><div class="small-6 medium-3 columns book-now-col book-now"></div></a>  
                 <div class="medium-1 columns show-for-medium-up years-in-business"></div>
             </div>
-            <!--End header-logos -->
+            <!--End header-logos -->  
         </div>
-        <!-- End header-banner -->
+        <!-- End header-banner --> 
     </header>
     <!-- Header End -->
-    <!-- Megamenu Start -->
+    <!-- Megamenu Start -->  
     <div class="contain-to-grid">
         <div class="megamenu_container megamenu_dark_bar megamenu_light">
             <!-- Begin Menu Container -->
@@ -103,10 +123,10 @@
                     <li class="megamenu_button"><a href="#_">&#9776;&nbsp;Menu<span class="right">1300 441 891</span></a>
                     </li>
                     <li><a href="#_" class="megamenu_drop">Courses</a> 
-                        <!-- Begin Item -->
+                        <!-- Begin Item --> 
                         <div class="dropdown_fullwidth">
                             <!-- Begin Item Container -->
-                            <div class="medium-3 columns">
+                            <div class="medium-3 columns"> 
                                 <!-- Heading 1 -->
                                 <div class="row">
                                     <div class="large-12 columns">
@@ -115,7 +135,7 @@
                                             <li><a href="/adobe-indesign-courses.html">InDesign</a>
                                             </li>
                                             <li><a href="/adobe-photoshop-courses.html">Photoshop</a>
-                                            </li>
+                                            </li> 
                                             <li><a href="/adobe-illustrator-courses.html">Illustrator</a>
                                             </li>
                                             <li><a href="/digital-publishing-training.html">Digital Publishing</a>
@@ -148,7 +168,7 @@
                                             <li><a href="/dreamweaver-courses.html">Dreamweaver</a>
                                             </li>
                                             <li><a href="/flash-courses.html">Flash</a>
-                                            </li>
+                                            </li> 
                                             <li><a href="/wordpress-training-courses.html">WordPress</a>
                                             </li>
                                             <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery</a>
@@ -170,7 +190,7 @@
                             </div>
                             <div class="medium-3 columns">
                                 <!-- Heading 1 -->
-                                <div class="row">
+                                <div class="row"> 
                                     <div class="large-12 columns">
                                         <h3>Video</h3>
                                         <ul class="list_unstyled">
@@ -195,7 +215,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="medium-3 columns">
+                            <div class="medium-3 columns"> 
                                 <div class="row">
                                     <div class="large-12 columns">
                                         <h3>Most Popular Courses</h3>
@@ -230,7 +250,7 @@
                                 <li><a href="/computer-training-room-hire.html">Computer Room Hire</a>
                                 </li>
                                 <li><a href="/training/contact.html">Contact Us</a>
-                                </li>
+                                </li> 
                                 <!--<li><a href="#_">Testimonials</a>
                                 </li>
                                 <li><a href="#_">Refreshers</a>
@@ -252,13 +272,13 @@
                     <!-- End Item -->
                     <li><a href="/training/locations.html" class="megamenu_drop">Locations</a>
                         <!-- Begin Item -->
-                        <div class="dropdown_3columns dropdown_container">
+                        <div class="dropdown_3columns dropdown_container"> 
                             <!-- Begin Item Container -->
                             <ul class="list_unstyled">
                                 <li><a href="/training/locations.html#sydney-map">Sydney | 60 York St</a>
                                 </li>
                                 <li><a href="/training/locations.html#melbourne-map">Melbourne | 20 Queen St</a>
-                                </li>
+                                </li> 
                                 <li><a href="/training/locations.html#brisbane-map">Brisbane | 320 Adelaide St</a>
                                 </li>
                                 <li><a href="/training/locations.html#canberra-map">Canberra | 33 Ainslie Pl</a>
@@ -296,8 +316,7 @@
         <!-- End Menu Container -->
     </div>
     <!-- Megamenu End -->
-    <!-- #EndLibraryItem -->
-    <main>
+<!-- #EndLibraryItem --><main>
         <div class="premiere-pro-advanced-course course-outline" itemscope itemtype="http://schema.org/IndividualProduct">
             <div class="banner-row">
                 <div class="row">
@@ -730,25 +749,23 @@
                 </div>
             </div>
         </div>
-    </main>
-    <!-- #BeginLibraryItem "/Library/footer.lbi" -->
-    <!-- Footer Start -->
+    </main><!-- #BeginLibraryItem "/Library/footer.lbi" -->    <!-- Footer Start -->
     <div class="footer-bg">
         <div class="row footer-logo">
             <div class="thumbnail footer-affiliates-img">
                 <script>
-                var imageChoices = ["footer-logos-1.png", "footer-logos-2.png", "footer-logos-3.png", "footer-logos-4.png", "footer-logos-5.png"];
-                var theImage = imageChoices[Math.round(4 * Math.random())];
-                document.write('<img src="/images-dist/footer-logos/' + theImage + '" alt="">');
+                    var imageChoices = ["footer-logos-1.png", "footer-logos-2.png", "footer-logos-3.png", "footer-logos-4.png", "footer-logos-5.png"];
+                    var theImage = imageChoices[Math.round(4 * Math.random())];
+                    document.write('<img src="/images-dist/footer-logos/' + theImage + '" alt="">');
                 </script>
             </div>
-        </div>
+        </div> 
         <div class="row wrapbuckets">
             <div class="medium-3 columns hide-for-small-only bucket">
                 <h3>POPULAR COURSES</h3>
                 <ul class="no-bullet">
                     <li><a title="Adobe InDesign Training &amp; Courses" href="/adobe-indesign-courses.html">Adobe InDesign</a>
-                    </li>
+                    </li> 
                     <li><a title="Illustrator Training" href="/adobe-illustrator-courses.html">Adobe Illustrator</a>
                     </li>
                     <li><a title="Adobe Photoshop Training &amp; Courses" href="/adobe-photoshop-courses.html">Adobe Photoshop</a>
@@ -838,71 +855,73 @@
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-    // Fix for foundation stylesheets being picked up as "null" or "not an object",
-    // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
-    (function($) {
-        if (!Foundation.stylesheet) {
-            Foundation._style_element = $('').appendTo('head')[0];
-            Foundation.stylesheet = Foundation._style_element.styleSheet;
-
-            if (Foundation.stylesheet) {
-                Foundation.stylesheet.cssRules = {
-                    length: 0
-                };
-
-                Foundation.stylesheet.insertRule = function(rule, index) {
-                    var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
-                    mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
-                    mediaMatch = mediaRegex.exec(rule);
-                    media = '';
-
-                    if (mediaMatch) {
-                        media = '@media ' + mediaMatch[1] + ' ';
-                        rule = mediaMatch[2];
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="/bower_components/foundation/js/foundation.min.js"></script>
+        <!--[if lt IE 9]>
+            <script>
+                // Include Foundation js fix before initiating foundation
+                // Fix for foundation stylesheets being picked up as "null" or "not an object",
+                // implementation from here: http://foundation.zurb.com/forum/posts/3189-foundation-5-orbit-slider-ie8-issue
+                (function($) {
+                    if (!Foundation.stylesheet) {
+                        Foundation._style_element = $('').appendTo('head')[0];
+                        Foundation.stylesheet     = Foundation._style_element.styleSheet;
+                        
+                        if (Foundation.stylesheet) {
+                            Foundation.stylesheet.cssRules = {
+                                length: 0
+                            };
+    
+                            Foundation.stylesheet.insertRule = function(rule, index) {
+                                var media, mediaMatch, mediaRegex, namespace, ruleMatch, ruleRegex;
+                                mediaRegex = /^\s*@media\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                                mediaMatch = mediaRegex.exec(rule);
+                                media      = '';
+    
+                                if (mediaMatch) {
+                                    media = '@media ' + mediaMatch[1] + ' ';
+                                    rule  = mediaMatch[2];
+                                }
+    
+                                ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
+                                ruleMatch = ruleRegex.exec(rule);
+                                namespace = '' + media + ruleMatch[1];
+                                rule      = ruleMatch[2];
+    
+                                return this.addRule(namespace, rule);
+                            };
+                        } else if (window.console) {
+                            console.log('Could not fix Foundation CSS rules…');
+                        }
                     }
+                })(jQuery);
+            </script>
+        <![endif]-->
+        <script src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
+        <script type="text/javascript" src="/js/fastclick.js"></script>
+        <!-- Mega Menu Plugins -->
+        <script>
+            $(document).ready(function ($) {
+                $('.megamenu').megaMenuCompleteSet({
+                    menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+                    menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+                    menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+                    menu_effect: 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+                    menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+                    menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+                    menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
+                });
+            });
+        </script>
 
-                    ruleRegex = /^\s*(.*?)\s*\{\s*(.*?)\s*\}\s*$/;
-                    ruleMatch = ruleRegex.exec(rule);
-                    namespace = '' + media + ruleMatch[1];
-                    rule = ruleMatch[2];
-
-                    return this.addRule(namespace, rule);
-                };
-            } else if (window.console) {
-                console.log('Could not fix Foundation CSS rules…');
-            }
-        }
-    })(jQuery);
-    </script>
-    <script src="/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
-    <script type="text/javascript" src="/js/fastclick.js"></script>
-    <!-- Mega Menu Plugins -->
-    <script>
-    $(document).ready(function($) {
-        $('.megamenu').megaMenuCompleteSet({
-            menu_speed_show: 300, // Time (in milliseconds) to show a drop down
-            menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
-            menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
-            menu_effect: 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
-            menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
-            menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
-            menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
-        });
-    });
-    </script>
-
-    <!-- Support rem units in older IEs -->
-    <!--[if lt IE 9]>
+        <!-- Support rem units in older IEs -->
+        <!--[if lt IE 9]>
             <script src="/js/rem.min.js"></script>
         <![endif]-->
-    <!-- Footer End -->
-
-    <script type="text/javascript" src="/js/product-list-view.js"></script>
-    <!-- #EndLibraryItem -->
-</body>
+	    <!-- Footer End -->
+        
+        <script type="text/javascript" src="/js/product-list-view.js"></script>
+        <!-- #EndLibraryItem --></body>
 
 </html>

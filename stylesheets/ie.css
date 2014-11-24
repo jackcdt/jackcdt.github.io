@@ -974,7 +974,8 @@ body {
   .dreamweaver-category .dw-essentials,
   .dreamweaver-category .dw-essentials-framed,
   .dreamweaver-category .html-css,
-  .dreamweaver-category .html-ess {
+  .dreamweaver-category .html-ess,
+  .dreamweaver-category .mu-essentials {
     display: none; }
 
 /* line 3, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-old-ie-styles.scss */
@@ -992,7 +993,7 @@ body {
 .muse-essentials-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
-  .muse-essentials-course .mu-essentials-framed, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf, .muse-essentials-course .custom-training,
+  .muse-essentials-course .mu-essentials, .muse-essentials-course .course-classrom, .muse-essentials-course .pdf, .muse-essentials-course .custom-training,
   .muse-essentials-course .ps-essentials, .muse-essentials-course .html-ess {
     display: none !important; }
   /* line 11, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-old-ie-styles.scss */
