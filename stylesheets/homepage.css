@@ -6846,916 +6846,6 @@ h3 {
 h4 {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* The following settings updated in _settings.scss file:
-    $crumb-font-transform: none;
-    $crumb-bg: #fff;
-    $crumb-slash: ">";
-    $crumb-border-size: 0;
-    $crumb-border-style: none;
-    $crumb-border-color: #fff;
-    $crumb-padding: rem-calc(0 14 6 0);
-*/
-/* line 13, ../scss/_custom/components/_breadcrumbs.scss */
-.custom-breadcrumbs {
-  float: right;
-  margin-right: 15px;
-  display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
-  overflow: hidden;
-  margin-left: 0;
-  list-style: none;
-  border-style: solid;
-  border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
-  border-radius: 3px; }
-  /* line 23, ../scss/_custom/components/_breadcrumbs.scss */
-  .custom-breadcrumbs > * {
-    margin: 0;
-    float: left;
-    font-size: 0.6875rem;
-    line-height: 0.6875rem;
-    text-transform: none;
-    color: #008CBA;
-    font-transform: none; }
-    /* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > *:hover a, .custom-breadcrumbs > *:focus a {
-      text-decoration: underline; }
-    /* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > * a {
-      color: #008CBA; }
-    /* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > *.current {
-      cursor: default;
-      color: #333333; }
-      /* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-      .custom-breadcrumbs > *.current a {
-        cursor: default;
-        color: #333333; }
-      /* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-      .custom-breadcrumbs > *.current:hover, .custom-breadcrumbs > *.current:hover a, .custom-breadcrumbs > *.current:focus, .custom-breadcrumbs > *.current:focus a {
-        text-decoration: none; }
-    /* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > *.unavailable {
-      color: #999999; }
-      /* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-      .custom-breadcrumbs > *.unavailable a {
-        color: #999999; }
-      /* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-      .custom-breadcrumbs > *.unavailable:hover, .custom-breadcrumbs > *.unavailable:hover a, .custom-breadcrumbs > *.unavailable:focus,
-      .custom-breadcrumbs > *.unavailable a:focus {
-        text-decoration: none;
-        color: #999999;
-        cursor: default; }
-    /* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > *:before {
-      content: ">";
-      color: #AAAAAA;
-      margin: 0 0.75rem;
-      position: relative;
-      top: 1px; }
-    /* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
-    .custom-breadcrumbs > *:first-child:before {
-      content: " ";
-      margin: 0; }
-  /* line 28, ../scss/_custom/components/_breadcrumbs.scss */
-  .custom-breadcrumbs > *:before {
-    top: 0; }
-  /* line 32, ../scss/_custom/components/_breadcrumbs.scss */
-  .custom-breadcrumbs .breadcrumb-active, .custom-breadcrumbs .breadcrumb-active:focus, .custom-breadcrumbs .breadcrumb-active:hover {
-    text-decoration: none;
-    cursor: default; }
-
-/* Title and sub-title to be used on banners */
-/* Main content title (not necessarily h1)*/
-/* Main content title with border (not necessarily h1)*/
-/* Color paragraph header */
-/* Color bold list header */
-/* line 1, ../scss/_custom/components/_read-more-btn.scss */
-.seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more {
-  background-color: #FCCD39;
-  color: #000;
-  white-space: nowrap;
-  padding: 5px 10px;
-  border: 1px #c4c4c4 solid;
-  font-family: raleway;
-  font-size: 13px; }
-
-/*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
-/* line 112, header-footer/*.png */
-.header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
-  background-image: url('../images-dist/header-footer-sbd3345fe8c.png');
-  background-repeat: no-repeat; }
-
-/* line 28, ../scss/_custom/header/_header.scss */
-.header-logos .cdt-logo {
-  background-position: 0 -129px;
-  height: 72px;
-  width: 142px;
-  margin: 7px 10px; }
-/* line 36, ../scss/_custom/header/_header.scss */
-.header-logos .aatc-logo {
-  background-position: 0 0;
-  height: 43px;
-  width: 131px;
-  margin: 21.5px 10px; }
-/* line 44, ../scss/_custom/header/_header.scss */
-.header-logos .book-now {
-  background-position: 0 -43px;
-  float: right;
-  height: 86px;
-  width: 114px; }
-  @media only screen and (min-width: 40.063em) {
-    /* line 44, ../scss/_custom/header/_header.scss */
-    .header-logos .book-now {
-      margin-right: 67px; } }
-/* line 56, ../scss/_custom/header/_header.scss */
-.header-logos .years-in-business {
-  background-position: 0 -786px;
-  height: 121px;
-  width: 67px;
-  position: absolute;
-  z-index: 1000;
-  right: 0; }
-/* line 66, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-1 {
-  background-position: 0 -201px; }
-/* line 67, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-2 {
-  background-position: 0 -318px; }
-/* line 68, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-3 {
-  background-position: 0 -435px; }
-/* line 69, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-4 {
-  background-position: 0 -552px; }
-/* line 70, ../scss/_custom/header/_header.scss */
-.header-logos .footer-logos-5 {
-  background-position: 0 -669px; }
-/* line 72, ../scss/_custom/header/_header.scss */
-.header-logos .training-text {
-  margin: 19px 0;
-  padding: 0;
-  display: none; }
-  @media (min-width: 48em) {
-    /* line 72, ../scss/_custom/header/_header.scss */
-    .header-logos .training-text {
-      display: inherit;
-      font-size: 1em;
-      line-height: 1.5em; } }
-
-/* line 86, ../scss/_custom/header/_header.scss */
-.header-banner {
-  background-color: #6c6c6c;
-  color: #fff; }
-
-/* line 91, ../scss/_custom/header/_header.scss */
-.contain-to-grid ul.right li.contact-no a {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 16px; }
-
-/* line 99, ../scss/_custom/header/_header.scss */
-.header-banner-container {
-  position: relative;
-  overflow: visible;
-  z-index: 99999; }
-
-/* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
-.banner-row {
-  height: 120px;
-  margin-bottom: 12px; }
-  /* line 10, ../scss/_custom/components/training/_banner-no-color.scss */
-  .banner-row .banner-row {
-    height: 120px;
-    margin-bottom: 8px; }
-  /* line 15, ../scss/_custom/components/training/_banner-no-color.scss */
-  .banner-row .category-logo {
-    margin: 32.5px 0 32.5px 15px; }
-  /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
-  .banner-row .banner-text {
-    max-width: 75%;
-    top: 32.5px; }
-    @media only screen and (min-width: 40.063em) {
-      /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
-      .banner-row .banner-text {
-        max-width: 90%; } }
-    /* line 3, ../scss/_custom/components/_cdt-typography.scss */
-    .banner-row .banner-text .banner-header, .banner-row .banner-text .banner-sub-header {
-      font-family: Raleway, Helvetica, sans-serif;
-      color: #fff; }
-    /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-    .banner-row .banner-text .banner-header {
-      font-size: 1.25em;
-      line-height: 1.2em;
-      line-height: 1em; }
-      @media only screen and (min-width: 40.063em) {
-        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-        .banner-row .banner-text .banner-header {
-          font-size: 1.5em;
-          line-height: 2em;
-          line-height: 1em; } }
-      @media only screen and (min-width: 64.063em) {
-        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
-        .banner-row .banner-text .banner-header {
-          font-size: 2em;
-          line-height: 1.5em;
-          line-height: 1em; } }
-    /* line 24, ../scss/_custom/components/_cdt-typography.scss */
-    .banner-row .banner-text .banner-sub-header {
-      font-size: 0.875em;
-      line-height: 1.71429em; }
-
-/* line 1, ../scss/_custom/components/training/_side-panel-no-color.scss */
-.seminars-ad {
-  color: #fff;
-  padding: 0 6px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  margin-bottom: 14.4px; }
-  /* line 7, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .seminars-ad .seminars-ad-title {
-    font-size: 1em;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    padding-top: 6px; }
-  /* line 15, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .seminars-ad .seminars-ad-content {
-    font-size: 0.75em;
-    line-height: 2em;
-    line-height: 1.6em;
-    padding-bottom: 4px; }
-  /* line 22, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .seminars-ad .read-more-btn {
-    padding: 2px 8px; }
-
-/* line 28, ../scss/_custom/components/training/_side-panel-no-color.scss */
-.training-checklist {
-  /*    background-color: #CECECE;*/
-  margin-bottom: 14.4px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px; }
-  /* line 34, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .training-checklist th, .training-checklist td {
-    padding: 0 0 4px 5px; }
-  /* line 38, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .training-checklist td {
-    font-size: 14px;
-    text-align: left; }
-  /* line 43, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .training-checklist th {
-    text-align: left; }
-  /* line 55, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .training-checklist table {
-    margin-top: 4px;
-    border-top: none;
-    margin-bottom: 1em;
-    width: 100%; }
-    /* line 61, ../scss/_custom/components/training/_side-panel-no-color.scss */
-    .training-checklist table .center-content {
-      text-align: center; }
-  /* line 70, ../scss/_custom/components/training/_side-panel-no-color.scss */
-  .training-checklist .foot-note {
-    margin-left: 10px;
-    display: block; }
-
-/* line 1, ../scss/_custom/components/training/_custom-training-no-color.scss */
-.custom-training {
-  margin-bottom: 14.4px; }
-  /* line 4, ../scss/_custom/components/training/_custom-training-no-color.scss */
-  .custom-training .custom-training-text-header {
-    font-size: 1.25em;
-    line-height: 1.2em; }
-  /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
-  .custom-training .prefer-custom-training-text {
-    color: #fff;
-    background-color: #686F74;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    top: -3px;
-    padding: 0 8px;
-    margin-bottom: 16px;
-    margin-top: -9px; }
-    /* line 9, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text .custom-text {
-      font-size: 0.8125em;
-      line-height: 1.84615em; }
-    @media screen and (min-width: 420px) and (max-width: 639px) {
-      /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
-      .custom-training .prefer-custom-training-text {
-        width: 65%; } }
-    /* line 28, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text .custom-training-text-header {
-      font-size: 1.4em;
-      margin-top: 6px;
-      margin-bottom: 6px; }
-    /* line 36, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text ul {
-      list-style-type: none;
-      margin-bottom: 6px;
-      margin-left: 8px;
-      -webkit-margin-after: 6px; }
-    /* line 43, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text ul li:before {
-      content: "-";
-      left: -4px;
-      position: relative; }
-    /* line 49, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text ul li {
-      font-size: 0.875em;
-      line-height: 1.71429em;
-      line-height: 1.5em;
-      margin-left: -5px;
-      margin-bottom: 3px; }
-    /* line 59, ../scss/_custom/components/training/_custom-training-no-color.scss */
-    .custom-training .prefer-custom-training-text .read-more-btn {
-      padding: 0 8px;
-      position: relative;
-      float: right;
-      margin-top: -6px; }
-
-/* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
-.course-item {
-  margin-bottom: 24px;
-  margin-top: 12px; }
-  @media only screen and (min-width: 64.063em) {
-    /* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
-    .course-item {
-      width: 93%; } }
-  /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-title {
-    padding: 3px 0 0 7px;
-    text-transform: uppercase;
-    float: left !important; }
-    @media only screen and (min-width: 64.063em) {
-      /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
-      .course-item .course-item-title {
-        float: right; } }
-    /* line 18, ../scss/_custom/components/training/_course-item-no-color.scss */
-    .course-item .course-item-title h3 {
-      font-size: 1em;
-      line-height: 1.5em;
-      line-height: 1.2em; }
-  /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-header {
-    margin-bottom: 12px; }
-    @media only screen and (min-width: 64.063em) {
-      /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
-      .course-item .course-item-header {
-        height: 3.5em;
-        margin-bottom: 0; } }
-  /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-description {
-    line-height: 1.5em;
-    margin-bottom: 12px; }
-    @media only screen and (min-width: 64.063em) {
-      /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
-      .course-item .course-item-description {
-        height: 12em;
-        margin-bottom: 0; } }
-  /* line 50, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .day-time {
-    font-size: 0.8125em;
-    line-height: 1.84615em; }
-  /* line 54, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-info,
-  .course-item .course-book-now {
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.4em;
-    padding: 4px 0; }
-    /* line 63, ../scss/_custom/components/training/_course-item-no-color.scss */
-    .course-item .course-item-info a, .course-item .course-item-info a:hover, .course-item .course-item-info a:focus,
-    .course-item .course-book-now a,
-    .course-item .course-book-now a:hover,
-    .course-item .course-book-now a:focus {
-      color: #fff; }
-  /* line 68, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-fee {
-    margin-bottom: 2px; }
-  /* line 74, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .big {
-    line-height: 1.5em; }
-  /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-item-info {
-    width: 90px;
-    border-right: 3px solid #fff; }
-    @media only screen and (min-width: 64.063em) {
-      /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
-      .course-item .course-item-info {
-        min-width: initial;
-        width: 48%; } }
-  /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
-  .course-item .course-book-now {
-    text-transform: uppercase;
-    width: 85px; }
-    @media only screen and (min-width: 64.063em) {
-      /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
-      .course-item .course-book-now {
-        min-width: initial;
-        width: 46%; } }
-
-/* General Course Items - no dependency on color */
-/* line 5, ../scss/_custom/components/training/_course-no-color-items.scss */
-.course-outline {
-  /* Secion borders */
-  /* Headers */
-  /* Course overview */
-  /* Download PDF button */
-  /* Course outline - sylabus */
-  /* Read more buttons */
-  /* Training packages and related courses */
-  /* Side bar - pricing and dates*/
-  /* Side bar - pricing and dates*/
-  /* Side bar - download and book */
-  /* Side bar - download and book */
-  /* Side bar - seminars ad */
-  /* Side bar - custom training */
-  /* Side bar - testimonials */ }
-  /* line 6, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .sw-ver {
-    text-decoration: underline; }
-  /* line 12, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .upper-row {
-    border-bottom: 1px solid #2C2C2C;
-    margin-bottom: 24px; }
-  /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-info-upper {
-    margin-bottom: 8px; }
-    @media only screen and (min-width: 40.063em) {
-      /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
-      .course-outline .course-info-upper {
-        border-right: 1px dashed #2C2C2C;
-        width: 64%; } }
-  /* line 26, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .paragraph-header-def-color {
-    border-bottom: 1px dashed #2C2C2C; }
-  /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-outline {
-    padding-left: 0;
-    margin-bottom: 24px; }
-    @media only screen and (min-width: 40.063em) {
-      /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
-      .course-outline .course-outline {
-        border-right: 3px solid #ababab; } }
-  /* line 39, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-dates h3 {
-    border-bottom: 1px dashed #2C2C2C;
-    margin-bottom: 6px; }
-  /* line 45, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-header {
-    font-size: 1.5em;
-    line-height: 1em;
-    line-height: 1em;
-    display: block;
-    border: 1px solid #000;
-    padding: 8px 10px;
-    margin-top: 0;
-    margin-bottom: 16px; }
-  /* line 49, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-header-1 {
-    font-size: 2em;
-    line-height: 0.75em;
-    line-height: 1.5em;
-    padding: 3px 0;
-    margin-bottom: 0; }
-  /* line 53, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-header-2 {
-    font-size: 1.5em;
-    line-height: 1em;
-    line-height: 1em;
-    padding: 3px 0;
-    margin-bottom: 0; }
-  /* line 62, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .paragraph-header-def-color {
-    color: #000;
-    line-height: 1.5em;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    height: 1.65em; }
-  /* line 72, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .note {
-    font-size: 12px; }
-  /* line 77, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list ul {
-    list-style-type: none;
-    margin-bottom: 6px;
-    -webkit-margin-after: 0; }
-  /* line 83, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list ul li:before {
-    content: "-";
-    position: relative;
-    left: -10px; }
-  /* line 89, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list ul li {
-    font-size: 0.875em;
-    line-height: 1.71429em;
-    margin-left: -10px; }
-  /* line 94, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list .to-upper {
-    text-transform: uppercase; }
-  /* line 103, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list .course-specific {
-    margin-left: 10px;
-    width: 20em; }
-  /* line 110, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .overview-list .overview-list-data {
-    margin-bottom: 6px; }
-  /* line 120, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .download-pdf {
-    margin-top: 12px; }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .course-outline-section {
-      width: 57%; } }
-  @media only screen and (min-width: 64.063em) {
-    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .course-outline-section {
-      width: 63%; } }
-  /* line 135, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-outline-block h3 {
-    font-size: 1em;
-    line-height: 1.5em; }
-  /* line 140, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-outline-block ul {
-    list-style-type: none;
-    margin-bottom: 5px;
-    -webkit-margin-after: 24px; }
-  /* line 146, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-outline-block ul li {
-    margin-left: -5px; }
-  /* line 152, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-column {
-    min-width: 15em;
-    padding-right: 15px; }
-  /* line 157, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .broken-column {
-    -webkit-margin-after: 0 !important; }
-  /* line 162, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .read-more-btn {
-    padding: 3px 8px; }
-  /* line 168, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .and {
-    text-align: center;
-    width: 38px; }
-  /* line 175, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .package-logos-read-more {
-    margin: 12px 0 24px 0; }
-  /* line 179, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .related-course {
-    max-width: 7em;
-    padding-left: 0; }
-  /* line 184, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .pricing-table, .course-outline .title, .course-outline .description {
-    border: none; }
-  /* line 188, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .pricing-table {
-    margin-top: 24px; }
-    /* line 191, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .pricing-table .title {
-      background-color: #fff;
-      margin-bottom: 8px; }
-    /* line 196, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .pricing-table .description {
-      padding: 0; }
-  /* line 201, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .advanced-table {
-    margin-top: 19px;
-    margin-left: -17px; }
-    /* line 205, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .advanced-table .description {
-      padding-left: 15px; }
-  @media only screen and (min-width: 40.063em) {
-    /* line 211, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .upper-side {
-      width: 36%; } }
-  @media only screen and (min-width: 40.063em) {
-    /* line 218, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .upper-side {
-      width: 36%; } }
-  /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-dates-promo {
-    background-color: #E5E5E5;
-    margin-bottom: 16px;
-    max-width: 30em;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px; }
-    @media only screen and (max-width: 40em) {
-      /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
-      .course-outline .course-dates-promo {
-        width: 80%; } }
-  /* line 238, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-dates-city-block {
-    margin-bottom: 12px; }
-  /* line 250, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-length {
-    font-size: 14px; }
-  /* line 255, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .course-price-info {
-    margin-bottom: 24px; }
-  /* line 260, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .book-now-section {
-    padding-top: 24px;
-    min-width: 9em; }
-  /* line 266, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .book-now-section {
-    padding-top: 24px;
-    min-width: 9em; }
-  /* line 271, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .download-text {
-    font-size: 14px;
-    line-height: 1em;
-    margin-left: -10px; }
-  /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .seminars-ad {
-    margin-bottom: 6px; }
-    @media only screen and (max-width: 40em) {
-      /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
-      .course-outline .seminars-ad {
-        width: 80%; } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .lower-aside-section {
-      width: 43%; } }
-  @media only screen and (min-width: 64.063em) {
-    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
-    .course-outline .lower-aside-section {
-      width: 37%; } }
-  /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
-  .course-outline .testimonials {
-    height: 33em;
-    max-width: 30em; }
-    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-      /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
-      .course-outline .testimonials {
-        height: 87em; } }
-
-/* Mixin for styling of custom training logo, to be used on category and course pages 
-*/
-/* line 3, ../scss/_custom/components/training/_custom-training.scss */
-.category-page .custom-training-logo {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0; }
-
-@media only screen and (min-width: 40.063em) {
-  /* line 16, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .category-description-section {
-    margin-bottom: 24px; } }
-/* line 22, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3 {
-  font-size: 1.5em;
-  line-height: 1em;
-  line-height: 1em;
-  display: block;
-  border: 1px solid #000;
-  padding: 8px 10px;
-  margin-top: 0;
-  margin-bottom: 16px; }
-/* line 26, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .tight-header-1 {
-  /* Not supported in IE (old and above 9)
-  @media only screen and (min-width:40.063em) {
-      width: intrinsic;           // Safari/WebKit uses a non-standard name 
-      width: -moz-max-content;    //Firefox/Gecko 
-      width: -webkit-max-content; // Chrome 
-  }*/ }
-/* line 37, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .tight-header-2 {
-  margin-bottom: 8px;
-  /* Not supported in IE (old and above 9)
-  @media only screen and (min-width:40.063em) {
-      width: intrinsic;           // Safari/WebKit uses a non-standard name 
-      width: -moz-max-content;    //Firefox/Gecko 
-      width: -webkit-max-content; // Chrome 
-  }*/ }
-/* line 49, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .tight-header-3 {
-  width: 100%;
-  margin-bottom: 10px; }
-/* line 55, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .sw-ver {
-  text-decoration: underline; }
-/* line 60, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .courses-list {
-  margin-bottom: 12px; }
-/* line 64, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .category-video {
-  margin-bottom: 14.4px; }
-@media only screen and (max-width: 40em) {
-  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .custom-training {
-    margin-bottom: 36px !important; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .custom-training {
-    margin-bottom: 36px !important; } }
-/* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .testimonials {
-  height: 23em; }
-  @media screen and (min-width: 640px) and (max-width: 680px) {
-    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
-    .category-page .testimonials {
-      height: 68em; } }
-  @media screen and (min-width: 681px) and (max-width: 780px) {
-    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
-    .category-page .testimonials {
-      height: 53em; } }
-  @media screen and (min-width: 781px) and (max-width: 1024px) {
-    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
-    .category-page .testimonials {
-      height: 37em; } }
-/* line 94, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .and {
-  text-align: center;
-  width: 38px; }
-/* line 101, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .read-more-btn {
-  padding: 3px 8px; }
-/* line 106, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .promo-read-more {
-  padding-left: 0;
-  margin-top: 6px;
-  margin-bottom: 30px; }
-/* line 117, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .category-promo-section {
-  margin-top: 2em; }
-/* line 121, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page .promo-packages {
-  margin-bottom: 24px; }
-/* line 125, ../scss/_custom/components/training/_category-no-color-items.scss */
-.category-page [class*="block-grid-"] > li {
-  padding-bottom: 0; }
-@media screen and (min-width: 640px) and (max-width: 680px) {
-  /* line 130, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .category-description-section {
-    width: 55%; }
-  /* line 134, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .custom-training {
-    width: 45%; }
-  /* line 138, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .side-pannel {
-    top: -7em; } }
-@media screen and (min-width: 681px) and (max-width: 780px) {
-  /* line 144, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .side-pannel {
-    top: -6em; } }
-@media screen and (min-width: 781px) and (max-width: 1024px) {
-  /* line 150, ../scss/_custom/components/training/_category-no-color-items.scss */
-  .category-page .side-pannel {
-    top: -1em; } }
-
-@media print {
-  /* line 2, ../scss/_custom/_print.scss */
-  .megamenu_container,
-  .footer-logo,
-  .custom-breadcrumbs,
-  .category-page .custom-training,
-  .category-page .side-pannel,
-  .category-page .promo-packages,
-  .category-page .course-item-info,
-  .category-page .course-book-now,
-  .course-outline .course-classrom,
-  .course-outline .course-dates,
-  .course-outline .download-and-book,
-  .course-outline .validate-participants,
-  .course-outline .download-pdf,
-  .course-outline .seminars-ad,
-  .course-outline .lower-aside-section,
-  .course-outline .promo-grid,
-  .course-outline .related-courses,
-  .orbit-prev,
-  .orbit-next,
-  .wtwu-side-panel,
-  .plus-minus-icon,
-  .testimonials,
-  .room-hire .banner-image,
-  .room-hire .win-mac-logo,
-  .room-hire .room-hire-breakout,
-  .room-hire .sydney-map,
-  .room-hire .melbourne-map,
-  .new-skills-banner,
-  .private-training,
-  .locations .sydney,
-  .locations .melbourne,
-  .locations .brisbane,
-  .locations .canberra,
-  .locations .map {
-    display: none !important; }
-
-  /* line 40, ../scss/_custom/_print.scss */
-  .accordion {
-    overflow: visible !important; }
-
-  /* line 44, ../scss/_custom/_print.scss */
-  .accordion .content {
-    display: block !important;
-    overflow: visible !important;
-    height: auto !important; } }
-/* line 1, ../scss/_custom/homepage/_slider.scss */
-.slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-  background-image: url(/images-dist/homepage/landing-page-banner/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  font-weight: 200; }
-  @media only screen and (min-width: 64.063em) {
-    /* line 1, ../scss/_custom/homepage/_slider.scss */
-    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-      min-height: 330px; }
-      /* line 9, ../scss/_custom/homepage/_slider.scss */
-      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
-        padding-top: 20px;
-        padding-bottom: 20px; }
-        /* line 12, ../scss/_custom/homepage/_slider.scss */
-        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
-          padding-top: 10px;
-          padding-left: 0;
-          font-size: 36px; } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 1, ../scss/_custom/homepage/_slider.scss */
-    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-      height: 265px; }
-      /* line 21, ../scss/_custom/homepage/_slider.scss */
-      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
-        padding-top: 15px;
-        padding-bottom: 10px; }
-        /* line 24, ../scss/_custom/homepage/_slider.scss */
-        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
-          padding-top: 5px;
-          padding-left: 0;
-          font-size: 30px; } }
-
-/* line 32, ../scss/_custom/homepage/_slider.scss */
-.slider-1 {
-  background-image: url(/images-dist/homepage/landing-page-banner/main-slider-image.png);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  @media only screen and (min-width: 64.063em) {
-    /* line 37, ../scss/_custom/homepage/_slider.scss */
-    .slider-1 .slider-one {
-      padding-top: 50px;
-      padding-left: 150px;
-      min-height: 330px; }
-      /* line 41, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one h1 {
-        font-size: 48px;
-        color: #fff;
-        font-weight: 600;
-        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
-        font-family: raleway, sans-serif; }
-      /* line 48, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one p {
-        font-size: 26px;
-        color: #fff;
-        font-weight: 400;
-        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
-        font-family: raleway, sans-serif; } }
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 59, ../scss/_custom/homepage/_slider.scss */
-    .slider-1 .slider-one {
-      padding-top: 50px;
-      padding-left: 150px;
-      height: 265px; }
-      /* line 63, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one h1 {
-        font-size: 30px;
-        color: #fff;
-        font-weight: 600;
-        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
-        font-family: raleway, sans-serif; }
-      /* line 70, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one p {
-        font-size: 18px;
-        color: #fff;
-        font-weight: 400;
-        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
-        font-family: raleway, sans-serif;
-        padding-bottom: 50px; } }
-
-/* line 82, ../scss/_custom/homepage/_slider.scss */
-.course-img-caption p {
-  font-size: 12px;
-  font-weight: 200;
-  float: left;
-  padding-top: 5px; }
-
-/* line 89, ../scss/_custom/homepage/_slider.scss */
-.orbit-timer {
-  display: none; }
-
-/* line 92, ../scss/_custom/homepage/_slider.scss */
-.orbit-slide-number {
-  display: none; }
-
 /* line 2, ../scss/_custom/homepage/_megamenu.scss */
 body {
   background: url("../img/background.jpg"); }
@@ -9175,6 +8265,939 @@ body {
     font-size: 0px;
     padding: 0;
     margin: 0; } }
+/* line 1, ../scss/_custom/homepage/_footer.scss */
+.footer-bg {
+  background-color: #343534; }
+  /* line 3, ../scss/_custom/homepage/_footer.scss */
+  .footer-bg .footer-logo {
+    padding: 15px 0 40px 0; }
+  /* line 6, ../scss/_custom/homepage/_footer.scss */
+  .footer-bg .wrapbuckets {
+    color: #FFF; }
+    /* line 8, ../scss/_custom/homepage/_footer.scss */
+    .footer-bg .wrapbuckets a {
+      color: #fff;
+      text-decoration: none; }
+    /* line 12, ../scss/_custom/homepage/_footer.scss */
+    .footer-bg .wrapbuckets h3 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95em;
+      margin: 15px 0 2px; }
+    /* line 18, ../scss/_custom/homepage/_footer.scss */
+    .footer-bg .wrapbuckets .bucket ul {
+      font-size: 0.85em; }
+
+/* The following settings updated in _settings.scss file:
+    $crumb-font-transform: none;
+    $crumb-bg: #fff;
+    $crumb-slash: ">";
+    $crumb-border-size: 0;
+    $crumb-border-style: none;
+    $crumb-border-color: #fff;
+    $crumb-padding: rem-calc(0 14 6 0);
+*/
+/* line 13, ../scss/_custom/components/_breadcrumbs.scss */
+.custom-breadcrumbs {
+  float: right;
+  margin-right: 15px;
+  display: block;
+  padding: 0.5625rem 0.875rem 0.5625rem;
+  overflow: hidden;
+  margin-left: 0;
+  list-style: none;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f4f4f4;
+  border-color: gainsboro;
+  border-radius: 3px; }
+  /* line 23, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs > * {
+    margin: 0;
+    float: left;
+    font-size: 0.6875rem;
+    line-height: 0.6875rem;
+    text-transform: none;
+    color: #008CBA;
+    font-transform: none; }
+    /* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:hover a, .custom-breadcrumbs > *:focus a {
+      text-decoration: underline; }
+    /* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > * a {
+      color: #008CBA; }
+    /* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *.current {
+      cursor: default;
+      color: #333333; }
+      /* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.current a {
+        cursor: default;
+        color: #333333; }
+      /* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.current:hover, .custom-breadcrumbs > *.current:hover a, .custom-breadcrumbs > *.current:focus, .custom-breadcrumbs > *.current:focus a {
+        text-decoration: none; }
+    /* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *.unavailable {
+      color: #999999; }
+      /* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.unavailable a {
+        color: #999999; }
+      /* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.unavailable:hover, .custom-breadcrumbs > *.unavailable:hover a, .custom-breadcrumbs > *.unavailable:focus,
+      .custom-breadcrumbs > *.unavailable a:focus {
+        text-decoration: none;
+        color: #999999;
+        cursor: default; }
+    /* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:before {
+      content: ">";
+      color: #AAAAAA;
+      margin: 0 0.75rem;
+      position: relative;
+      top: 1px; }
+    /* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:first-child:before {
+      content: " ";
+      margin: 0; }
+  /* line 28, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs > *:before {
+    top: 0; }
+  /* line 32, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs .breadcrumb-active, .custom-breadcrumbs .breadcrumb-active:focus, .custom-breadcrumbs .breadcrumb-active:hover {
+    text-decoration: none;
+    cursor: default; }
+
+/* Title and sub-title to be used on banners */
+/* Main content title (not necessarily h1)*/
+/* Main content title with border (not necessarily h1)*/
+/* Color paragraph header */
+/* Color bold list header */
+/* line 1, ../scss/_custom/components/_read-more-btn.scss */
+.seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more {
+  background-color: #FCCD39;
+  color: #000;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border: 1px #c4c4c4 solid;
+  font-family: raleway;
+  font-size: 13px; }
+
+/*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
+/* line 112, header-footer/*.png */
+.header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
+  background-image: url('../images-dist/header-footer-sbd3345fe8c.png');
+  background-repeat: no-repeat; }
+
+/* line 28, ../scss/_custom/header/_header.scss */
+.header-logos .cdt-logo {
+  background-position: 0 -129px;
+  height: 72px;
+  width: 142px;
+  margin: 7px 10px; }
+/* line 36, ../scss/_custom/header/_header.scss */
+.header-logos .aatc-logo {
+  background-position: 0 0;
+  height: 43px;
+  width: 131px;
+  margin: 21.5px 10px; }
+/* line 44, ../scss/_custom/header/_header.scss */
+.header-logos .book-now {
+  background-position: 0 -43px;
+  float: right;
+  height: 86px;
+  width: 114px; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 44, ../scss/_custom/header/_header.scss */
+    .header-logos .book-now {
+      margin-right: 67px; } }
+/* line 56, ../scss/_custom/header/_header.scss */
+.header-logos .years-in-business {
+  background-position: 0 -786px;
+  height: 121px;
+  width: 67px;
+  position: absolute;
+  z-index: 1000;
+  right: 0; }
+/* line 66, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-1 {
+  background-position: 0 -201px; }
+/* line 67, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-2 {
+  background-position: 0 -318px; }
+/* line 68, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-3 {
+  background-position: 0 -435px; }
+/* line 69, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-4 {
+  background-position: 0 -552px; }
+/* line 70, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-5 {
+  background-position: 0 -669px; }
+/* line 72, ../scss/_custom/header/_header.scss */
+.header-logos .training-text {
+  margin: 19px 0;
+  padding: 0;
+  display: none; }
+  @media (min-width: 48em) {
+    /* line 72, ../scss/_custom/header/_header.scss */
+    .header-logos .training-text {
+      display: inherit;
+      font-size: 1em;
+      line-height: 1.5em; } }
+
+/* line 86, ../scss/_custom/header/_header.scss */
+.header-banner {
+  background-color: #6c6c6c;
+  color: #fff; }
+
+/* line 91, ../scss/_custom/header/_header.scss */
+.contain-to-grid ul.right li.contact-no a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px; }
+
+/* line 99, ../scss/_custom/header/_header.scss */
+.header-banner-container {
+  position: relative;
+  overflow: visible;
+  z-index: 99999; }
+
+/* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
+.banner-row {
+  height: 120px;
+  margin-bottom: 12px; }
+  /* line 10, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .banner-row {
+    height: 120px;
+    margin-bottom: 8px; }
+  /* line 15, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .category-logo {
+    margin: 32.5px 0 32.5px 15px; }
+  /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .banner-text {
+    max-width: 75%;
+    top: 32.5px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
+      .banner-row .banner-text {
+        max-width: 90%; } }
+    /* line 3, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-header, .banner-row .banner-text .banner-sub-header {
+      font-family: Raleway, Helvetica, sans-serif;
+      color: #fff; }
+    /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-header {
+      font-size: 1.25em;
+      line-height: 1.2em;
+      line-height: 1em; }
+      @media only screen and (min-width: 40.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .banner-row .banner-text .banner-header {
+          font-size: 1.5em;
+          line-height: 2em;
+          line-height: 1em; } }
+      @media only screen and (min-width: 64.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .banner-row .banner-text .banner-header {
+          font-size: 2em;
+          line-height: 1.5em;
+          line-height: 1em; } }
+    /* line 24, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-sub-header {
+      font-size: 0.875em;
+      line-height: 1.71429em; }
+
+/* line 1, ../scss/_custom/components/training/_side-panel-no-color.scss */
+.seminars-ad {
+  color: #fff;
+  padding: 0 6px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-bottom: 14.4px; }
+  /* line 7, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .seminars-ad-title {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    padding-top: 6px; }
+  /* line 15, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .seminars-ad-content {
+    font-size: 0.75em;
+    line-height: 2em;
+    line-height: 1.6em;
+    padding-bottom: 4px; }
+  /* line 22, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .read-more-btn {
+    padding: 2px 8px; }
+
+/* line 28, ../scss/_custom/components/training/_side-panel-no-color.scss */
+.training-checklist {
+  /*    background-color: #CECECE;*/
+  margin-bottom: 14.4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+  /* line 34, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist th, .training-checklist td {
+    padding: 0 0 4px 5px; }
+  /* line 38, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist td {
+    font-size: 14px;
+    text-align: left; }
+  /* line 43, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist th {
+    text-align: left; }
+  /* line 55, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist table {
+    margin-top: 4px;
+    border-top: none;
+    margin-bottom: 1em;
+    width: 100%; }
+    /* line 61, ../scss/_custom/components/training/_side-panel-no-color.scss */
+    .training-checklist table .center-content {
+      text-align: center; }
+  /* line 70, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist .foot-note {
+    margin-left: 10px;
+    display: block; }
+
+/* line 1, ../scss/_custom/components/training/_custom-training-no-color.scss */
+.custom-training {
+  margin-bottom: 14.4px; }
+  /* line 4, ../scss/_custom/components/training/_custom-training-no-color.scss */
+  .custom-training .custom-training-text-header {
+    font-size: 1.25em;
+    line-height: 1.2em; }
+  /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
+  .custom-training .prefer-custom-training-text {
+    color: #fff;
+    background-color: #686F74;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    top: -3px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    margin-top: -9px; }
+    /* line 9, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .custom-text {
+      font-size: 0.8125em;
+      line-height: 1.84615em; }
+    @media screen and (min-width: 420px) and (max-width: 639px) {
+      /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
+      .custom-training .prefer-custom-training-text {
+        width: 65%; } }
+    /* line 28, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .custom-training-text-header {
+      font-size: 1.4em;
+      margin-top: 6px;
+      margin-bottom: 6px; }
+    /* line 36, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul {
+      list-style-type: none;
+      margin-bottom: 6px;
+      margin-left: 8px;
+      -webkit-margin-after: 6px; }
+    /* line 43, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul li:before {
+      content: "-";
+      left: -4px;
+      position: relative; }
+    /* line 49, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul li {
+      font-size: 0.875em;
+      line-height: 1.71429em;
+      line-height: 1.5em;
+      margin-left: -5px;
+      margin-bottom: 3px; }
+    /* line 59, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .read-more-btn {
+      padding: 0 8px;
+      position: relative;
+      float: right;
+      margin-top: -6px; }
+
+/* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
+.course-item {
+  margin-bottom: 24px;
+  margin-top: 12px; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item {
+      width: 93%; } }
+  /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-title {
+    padding: 3px 0 0 7px;
+    text-transform: uppercase;
+    float: left !important; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-title {
+        float: right; } }
+    /* line 18, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item .course-item-title h3 {
+      font-size: 1em;
+      line-height: 1.5em;
+      line-height: 1.2em; }
+  /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-header {
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-header {
+        height: 3.5em;
+        margin-bottom: 0; } }
+  /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-description {
+    line-height: 1.5em;
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-description {
+        height: 12em;
+        margin-bottom: 0; } }
+  /* line 50, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .day-time {
+    font-size: 0.8125em;
+    line-height: 1.84615em; }
+  /* line 54, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-info,
+  .course-item .course-book-now {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding: 4px 0; }
+    /* line 63, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item .course-item-info a, .course-item .course-item-info a:hover, .course-item .course-item-info a:focus,
+    .course-item .course-book-now a,
+    .course-item .course-book-now a:hover,
+    .course-item .course-book-now a:focus {
+      color: #fff; }
+  /* line 68, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-fee {
+    margin-bottom: 2px; }
+  /* line 74, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .big {
+    line-height: 1.5em; }
+  /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-info {
+    width: 90px;
+    border-right: 3px solid #fff; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-info {
+        min-width: initial;
+        width: 48%; } }
+  /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-book-now {
+    text-transform: uppercase;
+    width: 85px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-book-now {
+        min-width: initial;
+        width: 46%; } }
+
+/* General Course Items - no dependency on color */
+/* line 5, ../scss/_custom/components/training/_course-no-color-items.scss */
+.course-outline {
+  /* Secion borders */
+  /* Headers */
+  /* Course overview */
+  /* Download PDF button */
+  /* Course outline - sylabus */
+  /* Read more buttons */
+  /* Training packages and related courses */
+  /* Side bar - pricing and dates*/
+  /* Side bar - pricing and dates*/
+  /* Side bar - download and book */
+  /* Side bar - download and book */
+  /* Side bar - seminars ad */
+  /* Side bar - custom training */
+  /* Side bar - testimonials */ }
+  /* line 6, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .sw-ver {
+    text-decoration: underline; }
+  /* line 12, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .upper-row {
+    border-bottom: 1px solid #2C2C2C;
+    margin-bottom: 24px; }
+  /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-info-upper {
+    margin-bottom: 8px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-info-upper {
+        border-right: 1px dashed #2C2C2C;
+        width: 64%; } }
+  /* line 26, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .paragraph-header-def-color {
+    border-bottom: 1px dashed #2C2C2C; }
+  /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline {
+    padding-left: 0;
+    margin-bottom: 24px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-outline {
+        border-right: 3px solid #ababab; } }
+  /* line 39, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates h3 {
+    border-bottom: 1px dashed #2C2C2C;
+    margin-bottom: 6px; }
+  /* line 45, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header {
+    font-size: 1.5em;
+    line-height: 1em;
+    line-height: 1em;
+    display: block;
+    border: 1px solid #000;
+    padding: 8px 10px;
+    margin-top: 0;
+    margin-bottom: 16px; }
+  /* line 49, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header-1 {
+    font-size: 2em;
+    line-height: 0.75em;
+    line-height: 1.5em;
+    padding: 3px 0;
+    margin-bottom: 0; }
+  /* line 53, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header-2 {
+    font-size: 1.5em;
+    line-height: 1em;
+    line-height: 1em;
+    padding: 3px 0;
+    margin-bottom: 0; }
+  /* line 62, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .paragraph-header-def-color {
+    color: #000;
+    line-height: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 1.65em; }
+  /* line 72, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .note {
+    font-size: 12px; }
+  /* line 77, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul {
+    list-style-type: none;
+    margin-bottom: 6px;
+    -webkit-margin-after: 0; }
+  /* line 83, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul li:before {
+    content: "-";
+    position: relative;
+    left: -10px; }
+  /* line 89, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul li {
+    font-size: 0.875em;
+    line-height: 1.71429em;
+    margin-left: -10px; }
+  /* line 94, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .to-upper {
+    text-transform: uppercase; }
+  /* line 103, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .course-specific {
+    margin-left: 10px;
+    width: 20em; }
+  /* line 110, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .overview-list-data {
+    margin-bottom: 6px; }
+  /* line 120, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .download-pdf {
+    margin-top: 12px; }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .course-outline-section {
+      width: 57%; } }
+  @media only screen and (min-width: 64.063em) {
+    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .course-outline-section {
+      width: 63%; } }
+  /* line 135, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block h3 {
+    font-size: 1em;
+    line-height: 1.5em; }
+  /* line 140, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+    -webkit-margin-after: 24px; }
+  /* line 146, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block ul li {
+    margin-left: -5px; }
+  /* line 152, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-column {
+    min-width: 15em;
+    padding-right: 15px; }
+  /* line 157, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .broken-column {
+    -webkit-margin-after: 0 !important; }
+  /* line 162, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .read-more-btn {
+    padding: 3px 8px; }
+  /* line 168, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .and {
+    text-align: center;
+    width: 38px; }
+  /* line 175, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .package-logos-read-more {
+    margin: 12px 0 24px 0; }
+  /* line 179, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .related-course {
+    max-width: 7em;
+    padding-left: 0; }
+  /* line 184, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .pricing-table, .course-outline .title, .course-outline .description {
+    border: none; }
+  /* line 188, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .pricing-table {
+    margin-top: 24px; }
+    /* line 191, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .pricing-table .title {
+      background-color: #fff;
+      margin-bottom: 8px; }
+    /* line 196, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .pricing-table .description {
+      padding: 0; }
+  /* line 201, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .advanced-table {
+    margin-top: 19px;
+    margin-left: -17px; }
+    /* line 205, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .advanced-table .description {
+      padding-left: 15px; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 211, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .upper-side {
+      width: 36%; } }
+  @media only screen and (min-width: 40.063em) {
+    /* line 218, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .upper-side {
+      width: 36%; } }
+  /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates-promo {
+    background-color: #E5E5E5;
+    margin-bottom: 16px;
+    max-width: 30em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    @media only screen and (max-width: 40em) {
+      /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-dates-promo {
+        width: 80%; } }
+  /* line 238, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates-city-block {
+    margin-bottom: 12px; }
+  /* line 250, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-length {
+    font-size: 14px; }
+  /* line 255, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-price-info {
+    margin-bottom: 24px; }
+  /* line 260, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .book-now-section {
+    padding-top: 24px;
+    min-width: 9em; }
+  /* line 266, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .book-now-section {
+    padding-top: 24px;
+    min-width: 9em; }
+  /* line 271, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .download-text {
+    font-size: 14px;
+    line-height: 1em;
+    margin-left: -10px; }
+  /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .seminars-ad {
+    margin-bottom: 6px; }
+    @media only screen and (max-width: 40em) {
+      /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .seminars-ad {
+        width: 80%; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .lower-aside-section {
+      width: 43%; } }
+  @media only screen and (min-width: 64.063em) {
+    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .lower-aside-section {
+      width: 37%; } }
+  /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .testimonials {
+    height: 33em;
+    max-width: 30em; }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+      /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .testimonials {
+        height: 87em; } }
+
+/* Mixin for styling of custom training logo, to be used on category and course pages 
+*/
+/* line 3, ../scss/_custom/components/training/_custom-training.scss */
+.category-page .custom-training-logo {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+@media only screen and (min-width: 40.063em) {
+  /* line 16, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .category-description-section {
+    margin-bottom: 24px; } }
+/* line 22, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  line-height: 1em;
+  display: block;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  margin-top: 0;
+  margin-bottom: 16px; }
+/* line 26, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-1 {
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/ }
+/* line 37, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-2 {
+  margin-bottom: 8px;
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/ }
+/* line 49, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-3 {
+  width: 100%;
+  margin-bottom: 10px; }
+/* line 55, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .sw-ver {
+  text-decoration: underline; }
+/* line 60, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .courses-list {
+  margin-bottom: 12px; }
+/* line 64, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .category-video {
+  margin-bottom: 14.4px; }
+@media only screen and (max-width: 40em) {
+  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    margin-bottom: 36px !important; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    margin-bottom: 36px !important; } }
+/* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .testimonials {
+  height: 23em; }
+  @media screen and (min-width: 640px) and (max-width: 680px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 68em; } }
+  @media screen and (min-width: 681px) and (max-width: 780px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 53em; } }
+  @media screen and (min-width: 781px) and (max-width: 1024px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 37em; } }
+/* line 94, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .and {
+  text-align: center;
+  width: 38px; }
+/* line 101, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .read-more-btn {
+  padding: 3px 8px; }
+/* line 106, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .promo-read-more {
+  padding-left: 0;
+  margin-top: 6px;
+  margin-bottom: 30px; }
+/* line 117, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .category-promo-section {
+  margin-top: 2em; }
+/* line 121, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .promo-packages {
+  margin-bottom: 24px; }
+/* line 125, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page [class*="block-grid-"] > li {
+  padding-bottom: 0; }
+@media screen and (min-width: 640px) and (max-width: 680px) {
+  /* line 130, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .category-description-section {
+    width: 55%; }
+  /* line 134, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    width: 45%; }
+  /* line 138, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -7em; } }
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  /* line 144, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -6em; } }
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  /* line 150, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -1em; } }
+
+@media print {
+  /* line 2, ../scss/_custom/_print.scss */
+  .megamenu_container,
+  .footer-logo,
+  .custom-breadcrumbs,
+  .category-page .custom-training,
+  .category-page .side-pannel,
+  .category-page .promo-packages,
+  .category-page .course-item-info,
+  .category-page .course-book-now,
+  .course-outline .course-classrom,
+  .course-outline .course-dates,
+  .course-outline .download-and-book,
+  .course-outline .validate-participants,
+  .course-outline .download-pdf,
+  .course-outline .seminars-ad,
+  .course-outline .lower-aside-section,
+  .course-outline .promo-grid,
+  .course-outline .related-courses,
+  .orbit-prev,
+  .orbit-next,
+  .wtwu-side-panel,
+  .plus-minus-icon,
+  .testimonials,
+  .room-hire .banner-image,
+  .room-hire .win-mac-logo,
+  .room-hire .room-hire-breakout,
+  .room-hire .sydney-map,
+  .room-hire .melbourne-map,
+  .new-skills-banner,
+  .private-training,
+  .locations .sydney,
+  .locations .melbourne,
+  .locations .brisbane,
+  .locations .canberra,
+  .locations .map {
+    display: none !important; }
+
+  /* line 40, ../scss/_custom/_print.scss */
+  .accordion {
+    overflow: visible !important; }
+
+  /* line 44, ../scss/_custom/_print.scss */
+  .accordion .content {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important; } }
+/* line 1, ../scss/_custom/homepage/_slider.scss */
+.slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+  background-image: url(/images-dist/homepage/landing-page-banner/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: 200; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 1, ../scss/_custom/homepage/_slider.scss */
+    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+      min-height: 330px; }
+      /* line 9, ../scss/_custom/homepage/_slider.scss */
+      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        /* line 12, ../scss/_custom/homepage/_slider.scss */
+        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+          padding-top: 10px;
+          padding-left: 0;
+          font-size: 36px; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 1, ../scss/_custom/homepage/_slider.scss */
+    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+      height: 265px; }
+      /* line 21, ../scss/_custom/homepage/_slider.scss */
+      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+        padding-top: 15px;
+        padding-bottom: 10px; }
+        /* line 24, ../scss/_custom/homepage/_slider.scss */
+        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+          padding-top: 5px;
+          padding-left: 0;
+          font-size: 30px; } }
+
+/* line 32, ../scss/_custom/homepage/_slider.scss */
+.slider-1 {
+  background-image: url(/images-dist/homepage/landing-page-banner/main-slider-image.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 37, ../scss/_custom/homepage/_slider.scss */
+    .slider-1 .slider-one {
+      padding-top: 50px;
+      padding-left: 150px;
+      min-height: 330px; }
+      /* line 41, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one h1 {
+        font-size: 48px;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; }
+      /* line 48, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one p {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 400;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 59, ../scss/_custom/homepage/_slider.scss */
+    .slider-1 .slider-one {
+      padding-top: 50px;
+      padding-left: 150px;
+      height: 265px; }
+      /* line 63, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one h1 {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; }
+      /* line 70, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif;
+        padding-bottom: 50px; } }
+
+/* line 82, ../scss/_custom/homepage/_slider.scss */
+.course-img-caption p {
+  font-size: 12px;
+  font-weight: 200;
+  float: left;
+  padding-top: 5px; }
+
+/* line 89, ../scss/_custom/homepage/_slider.scss */
+.orbit-timer {
+  display: none; }
+
+/* line 92, ../scss/_custom/homepage/_slider.scss */
+.orbit-slide-number {
+  display: none; }
+
 /* line 1, ../scss/_custom/homepage/_home.scss */
 .blue-bar {
   background-color: #2089d3; }
@@ -9269,43 +9292,20 @@ body {
   padding-right: 10px; }
 
 /* line 81, ../scss/_custom/homepage/_home.scss */
-.footer-bg {
-  background-color: #343534; }
-  /* line 83, ../scss/_custom/homepage/_home.scss */
-  .footer-bg .footer-logo {
-    padding: 15px 0 40px 0; }
-  /* line 86, ../scss/_custom/homepage/_home.scss */
-  .footer-bg .wrapbuckets {
-    color: #FFF; }
-    /* line 88, ../scss/_custom/homepage/_home.scss */
-    .footer-bg .wrapbuckets a {
-      color: #fff;
-      text-decoration: none; }
-    /* line 92, ../scss/_custom/homepage/_home.scss */
-    .footer-bg .wrapbuckets h3 {
-      color: #fff;
-      font-weight: 700;
-      font-size: 0.95em;
-      margin: 15px 0 2px; }
-    /* line 98, ../scss/_custom/homepage/_home.scss */
-    .footer-bg .wrapbuckets .bucket ul {
-      font-size: 0.85em; }
-
-/* line 105, ../scss/_custom/homepage/_home.scss */
 .why-train-bg {
   background-color: #D7E9F7;
   border-bottom: 1px #c4c4c4 solid; }
-  /* line 110, ../scss/_custom/homepage/_home.scss */
+  /* line 86, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us h3 {
     font-size: 42px;
     font-weight: 200;
     font-family: Raleway;
     line-height: 1em;
     padding-bottom: 5px; }
-  /* line 118, ../scss/_custom/homepage/_home.scss */
+  /* line 94, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us a:hover {
     background-color: #FFCE77; }
 
-/* line 128, ../scss/_custom/homepage/_home.scss */
+/* line 104, ../scss/_custom/homepage/_home.scss */
 .no-padding {
   padding: 0; }

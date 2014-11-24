@@ -44,9 +44,11 @@
 @import "breakpoint/stylesheets/breakpoint";
 @import "_custom/common";  
 @import "_custom/custom-fonts";  
+@import "_custom/homepage/megamenu";
+@import "_custom/homepage/footer";
 @import "_custom/components/breadcrumbs";
 @import "_custom/components/border-radius";
-@import "_custom/components/cdt-typography";
+@import "_custom/components/cdt-typography"; 
 @import "_custom/components/read-more-btn";
 @import "_custom/components/plus-minus-icon"; 
 @import "_custom/components/responsive-table";
@@ -58,7 +60,8 @@
 @import "_custom/components/training/course-item-no-color";
 @import "_custom/components/training/course-no-color-items";
 @import "_custom/components/training/category-no-color-items"; 
-     
+
+
 // Print styles
 @import "_custom/print";    
 
