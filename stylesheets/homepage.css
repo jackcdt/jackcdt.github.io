@@ -6755,23 +6755,8 @@ body {
   text-decoration: underline; }
 
 /* line 57, ../scss/_custom/_common.scss */
-.nopadding, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .photoshop-category .course-item .course-item-info,
-.photoshop-category .course-item .course-book-now, .illustrator-category .course-item .course-item-info,
-.illustrator-category .course-item .course-book-now, .acrobat-category .course-item .course-item-info,
-.acrobat-category .course-item .course-book-now, .digital-publishing-category .course-item .course-item-info,
-.digital-publishing-category .course-item .course-book-now, .flash-category .course-item .course-item-info,
-.flash-category .course-item .course-book-now, .html-css-category .course-item .course-item-info,
-.html-css-category .course-item .course-book-now, .dreamweaver-category .course-item .course-item-info,
-.dreamweaver-category .course-item .course-book-now, .wordpress-category .course-item .course-item-info,
-.wordpress-category .course-item .course-book-now, .javascript-jquery-category .course-item .course-item-info,
-.javascript-jquery-category .course-item .course-book-now, .edge-animate-category .course-item .course-item-info,
-.edge-animate-category .course-item .course-book-now, .after-effects-category .course-item .course-item-info,
-.after-effects-category .course-item .course-book-now, .premiere-pro-category .course-item .course-item-info,
-.premiere-pro-category .course-item .course-book-now, .captivate-category .course-item .course-item-info,
-.captivate-category .course-item .course-book-now, .business-tools-category .course-item .course-item-info,
-.business-tools-category .course-item .course-book-now, .online-courses-category .course-item .course-item-info,
-.online-courses-category .course-item .course-book-now {
+.nopadding, .course-item .course-item-info,
+.course-item .course-book-now {
   padding-left: 0;
   padding-right: 0; }
 
@@ -6787,36 +6772,2540 @@ html {
 
 /* "This is where the magic happens" —Everyone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
-.category-page .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .slide-header, .cdt-custom-training .testimonials-slider .slider-content .slide-header, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
+.category-page .part-time-options {
   font-weight: 700; }
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
-.course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more, .course-outline .custom-training .prefer-custom-training-text .read-more-btn, .category-page .custom-training .prefer-custom-training-text .read-more-btn, .cdt-calendar .custom-training .prefer-custom-training-text .read-more-btn, .cdt-book .custom-training .prefer-custom-training-text .read-more-btn, .indesign-category .seminars-ad .read-more-btn, .indesign-essentials-course .seminars-ad .read-more-btn, .indesign-advanced-course .seminars-ad .read-more-btn, .indesign-lite-course .seminars-ad .read-more-btn, .indesign-long-docs-course .seminars-ad .read-more-btn, .indesign-interactivity-course .seminars-ad .read-more-btn, .indesign-accessibility-course .seminars-ad .read-more-btn, .photoshop-category .seminars-ad .read-more-btn, .photoshop-essentials-course .seminars-ad .read-more-btn, .photoshop-advanced-course .seminars-ad .read-more-btn, .photoshop-lite-course .seminars-ad .read-more-btn, .photoshop-web-course .seminars-ad .read-more-btn, .photoshop-lr-course .seminars-ad .read-more-btn, .illustrator-category .seminars-ad .read-more-btn, .illustrator-essentials-course .seminars-ad .read-more-btn, .illustrator-lite-course .seminars-ad .read-more-btn, .illustrator-advanced-course .seminars-ad .read-more-btn, .acrobat-category .seminars-ad .read-more-btn, .acrobat-essentials-course .seminars-ad .read-more-btn, .acrobat-pdfforms-course .seminars-ad .read-more-btn, .digital-publishing-category .seminars-ad .read-more-btn, .indesign-to-ipad-course .seminars-ad .read-more-btn, .dps-single-app-course .seminars-ad .read-more-btn, .dps-pro-app-course .seminars-ad .read-more-btn, .indesign-to-ebook-course .seminars-ad .read-more-btn, .flash-category .seminars-ad .read-more-btn, .flash-essentials-course .seminars-ad .read-more-btn, .flash-web-banners-course .seminars-ad .read-more-btn, .flash-actionscript-course .seminars-ad .read-more-btn, .html-css-category .seminars-ad .read-more-btn, .html-web-principles-course .seminars-ad .read-more-btn, .css-essentials-course .seminars-ad .read-more-btn, .html-responsive-course .seminars-ad .read-more-btn, .html5-css3-course .seminars-ad .read-more-btn, .dreamweaver-category .seminars-ad .read-more-btn, .dreamweaver-essentials-course .seminars-ad .read-more-btn, .muse-essentials-course .seminars-ad .read-more-btn, .wordpress-category .seminars-ad .read-more-btn, .wordpress-essentials-course .seminars-ad .read-more-btn, .wordpress-advanced-course .seminars-ad .read-more-btn, .javascript-jquery-category .seminars-ad .read-more-btn, .javascript-essentials-course .seminars-ad .read-more-btn, .jquery-essentials-course .seminars-ad .read-more-btn, .edge-animate-category .seminars-ad .read-more-btn, .edge-animate-essentials-course .seminars-ad .read-more-btn, .edge-animate-advanced-course .seminars-ad .read-more-btn, .after-effects-category .seminars-ad .read-more-btn, .after-effects-essentials-course .seminars-ad .read-more-btn, .after-effects-advanced-course .seminars-ad .read-more-btn, .premiere-pro-category .seminars-ad .read-more-btn, .premiere-pro-essentials-course .seminars-ad .read-more-btn, .premiere-pro-advanced-course .seminars-ad .read-more-btn, .premiere-elements-course .seminars-ad .read-more-btn, .finalcut-pro-course .seminars-ad .read-more-btn, .captivate-category .seminars-ad .read-more-btn, .captivate-essentials-course .seminars-ad .read-more-btn, .captivate-advanced-course .seminars-ad .read-more-btn, .business-tools-category .seminars-ad .read-more-btn, .google-analytics-course .seminars-ad .read-more-btn, .linkedin-course .seminars-ad .read-more-btn, .seo-essentials-course .seminars-ad .read-more-btn, .online-courses-category .seminars-ad .read-more-btn, .course-outline .overview-list .item-course-specific,
-.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong, .indesign-category .course-item .course-item-fee, .indesign-category .testimonials .category-testimonial span, .indesign-essentials-course strong, .indesign-essentials-course .testimonials .category-testimonial span, .indesign-advanced-course strong, .indesign-advanced-course .testimonials .category-testimonial span, .indesign-lite-course strong, .indesign-lite-course .testimonials .category-testimonial span, .indesign-long-docs-course strong, .indesign-long-docs-course .testimonials .category-testimonial span, .indesign-interactivity-course strong, .indesign-interactivity-course .testimonials .category-testimonial span, .indesign-accessibility-course strong, .indesign-accessibility-course .testimonials .category-testimonial span, .photoshop-category .course-item .course-item-fee, .photoshop-category .testimonials .category-testimonial span, .photoshop-essentials-course strong, .photoshop-essentials-course .testimonials .category-testimonial span, .photoshop-advanced-course strong, .photoshop-advanced-course .testimonials .category-testimonial span, .photoshop-lite-course strong, .photoshop-lite-course .testimonials .category-testimonial span, .photoshop-web-course strong, .photoshop-web-course .testimonials .category-testimonial span, .photoshop-lr-course strong, .photoshop-lr-course .testimonials .category-testimonial span, .illustrator-category .course-item .course-item-fee, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course strong, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course strong, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course strong, .illustrator-advanced-course .testimonials .category-testimonial span, .acrobat-category .course-item .course-item-fee, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course strong, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course strong, .acrobat-pdfforms-course .testimonials .category-testimonial span, .digital-publishing-category .course-item .course-item-fee, .digital-publishing-category .testimonials .category-testimonial span, .indesign-to-ipad-course strong, .indesign-to-ipad-course .testimonials .category-testimonial span, .dps-single-app-course strong, .dps-single-app-course .testimonials .category-testimonial span, .dps-pro-app-course strong, .dps-pro-app-course .testimonials .category-testimonial span, .indesign-to-ebook-course strong, .indesign-to-ebook-course .testimonials .category-testimonial span, .flash-category .course-item .course-item-fee, .flash-category .testimonials .category-testimonial span, .flash-essentials-course strong, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course strong, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course strong, .flash-actionscript-course .testimonials .category-testimonial span, .html-css-category .course-item .course-item-fee, .html-css-category .testimonials .category-testimonial span, .html-web-principles-course strong, .html-web-principles-course .testimonials .category-testimonial span, .css-essentials-course strong, .css-essentials-course .testimonials .category-testimonial span, .html-responsive-course strong, .html-responsive-course .testimonials .category-testimonial span, .html5-css3-course strong, .html5-css3-course .testimonials .category-testimonial span, .dreamweaver-category .course-item .course-item-fee, .dreamweaver-category .testimonials .category-testimonial span, .dreamweaver-essentials-course strong, .dreamweaver-essentials-course .testimonials .category-testimonial span, .muse-essentials-course strong, .muse-essentials-course .testimonials .category-testimonial span, .wordpress-category .course-item .course-item-fee, .wordpress-category .testimonials .category-testimonial span, .wordpress-essentials-course strong, .wordpress-essentials-course .testimonials .category-testimonial span, .wordpress-advanced-course strong, .wordpress-advanced-course .testimonials .category-testimonial span, .javascript-jquery-category .course-item .course-item-fee, .javascript-jquery-category .testimonials .category-testimonial span, .javascript-essentials-course strong, .javascript-essentials-course .testimonials .category-testimonial span, .jquery-essentials-course strong, .jquery-essentials-course .testimonials .category-testimonial span, .edge-animate-category .course-item .course-item-fee, .edge-animate-category .testimonials .category-testimonial span, .edge-animate-essentials-course strong, .edge-animate-essentials-course .testimonials .category-testimonial span, .edge-animate-advanced-course strong, .edge-animate-advanced-course .testimonials .category-testimonial span, .after-effects-category .course-item .course-item-fee, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course strong, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course strong, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .course-item .course-item-fee, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course strong, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course strong, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course strong, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course strong, .finalcut-pro-course .testimonials .category-testimonial span, .captivate-category .course-item .course-item-fee, .captivate-category .testimonials .category-testimonial span, .captivate-essentials-course strong, .captivate-essentials-course .testimonials .category-testimonial span, .captivate-advanced-course strong, .captivate-advanced-course .testimonials .category-testimonial span, .business-tools-category .course-item .course-item-fee, .business-tools-category .testimonials .category-testimonial span, .google-analytics-course strong, .google-analytics-course .testimonials .category-testimonial span, .linkedin-course strong, .linkedin-course .testimonials .category-testimonial span, .seo-essentials-course strong, .seo-essentials-course .testimonials .category-testimonial span, .online-courses-category .course-item .course-item-fee, .online-courses-category .testimonials .category-testimonial span, .cdt-calendar .tabs-content h3, .cdt-calendar .responsive thead th, .cdt-wtwu h2, .faq h3, .faq .testimonials .category-testimonial span, .contact-us h3, .room-hire h2, .room-hire .sydney-hire-details h3,
-.room-hire .melbourne-hire-details h3, .locations h3, .locations .address, .locations .general-title,
-.locations .refresh-title, .cdt-custom-training h2, .cdt-book .tabs-content h3 {
+.seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more, .course-item .course-item-fee, .course-outline .overview-list .item-course-specific,
+.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong {
   font-weight: 600; }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
-.custom-breadcrumbs, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .indesign-category .banner-row .banner-text .banner-sub-header, .indesign-category .course-item .course-item-info,
-.indesign-category .course-item .course-book-now, .indesign-category .training-checklist th, .indesign-category .training-checklist .training-checklist-header, .indesign-category .paragraph-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial-client-name, .indesign-category .testimonials .category-testimonial-course-name, .indesign-essentials-course .banner-row .banner-text .banner-sub-header, .indesign-essentials-course .paragraph-header, .indesign-essentials-course .testimonials .testimonials-title, .indesign-essentials-course .testimonials .category-testimonial-client-name, .indesign-essentials-course .testimonials .category-testimonial-course-name, .indesign-advanced-course .banner-row .banner-text .banner-sub-header, .indesign-advanced-course .paragraph-header, .indesign-advanced-course .testimonials .testimonials-title, .indesign-advanced-course .testimonials .category-testimonial-client-name, .indesign-advanced-course .testimonials .category-testimonial-course-name, .indesign-lite-course .banner-row .banner-text .banner-sub-header, .indesign-lite-course .paragraph-header, .indesign-lite-course .testimonials .testimonials-title, .indesign-lite-course .testimonials .category-testimonial-client-name, .indesign-lite-course .testimonials .category-testimonial-course-name, .indesign-long-docs-course .banner-row .banner-text .banner-sub-header, .indesign-long-docs-course .paragraph-header, .indesign-long-docs-course .testimonials .testimonials-title, .indesign-long-docs-course .testimonials .category-testimonial-client-name, .indesign-long-docs-course .testimonials .category-testimonial-course-name, .indesign-interactivity-course .banner-row .banner-text .banner-sub-header, .indesign-interactivity-course .paragraph-header, .indesign-interactivity-course .testimonials .testimonials-title, .indesign-interactivity-course .testimonials .category-testimonial-client-name, .indesign-interactivity-course .testimonials .category-testimonial-course-name, .indesign-accessibility-course .banner-row .banner-text .banner-sub-header, .indesign-accessibility-course .paragraph-header, .indesign-accessibility-course .testimonials .testimonials-title, .indesign-accessibility-course .testimonials .category-testimonial-client-name, .indesign-accessibility-course .testimonials .category-testimonial-course-name, .photoshop-category .banner-row .banner-text .banner-sub-header, .photoshop-category .course-item .course-item-info,
-.photoshop-category .course-item .course-book-now, .photoshop-category .training-checklist th, .photoshop-category .training-checklist .training-checklist-header, .photoshop-category .paragraph-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial-client-name, .photoshop-category .testimonials .category-testimonial-course-name, .photoshop-essentials-course .banner-row .banner-text .banner-sub-header, .photoshop-essentials-course .paragraph-header, .photoshop-essentials-course .testimonials .testimonials-title, .photoshop-essentials-course .testimonials .category-testimonial-client-name, .photoshop-essentials-course .testimonials .category-testimonial-course-name, .photoshop-advanced-course .banner-row .banner-text .banner-sub-header, .photoshop-advanced-course .paragraph-header, .photoshop-advanced-course .testimonials .testimonials-title, .photoshop-advanced-course .testimonials .category-testimonial-client-name, .photoshop-advanced-course .testimonials .category-testimonial-course-name, .photoshop-lite-course .banner-row .banner-text .banner-sub-header, .photoshop-lite-course .paragraph-header, .photoshop-lite-course .testimonials .testimonials-title, .photoshop-lite-course .testimonials .category-testimonial-client-name, .photoshop-lite-course .testimonials .category-testimonial-course-name, .photoshop-web-course .banner-row .banner-text .banner-sub-header, .photoshop-web-course .paragraph-header, .photoshop-web-course .testimonials .testimonials-title, .photoshop-web-course .testimonials .category-testimonial-client-name, .photoshop-web-course .testimonials .category-testimonial-course-name, .photoshop-lr-course .banner-row .banner-text .banner-sub-header, .photoshop-lr-course .paragraph-header, .photoshop-lr-course .testimonials .testimonials-title, .photoshop-lr-course .testimonials .category-testimonial-client-name, .photoshop-lr-course .testimonials .category-testimonial-course-name, .illustrator-category .banner-row .banner-text .banner-sub-header, .illustrator-category .course-item .course-item-info,
-.illustrator-category .course-item .course-book-now, .illustrator-category .training-checklist th, .illustrator-category .training-checklist .training-checklist-header, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial-client-name, .illustrator-category .testimonials .category-testimonial-course-name, .illustrator-essentials-course .banner-row .banner-text .banner-sub-header, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial-client-name, .illustrator-essentials-course .testimonials .category-testimonial-course-name, .illustrator-lite-course .banner-row .banner-text .banner-sub-header, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial-client-name, .illustrator-lite-course .testimonials .category-testimonial-course-name, .illustrator-advanced-course .banner-row .banner-text .banner-sub-header, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial-client-name, .illustrator-advanced-course .testimonials .category-testimonial-course-name, .acrobat-category .banner-row .banner-text .banner-sub-header, .acrobat-category .course-item .course-item-info,
-.acrobat-category .course-item .course-book-now, .acrobat-category .training-checklist th, .acrobat-category .training-checklist .training-checklist-header, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial-client-name, .acrobat-category .testimonials .category-testimonial-course-name, .acrobat-essentials-course .banner-row .banner-text .banner-sub-header, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial-client-name, .acrobat-essentials-course .testimonials .category-testimonial-course-name, .acrobat-pdfforms-course .banner-row .banner-text .banner-sub-header, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial-client-name, .acrobat-pdfforms-course .testimonials .category-testimonial-course-name, .digital-publishing-category .banner-row .banner-text .banner-sub-header, .digital-publishing-category .course-item .course-item-info,
-.digital-publishing-category .course-item .course-book-now, .digital-publishing-category .training-checklist th, .digital-publishing-category .training-checklist .training-checklist-header, .digital-publishing-category .paragraph-header, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial-client-name, .digital-publishing-category .testimonials .category-testimonial-course-name, .indesign-to-ipad-course .banner-row .banner-text .banner-sub-header, .indesign-to-ipad-course .paragraph-header, .indesign-to-ipad-course .testimonials .testimonials-title, .indesign-to-ipad-course .testimonials .category-testimonial-client-name, .indesign-to-ipad-course .testimonials .category-testimonial-course-name, .dps-single-app-course .banner-row .banner-text .banner-sub-header, .dps-single-app-course .paragraph-header, .dps-single-app-course .testimonials .testimonials-title, .dps-single-app-course .testimonials .category-testimonial-client-name, .dps-single-app-course .testimonials .category-testimonial-course-name, .dps-pro-app-course .banner-row .banner-text .banner-sub-header, .dps-pro-app-course .paragraph-header, .dps-pro-app-course .testimonials .testimonials-title, .dps-pro-app-course .testimonials .category-testimonial-client-name, .dps-pro-app-course .testimonials .category-testimonial-course-name, .indesign-to-ebook-course .banner-row .banner-text .banner-sub-header, .indesign-to-ebook-course .paragraph-header, .indesign-to-ebook-course .testimonials .testimonials-title, .indesign-to-ebook-course .testimonials .category-testimonial-client-name, .indesign-to-ebook-course .testimonials .category-testimonial-course-name, .flash-category .banner-row .banner-text .banner-sub-header, .flash-category .course-item .course-item-info,
-.flash-category .course-item .course-book-now, .flash-category .training-checklist th, .flash-category .training-checklist .training-checklist-header, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial-client-name, .flash-category .testimonials .category-testimonial-course-name, .flash-essentials-course .banner-row .banner-text .banner-sub-header, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial-client-name, .flash-essentials-course .testimonials .category-testimonial-course-name, .flash-web-banners-course .banner-row .banner-text .banner-sub-header, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial-client-name, .flash-web-banners-course .testimonials .category-testimonial-course-name, .flash-actionscript-course .banner-row .banner-text .banner-sub-header, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial-client-name, .flash-actionscript-course .testimonials .category-testimonial-course-name, .html-css-category .banner-row .banner-text .banner-sub-header, .html-css-category .course-item .course-item-info,
-.html-css-category .course-item .course-book-now, .html-css-category .training-checklist th, .html-css-category .training-checklist .training-checklist-header, .html-css-category .paragraph-header, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial-client-name, .html-css-category .testimonials .category-testimonial-course-name, .html-web-principles-course .banner-row .banner-text .banner-sub-header, .html-web-principles-course .paragraph-header, .html-web-principles-course .testimonials .testimonials-title, .html-web-principles-course .testimonials .category-testimonial-client-name, .html-web-principles-course .testimonials .category-testimonial-course-name, .css-essentials-course .banner-row .banner-text .banner-sub-header, .css-essentials-course .paragraph-header, .css-essentials-course .testimonials .testimonials-title, .css-essentials-course .testimonials .category-testimonial-client-name, .css-essentials-course .testimonials .category-testimonial-course-name, .html-responsive-course .banner-row .banner-text .banner-sub-header, .html-responsive-course .paragraph-header, .html-responsive-course .testimonials .testimonials-title, .html-responsive-course .testimonials .category-testimonial-client-name, .html-responsive-course .testimonials .category-testimonial-course-name, .html5-css3-course .banner-row .banner-text .banner-sub-header, .html5-css3-course .paragraph-header, .html5-css3-course .testimonials .testimonials-title, .html5-css3-course .testimonials .category-testimonial-client-name, .html5-css3-course .testimonials .category-testimonial-course-name, .dreamweaver-category .banner-row .banner-text .banner-sub-header, .dreamweaver-category .course-item .course-item-info,
-.dreamweaver-category .course-item .course-book-now, .dreamweaver-category .training-checklist th, .dreamweaver-category .training-checklist .training-checklist-header, .dreamweaver-category .paragraph-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial-client-name, .dreamweaver-category .testimonials .category-testimonial-course-name, .dreamweaver-essentials-course .banner-row .banner-text .banner-sub-header, .dreamweaver-essentials-course .paragraph-header, .dreamweaver-essentials-course .testimonials .testimonials-title, .dreamweaver-essentials-course .testimonials .category-testimonial-client-name, .dreamweaver-essentials-course .testimonials .category-testimonial-course-name, .muse-essentials-course .banner-row .banner-text .banner-sub-header, .muse-essentials-course .paragraph-header, .muse-essentials-course .testimonials .testimonials-title, .muse-essentials-course .testimonials .category-testimonial-client-name, .muse-essentials-course .testimonials .category-testimonial-course-name, .wordpress-category .banner-row .banner-text .banner-sub-header, .wordpress-category .course-item .course-item-info,
-.wordpress-category .course-item .course-book-now, .wordpress-category .training-checklist th, .wordpress-category .training-checklist .training-checklist-header, .wordpress-category .paragraph-header, .wordpress-category .testimonials .testimonials-title, .wordpress-category .testimonials .category-testimonial-client-name, .wordpress-category .testimonials .category-testimonial-course-name, .wordpress-essentials-course .banner-row .banner-text .banner-sub-header, .wordpress-essentials-course .paragraph-header, .wordpress-essentials-course .testimonials .testimonials-title, .wordpress-essentials-course .testimonials .category-testimonial-client-name, .wordpress-essentials-course .testimonials .category-testimonial-course-name, .wordpress-advanced-course .banner-row .banner-text .banner-sub-header, .wordpress-advanced-course .paragraph-header, .wordpress-advanced-course .testimonials .testimonials-title, .wordpress-advanced-course .testimonials .category-testimonial-client-name, .wordpress-advanced-course .testimonials .category-testimonial-course-name, .javascript-jquery-category .banner-row .banner-text .banner-sub-header, .javascript-jquery-category .course-item .course-item-info,
-.javascript-jquery-category .course-item .course-book-now, .javascript-jquery-category .training-checklist th, .javascript-jquery-category .training-checklist .training-checklist-header, .javascript-jquery-category .paragraph-header, .javascript-jquery-category .testimonials .testimonials-title, .javascript-jquery-category .testimonials .category-testimonial-client-name, .javascript-jquery-category .testimonials .category-testimonial-course-name, .javascript-essentials-course .banner-row .banner-text .banner-sub-header, .javascript-essentials-course .paragraph-header, .javascript-essentials-course .testimonials .testimonials-title, .javascript-essentials-course .testimonials .category-testimonial-client-name, .javascript-essentials-course .testimonials .category-testimonial-course-name, .jquery-essentials-course .banner-row .banner-text .banner-sub-header, .jquery-essentials-course .paragraph-header, .jquery-essentials-course .testimonials .testimonials-title, .jquery-essentials-course .testimonials .category-testimonial-client-name, .jquery-essentials-course .testimonials .category-testimonial-course-name, .edge-animate-category .banner-row .banner-text .banner-sub-header, .edge-animate-category .course-item .course-item-info,
-.edge-animate-category .course-item .course-book-now, .edge-animate-category .training-checklist th, .edge-animate-category .training-checklist .training-checklist-header, .edge-animate-category .paragraph-header, .edge-animate-category .testimonials .testimonials-title, .edge-animate-category .testimonials .category-testimonial-client-name, .edge-animate-category .testimonials .category-testimonial-course-name, .edge-animate-essentials-course .banner-row .banner-text .banner-sub-header, .edge-animate-essentials-course .paragraph-header, .edge-animate-essentials-course .testimonials .testimonials-title, .edge-animate-essentials-course .testimonials .category-testimonial-client-name, .edge-animate-essentials-course .testimonials .category-testimonial-course-name, .edge-animate-advanced-course .banner-row .banner-text .banner-sub-header, .edge-animate-advanced-course .paragraph-header, .edge-animate-advanced-course .testimonials .testimonials-title, .edge-animate-advanced-course .testimonials .category-testimonial-client-name, .edge-animate-advanced-course .testimonials .category-testimonial-course-name, .after-effects-category .banner-row .banner-text .banner-sub-header, .after-effects-category .course-item .course-item-info,
-.after-effects-category .course-item .course-book-now, .after-effects-category .training-checklist th, .after-effects-category .training-checklist .training-checklist-header, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial-client-name, .after-effects-category .testimonials .category-testimonial-course-name, .after-effects-essentials-course .banner-row .banner-text .banner-sub-header, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial-client-name, .after-effects-essentials-course .testimonials .category-testimonial-course-name, .after-effects-advanced-course .banner-row .banner-text .banner-sub-header, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial-client-name, .after-effects-advanced-course .testimonials .category-testimonial-course-name, .premiere-pro-category .banner-row .banner-text .banner-sub-header, .premiere-pro-category .course-item .course-item-info,
-.premiere-pro-category .course-item .course-book-now, .premiere-pro-category .training-checklist th, .premiere-pro-category .training-checklist .training-checklist-header, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial-client-name, .premiere-pro-category .testimonials .category-testimonial-course-name, .premiere-pro-essentials-course .banner-row .banner-text .banner-sub-header, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial-client-name, .premiere-pro-essentials-course .testimonials .category-testimonial-course-name, .premiere-pro-advanced-course .banner-row .banner-text .banner-sub-header, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial-client-name, .premiere-pro-advanced-course .testimonials .category-testimonial-course-name, .premiere-elements-course .banner-row .banner-text .banner-sub-header, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial-client-name, .premiere-elements-course .testimonials .category-testimonial-course-name, .finalcut-pro-course .banner-row .banner-text .banner-sub-header, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial-client-name, .finalcut-pro-course .testimonials .category-testimonial-course-name, .captivate-category .banner-row .banner-text .banner-sub-header, .captivate-category .course-item .course-item-info,
-.captivate-category .course-item .course-book-now, .captivate-category .training-checklist th, .captivate-category .training-checklist .training-checklist-header, .captivate-category .paragraph-header, .captivate-category .testimonials .testimonials-title, .captivate-category .testimonials .category-testimonial-client-name, .captivate-category .testimonials .category-testimonial-course-name, .captivate-essentials-course .banner-row .banner-text .banner-sub-header, .captivate-essentials-course .paragraph-header, .captivate-essentials-course .testimonials .testimonials-title, .captivate-essentials-course .testimonials .category-testimonial-client-name, .captivate-essentials-course .testimonials .category-testimonial-course-name, .captivate-advanced-course .banner-row .banner-text .banner-sub-header, .captivate-advanced-course .paragraph-header, .captivate-advanced-course .testimonials .testimonials-title, .captivate-advanced-course .testimonials .category-testimonial-client-name, .captivate-advanced-course .testimonials .category-testimonial-course-name, .business-tools-category .banner-row .banner-text .banner-sub-header, .business-tools-category .course-item .course-item-info,
-.business-tools-category .course-item .course-book-now, .business-tools-category .training-checklist th, .business-tools-category .training-checklist .training-checklist-header, .business-tools-category .paragraph-header, .business-tools-category .testimonials .testimonials-title, .business-tools-category .testimonials .category-testimonial-client-name, .business-tools-category .testimonials .category-testimonial-course-name, .google-analytics-course .banner-row .banner-text .banner-sub-header, .google-analytics-course .paragraph-header, .google-analytics-course .testimonials .testimonials-title, .google-analytics-course .testimonials .category-testimonial-client-name, .google-analytics-course .testimonials .category-testimonial-course-name, .linkedin-course .banner-row .banner-text .banner-sub-header, .linkedin-course .paragraph-header, .linkedin-course .testimonials .testimonials-title, .linkedin-course .testimonials .category-testimonial-client-name, .linkedin-course .testimonials .category-testimonial-course-name, .seo-essentials-course .banner-row .banner-text .banner-sub-header, .seo-essentials-course .paragraph-header, .seo-essentials-course .testimonials .testimonials-title, .seo-essentials-course .testimonials .category-testimonial-client-name, .seo-essentials-course .testimonials .category-testimonial-course-name, .online-courses-category .banner-row .banner-text .banner-sub-header, .online-courses-category .course-item .course-item-info,
-.online-courses-category .course-item .course-book-now, .online-courses-category .training-checklist th, .online-courses-category .training-checklist .training-checklist-header, .online-courses-category .paragraph-header, .online-courses-category .testimonials .testimonials-title, .online-courses-category .testimonials .category-testimonial-client-name, .online-courses-category .testimonials .category-testimonial-course-name, .cdt-calendar .training-checklist th, .cdt-calendar .training-checklist .training-checklist-header, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial-client-name, .faq .testimonials .category-testimonial-course-name, .cdt-sitemap .banner-row .banner-text .banner-sub-header, .cdt-sitemap h2, .cdt-sitemap h2 a, .cdt-book .tabs-content h2 {
+.custom-breadcrumbs, .banner-row .banner-text .banner-sub-header, .training-checklist th, .training-checklist .training-checklist-header, .course-item .course-item-info,
+.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver {
   font-weight: 500; }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
-.header-logos .training-text, .course-outline .paragraph-header-def-color, .course-outline .course-price, .course-outline .download-text span, .category-page .category-description-section p, .indesign-category .banner-row .banner-text .banner-header, .indesign-category .course-item .course-item-title h3, .indesign-category .course-item .big, .indesign-essentials-course .banner-row .banner-text .banner-header, .indesign-advanced-course .banner-row .banner-text .banner-header, .indesign-lite-course .banner-row .banner-text .banner-header, .indesign-long-docs-course .banner-row .banner-text .banner-header, .indesign-interactivity-course .banner-row .banner-text .banner-header, .indesign-accessibility-course .banner-row .banner-text .banner-header, .photoshop-category .banner-row .banner-text .banner-header, .photoshop-category .course-item .course-item-title h3, .photoshop-category .course-item .big, .photoshop-essentials-course .banner-row .banner-text .banner-header, .photoshop-advanced-course .banner-row .banner-text .banner-header, .photoshop-lite-course .banner-row .banner-text .banner-header, .photoshop-web-course .banner-row .banner-text .banner-header, .photoshop-lr-course .banner-row .banner-text .banner-header, .illustrator-category .banner-row .banner-text .banner-header, .illustrator-category .course-item .course-item-title h3, .illustrator-category .course-item .big, .illustrator-essentials-course .banner-row .banner-text .banner-header, .illustrator-lite-course .banner-row .banner-text .banner-header, .illustrator-advanced-course .banner-row .banner-text .banner-header, .acrobat-category .banner-row .banner-text .banner-header, .acrobat-category .course-item .course-item-title h3, .acrobat-category .course-item .big, .acrobat-essentials-course .banner-row .banner-text .banner-header, .acrobat-pdfforms-course .banner-row .banner-text .banner-header, .digital-publishing-category .banner-row .banner-text .banner-header, .digital-publishing-category .course-item .course-item-title h3, .digital-publishing-category .course-item .big, .indesign-to-ipad-course .banner-row .banner-text .banner-header, .dps-single-app-course .banner-row .banner-text .banner-header, .dps-pro-app-course .banner-row .banner-text .banner-header, .indesign-to-ebook-course .banner-row .banner-text .banner-header, .flash-category .banner-row .banner-text .banner-header, .flash-category .course-item .course-item-title h3, .flash-category .course-item .big, .flash-essentials-course .banner-row .banner-text .banner-header, .flash-web-banners-course .banner-row .banner-text .banner-header, .flash-actionscript-course .banner-row .banner-text .banner-header, .html-css-category .banner-row .banner-text .banner-header, .html-css-category .course-item .course-item-title h3, .html-css-category .course-item .big, .html-web-principles-course .banner-row .banner-text .banner-header, .css-essentials-course .banner-row .banner-text .banner-header, .html-responsive-course .banner-row .banner-text .banner-header, .html5-css3-course .banner-row .banner-text .banner-header, .dreamweaver-category .banner-row .banner-text .banner-header, .dreamweaver-category .course-item .course-item-title h3, .dreamweaver-category .course-item .big, .dreamweaver-essentials-course .banner-row .banner-text .banner-header, .muse-essentials-course .banner-row .banner-text .banner-header, .wordpress-category .banner-row .banner-text .banner-header, .wordpress-category .course-item .course-item-title h3, .wordpress-category .course-item .big, .wordpress-essentials-course .banner-row .banner-text .banner-header, .wordpress-advanced-course .banner-row .banner-text .banner-header, .javascript-jquery-category .banner-row .banner-text .banner-header, .javascript-jquery-category .course-item .course-item-title h3, .javascript-jquery-category .course-item .big, .javascript-essentials-course .banner-row .banner-text .banner-header, .jquery-essentials-course .banner-row .banner-text .banner-header, .edge-animate-category .banner-row .banner-text .banner-header, .edge-animate-category .course-item .course-item-title h3, .edge-animate-category .course-item .big, .edge-animate-essentials-course .banner-row .banner-text .banner-header, .edge-animate-advanced-course .banner-row .banner-text .banner-header, .after-effects-category .banner-row .banner-text .banner-header, .after-effects-category .course-item .course-item-title h3, .after-effects-category .course-item .big, .after-effects-essentials-course .banner-row .banner-text .banner-header, .after-effects-advanced-course .banner-row .banner-text .banner-header, .premiere-pro-category .banner-row .banner-text .banner-header, .premiere-pro-category .course-item .course-item-title h3, .premiere-pro-category .course-item .big, .premiere-pro-essentials-course .banner-row .banner-text .banner-header, .premiere-pro-advanced-course .banner-row .banner-text .banner-header, .premiere-elements-course .banner-row .banner-text .banner-header, .finalcut-pro-course .banner-row .banner-text .banner-header, .captivate-category .banner-row .banner-text .banner-header, .captivate-category .course-item .course-item-title h3, .captivate-category .course-item .big, .captivate-essentials-course .banner-row .banner-text .banner-header, .captivate-advanced-course .banner-row .banner-text .banner-header, .business-tools-category .banner-row .banner-text .banner-header, .business-tools-category .course-item .course-item-title h3, .business-tools-category .course-item .big, .google-analytics-course .banner-row .banner-text .banner-header, .linkedin-course .banner-row .banner-text .banner-header, .seo-essentials-course .banner-row .banner-text .banner-header, .online-courses-category .banner-row .banner-text .banner-header, .online-courses-category .course-item .course-item-title h3, .online-courses-category .course-item .big, .cdt-calendar .tabs-content h2, .cdt-wtwu .testimonials-slider .slider-content .testimonial-content, .cdt-custom-training .testimonials-slider .slider-content .testimonial-content, .cdt-sitemap .banner-row .banner-text .banner-header {
+.header-logos .training-text, .banner-row .banner-text .banner-header, .course-item .course-item-title h3, .course-item .big, .course-outline .paragraph-header-def-color, .course-outline .course-price, .course-outline .download-text span, .category-page .category-description-section p {
   font-weight: 400; }
+
+/* line 45, ../scss/_custom/_custom-fonts.scss */
+.seminars-ad .seminars-ad-title, .custom-training .prefer-custom-training-text .custom-training-text-header, .course-outline .course-header, .course-outline .course-header-2, .course-outline .and, .category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3, .category-page .and {
+  font-weight: 300; }
+
+/* line 48, ../scss/_custom/_custom-fonts.scss */
+.seminars-ad .seminars-ad-content, .custom-training .prefer-custom-training-text ul li, .course-item .course-item-title h3 span, .course-outline .course-header-1 {
+  font-weight: 200; }
+
+/* line 51, ../scss/_custom/_custom-fonts.scss */
+.training-checklist i {
+  font-weight: 100; }
+
+/* line 81, ../scss/_custom/_custom-fonts.scss */
+.custom-breadcrumbs, .training-checklist .note, .training-checklist .foot-note, .course-item .course-item-description, .course-item .course-item-fee, .course-outline .overview-list .course-specific, .course-outline .overview-list .overview-list-data span, .course-outline .course-outline-block ul li, .category-page .part-time-options {
+  font-size: 0.8125em;
+  line-height: 1.84615em; }
+
+/* line 84, ../scss/_custom/_custom-fonts.scss */
+h4, .seminars-ad .seminars-ad-title {
+  font-size: 1em;
+  line-height: 1.5em; }
+
+/* line 87, ../scss/_custom/_custom-fonts.scss */
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color {
+  font-size: 1.25em;
+  line-height: 1.2em; }
+
+/* line 90, ../scss/_custom/_custom-fonts.scss */
+h2, .course-item .big, .course-outline .and, .category-page .and {
+  font-size: 1.5em;
+  line-height: 2em; }
+
+/* line 93, ../scss/_custom/_custom-fonts.scss */
+h1, .course-outline .old-price, .course-outline .new-price {
+  font-size: 2em;
+  line-height: 1.5em; }
+
+/* line 99, ../scss/_custom/_custom-fonts.scss */
+h1, h2, h3, h4 {
+  margin: 0; }
+
+/* line 102, ../scss/_custom/_custom-fonts.scss */
+h1 {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+/* line 106, ../scss/_custom/_custom-fonts.scss */
+h2 {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+/* line 110, ../scss/_custom/_custom-fonts.scss */
+h3 {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+/* line 114, ../scss/_custom/_custom-fonts.scss */
+h4 {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+/* The following settings updated in _settings.scss file:
+    $crumb-font-transform: none;
+    $crumb-bg: #fff;
+    $crumb-slash: ">";
+    $crumb-border-size: 0;
+    $crumb-border-style: none;
+    $crumb-border-color: #fff;
+    $crumb-padding: rem-calc(0 14 6 0);
+*/
+/* line 13, ../scss/_custom/components/_breadcrumbs.scss */
+.custom-breadcrumbs {
+  float: right;
+  margin-right: 15px;
+  display: block;
+  padding: 0.5625rem 0.875rem 0.5625rem;
+  overflow: hidden;
+  margin-left: 0;
+  list-style: none;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f4f4f4;
+  border-color: gainsboro;
+  border-radius: 3px; }
+  /* line 23, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs > * {
+    margin: 0;
+    float: left;
+    font-size: 0.6875rem;
+    line-height: 0.6875rem;
+    text-transform: none;
+    color: #008CBA;
+    font-transform: none; }
+    /* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:hover a, .custom-breadcrumbs > *:focus a {
+      text-decoration: underline; }
+    /* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > * a {
+      color: #008CBA; }
+    /* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *.current {
+      cursor: default;
+      color: #333333; }
+      /* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.current a {
+        cursor: default;
+        color: #333333; }
+      /* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.current:hover, .custom-breadcrumbs > *.current:hover a, .custom-breadcrumbs > *.current:focus, .custom-breadcrumbs > *.current:focus a {
+        text-decoration: none; }
+    /* line 88, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *.unavailable {
+      color: #999999; }
+      /* line 90, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.unavailable a {
+        color: #999999; }
+      /* line 92, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+      .custom-breadcrumbs > *.unavailable:hover, .custom-breadcrumbs > *.unavailable:hover a, .custom-breadcrumbs > *.unavailable:focus,
+      .custom-breadcrumbs > *.unavailable a:focus {
+        text-decoration: none;
+        color: #999999;
+        cursor: default; }
+    /* line 102, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:before {
+      content: ">";
+      color: #AAAAAA;
+      margin: 0 0.75rem;
+      position: relative;
+      top: 1px; }
+    /* line 110, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
+    .custom-breadcrumbs > *:first-child:before {
+      content: " ";
+      margin: 0; }
+  /* line 28, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs > *:before {
+    top: 0; }
+  /* line 32, ../scss/_custom/components/_breadcrumbs.scss */
+  .custom-breadcrumbs .breadcrumb-active, .custom-breadcrumbs .breadcrumb-active:focus, .custom-breadcrumbs .breadcrumb-active:hover {
+    text-decoration: none;
+    cursor: default; }
+
+/* Title and sub-title to be used on banners */
+/* Main content title (not necessarily h1)*/
+/* Main content title with border (not necessarily h1)*/
+/* Color paragraph header */
+/* Color bold list header */
+/* line 1, ../scss/_custom/components/_read-more-btn.scss */
+.seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more {
+  background-color: #FCCD39;
+  color: #000;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border: 1px #c4c4c4 solid;
+  font-family: raleway;
+  font-size: 13px; }
+
+/*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
+/* line 112, header-footer/*.png */
+.header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
+  background-image: url('../images-dist/header-footer-sbd3345fe8c.png');
+  background-repeat: no-repeat; }
+
+/* line 28, ../scss/_custom/header/_header.scss */
+.header-logos .cdt-logo {
+  background-position: 0 -129px;
+  height: 72px;
+  width: 142px;
+  margin: 7px 10px; }
+/* line 36, ../scss/_custom/header/_header.scss */
+.header-logos .aatc-logo {
+  background-position: 0 0;
+  height: 43px;
+  width: 131px;
+  margin: 21.5px 10px; }
+/* line 44, ../scss/_custom/header/_header.scss */
+.header-logos .book-now {
+  background-position: 0 -43px;
+  float: right;
+  height: 86px;
+  width: 114px; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 44, ../scss/_custom/header/_header.scss */
+    .header-logos .book-now {
+      margin-right: 67px; } }
+/* line 56, ../scss/_custom/header/_header.scss */
+.header-logos .years-in-business {
+  background-position: 0 -786px;
+  height: 121px;
+  width: 67px;
+  position: absolute;
+  z-index: 1000;
+  right: 0; }
+/* line 66, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-1 {
+  background-position: 0 -201px; }
+/* line 67, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-2 {
+  background-position: 0 -318px; }
+/* line 68, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-3 {
+  background-position: 0 -435px; }
+/* line 69, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-4 {
+  background-position: 0 -552px; }
+/* line 70, ../scss/_custom/header/_header.scss */
+.header-logos .footer-logos-5 {
+  background-position: 0 -669px; }
+/* line 72, ../scss/_custom/header/_header.scss */
+.header-logos .training-text {
+  margin: 19px 0;
+  padding: 0;
+  display: none; }
+  @media (min-width: 48em) {
+    /* line 72, ../scss/_custom/header/_header.scss */
+    .header-logos .training-text {
+      display: inherit;
+      font-size: 1em;
+      line-height: 1.5em; } }
+
+/* line 86, ../scss/_custom/header/_header.scss */
+.header-banner {
+  background-color: #6c6c6c;
+  color: #fff; }
+
+/* line 91, ../scss/_custom/header/_header.scss */
+.contain-to-grid ul.right li.contact-no a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px; }
+
+/* line 99, ../scss/_custom/header/_header.scss */
+.header-banner-container {
+  position: relative;
+  overflow: visible;
+  z-index: 99999; }
+
+/* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
+.banner-row {
+  height: 120px;
+  margin-bottom: 12px; }
+  /* line 10, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .banner-row {
+    height: 120px;
+    margin-bottom: 8px; }
+  /* line 15, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .category-logo {
+    margin: 32.5px 0 32.5px 15px; }
+  /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
+  .banner-row .banner-text {
+    max-width: 75%;
+    top: 32.5px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 19, ../scss/_custom/components/training/_banner-no-color.scss */
+      .banner-row .banner-text {
+        max-width: 90%; } }
+    /* line 3, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-header, .banner-row .banner-text .banner-sub-header {
+      font-family: Raleway, Helvetica, sans-serif;
+      color: #fff; }
+    /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-header {
+      font-size: 1.25em;
+      line-height: 1.2em;
+      line-height: 1em; }
+      @media only screen and (min-width: 40.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .banner-row .banner-text .banner-header {
+          font-size: 1.5em;
+          line-height: 2em;
+          line-height: 1em; } }
+      @media only screen and (min-width: 64.063em) {
+        /* line 8, ../scss/_custom/components/_cdt-typography.scss */
+        .banner-row .banner-text .banner-header {
+          font-size: 2em;
+          line-height: 1.5em;
+          line-height: 1em; } }
+    /* line 24, ../scss/_custom/components/_cdt-typography.scss */
+    .banner-row .banner-text .banner-sub-header {
+      font-size: 0.875em;
+      line-height: 1.71429em; }
+
+/* line 1, ../scss/_custom/components/training/_side-panel-no-color.scss */
+.seminars-ad {
+  color: #fff;
+  padding: 0 6px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-bottom: 14.4px; }
+  /* line 7, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .seminars-ad-title {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    padding-top: 6px; }
+  /* line 15, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .seminars-ad-content {
+    font-size: 0.75em;
+    line-height: 2em;
+    line-height: 1.6em;
+    padding-bottom: 4px; }
+  /* line 22, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .seminars-ad .read-more-btn {
+    padding: 2px 8px; }
+
+/* line 28, ../scss/_custom/components/training/_side-panel-no-color.scss */
+.training-checklist {
+  /*    background-color: #CECECE;*/
+  margin-bottom: 14.4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+  /* line 34, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist th, .training-checklist td {
+    padding: 0 0 4px 5px; }
+  /* line 38, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist td {
+    font-size: 14px;
+    text-align: left; }
+  /* line 43, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist th {
+    text-align: left; }
+  /* line 55, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist table {
+    margin-top: 4px;
+    border-top: none;
+    margin-bottom: 1em;
+    width: 100%; }
+    /* line 61, ../scss/_custom/components/training/_side-panel-no-color.scss */
+    .training-checklist table .center-content {
+      text-align: center; }
+  /* line 70, ../scss/_custom/components/training/_side-panel-no-color.scss */
+  .training-checklist .foot-note {
+    margin-left: 10px;
+    display: block; }
+
+/* line 1, ../scss/_custom/components/training/_custom-training-no-color.scss */
+.custom-training {
+  margin-bottom: 14.4px; }
+  /* line 4, ../scss/_custom/components/training/_custom-training-no-color.scss */
+  .custom-training .custom-training-text-header {
+    font-size: 1.25em;
+    line-height: 1.2em; }
+  /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
+  .custom-training .prefer-custom-training-text {
+    color: #fff;
+    background-color: #686F74;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    top: -3px;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    margin-top: -9px; }
+    /* line 9, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .custom-text {
+      font-size: 0.8125em;
+      line-height: 1.84615em; }
+    @media screen and (min-width: 420px) and (max-width: 639px) {
+      /* line 8, ../scss/_custom/components/training/_custom-training-no-color.scss */
+      .custom-training .prefer-custom-training-text {
+        width: 65%; } }
+    /* line 28, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .custom-training-text-header {
+      font-size: 1.4em;
+      margin-top: 6px;
+      margin-bottom: 6px; }
+    /* line 36, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul {
+      list-style-type: none;
+      margin-bottom: 6px;
+      margin-left: 8px;
+      -webkit-margin-after: 6px; }
+    /* line 43, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul li:before {
+      content: "-";
+      left: -4px;
+      position: relative; }
+    /* line 49, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text ul li {
+      font-size: 0.875em;
+      line-height: 1.71429em;
+      line-height: 1.5em;
+      margin-left: -5px;
+      margin-bottom: 3px; }
+    /* line 59, ../scss/_custom/components/training/_custom-training-no-color.scss */
+    .custom-training .prefer-custom-training-text .read-more-btn {
+      padding: 0 8px;
+      position: relative;
+      float: right;
+      margin-top: -6px; }
+
+/* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
+.course-item {
+  margin-bottom: 24px;
+  margin-top: 12px; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 1, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item {
+      width: 93%; } }
+  /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-title {
+    padding: 3px 0 0 7px;
+    text-transform: uppercase;
+    float: left !important; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 9, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-title {
+        float: right; } }
+    /* line 18, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item .course-item-title h3 {
+      font-size: 1em;
+      line-height: 1.5em;
+      line-height: 1.2em; }
+  /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-header {
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 30, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-header {
+        height: 3.5em;
+        margin-bottom: 0; } }
+  /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-description {
+    line-height: 1.5em;
+    margin-bottom: 12px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 39, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-description {
+        height: 12em;
+        margin-bottom: 0; } }
+  /* line 50, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .day-time {
+    font-size: 0.8125em;
+    line-height: 1.84615em; }
+  /* line 54, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-info,
+  .course-item .course-book-now {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding: 4px 0; }
+    /* line 63, ../scss/_custom/components/training/_course-item-no-color.scss */
+    .course-item .course-item-info a, .course-item .course-item-info a:hover, .course-item .course-item-info a:focus,
+    .course-item .course-book-now a,
+    .course-item .course-book-now a:hover,
+    .course-item .course-book-now a:focus {
+      color: #fff; }
+  /* line 68, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-fee {
+    margin-bottom: 2px; }
+  /* line 74, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .big {
+    line-height: 1.5em; }
+  /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-item-info {
+    width: 90px;
+    border-right: 3px solid #fff; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 80, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-item-info {
+        min-width: initial;
+        width: 48%; } }
+  /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
+  .course-item .course-book-now {
+    text-transform: uppercase;
+    width: 85px; }
+    @media only screen and (min-width: 64.063em) {
+      /* line 90, ../scss/_custom/components/training/_course-item-no-color.scss */
+      .course-item .course-book-now {
+        min-width: initial;
+        width: 46%; } }
+
+/* General Course Items - no dependency on color */
+/* line 5, ../scss/_custom/components/training/_course-no-color-items.scss */
+.course-outline {
+  /* Secion borders */
+  /* Headers */
+  /* Course overview */
+  /* Download PDF button */
+  /* Course outline - sylabus */
+  /* Read more buttons */
+  /* Training packages and related courses */
+  /* Side bar - pricing and dates*/
+  /* Side bar - pricing and dates*/
+  /* Side bar - download and book */
+  /* Side bar - download and book */
+  /* Side bar - seminars ad */
+  /* Side bar - custom training */
+  /* Side bar - testimonials */ }
+  /* line 6, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .sw-ver {
+    text-decoration: underline; }
+  /* line 12, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .upper-row {
+    border-bottom: 1px solid #2C2C2C;
+    margin-bottom: 24px; }
+  /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-info-upper {
+    margin-bottom: 8px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 17, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-info-upper {
+        border-right: 1px dashed #2C2C2C;
+        width: 64%; } }
+  /* line 26, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .paragraph-header-def-color {
+    border-bottom: 1px dashed #2C2C2C; }
+  /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline {
+    padding-left: 0;
+    margin-bottom: 24px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 30, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-outline {
+        border-right: 3px solid #ababab; } }
+  /* line 39, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates h3 {
+    border-bottom: 1px dashed #2C2C2C;
+    margin-bottom: 6px; }
+  /* line 45, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header {
+    font-size: 1.5em;
+    line-height: 1em;
+    line-height: 1em;
+    display: block;
+    border: 1px solid #000;
+    padding: 8px 10px;
+    margin-top: 0;
+    margin-bottom: 16px; }
+  /* line 49, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header-1 {
+    font-size: 2em;
+    line-height: 0.75em;
+    line-height: 1.5em;
+    padding: 3px 0;
+    margin-bottom: 0; }
+  /* line 53, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-header-2 {
+    font-size: 1.5em;
+    line-height: 1em;
+    line-height: 1em;
+    padding: 3px 0;
+    margin-bottom: 0; }
+  /* line 62, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .paragraph-header-def-color {
+    color: #000;
+    line-height: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 1.65em; }
+  /* line 72, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .note {
+    font-size: 12px; }
+  /* line 77, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul {
+    list-style-type: none;
+    margin-bottom: 6px;
+    -webkit-margin-after: 0; }
+  /* line 83, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul li:before {
+    content: "-";
+    position: relative;
+    left: -10px; }
+  /* line 89, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list ul li {
+    font-size: 0.875em;
+    line-height: 1.71429em;
+    margin-left: -10px; }
+  /* line 94, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .to-upper {
+    text-transform: uppercase; }
+  /* line 103, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .course-specific {
+    margin-left: 10px;
+    width: 20em; }
+  /* line 110, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list .overview-list-data {
+    margin-bottom: 6px; }
+  /* line 120, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .download-pdf {
+    margin-top: 12px; }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .course-outline-section {
+      width: 57%; } }
+  @media only screen and (min-width: 64.063em) {
+    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .course-outline-section {
+      width: 63%; } }
+  /* line 135, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block h3 {
+    font-size: 1em;
+    line-height: 1.5em; }
+  /* line 140, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+    -webkit-margin-after: 24px; }
+  /* line 146, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-outline-block ul li {
+    margin-left: -5px; }
+  /* line 152, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-column {
+    min-width: 15em;
+    padding-right: 15px; }
+  /* line 157, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .broken-column {
+    -webkit-margin-after: 0 !important; }
+  /* line 162, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .read-more-btn {
+    padding: 3px 8px; }
+  /* line 168, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .and {
+    text-align: center;
+    width: 38px; }
+  /* line 175, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .package-logos-read-more {
+    margin: 12px 0 24px 0; }
+  /* line 179, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .related-course {
+    max-width: 7em;
+    padding-left: 0; }
+  /* line 184, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .pricing-table, .course-outline .title, .course-outline .description {
+    border: none; }
+  /* line 188, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .pricing-table {
+    margin-top: 24px; }
+    /* line 191, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .pricing-table .title {
+      background-color: #fff;
+      margin-bottom: 8px; }
+    /* line 196, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .pricing-table .description {
+      padding: 0; }
+  /* line 201, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .advanced-table {
+    margin-top: 19px;
+    margin-left: -17px; }
+    /* line 205, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .advanced-table .description {
+      padding-left: 15px; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 211, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .upper-side {
+      width: 36%; } }
+  @media only screen and (min-width: 40.063em) {
+    /* line 218, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .upper-side {
+      width: 36%; } }
+  /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates-promo {
+    background-color: #E5E5E5;
+    margin-bottom: 16px;
+    max-width: 30em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    @media only screen and (max-width: 40em) {
+      /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .course-dates-promo {
+        width: 80%; } }
+  /* line 238, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-dates-city-block {
+    margin-bottom: 12px; }
+  /* line 250, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-length {
+    font-size: 14px; }
+  /* line 255, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .course-price-info {
+    margin-bottom: 24px; }
+  /* line 260, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .book-now-section {
+    padding-top: 24px;
+    min-width: 9em; }
+  /* line 266, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .book-now-section {
+    padding-top: 24px;
+    min-width: 9em; }
+  /* line 271, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .download-text {
+    font-size: 14px;
+    line-height: 1em;
+    margin-left: -10px; }
+  /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .seminars-ad {
+    margin-bottom: 6px; }
+    @media only screen and (max-width: 40em) {
+      /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .seminars-ad {
+        width: 80%; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .lower-aside-section {
+      width: 43%; } }
+  @media only screen and (min-width: 64.063em) {
+    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    .course-outline .lower-aside-section {
+      width: 37%; } }
+  /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .testimonials {
+    height: 33em;
+    max-width: 30em; }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+      /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+      .course-outline .testimonials {
+        height: 87em; } }
+
+/* Mixin for styling of custom training logo, to be used on category and course pages 
+*/
+/* line 3, ../scss/_custom/components/training/_custom-training.scss */
+.category-page .custom-training-logo {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+@media only screen and (min-width: 40.063em) {
+  /* line 16, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .category-description-section {
+    margin-bottom: 24px; } }
+/* line 22, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  line-height: 1em;
+  display: block;
+  border: 1px solid #000;
+  padding: 8px 10px;
+  margin-top: 0;
+  margin-bottom: 16px; }
+/* line 26, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-1 {
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/ }
+/* line 37, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-2 {
+  margin-bottom: 8px;
+  /* Not supported in IE (old and above 9)
+  @media only screen and (min-width:40.063em) {
+      width: intrinsic;           // Safari/WebKit uses a non-standard name 
+      width: -moz-max-content;    //Firefox/Gecko 
+      width: -webkit-max-content; // Chrome 
+  }*/ }
+/* line 49, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .tight-header-3 {
+  width: 100%;
+  margin-bottom: 10px; }
+/* line 55, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .sw-ver {
+  text-decoration: underline; }
+/* line 60, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .courses-list {
+  margin-bottom: 12px; }
+/* line 64, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .category-video {
+  margin-bottom: 14.4px; }
+@media only screen and (max-width: 40em) {
+  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    margin-bottom: 36px !important; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 68, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    margin-bottom: 36px !important; } }
+/* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .testimonials {
+  height: 23em; }
+  @media screen and (min-width: 640px) and (max-width: 680px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 68em; } }
+  @media screen and (min-width: 681px) and (max-width: 780px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 53em; } }
+  @media screen and (min-width: 781px) and (max-width: 1024px) {
+    /* line 78, ../scss/_custom/components/training/_category-no-color-items.scss */
+    .category-page .testimonials {
+      height: 37em; } }
+/* line 94, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .and {
+  text-align: center;
+  width: 38px; }
+/* line 101, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .read-more-btn {
+  padding: 3px 8px; }
+/* line 106, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .promo-read-more {
+  padding-left: 0;
+  margin-top: 6px;
+  margin-bottom: 30px; }
+/* line 117, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .category-promo-section {
+  margin-top: 2em; }
+/* line 121, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page .promo-packages {
+  margin-bottom: 24px; }
+/* line 125, ../scss/_custom/components/training/_category-no-color-items.scss */
+.category-page [class*="block-grid-"] > li {
+  padding-bottom: 0; }
+@media screen and (min-width: 640px) and (max-width: 680px) {
+  /* line 130, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .category-description-section {
+    width: 55%; }
+  /* line 134, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .custom-training {
+    width: 45%; }
+  /* line 138, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -7em; } }
+@media screen and (min-width: 681px) and (max-width: 780px) {
+  /* line 144, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -6em; } }
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  /* line 150, ../scss/_custom/components/training/_category-no-color-items.scss */
+  .category-page .side-pannel {
+    top: -1em; } }
+
+@media print {
+  /* line 2, ../scss/_custom/_print.scss */
+  .megamenu_container,
+  .footer-logo,
+  .custom-breadcrumbs,
+  .category-page .custom-training,
+  .category-page .side-pannel,
+  .category-page .promo-packages,
+  .category-page .course-item-info,
+  .category-page .course-book-now,
+  .course-outline .course-classrom,
+  .course-outline .course-dates,
+  .course-outline .download-and-book,
+  .course-outline .validate-participants,
+  .course-outline .download-pdf,
+  .course-outline .seminars-ad,
+  .course-outline .lower-aside-section,
+  .course-outline .promo-grid,
+  .course-outline .related-courses,
+  .orbit-prev,
+  .orbit-next,
+  .wtwu-side-panel,
+  .plus-minus-icon,
+  .testimonials,
+  .room-hire .banner-image,
+  .room-hire .win-mac-logo,
+  .room-hire .room-hire-breakout,
+  .room-hire .sydney-map,
+  .room-hire .melbourne-map,
+  .new-skills-banner,
+  .private-training,
+  .locations .sydney,
+  .locations .melbourne,
+  .locations .brisbane,
+  .locations .canberra,
+  .locations .map {
+    display: none !important; }
+
+  /* line 40, ../scss/_custom/_print.scss */
+  .accordion {
+    overflow: visible !important; }
+
+  /* line 44, ../scss/_custom/_print.scss */
+  .accordion .content {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important; } }
+/* line 1, ../scss/_custom/homepage/_slider.scss */
+.slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+  background-image: url(/images-dist/homepage/landing-page-banner/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: 200; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 1, ../scss/_custom/homepage/_slider.scss */
+    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+      min-height: 330px; }
+      /* line 9, ../scss/_custom/homepage/_slider.scss */
+      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        /* line 12, ../scss/_custom/homepage/_slider.scss */
+        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+          padding-top: 10px;
+          padding-left: 0;
+          font-size: 36px; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 1, ../scss/_custom/homepage/_slider.scss */
+    .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+      height: 265px; }
+      /* line 21, ../scss/_custom/homepage/_slider.scss */
+      .slider-2 .learn-banner, .slider-3 .learn-banner, .slider-4 .learn-banner, .slider-5 .learn-banner, .slider-6 .learn-banner, .slider-7 .learn-banner {
+        padding-top: 15px;
+        padding-bottom: 10px; }
+        /* line 24, ../scss/_custom/homepage/_slider.scss */
+        .slider-2 .learn-banner .medium-10, .slider-3 .learn-banner .medium-10, .slider-4 .learn-banner .medium-10, .slider-5 .learn-banner .medium-10, .slider-6 .learn-banner .medium-10, .slider-7 .learn-banner .medium-10 {
+          padding-top: 5px;
+          padding-left: 0;
+          font-size: 30px; } }
+
+/* line 32, ../scss/_custom/homepage/_slider.scss */
+.slider-1 {
+  background-image: url(/images-dist/homepage/landing-page-banner/main-slider-image.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 37, ../scss/_custom/homepage/_slider.scss */
+    .slider-1 .slider-one {
+      padding-top: 50px;
+      padding-left: 150px;
+      min-height: 330px; }
+      /* line 41, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one h1 {
+        font-size: 48px;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; }
+      /* line 48, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one p {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 400;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 59, ../scss/_custom/homepage/_slider.scss */
+    .slider-1 .slider-one {
+      padding-top: 50px;
+      padding-left: 150px;
+      height: 265px; }
+      /* line 63, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one h1 {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif; }
+      /* line 70, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
+        font-family: raleway, sans-serif;
+        padding-bottom: 50px; } }
+
+/* line 82, ../scss/_custom/homepage/_slider.scss */
+.course-img-caption p {
+  font-size: 12px;
+  font-weight: 200;
+  float: left;
+  padding-top: 5px; }
+
+/* line 89, ../scss/_custom/homepage/_slider.scss */
+.orbit-timer {
+  display: none; }
+
+/* line 92, ../scss/_custom/homepage/_slider.scss */
+.orbit-slide-number {
+  display: none; }
+
+/* line 2, ../scss/_custom/homepage/_megamenu.scss */
+body {
+  background: url("../img/background.jpg"); }
+
+/* line 5, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper,
+.page_wrapper_vertical {
+  width: 980px;
+  margin: 36px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 21px; }
+
+/* line 13, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description {
+  color: #262626;
+  text-shadow: 1px 1px 1px #ffffff;
+  padding-bottom: 36px; }
+
+/* line 18, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description h1 {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 38px; }
+
+/* line 23, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description h2 {
+  font-size: 18px;
+  line-height: 24px; }
+
+/* line 27, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description ul.description {
+  font-size: 12px;
+  line-height: 21px;
+  list-style: square;
+  margin: 0 0 0 15px;
+  padding: 0; }
+
+/* line 34, ../scss/_custom/homepage/_megamenu.scss */
+.menu_description a {
+  color: #888888;
+  text-decoration: none; }
+
+/* line 38, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical {
+  width: 960px;
+  margin: 36px auto; }
+
+/* line 42, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical .menu_description {
+  float: left;
+  width: 760px;
+  margin-left: 40px; }
+
+/* line 47, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_vertical .menu_description h1 {
+  margin-top: -6px; }
+
+/* line 50, ../scss/_custom/homepage/_megamenu.scss */
+.page_wrapper_fixed {
+  margin: 70px auto; }
+
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+  /* line 54, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 768px; }
+
+  /* line 55, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description {
+    width: 500px; } }
+@media only screen and (max-width: 767px) {
+  /* line 58, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 420px; }
+
+  /* line 59, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description {
+    width: 100%;
+    margin-left: 0; }
+
+  /* line 60, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper_vertical .menu_description h1 {
+    margin-top: 24px; } }
+@media only screen and (max-width: 479px) {
+  /* line 63, ../scss/_custom/homepage/_megamenu.scss */
+  .page_wrapper, .page_wrapper_vertical {
+    width: 300px; } }
+/*  _______________________________________________
+
+    01 MEGA MENU BAR
+    _______________________________________________  */
+/* line 77, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container {
+  width: 100%;
+  height: 46px;
+  *height: 44px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 92, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_fixed {
+  width: inherit;
+  position: fixed;
+  top: 0;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  /* IE7 Fix */
+  *width: expression(this.parentNode.currentStyle['width']); }
+
+/* line 102, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  /* For IE7 */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1; }
+
+/* line 111, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li {
+  float: left;
+  margin: 0;
+  border: none;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  transition: background 0.5s ease; }
+
+/* line 121, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > a {
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: 0;
+  text-decoration: none;
+  display: block;
+  padding: 16px 15px 17px 15px; }
+
+/* line 129, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li .megamenu_drop {
+  padding-right: 30px; }
+
+/* line 132, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_button {
+  display: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none; }
+
+/* Right aligned menu item */
+/* line 143, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_right {
+  float: right;
+  margin-right: -1px; }
+
+/* line 147, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li.megamenu_right a {
+  margin-right: 5px; }
+
+/*  _______________________________________________
+
+    02 MEGA MENU CONTAINERS
+    _______________________________________________  */
+/* line 162, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_container,
+.megamenu li .dropdown_fullwidth,
+.megamenu li .dropdown_multilevel {
+  position: absolute;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  left: -9999em;
+  top: -9999em;
+  display: block;
+  zoom: 1;
+  z-index: 9998;
+  float: left;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px; }
+
+/* line 179, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_first {
+  margin-left: -1px; }
+
+/* line 182, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .droplast_right {
+  margin-right: -1px; }
+
+/* Showing Drop Down on Mouse Hover */
+/* line 188, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_container {
+  top: 45px;
+  left: auto; }
+
+/* line 192, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_fullwidth {
+  top: 45px;
+  left: -1px; }
+
+/* line 196, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .dropdown_right {
+  right: 0; }
+
+/* line 199, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li:hover .dropdown_right {
+  top: 45px;
+  left: auto;
+  right: 0; }
+
+/*
+	Bigger containers need smaller padding values and
+	on the opposite, smaller containers will have
+	higher paddings. 
+	This makes the content within each kind of drop down 
+	equally distant from the left edge. 
+*/
+/* line 214, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_1column {
+  width: 8.3334%;
+  padding-left: 2%;
+  padding-right: 2%; }
+
+/* line 219, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_2columns {
+  width: 16.6667%;
+  padding-left: 1.8333%;
+  padding-right: 1.8333%; }
+
+/* line 224, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_3columns {
+  width: 25%;
+  padding-left: 1.5%;
+  padding-right: 1.5%; }
+
+/* line 229, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_4columns {
+  width: 33.3334%;
+  padding-left: 1.333%;
+  padding-right: 1.333%; }
+
+/* line 234, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_5columns {
+  width: 41.6667%;
+  padding-left: 1.166%;
+  padding-right: 1.166%; }
+
+/* line 239, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_6columns {
+  width: 50%;
+  padding-left: 1%;
+  padding-right: 1%; }
+
+/* line 244, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_7columns {
+  width: 58.3334%;
+  padding-left: 0.833%;
+  padding-right: 0.833%; }
+
+/* line 249, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_8columns {
+  width: 66.6667%;
+  padding-left: 0.666%;
+  padding-right: 0.666%; }
+
+/* line 254, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_9columns {
+  width: 75%;
+  padding-left: 0.5%;
+  padding-right: 0.5%; }
+
+/* line 259, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_10columns {
+  width: 83.3334%;
+  padding-left: 0.333%;
+  padding-right: 0.333%; }
+
+/* line 264, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_11columns {
+  width: 91.6667%;
+  padding-left: 0.1666%;
+  padding-right: 0.1666%; }
+
+/* line 269, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_12columns,
+.megamenu .dropdown_fullwidth {
+  width: 100%; }
+
+/*  _______________________________________________
+
+    03 DROP DOWN COLUMNS GRID
+    _______________________________________________  */
+/* line 285, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_1,
+.megamenu .col_2,
+.megamenu .col_3,
+.megamenu .col_4,
+.megamenu .col_5,
+.megamenu .col_6,
+.megamenu .col_7,
+.megamenu .col_8,
+.megamenu .col_9,
+.megamenu .col_10,
+.megamenu .col_11,
+.megamenu .col_12 {
+  float: left;
+  display: inline;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* 
+  Rounding error with IE7.
+  Lower margin values will absorb the difference.
+  */
+  *margin-left: 1.9%;
+  *margin-right: 1.9%; }
+
+/* line 310, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_1 {
+  width: 4.33%; }
+
+/* line 311, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_2 {
+  width: 12.66%; }
+
+/* line 312, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_3 {
+  width: 21%; }
+
+/* line 313, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_4 {
+  width: 29.33%; }
+
+/* line 314, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_5 {
+  width: 37.66%; }
+
+/* line 315, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_6 {
+  width: 46%; }
+
+/* line 316, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_7 {
+  width: 54.33%; }
+
+/* line 317, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_8 {
+  width: 62.66%; }
+
+/* line 318, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_9 {
+  width: 71%; }
+
+/* line 319, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_10 {
+  width: 79.33%; }
+
+/* line 320, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_11 {
+  width: 87.66%; }
+
+/* line 321, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .col_12 {
+  width: 96%; }
+
+/* line 323, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .rowcontent {
+  clear: left;
+  /*
+  IE7 clear issue.
+  Display inline required.
+  */
+  *display: inline; }
+
+/*  _______________________________________________
+
+    04 FLY-OUT MENU
+    _______________________________________________  */
+/* line 343, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout,
+.megamenu .dropdown_flyout .dropdown_flyout_level {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 353, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li {
+  float: left;
+  width: 92%;
+  padding: 3px 4% 3px 4%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 361, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout ul li {
+  width: 140px;
+  padding: 3px 10px 3px 10px; }
+
+/* line 365, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout a {
+  display: block;
+  width: 10em; }
+
+/* line 369, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout .dropdown_flyout_level {
+  position: absolute;
+  margin: 15px 0 0 4px;
+  padding: 6px;
+  left: -9999em;
+  top: -9999em;
+  display: block;
+  zoom: 1;
+  float: left; }
+
+/* line 379, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
+  left: 95%;
+  top: -21px; }
+
+/* line 383, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
+  left: -108%;
+  right: 100%; }
+
+/*  _______________________________________________
+
+    05 MEGA MENU WEB ELEMENTS
+    _______________________________________________  */
+/* 1. General Typography */
+/* line 402, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu p,
+.megamenu h1,
+.megamenu h2,
+.megamenu h3,
+.megamenu h4,
+.megamenu h5,
+.megamenu h6 {
+  padding: 0;
+  margin: 0 0 20px; }
+
+/* line 412, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > div a {
+  text-decoration: none;
+  outline: none; }
+
+/* line 416, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu > li > div a:hover {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  transition: color 0.3s; }
+
+/* line 423, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu p {
+  font-size: 12px;
+  line-height: 21px; }
+
+/* line 427, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h1,
+.megamenu h2,
+.megamenu h3,
+.megamenu h4,
+.megamenu h5,
+.megamenu h6 {
+  font-weight: bold;
+  margin: 0 0 5px 0; }
+
+/* line 436, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h1 {
+  font-size: 24px;
+  line-height: 28px; }
+
+/* line 440, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h2 {
+  font-size: 20px;
+  line-height: 22px; }
+
+/* line 444, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h3 {
+  font-size: 16px;
+  line-height: 20px; }
+
+/* line 448, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h4 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 14px; }
+
+/* line 453, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h5 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 14px; }
+
+/* line 458, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu h6 {
+  font-size: 10px;
+  line-height: 16px;
+  margin-bottom: 14px;
+  text-transform: uppercase; }
+
+/* 2. Lists */
+/* line 469, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul,
+.megamenu li ol {
+  padding: 0;
+  margin: 0 0 18px 20px; }
+
+/* line 474, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul {
+  list-style: disc; }
+
+/* line 477, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ol {
+  list-style: decimal;
+  *margin-left: 22px; }
+
+/* line 481, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li ul li,
+.megamenu li ol li {
+  font-size: 12px;
+  line-height: 21px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  float: none;
+  text-align: left; }
+
+/* line 491, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu li .list_unstyled {
+  list-style: none;
+  margin-left: 0; }
+
+/* 3. Custom Paragraphs */
+/* line 500, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .blue,
+.megamenu .grey,
+.megamenu .orange,
+.megamenu .dark,
+.megamenu .purple {
+  padding: 0 0 0 15px;
+  margin-bottom: 18px;
+  border-left: solid 5px; }
+
+/* line 509, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .blue {
+  border-left-color: #929292; }
+
+/* line 510, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .grey {
+  border-left-color: #ECE7BA; }
+
+/* line 511, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .orange {
+  border-left-color: #BD4F33; }
+
+/* line 512, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dark {
+  border-left-color: #3F3F3F; }
+
+/* line 513, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .purple {
+  border-left-color: #382E34; }
+
+/* line 515, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .black_box {
+  text-shadow: none;
+  padding: 10px;
+  margin-top: -10px;
+  *margin-top: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+/* 4. Video + Misc. */
+/* line 529, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 24px; }
+
+/* line 537, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .video_container iframe,
+.megamenu .video_container object,
+.megamenu .video_container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; }
+
+/* line 547, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .dropcap {
+  display: block;
+  float: left;
+  font-size: 42px;
+  line-height: 36px;
+  margin: 4px 8px 0 0; }
+
+/* line 554, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu hr {
+  width: 100%;
+  height: 0;
+  *height: 2px;
+  border: none;
+  margin-bottom: 24px; }
+
+/* 5. Images */
+/* line 566, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 18px; }
+
+/* line 572, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img.img_left {
+  float: left;
+  margin-right: 18px; }
+
+/* line 576, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img.img_right {
+  float: right;
+  margin-left: 18px; }
+
+/* line 580, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+/* line 590, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+/* 6. Paragraph Icons */
+/* line 605, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .paragraph_icon {
+  padding-left: 36px;
+  padding-right: 20px;
+  margin-bottom: 18px; }
+
+/* line 610, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .mini_icon {
+  background-repeat: no-repeat;
+  margin-top: 4px;
+  margin-left: -34px;
+  float: left;
+  width: 20px;
+  height: 20px; }
+
+/* line 618, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .mini_icon {
+  background-image: url("../img/icons/mini-icons-white.png"); }
+
+/* line 621, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .mini_icon {
+  background-image: url("../img/icons/mini-icons-black.png"); }
+
+/* line 625, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_archive {
+  background-position: 0 0; }
+
+/* line 626, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_attachment {
+  background-position: 0 -56px; }
+
+/* line 627, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_bookmark {
+  background-position: 0 -112px; }
+
+/* line 628, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_brush {
+  background-position: 0 -168px; }
+
+/* line 629, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_calc {
+  background-position: 0 -224px; }
+
+/* line 630, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_calendar {
+  background-position: 0 -280px; }
+
+/* line 631, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_cancel {
+  background-position: 0 -336px; }
+
+/* line 632, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_chat {
+  background-position: 0 -392px; }
+
+/* line 633, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_chats {
+  background-position: 0 -448px; }
+
+/* line 634, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_cloud {
+  background-position: 0 -504px; }
+
+/* line 635, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_delete {
+  background-position: 0 -560px; }
+
+/* line 636, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_documents {
+  background-position: 0 -616px; }
+
+/* line 637, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_down {
+  background-position: 0 -672px; }
+
+/* line 638, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_down_circle {
+  background-position: 0 -728px; }
+
+/* line 639, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_download {
+  background-position: 0 -784px; }
+
+/* line 640, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_edit {
+  background-position: 0 -840px; }
+
+/* line 641, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_empty_document {
+  background-position: 0 -896px; }
+
+/* line 642, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_favorite {
+  background-position: 0 -952px; }
+
+/* line 643, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_folder {
+  background-position: 0 -1008px; }
+
+/* line 644, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_fullscreen {
+  background-position: 0 -1064px; }
+
+/* line 645, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_graph {
+  background-position: 0 -1120px; }
+
+/* line 646, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_grid {
+  background-position: 0 -1176px; }
+
+/* line 647, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_left {
+  background-position: 0 -1232px; }
+
+/* line 648, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_left_circle {
+  background-position: 0 -1288px; }
+
+/* line 649, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_list {
+  background-position: 0 -1344px; }
+
+/* line 650, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_lock {
+  background-position: 0 -1400px; }
+
+/* line 651, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_mail {
+  background-position: 0 -1456px; }
+
+/* line 652, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_minus {
+  background-position: 0 -1512px; }
+
+/* line 653, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_ok {
+  background-position: 0 -1568px; }
+
+/* line 654, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_picture {
+  background-position: 0 -1624px; }
+
+/* line 655, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_pin {
+  background-position: 0 -1680px; }
+
+/* line 656, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_plus {
+  background-position: 0 -1736px; }
+
+/* line 657, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_power {
+  background-position: 0 -1792px; }
+
+/* line 658, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_print {
+  background-position: 0 -1848px; }
+
+/* line 659, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_refresh {
+  background-position: 0 -1904px; }
+
+/* line 660, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_right {
+  background-position: -56px 0; }
+
+/* line 661, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_right_circle {
+  background-position: -56px -56px; }
+
+/* line 662, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_settings {
+  background-position: -56px -112px; }
+
+/* line 663, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_sound {
+  background-position: -56px -168px; }
+
+/* line 664, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_sync {
+  background-position: -56px -224px; }
+
+/* line 665, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_tag {
+  background-position: -56px -280px; }
+
+/* line 666, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_target {
+  background-position: -56px -336px; }
+
+/* line 667, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_text_document {
+  background-position: -56px -392px; }
+
+/* line 668, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_time {
+  background-position: -56px -448px; }
+
+/* line 669, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_unlock {
+  background-position: -56px -504px; }
+
+/* line 670, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_up {
+  background-position: -56px -560px; }
+
+/* line 671, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_up_circle {
+  background-position: -56px -616px; }
+
+/* line 672, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_user {
+  background-position: -56px -672px; }
+
+/* line 673, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_users {
+  background-position: -56px -728px; }
+
+/* line 674, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu .ic_zoom {
+  background-position: -56px -784px; }
+
+/* Colored elements */
+/* line 679, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form label.error,
+.megamenu #megamenu_form #error,
+.megamenu #megamenu_form #success {
+  color: #fff;
+  clear: both;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  line-height: 18px; }
+
+/* line 689, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form label.error,
+.megamenu #megamenu_form #error {
+  background: #E45635; }
+
+/* line 693, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form input.error,
+.megamenu #megamenu_form input.error:hover,
+.megamenu #megamenu_form input.error:focus,
+.megamenu #megamenu_form textarea.error,
+.megamenu #megamenu_form textarea.error:hover,
+.megamenu #megamenu_form textarea.error:focus {
+  border-color: #f4baad; }
+
+/* line 701, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form #success {
+  background: #90AB76; }
+
+/* line 704, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form #success,
+.megamenu #megamenu_form #error {
+  display: none;
+  position: absolute;
+  top: 0;
+  margin-left: 0;
+  width: 90%; }
+
+/* line 712, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu #megamenu_form .required {
+  color: #e9266d; }
+
+/*  _______________________________________________
+
+    06 DEFAULT THEMES, DARK & LIGHT (REQUIRED)
+    _______________________________________________  */
+/* 1. Dark Menu Bar */
+/* line 728, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar {
+  background: #212121;
+  background: -webkit-linear-gradient(top, #333333 0%, #181818);
+  background: -moz-linear-gradient(top, #333333 0%, #181818);
+  background: -o-linear-gradient(top, #333333 0%, #181818);
+  background: -ms-linear-gradient(top, #333333 0%, #181818);
+  background: linear-gradient(to bottom, #333333 0%, #181818);
+  border: 1px solid #171717;
+  -webkit-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
+  -moz-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
+  box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7); }
+
+/* line 740, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu {
+  color: #FFFFFF; }
+
+/* line 743, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li:hover,
+.megamenu_dark_bar .megamenu > li.active {
+  background: #121212;
+  -webkit-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2); }
+
+/* line 750, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.noactive {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 756, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li > a {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000; }
+
+/* line 760, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li:hover > a {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000; }
+
+/* line 764, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu > li .megamenu_drop {
+  background: url("../img/dropdown.png") no-repeat right 18px; }
+
+/* line 767, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu_vertical > li .megamenu_drop {
+  background: url("../img/right.png") no-repeat right 16px; }
+
+/* line 770, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.megamenu_button,
+.megamenu_dark_bar .megamenu li.megamenu_button:hover {
+  background: url("../img/dropdown.png") no-repeat right 19px; }
+
+/* line 774, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark_bar .megamenu li.megamenu_button_active,
+.megamenu_dark_bar .megamenu li.megamenu_button_active:hover {
+  background: url("../img/dropdown-up.png") no-repeat right 18px; }
+
+/* 2. Light Menu Bar */
+/* line 783, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar {
+  background: #eeeeee;
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -moz-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -o-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: -ms-linear-gradient(top, #f8f8f8 0%, #eeeeee);
+  background: linear-gradient(to bottom, #f8f8f8 0%, #eeeeee);
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7); }
+
+/* line 795, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu {
+  color: #212121; }
+
+/* line 798, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li:hover,
+.megamenu_light_bar .megamenu > li.active {
+  background: #DDDDDD; }
+
+/* line 802, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.noactive {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 808, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li > a {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF; }
+
+/* line 812, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li:hover > a {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF; }
+
+/* line 816, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu > li .megamenu_drop {
+  background: url("../img/dropdown-b.png") no-repeat right 18px; }
+
+/* line 819, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu_vertical > li .megamenu_drop {
+  background: url("../img/right-b.png") no-repeat right 16px; }
+
+/* line 822, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.megamenu_button,
+.megamenu_light_bar .megamenu li.megamenu_button:hover {
+  background: url("../img/dropdown-b.png") no-repeat right 19px; }
+
+/* line 826, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light_bar .megamenu li.megamenu_button_active,
+.megamenu_light_bar .megamenu li.megamenu_button_active:hover {
+  background: url("../img/dropdown-b-up.png") no-repeat right 18px; }
+
+/* 3. Dark Drop Down */
+/* line 835, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_container,
+.megamenu_dark .megamenu li .dropdown_fullwidth,
+.megamenu_dark .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #000000;
+  border-top-width: 0;
+  background: #111111;
+  color: #f6f6f6; }
+
+/* line 843, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container_vertical .megamenu li .dropdown_container,
+.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
+.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
+  border-top-width: 1px; }
+
+/* line 848, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #000000; }
+
+/* line 851, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
+  background: url("../img/right.png") no-repeat right 9px; }
+
+/* line 854, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active {
+  background-color: #000000; }
+
+/* line 858, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.noactive {
+  background-color: transparent; }
+
+/* line 861, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu p,
+.megamenu_dark .megamenu h1,
+.megamenu_dark .megamenu h2,
+.megamenu_dark .megamenu h3,
+.megamenu_dark .megamenu h4,
+.megamenu_dark .megamenu h5,
+.megamenu_dark .megamenu h6 {
+  color: #f6f6f6;
+  text-shadow: 1px 1px 1px #000000; }
+
+/* line 871, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li > div a,
+.megamenu_dark .megamenu li ul li,
+.megamenu_dark .megamenu li ol li {
+  color: #aaaaaa; }
+
+/* line 876, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li > div a:hover {
+  color: #dddddd; }
+
+/* line 879, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu li ul li:hover,
+.megamenu_dark .megamenu li ol li:hover,
+.megamenu_dark .megamenu .blue,
+.megamenu_dark .megamenu .grey,
+.megamenu_dark .megamenu .orange,
+.megamenu_dark .megamenu .dark,
+.megamenu_dark .megamenu .purple {
+  color: #eeeeee; }
+
+/* line 888, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .black_box {
+  background: #000000;
+  color: #ffffff; }
+
+/* line 892, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu .grey_bg {
+  background: #eeeeee;
+  color: #000000;
+  text-shadow: 1px 1px 1px #ffffff; }
+
+/* line 897, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu > li.megamenu_searchform:hover {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 903, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_dark .megamenu hr {
+  border: none;
+  border-bottom: 1px solid #202020;
+  border-top: 1px solid #000000; }
+
+/* 4. Light Drop Down */
+/* line 913, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_container,
+.megamenu_light .megamenu li .dropdown_fullwidth,
+.megamenu_light .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #CCCCCC;
+  border-top-width: 0;
+  background: #FAFAFA;
+  color: #212121; }
+
+/* line 921, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_container_vertical .megamenu li .dropdown_container,
+.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
+.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
+  border-top-width: 1px; }
+
+/* line 926, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout li ul {
+  border: 1px solid #CCCCCC; }
+
+/* line 929, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
+  background: url("../img/right-b.png") no-repeat right 9px; }
+
+/* line 932, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
+  background-color: #eeeeee; }
+
+/* line 936, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.noactive {
+  background-color: transparent; }
+
+/* line 939, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu p,
+.megamenu_light .megamenu h1,
+.megamenu_light .megamenu h2,
+.megamenu_light .megamenu h3,
+.megamenu_light .megamenu h4,
+.megamenu_light .megamenu h5,
+.megamenu_light .megamenu h6 {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFFFFF; }
+
+/* line 949, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li > div a,
+.megamenu_light .megamenu li ul li,
+.megamenu_light .megamenu li ol li {
+  color: #888888; }
+
+/* line 954, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li > div a:hover {
+  color: #333333; }
+
+/* line 957, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu li ul li:hover,
+.megamenu_light .megamenu li ol li:hover,
+.megamenu_light .megamenu .blue,
+.megamenu_light .megamenu .grey,
+.megamenu_light .megamenu .orange,
+.megamenu_light .megamenu .dark,
+.megamenu_light .megamenu .purple {
+  color: #444444; }
+
+/* line 966, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .black_box {
+  background: #212121;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000; }
+
+/* line 971, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu .grey_bg {
+  background: #eeeeee; }
+
+/* line 974, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu > li.megamenu_searchform:hover {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 980, ../scss/_custom/homepage/_megamenu.scss */
+.megamenu_light .megamenu hr {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #e4e4e4; }
+
+/*  _______________________________________________
+
+    09 MOBILE DEVICES
+    _______________________________________________  */
+/* 1. Common Media Queries */
+@media only screen and (max-width: 984px) {
+  /* line 1000, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu img {
+    max-width: 96%;
+    height: auto; }
+
+  /* line 1004, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu textarea {
+    width: 96%; } }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 1013, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_sixths,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_sixths {
+    width: 8.66%; }
+
+  /* line 1017, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_fourths,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_fourths {
+    width: 17%; }
+
+  /* line 1021, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_thirds,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_thirds {
+    width: 25.33334%; }
+
+  /* line 1025, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_halfs,
+  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_halfs {
+    width: 42%; } }
+/* 2. Horizontal Mega Menu Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+  /* line 1038, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li {
+    margin: 0 8px 0 0; }
+
+  /* line 1041, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li.right {
+    margin-right: -1px; }
+
+  /* line 1044, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > a {
+    padding: 16px 10px 17px 10px; }
+
+  /* line 1047, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li .megamenu_drop {
+    padding-right: 30px; } }
+@media only screen and (max-width: 767px) {
+  /* line 1056, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container {
+    height: auto; }
+
+  /* line 1059, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li,
+  .megamenu_container .megamenu > li:hover,
+  .megamenu_container .megamenu > li.right,
+  .megamenu_container .megamenu > li.right:hover {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    margin-right: 0; }
+
+  /* line 1068, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > a {
+    padding: 16px 10px 16px 10px; }
+
+  /* line 1071, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu li.right a {
+    margin-right: 0; }
+
+  /* line 1075, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu li:hover .dropdown_container,
+  .megamenu_container .megamenu li:hover .dropdown_fullwidth,
+  .megamenu_container .megamenu li:hover .dropdown_right {
+    top: auto;
+    left: -1px; }
+
+  /* line 1081, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu .dropdown_1column,
+  .megamenu_container .megamenu .dropdown_2columns,
+  .megamenu_container .megamenu .dropdown_3columns,
+  .megamenu_container .megamenu .dropdown_4columns,
+  .megamenu_container .megamenu .dropdown_5columns,
+  .megamenu_container .megamenu .dropdown_6columns,
+  .megamenu_container .megamenu .dropdown_7columns,
+  .megamenu_container .megamenu .dropdown_8columns,
+  .megamenu_container .megamenu .dropdown_9columns,
+  .megamenu_container .megamenu .dropdown_10columns,
+  .megamenu_container .megamenu .dropdown_11columns,
+  .megamenu_container .megamenu .dropdown_12columns {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* line 1097, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu .col_1,
+  .megamenu_container .megamenu .col_2,
+  .megamenu_container .megamenu .col_3,
+  .megamenu_container .megamenu .col_4,
+  .megamenu_container .megamenu .col_5,
+  .megamenu_container .megamenu .col_6,
+  .megamenu_container .megamenu .col_7,
+  .megamenu_container .megamenu .col_8,
+  .megamenu_container .megamenu .col_9,
+  .megamenu_container .megamenu .col_10,
+  .megamenu_container .megamenu .col_11,
+  .megamenu_container .megamenu .col_12 {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%; }
+
+  /* line 1113, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li.megamenu_searchform .megamenu_searchfield {
+    margin-left: 10px;
+    margin-bottom: 10px; }
+
+  /* line 1117, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout,
+  .megamenu .dropdown_flyout .dropdown_flyout_level {
+    position: relative;
+    left: auto;
+    top: auto;
+    padding: 0;
+    margin: 0 4% 0 4%; }
+
+  /* line 1125, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li,
+  .megamenu .dropdown_flyout ul li {
+    width: 100%;
+    padding: 3px 0 3px 0; }
+
+  /* line 1130, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
+    left: auto;
+    top: auto; }
+
+  /* line 1134, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
+    left: auto;
+    right: auto; }
+
+  /* line 1138, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout li ul,
+  .megamenu_light .megamenu li .dropdown_flyout li ul {
+    border: none;
+    background: none; }
+
+  /* line 1143, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
+    background: url("../img/dropdown.png") no-repeat right 9px; }
+
+  /* line 1146, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
+    background: url("../img/dropdown-b.png") no-repeat right 9px; }
+
+  /* line 1149, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
+  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active,
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
+  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
+    background-color: transparent; } }
+@media only screen and (max-width: 479px) {
+  /* line 1161, ../scss/_custom/homepage/_megamenu.scss */
+  .megamenu_container .megamenu > li > div > .responsive_sixths,
+  .megamenu_container .megamenu > li > div > .responsive_fourths,
+  .megamenu_container .megamenu > li > div > .responsive_thirds,
+  .megamenu_container .megamenu > li > div > .responsive_halfs {
+    width: 42%; } }
+@media only screen and (min-width: 896px) {
+  /* line 1171, ../scss/_custom/homepage/_megamenu.scss */
+  .phone-number {
+    padding-top: 14px;
+    font-size: 16px;
+    padding-right: 75px; } }
+@media only screen and (max-width: 895px) {
+  /* line 1179, ../scss/_custom/homepage/_megamenu.scss */
+  .phone-number {
+    font-size: 0px;
+    padding: 0;
+    margin: 0; } }
+/* line 1, ../scss/_custom/homepage/_home.scss */
+.blue-bar {
+  background-color: #2089d3; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 1, ../scss/_custom/homepage/_home.scss */
+    .blue-bar {
+      height: 32px; } }
+  /* line 6, ../scss/_custom/homepage/_home.scss */
+  .blue-bar .fb-icon {
+    margin: 0;
+    padding: 2px 0; }
+  /* line 10, ../scss/_custom/homepage/_home.scss */
+  .blue-bar .custom-txt {
+    margin: 0;
+    padding: 0; }
+    /* line 13, ../scss/_custom/homepage/_home.scss */
+    .blue-bar .custom-txt p {
+      color: #fff;
+      font-weight: 300;
+      font-size: 15px;
+      padding: 4px 0; }
+
+/* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .plus-minus-icon:before {
+  font-family: "foundation-icons";
+  content: "\f199"; }
+/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .active .plus-minus-icon:before {
+  font-family: "foundation-icons";
+  content: "\f176"; }
+/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
+.accordion-home .plus-minus-icon {
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 0.75em;
+  color: #959595;
+  line-height: 1.7em;
+  padding-left: 5px; }
+@media only screen and (min-width: 40.063em) {
+  /* line 27, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container {
+    height: 140px; }
+  /* line 30, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg {
+    height: 190px; }
+  /* line 33, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg-1 {
+    height: 295px; } }
+/* line 37, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation a.panel-header {
+  color: #2089d3;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: Raleway;
+  text-transform: uppercase;
+  background: transparent;
+  border-bottom: 2px solid #c4c4c4;
+  padding: 0.5em 0.5em 0.5em 0.7em; }
+  /* line 47, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation a.panel-header .plus-minus {
+    font-size: 12px;
+    color: gray; }
+/* line 52, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation h3 {
+  font-size: 0.90em;
+  font-family: Raleway;
+  font-weight: 400;
+  padding-left: 5px; }
+  @media only screen and (min-width: 64.063em) {
+    /* line 52, ../scss/_custom/homepage/_home.scss */
+    .accordion-home .accordion-navigation h3 {
+      line-height: 2.8em; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* line 52, ../scss/_custom/homepage/_home.scss */
+    .accordion-home .accordion-navigation h3 {
+      line-height: 3em; } }
+  @media only screen and (max-width: 40em) {
+    /* line 52, ../scss/_custom/homepage/_home.scss */
+    .accordion-home .accordion-navigation h3 {
+      line-height: 2.4em; } }
+/* line 68, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation h3.two-line {
+  line-height: 1.5em; }
+/* line 72, ../scss/_custom/homepage/_home.scss */
+.accordion-home .accordion-navigation.active a {
+  background-color: transparent; }
+/* line 75, ../scss/_custom/homepage/_home.scss */
+.accordion-home p {
+  font-size: 0.85em;
+  padding-right: 10px; }
+
+/* line 81, ../scss/_custom/homepage/_home.scss */
+.footer-bg {
+  background-color: #343534; }
+  /* line 83, ../scss/_custom/homepage/_home.scss */
+  .footer-bg .footer-logo {
+    padding: 15px 0 40px 0; }
+  /* line 86, ../scss/_custom/homepage/_home.scss */
+  .footer-bg .wrapbuckets {
+    color: #FFF; }
+    /* line 88, ../scss/_custom/homepage/_home.scss */
+    .footer-bg .wrapbuckets a {
+      color: #fff;
+      text-decoration: none; }
+    /* line 92, ../scss/_custom/homepage/_home.scss */
+    .footer-bg .wrapbuckets h3 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95em;
+      margin: 15px 0 2px; }
+    /* line 98, ../scss/_custom/homepage/_home.scss */
+    .footer-bg .wrapbuckets .bucket ul {
+      font-size: 0.85em; }
+
+/* line 105, ../scss/_custom/homepage/_home.scss */
+.why-train-bg {
+  background-color: #D7E9F7;
+  border-bottom: 1px #c4c4c4 solid; }
+  /* line 110, ../scss/_custom/homepage/_home.scss */
+  .why-train-bg .train-with-us h3 {
+    font-size: 42px;
+    font-weight: 200;
+    font-family: Raleway;
+    line-height: 1em;
+    padding-bottom: 5px; }
+  /* line 118, ../scss/_custom/homepage/_home.scss */
+  .why-train-bg .train-with-us a:hover {
+    background-color: #FFCE77; }
+
+/* line 128, ../scss/_custom/homepage/_home.scss */
+.no-padding {
+  padding: 0; }

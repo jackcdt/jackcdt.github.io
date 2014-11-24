@@ -14,7 +14,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-compress');
-    grunt.loadNpmTasks('grunt-bless');
     grunt.loadNpmTasks('grunt-image');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-compass');
@@ -99,14 +98,6 @@ module.exports = function(grunt) {
                 dest: 'build/',
             }
         },
-        bless: {
-            css: {
-                options: {},
-                files: {
-                    'stylesheets/app-ie.css': 'stylesheets/app-ie.css'
-                }
-            }
-        },
         cssmin: {
             minify: {
                 expand: true,
@@ -137,31 +128,11 @@ module.exports = function(grunt) {
                     dest: 'build/images-dist' // Destination path prefix
                 }]
             }
-        },
-        rename: {
-            main: {
-                files: [{
-                    src: 'build/stylesheets/app-ie.css',
-                    dest: 'build/stylesheets/app-part1.css'
-                }, ]
-            },
-            main2: {
-                files: [{
-                    src: 'build/stylesheets/app-ie-blessed2.css',
-                    dest: 'build/stylesheets/app-part2.css'
-                }, ]
-            },
-            main3: {
-                files: [{
-                    src: 'build/stylesheets/app-ie-blessed1.css',
-                    dest: 'build/stylesheets/app-part3.css'
-                }, ]
-            }
         }
      });
 
 
     // Default task(s).
-    grunt.registerTask('default', ['compass', 'copy', 'bless', 'cssmin', 'htmlmin', 'imagemin', 'rename']);
+    grunt.registerTask('default', ['compass', 'copy', 'cssmin', 'htmlmin', 'imagemin']);
 
 };

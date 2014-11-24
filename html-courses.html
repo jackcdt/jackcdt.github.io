@@ -32,11 +32,10 @@ To support REMs, use the REM-unit-polyfill
         <meta name="description" content="Learn HTML to better understand how web pages and emails are constructed. Introductory, intermediate and advanced courses on HTML5 and CSS3." />
         <meta name="keywords" content="HTML training, CSS training, HTML courses, CSS courses" />
 
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
 
+        <link rel="stylesheet" href="/stylesheets/app.css" />
+
+        <!--[if lt IE 9]>
             <link href="/stylesheets/ie.css" rel="stylesheet" /> 
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -52,15 +51,11 @@ To support REMs, use the REM-unit-polyfill
         <![endif]-->
 
         <!--[if IE 9]>
-            <link rel="stylesheet" href="/stylesheets/app-part1.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part2.css" />
-            <link rel="stylesheet" href="/stylesheets/app-part3.css" />
-
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <![endif]-->
-            
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
+        <![endif]-->
+
         <!--[if !IE]>-->
-            <link rel="stylesheet" href="/stylesheets/app.css" />
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
