@@ -542,6 +542,28 @@ h1 {
 .package-overview h3 {
   margin-top: 15px; }
 
+/* line 78, ../scss/_custom/components/training/_old-ie-styles.scss */
+.header-banner.row, .slider-1.row, .slider-2.row, .slider-3.row, .slider-4.row, .slider-5.row, .slider-6.row, .slider-7.row, .megamenu_container.row, .blue-bar.row, .why-train-bg.row, .main.accordion-home {
+  max-width: 1000 px !important; }
+
+/* line 83, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > main > div.row.accordion home {
+  max-width: 1000 px !important; }
+
+/* line 86, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > div.footer-bg > div.row.footer-logo {
+  max-width: 1000 px !important; }
+
+/* line 89, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > div.footer-bg > div.row.wrapbuckets {
+  max-width: 1000 px !important; }
+
+/* line 93, ../scss/_custom/components/training/_old-ie-styles.scss */
+.slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+  height: 380 px;
+  width: auto;
+  background-repeat: repeat-x; }
+
 /* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
 .category-page p {
   margin-bottom: 24px; }
@@ -1360,3 +1382,7 @@ conversion-optimisation
 /* line 3, ../scss/_custom/admin/_training-benefits-old-ie-styles.scss */
 .cdt-wtwu .testimonials-slider {
   display: none !important; }
+
+/* line 2, ../scss/_custom/admin/_faq-old-ie-styles.scss */
+.cdt-calendar .accordion-navigation .content {
+  display: block !important; }
