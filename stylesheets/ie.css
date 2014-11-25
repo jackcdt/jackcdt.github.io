@@ -501,6 +501,47 @@ h1 {
 .custom-training, .gradient-top {
   display: none !important; }
 
+/* line 35, ../scss/_custom/components/training/_old-ie-styles.scss */
+.category-page .tight-header-1, .tight-header-2 {
+  display: inline-block !important;
+  width: auto !important; }
+
+/* line 41, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-breadcrumbs {
+  float: right !important;
+  background-color: #f5f5f !important; }
+
+/* line 47, ../scss/_custom/components/training/_old-ie-styles.scss */
+.phone-number {
+  padding-right: 90px !important; }
+
+/* line 51, ../scss/_custom/components/training/_old-ie-styles.scss */
+.header-logos .book-now {
+  margin-right: -45px !important; }
+
+/* line 55, ../scss/_custom/components/training/_old-ie-styles.scss */
+.acc-container .large-2 {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important; }
+
+/* line 61, ../scss/_custom/components/training/_old-ie-styles.scss */
+.city-location {
+  width: 230px !important;
+  margin-right: 15px !important; }
+
+/* line 66, ../scss/_custom/components/training/_old-ie-styles.scss */
+.book-now-specials {
+  margin-left: 16px !important; }
+
+/* line 70, ../scss/_custom/components/training/_old-ie-styles.scss */
+.package-price {
+  width: 140px !important; }
+
+/* line 74, ../scss/_custom/components/training/_old-ie-styles.scss */
+.package-overview h3 {
+  margin-top: 15px; }
+
 /* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
 .category-page p {
   margin-bottom: 24px; }
