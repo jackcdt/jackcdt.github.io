@@ -76,22 +76,22 @@ h1 {
 }
 
  .header-banner.row, .slider-1.row, .slider-2.row, .slider-3.row, .slider-4.row, .slider-5.row, .slider-6.row, .slider-7.row, .megamenu_container.row, .blue-bar.row, .why-train-bg.row, .main.accordion-home {
-    max-width: 1000 px!important;
+    max-width: 1000px !important;
 }
 
 
 body > main > div.row.accordion home {
-    max-width: 1000 px!important;
+    max-width: 1000px !important;
 }
 body > div.footer-bg > div.row.footer-logo {
-    max-width: 1000 px!important;
+    max-width: 1000px !important;
 }
 body > div.footer-bg > div.row.wrapbuckets {
-    max-width: 1000 px!important;
+    max-width: 1000px !important;
 }
 
 .slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-    height: 380 px;
+    height: 380px;
     width: auto;
     background-repeat: repeat-x;
 }
@@ -100,4 +100,13 @@ body > div.footer-bg > div.row.wrapbuckets {
     .accordion .accordion-navigation>.content, .accordion dd>.content {
         display: block !important;
     }
+
+    #panel5 {
+        height: 300px !important;
+    }
+
+    #panel6 {
+        height: 420px !important;
+    }
 }
+

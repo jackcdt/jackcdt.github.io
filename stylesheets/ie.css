@@ -468,186 +468,6 @@
 .lt-ie9 .hide-on-android {
   display: block !important; }
 
-/* Hide problematic elements */
-/* line 2, ../scss/_custom/components/training/_old-ie-styles.scss */
-.hide-old-ie {
-  display: none; }
-
-/* line 6, ../scss/_custom/components/training/_old-ie-styles.scss */
-.banner-sub-header {
-  display: block !important; }
-
-/* line 10, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-breadcrumbs {
-  border: none !important;
-  background-color: #fff !important;
-  float: left !important;
-  padding-left: 0 !important;
-  margin-left: 0 !important; }
-
-/* line 18, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-breadcrumbs > * a {
-  margin: 6px 10px; }
-
-/* line 22, ../scss/_custom/components/training/_old-ie-styles.scss */
-.category-page .courses-list {
-  margin-top: 0; }
-
-/* line 26, ../scss/_custom/components/training/_old-ie-styles.scss */
-h1 {
-  margin-top: 0 !important; }
-
-/* line 30, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-training, .gradient-top {
-  display: none !important; }
-
-/* line 35, ../scss/_custom/components/training/_old-ie-styles.scss */
-.category-page .tight-header-1, .tight-header-2 {
-  display: inline-block !important;
-  width: auto !important; }
-
-/* line 41, ../scss/_custom/components/training/_old-ie-styles.scss */
-.custom-breadcrumbs {
-  float: right !important;
-  background-color: #f5f5f !important; }
-
-/* line 47, ../scss/_custom/components/training/_old-ie-styles.scss */
-.phone-number {
-  padding-right: 90px !important; }
-
-/* line 51, ../scss/_custom/components/training/_old-ie-styles.scss */
-.header-logos .book-now {
-  margin-right: -45px !important; }
-
-/* line 55, ../scss/_custom/components/training/_old-ie-styles.scss */
-.acc-container .large-2 {
-  width: 40px !important;
-  height: 40px !important;
-  padding: 0 !important; }
-
-/* line 61, ../scss/_custom/components/training/_old-ie-styles.scss */
-.city-location {
-  width: 230px !important;
-  margin-right: 15px !important; }
-
-/* line 66, ../scss/_custom/components/training/_old-ie-styles.scss */
-.book-now-specials {
-  margin-left: 16px !important; }
-
-/* line 70, ../scss/_custom/components/training/_old-ie-styles.scss */
-.package-price {
-  width: 140px !important; }
-
-/* line 74, ../scss/_custom/components/training/_old-ie-styles.scss */
-.package-overview h3 {
-  margin-top: 15px; }
-
-/* line 78, ../scss/_custom/components/training/_old-ie-styles.scss */
-.header-banner.row, .slider-1.row, .slider-2.row, .slider-3.row, .slider-4.row, .slider-5.row, .slider-6.row, .slider-7.row, .megamenu_container.row, .blue-bar.row, .why-train-bg.row, .main.accordion-home {
-  max-width: 1000 px !important; }
-
-/* line 83, ../scss/_custom/components/training/_old-ie-styles.scss */
-body > main > div.row.accordion home {
-  max-width: 1000 px !important; }
-
-/* line 86, ../scss/_custom/components/training/_old-ie-styles.scss */
-body > div.footer-bg > div.row.footer-logo {
-  max-width: 1000 px !important; }
-
-/* line 89, ../scss/_custom/components/training/_old-ie-styles.scss */
-body > div.footer-bg > div.row.wrapbuckets {
-  max-width: 1000 px !important; }
-
-/* line 93, ../scss/_custom/components/training/_old-ie-styles.scss */
-.slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
-  height: 380 px;
-  width: auto;
-  background-repeat: repeat-x; }
-
-/* line 100, ../scss/_custom/components/training/_old-ie-styles.scss */
-.accordion-home .accordion .accordion-navigation > .content, .accordion-home .accordion dd > .content {
-  display: block !important; }
-
-/* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
-.category-page p {
-  margin-bottom: 24px; }
-/* line 6, ../scss/_custom/training/_category-old-ie-styles.scss */
-.category-page .category-description-section {
-  padding-right: 16px;
-  margin-bottom: 0; }
-
-/* line 1, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-.course-outline {
-  /* Push up the custom training to compensate for no image */
-  /* Push lists left */ }
-  /* line 2, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline p {
-    margin-bottom: 24px; }
-  /* line 7, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .lower-aside-section {
-    padding-left: 15px; }
-  /* line 12, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .overview-list-data li,
-  .course-outline .course-dates-city-block .date,
-  .course-outline .course-outline-block .course-outline-list,
-  .course-outline .download-text {
-    margin-left: 10px !important; }
-  /* line 19, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .upper-side {
-    padding-left: 15px; }
-  /* line 23, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .course-info-upper,
-  .course-outline .overview-list,
-  .course-outline .promo-grid li {
-    padding-right: 15px; }
-  /* line 29, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .course-header {
-    width: 290px; }
-  /* line 33, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .book-now-btn {
-    display: inline-block;
-    text-align: center;
-    padding: 3px 10px;
-    color: #FFF;
-    text-align: center;
-    font-weight: 700; }
-  /* line 42, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .book-now-btn:hover {
-    background-color: #D24590; }
-  /* line 46, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .paragraph-header-def-color {
-    height: 32px; }
-  /* line 50, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .related-course {
-    padding: 0 10px !important; }
-  /* line 54, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
-  .course-outline .related-course .advanced-table {
-    margin-top: 24px !important; }
-
-/* http://stackoverflow.com/questions/12788381/making-zurbs-foundation-3-work-with-ie7
-
-    .ie7 .columns{
-        margin-right: -15px ;
-        margin-left: -15px ;
-        display:-moz-inline-stack;
-        display:inline-block;
-        zoom:1;
-        *display:inline;
-    }
-
-    .ie7 .row{
-        clear: both;
-        text-align: center;
-    }
-
-    .ie7 .offset-by-three {
-        margin-left:25% !important;
-    }
-    .ie7 .offset-by-seven {
-        margin-left:58.33% !important ;
-    }
-
-*/
 /* Push up the custom training to compensate for no image */
 /* line 3, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category {
@@ -1394,3 +1214,190 @@ conversion-optimisation
 /* line 2, ../scss/_custom/admin/_faq-old-ie-styles.scss */
 .faq .accordion .accordion-navigation > .content, .faq .accordion dd > .content {
   display: block !important; }
+
+/* Hide problematic elements */
+/* line 2, ../scss/_custom/components/training/_old-ie-styles.scss */
+.hide-old-ie {
+  display: none; }
+
+/* line 6, ../scss/_custom/components/training/_old-ie-styles.scss */
+.banner-sub-header {
+  display: block !important; }
+
+/* line 10, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-breadcrumbs {
+  border: none !important;
+  background-color: #fff !important;
+  float: left !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important; }
+
+/* line 18, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-breadcrumbs > * a {
+  margin: 6px 10px; }
+
+/* line 22, ../scss/_custom/components/training/_old-ie-styles.scss */
+.category-page .courses-list {
+  margin-top: 0; }
+
+/* line 26, ../scss/_custom/components/training/_old-ie-styles.scss */
+h1 {
+  margin-top: 0 !important; }
+
+/* line 30, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-training, .gradient-top {
+  display: none !important; }
+
+/* line 35, ../scss/_custom/components/training/_old-ie-styles.scss */
+.category-page .tight-header-1, .tight-header-2 {
+  display: inline-block !important;
+  width: auto !important; }
+
+/* line 41, ../scss/_custom/components/training/_old-ie-styles.scss */
+.custom-breadcrumbs {
+  float: right !important;
+  background-color: #f5f5f !important; }
+
+/* line 47, ../scss/_custom/components/training/_old-ie-styles.scss */
+.phone-number {
+  padding-right: 90px !important; }
+
+/* line 51, ../scss/_custom/components/training/_old-ie-styles.scss */
+.header-logos .book-now {
+  margin-right: -45px !important; }
+
+/* line 55, ../scss/_custom/components/training/_old-ie-styles.scss */
+.acc-container .large-2 {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important; }
+
+/* line 61, ../scss/_custom/components/training/_old-ie-styles.scss */
+.city-location {
+  width: 230px !important;
+  margin-right: 15px !important; }
+
+/* line 66, ../scss/_custom/components/training/_old-ie-styles.scss */
+.book-now-specials {
+  margin-left: 16px !important; }
+
+/* line 70, ../scss/_custom/components/training/_old-ie-styles.scss */
+.package-price {
+  width: 140px !important; }
+
+/* line 74, ../scss/_custom/components/training/_old-ie-styles.scss */
+.package-overview h3 {
+  margin-top: 15px; }
+
+/* line 78, ../scss/_custom/components/training/_old-ie-styles.scss */
+.header-banner.row, .slider-1.row, .slider-2.row, .slider-3.row, .slider-4.row, .slider-5.row, .slider-6.row, .slider-7.row, .megamenu_container.row, .blue-bar.row, .why-train-bg.row, .main.accordion-home {
+  max-width: 1000px !important; }
+
+/* line 83, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > main > div.row.accordion home {
+  max-width: 1000px !important; }
+
+/* line 86, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > div.footer-bg > div.row.footer-logo {
+  max-width: 1000px !important; }
+
+/* line 89, ../scss/_custom/components/training/_old-ie-styles.scss */
+body > div.footer-bg > div.row.wrapbuckets {
+  max-width: 1000px !important; }
+
+/* line 93, ../scss/_custom/components/training/_old-ie-styles.scss */
+.slider-1, .slider-2, .slider-3, .slider-4, .slider-5, .slider-6, .slider-7 {
+  height: 380px;
+  width: auto;
+  background-repeat: repeat-x; }
+
+/* line 100, ../scss/_custom/components/training/_old-ie-styles.scss */
+.accordion-home .accordion .accordion-navigation > .content, .accordion-home .accordion dd > .content {
+  display: block !important; }
+/* line 104, ../scss/_custom/components/training/_old-ie-styles.scss */
+.accordion-home #panel5 {
+  height: 300px !important; }
+/* line 108, ../scss/_custom/components/training/_old-ie-styles.scss */
+.accordion-home #panel6 {
+  height: 420px !important; }
+
+/* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
+.category-page p {
+  margin-bottom: 24px; }
+/* line 6, ../scss/_custom/training/_category-old-ie-styles.scss */
+.category-page .category-description-section {
+  padding-right: 16px;
+  margin-bottom: 0; }
+
+/* line 1, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+.course-outline {
+  /* Push up the custom training to compensate for no image */
+  /* Push lists left */ }
+  /* line 2, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline p {
+    margin-bottom: 24px; }
+  /* line 7, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .lower-aside-section {
+    padding-left: 15px; }
+  /* line 12, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .overview-list-data li,
+  .course-outline .course-dates-city-block .date,
+  .course-outline .course-outline-block .course-outline-list,
+  .course-outline .download-text {
+    margin-left: 10px !important; }
+  /* line 19, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .upper-side {
+    padding-left: 15px; }
+  /* line 23, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .course-info-upper,
+  .course-outline .overview-list,
+  .course-outline .promo-grid li {
+    padding-right: 15px; }
+  /* line 29, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .course-header {
+    width: 290px; }
+  /* line 33, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .book-now-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 3px 10px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700; }
+  /* line 42, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .book-now-btn:hover {
+    background-color: #D24590; }
+  /* line 46, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .paragraph-header-def-color {
+    height: 32px; }
+  /* line 50, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .related-course {
+    padding: 0 10px !important; }
+  /* line 54, ../scss/_custom/training/_course-outline-old-ie-styles.scss */
+  .course-outline .related-course .advanced-table {
+    margin-top: 24px !important; }
+
+/* http://stackoverflow.com/questions/12788381/making-zurbs-foundation-3-work-with-ie7
+
+    .ie7 .columns{
+        margin-right: -15px ;
+        margin-left: -15px ;
+        display:-moz-inline-stack;
+        display:inline-block;
+        zoom:1;
+        *display:inline;
+    }
+
+    .ie7 .row{
+        clear: both;
+        text-align: center;
+    }
+
+    .ie7 .offset-by-three {
+        margin-left:25% !important;
+    }
+    .ie7 .offset-by-seven {
+        margin-left:58.33% !important ;
+    }
+
+*/

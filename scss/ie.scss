@@ -3,7 +3,7 @@
 // Copy & paste if you're not using SASS to compile your stylesheets.
 @import "_custom/ie-support/ie-grid-support";
 
-// Custom styling for IE8
+// Custom styling for IE8 
 .lt-ie9 {
     .show-for-medium-down,
     .show-for-medium,
@@ -17,15 +17,10 @@
     .hide-on-android {
         display: block !important;
     }
-}
+} 
  
 // Include special styling for old IE  
 
-// Various components
-@import "_custom/components/training/old-ie-styles";
-@import "_custom/training/category-old-ie-styles";
-@import "_custom/training/course-outline-old-ie-styles";
- 
 // Page specific
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
 @import "_custom/training/adobe/indesign/indesign-essentials-old-ie-styles";
@@ -114,3 +109,9 @@
 @import "_custom/admin/calendar-old-ie-styles";
 @import "_custom/admin/training-benefits-old-ie-styles";
 @import "_custom/admin/faq-old-ie-styles";
+
+// Various components
+@import "_custom/components/training/old-ie-styles";
+@import "_custom/training/category-old-ie-styles";
+@import "_custom/training/course-outline-old-ie-styles";
+ 
