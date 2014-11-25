@@ -1,3 +1,14 @@
 // Page specific - for IE7
 @import "_custom/training/course-outline-ie7-styles";
 
+.cdt-book {
+    #panel1, #panel2, #panel3, #panel4, #panel5, #panel6 {
+        display: block !important;
+    }
+}
+
+.cdt-calendar {
+    #calendar-tab-1, #calendar-tab-2, #calendar-tab-3, #calendar-tab-4{
+        display: block !important;
+    }
+}
