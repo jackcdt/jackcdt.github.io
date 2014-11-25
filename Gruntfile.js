@@ -70,8 +70,8 @@ module.exports = function(grunt) {
                 dest: 'build/js/megamenu-plugins-min.js',
             },
             modernizrJs: {
-                src: 'bower_components/modernizr/modernizr.js',
-                dest: 'build/bower_components/modernizr/modernizr.js',
+                src: 'bower_components/modernizr/min/modernizr-min.js',
+                dest: 'build/bower_components/modernizr/min/modernizr-min.js',
             },
             fastclickJs: {
                 src: 'js/fastclick.js',
