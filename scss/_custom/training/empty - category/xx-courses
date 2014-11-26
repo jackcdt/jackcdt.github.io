@@ -52,10 +52,9 @@ To support REMs, use the REM-unit-polyfill
 
         <!--[if IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <![endif]-->
 
-        <!--[if !IE]>-->
+        <!--[if gt IE 8]>-->
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
@@ -307,7 +306,7 @@ To support REMs, use the REM-unit-polyfill
                 <div class="row">
                     <ul class="custom-breadcrumbs"> 
                         <li>
-                            <a href="/index.html">Home</a>
+                            <a href="http://www.cd.com.au/">Home</a>
                         </li> 
                         <li>
                             <a href="#" class="breadcrumb-active">XX Courses</a>

@@ -1,22 +1,36 @@
 <!doctype html>
-<html itemscope="City Desktop Training" itemtype="http://schema.org/Organization" lang="en">
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
+
+<!-- Support for IE 6/7 is per the following link: http://blog.mebooks.co.nz/supporting-internet-explorer-8-in-foundation-5/ 
+the use of NWMatcher to provide CSS3 selectors (for IE6 and IE7)
+the use of selectivizr to provide CSS3 pseudo-classes and attribute selectors (for IE6 and IE7)
+the use of html5shiv to provide HTML5 DOM elements (for IE6–IE8)
+the use of respond.js to provide min/max-width CSS3 Media Queries (for IE6–IE8)
+The use of CSS3 PIE to provide support for CSS3 decorations, such as rounded corners (border-radius) (for IE6–IE9)
+http://github.com/es-shims/es5-shim/ - ECMAScript 5 compatibility shims for legacy JavaScript engines
+To support REMs, use the REM-unit-polyfill
+-->
+
+<!--[if lt IE 9]> <html class="no-js lt-ie10 lt-ie9" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> 
+<html class="no-js" xmlns:fb="http://ogp.me/ns/fb#"> 
 <!--<![endif]-->
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
-    <title>City Desktop Traininig</title>
-        
-    <meta name="description" content="Short instructor-led courses and custom training for Adobe, Digital Publishing, web design and web development, video editing, eLearning and online marketing." />
-    <meta name="keywords" content="short courses, Adobe training, web design, web development" />
+    <head>        
+        <link href='//fonts.googleapis.com/css?family=Raleway:100normal,200normal,300normal,400normal,500normal,600normal,700normal,800normal,900normal' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8" />
 
+        <!-- The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as. Edge mode tells Internet Explorer to display content in the highest mode available. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+ 
+        <!-- user-scalable - controls how users are allowed to zoom the page in or out -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>City Desktop Traininig</title>
+
+        <meta name="description" content="Short instructor-led courses and custom training for Adobe, Digital Publishing, web design and web development, video editing, eLearning and online marketing." />
+        <meta name="keywords" content="short courses, Adobe training, web design, web development" />
 
         <link rel="stylesheet" href="/stylesheets/homepage.css" />
 
@@ -37,10 +51,9 @@
 
         <!--[if IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
-            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <![endif]-->
 
-        <!--[if !IE]>-->
+        <!--[if gt IE 8]>-->
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
@@ -56,13 +69,12 @@
           ga('send', 'pageview');
 
         </script>
-</head>
-
+    </head>
 <body><!-- #BeginLibraryItem "Library/header.lbi" -->    <!-- Header Start -->
     <header>
         <div class="header-banner">
             <div class="row header-banner-container header-logos">
-                <a href="/index.html"><div class="small-6 medium-2 columns cdt-logo"></div></a>
+                <a href="http://www.cd.com.au/"><div class="small-6 medium-2 columns cdt-logo"></div></a>
                 <div class="medium-2 columns show-for-medium-up aatc-logo"></div>
                 <div class="medium-3 columns training-text">
                     Training at your office
@@ -79,7 +91,7 @@
     <!-- Megamenu Start -->  
     <div class="contain-to-grid">
         <div class="megamenu_container megamenu_dark_bar megamenu_light">
-            <!-- Begin Menu Container -->
+            <!-- Begin Menu Container --> 
             <div class="row">
                 <ul class="megamenu">
                     <!-- Begin Mega Menu -->
@@ -646,7 +658,7 @@
                 <dd class="accordion-navigation">
                     <a href="#panel2" class="panel-header">
                         <span class="plus-minus-icon"></span>Digital Publishing</a>
-                    <div id="panel2" class="content <!--[if lte IE 7]>active<![endif]-->">
+                    <div id="panel2" class="content">
                         <div class="row">
                             <div class="medium-4 large-3 columns">
                                 <p>
@@ -1037,7 +1049,7 @@
                             </div>
                             <div class="medium-8 large-9 columns">
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-marketing-fundamentals.png" alt="Online Marketing Fundamentals" class="course-icon">
                                         </div>
@@ -1051,7 +1063,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-ppc.png" alt="PPC Marketing" class="course-icon">
                                         </div>
@@ -1065,7 +1077,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-social-media-marketing.png" alt="Social Media Marketing" class="course-icon">
                                         </div>
@@ -1079,7 +1091,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-conversion-optimisation.png" alt="Conversion Optimisation" class="course-icon">
                                         </div>
@@ -1093,7 +1105,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-seo.png" alt="Search Engine Optimisation" class="course-icon">
                                         </div>
@@ -1107,7 +1119,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg">
+                                    <div class="row acc-container">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/logo-web-analytics.png" alt="Web Analytics" class="course-icon">
                                         </div>
@@ -1136,7 +1148,7 @@
                             </div>
                             <div class="medium-8 large-9 columns">
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg-1">
+                                    <div class="row acc-container-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/seo-ess.png" alt="SEO Essentials" class="course-icon">
                                         </div>
@@ -1150,7 +1162,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 columns">
-                                    <div class="row acc-container-lg-1">
+                                    <div class="row acc-container-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/ga-essentials.png" alt="Google Analytics" class="course-icon">
                                         </div>
@@ -1164,7 +1176,7 @@
                                     </div>
                                 </div>
                                 <div class="medium-6 large-4 end columns">
-                                    <div class="row acc-container-lg-1">
+                                    <div class="row acc-container-1">
                                         <div class="small-1 medium-2 large-2 columns no-padding">
                                             <img src="images-dist/homepage/linkedin-essentials.png" alt="LinkedIn for Business" class="course-icon">
                                         </div>
@@ -1357,5 +1369,4 @@
         
         <script type="text/javascript" src="/js/product-list-view.js"></script>
         <!-- #EndLibraryItem --></body>
-
 </html>
