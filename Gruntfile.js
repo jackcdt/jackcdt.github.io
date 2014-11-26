@@ -92,10 +92,6 @@ module.exports = function(grunt) {
             remJs: {
                 src: 'js/rem.min.js',
                 dest: 'build/js/rem.min.js',
-            },
-            fonts: {
-                src: 'fonts/*',
-                dest: 'build/',
             }
         },
         cssmin: {
