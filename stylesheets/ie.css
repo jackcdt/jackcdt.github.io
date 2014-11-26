@@ -1291,6 +1291,10 @@ body {
   .captivate-advanced-course .book-now-btn {
     background-color: #3ac69d; }
 
+/* line 2, ../scss/_custom/training/online-marketing/online-courses/_online-courses-old-ie-styles.scss */
+.online-courses-category .accordion .accordion-navigation > .content, .online-courses-category .accordion dd > .content {
+  display: block !important; }
+
 /* line 3, ../scss/_custom/training/online-marketing/_business-tools-category-old-ie-styles.scss */
 .business-tools-category {
   /* Hide all sprites */ }
