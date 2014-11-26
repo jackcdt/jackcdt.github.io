@@ -95,3 +95,9 @@ body > div.footer-bg > div.row.wrapbuckets {
     width: auto;
     background-repeat: repeat-x;
 }
+ 
+.accordion-home { 
+    .accordion .accordion-navigation>.content, .accordion dd>.content {
+        display: block !important;
+    }
+}

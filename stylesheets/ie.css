@@ -564,6 +564,10 @@ body > div.footer-bg > div.row.wrapbuckets {
   width: auto;
   background-repeat: repeat-x; }
 
+/* line 100, ../scss/_custom/components/training/_old-ie-styles.scss */
+.accordion-home .accordion .accordion-navigation > .content, .accordion-home .accordion dd > .content {
+  display: block !important; }
+
 /* line 2, ../scss/_custom/training/_category-old-ie-styles.scss */
 .category-page p {
   margin-bottom: 24px; }
