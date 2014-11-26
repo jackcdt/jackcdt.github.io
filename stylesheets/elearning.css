@@ -5309,43 +5309,6 @@ th.hide-for-touch {
   /* line 404, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
-/*
- * Foundation Icons v 3.0
- * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
- * MIT License
- */
-@font-face {
-  font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.eot?1415583768');
-  src: url('../fonts/foundation-icons.eot?&1415583768#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1415583768') format("woff"), url('../fonts/foundation-icons.ttf?1415583768') format("truetype"), url('../fonts/foundation-icons.svg?1415583768#fontcustom') format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* line 18, ../scss/foundation-icons.scss */
-.fi-checkbox:before,
-.fi-minus:before,
-.fi-plus:before {
-  font-family: "foundation-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  text-decoration: inherit; }
-
-/* line 32, ../scss/foundation-icons.scss */
-.fi-checkbox:before {
-  content: "\f127"; }
-
-/* line 33, ../scss/foundation-icons.scss */
-.fi-minus:before {
-  content: "\f176"; }
-
-/* line 34, ../scss/foundation-icons.scss */
-.fi-plus:before {
-  content: "\f199"; }
-
 /* line 13, ../scss/_custom/_common.scss */
 body {
   font-family: Raleway, Helvetica, sans-serif; }
@@ -6983,6 +6946,17 @@ body {
   font-family: raleway;
   font-size: 13px; }
 
+/* line 14, ../scss/_custom/components/_plus-minus-icon.scss */
+.plus-minus-icon {
+  float: left;
+  margin-right: 10px;
+  margin-top: -7px;
+  font-weight: 300;
+  color: #959595;
+  padding-left: 5px;
+  font-size: 18px;
+  line-height: 32px; }
+
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
 /* line 112, header-footer/*.png */
 .header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
@@ -7923,22 +7897,10 @@ body {
     margin-bottom: 16px; }
     /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
     .captivate-essentials-course .accordion .plus-minus-icon:before {
-      font-family: "foundation-icons";
-      content: "\f199"; }
-    /* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+      content: "\2b"; }
+    /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
     .captivate-essentials-course .accordion .active .plus-minus-icon:before {
-      font-family: "foundation-icons";
-      content: "\f176"; }
-    /* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
-    .captivate-essentials-course .accordion .plus-minus-icon {
-      float: left;
-      margin-right: 10px;
-      margin-top: 2px;
-      font-weight: 100;
-      font-size: 0.75em;
-      color: #959595;
-      line-height: 1.7em;
-      padding-left: 5px; }
+      content: "\2d"; }
   /* line 11, ../scss/_custom/training/captivate/_captivate-essentials.scss */
   .captivate-essentials-course .accordion .accordion-navigation > a:hover,
   .captivate-essentials-course .accordion dd > a:hover {
@@ -8042,22 +8004,10 @@ body {
     margin-bottom: 16px; }
     /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
     .captivate-advanced-course .accordion .plus-minus-icon:before {
-      font-family: "foundation-icons";
-      content: "\f199"; }
-    /* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+      content: "\2b"; }
+    /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
     .captivate-advanced-course .accordion .active .plus-minus-icon:before {
-      font-family: "foundation-icons";
-      content: "\f176"; }
-    /* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
-    .captivate-advanced-course .accordion .plus-minus-icon {
-      float: left;
-      margin-right: 10px;
-      margin-top: 2px;
-      font-weight: 100;
-      font-size: 0.75em;
-      color: #959595;
-      line-height: 1.7em;
-      padding-left: 5px; }
+      content: "\2d"; }
   /* line 11, ../scss/_custom/training/captivate/_captivate-advanced.scss */
   .captivate-advanced-course .accordion .accordion-navigation > a:hover,
   .captivate-advanced-course .accordion dd > a:hover {

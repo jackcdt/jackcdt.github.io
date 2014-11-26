@@ -1,7 +1,7 @@
 @import "settings";
-  
+              
 // Selectively include Foundation components
- @import
+ @import 
    "foundation/components/accordion",
    "foundation/components/alert-boxes",
    "foundation/components/block-grid",
@@ -39,8 +39,7 @@
    "foundation/components/visibility";
 
 
-// Custom components   
-@import "foundation-icons";   
+// Custom components    
 @import "breakpoint/stylesheets/breakpoint";
 @import "_custom/common";  
 @import "_custom/custom-fonts";  

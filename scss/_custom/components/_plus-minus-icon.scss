@@ -2,24 +2,22 @@
 
     //The accordion is closed
     .plus-minus-icon:before {
-        font-family: "foundation-icons";
-        content: "\f199";
+        content: "\2b";
     }
 
     //The accordion is open
     .active .plus-minus-icon:before {
-        font-family: "foundation-icons";
-        content: "\f176"; 
-    }
+        content: "\2d"; 
+    } 
+}
 
-    .plus-minus-icon {
-        float: left;
-        margin-right: 10px;
-        margin-top: 2px;
-        font-weight: 100;
-        font-size: 0.75em;
-        color: #959595;
-        line-height: 1.7em;
-        padding-left: 5px;
-    }
+.plus-minus-icon {
+    float: left;
+    margin-right: 10px;
+    margin-top: -7px;
+    font-weight: 300;
+    color: #959595;
+    padding-left: 5px;
+    font-size: 18px;
+    line-height: 32px;
 }
