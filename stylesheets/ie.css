@@ -617,13 +617,13 @@ body {
     background-color: #79bdfe; }
 
 /* line 3, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
-.photoshop-lr-course-course {
+.photoshop-lr-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
-  .photoshop-lr-course-course .ps-lr-framed, .photoshop-lr-course-course .course-classrom, .photoshop-lr-course-course .pdf {
+  .photoshop-lr-course .ps-lr-framed, .photoshop-lr-course .course-classrom, .photoshop-lr-course .pdf {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-old-ie-styles.scss */
-  .photoshop-lr-course-course .book-now-btn {
+  .photoshop-lr-course .book-now-btn {
     background-color: #79bdfe; }
 
 /* Push up the custom training to compensate for no image */
