@@ -1384,5 +1384,5 @@ conversion-optimisation
   display: none !important; }
 
 /* line 2, ../scss/_custom/admin/_faq-old-ie-styles.scss */
-.cdt-calendar .accordion-navigation .content {
+.faq .accordion .accordion-navigation > .content, .faq .accordion dd > .content {
   display: block !important; }
