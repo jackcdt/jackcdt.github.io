@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">JavaScript Essentials</td>
-            <td>27 &amp; 28</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>5 &amp; 6</td>
-            <td>19 &amp; 20</td>
-            <td>7 &amp; 8 May</td>
+            <td>18 &amp; 19</td>
+            <td>&mdash;</td>
+            <td>15 &amp; 16</td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">jQuery Essentials</td>
-            <td>19 &amp; 20</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>26 &amp; 27</td>
             <td>&mdash;</td>
-            <td>15 &amp; 16</td>
+            <td>&mdash;</td>
+            <td>7 &amp; 8</td>
         </tr>
     </tbody>    
  </table>  

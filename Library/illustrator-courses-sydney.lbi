@@ -3,27 +3,26 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Illustrator Lite</td> 
-            <td>&mdash;</td>
             <td>1</td>
             <td>15</td>
             <td>23</td>
             <td>&mdash;</td>
             <td>1</td>
+            <td>4</td>
         </tr>
         <tr> 
             <td class="row-name">Illustrator Essentials</td> 
-            <td> 12 &amp; 13</td>
             <td> 1 &amp; 2<br>
               17 &amp; 18</td>
             <td> 15 &amp; 16</td>
@@ -32,15 +31,17 @@
             <td> 5 &amp; 6<br>
               23 &amp; 24</td>
             <td> 9 &amp; 10</td>
+            <td> 4 &amp; 5<br>
+              26 &amp; 27</td>
         </tr>
         <tr> 
             <td class="row-name">Illustrator Advanced</td>
-            <td>17 &amp; 18</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>16 &amp; 17</td>
             <td>&mdash;</td>
             <td>21 &amp; 22</td>
+            <td>&mdash;</td>
         </tr>
     </tbody>    
  </table>  

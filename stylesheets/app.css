@@ -5309,43 +5309,6 @@ th.hide-for-touch {
   /* line 404, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
-/*
- * Foundation Icons v 3.0
- * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
- * MIT License
- */
-@font-face {
-  font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.eot?1415583768');
-  src: url('../fonts/foundation-icons.eot?&1415583768#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1415583768') format("woff"), url('../fonts/foundation-icons.ttf?1415583768') format("truetype"), url('../fonts/foundation-icons.svg?1415583768#fontcustom') format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* line 18, ../scss/foundation-icons.scss */
-.fi-checkbox:before,
-.fi-minus:before,
-.fi-plus:before {
-  font-family: "foundation-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  text-decoration: inherit; }
-
-/* line 32, ../scss/foundation-icons.scss */
-.fi-checkbox:before {
-  content: "\f127"; }
-
-/* line 33, ../scss/foundation-icons.scss */
-.fi-minus:before {
-  content: "\f176"; }
-
-/* line 34, ../scss/foundation-icons.scss */
-.fi-plus:before {
-  content: "\f199"; }
-
 /* line 13, ../scss/_custom/_common.scss */
 body {
   font-family: Raleway, Helvetica, sans-serif; }
@@ -5406,7 +5369,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5420,7 +5383,7 @@ h4, .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3, .c
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span, .cdt-sitemap h2, .cdt-sitemap h2 a, .cdt-book .tabs-content h2 {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span, .cdt-sitemap h2, .cdt-sitemap h2 a, .cdt-book .tabs-content h2 {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -6991,6 +6954,17 @@ body {
   font-family: raleway;
   font-size: 13px; }
 
+/* line 14, ../scss/_custom/components/_plus-minus-icon.scss */
+.plus-minus-icon {
+  float: left;
+  margin-right: 10px;
+  margin-top: -7px;
+  font-weight: 300;
+  color: #959595;
+  padding-left: 5px;
+  font-size: 18px;
+  line-height: 32px; }
+
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
 /* line 112, header-footer/*.png */
 .header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
@@ -7776,22 +7750,10 @@ body {
   padding-bottom: 4px; }
 /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .plus-minus-icon:before {
-  font-family: "foundation-icons";
-  content: "\f199"; }
-/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+  content: "\2b"; }
+/* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .active .plus-minus-icon:before {
-  font-family: "foundation-icons";
-  content: "\f176"; }
-/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
-.cdt-calendar .tabs-content .accordion .plus-minus-icon {
-  float: left;
-  margin-right: 10px;
-  margin-top: 2px;
-  font-weight: 100;
-  font-size: 0.75em;
-  color: #959595;
-  line-height: 1.7em;
-  padding-left: 5px; }
+  content: "\2d"; }
 /* line 90, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive {
   border: none;
@@ -7931,7 +7893,7 @@ body {
   .cdt-calendar .training-checklist table thead, .cdt-calendar .training-checklist table tr.even, .cdt-calendar .training-checklist table tr.alt, .cdt-calendar .training-checklist table tr:nth-of-type(even) {
     background: #f3f9fd; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .cdt-calendar .training-checklist i {
+  .cdt-calendar .training-checklist .center-content {
     color: #2088D1; }
 
 /* line 2, ../scss/_custom/components/_testimonials-slider.scss */
@@ -8129,22 +8091,10 @@ body {
   margin-bottom: 24px; }
   /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
   .faq .accordion .plus-minus-icon:before {
-    font-family: "foundation-icons";
-    content: "\f199"; }
-  /* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+    content: "\2b"; }
+  /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
   .faq .accordion .active .plus-minus-icon:before {
-    font-family: "foundation-icons";
-    content: "\f176"; }
-  /* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
-  .faq .accordion .plus-minus-icon {
-    float: left;
-    margin-right: 10px;
-    margin-top: 2px;
-    font-weight: 100;
-    font-size: 0.75em;
-    color: #959595;
-    line-height: 1.7em;
-    padding-left: 5px; }
+    content: "\2d"; }
   /* line 96, ../scss/_custom/admin/_faq.scss */
   .faq .accordion .accordion-navigation > .content,
   .faq .accordion dd > .content {
@@ -8927,22 +8877,10 @@ a#catshopbuy:link, a#catshopbuy:visited {
   padding-bottom: 4px; }
 /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-book .tabs-content .accordion .plus-minus-icon:before {
-  font-family: "foundation-icons";
-  content: "\f199"; }
-/* line 10, ../scss/_custom/components/_plus-minus-icon.scss */
+  content: "\2b"; }
+/* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-book .tabs-content .accordion .active .plus-minus-icon:before {
-  font-family: "foundation-icons";
-  content: "\f176"; }
-/* line 15, ../scss/_custom/components/_plus-minus-icon.scss */
-.cdt-book .tabs-content .accordion .plus-minus-icon {
-  float: left;
-  margin-right: 10px;
-  margin-top: 2px;
-  font-weight: 100;
-  font-size: 0.75em;
-  color: #959595;
-  line-height: 1.7em;
-  padding-left: 5px; }
+  content: "\2d"; }
 
 /* line 2, ../scss/_custom/tips/_getting-started.scss */
 .adobe-getting-started h2 {

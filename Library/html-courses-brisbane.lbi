@@ -3,23 +3,23 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">HTML &amp; Web Principles</td> 
-            <td>17</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>9</td>
             <td>20</td>
-            <td>8 May</td>
+            <td>&mdash;</td>
+            <td>8</td>
         </tr>
     </tbody>    
  </table>  

@@ -5309,43 +5309,6 @@ th.hide-for-touch {
   /* line 404, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
-/*
- * Foundation Icons v 3.0
- * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
- * MIT License
- */
-@font-face {
-  font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.eot?1415583768');
-  src: url('../fonts/foundation-icons.eot?&1415583768#iefix') format("embedded-opentype"), url('../fonts/foundation-icons.woff?1415583768') format("woff"), url('../fonts/foundation-icons.ttf?1415583768') format("truetype"), url('../fonts/foundation-icons.svg?1415583768#fontcustom') format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* line 18, ../scss/foundation-icons.scss */
-.fi-checkbox:before,
-.fi-minus:before,
-.fi-plus:before {
-  font-family: "foundation-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  text-decoration: inherit; }
-
-/* line 32, ../scss/foundation-icons.scss */
-.fi-checkbox:before {
-  content: "\f127"; }
-
-/* line 33, ../scss/foundation-icons.scss */
-.fi-minus:before {
-  content: "\f176"; }
-
-/* line 34, ../scss/foundation-icons.scss */
-.fi-plus:before {
-  content: "\f199"; }
-
 /* line 13, ../scss/_custom/_common.scss */
 body {
   font-family: Raleway, Helvetica, sans-serif; }
@@ -5398,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5412,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -6983,6 +6946,17 @@ body {
   font-family: raleway;
   font-size: 13px; }
 
+/* line 14, ../scss/_custom/components/_plus-minus-icon.scss */
+.plus-minus-icon {
+  float: left;
+  margin-right: 10px;
+  margin-top: -7px;
+  font-weight: 300;
+  color: #959595;
+  padding-left: 5px;
+  font-size: 18px;
+  line-height: 32px; }
+
 /*http://blog.teamtreehouse.com/the-ecstasy-and-agony-of-compass-sprite-generation-part-1*/
 /* line 112, header-footer/*.png */
 .header-footer-sprite, .header-logos .cdt-logo, .header-logos .aatc-logo, .header-logos .book-now, .header-logos .years-in-business, .header-logos .footer-logos-1, .header-logos .footer-logos-2, .header-logos .footer-logos-3, .header-logos .footer-logos-4, .header-logos .footer-logos-5 {
@@ -7736,7 +7710,7 @@ body {
   .after-effects-category .training-checklist table thead, .after-effects-category .training-checklist table tr.even, .after-effects-category .training-checklist table tr.alt, .after-effects-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .after-effects-category .training-checklist i {
+  .after-effects-category .training-checklist .center-content {
     color: #b979fb; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .after-effects-category .paragraph-header {
@@ -8034,7 +8008,7 @@ body {
   .premiere-pro-category .training-checklist table thead, .premiere-pro-category .training-checklist table tr.even, .premiere-pro-category .training-checklist table tr.alt, .premiere-pro-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .premiere-pro-category .training-checklist i {
+  .premiere-pro-category .training-checklist .center-content {
     color: #d253fc; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .premiere-pro-category .paragraph-header {

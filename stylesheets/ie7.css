@@ -50,7 +50,22 @@
 /* line 11, ../scss/ie7.scss */
 .cdt-calendar #calendar-tab-1, .cdt-calendar #calendar-tab-2, .cdt-calendar #calendar-tab-3, .cdt-calendar #calendar-tab-4 {
   display: block !important; }
+/* line 15, ../scss/ie7.scss */
+.cdt-calendar .accordion-navigation .content {
+  display: block !important; }
 
-/* line 16, ../scss/ie7.scss */
+/* line 21, ../scss/ie7.scss */
+.faq .accordion .accordion-navigation > .content, .faq .accordion dd > .content {
+  display: block !important; }
+
+/* line 26, ../scss/ie7.scss */
 .cdt-custom-training .testimonials-slider {
   display: none !important; }
+
+/* line 31, ../scss/ie7.scss */
+.online-courses-category .accordion .accordion-navigation > .content, .online-courses-category .accordion dd > .content {
+  display: block !important; }
+
+/* line 37, ../scss/ie7.scss */
+.accordion-home .accordion .accordion-navigation > .content, .accordion-home .accordion dd > .content {
+  display: block !important; }

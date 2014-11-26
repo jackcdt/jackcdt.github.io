@@ -3,50 +3,50 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Captivate Essentials 8</td> 
-            <td>25 &amp; 26</td>
             <td>&mdash;</td>
             <td>14 &amp; 15</td>
             <td>11 &amp; 12</td>
             <td>26 &amp; 27</td>
             <td>22 &amp; 23</td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">Captivate Advanced 8</td>  
-            <td>&mdash;</td>
             <td>12</td>
             <td>16</td>
             <td>&mdash;</td>
             <td>6</td>
-            <td>1 May</td>
+            <td>&mdash;</td>
+            <td>1</td>
         </tr>
         <tr> 
             <td class="row-name">Captivate Essentials 7</td> 
-            <td>&mdash;</td>
             <td>2 &amp; 3</td>
             <td>&mdash;</td>
             <td>26 &amp; 27</td>
             <td>&mdash;</td>
-            <td>5 &amp; 6 May</td>
+            <td>&mdash;</td>
+            <td>5 &amp; 6</td>
         </tr>
         <tr> 
             <td class="row-name">Captivate Advanced 7</td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>22</td>
             <td>&mdash;</td>
             <td>9</td>
-            <td>13 May</td>
+            <td>&mdash;</td>
+            <td>13</td>
         </tr>
     </tbody>    
  </table>  

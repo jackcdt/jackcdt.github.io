@@ -3,31 +3,31 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Captivate Essentials 8</td> 
-            <td>24 &amp; 25</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>4 &amp; 5</td>
-            <td>4 &amp; 5 May</td>
+            <td>&mdash;</td>
+            <td>4 &amp; 5</td>
         </tr>
         <tr> 
             <td class="row-name">Captivate Advanced 8</td> 
             <td>&mdash;</td>
-            <td>3</td>
-            <td>&mdash;</td>
+            <td>15</td>
             <td>&mdash;</td>
             <td>6</td>
+            <td>&mdash;</td>
             <td>3 Jul</td>
         </tr>
         <tr> 

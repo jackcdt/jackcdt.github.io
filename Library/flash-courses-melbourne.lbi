@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
@@ -16,19 +16,23 @@
             <td class="row-name">Flash Web Banners</td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>19</td>
             <td>&mdash;</td>
             <td>20</td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">Flash Essentials Courses</td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>19 &amp; 20</td>
             <td>&mdash;</td>
             <td>20 &amp; 21</td>
+            <td>&mdash;</td>
+        </tr>
+        <tr> 
+            <td class="row-name">Flash ActionScript</td> 
+            <td colspan="6" rowspan="3">Private training can be organised.</td>
         </tr>
     </tbody>    
  </table>  

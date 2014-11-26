@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Edge Animate Introduction</td> 
-            <td>24</td>
-            <td>&mdash;</td>
+            <td>2</td>
             <td>21</td>
             <td>&mdash;</td>
             <td>2</td>
             <td>13</td>
+            <td>19</td>
         </tr>
         <tr> 
             <td class="row-name">Edge Animate Advanced</td> 
-            <td>25</td>
             <td>&mdash;</td>
             <td>22</td>
             <td>&mdash;</td>
             <td>18</td>
             <td>&mdash;</td>
+            <td>20</td>
         </tr>
     </tbody>    
  </table>  

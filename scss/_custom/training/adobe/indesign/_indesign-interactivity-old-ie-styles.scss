@@ -1,10 +1,10 @@
 @import "_custom/common";
 
 .indesign-interactivity-course {
-
+ 
     /* Hide all sprites */
     .course-classrom, .pdf, .indesign-cc-cs6, .custom-training, .id-advanced,
-    .id-interactivity, id-ipad {
+    .id-interactivity, .id-ipad {
         display: none !important;
     }
 

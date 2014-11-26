@@ -27,7 +27,7 @@ To support REMs, use the REM-unit-polyfill
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>XX Courses | City Desktop Traininig</title>
+        <title>XX Courses | City Desktop Training</title>
         
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -595,35 +595,35 @@ To support REMs, use the REM-unit-polyfill
                                     <tbody> 
                                         <tr>
                                             <td>Email AND Telephone Support</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Free Course Resit </td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Adobe Authorised AATC Certificate</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Small Classes</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Choice of Mac or Windows</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>We supply the computers<br/><span class="note">(but if you want to bring your laptop, you can!)</span></td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Adobe Certified Instructors</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                         <tr>
                                             <td>Courseware to take away</td>
-                                            <td class="center-content"><i class="fi-checkbox"></i></td>
+                                            <td class="center-content">&#9745;</td>
                                         </tr>                            
                                     </tbody> 
                                 </table>

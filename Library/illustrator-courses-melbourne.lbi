@@ -3,43 +3,45 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Illustrator Lite</td> 
-            <td>20</td>
             <td>8</td>
             <td>13</td>
             <td>3<br>
               26</td>
             <td>16</td>
             <td>16</td>
+            <td>4<br>
+              26</td>
         </tr>
         <tr> 
             <td class="row-name">Illustrator Essentials</td> 
-            <td>20 &amp; 21</td>
             <td>8 &amp; 9</td>
             <td>13 &amp; 14</td>
             <td>3 &amp; 4<br>
               26 &amp; 27</td>
             <td>16 &amp; 17</td>
             <td>16 &amp; 17</td>
-        </tr>
+             <td>4 &amp; 5<br>
+              26 &amp; 27</td>
+       </tr>
         <tr> 
             <td class="row-name">Illustrator Advanced</td>
-            <td>&mdash;</td>
             <td>15 &amp; 16</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>30 &amp; 31</td>
-            <td>19 &amp; 20 May</td>
+            <td>&mdash;</td>
+            <td>19 &amp; 20</td>
         </tr>
     </tbody>    
  </table>  

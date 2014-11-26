@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">Acrobat Essentials</td> 
-			<td>24</td>
 			<td>&mdash;</td>
 			<td>&mdash;</td>
 			<td>12</td>
 			<td>30</td>
-			<td>11 May</td>
+			<td>&mdash;</td>
+			<td>11</td>
         </tr>
         <tr> 
             <td class="row-name">Acrobat Forms</td> 
-			<td>25</td>
 			<td>&mdash;</td>
 			<td>&mdash;</td>
 			<td>13</td>
 			<td>20</td>
-			<td>12 May</td>
+			<td>&mdash;</td>
+			<td>12</td>
         </tr>
     </tbody>    
  </table>  

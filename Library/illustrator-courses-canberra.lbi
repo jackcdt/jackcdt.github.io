@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>CANBERRA</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
@@ -17,8 +17,8 @@
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&#8212;</td>
-            <td>2</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
         <tr> 
