@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .photoshop-category .paragraph-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial span, .photoshop-essentials-course .paragraph-header, .photoshop-essentials-course .testimonials .testimonials-title, .photoshop-essentials-course .testimonials .category-testimonial span, .photoshop-advanced-course .paragraph-header, .photoshop-advanced-course .testimonials .testimonials-title, .photoshop-advanced-course .testimonials .category-testimonial span, .photoshop-lite-course .paragraph-header, .photoshop-lite-course .testimonials .testimonials-title, .photoshop-lite-course .testimonials .category-testimonial span, .photoshop-web-course .paragraph-header, .photoshop-web-course .testimonials .testimonials-title, .photoshop-web-course .testimonials .category-testimonial span, .photoshop-lr-course .paragraph-header, .photoshop-lr-course .testimonials .testimonials-title, .photoshop-lr-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .photoshop-category .paragraph-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial span, .photoshop-essentials-course .paragraph-header, .photoshop-essentials-course .testimonials .testimonials-title, .photoshop-essentials-course .testimonials .category-testimonial span, .photoshop-advanced-course .paragraph-header, .photoshop-advanced-course .testimonials .testimonials-title, .photoshop-advanced-course .testimonials .category-testimonial span, .photoshop-lite-course .paragraph-header, .photoshop-lite-course .testimonials .testimonials-title, .photoshop-lite-course .testimonials .category-testimonial span, .photoshop-web-course .paragraph-header, .photoshop-web-course .testimonials .testimonials-title, .photoshop-web-course .testimonials .category-testimonial span, .photoshop-lr-course .paragraph-header, .photoshop-lr-course .testimonials .testimonials-title, .photoshop-lr-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .photoshop-category .training-checklist table thead, .photoshop-category .training-checklist table tr.even, .photoshop-category .training-checklist table tr.alt, .photoshop-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .photoshop-category .training-checklist i {
+  .photoshop-category .training-checklist .center-content {
     color: #79bdfe; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .photoshop-category .paragraph-header {

@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .html-css-category .paragraph-header, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial span, .html-web-principles-course .paragraph-header, .html-web-principles-course .testimonials .testimonials-title, .html-web-principles-course .testimonials .category-testimonial span, .css-essentials-course .paragraph-header, .css-essentials-course .testimonials .testimonials-title, .css-essentials-course .testimonials .category-testimonial span, .html-responsive-course .paragraph-header, .html-responsive-course .testimonials .testimonials-title, .html-responsive-course .testimonials .category-testimonial span, .html5-css3-course .paragraph-header, .html5-css3-course .testimonials .testimonials-title, .html5-css3-course .testimonials .category-testimonial span, .javascript-jquery-category .paragraph-header, .javascript-jquery-category .testimonials .testimonials-title, .javascript-jquery-category .testimonials .category-testimonial span, .javascript-essentials-course .paragraph-header, .javascript-essentials-course .testimonials .testimonials-title, .javascript-essentials-course .testimonials .category-testimonial span, .jquery-essentials-course .paragraph-header, .jquery-essentials-course .testimonials .testimonials-title, .jquery-essentials-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .html-css-category .paragraph-header, .html-css-category .testimonials .testimonials-title, .html-css-category .testimonials .category-testimonial span, .html-web-principles-course .paragraph-header, .html-web-principles-course .testimonials .testimonials-title, .html-web-principles-course .testimonials .category-testimonial span, .css-essentials-course .paragraph-header, .css-essentials-course .testimonials .testimonials-title, .css-essentials-course .testimonials .category-testimonial span, .html-responsive-course .paragraph-header, .html-responsive-course .testimonials .testimonials-title, .html-responsive-course .testimonials .category-testimonial span, .html5-css3-course .paragraph-header, .html5-css3-course .testimonials .testimonials-title, .html5-css3-course .testimonials .category-testimonial span, .javascript-jquery-category .paragraph-header, .javascript-jquery-category .testimonials .testimonials-title, .javascript-jquery-category .testimonials .category-testimonial span, .javascript-essentials-course .paragraph-header, .javascript-essentials-course .testimonials .testimonials-title, .javascript-essentials-course .testimonials .category-testimonial span, .jquery-essentials-course .paragraph-header, .jquery-essentials-course .testimonials .testimonials-title, .jquery-essentials-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .html-css-category .training-checklist table thead, .html-css-category .training-checklist table tr.even, .html-css-category .training-checklist table tr.alt, .html-css-category .training-checklist table tr:nth-of-type(even) {
     background: #75bdf9; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .html-css-category .training-checklist i {
+  .html-css-category .training-checklist .center-content {
     color: #053c6a; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .html-css-category .paragraph-header {
@@ -8205,7 +8205,7 @@ body {
   .javascript-jquery-category .training-checklist table thead, .javascript-jquery-category .training-checklist table tr.even, .javascript-jquery-category .training-checklist table tr.alt, .javascript-jquery-category .training-checklist table tr:nth-of-type(even) {
     background: #e9eaeb; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .javascript-jquery-category .training-checklist i {
+  .javascript-jquery-category .training-checklist .center-content {
     color: #656C70; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .javascript-jquery-category .paragraph-header {

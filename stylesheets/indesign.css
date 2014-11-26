@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .indesign-category .paragraph-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-essentials-course .paragraph-header, .indesign-essentials-course .testimonials .testimonials-title, .indesign-essentials-course .testimonials .category-testimonial span, .indesign-advanced-course .paragraph-header, .indesign-advanced-course .testimonials .testimonials-title, .indesign-advanced-course .testimonials .category-testimonial span, .indesign-lite-course .paragraph-header, .indesign-lite-course .testimonials .testimonials-title, .indesign-lite-course .testimonials .category-testimonial span, .indesign-long-docs-course .paragraph-header, .indesign-long-docs-course .testimonials .testimonials-title, .indesign-long-docs-course .testimonials .category-testimonial span, .indesign-interactivity-course .paragraph-header, .indesign-interactivity-course .testimonials .testimonials-title, .indesign-interactivity-course .testimonials .category-testimonial span, .indesign-accessibility-course .paragraph-header, .indesign-accessibility-course .testimonials .testimonials-title, .indesign-accessibility-course .testimonials .category-testimonial span, .digital-publishing-category .paragraph-header, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial span, .indesign-to-ipad-course .paragraph-header, .indesign-to-ipad-course .testimonials .testimonials-title, .indesign-to-ipad-course .testimonials .category-testimonial span, .dps-single-app-course .paragraph-header, .dps-single-app-course .testimonials .testimonials-title, .dps-single-app-course .testimonials .category-testimonial span, .dps-pro-app-course .paragraph-header, .dps-pro-app-course .testimonials .testimonials-title, .dps-pro-app-course .testimonials .category-testimonial span, .indesign-to-ebook-course .paragraph-header, .indesign-to-ebook-course .testimonials .testimonials-title, .indesign-to-ebook-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .indesign-category .paragraph-header, .indesign-category .testimonials .testimonials-title, .indesign-category .testimonials .category-testimonial span, .indesign-essentials-course .paragraph-header, .indesign-essentials-course .testimonials .testimonials-title, .indesign-essentials-course .testimonials .category-testimonial span, .indesign-advanced-course .paragraph-header, .indesign-advanced-course .testimonials .testimonials-title, .indesign-advanced-course .testimonials .category-testimonial span, .indesign-lite-course .paragraph-header, .indesign-lite-course .testimonials .testimonials-title, .indesign-lite-course .testimonials .category-testimonial span, .indesign-long-docs-course .paragraph-header, .indesign-long-docs-course .testimonials .testimonials-title, .indesign-long-docs-course .testimonials .category-testimonial span, .indesign-interactivity-course .paragraph-header, .indesign-interactivity-course .testimonials .testimonials-title, .indesign-interactivity-course .testimonials .category-testimonial span, .indesign-accessibility-course .paragraph-header, .indesign-accessibility-course .testimonials .testimonials-title, .indesign-accessibility-course .testimonials .category-testimonial span, .digital-publishing-category .paragraph-header, .digital-publishing-category .testimonials .testimonials-title, .digital-publishing-category .testimonials .category-testimonial span, .indesign-to-ipad-course .paragraph-header, .indesign-to-ipad-course .testimonials .testimonials-title, .indesign-to-ipad-course .testimonials .category-testimonial span, .dps-single-app-course .paragraph-header, .dps-single-app-course .testimonials .testimonials-title, .dps-single-app-course .testimonials .category-testimonial span, .dps-pro-app-course .paragraph-header, .dps-pro-app-course .testimonials .testimonials-title, .dps-pro-app-course .testimonials .category-testimonial span, .indesign-to-ebook-course .paragraph-header, .indesign-to-ebook-course .testimonials .testimonials-title, .indesign-to-ebook-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .indesign-category .training-checklist table thead, .indesign-category .training-checklist table tr.even, .indesign-category .training-checklist table tr.alt, .indesign-category .training-checklist table tr:nth-of-type(even) {
     background: #fcf1f7; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .indesign-category .training-checklist i {
+  .indesign-category .training-checklist .center-content {
     color: #C42A7C; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .indesign-category .paragraph-header {
@@ -8379,7 +8379,7 @@ body {
   .digital-publishing-category .training-checklist table thead, .digital-publishing-category .training-checklist table tr.even, .digital-publishing-category .training-checklist table tr.alt, .digital-publishing-category .training-checklist table tr:nth-of-type(even) {
     background: #fcf1f7; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .digital-publishing-category .training-checklist i {
+  .digital-publishing-category .training-checklist .center-content {
     color: #C42A7C; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .digital-publishing-category .paragraph-header {

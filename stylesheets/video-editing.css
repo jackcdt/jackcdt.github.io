@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .after-effects-category .training-checklist table thead, .after-effects-category .training-checklist table tr.even, .after-effects-category .training-checklist table tr.alt, .after-effects-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .after-effects-category .training-checklist i {
+  .after-effects-category .training-checklist .center-content {
     color: #b979fb; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .after-effects-category .paragraph-header {
@@ -8008,7 +8008,7 @@ body {
   .premiere-pro-category .training-checklist table thead, .premiere-pro-category .training-checklist table tr.even, .premiere-pro-category .training-checklist table tr.alt, .premiere-pro-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .premiere-pro-category .training-checklist i {
+  .premiere-pro-category .training-checklist .center-content {
     color: #d253fc; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .premiere-pro-category .paragraph-header {

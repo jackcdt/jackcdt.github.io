@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .captivate-category .paragraph-header, .captivate-category .testimonials .testimonials-title, .captivate-category .testimonials .category-testimonial span, .captivate-essentials-course .paragraph-header, .captivate-essentials-course .testimonials .testimonials-title, .captivate-essentials-course .testimonials .category-testimonial span, .captivate-advanced-course .paragraph-header, .captivate-advanced-course .testimonials .testimonials-title, .captivate-advanced-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .captivate-category .paragraph-header, .captivate-category .testimonials .testimonials-title, .captivate-category .testimonials .category-testimonial span, .captivate-essentials-course .paragraph-header, .captivate-essentials-course .testimonials .testimonials-title, .captivate-essentials-course .testimonials .category-testimonial span, .captivate-advanced-course .paragraph-header, .captivate-advanced-course .testimonials .testimonials-title, .captivate-advanced-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .captivate-category .training-checklist table thead, .captivate-category .training-checklist table tr.even, .captivate-category .training-checklist table tr.alt, .captivate-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .captivate-category .training-checklist i {
+  .captivate-category .training-checklist .center-content {
     color: #3ac69d; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .captivate-category .paragraph-header {

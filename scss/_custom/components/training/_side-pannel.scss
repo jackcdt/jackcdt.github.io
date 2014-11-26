@@ -8,14 +8,14 @@
     .training-checklist-header {
         color: $color;
      }
-
+ 
     table {
         thead, tr.even, tr.alt, tr:nth-of-type(even) {
             background: lighten($color, 50%);
         }
     }
 
-    i {
+    .center-content {
         color: $color;
     }
 }

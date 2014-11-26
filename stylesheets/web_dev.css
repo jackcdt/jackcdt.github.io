@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .dreamweaver-category .paragraph-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial span, .dreamweaver-essentials-course .paragraph-header, .dreamweaver-essentials-course .testimonials .testimonials-title, .dreamweaver-essentials-course .testimonials .category-testimonial span, .muse-essentials-course .paragraph-header, .muse-essentials-course .testimonials .testimonials-title, .muse-essentials-course .testimonials .category-testimonial span, .wordpress-category .paragraph-header, .wordpress-category .testimonials .testimonials-title, .wordpress-category .testimonials .category-testimonial span, .wordpress-essentials-course .paragraph-header, .wordpress-essentials-course .testimonials .testimonials-title, .wordpress-essentials-course .testimonials .category-testimonial span, .wordpress-advanced-course .paragraph-header, .wordpress-advanced-course .testimonials .testimonials-title, .wordpress-advanced-course .testimonials .category-testimonial span, .edge-animate-category .paragraph-header, .edge-animate-category .testimonials .testimonials-title, .edge-animate-category .testimonials .category-testimonial span, .edge-animate-essentials-course .paragraph-header, .edge-animate-essentials-course .testimonials .testimonials-title, .edge-animate-essentials-course .testimonials .category-testimonial span, .edge-animate-advanced-course .paragraph-header, .edge-animate-advanced-course .testimonials .testimonials-title, .edge-animate-advanced-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .dreamweaver-category .paragraph-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial span, .dreamweaver-essentials-course .paragraph-header, .dreamweaver-essentials-course .testimonials .testimonials-title, .dreamweaver-essentials-course .testimonials .category-testimonial span, .muse-essentials-course .paragraph-header, .muse-essentials-course .testimonials .testimonials-title, .muse-essentials-course .testimonials .category-testimonial span, .wordpress-category .paragraph-header, .wordpress-category .testimonials .testimonials-title, .wordpress-category .testimonials .category-testimonial span, .wordpress-essentials-course .paragraph-header, .wordpress-essentials-course .testimonials .testimonials-title, .wordpress-essentials-course .testimonials .category-testimonial span, .wordpress-advanced-course .paragraph-header, .wordpress-advanced-course .testimonials .testimonials-title, .wordpress-advanced-course .testimonials .category-testimonial span, .edge-animate-category .paragraph-header, .edge-animate-category .testimonials .testimonials-title, .edge-animate-category .testimonials .category-testimonial span, .edge-animate-essentials-course .paragraph-header, .edge-animate-essentials-course .testimonials .testimonials-title, .edge-animate-essentials-course .testimonials .category-testimonial span, .edge-animate-advanced-course .paragraph-header, .edge-animate-advanced-course .testimonials .testimonials-title, .edge-animate-advanced-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .dreamweaver-category .training-checklist table thead, .dreamweaver-category .training-checklist table tr.even, .dreamweaver-category .training-checklist table tr.alt, .dreamweaver-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .dreamweaver-category .training-checklist i {
+  .dreamweaver-category .training-checklist .center-content {
     color: #81D629; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .dreamweaver-category .paragraph-header {
@@ -8016,7 +8016,7 @@ body {
   .wordpress-category .training-checklist table thead, .wordpress-category .training-checklist table tr.even, .wordpress-category .training-checklist table tr.alt, .wordpress-category .training-checklist table tr:nth-of-type(even) {
     background: #c4edf3; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .wordpress-category .training-checklist i {
+  .wordpress-category .training-checklist .center-content {
     color: #1e8a9a; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .wordpress-category .paragraph-header {
@@ -8315,7 +8315,7 @@ body {
   .edge-animate-category .training-checklist table thead, .edge-animate-category .training-checklist table tr.even, .edge-animate-category .training-checklist table tr.alt, .edge-animate-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .edge-animate-category .training-checklist i {
+  .edge-animate-category .training-checklist .center-content {
     color: #9d8bff; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .edge-animate-category .paragraph-header {

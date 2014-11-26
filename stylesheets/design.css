@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial span, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial span, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .illustrator-category .training-checklist table thead, .illustrator-category .training-checklist table tr.even, .illustrator-category .training-checklist table tr.alt, .illustrator-category .training-checklist table tr:nth-of-type(even) {
     background: #fffefc; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .illustrator-category .training-checklist i {
+  .illustrator-category .training-checklist .center-content {
     color: #fa9a02; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .illustrator-category .paragraph-header {
@@ -8100,7 +8100,7 @@ body {
   .acrobat-category .training-checklist table thead, .acrobat-category .training-checklist table tr.even, .acrobat-category .training-checklist table tr.alt, .acrobat-category .training-checklist table tr:nth-of-type(even) {
     background: #fffefe; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .acrobat-category .training-checklist i {
+  .acrobat-category .training-checklist .center-content {
     color: #d82631; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .acrobat-category .paragraph-header {
@@ -8409,7 +8409,7 @@ body {
   .flash-category .training-checklist table thead, .flash-category .training-checklist table tr.even, .flash-category .training-checklist table tr.alt, .flash-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .flash-category .training-checklist i {
+  .flash-category .training-checklist .center-content {
     color: #fa1a20; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .flash-category .paragraph-header {

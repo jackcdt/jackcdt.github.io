@@ -5369,7 +5369,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5383,7 +5383,7 @@ h4, .seminars-ad .seminars-ad-title, .cdt-calendar .tabs-content h3, .faq h3, .c
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span, .cdt-sitemap h2, .cdt-sitemap h2 a, .cdt-book .tabs-content h2 {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .faq .testimonials .testimonials-title, .faq .testimonials .category-testimonial span, .cdt-sitemap h2, .cdt-sitemap h2 a, .cdt-book .tabs-content h2 {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7893,7 +7893,7 @@ body {
   .cdt-calendar .training-checklist table thead, .cdt-calendar .training-checklist table tr.even, .cdt-calendar .training-checklist table tr.alt, .cdt-calendar .training-checklist table tr:nth-of-type(even) {
     background: #f3f9fd; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .cdt-calendar .training-checklist i {
+  .cdt-calendar .training-checklist .center-content {
     color: #2088D1; }
 
 /* line 2, ../scss/_custom/components/_testimonials-slider.scss */

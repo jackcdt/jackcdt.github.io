@@ -5361,7 +5361,7 @@ html {
   font-weight: 200; }
 
 /* line 51, ../scss/_custom/_custom-fonts.scss */
-.training-checklist i {
+.training-checklist .center-content {
   font-weight: 100; }
 
 /* line 81, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist i, .course-outline .paragraph-header-def-color, .business-tools-category .paragraph-header, .business-tools-category .testimonials .testimonials-title, .business-tools-category .testimonials .category-testimonial span, .google-analytics-course .paragraph-header, .google-analytics-course .testimonials .testimonials-title, .google-analytics-course .testimonials .category-testimonial span, .linkedin-course .paragraph-header, .linkedin-course .testimonials .testimonials-title, .linkedin-course .testimonials .category-testimonial span, .seo-essentials-course .paragraph-header, .seo-essentials-course .testimonials .testimonials-title, .seo-essentials-course .testimonials .category-testimonial span, .online-courses-category .paragraph-header, .online-courses-category .testimonials .testimonials-title, .online-courses-category .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .business-tools-category .paragraph-header, .business-tools-category .testimonials .testimonials-title, .business-tools-category .testimonials .category-testimonial span, .google-analytics-course .paragraph-header, .google-analytics-course .testimonials .testimonials-title, .google-analytics-course .testimonials .category-testimonial span, .linkedin-course .paragraph-header, .linkedin-course .testimonials .testimonials-title, .linkedin-course .testimonials .category-testimonial span, .seo-essentials-course .paragraph-header, .seo-essentials-course .testimonials .testimonials-title, .seo-essentials-course .testimonials .category-testimonial span, .online-courses-category .paragraph-header, .online-courses-category .testimonials .testimonials-title, .online-courses-category .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7710,7 +7710,7 @@ body {
   .business-tools-category .training-checklist table thead, .business-tools-category .training-checklist table tr.even, .business-tools-category .training-checklist table tr.alt, .business-tools-category .training-checklist table tr:nth-of-type(even) {
     background: white; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .business-tools-category .training-checklist i {
+  .business-tools-category .training-checklist .center-content {
     color: #f06f2a; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .business-tools-category .paragraph-header {
@@ -8129,7 +8129,7 @@ body {
   .online-courses-category .training-checklist table thead, .online-courses-category .training-checklist table tr.even, .online-courses-category .training-checklist table tr.alt, .online-courses-category .training-checklist table tr:nth-of-type(even) {
     background: #f3f9fd; }
   /* line 18, ../scss/_custom/components/training/_side-pannel.scss */
-  .online-courses-category .training-checklist i {
+  .online-courses-category .training-checklist .center-content {
     color: #2088D1; }
 /* line 31, ../scss/_custom/components/training/_category.scss */
 .online-courses-category .paragraph-header {
