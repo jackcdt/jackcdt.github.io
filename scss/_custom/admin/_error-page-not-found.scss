@@ -1,0 +1,35 @@
+$error-color: #04acfb; 
+
+.page-not-found {
+    h1 {
+        @include adjust-font-size-to(3em, 1);
+        line-height: 1.5em;
+
+        color: $error-color;
+        text-align: center;
+    }
+
+    p {
+        color: $error-color;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .page-content {
+
+        h2 {
+            margin-top: 16px;
+            color: $error-color;
+        }
+
+        li {
+            font-size: .85em;
+            list-style: none;
+            padding: 4px;
+        }
+
+        a, a:hover, a:focus {
+            color: $error-color;
+        }
+    }
+}

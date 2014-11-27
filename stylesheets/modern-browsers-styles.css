@@ -9406,6 +9406,25 @@ body {
   max-height: 46px;
   margin-top: -2px; }
 
+/* line 48, admin/error-page-not-found/*.png */
+.error-page-not-found-sprite, .page-not-found .jack-image {
+  background-image: url('../images-dist/admin/error-page-not-found-s6947e1e8e7.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/admin/_error-page-not-found-add-styles.scss */
+.page-not-found .jack-image {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 121.55689%;
+  background-size: 100%;
+  background-position: 0 NaN%;
+  margin-top: 24px; }
+
 /* line 288, shopping-cart/book/*.png */
 .book-sprite, .cdt-book .acrobat-essentials, .cdt-book .ae-essentials, .cdt-book .custom-training-logo, .cdt-book .book-and-pay-later, .cdt-book .book-and-pay-now, .cdt-book .booking-step-1, .cdt-book .cp-ess, .cdt-book .dw-essentials, .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials, .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials, .cdt-book .id-interactivity, .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials, .cdt-book .pr-essentials, .cdt-book .ps-essentials, .cdt-book .seo-ess, .cdt-book .wp-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web, .cdt-book .diag-dps-logo {
   background-image: url('../images-dist/shopping-cart/book-s0ad026cb3e.png');
