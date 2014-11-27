@@ -11,8 +11,30 @@
     #calendar-tab-1, #calendar-tab-2, #calendar-tab-3, #calendar-tab-4{
         display: block !important;
     }
+
+    .accordion-navigation .content {
+        display: block !important;
+    }
+}
+
+.faq {
+    .accordion .accordion-navigation>.content, .accordion dd>.content {
+        display: block !important;
+    }
 }
 
 .cdt-custom-training .testimonials-slider {
     display: none !important;
+}
+
+.online-courses-category {
+    .accordion .accordion-navigation>.content, .accordion dd>.content {
+        display: block !important;
+    }
+}
+
+.accordion-home { 
+    .accordion .accordion-navigation>.content, .accordion dd>.content {
+        display: block !important;
+    }
 }

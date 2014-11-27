@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
@@ -41,7 +41,7 @@
         <tr> 
             <td class="row-name">Photoshop for Web</td>
             <td>&mdash;</td>
-            <td>1</td>
+            <td>&mdash;</td>
             <td>23</td>
             <td>&mdash;</td>
             <td>11</td>

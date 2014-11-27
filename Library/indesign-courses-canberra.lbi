@@ -3,30 +3,30 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>CANBERRA</strong></th> 
-            <th>Nov</th> 
             <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
-            <th>Apr</th>  
+            <th>Apr</th> 
+            <th>May</th>  
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name">InDesign Lite</td>
-            <td>27</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>9</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Essentials</td>
-            <td>27 &amp; 28</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>9 &amp; 10</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
