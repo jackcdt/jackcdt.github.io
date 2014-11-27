@@ -14,8 +14,7 @@
     <tbody> 
         <tr> 
             <td class="row-name">InDesign Lite</td>
-            <td>18</td>
-            <td>10</td>
+             <td>10</td>
             <td>13<br>
               21</td>
             <td>2<br>
@@ -24,10 +23,11 @@
               23</td>
             <td>14<br>
               29</td>
+            <td>11<br>
+              26</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Essentials</td>
-            <td>18 &amp; 19</td>
             <td>10 &amp; 11<br></td>
             <td>13 &amp; 14<br>
               21 &amp; 22</td>
@@ -37,14 +37,16 @@
               23 &amp; 24</td>
             <td>14 &amp; 15<br>
               29 &amp; 30</td>
+            <td>11 &amp; 12<br>
+              26 &amp; 27</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Advanced</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>30 &amp; 31</td>
+            <td>&mdash;</td>
             <td>29 &amp; 30 Jun</td>
         </tr>
         <tr> 

@@ -14,17 +14,15 @@
     <tbody> 
         <tr> 
             <td class="row-name">InDesign Lite</td>
-            <td>24</td>
             <td>17</td>
             <td>12</td>
             <td>11</td>
             <td>16</td>
             <td>14</td>
+            <td>11</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Essentials</td>
-            <td>10 &amp; 11<br>
-              24 &amp; 25</td>
             <td>3 &amp; 4<br>
               8 &amp; 9<br>
               17 &amp; 18</td>
@@ -43,24 +41,26 @@
               14 &amp; 15<br>
               20 &amp; 21<br>
               29 &amp; 30</td>
+            <td>11 &amp; 12<br>
+              21 &amp; 22</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Advanced</td>
-            <td>&mdash;</td>
             <td>10 &amp; 11</td>
             <td>&mdash;</td>
             <td>18 &amp; 19</td>
             <td>24 &amp; 25</td>
-            <td>13 &amp; 14 May</td>
+            <td>&mdash;</td>
+            <td>13 &amp; 14</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Long Documents</td>
-            <td>&mdash;</td>
             <td>10</td>
             <td>&mdash;</td>
             <td>18</td>
             <td>24</td>
-            <td>13 May</td>
+            <td>&mdash;</td>
+            <td>13</td>
         </tr>
         <tr> 
             <td class="row-name">eBooks: Creating ePubs</td>
@@ -75,10 +75,10 @@
             <td class="row-name">Adobe DPS Content Creation</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>2 &amp; 3</td>
             <td>12 &amp; 13</td>
             <td>27 &amp; 28</td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">DPS Single Edition or Professional App Publishing</td>
@@ -86,22 +86,22 @@
         </tr>
         <tr> 
             <td class="row-name">InDesign Interactive PDFs</td>
-            <td>28</td>
-            <td>&mdash;</td>
+            <td>28 Nov</td>
             <td>&mdash;</td>
             <td>20</td>
             <td>&mdash;</td>
             <td>1</td>
+            <td>25</td>
         </tr>
         <tr> 
             <td class="row-name">InDesign Accessibility<br>
             <em>(1 – 4.30pm)</em></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td>23</td>
             <td>&mdash;</td>
             <td>22</td>
+            <td>&mdash;</td>
         </tr>
     </tbody>    
  </table>  

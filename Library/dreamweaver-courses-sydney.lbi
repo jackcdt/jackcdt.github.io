@@ -14,31 +14,32 @@
     <tbody> 
         <tr> 
             <td class="row-name">HTML &amp; Web Principles</td> 
-            <td>13</td>
             <td>9</td>
             <td>9<br>
               28</td>
-            <td>19</td>
+            <td>&mdash;</td>
             <td>4</td>
             <td>17</td>
+            <td>6<br>
+              27</td>
         </tr>
         <tr> 
             <td class="row-name">Dreamweaver Essentials</td> 
-            <td>&mdash;</td>
             <td>10 &amp; 11</td>
             <td>19 &amp; 20</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>28 &amp; 29 May</td>
-        </tr>
+            <td>&mdash;</td>
+        </tr> 
         <tr> 
             <td class="row-name">CSS Essentials</td> 
-            <td>&mdash;</td>
             <td>15 &amp; 16</td>
             <td>29 &amp; 30</td>
             <td>&mdash;</td>
             <td>5 &amp; 6</td>
             <td>23 &amp; 24</td>
+            <td>&mdash;</td>
         </tr>
     </tbody>    
  </table>  

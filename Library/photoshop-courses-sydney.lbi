@@ -14,17 +14,16 @@
     <tbody> 
         <tr> 
             <td class="row-name">Photoshop Lite</td>
-            <td>24</td>
             <td>17</td>
             <td>16</td>
             <td>5</td>
             <td>2<br>
               30</td>
             <td>28</td>
+            <td>27</td>
         </tr>
         <tr> 
             <td class="row-name">Photoshop Essentials</td>
-            <td>17 &amp; 18</td>
             <td>8 &amp; 9<br>
               17 &amp; 18</td>
             <td>6 &amp; 7<br>
@@ -38,24 +37,26 @@
               30 &amp; 31</td>
             <td>16 &amp; 17<br>
               29 &amp; 30</td>
+            <td>18 &amp; 19<br>
+              27 &amp; 28</td>
         </tr>
         <tr> 
             <td class="row-name">Photoshop for Web</td>
-            <td>&mdash;</td>
             <td>10</td>
             <td>&mdash;</td>
             <td>4</td>
-            <td>9</td>
+            <td>2</td>
             <td>13</td>
-        </tr>
+            <td>13</td>
+        </tr> 
         <tr> 
             <td class="row-name">Photoshop Advanced</td>
-            <td>&mdash;</td>
             <td>4 &amp; 5</td>
             <td>&mdash;</td>
             <td>2 &amp; 3</td>
             <td>12 &amp; 13</td>
             <td>23 &amp; 24</td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">Photoshop Lightroom</td>
