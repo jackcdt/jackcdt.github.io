@@ -92,6 +92,10 @@ module.exports = function(grunt) {
             remJs: {
                 src: 'js/rem.min.js',
                 dest: 'build/js/rem.min.js',
+            },
+            templateDwt: {
+                src: 'Templates/Main Template.dwt',
+                dest: 'build/Templates/Main Template.dwt',
             }
         },
         cssmin: {

@@ -1,0 +1,20 @@
+@import "_custom/responsive-sprite";
+ 
+// Create sprite using Compass 
+@import "compass/utilities/sprites"; 
+ 
+// Required for correct operation, must be named same as the sprite
+$custom-training-spacing: 40px; 
+ 
+@import "admin/error-page-not-found/*.png";  
+ 
+// Sprites should be declared in the same order they are on the disk?
+.page-not-found { 
+    $map: $error-page-not-found-sprites; 
+
+    .jack-image { 
+        @include error-page-not-found-sprite(jack-image); 
+        @include responsive-sprite($map, jack-image, 100%);
+        margin-top: 24px;
+    } 
+}
