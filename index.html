@@ -530,7 +530,7 @@ To support REMs, use the REM-unit-polyfill
         <div class="why-train-bg show-for-medium-up">
             <div class="row train-with-us">
                 <div class="small-12 columns">
-                    <h3>Why train with us?</h3>
+                    <h3>Why train with us</h3>
                 </div>
                 <div class="why-train-intro-text">
                     <div class="why-train-block-left medium-5 columns">
@@ -561,7 +561,7 @@ To support REMs, use the REM-unit-polyfill
         <div class="row accordion-home">
             <dl class="accordion" data-accordion>
                 <dd class="accordion-navigation active">
-                    <a href="#panel1" class="panel-header">
+                    <a href="#panel1" class="panel-header first-accordion">
                         <span class="plus-minus-icon"></span>Graphic Design Training &amp; Courses</a>
                     <div id="panel1" class="content active">
                         <div class="row">
@@ -1359,6 +1359,14 @@ To support REMs, use the REM-unit-polyfill
                     menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
                     menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
                 });
+            });
+        </script>
+
+        <script>
+            $(document).ready(function ($) {
+                if ($(window).width() <= 641) {  
+                    $('.first-accordion').trigger( "click" );
+                }  
             });
         </script>
 
