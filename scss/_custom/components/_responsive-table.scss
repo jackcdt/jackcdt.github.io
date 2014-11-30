@@ -25,13 +25,13 @@
     }
 */
     margin-bottom: 0;
-    
+     
     .pinned { 
         position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; 
         border-right: 1px solid #ccc; border-left: 1px solid #ccc; 
 
         table { border-spacing: 0px; border-right: none; border-left: none; width: 100%; }
-        table th, table td { white-space: nowrap; height: 112px; border: 1px solid #dbdbdb; border-spacing: 0px;}
+        table th, table td { height: 112px; border: 1px solid #dbdbdb; border-spacing: 0px;}
         td:last-child { border-bottom: 0; }
     }
 

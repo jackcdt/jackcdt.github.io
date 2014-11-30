@@ -8498,6 +8498,15 @@ body {
   /* line 49, ../scss/_custom/training/adobe/flash/_flash-category.scss */
   .flash-category .course-item .course-item-header {
     height: 3em; } }
+/* line 56, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+.flash-category .custom-only {
+  margin-top: -10px;
+  line-height: 15px; }
+  /* line 60, ../scss/_custom/training/adobe/flash/_flash-category.scss */
+  .flash-category .custom-only a {
+    color: #fa1a20;
+    text-decoration: underline;
+    font-size: 12px; }
 
 /* line 3, ../scss/_custom/training/adobe/flash/_flash-essentials.scss */
 .flash-essentials-course {

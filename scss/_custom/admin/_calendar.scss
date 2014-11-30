@@ -124,6 +124,10 @@ $calendar-color: #2088D1;
         td.row-name {
             text-align: left;
         }
+
+        td:not(:first-child), th:not(:first-child) {
+            white-space: nowrap;
+        }
     }
 
     @media screen and (max-width: 1025px) {
@@ -151,6 +155,11 @@ $calendar-color: #2088D1;
         .custom-training-logo {
             border: 1px solid #686F74; 
         } 
+
+        .read-more-btn {
+            margin-top: $margin-bottom-default / 4;
+            margin-bottom: $margin-bottom-default / 4;
+        }
     }
 
     .training-checklist {

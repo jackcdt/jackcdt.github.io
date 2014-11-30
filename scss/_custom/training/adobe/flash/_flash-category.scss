@@ -52,4 +52,16 @@
             }
         }
     }
+
+    .custom-only {
+        margin-top: -10px;
+        line-height: 15px;
+
+        a {
+            color: $flash-color;
+            text-decoration: underline;
+
+            font-size: 12px;
+        }
+    }
 } 
