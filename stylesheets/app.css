@@ -8739,44 +8739,32 @@ a#catshopbuy:link, a#catshopbuy:visited {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-@media only screen and (min-width: 896px) {
-  /* line 87, ../scss/_custom/shoppingcart/_checkout.scss */
-  .phone-number {
-    padding-top: 14px;
-    font-size: 16px;
-    padding-right: 75px; } }
-@media only screen and (max-width: 895px) {
-  /* line 95, ../scss/_custom/shoppingcart/_checkout.scss */
-  .phone-number {
-    font-size: 0px;
-    padding: 0;
-    margin: 0; } }
-/* line 102, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 86, ../scss/_custom/shoppingcart/_checkout.scss */
 .medium {
   font-size: 35px;
   padding: 0 5px; }
 
-/* line 108, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 92, ../scss/_custom/shoppingcart/_checkout.scss */
 .download-and-book .shop-product-large .details ul li, .catProdAttributeTitle {
   font-size: 14px;
   font-family: Raleway;
   background-color: #E5E5E5;
   margin: 0; }
 
-/* line 114, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 98, ../scss/_custom/shoppingcart/_checkout.scss */
 .download-and-book table.productTable.productSmall {
   background-color: #E5E5E5;
   border: none; }
 
-/* line 118, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 102, ../scss/_custom/shoppingcart/_checkout.scss */
 .summary-cart td.cartSummaryItem {
   color: #FFF; }
 
-/* line 121, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 105, ../scss/_custom/shoppingcart/_checkout.scss */
 .summary-cart span#catCartSummary table.cartSummaryTable {
   border: none; }
 
-/* line 124, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 108, ../scss/_custom/shoppingcart/_checkout.scss */
 .payment-button {
   display: inline-block;
   background-color: #0090D0;
@@ -8796,55 +8784,55 @@ a#catshopbuy:link, a#catshopbuy:visited {
   text-align: center; }
 
 /*Product List View CSS Added by Bosweb*/
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view {
   text-align: left; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .details {
   float: none;
   min-width: 0;
   width: auto; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .details ul {
   list-style: none; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant + .participant {
   margin-top: 5px; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant input {
   float: left;
   width: 45%; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .participant input + input {
   float: right; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .quantity-field {
   width: 50px; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .shop-product-large.list-view .pointer {
   cursor: pointer; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf {
   zoom: 1; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf:after {
   clear: both; }
 
-/* line 145, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 129, ../scss/_custom/shoppingcart/_checkout.scss */
 .cf:before, .cf:after {
   content: "";
   display: block; }
 
-/* line 147, ../scss/_custom/shoppingcart/_checkout.scss */
+/* line 131, ../scss/_custom/shoppingcart/_checkout.scss */
 .download-and-book .shop-product-large {
   margin-bottom: 0; }
 

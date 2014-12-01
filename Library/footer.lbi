@@ -32,7 +32,7 @@
                 <ul class="no-bullet">
                     <li>
                         <strong>
-                            <span itemprop="telephone">1300 441 891</span>
+                            <span itemprop="telephone"><a href="tel:1300441891">1300 441 891</a></span>
                         </strong>
                     </li>
                     <li><a href="mailto:info@cd.com.au?subject=enquiry from the website">info@cd.com.au</a> 
@@ -40,7 +40,7 @@
                 </ul>
                 <h3>HELP &amp; SUPPORT</h3>
                 <ul class="no-bullet">
-                    <li>info@cd.com.au</li>
+                    <li>info@cd.com.au</li> 
                     <li>&nbsp;</li>
                     <li><a href="/training/sitemap.html">Sitemap</a>
                     </li>
@@ -172,6 +172,6 @@
         
         <script type="text/javascript" src="/js/product-list-view.js"></script>
         
-        // Fix for Bosweb implementation of course upcoming dates selection
+        <!-- Fix for Bosweb implementation of course upcoming dates selection -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
         

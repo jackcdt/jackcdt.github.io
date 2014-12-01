@@ -24,8 +24,8 @@
                 <ul class="megamenu">
                     <!-- Begin Mega Menu -->
                     <li class="megamenu_button small-12 columns">
-                        <a class="small-7 columns">☰&nbsp;Menu</a>
-                        <div class="small-5 columns hamburger-phone"><a href="tel:1300441891">1300 441 891</a></div>
+                        <a class="small-5 columns">☰&nbsp;Menu</a>
+                        <div class="small-7 columns hamburger-phone"><a href="tel:1300441891">1300 441 891</a></div>
                     </li>
                     <li><a class="megamenu_drop">Courses</a> 
                         <!-- Begin Item --> 
