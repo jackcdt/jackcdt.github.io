@@ -118,35 +118,23 @@ body {
 		-ms-transition: background 0.5s ease;
 		transition: background 0.5s ease;
 	}
-		.megamenu > li > a {
-			font-size:12px;
-			text-transform:uppercase;
-			outline:0;
-			text-decoration:none;
-			display:block;
-			padding: 16px 15px 17px 15px;
-		}
-		.megamenu > li .megamenu_drop {
-			padding-right:30px;
-		}
-		.megamenu li.megamenu_button {
-			display: none;
-			-webkit-transition: none;
-			-moz-transition: none;
-			-o-transition: none;
-			-ms-transition: none;
-			transition: none;
-		}
+.megamenu > li > a {
+	font-size:12px;
+	text-transform:uppercase;
+	outline:0;
+	text-decoration:none;
+	display:block;
+	padding: 16px 15px 17px 15px;
+}
+/* Right aligned menu item */
 
-		/* Right aligned menu item */
-		
-		.megamenu li.megamenu_right {
-			float:right;
-			margin-right:-1px;
-		}
-		.megamenu li.megamenu_right a {
-			margin-right:5px;
-		}
+.megamenu li.megamenu_right {
+	float:right;
+	margin-right:-1px;
+}
+.megamenu li.megamenu_right a {
+	margin-right:5px;
+}
 
 		
 
@@ -1032,25 +1020,6 @@ body {
 
 /* 2. Horizontal Mega Menu Media Queries */
 
-
-@media only screen and (min-width: 768px) and (max-width: 984px) {
-
-	.megamenu_container .megamenu > li {
-		margin:0 8px 0 0;
-	}
-		.megamenu_container .megamenu > li.right {
-			margin-right:-1px;
-		}
-		.megamenu_container .megamenu > li > a {
-			padding: 16px 10px 17px 10px;
-		}
-		.megamenu_container .megamenu > li .megamenu_drop {
-			padding-right:30px;
-		}
-
-}
-
-
 @media only screen and (max-width:767px) {
 
 	.megamenu_container {
@@ -1166,21 +1135,94 @@ body {
 	}
 
 }
-@media only screen and (min-width: 896px) {
 
-.phone-number {
-padding-top: 14px;
-font-size: 16px;
-padding-right: 75px;
-}
+
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+
+	.megamenu_container .megamenu > li {
+		margin:0 8px 0 0;
+	}
+	.megamenu_container .megamenu > li.right {
+		margin-right:-1px;
+	}
+	.megamenu_container .megamenu > li > a {
+		padding: 16px 3px 17px 10px;
+	}
 }
 
-@media only screen and (max-width: 895px) {
+
+.megamenu li.megamenu_button {
+	display: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+
+.hamburger-phone {
+	padding-top: 14px;
+	padding-top: 14px;
+	font-size: 16px;
+}
+
+.hamburger-phone a {
+	float: right;
+	padding-right: 60px;	
+}
+
+@media (max-width: 640px) {
+	.hamburger-phone a {
+		padding-right: 0;	
+	}
+}
+
+.hamburger-phone a, .hamburger-phone a:hover, .hamburger-phone a:focus {
+	color: #fff !important;
+}
+
+
+@media only screen and (min-width: 768px) {
 	.phone-number {
-		font-size: 0px;
-		padding: 0;
-		margin: 0;
+		padding-right: 60px;
+	}
+}
 
-		}
+@media only screen and (min-width: 840px) {
+	.phone-number a {
+		font-size: 16px !important;
+		line-height: 12px !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.phone-number {
+		display: none !important;
+	}
+
+	.megamenu_button {
+		height: 44px;
+	}
+}
+
+.megamenu > li .megamenu_drop {
+	padding-right:30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+	.megamenu > li {
+		padding-right: 0;
+	}
+
+	.phone-number {
+		padding-right: 70px !important;
+	}
+}
+
+@media only screen and (min-device-width: 768px) {
+	.phone-number a, .hamburger-phone a {
+       pointer-events: none;
+       cursor: default;
+   }
 }
 

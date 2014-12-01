@@ -23,7 +23,9 @@
             <div class="row">
                 <ul class="megamenu">
                     <!-- Begin Mega Menu -->
-                    <li class="megamenu_button"><a>&#9776;&nbsp;Menu<span class="right">1300 441 891</span></a>
+                    <li class="megamenu_button small-12 columns">
+                        <a class="small-5 columns">☰&nbsp;Menu</a>
+                        <div class="small-7 columns hamburger-phone"><a href="tel:1300441891">1300 441 891</a></div>
                     </li>
                     <li><a class="megamenu_drop">Courses</a> 
                         <!-- Begin Item --> 
@@ -211,7 +213,7 @@
                         <!-- End Item Container -->
                     </li>
                     <!-- End Item -->
-                    <li class="right hide-for-small-only phone-number">1300 441 891</li>
+                    <li class="right phone-number"><a href="tel:1300441891">1300 441 891</a></li>
                 </ul>
                 <!-- End Mega Menu -->
             </div>
