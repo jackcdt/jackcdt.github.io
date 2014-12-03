@@ -34,6 +34,19 @@
 				height: 295px;
 			}
 		}
+
+		@media only screen and (min-width: 641px) and (max-width: 768px) {
+			.acc-container {
+			height: 140px;
+			}
+			.acc-container-lg {
+				height: 215px;
+			}
+			.acc-container-lg-1 {
+				height: 345px;
+			}
+		}
+
 		a.panel-header {
 			color: #2089d3;
 			font-size: 1.1em;

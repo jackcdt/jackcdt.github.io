@@ -7843,7 +7843,17 @@ body {
   /* line 33, ../scss/_custom/homepage/_home.scss */
   .accordion-home .accordion-navigation .acc-container-lg-1 {
     height: 295px; } }
-/* line 37, ../scss/_custom/homepage/_home.scss */
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  /* line 39, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container {
+    height: 140px; }
+  /* line 42, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg {
+    height: 215px; }
+  /* line 45, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation .acc-container-lg-1 {
+    height: 345px; } }
+/* line 50, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation a.panel-header {
   color: #2089d3;
   font-size: 1.1em;
@@ -7853,58 +7863,58 @@ body {
   background: transparent;
   border-bottom: 2px solid #c4c4c4;
   padding: 0.5em 0.5em 0.5em 0.7em; }
-  /* line 47, ../scss/_custom/homepage/_home.scss */
+  /* line 60, ../scss/_custom/homepage/_home.scss */
   .accordion-home .accordion-navigation a.panel-header .plus-minus {
     font-size: 12px;
     color: gray; }
-/* line 52, ../scss/_custom/homepage/_home.scss */
+/* line 65, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3 {
   font-size: 0.90em;
   font-family: Raleway;
   font-weight: 400;
   padding-left: 5px; }
   @media only screen and (min-width: 64.063em) {
-    /* line 52, ../scss/_custom/homepage/_home.scss */
+    /* line 65, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 2.8em; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 52, ../scss/_custom/homepage/_home.scss */
+    /* line 65, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 3em; } }
   @media only screen and (max-width: 40em) {
-    /* line 52, ../scss/_custom/homepage/_home.scss */
+    /* line 65, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 2.4em; } }
-/* line 68, ../scss/_custom/homepage/_home.scss */
+/* line 81, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3.two-line {
   line-height: 1.5em; }
-/* line 72, ../scss/_custom/homepage/_home.scss */
+/* line 85, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation.active a {
   background-color: transparent; }
-/* line 75, ../scss/_custom/homepage/_home.scss */
+/* line 88, ../scss/_custom/homepage/_home.scss */
 .accordion-home p {
   font-size: 0.85em;
   padding-right: 10px; }
-/* line 80, ../scss/_custom/homepage/_home.scss */
+/* line 93, ../scss/_custom/homepage/_home.scss */
 .accordion-home .plus-minus-icon {
   margin-top: -2px;
   font-size: 24px; }
 
-/* line 86, ../scss/_custom/homepage/_home.scss */
+/* line 99, ../scss/_custom/homepage/_home.scss */
 .why-train-bg {
   background-color: #D7E9F7;
   border-bottom: 1px #c4c4c4 solid; }
-  /* line 91, ../scss/_custom/homepage/_home.scss */
+  /* line 104, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us h3 {
     font-size: 42px;
     font-weight: 200;
     font-family: Raleway;
     line-height: 1em;
     padding-bottom: 5px; }
-  /* line 99, ../scss/_custom/homepage/_home.scss */
+  /* line 112, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us a:hover {
     background-color: #FFCE77; }
 
-/* line 109, ../scss/_custom/homepage/_home.scss */
+/* line 122, ../scss/_custom/homepage/_home.scss */
 .no-padding {
   padding: 0; }
