@@ -8670,7 +8670,43 @@ body {
   background-size: 100%;
   background-position: 0 59.15493%;
   margin-bottom: 14px; }
-/* line 19, ../scss/_custom/admin/_calendar-add-styles.scss */
+  @media screen and (min-width: 420px) and (max-width: 640px) {
+    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-now {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 32.7621%;
+      background-size: 100%;
+      background-position: 0 59.15493%; } }
+  @media screen and (min-width: 641px) and (max-width: 895px) {
+    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-now {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 100%;
+      display: block;
+      height: 0;
+      padding-bottom: 50.40323%;
+      background-size: 100%;
+      background-position: 0 59.15493%; } }
+  @media screen and (min-width: 896px) {
+    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-now {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 32.7621%;
+      background-size: 100%;
+      background-position: 0 59.15493%; } }
+/* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .book-and-pay-later {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
@@ -8683,7 +8719,43 @@ body {
   background-size: 100%;
   background-position: 0 0%;
   margin-bottom: 16px; }
-/* line 25, ../scss/_custom/admin/_calendar-add-styles.scss */
+  @media screen and (min-width: 420px) and (max-width: 640px) {
+    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-later {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 33.54839%;
+      background-size: 100%;
+      background-position: 0 0%; } }
+  @media screen and (min-width: 641px) and (max-width: 895px) {
+    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-later {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 100%;
+      display: block;
+      height: 0;
+      padding-bottom: 51.6129%;
+      background-size: 100%;
+      background-position: 0 0%; } }
+  @media screen and (min-width: 896px) {
+    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .book-and-pay-later {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 33.54839%;
+      background-size: 100%;
+      background-position: 0 0%; } }
+/* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .calendar-custom-training {
   background-position: 0 -333px;
   /*    $sprite-width: $map-width;
@@ -8696,8 +8768,32 @@ body {
   background-size: 134.05405%;
   background-position: 0 100%;
   border: 1px solid #686F74; }
-  @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 25, ../scss/_custom/admin/_calendar-add-styles.scss */
+  @media screen and (min-width: 420px) and (max-width: 640px) {
+    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .calendar-custom-training {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.7027%;
+      background-size: 134.05405%;
+      background-position: 0 100%; } }
+  @media screen and (min-width: 641px) and (max-width: 895px) {
+    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+    .cdt-calendar .calendar-custom-training {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 100%;
+      display: block;
+      height: 0;
+      padding-bottom: 41.08108%;
+      background-size: 134.05405%;
+      background-position: 0 100%; } }
+  @media screen and (min-width: 896px) {
+    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
     .cdt-calendar .calendar-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;

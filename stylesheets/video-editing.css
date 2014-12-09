@@ -5409,937 +5409,1098 @@ h3 {
 h4 {
   font-family: Raleway, Helvetica, sans-serif; }
 
+/* reset */
 /* line 2, ../scss/_custom/homepage/_megamenu.scss */
-body {
-  background: url("../img/background.jpg"); }
-
-/* line 5, ../scss/_custom/homepage/_megamenu.scss */
-.page_wrapper,
-.page_wrapper_vertical {
-  width: 980px;
-  margin: 36px auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  line-height: 21px; }
-
-/* line 13, ../scss/_custom/homepage/_megamenu.scss */
-.menu_description {
-  color: #262626;
-  text-shadow: 1px 1px 1px #ffffff;
-  padding-bottom: 36px; }
-
-/* line 18, ../scss/_custom/homepage/_megamenu.scss */
-.menu_description h1 {
-  margin-top: 24px;
-  font-size: 24px;
-  line-height: 38px; }
-
-/* line 23, ../scss/_custom/homepage/_megamenu.scss */
-.menu_description h2 {
-  font-size: 18px;
-  line-height: 24px; }
-
-/* line 27, ../scss/_custom/homepage/_megamenu.scss */
-.menu_description ul.description {
-  font-size: 12px;
-  line-height: 21px;
-  list-style: square;
-  margin: 0 0 0 15px;
-  padding: 0; }
-
-/* line 34, ../scss/_custom/homepage/_megamenu.scss */
-.menu_description a {
-  color: #888888;
-  text-decoration: none; }
-
-/* line 38, ../scss/_custom/homepage/_megamenu.scss */
-.page_wrapper_vertical {
-  width: 960px;
-  margin: 36px auto; }
-
-/* line 42, ../scss/_custom/homepage/_megamenu.scss */
-.page_wrapper_vertical .menu_description {
-  float: left;
-  width: 760px;
-  margin-left: 40px; }
-
-/* line 47, ../scss/_custom/homepage/_megamenu.scss */
-.page_wrapper_vertical .menu_description h1 {
-  margin-top: -6px; }
-
-/* line 50, ../scss/_custom/homepage/_megamenu.scss */
-.page_wrapper_fixed {
-  margin: 70px auto; }
-
-@media only screen and (min-width: 768px) and (max-width: 984px) {
-  /* line 54, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper, .page_wrapper_vertical {
-    width: 768px; }
-
-  /* line 55, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper_vertical .menu_description {
-    width: 500px; } }
-@media only screen and (max-width: 767px) {
-  /* line 58, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper, .page_wrapper_vertical {
-    width: 420px; }
-
-  /* line 59, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper_vertical .menu_description {
-    width: 100%;
-    margin-left: 0; }
-
-  /* line 60, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper_vertical .menu_description h1 {
-    margin-top: 24px; } }
-@media only screen and (max-width: 479px) {
-  /* line 63, ../scss/_custom/homepage/_megamenu.scss */
-  .page_wrapper, .page_wrapper_vertical {
-    width: 300px; } }
-/*  _______________________________________________
-
-    01 MEGA MENU BAR
-    _______________________________________________  */
-/* line 77, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_container {
-  width: 100%;
-  height: 46px;
-  *height: 44px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 9999;
+.flat-mega-menu ul,
+.flat-mega-menu li,
+.flat-mega-menu a,
+.flat-mega-menu p,
+.flat-mega-menu img,
+.flat-mega-menu h2,
+.flat-mega-menu .menu-item {
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: normal;
+  text-decoration: none;
+  list-style: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px; }
+  box-sizing: border-box; }
 
-/* line 92, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_fixed {
-  width: inherit;
-  position: fixed;
-  top: 0;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-  /* IE7 Fix */
-  *width: expression(this.parentNode.currentStyle['width']); }
-
-/* line 102, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu {
-  list-style: none;
+/* menu container */
+/* line 21, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu {
+  margin: 0 auto;
+  /* margin for align container center */
   padding: 0;
   position: relative;
-  /* For IE7 */
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1; }
+  z-index: 999;
+  font-size: 1em;
+  display: block;
+  max-width: 1280px;
+  /* container max-width 1280px */
+  min-height: 60px;
+  width: 100%;
+  font-family: "nunito regular";
+  min-width: 180px; }
 
-/* line 111, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu > li {
+/* ul tag layout */
+/* line 36, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul {
   float: left;
-  margin: 0;
-  border: none;
-  -webkit-transition: background 0.5s ease;
-  -moz-transition: background 0.5s ease;
-  -o-transition: background 0.5s ease;
-  -ms-transition: background 0.5s ease;
-  transition: background 0.5s ease; }
+  width: 100%;
+  min-height: 60px;
+  background-color: #2888D2; }
 
-/* line 121, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu > li > a {
-  font-size: 12px;
+/* li tag layout */
+/* line 44, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li {
+  float: left;
+  min-height: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  border-left: 1px solid;
+  border-left-color: #0B70BD;
+  min-width: 10%; }
+
+/* a tag layout */
+/* line 55, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li > a,
+.flat-mega-menu > ul > li > .menu-item {
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1em; }
+
+/* .title class layout */
+/* line 68, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > .title > a {
   text-transform: uppercase;
-  outline: 0;
-  text-decoration: none;
-  display: block;
-  padding: 16px 15px 17px 15px; }
+  font-size: 1.4em;
+  line-height: 60px;
+  padding-left: 20px;
+  text-align: left;
+  padding-right: 20px; }
 
-/* Right aligned menu item */
-/* line 131, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li.megamenu_right {
+/* line 77, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > .title {
+  border-left: none;
+  min-width: 25%; }
+
+/* .login-form class */
+/* line 83, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu ul .login-form {
+  min-width: 6%;
+  text-align: center;
+  cursor: pointer;
   float: right;
-  margin-right: -1px; }
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative; }
 
-/* line 135, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li.megamenu_right a {
-  margin-right: 5px; }
-
-/*  _______________________________________________
-
-    02 MEGA MENU CONTAINERS
-    _______________________________________________  */
-/* line 150, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li .dropdown_container,
-.megamenu li .dropdown_fullwidth,
-.megamenu li .dropdown_multilevel {
-  position: absolute;
-  margin: 0;
-  padding-top: 24px;
-  padding-bottom: 10px;
-  left: -9999em;
-  top: -9999em;
-  display: block;
-  zoom: 1;
-  z-index: 9998;
-  float: left;
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px; }
-
-/* line 167, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li .dropdown_first {
-  margin-left: -1px; }
-
-/* line 170, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li .droplast_right {
-  margin-right: -1px; }
-
-/* Showing Drop Down on Mouse Hover */
-/* line 176, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li:hover .dropdown_container {
-  top: 45px;
-  left: auto; }
-
-/* line 180, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li:hover .dropdown_fullwidth {
-  top: 45px;
-  left: -1px; }
-
-/* line 184, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li .dropdown_right {
-  right: 0; }
-
-/* line 187, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li:hover .dropdown_right {
-  top: 45px;
-  left: auto;
-  right: 0; }
-
-/*
-	Bigger containers need smaller padding values and
-	on the opposite, smaller containers will have
-	higher paddings. 
-	This makes the content within each kind of drop down 
-	equally distant from the left edge. 
-*/
-/* line 202, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_1column {
-  width: 8.3334%;
-  padding-left: 2%;
-  padding-right: 2%; }
-
-/* line 207, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_2columns {
-  width: 16.6667%;
-  padding-left: 1.8333%;
-  padding-right: 1.8333%; }
-
-/* line 212, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_3columns {
-  width: 25%;
-  padding-left: 1.5%;
-  padding-right: 1.5%; }
-
-/* line 217, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_4columns {
-  width: 33.3334%;
-  padding-left: 1.333%;
-  padding-right: 1.333%; }
-
-/* line 222, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_5columns {
-  width: 41.6667%;
-  padding-left: 1.166%;
-  padding-right: 1.166%; }
-
-/* line 227, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_6columns {
-  width: 50%;
-  padding-left: 1%;
-  padding-right: 1%; }
-
-/* line 232, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_7columns {
-  width: 58.3334%;
-  padding-left: 0.833%;
-  padding-right: 0.833%; }
-
-/* line 237, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_8columns {
-  width: 66.6667%;
-  padding-left: 0.666%;
-  padding-right: 0.666%; }
-
-/* line 242, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_9columns {
-  width: 75%;
-  padding-left: 0.5%;
-  padding-right: 0.5%; }
-
-/* line 247, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_10columns {
-  width: 83.3334%;
-  padding-left: 0.333%;
-  padding-right: 0.333%; }
-
-/* line 252, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_11columns {
-  width: 91.6667%;
-  padding-left: 0.1666%;
-  padding-right: 0.1666%; }
-
-/* line 257, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_12columns,
-.megamenu .dropdown_fullwidth {
+/* line 93, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form table,
+.flat-mega-menu .login-form tbody {
   width: 100%; }
 
-/*  _______________________________________________
-
-    03 DROP DOWN COLUMNS GRID
-    _______________________________________________  */
-/* line 273, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_1,
-.megamenu .col_2,
-.megamenu .col_3,
-.megamenu .col_4,
-.megamenu .col_5,
-.megamenu .col_6,
-.megamenu .col_7,
-.megamenu .col_8,
-.megamenu .col_9,
-.megamenu .col_10,
-.megamenu .col_11,
-.megamenu .col_12 {
-  float: left;
-  display: inline;
-  position: relative;
-  margin-left: 2%;
-  margin-right: 2%;
-  /* 
-  Rounding error with IE7.
-  Lower margin values will absorb the difference.
-  */
-  *margin-left: 1.9%;
-  *margin-right: 1.9%; }
-
-/* line 298, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_1 {
-  width: 4.33%; }
-
-/* line 299, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_2 {
-  width: 12.66%; }
-
-/* line 300, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_3 {
-  width: 21%; }
-
-/* line 301, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_4 {
-  width: 29.33%; }
-
-/* line 302, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_5 {
-  width: 37.66%; }
-
-/* line 303, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_6 {
-  width: 46%; }
-
-/* line 304, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_7 {
-  width: 54.33%; }
-
-/* line 305, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_8 {
-  width: 62.66%; }
-
-/* line 306, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_9 {
-  width: 71%; }
-
-/* line 307, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_10 {
-  width: 79.33%; }
-
-/* line 308, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_11 {
-  width: 87.66%; }
-
-/* line 309, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .col_12 {
-  width: 96%; }
-
-/* line 311, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .rowcontent {
-  clear: left;
-  /*
-  IE7 clear issue.
-  Display inline required.
-  */
-  *display: inline; }
-
-/*  _______________________________________________
-
-    04 FLY-OUT MENU
-    _______________________________________________  */
-/* line 331, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout,
-.megamenu .dropdown_flyout .dropdown_flyout_level {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  z-index: 9;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
-
-/* line 341, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout li {
-  float: left;
-  width: 92%;
-  padding: 3px 4% 3px 4%;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px; }
-
-/* line 349, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout ul li {
-  width: 140px;
-  padding: 3px 10px 3px 10px; }
-
-/* line 353, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout a {
+/* line 98, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form input {
+  width: 100%;
+  margin: 0 0 3px;
+  padding: 0 10px;
   display: block;
-  width: 10em; }
-
-/* line 357, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout .dropdown_flyout_level {
-  position: absolute;
-  margin: 15px 0 0 4px;
-  padding: 6px;
-  left: -9999em;
-  top: -9999em;
-  display: block;
-  zoom: 1;
-  float: left; }
-
-/* line 367, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
-  left: 95%;
-  top: -21px; }
-
-/* line 371, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
-  left: -108%;
-  right: 100%; }
-
-/*  _______________________________________________
-
-    05 MEGA MENU WEB ELEMENTS
-    _______________________________________________  */
-/* 1. General Typography */
-/* line 390, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu p,
-.megamenu h1,
-.megamenu h2,
-.megamenu h3,
-.megamenu h4,
-.megamenu h5,
-.megamenu h6 {
-  padding: 0;
-  margin: 0 0 20px; }
-
-/* line 400, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu > li > div a {
-  text-decoration: none;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  box-shadow: inset 0.5px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0.5px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   outline: none; }
 
-/* line 404, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu > li > div a:hover {
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  transition: color 0.3s; }
+/* line 115, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form input[type=submit] {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  opacity: 0.81;
+  box-shadow: inset 0.5px 0.866px 0px 0px rgba(255, 248, 68, 0.106);
+  background: #2888d2;
+  color: #FFFFFF;
+  height: 35px;
+  width: 100px;
+  font-size: 1em;
+  font-family: "nunito regular";
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none; }
 
-/* line 411, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu p {
-  font-size: 12px;
-  line-height: 21px; }
+/* line 131, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form input[type=submit]:hover {
+  opacity: 1; }
 
-/* line 415, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h1,
-.megamenu h2,
-.megamenu h3,
-.megamenu h4,
-.megamenu h5,
-.megamenu h6 {
-  font-weight: bold;
-  margin: 0 0 5px 0; }
+/* line 135, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form input[type=checkbox] {
+  float: left;
+  display: block;
+  height: 35px;
+  width: auto;
+  cursor: pointer;
+  outline: none;
+  background-color: #FFFFFF; }
 
-/* line 424, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h1 {
-  font-size: 24px;
-  line-height: 28px; }
+/* line 145, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form label {
+  color: #7D7D7D;
+  font-family: "nunito regular";
+  font-size: 0.8em;
+  font-weight: normal;
+  height: 35px;
+  display: block;
+  margin: 10px 0 0;
+  padding: 0 0 0 0px;
+  line-height: 35px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none; }
 
+/* line 163, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form ul {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 15px 15px 10px; }
+
+/* line 170, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .login-form:hover {
+  background-color: #FFFFFF;
+  color: #2888D2;
+  /* animation */
+  transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s; }
+
+/* .search-bar class */
+/* line 182, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu ul .search-bar {
+  min-width: 6%;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+/* line 191, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar:hover {
+  background-color: #FFFFFF;
+  color: #2888D2;
+  /* animation */
+  transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s; }
+
+/* line 202, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar ul {
+  position: absolute;
+  right: 0;
+  width: 50%; }
+
+/* line 208, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar table,
+.flat-mega-menu .fa-user tbody {
+  width: 100%; }
+
+/* line 213, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar table tr td:last-child {
+  width: 120px; }
+
+/* line 217, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar ul input[type=text] {
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.55);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  border-right: 10px solid transparent;
+  border-left: 20px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 40px;
+  outline: none; }
+
+/* line 234, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar ul input[type=submit] {
+  border: none;
+  width: 85%;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-family: "nunito regular";
+  float: left;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  opacity: 0.81;
+  box-shadow: inset 0.5px 0.866px 0px 0px rgba(255, 248, 68, 0.106);
+  background: #2888d2;
+  color: #FFFFFF; }
+
+/* line 250, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .search-bar ul input[type=submit]:hover {
+  opacity: 1;
+  outline: none; }
+
+/* hover animation */
+/* line 256, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover > a {
+  background: #FFFFFF;
+  color: #2888D2;
+  /* animation */
+  transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s; }
+
+/* line 267, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > .title:hover > a {
+  background: inherit;
+  color: inherit !important; }
+
+/*------- Drop down layout start ------*/
+/* line 273, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down {
+  position: absolute;
+  background: #FFFFFF;
+  z-index: 999;
+  margin-left: 0px;
+  width: 100%;
+  float: left;
+  width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid;
+  border-bottom-color: #2888D2; }
+
+/* line 289, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down .drop-down {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 293, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li {
+  float: left;
+  width: 100%;
+  position: relative; }
+
+/* line 299, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li a {
+  color: #555658;
+  font-size: 0.9em;
+  text-align: left;
+  padding: 10px 20px 10px 25px;
+  background-color: #FFFFFF;
+  /* animation */
+  transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+  -moz-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+  -ms-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+  -o-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s;
+  -webkit-transition: color 0.2s linear 0s, padding-left 0.2s linear 0s; }
+
+/* drop down hover animation */
+/* line 314, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li:hover > a {
+  color: #000000;
+  padding-left: 30px; }
+
+/* default hover animation to show drop down */
+/* line 320, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover .drop-down,
+.flat-mega-menu .menu-list:hover .drop-down {
+  display: block; }
+
+/* line 325, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu ul li .drop-down li:hover > .drop-down,
+.flat-mega-menu .menu-list .drop-down li:hover > .drop-down {
+  display: block; }
+
+/* .hover-fade animation to show drop down */
+/* line 331, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li .drop-down.hover-fade,
+.flat-mega-menu .menu-list .drop-down.hover-fade {
+  display: none; }
+
+/* line 336, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover > .drop-down.hover-fade,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-fade,
+.flat-mega-menu .menu-list:hover > .drop-down.hover-fade,
+.flat-mega-menu .menu-list .drop-down li:hover > .drop-down.hover-fade {
+  display: block;
+  /* keyframes animation */
+  animation: hover-fade 0.3s linear 0s forwards;
+  -moz-animation: hover-fade 0.3s linear 0s forwards;
+  -ms-animation: hover-fade 0.3s linear 0s forwards;
+  -o-animation: hover-fade 0.3s linear 0s forwards;
+  -webkit-animation: hover-fade 0.3s linear 0s forwards; }
+
+@keyframes hover-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes hover-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes hover-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes hover-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes hover-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* .hover-zoom animation to show drop down */
+/* line 356, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li .drop-down.hover-zoom {
+  display: none; }
+
+/* line 360, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover > .drop-down.hover-zoom,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-zoom {
+  display: block;
+  /* keyframes animation */
+  animation: hover-zoom 0.2s linear 0s forwards;
+  -moz-animation: hover-zoom 0.2s linear 0s forwards;
+  -ms-animation: hover-zoom 0.2s linear 0s forwards;
+  -o-animation: hover-zoom 0.2s linear 0s forwards;
+  -webkit-animation: hover-zoom 0.2s linear 0s forwards; }
+
+@keyframes hover-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8, 0.8); }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1); } }
+@-moz-keyframes hover-zoom {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.8, 0.8); }
+  100% {
+    opacity: 1;
+    -moz-transform: scale(1, 1); } }
+@-ms-keyframes hover-zoom {
+  0% {
+    opacity: 0;
+    -ms-transform: scale(0.8, 0.8); }
+  100% {
+    opacity: 1;
+    -ms-transform: scale(1, 1); } }
+@-o-keyframes hover-zoom {
+  0% {
+    opacity: 0;
+    -o-transform: scale(0.8, 0.8); }
+  100% {
+    opacity: 1;
+    -o-transform: scale(1, 1); } }
+@-webkit-keyframes hover-zoom {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8, 0.8); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1); } }
+/* .hover-expand animation to show drop down */
+/* line 378, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li .drop-down.hover-expand {
+  display: none; }
+
+/* line 382, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover > .drop-down.hover-expand,
+.flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-expand {
+  display: block;
+  /* keyframes animation */
+  animation: hover-expand 0.2s linear 0s forwards;
+  -moz-animation: hover-expand 0.2s linear 0s forwards;
+  -ms-animation: hover-expand 0.2s linear 0s forwards;
+  -o-animation: hover-expand 0.2s linear 0s forwards;
+  -webkit-animation: hover-expand 0.2s linear 0s forwards; }
+
+@keyframes hover-expand {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg); }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg); } }
+@-moz-keyframes hover-expand {
+  0% {
+    opacity: 0;
+    -moz-transform: rotateY(90deg); }
+  100% {
+    opacity: 1;
+    -moz-transform: rotateY(0deg); } }
+@-ms-keyframes hover-expand {
+  0% {
+    opacity: 0;
+    -ms-transform: rotateY(90deg); }
+  100% {
+    opacity: 1;
+    -ms-transform: rotateY(0deg); } }
+@-o-keyframes hover-expand {
+  0% {
+    opacity: 0;
+    -o-transform: rotateY(90deg); }
+  100% {
+    opacity: 1;
+    -o-transform: rotateY(0deg); } }
+@-webkit-keyframes hover-expand {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateY(90deg); }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg); } }
+/* fontAwesome icons layout */
+/* line 400, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li i {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 20px;
+  bottom: 0;
+  height: 16px;
+  margin: auto;
+  color: #555658; }
+
+/* level 2 .drop-down layout */
+/* line 412, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down .drop-down {
+  left: 100%;
+  top: -10px;
+  width: 150px; }
+
+/*------- one column layout ----------*/
+/* line 419, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.one-column {
+  width: 230px; }
+
+/* line 423, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down .drop-down.one-column {
+  width: 200px; }
+
+/*-------- two column layout ---------*/
 /* line 428, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h2 {
-  font-size: 20px;
-  line-height: 22px; }
+.flat-mega-menu .drop-down.two-column {
+  width: 322px; }
 
 /* line 432, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h3 {
-  font-size: 16px;
-  line-height: 20px; }
+.flat-mega-menu .drop-down.two-column ul {
+  float: left;
+  width: 160px;
+  margin: 0;
+  padding: 0; }
 
-/* line 436, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h4 {
-  font-size: 14px;
-  line-height: 18px;
-  margin-bottom: 14px; }
+/*--------- .full-width with 4 columns layout -----------*/
+/* line 440, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.full-width {
+  width: 100%;
+  margin-left: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-/* line 441, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h5 {
-  font-size: 12px;
-  line-height: 18px;
-  margin-bottom: 14px; }
+/* line 449, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.full-width ul {
+  float: left;
+  width: 25%;
+  cursor: default; }
 
-/* line 446, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu h6 {
-  font-size: 10px;
-  line-height: 16px;
-  margin-bottom: 14px;
-  text-transform: uppercase; }
-
-/* 2. Lists */
-/* line 457, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li ul,
-.megamenu li ol {
-  padding: 0;
-  margin: 0 0 18px 20px; }
+/* line 455, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.full-width ul li {
+  margin: 0;
+  padding: 10px 0;
+  float: left;
+  width: 100%; }
 
 /* line 462, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li ul {
-  list-style: disc; }
+.flat-mega-menu .drop-down.full-width ul li a {
+  margin: 0;
+  border: none;
+  padding: 0;
+  float: left;
+  margin-right: 10%;
+  margin-left: 10%;
+  transition: text-indent 0.2s linear 0s;
+  -moz-transition: text-indent 0.2s linear 0s;
+  -ms-transition: text-indent 0.2s linear 0s;
+  -o-transition: text-indent 0.2s linear 0s;
+  -webkit-transition: text-indent 0.2s linear 0s; }
 
-/* line 465, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li ol {
-  list-style: decimal;
-  *margin-left: 22px; }
+/* hover animation */
+/* line 477, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.full-width ul li:hover a {
+  text-indent: 5px; }
 
-/* line 469, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li ul li,
-.megamenu li ol li {
-  font-size: 12px;
-  line-height: 21px;
-  position: relative;
+/* line 481, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.full-width ul li p {
+  margin: 0;
+  padding: 10px 10px 10px 11%;
+  float: left;
+  width: 100%;
+  clear: both;
+  font-size: 0.9em;
+  color: #949598; }
+
+/*---------- drop down with .social-bar class -------*/
+/* line 492, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down.social-bar {
+  width: 200px; }
+
+/* hr tag layout */
+/* line 497, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu hr {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+/* image layout */
+/* line 504, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu img {
+  width: 100%;
+  float: left;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.078), inset 0px 0px 76px 0px rgba(0, 0, 0, 0.039); }
+
+/* image hover animation */
+/* line 515, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu img:hover {
+  opacity: 0.8; }
+
+/* h2 layout */
+/* line 520, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu h2 {
+  color: #535456;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0;
+  padding: 5px 5px 5px 10%;
+  padding-top: 15px;
+  padding-bottom: 10px; }
+
+/* .social-bar class layout */
+/* line 531, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar {
+  position: relative; }
+
+/* line 535, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar ul {
+  width: 262px;
+  padding: 10px;
+  position: absolute;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid;
+  border-bottom-color: #2888D2;
+  right: 0; }
+
+/* line 545, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar ul li {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 0; }
+
+/* line 553, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar ul a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 40px;
+  width: 40px;
+  position: relative; }
+
+/* line 562, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar ul a i {
+  text-align: center;
   padding: 0;
   margin: 0;
-  float: none;
-  text-align: left; }
-
-/* line 479, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li .list_unstyled {
-  list-style: none;
-  margin-left: 0; }
-
-/* 3. Custom Paragraphs */
-/* line 488, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .blue,
-.megamenu .grey,
-.megamenu .orange,
-.megamenu .dark,
-.megamenu .purple {
-  padding: 0 0 0 15px;
-  margin-bottom: 18px;
-  border-left: solid 5px; }
-
-/* line 497, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .blue {
-  border-left-color: #929292; }
-
-/* line 498, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .grey {
-  border-left-color: #ECE7BA; }
-
-/* line 499, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .orange {
-  border-left-color: #BD4F33; }
-
-/* line 500, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dark {
-  border-left-color: #3F3F3F; }
-
-/* line 501, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .purple {
-  border-left-color: #382E34; }
-
-/* line 503, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .black_box {
-  text-shadow: none;
-  padding: 10px;
-  margin-top: -10px;
-  *margin-top: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px; }
-
-/* 4. Video + Misc. */
-/* line 517, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .video_container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 24px; }
-
-/* line 525, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .video_container iframe,
-.megamenu .video_container object,
-.megamenu .video_container embed {
+  height: 40px;
+  width: 40px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border: none; }
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 40px;
+  border-radius: 5px;
+  color: #797979;
+  font-size: 1.3em;
+  border-radius: 4px;
+  background-image: -moz-linear-gradient(90deg, #e9e9e9 0%, #e9e9e9 100%);
+  background-image: -webkit-linear-gradient(90deg, #e9e9e9 0%, #e9e9e9 100%);
+  background-image: -ms-linear-gradient(90deg, #f0f0f0 0%, #f3f3f3 100%);
+  background-image: -o-linear-gradient(90deg, #e9e9e9 0%, #e9e9e9 100%);
+  background-image: linear-gradient(0deg, #e9e9e9 0%, #e9e9e9 100%); }
 
-/* line 535, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .dropcap {
-  display: block;
-  float: left;
-  font-size: 42px;
-  line-height: 36px;
-  margin: 4px 8px 0 0; }
+/* line 584, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .social-bar ul a:hover i {
+  background: #C7C7C7;
+  color: #000000; }
 
-/* line 542, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu hr {
-  width: 100%;
-  height: 0;
-  *height: 2px;
-  border: none;
-  margin-bottom: 24px; }
+/* mobile button hide in desktop mode */
+/* line 590, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > label,
+.flat-mega-menu > input {
+  display: none; }
 
-/* 5. Images */
-/* line 554, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu img {
-  max-width: 100%;
-  height: auto;
-  border: none;
-  margin-bottom: 18px; }
+/* media query */
+@media screen and (max-width: 830px) {
+  /* li tag layout */
+  /* line 599, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li,
+  .flat-mega-menu .menu-list {
+    width: 100%;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid;
+    border-bottom-color: #0B70BD; }
 
-/* line 560, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu img.img_left {
-  float: left;
-  margin-right: 18px; }
+  /* line 608, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li:hover > a,
+  flat-mega-menu > ul > li:hover > .menu-item,
+  .flat-mega-menu > ul > .login-form:hover,
+  .flat-mega-menu > ul > .search-bar:hover {
+    color: #ffffff !important; }
 
-/* line 564, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu img.img_right {
-  float: right;
-  margin-left: 18px; }
+  /* .title class layout */
+  /* line 616, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > .title a {
+    text-align: center; }
 
-/* line 568, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu img {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
-  opacity: 0.7;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  -ms-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out; }
+  /* .full-width class layout */
+  /* line 621, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.full-width {
+    position: relative;
+    left: 0px !important; }
 
-/* line 578, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu img:hover {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  -ms-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out; }
+  /* all drop-downs layout */
+  /* line 627, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.one-column,
+  .flat-mega-menu .drop-down.two-column,
+  .flat-mega-menu .drop-down.full-width,
+  .flat-mega-menu .drop-down .drop-down,
+  .flat-mega-menu .social-bar ul,
+  .flat-mega-menu .search-bar ul,
+  .flat-mega-menu .login-form ul {
+    width: 100% !important;
+    display: block !important;
+    position: relative;
+    left: 0px;
+    transform: scale(1, 1), rotateY(90deg);
+    -moz-transform: scale(1, 1), rotateY(90deg);
+    -ms-transform: scale(1, 1), rotateY(90deg);
+    -o-transform: scale(1, 1), rotateY(90deg);
+    -webkit-transform: scale(1, 1), rotateY(90deg); }
 
-/* 6. Paragraph Icons */
-/* line 593, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .paragraph_icon {
-  padding-left: 36px;
-  padding-right: 20px;
-  margin-bottom: 18px; }
+  /* line 645, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down .drop-down {
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    top: 0;
+    padding: 0; }
 
-/* line 598, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .mini_icon {
-  background-repeat: no-repeat;
-  margin-top: 4px;
-  margin-left: -34px;
-  float: left;
-  width: 20px;
-  height: 20px; }
+  /* line 653, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down .drop-down.one-column {
+    padding-left: 20px; }
 
-/* line 606, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu .mini_icon {
-  background-image: url("../img/icons/mini-icons-white.png"); }
+  /* line 657, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li .drop-down.hover-expand,
+  .flat-mega-menu > ul > li .drop-down.hover-fade,
+  .flat-mega-menu > ul > li .drop-down.hover-zoom,
+  .flat-mega-menu .menu-list .drop-down.hover-fade {
+    display: none;
+    border: none; }
 
-/* line 609, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu .mini_icon {
-  background-image: url("../img/icons/mini-icons-black.png"); }
+  /* line 665, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li:hover > .drop-down.hover-expand,
+  .flat-mega-menu > ul > li:hover > .drop-down.hover-fade,
+  .flat-mega-menu .menu-list:hover > .drop-down.hover-fade,
+  .flat-mega-menu > ul > li:hover > .drop-down.hover-zoom,
+  .flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-expand,
+  .flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-fade,
+  .flat-mega-menu .menu-list .drop-down li:hover > .drop-down.hover-fade,
+  .flat-mega-menu > ul > li .drop-down li:hover > .drop-down.hover-zoom {
+    display: block;
+    /* keyframes animation */
+    animation: hover-default 0.2s linear 0s forwards;
+    -moz-animation: hover-default 0.2s linear 0s forwards;
+    -ms-animation: hover-default 0.2s linear 0s forwards;
+    -o-animation: hover-default 0.2s linear 0s forwards;
+    -webkit-animation: hover-default 0.2s linear 0s forwards; }
 
-/* line 613, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_archive {
-  background-position: 0 0; }
+  /* line 682, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > .login-form:hover,
+  .flat-mega-menu > ul > .search-bar:hover,
+  .flat-mega-menu > ul > li:hover > a,
+  .flat-mega-menu > ul > li:hover > .menu-item {
+    color: #FFFFFF;
+    background: inherit; }
 
-/* line 614, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_attachment {
-  background-position: 0 -56px; }
+  /* line 690, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form,
+  .flat-mega-menu ul .search-bar {
+    margin: 0;
+    padding: 0; }
 
-/* line 615, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_bookmark {
-  background-position: 0 -112px; }
+  /* line 696, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form label {
+    text-align: left;
+    text-indent: 10px; }
 
-/* line 616, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_brush {
-  background-position: 0 -168px; }
+  /* line 701, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form table td {
+    cursor: default; }
 
-/* line 617, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_calc {
-  background-position: 0 -224px; }
+  /* line 705, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.two-column ul,
+  .flat-mega-menu .drop-down.full-width ul {
+    width: 50%; }
 
-/* line 618, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_calendar {
-  background-position: 0 -280px; }
+  /* line 710, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.one-column a,
+  .flat-mega-menu .drop-down.two-column a {
+    width: auto;
+    float: left; }
 
-/* line 619, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_cancel {
-  background-position: 0 -336px; }
+  /* line 716, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .social-bar {
+    text-align: center; }
 
-/* line 620, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_chat {
-  background-position: 0 -392px; }
+  /* line 720, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .social-bar ul li {
+    display: inline-block;
+    float: none; }
 
-/* line 621, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_chats {
-  background-position: 0 -448px; }
+  /* fontAwesome icons layout */
+  /* line 726, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down li .fa.fa-angle-right {
+    position: relative;
+    z-index: 9999;
+    right: 0px;
+    float: right;
+    height: auto;
+    color: #555658;
+    padding: 0;
+    margin: 0 17px 0 0;
+    display: block;
+    line-height: 38px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg); }
 
-/* line 622, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_cloud {
-  background-position: 0 -504px; }
+  /* mobile button layout */
+  /* line 745, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu #mobile-button {
+    position: absolute;
+    display: none; }
 
-/* line 623, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_delete {
-  background-position: 0 -560px; }
+  /* line 750, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul {
+    height: 60px;
+    overflow: hidden; }
 
-/* line 624, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_documents {
-  background-position: 0 -616px; }
+  /* mobile button click to show drop down */
+  /* line 756, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu #mobile-button:checked + ul {
+    height: auto;
+    overflow: visible; }
 
-/* line 625, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_down {
-  background-position: 0 -672px; }
+  /* label tag layout */
+  /* line 762, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > label {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    color: #FFFFFF;
+    cursor: pointer; }
 
-/* line 626, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_down_circle {
-  background-position: 0 -728px; }
+  /* line 779, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > label i {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none; }
 
-/* line 627, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_download {
-  background-position: 0 -784px; }
+  /* line 786, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .title {
+    padding-left: 60px; }
 
-/* line 628, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_edit {
-  background-position: 0 -840px; }
+  /* collapse class layout */
+  /* line 791, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .collapse .drop-down.one-column,
+  .flat-mega-menu .collapse .drop-down.two-column,
+  .flat-mega-menu .collapse .drop-down.full-width,
+  .flat-mega-menu .collapse .drop-down .drop-down,
+  .flat-mega-menu .collapse .social-bar ul,
+  .flat-mega-menu .collapse .search-bar ul,
+  .flat-mega-menu .collapse .login-form ul {
+    width: 100% !important;
+    display: none !important;
+    position: relative;
+    left: 0px;
+    transform: scale(1, 1), rotateY(90deg);
+    -moz-transform: scale(1, 1), rotateY(90deg);
+    -ms-transform: scale(1, 1), rotateY(90deg);
+    -o-transform: scale(1, 1), rotateY(90deg);
+    -webkit-transform: scale(1, 1), rotateY(90deg); }
 
-/* line 629, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_empty_document {
-  background-position: 0 -896px; }
+  /* line 809, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > .collapse > li:hover > .drop-down.hover-expand,
+  .flat-mega-menu > .collapse > li:hover > .drop-down.hover-fade,
+  .flat-mega-menu > .collapse > li:hover > .drop-down.hover-zoom,
+  .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-expand,
+  .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-fade,
+  .flat-mega-menu > .collapse > li .drop-down li:hover > .drop-down.hover-zoom {
+    display: block !important;
+    /* keyframes animation */
+    animation: hover-fade 0.2s linear 0s forwards;
+    -moz-animation: hover-fade 0.2s linear 0s forwards;
+    -ms-animation: hover-fade 0.2s linear 0s forwards;
+    -o-animation: hover-fade 0.2s linear 0s forwards;
+    -webkit-animation: hover-fade 0.2s linear 0s forwards; }
 
-/* line 630, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_favorite {
-  background-position: 0 -952px; }
+  @keyframes hover-fade {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-moz-keyframes hover-fade {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-ms-keyframes hover-fade {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-o-keyframes hover-fade {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-webkit-keyframes hover-fade {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } } }
+/* media query */
+@media screen and (max-width: 320px) {
+  /* ul tag layout */
+  /* line 836, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.two-column ul,
+  .flat-mega-menu .drop-down.full-width ul {
+    width: 100%; }
 
-/* line 631, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_folder {
-  background-position: 0 -1008px; }
+  /* .search-bar layout */
+  /* line 842, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .search-bar td {
+    width: 100% !important;
+    float: left;
+    padding: 5px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: default; }
 
-/* line 632, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_fullscreen {
-  background-position: 0 -1064px; }
+  /* line 852, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .search-bar input[type=text],
+  .flat-mega-menu ul .search-bar input[type=submit] {
+    width: 100%;
+    margin: 0;
+    border: none; }
 
-/* line 633, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_graph {
-  background-position: 0 -1120px; }
+  /* .login-form layout */
+  /* line 860, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form ul {
+    padding: 20px; }
 
-/* line 634, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_grid {
-  background-position: 0 -1176px; }
+  /* line 864, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form td {
+    float: left;
+    width: 100%;
+    cursor: default; }
 
-/* line 635, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_left {
-  background-position: 0 -1232px; }
+  /* line 870, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .login-form input[type=submit] {
+    width: 100%; }
 
-/* line 636, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_left_circle {
-  background-position: 0 -1288px; }
+  /* .title class layout */
+  /* line 875, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu ul .title {
+    padding-left: 0px;
+    text-indent: 60px; } }
+/* Custom CDT styling */
+/* line 883, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu {
+  height: 45px;
+  min-height: 45px; }
 
-/* line 637, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_list {
-  background-position: 0 -1344px; }
+/* line 888, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul {
+  height: 45px;
+  min-height: 45px; }
 
-/* line 638, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_lock {
-  background-position: 0 -1400px; }
+/* line 893, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu h3 {
+  padding-left: 10px; }
 
-/* line 639, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_mail {
-  background-position: 0 -1456px; }
+/* line 897, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li,
+.flat-mega-menu .menu-list {
+  min-height: 45px;
+  line-height: 45px;
+  border-left: none;
+  min-width: 5%; }
 
-/* line 640, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_minus {
-  background-position: 0 -1512px; }
-
-/* line 641, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_ok {
-  background-position: 0 -1568px; }
-
-/* line 642, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_picture {
-  background-position: 0 -1624px; }
-
-/* line 643, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_pin {
-  background-position: 0 -1680px; }
-
-/* line 644, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_plus {
-  background-position: 0 -1736px; }
-
-/* line 645, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_power {
-  background-position: 0 -1792px; }
-
-/* line 646, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_print {
-  background-position: 0 -1848px; }
-
-/* line 647, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_refresh {
-  background-position: 0 -1904px; }
-
-/* line 648, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_right {
-  background-position: -56px 0; }
-
-/* line 649, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_right_circle {
-  background-position: -56px -56px; }
-
-/* line 650, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_settings {
-  background-position: -56px -112px; }
-
-/* line 651, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_sound {
-  background-position: -56px -168px; }
-
-/* line 652, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_sync {
-  background-position: -56px -224px; }
-
-/* line 653, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_tag {
-  background-position: -56px -280px; }
-
-/* line 654, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_target {
-  background-position: -56px -336px; }
-
-/* line 655, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_text_document {
-  background-position: -56px -392px; }
-
-/* line 656, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_time {
-  background-position: -56px -448px; }
-
-/* line 657, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_unlock {
-  background-position: -56px -504px; }
-
-/* line 658, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_up {
-  background-position: -56px -560px; }
-
-/* line 659, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_up_circle {
-  background-position: -56px -616px; }
-
-/* line 660, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_user {
-  background-position: -56px -672px; }
-
-/* line 661, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_users {
-  background-position: -56px -728px; }
-
-/* line 662, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu .ic_zoom {
-  background-position: -56px -784px; }
-
-/* Colored elements */
-/* line 667, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form label.error,
-.megamenu #megamenu_form #error,
-.megamenu #megamenu_form #success {
-  color: #fff;
-  clear: both;
-  width: 90%;
-  padding: 6px;
+/* line 905, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li > a,
+.flat-mega-menu > ul > li > .menu-item {
+  line-height: 45px;
+  text-align: left;
+  text-transform: uppercase;
   font-size: 12px;
-  line-height: 18px; }
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 15px; }
 
-/* line 677, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form label.error,
-.megamenu #megamenu_form #error {
-  background: #E45635; }
+/* line 915, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > label {
+  width: 95px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif; }
 
-/* line 681, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form input.error,
-.megamenu #megamenu_form input.error:hover,
-.megamenu #megamenu_form input.error:focus,
-.megamenu #megamenu_form textarea.error,
-.megamenu #megamenu_form textarea.error:hover,
-.megamenu #megamenu_form textarea.error:focus {
-  border-color: #f4baad; }
+/* line 924, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .pnone-number {
+  float: right; }
 
-/* line 689, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form #success {
-  background: #90AB76; }
+/* line 928, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .pnone-number a {
+  text-align: right;
+  font-size: 1em;
+  line-height: 45px;
+  padding-right: 75px; }
 
-/* line 692, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form #success,
-.megamenu #megamenu_form #error {
-  display: none;
-  position: absolute;
-  top: 0;
-  margin-left: 0;
-  width: 90%; }
+@media screen and (max-width: 830px) {
+  /* line 936, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > .title a {
+    text-align: right;
+    font-size: 1em;
+    line-height: 45px; }
 
-/* line 700, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu #megamenu_form .required {
-  color: #e9266d; }
+  /* line 942, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .pnone-number {
+    display: none; } }
+@media screen and (min-width: 641px) and (max-width: 830px) {
+  /* line 948, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > .title a {
+    padding-right: 75px; } }
+@media screen and (max-width: 640px) {
+  /* ul tag layout */
+  /* line 956, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .drop-down.two-column ul,
+  .flat-mega-menu .drop-down.full-width ul {
+    width: 100%; } }
+@media screen and (min-width: 831px) {
+  /* line 963, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu .title {
+    display: none; } }
+@media only screen and (min-device-width: 830px) {
+  /* line 969, ../scss/_custom/homepage/_megamenu.scss */
+  .phone-number a {
+    pointer-events: none;
+    cursor: default; } }
+@media screen and (min-width: 1024px) {
+  /* line 976, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li > a,
+  .flat-mega-menu > ul > li > .menu-item {
+    padding-right: 30px; } }
+/* line 982, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul h3 {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 0 0 5px; }
 
-/*  _______________________________________________
+/* line 991, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li a {
+  color: #888;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif; }
 
-    06 DEFAULT THEMES, DARK & LIGHT (REQUIRED)
-    _______________________________________________  */
-/* 1. Dark Menu Bar */
-/* line 716, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar {
+/* line 997, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li a,
+.flat-mega-menu .drop-down ul li,
+.flat-mega-menu .drop-down.full-width ul li,
+.flat-mega-menu .drop-down.one-column ul li {
+  padding-top: 5px;
+  padding-bottom: 0; }
+
+/* line 1005, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .second-row-list {
+  margin-top: 16px !important; }
+
+/* line 1009, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down ul {
+  margin-top: 10px; }
+
+/* Custom colors */
+/* line 1015, ../scss/_custom/homepage/_megamenu.scss */
+.mega-menu {
   background: #212121;
   background: -webkit-linear-gradient(top, #333333 0%, #181818);
   background: -moz-linear-gradient(top, #333333 0%, #181818);
@@ -6351,516 +6512,61 @@ body {
   -moz-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
   box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7); }
 
-/* line 728, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu {
-  color: #FFFFFF; }
+/* line 1028, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul {
+  background: #212121;
+  background: -webkit-linear-gradient(top, #333333 0%, #181818);
+  background: -moz-linear-gradient(top, #333333 0%, #181818);
+  background: -o-linear-gradient(top, #333333 0%, #181818);
+  background: -ms-linear-gradient(top, #333333 0%, #181818);
+  background: linear-gradient(to bottom, #333333 0%, #181818); }
 
-/* line 731, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu > li:hover,
-.megamenu_dark_bar .megamenu > li.active {
+/* line 1037, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > li:noactive {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+/* line 1044, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul > li:hover > a,
+.flat-mega-menu > ul > li:hover > .menu-item {
+  background: #121212;
+  color: #fff;
+  /* animation */
+  transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -moz-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -ms-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -o-transition: background 0.2s linear 0s, color 0.2s linear 0s;
+  -webkit-transition: background 0.2s linear 0s, color 0.2s linear 0s; }
+
+/* line 1056, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > li:hover, .flat-mega-menu > li:active,
+.flat-mega-menu .menu-list:hover, .flat-mega-menu .menu-list:active {
   background: #121212;
   -webkit-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2); }
 
-/* line 738, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu li.noactive {
-  background: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none; }
-
-/* line 744, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu > li > a {
-  color: #FFFFFF;
-  text-shadow: 1px 1px 1px #000000; }
-
-/* line 748, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu > li:hover > a {
-  color: #FFFFFF;
-  text-shadow: 1px 1px 1px #000000; }
-
-/* line 752, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu > li .megamenu_drop {
-  background: url("../img/dropdown.png") no-repeat right 18px; }
-
-/* line 755, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu_vertical > li .megamenu_drop {
-  background: url("../img/right.png") no-repeat right 16px; }
-
-/* line 758, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu li.megamenu_button,
-.megamenu_dark_bar .megamenu li.megamenu_button:hover {
-  background: url("../img/dropdown.png") no-repeat right 19px; }
-
-/* line 762, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark_bar .megamenu li.megamenu_button_active,
-.megamenu_dark_bar .megamenu li.megamenu_button_active:hover {
-  background: url("../img/dropdown-up.png") no-repeat right 18px; }
-
-/* 2. Light Menu Bar */
-/* line 771, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar {
-  background: #eeeeee;
-  background: -webkit-linear-gradient(top, #f8f8f8 0%, #eeeeee);
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #eeeeee);
-  background: -o-linear-gradient(top, #f8f8f8 0%, #eeeeee);
-  background: -ms-linear-gradient(top, #f8f8f8 0%, #eeeeee);
-  background: linear-gradient(to bottom, #f8f8f8 0%, #eeeeee);
-  border: 1px solid #CCCCCC;
-  -webkit-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
-  -moz-box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7);
-  box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.7); }
-
-/* line 783, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu {
-  color: #212121; }
-
-/* line 786, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu > li:hover,
-.megamenu_light_bar .megamenu > li.active {
-  background: #DDDDDD; }
-
-/* line 790, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu li.noactive {
-  background: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none; }
-
-/* line 796, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu > li > a {
-  color: #212121;
-  text-shadow: 1px 1px 1px #FFFFFF; }
-
-/* line 800, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu > li:hover > a {
-  color: #212121;
-  text-shadow: 1px 1px 1px #FFFFFF; }
-
-/* line 804, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu > li .megamenu_drop {
-  background: url("../img/dropdown-b.png") no-repeat right 18px; }
-
-/* line 807, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu_vertical > li .megamenu_drop {
-  background: url("../img/right-b.png") no-repeat right 16px; }
-
-/* line 810, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu li.megamenu_button,
-.megamenu_light_bar .megamenu li.megamenu_button:hover {
-  background: url("../img/dropdown-b.png") no-repeat right 19px; }
-
-/* line 814, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light_bar .megamenu li.megamenu_button_active,
-.megamenu_light_bar .megamenu li.megamenu_button_active:hover {
-  background: url("../img/dropdown-b-up.png") no-repeat right 18px; }
-
-/* 3. Dark Drop Down */
-/* line 823, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li .dropdown_container,
-.megamenu_dark .megamenu li .dropdown_fullwidth,
-.megamenu_dark .megamenu li .dropdown_flyout li ul {
-  border: 1px solid #000000;
-  border-top-width: 0;
-  background: #111111;
-  color: #f6f6f6; }
-
-/* line 831, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_container_vertical .megamenu li .dropdown_container,
-.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
-.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
-  border-top-width: 1px; }
-
-/* line 836, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li .dropdown_flyout li ul {
-  border: 1px solid #000000; }
-
-/* line 839, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
-  background: url("../img/right.png") no-repeat right 9px; }
-
-/* line 842, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
-.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active {
-  background-color: #000000; }
-
-/* line 846, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.noactive {
-  background-color: transparent; }
-
-/* line 849, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu p,
-.megamenu_dark .megamenu h1,
-.megamenu_dark .megamenu h2,
-.megamenu_dark .megamenu h3,
-.megamenu_dark .megamenu h4,
-.megamenu_dark .megamenu h5,
-.megamenu_dark .megamenu h6 {
-  color: #f6f6f6;
-  text-shadow: 1px 1px 1px #000000; }
-
-/* line 859, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu > li > div a,
-.megamenu_dark .megamenu li ul li,
-.megamenu_dark .megamenu li ol li {
-  color: #aaaaaa; }
-
-/* line 864, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu > li > div a:hover {
-  color: #dddddd; }
-
-/* line 867, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu li ul li:hover,
-.megamenu_dark .megamenu li ol li:hover,
-.megamenu_dark .megamenu .blue,
-.megamenu_dark .megamenu .grey,
-.megamenu_dark .megamenu .orange,
-.megamenu_dark .megamenu .dark,
-.megamenu_dark .megamenu .purple {
-  color: #eeeeee; }
-
-/* line 876, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu .black_box {
-  background: #000000;
-  color: #ffffff; }
-
-/* line 880, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu .grey_bg {
-  background: #eeeeee;
-  color: #000000;
-  text-shadow: 1px 1px 1px #ffffff; }
-
-/* line 885, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu > li.megamenu_searchform:hover {
-  background: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none; }
-
-/* line 891, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_dark .megamenu hr {
-  border: none;
-  border-bottom: 1px solid #202020;
-  border-top: 1px solid #000000; }
-
-/* 4. Light Drop Down */
-/* line 901, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li .dropdown_container,
-.megamenu_light .megamenu li .dropdown_fullwidth,
-.megamenu_light .megamenu li .dropdown_flyout li ul {
+/* line 1064, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down {
   border: 1px solid #CCCCCC;
   border-top-width: 0;
   background: #FAFAFA;
-  color: #212121; }
-
-/* line 909, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_container_vertical .megamenu li .dropdown_container,
-.megamenu_container_vertical .megamenu li .dropdown_fullwidth,
-.megamenu_container_vertical .megamenu li .dropdown_flyout li ul {
-  border-top-width: 1px; }
-
-/* line 914, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li .dropdown_flyout li ul {
-  border: 1px solid #CCCCCC; }
-
-/* line 917, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
-  background: url("../img/right-b.png") no-repeat right 9px; }
-
-/* line 920, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
-.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
-  background-color: #eeeeee; }
-
-/* line 924, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.noactive {
-  background-color: transparent; }
-
-/* line 927, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu p,
-.megamenu_light .megamenu h1,
-.megamenu_light .megamenu h2,
-.megamenu_light .megamenu h3,
-.megamenu_light .megamenu h4,
-.megamenu_light .megamenu h5,
-.megamenu_light .megamenu h6 {
   color: #212121;
-  text-shadow: 1px 1px 1px #FFFFFF; }
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px; }
 
-/* line 937, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu > li > div a,
-.megamenu_light .megamenu li ul li,
-.megamenu_light .megamenu li ol li {
-  color: #888888; }
+/* line 1074, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu .drop-down li a {
+  background-color: #FAFAFA; }
 
-/* line 942, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu > li > div a:hover {
-  color: #333333; }
-
-/* line 945, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu li ul li:hover,
-.megamenu_light .megamenu li ol li:hover,
-.megamenu_light .megamenu .blue,
-.megamenu_light .megamenu .grey,
-.megamenu_light .megamenu .orange,
-.megamenu_light .megamenu .dark,
-.megamenu_light .megamenu .purple {
-  color: #444444; }
-
-/* line 954, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu .black_box {
-  background: #212121;
-  color: #ffffff;
-  text-shadow: 1px 1px 1px #000000; }
-
-/* line 959, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu .grey_bg {
-  background: #eeeeee; }
-
-/* line 962, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu > li.megamenu_searchform:hover {
-  background: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none; }
-
-/* line 968, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu_light .megamenu hr {
-  border: none;
-  border-bottom: 1px solid #ffffff;
-  border-top: 1px solid #e4e4e4; }
-
-/*  _______________________________________________
-
-    09 MOBILE DEVICES
-    _______________________________________________  */
-/* 1. Common Media Queries */
-@media only screen and (max-width: 984px) {
-  /* line 988, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu img {
-    max-width: 96%;
-    height: auto; }
-
-  /* line 992, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu textarea {
-    width: 96%; } }
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1001, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > div > .responsive_sixths,
-  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_sixths {
-    width: 8.66%; }
-
-  /* line 1005, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > div > .responsive_fourths,
-  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_fourths {
-    width: 17%; }
-
-  /* line 1009, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > div > .responsive_thirds,
-  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_thirds {
-    width: 25.33334%; }
-
-  /* line 1013, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > div > .responsive_halfs,
-  .megamenu_container_vertical .megamenu > li > .dropvertical_container > div > .responsive_halfs {
-    width: 42%; } }
-/* 2. Horizontal Mega Menu Media Queries */
-@media only screen and (max-width: 767px) {
-  /* line 1025, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container {
-    height: auto; }
-
-  /* line 1028, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li,
-  .megamenu_container .megamenu > li:hover,
-  .megamenu_container .megamenu > li.right,
-  .megamenu_container .megamenu > li.right:hover {
-    float: none;
-    width: auto;
-    padding-right: 0;
-    margin-right: 0; }
-
-  /* line 1037, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > a {
-    padding: 16px 10px 16px 10px; }
-
-  /* line 1040, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu li.right a {
-    margin-right: 0; }
-
-  /* line 1044, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu li:hover .dropdown_container,
-  .megamenu_container .megamenu li:hover .dropdown_fullwidth,
-  .megamenu_container .megamenu li:hover .dropdown_right {
-    top: auto;
-    left: -1px; }
-
-  /* line 1050, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu .dropdown_1column,
-  .megamenu_container .megamenu .dropdown_2columns,
-  .megamenu_container .megamenu .dropdown_3columns,
-  .megamenu_container .megamenu .dropdown_4columns,
-  .megamenu_container .megamenu .dropdown_5columns,
-  .megamenu_container .megamenu .dropdown_6columns,
-  .megamenu_container .megamenu .dropdown_7columns,
-  .megamenu_container .megamenu .dropdown_8columns,
-  .megamenu_container .megamenu .dropdown_9columns,
-  .megamenu_container .megamenu .dropdown_10columns,
-  .megamenu_container .megamenu .dropdown_11columns,
-  .megamenu_container .megamenu .dropdown_12columns {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0; }
-
-  /* line 1066, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu .col_1,
-  .megamenu_container .megamenu .col_2,
-  .megamenu_container .megamenu .col_3,
-  .megamenu_container .megamenu .col_4,
-  .megamenu_container .megamenu .col_5,
-  .megamenu_container .megamenu .col_6,
-  .megamenu_container .megamenu .col_7,
-  .megamenu_container .megamenu .col_8,
-  .megamenu_container .megamenu .col_9,
-  .megamenu_container .megamenu .col_10,
-  .megamenu_container .megamenu .col_11,
-  .megamenu_container .megamenu .col_12 {
-    width: 92%;
-    margin-left: 4%;
-    margin-right: 4%; }
-
-  /* line 1082, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li.megamenu_searchform .megamenu_searchfield {
-    margin-left: 10px;
-    margin-bottom: 10px; }
-
-  /* line 1086, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu .dropdown_flyout,
-  .megamenu .dropdown_flyout .dropdown_flyout_level {
-    position: relative;
-    left: auto;
-    top: auto;
-    padding: 0;
-    margin: 0 4% 0 4%; }
-
-  /* line 1094, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu .dropdown_flyout li,
-  .megamenu .dropdown_flyout ul li {
-    width: 100%;
-    padding: 3px 0 3px 0; }
-
-  /* line 1099, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level {
-    left: auto;
-    top: auto; }
-
-  /* line 1103, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu .dropdown_flyout li:hover > .dropdown_flyout_level_left {
-    left: auto;
-    right: auto; }
-
-  /* line 1107, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_dark .megamenu li .dropdown_flyout li ul,
-  .megamenu_light .megamenu li .dropdown_flyout li ul {
-    border: none;
-    background: none; }
-
-  /* line 1112, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent {
-    background: url("../img/dropdown.png") no-repeat right 9px; }
-
-  /* line 1115, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent {
-    background: url("../img/dropdown-b.png") no-repeat right 9px; }
-
-  /* line 1118, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent:hover,
-  .megamenu_dark .megamenu li .dropdown_flyout .dropdown_parent.active,
-  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent:hover,
-  .megamenu_light .megamenu li .dropdown_flyout .dropdown_parent.active {
-    background-color: transparent; } }
-@media only screen and (max-width: 479px) {
-  /* line 1130, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > div > .responsive_sixths,
-  .megamenu_container .megamenu > li > div > .responsive_fourths,
-  .megamenu_container .megamenu > li > div > .responsive_thirds,
-  .megamenu_container .megamenu > li > div > .responsive_halfs {
-    width: 42%; } }
-@media only screen and (min-width: 768px) and (max-width: 984px) {
-  /* line 1142, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li {
-    margin: 0 8px 0 0; }
-
-  /* line 1145, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li.right {
-    margin-right: -1px; }
-
-  /* line 1148, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_container .megamenu > li > a {
-    padding: 16px 3px 17px 10px; } }
-/* line 1154, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu li.megamenu_button {
-  display: none;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -o-transition: none;
-  -ms-transition: none;
-  transition: none; }
-
-/* line 1163, ../scss/_custom/homepage/_megamenu.scss */
-.hamburger-phone {
-  padding-top: 14px;
-  padding-top: 14px;
-  font-size: 16px; }
-
-/* line 1169, ../scss/_custom/homepage/_megamenu.scss */
-.hamburger-phone a {
-  float: right;
-  padding-right: 60px; }
-
-@media (max-width: 640px) {
-  /* line 1175, ../scss/_custom/homepage/_megamenu.scss */
-  .hamburger-phone a {
-    padding-right: 0; } }
-/* line 1180, ../scss/_custom/homepage/_megamenu.scss */
-.hamburger-phone a, .hamburger-phone a:hover, .hamburger-phone a:focus {
-  color: #fff !important; }
-
-@media only screen and (min-width: 768px) {
-  /* line 1186, ../scss/_custom/homepage/_megamenu.scss */
-  .phone-number {
-    padding-right: 60px; } }
-@media only screen and (min-width: 840px) {
-  /* line 1192, ../scss/_custom/homepage/_megamenu.scss */
-  .phone-number a {
-    font-size: 16px !important;
-    line-height: 12px !important; } }
-@media only screen and (max-width: 767px) {
-  /* line 1199, ../scss/_custom/homepage/_megamenu.scss */
-  .phone-number {
-    display: none !important; }
-
-  /* line 1203, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu_button {
-    height: 44px; } }
-/* line 1208, ../scss/_custom/homepage/_megamenu.scss */
-.megamenu > li .megamenu_drop {
-  padding-right: 30px; }
-
-@media only screen and (min-width: 768px) and (max-width: 984px) {
-  /* line 1213, ../scss/_custom/homepage/_megamenu.scss */
-  .megamenu > li {
-    padding-right: 0; }
-
-  /* line 1217, ../scss/_custom/homepage/_megamenu.scss */
-  .phone-number {
-    padding-right: 70px !important; } }
-@media only screen and (min-device-width: 768px) {
-  /* line 1223, ../scss/_custom/homepage/_megamenu.scss */
-  .phone-number a, .hamburger-phone a {
-    pointer-events: none;
-    cursor: default; } }
+@media screen and (max-width: 830px) {
+  /* line 1079, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li,
+  .flat-mega-menu .menu-list {
+    border-bottom-color: #383838; } }
 /* line 1, ../scss/_custom/homepage/_footer.scss */
 .footer-bg {
   background-color: #343534; }
@@ -6969,6 +6675,10 @@ body {
 /* Main content title with border (not necessarily h1)*/
 /* Color paragraph header */
 /* Color bold list header */
+/* line 77, ../scss/_custom/components/_cdt-typography.scss */
+.training-package-link, .training-package-link:hover, .training-package-link:focus {
+  color: #000; }
+
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
 .seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn {
   background-color: #FCCD39;
@@ -8116,7 +7826,7 @@ body {
 @media only screen and (min-width: 64.063em) {
   /* line 34, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category.scss */
   .premiere-pro-category .course-item .course-item-description {
-    height: 15em; } }
+    height: 17em; } }
 
 /* line 3, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials.scss */
 .premiere-pro-essentials-course {

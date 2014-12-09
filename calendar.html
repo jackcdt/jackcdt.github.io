@@ -43,9 +43,10 @@
 
         <!--[if IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <![endif]-->
-        
-        <!--[if gt IE 8]>-->
+
+        <!--[if !IE]>-->
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
@@ -81,137 +82,109 @@
     </header>
     <!-- Header End -->
     <!-- Megamenu Start -->  
-    <div class="contain-to-grid">
-        <div class="megamenu_container megamenu_dark_bar megamenu_light">
-            <!-- Begin Menu Container --> 
-            <div class="row">
-                <ul class="megamenu">
-                    <!-- Begin Mega Menu -->
-                    <li class="megamenu_button small-12 columns">
-                        <a class="small-5 columns">☰&nbsp;Menu</a>
-                        <div class="small-7 columns hamburger-phone"><a href="tel:1300441891">1300 441 891</a></div>
+    <div class="mega-menu"> 
+        <div class="row">
+            <div class="flat-mega-menu">            <!-- flat-mega-menu class -->
+
+                <label for="mobile-button">☰&nbsp;Menu</i> </label>         <!-- mobile click button to show menu -->
+                <input id="mobile-button" type="checkbox">                          
+
+                <ul class="collapse">                                       <!-- collapse class for collapse the drop down -->
+
+                    <li class="title"> <a href="tel:1300441891">1300 441 891</a> </li>
+
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Courses</span>
+                    
+                        <ul class="drop-down full-width hover-fade">       <!-- full width drop down with 4 columns -->
+
+                            <ul>
+
+                                <li><h3>Adobe Design</h3>
+                                </li>
+                                <li><a href="/adobe-indesign-courses.html">InDesign</a>
+                                </li>
+                                <li><a href="/adobe-photoshop-courses.html">Photoshop</a>
+                                </li> 
+                                <li><a href="/adobe-illustrator-courses.html">Illustrator</a>
+                                </li>
+                                <li><a href="/digital-publishing-training.html">Digital Publishing</a>
+                                </li>
+                                <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
+                                </li>
+
+                                <li class="second-row-list"><h3>Packages</h3>
+                                </li>
+                                <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
+                                </li>
+                                <li><a href="/web-design-courses.html">Web Design Package</a>
+                                </li>
+
+                            </ul>
+                            
+                            <ul>
+                                <li><h3>Web</h3>
+                                </li>
+                                <li><a href="/html-courses.html">HTML5 &amp; CSS3</a>
+                                </li>
+                                <li><a href="/dreamweaver-courses.html">Dreamweaver</a>
+                                </li>
+                                <li><a href="/flash-courses.html">Flash</a>
+                                </li> 
+                                <li><a href="/wordpress-training-courses.html">WordPress</a>
+                                </li>
+                                <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery</a>
+                                </li>
+                                <li><a href="/edge-animate-training.html">Edge Animate</a> 
+                                </li>
+
+                                <li class="second-row-list"><h3>eLearning</h3>
+                                </li>
+                                <li><a href="/captivate-training.html">Captivate</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li><h3>Video</h3>
+                                </li>
+                                <li><a href="/adobe-after-effects-training.html">After Effects</a> 
+                                </li>
+                                <li><a href="/adobe-premiere-pro-training.html">Premiere Pro</a>
+                                </li>
+                                <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
+                                </li>
+
+                                <li class="second-row-list"><h3>Online Marketing</h3>
+                                </li>
+                                <li><a href="/training-courses/social-media-training.html">Face-to-Face Courses</a>
+                                </li>
+                                <li><a href="/online-marketing-training-courses.html">Self Paced Online Courses</a>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li><h3>Most Popular Courses</h3>
+                                </li>
+                                <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a>
+                                </li>
+                                <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a>
+                                </li>
+                                <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a>
+                                </li>
+                                <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a>
+                                </li>
+                                <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a>
+                                </li>
+                            </ul>
+                            
+                        </ul>
+                    
                     </li>
-                    <li><a class="megamenu_drop">Courses</a> 
-                        <!-- Begin Item --> 
-                        <div class="dropdown_fullwidth">
-                            <!-- Begin Item Container -->
-                            <div class="medium-3 columns"> 
-                                <!-- Heading 1 -->
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>Adobe Design</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/adobe-indesign-courses.html">InDesign</a>
-                                            </li>
-                                            <li><a href="/adobe-photoshop-courses.html">Photoshop</a>
-                                            </li> 
-                                            <li><a href="/adobe-illustrator-courses.html">Illustrator</a>
-                                            </li>
-                                            <li><a href="/digital-publishing-training.html">Digital Publishing</a>
-                                            </li>
-                                            <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>Packages</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
-                                            </li>
-                                            <li><a href="/web-design-courses.html">Web Design Package</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="medium-3 columns">
-                                <!-- Heading 1 -->
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>Web</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/html-courses.html">HTML5 &amp; CSS3</a>
-                                            </li>
-                                            <li><a href="/dreamweaver-courses.html">Dreamweaver</a>
-                                            </li>
-                                            <li><a href="/flash-courses.html">Flash</a>
-                                            </li> 
-                                            <li><a href="/wordpress-training-courses.html">WordPress</a>
-                                            </li>
-                                            <li><a href="/javascript-training-courses.html">JavaScript &amp; jQuery</a>
-                                            </li>
-                                            <li><a href="/edge-animate-training.html">Edge Animate</a> 
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>eLearning</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/captivate-training.html">Captivate</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="medium-3 columns">
-                                <!-- Heading 1 -->
-                                <div class="row"> 
-                                    <div class="large-12 columns">
-                                        <h3>Video</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/adobe-after-effects-training.html">After Effects</a> 
-                                            </li>
-                                            <li><a href="/adobe-premiere-pro-training.html">Premiere Pro</a>
-                                            </li>
-                                            <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>Online Marketing</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/training-courses/social-media-training.html">Face-to-Face Courses</a>
-                                            </li>
-                                            <li><a href="/online-marketing-training-courses.html">Self Paced Online Courses</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="medium-3 columns"> 
-                                <div class="row">
-                                    <div class="large-12 columns">
-                                        <h3>Most Popular Courses</h3>
-                                        <ul class="list_unstyled">
-                                            <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a>
-                                            </li>
-                                            <li><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a>
-                                            </li>
-                                            <li><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a>
-                                            </li>
-                                            <li><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a>
-                                            </li>
-                                            <li><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Item Container -->
-                    </li>
-                    <!-- End Item -->
-                    <li><a class="megamenu_drop">About</a>
-                        <!-- Begin Item -->
-                        <div class="dropdown_2columns dropdown_container">
-                            <!-- Begin Item Container -->
-                            <ul class="dropdown_flyout">
+
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">About</span>
+                    
+                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
+                            
+                            <ul>
                                 <li><a href="/training/training-benefits.html">Why Train With Us</a>
                                 </li>
                                 <li><a href="/training/faq.html">FAQs &amp; Student Info</a>
@@ -227,23 +200,25 @@
                                 <li><a>Support</a>
                                 </li>-->
                             </ul>
-                        </div>
-                        <!-- End Item Container -->
+                            
+                        </ul>
+                    
                     </li>
-                    <!-- End Item -->
+
                     <li><a href="/training/training-course-packages.html">Deals</a>
                     </li>
+
                     <li><a href="/training/custom-training.html">Custom Training</a> 
-                    </li>
-                    <!-- End Item -->
+                    </li> 
+
                     <li><a href="/calendar.html">Course Dates</a>
                     </li>
-                    <!-- End Item -->
-                    <li><a href="/training/locations.html" class="megamenu_drop">Locations</a>
-                        <!-- Begin Item -->
-                        <div class="dropdown_3columns dropdown_container"> 
-                            <!-- Begin Item Container -->
-                            <ul class="list_unstyled">
+
+                    <li> <a href="/training/locations.html">Locations</a> 
+                    
+                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
+                            
+                            <ul>
                                 <li><a href="/training/locations.html#sydney-map">Sydney | 60 York St</a>
                                 </li>
                                 <li><a href="/training/locations.html#melbourne-map">Melbourne | 20 Queen St</a>
@@ -253,15 +228,17 @@
                                 <li><a href="/training/locations.html#canberra-map">Canberra | 33 Ainslie Pl</a>
                                 </li>
                             </ul>
-                        </div>
-                        <!-- End Item Container -->
+                            
+                        </ul>
+                    
                     </li>
-                    <!-- End Item -->
-                    <li><a class="megamenu_drop">Tips</a> 
-                        <!-- Begin Item -->
-                        <div class="dropdown_3columns dropdown_container">
-                            <!-- Begin Item Container -->
-                            <ul class="list_unstyled">
+
+
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Tips</span>
+                    
+                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
+                            
+                            <ul>
                                 <li><a href="/tips/adobe-software-getting-started.html">Adobe Software Versions</a>
                                 </li>
                                 <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing</a>
@@ -273,16 +250,17 @@
                                 <li><a href="/web-design-courses.html">Web Design</a>
                                 </li>
                             </ul>
-                        </div>
-                        <!-- End Item Container -->
+                
+                        </ul>
+                    
                     </li>
-                    <!-- End Item -->
-                    <li class="right phone-number"><a href="tel:1300441891">1300 441 891</a></li>
+
+                    <li class="pnone-number"> <a href="tel:1300441891">1300 441 891</a> </li>
+
                 </ul>
-                <!-- End Mega Menu -->
+
             </div>
         </div>
-        <!-- End Menu Container -->
     </div>
     <!-- Megamenu End -->
 <!-- #EndLibraryItem --><main>
@@ -301,7 +279,9 @@
                     <div class="small-12 columns">
                         <h1>Scheduled Course Dates</h1>
                     </div>
-                    <div class="small-12 medium-8 columns">
+                </div>
+                <div class="row">   
+                    <div class="small-12 columns">
                         <dl class="tabs" data-tab> 
                             <dd class="active calendar-tab-header"><a href="#calendar-tab-1">Sydney</a></dd> 
                             <dd class="calendar-tab-header"><a href="#calendar-tab-2">Melbourne</a></dd> 
@@ -474,8 +454,7 @@
             <td class="row-name">Photoshop Essentials</td>
             <td>8 &amp; 9<br>
               17 &amp; 18</td>
-            <td>6 &amp; 7<br>
-              12 &amp; 13<br>
+            <td>12 &amp; 13<br>
               21 &amp; 22<br>
               29 &amp; 30</td>
             <td>9 &amp; 10<br>
@@ -3578,10 +3557,14 @@
                             </div> 
                         </div>
                     </div>  
-                    <div class="small-12 medium-4 columns end">
-                        <aside>
-                            <div class="small-12 columns book-and-pay-now"></div>
-                            <div class="small-12 columns book-and-pay-later"></div>
+                </div>
+                <div class="row"> 
+                    <aside>  
+                        <div class="small-12 medium-6 columns">
+                            <div class="small-12 columns end book-and-pay-now"></div>
+                            <div class="small-12 columns end book-and-pay-later"></div>
+                        </div>
+                        <div class="small-12 medium-6 columns end second-column">
                             <div class="row">
                                 <div class="small-12 columns end custom-training">
                                     <div class="small-12 columns calendar-custom-training"></div>
@@ -3640,8 +3623,8 @@
                                 </table>
                                 <span class="foot-note">* Please see our T&amp;Cs for further details.</span>
                             </div>
-                        </aside>
-                    </div>  
+                        </div>  
+                    </aside>
                 </div>
             </div>
         </main><!-- #BeginLibraryItem "/Library/footer.lbi" -->    <!-- Footer Start -->
@@ -3793,22 +3776,7 @@
             </script>
         <![endif]-->
         <script src="/js/app.js"></script>
-        <script type="text/javascript" src="/js/megamenu-plugins-min.js"></script>
         <script type="text/javascript" src="/js/fastclick.js"></script>
-        <!-- Mega Menu Plugins -->
-        <script>
-            $(document).ready(function ($) {
-                $('.megamenu').megaMenuCompleteSet({
-                    menu_speed_show: 300, // Time (in milliseconds) to show a drop down
-                    menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
-                    menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
-                    menu_effect: 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
-                    menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
-                    menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
-                    menu_responsive: 1 // 1 = Responsive, 0 = Not responsive
-                });
-            });
-        </script>
 
         <!-- Support rem units in older IEs -->
         <!--[if lt IE 9]>
@@ -3820,15 +3788,12 @@
         
         <!-- Fix for Bosweb implementation of course upcoming dates selection -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-        <!-- #EndLibraryItem --><script src="/js/ng_responsive_tables.js"></script>
-        <script type="text/javascript">
-            $(function(){
-              $('table.responsive').ngResponsiveTables({
-                smallPaddingCharNo: 13,
-                mediumPaddingCharNo: 18,
-                largePaddingCharNo: 30
-              });
-            });
+        <!-- #EndLibraryItem --><!--
+        <script src="/js/stacktable.js" type="text/javascript"></script>
+
+        <script>
+          $('.large-only').stacktable({myClass:'stacktable small-only'});
         </script>
+                    -->
     </body>
 </html>
