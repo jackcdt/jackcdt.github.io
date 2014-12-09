@@ -130,27 +130,6 @@ $calendar-color: #2088D1;
         }
     }
 
-    @media screen and (max-width: 1025px) {
-        @include responsive-table($calendar-color);
-         
-        -webkit-scrollbar {
-            -webkit-appearance: none;
-        }
-
-        -webkit-scrollbar:vertical {
-            width: 5px;
-        }
-
-        -webkit-scrollbar:horizontal {
-            height: 5px;
-        } 
-
-        -webkit-scrollbar-thumb {
-            border-radius: 8px;
-            background-color: rgba(140, 140, 140, 0.5);
-        }
-    }
-
     .custom-training {
         .custom-training-logo {
             border: 1px solid #686F74; 
@@ -160,9 +139,41 @@ $calendar-color: #2088D1;
             margin-top: $margin-bottom-default / 4;
             margin-bottom: $margin-bottom-default / 4;
         }
+
+        .prefer-custom-training-text {
+            @media screen and (min-width: 420px) and (max-width: 640px) { 
+                max-width: 65%;
+            }
+
+            @media screen and (min-width: 641px) and (max-width: 895px) { 
+                max-width: 100%;
+            }
+
+            @media screen and (min-width: 896px) { 
+                max-width: 65%;
+            }
+        }
     }
 
     .training-checklist {
         @include training-checklist($calendar-color);
+
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+            max-width: 65%;
+        }
+
+        @media screen and (min-width: 641px) and (max-width: 895px) { 
+            max-width: 100%;
+        }
+
+        @media screen and (min-width: 896px) { 
+            max-width: 65%;
+        }
+    }
+
+    .second-column {
+        @media screen and (min-width: 896px) { 
+            margin-left: -100px;
+        }
     }
 }

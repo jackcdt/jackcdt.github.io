@@ -43,9 +43,10 @@
 
         <!--[if IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/css3pie/2.0beta1/PIE_IE9.js"></script>
+            <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <![endif]-->
-        
-        <!--[if gt IE 8]>-->
+
+        <!--[if !IE]>-->
             <link href="/stylesheets/modern-browsers-styles.css" rel="stylesheet" />
         <!--<![endif]-->
 
@@ -92,7 +93,7 @@
 
                     <li class="title"> <a href="tel:1300441891">1300 441 891</a> </li>
 
-                    <li class="menu-list"><span class="menu-item">Courses</span>
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Courses</span>
                     
                         <ul class="drop-down full-width hover-fade">       <!-- full width drop down with 4 columns -->
 
@@ -179,7 +180,7 @@
                     
                     </li>
 
-                    <li class="menu-list"><span class="menu-item">About</span>
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">About</span>
                     
                         <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
                             
@@ -233,7 +234,7 @@
                     </li>
 
 
-                    <li class="menu-list"><span class="menu-item">Tips</span>
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Tips</span>
                     
                         <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
                             
@@ -278,7 +279,9 @@
                     <div class="small-12 columns">
                         <h1>Scheduled Course Dates</h1>
                     </div>
-                    <div class="small-12 medium-8 columns">
+                </div>
+                <div class="row">   
+                    <div class="small-12 columns">
                         <dl class="tabs" data-tab> 
                             <dd class="active calendar-tab-header"><a href="#calendar-tab-1">Sydney</a></dd> 
                             <dd class="calendar-tab-header"><a href="#calendar-tab-2">Melbourne</a></dd> 
@@ -3554,10 +3557,14 @@
                             </div> 
                         </div>
                     </div>  
-                    <div class="small-12 medium-4 columns end">
-                        <aside>
-                            <div class="small-12 columns book-and-pay-now"></div>
-                            <div class="small-12 columns book-and-pay-later"></div>
+                </div>
+                <div class="row"> 
+                    <aside>  
+                        <div class="small-12 medium-6 columns">
+                            <div class="small-12 columns end book-and-pay-now"></div>
+                            <div class="small-12 columns end book-and-pay-later"></div>
+                        </div>
+                        <div class="small-12 medium-6 columns end second-column">
                             <div class="row">
                                 <div class="small-12 columns end custom-training">
                                     <div class="small-12 columns calendar-custom-training"></div>
@@ -3616,8 +3623,8 @@
                                 </table>
                                 <span class="foot-note">* Please see our T&amp;Cs for further details.</span>
                             </div>
-                        </aside>
-                    </div>  
+                        </div>  
+                    </aside>
                 </div>
             </div>
         </main><!-- #BeginLibraryItem "/Library/footer.lbi" -->    <!-- Footer Start -->
@@ -3781,15 +3788,12 @@
         
         <!-- Fix for Bosweb implementation of course upcoming dates selection -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-        <!-- #EndLibraryItem --><script src="/js/ng_responsive_tables.js"></script>
-        <script type="text/javascript">
-            $(function(){
-              $('table.responsive').ngResponsiveTables({
-                smallPaddingCharNo: 13,
-                mediumPaddingCharNo: 18,
-                largePaddingCharNo: 30
-              });
-            });
+        <!-- #EndLibraryItem --><!--
+        <script src="/js/stacktable.js" type="text/javascript"></script>
+
+        <script>
+          $('.large-only').stacktable({myClass:'stacktable small-only'});
         </script>
+                    -->
     </body>
 </html>

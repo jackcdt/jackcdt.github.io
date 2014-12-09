@@ -13,12 +13,38 @@ $calendar-spacing: 40px;
     .book-and-pay-now { 
         @include calendar-sprite(book-and-pay-now); 
         @include responsive-sprite($map, book-and-pay-now , 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+            @include responsive-sprite($map, book-and-pay-now , 65%);
+        }
+
+        @media screen and (min-width: 641px) and (max-width: 895px) { 
+            @include responsive-sprite($map, book-and-pay-now , 100%);
+        }
+
+        @media screen and (min-width: 896px) { 
+            @include responsive-sprite($map, book-and-pay-now , 65%);
+        }
+
         margin-bottom: 14px;
     }  
 
     .book-and-pay-later { 
         @include calendar-sprite(book-and-pay-later); 
         @include responsive-sprite($map, book-and-pay-later , 100%);
+
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+            @include responsive-sprite($map, book-and-pay-later , 65%);
+        }
+
+        @media screen and (min-width: 641px) and (max-width: 895px) { 
+            @include responsive-sprite($map, book-and-pay-later , 100%);
+        }
+
+        @media screen and (min-width: 896px) { 
+            @include responsive-sprite($map, book-and-pay-later , 65%);
+        }
+
         margin-bottom: 16px;
     } 
  
@@ -26,7 +52,15 @@ $calendar-spacing: 40px;
         @include calendar-sprite(calendar-custom-training); 
         @include responsive-sprite($map, calendar-custom-training , 100%);
 
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
+        @media screen and (min-width: 420px) and (max-width: 640px) { 
+            @include responsive-sprite($map, calendar-custom-training , 65%);
+        }
+
+        @media screen and (min-width: 641px) and (max-width: 895px) { 
+            @include responsive-sprite($map, calendar-custom-training , 100%);
+        }
+
+        @media screen and (min-width: 896px) { 
             @include responsive-sprite($map, calendar-custom-training , 65%);
         }
 
