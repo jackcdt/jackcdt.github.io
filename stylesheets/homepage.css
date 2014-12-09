@@ -6675,6 +6675,10 @@ h4 {
 /* Main content title with border (not necessarily h1)*/
 /* Color paragraph header */
 /* Color bold list header */
+/* line 77, ../scss/_custom/components/_cdt-typography.scss */
+.training-package-link, .training-package-link:hover, .training-package-link:focus {
+  color: #000; }
+
 /* line 1, ../scss/_custom/components/_read-more-btn.scss */
 .seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .why-train-bg .train-with-us .learn-more {
   background-color: #FCCD39;
