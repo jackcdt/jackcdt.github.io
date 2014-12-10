@@ -5328,12 +5328,12 @@ body {
 /* Sets the browser default size. */
 /* Baseline grid. */
 /* Custom fonts */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
 
-/* "This is where the magic happens" —Everyone on MTV Cribs. */
+/* "This is where the magic happens" ÔÇöEveryone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
 .category-page .part-time-options {
   font-weight: 700; }
@@ -6082,7 +6082,7 @@ h4 {
   display: none; }
 
 /* media query */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 767px) {
   /* li tag layout */
   /* line 599, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > li,
@@ -6433,7 +6433,7 @@ h4 {
   line-height: 45px;
   padding-right: 75px; }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 767px) {
   /* line 936, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > .title a {
     text-align: right;
@@ -6443,7 +6443,7 @@ h4 {
   /* line 942, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu .pnone-number {
     display: none; } }
-@media screen and (min-width: 641px) and (max-width: 830px) {
+@media screen and (min-width: 641px) and (max-width: 767px) {
   /* line 948, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > .title a {
     padding-right: 75px; } }
@@ -6453,11 +6453,11 @@ h4 {
   .flat-mega-menu .drop-down.two-column ul,
   .flat-mega-menu .drop-down.full-width ul {
     width: 100%; } }
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 768px) {
   /* line 963, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu .title {
     display: none; } }
-@media only screen and (min-device-width: 830px) {
+@media only screen and (min-device-width: 769px) {
   /* line 969, ../scss/_custom/homepage/_megamenu.scss */
   .phone-number a {
     pointer-events: none;
@@ -6467,7 +6467,14 @@ h4 {
   .flat-mega-menu > ul > li > a,
   .flat-mega-menu > ul > li > .menu-item {
     padding-right: 30px; } }
-/* line 982, ../scss/_custom/homepage/_megamenu.scss */
+/* Make changes to squize expanded menu on iPad */
+@media screen and (min-width: 768px) and (max-width: 830px) {
+  /* line 984, ../scss/_custom/homepage/_megamenu.scss */
+  .flat-mega-menu > ul > li > a,
+  .flat-mega-menu > ul > li > .menu-item {
+    font-size: 11px;
+    padding-right: 10px; } }
+/* line 992, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu > ul h3 {
   color: #212121;
   text-shadow: 1px 1px 1px #FFF;
@@ -6476,30 +6483,30 @@ h4 {
   font-weight: 700;
   margin: 0 0 5px; }
 
-/* line 991, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1001, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .drop-down li a {
   color: #888;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif; }
 
-/* line 997, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1007, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .drop-down li a,
 .flat-mega-menu .drop-down ul li,
 .flat-mega-menu .drop-down.full-width ul li,
 .flat-mega-menu .drop-down.one-column ul li {
   padding-top: 5px;
-  padding-bottom: 0; }
+  padding-bottom: 3px; }
 
-/* line 1005, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1015, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .second-row-list {
   margin-top: 16px !important; }
 
-/* line 1009, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1019, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .drop-down ul {
   margin-top: 10px; }
 
 /* Custom colors */
-/* line 1015, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1025, ../scss/_custom/homepage/_megamenu.scss */
 .mega-menu {
   background: #212121;
   background: -webkit-linear-gradient(top, #333333 0%, #181818);
@@ -6512,7 +6519,7 @@ h4 {
   -moz-box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7);
   box-shadow: inset 0px 0px 2px rgba(40, 40, 40, 0.7); }
 
-/* line 1028, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1038, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu > ul {
   background: #212121;
   background: -webkit-linear-gradient(top, #333333 0%, #181818);
@@ -6521,14 +6528,14 @@ h4 {
   background: -ms-linear-gradient(top, #333333 0%, #181818);
   background: linear-gradient(to bottom, #333333 0%, #181818); }
 
-/* line 1037, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1047, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu > li:noactive {
   background: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
 
-/* line 1044, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1054, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu > ul > li:hover > a,
 .flat-mega-menu > ul > li:hover > .menu-item {
   background: #121212;
@@ -6540,7 +6547,7 @@ h4 {
   -o-transition: background 0.2s linear 0s, color 0.2s linear 0s;
   -webkit-transition: background 0.2s linear 0s, color 0.2s linear 0s; }
 
-/* line 1056, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1066, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu > li:hover, .flat-mega-menu > li:active,
 .flat-mega-menu .menu-list:hover, .flat-mega-menu .menu-list:active {
   background: #121212;
@@ -6548,7 +6555,7 @@ h4 {
   -moz-box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.2); }
 
-/* line 1064, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1074, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .drop-down {
   border: 1px solid #CCCCCC;
   border-top-width: 0;
@@ -6558,12 +6565,12 @@ h4 {
   -moz-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px; }
 
-/* line 1074, ../scss/_custom/homepage/_megamenu.scss */
+/* line 1084, ../scss/_custom/homepage/_megamenu.scss */
 .flat-mega-menu .drop-down li a {
   background-color: #FAFAFA; }
 
-@media screen and (max-width: 830px) {
-  /* line 1079, ../scss/_custom/homepage/_megamenu.scss */
+@media screen and (max-width: 767px) {
+  /* line 1089, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > li,
   .flat-mega-menu .menu-list {
     border-bottom-color: #383838; } }
