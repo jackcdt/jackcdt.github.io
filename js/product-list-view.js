@@ -5,7 +5,7 @@
 				var capture_area = product.find(".capture-details");
 
 				capture_area.prepend('Number of Participants<br/><input type="text" class="productTextInput quantity-field number-of-participants" value="1" /><br/>Participant Names<br/>');
-				capture_area.after('<li class="price"><a class="pointer validate-participants"><img src="/images/book/book-now.png"></a></li>');
+				capture_area.after('<li class="price"><a class="pointer validate-participants"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">BOOK NOW &gt;</a></li>');
 			},
 			controlFields: function(product) {
 				var capture_area = product.find(".capture-details"),

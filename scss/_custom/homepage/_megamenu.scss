@@ -593,7 +593,7 @@
 }
 
 /* media query */
-@media screen and (max-width:830px) {
+@media screen and (max-width:767px) {
 
 /* li tag layout */
 .flat-mega-menu > ul > li,
@@ -932,7 +932,7 @@ flat-mega-menu > ul > li:hover > .menu-item,
     padding-right: 75px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 767px) {
     .flat-mega-menu > ul > .title a {
         text-align: right;
         font-size: 1em;
@@ -944,7 +944,7 @@ flat-mega-menu > ul > li:hover > .menu-item,
     }
 }
 
-@media screen and (min-width: 641px) and (max-width: 830px) {
+@media screen and (min-width: 641px) and (max-width: 767px) {
     .flat-mega-menu > ul > .title a {
         padding-right: 75px;
     }
@@ -959,13 +959,13 @@ flat-mega-menu > ul > li:hover > .menu-item,
     }
 }
 
-@media screen and (min-width: 831px) {
+@media screen and (min-width: 768px) {
     .flat-mega-menu .title {
         display: none;
     }
 }
 
-@media only screen and (min-device-width: 830px) {
+@media only screen and (min-device-width: 769px) {
     .phone-number a {
        pointer-events: none;
        cursor: default;
@@ -978,6 +978,16 @@ flat-mega-menu > ul > li:hover > .menu-item,
 	    padding-right: 30px;
 	}
 }
+
+/* Make changes to squize expanded menu on iPad */
+@media screen and (min-width: 768px) and (max-width: 830px) {
+	.flat-mega-menu > ul > li > a,
+	.flat-mega-menu > ul > li > .menu-item {
+		font-size: 11px;
+		padding-right: 10px;
+	}
+}
+
 
 .flat-mega-menu > ul h3 {
 	color: #212121;
@@ -999,7 +1009,7 @@ flat-mega-menu > ul > li:hover > .menu-item,
 .flat-mega-menu .drop-down.full-width ul li, 
 .flat-mega-menu .drop-down.one-column ul li {
 	padding-top: 5px;
-	padding-bottom: 0;
+	padding-bottom: 3px;
 }
 
 .flat-mega-menu .second-row-list {
@@ -1075,7 +1085,7 @@ flat-mega-menu > ul > li:hover > .menu-item,
 	background-color: #FAFAFA;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 767px) {
     .flat-mega-menu > ul > li,
     .flat-mega-menu .menu-list {
     	border-bottom-color: #383838;

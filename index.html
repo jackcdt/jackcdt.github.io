@@ -272,7 +272,7 @@ To support REMs, use the REM-unit-polyfill
     </div>
     <!-- Megamenu End -->
 <!-- #EndLibraryItem --><main>
-    <ul class="example-orbit-content hide-for-small-only" data-orbit data-options="animation:slide;
+    <ul id="featured1" class="example-orbit-content hide-for-small-only" data-orbit data-options="animation:slide;
                   pause_on_hover:true;
                   animation_speed:500;
                   navigation_arrows:true;
@@ -1175,7 +1175,7 @@ To support REMs, use the REM-unit-polyfill
                 </dd>
             </dl>
         </div>
-    </main><!-- #BeginLibraryItem "Library/footer.lbi" -->    <!-- Footer Start -->
+    </main><!-- #BeginLibraryItem "/Library/footer-slider-page.lbi" -->    <!-- Footer Start -->
     <div class="footer-bg">
         <div class="row footer-logo">
             <div class="thumbnail footer-affiliates-img">
@@ -1186,7 +1186,7 @@ To support REMs, use the REM-unit-polyfill
                 </script>
             </div>
         </div> 
-        <div class="row wrapbuckets">
+        <div class="row wrapbuckets"> 
             <div class="medium-3 columns hide-for-small-only bucket">
                 <h3>POPULAR COURSES</h3>
                 <ul class="no-bullet">
@@ -1205,7 +1205,7 @@ To support REMs, use the REM-unit-polyfill
                 </ul>
             </div>
             <div class="medium-3 small-6 columns bucket">
-                <h3>GET IN TOUCH</h3>
+                <h3>GET IN TOUCH</h3> 
                 <ul class="no-bullet">
                     <li>
                         <strong>
@@ -1323,6 +1323,20 @@ To support REMs, use the REM-unit-polyfill
                 })(jQuery);
             </script>
         <![endif]-->
+        <script> 
+            // Stop slider after two rounds
+            var slidesCnt = 0;
+            (function($) {
+                $("#featured1").on("after-slide-change.fndtn.orbit", function(event, orbit) {
+
+                    ++slidesCnt;
+
+                    if (slidesCnt == orbit.total_slides * 2) {
+                        $("#featured1").siblings(".orbit-timer").click();
+                    }                
+                });
+            })(jQuery);
+        </script>
         <script src="/js/app.js"></script>
         <script type="text/javascript" src="/js/fastclick.js"></script>
 
