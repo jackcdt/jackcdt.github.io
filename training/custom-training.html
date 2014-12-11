@@ -266,12 +266,12 @@
     		<div class="cdt-custom-training">
                 <div class="custom-training-background">
                     <div class="testimonials-slider">
-                        <ul class="orbit-slider" data-orbit data-options="timer_speed: 5000;"> 
+                        <ul id="featured1" class="orbit-slider" data-orbit data-options="timer_speed: 5000;"> 
                             <li data-orbit-slide="headline-1"> 
                                 <div class="row slider-content">
                                     <div class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 columns">
                                         <div class="slide-header">Custom Adobe Premiere Pro Training</div>
-                                        <p class="testimonial-content">"Fantastic course, and the trainer was brilliant!"</br>"Highly recommended!"</p>
+                                        <p class="testimonial-content">"Fantastic course, and the trainer was brilliant!"<br/>"Highly recommended!"</p>
                                         <p class="testimonial-by">– L. MacDonald, NSW Fair Trading</p>
                                     </div>
                                 </div>
@@ -396,7 +396,7 @@
                    </div>   
                 </div>                 
             </div>
-        </main><!-- #BeginLibraryItem "/Library/footer.lbi" -->    <!-- Footer Start -->
+        </main><!-- #BeginLibraryItem "/Library/footer-slider-page.lbi" -->    <!-- Footer Start -->
     <div class="footer-bg">
         <div class="row footer-logo">
             <div class="thumbnail footer-affiliates-img">
@@ -407,7 +407,7 @@
                 </script>
             </div>
         </div> 
-        <div class="row wrapbuckets">
+        <div class="row wrapbuckets"> 
             <div class="medium-3 columns hide-for-small-only bucket">
                 <h3>POPULAR COURSES</h3>
                 <ul class="no-bullet">
@@ -426,7 +426,7 @@
                 </ul>
             </div>
             <div class="medium-3 small-6 columns bucket">
-                <h3>GET IN TOUCH</h3>
+                <h3>GET IN TOUCH</h3> 
                 <ul class="no-bullet">
                     <li>
                         <strong>
@@ -544,6 +544,20 @@
                 })(jQuery);
             </script>
         <![endif]-->
+        <script> 
+            // Stop slider after two rounds
+            var slidesCnt = 0;
+            (function($) {
+                $("#featured1").on("after-slide-change.fndtn.orbit", function(event, orbit) {
+
+                    ++slidesCnt;
+
+                    if (slidesCnt == orbit.total_slides * 2) {
+                        $("#featured1").siblings(".orbit-timer").click();
+                    }                
+                });
+            })(jQuery);
+        </script>
         <script src="/js/app.js"></script>
         <script type="text/javascript" src="/js/fastclick.js"></script>
 
