@@ -14,12 +14,12 @@
     <tbody> 
         <tr> 
             <td class="row-name">Flash Web Banners</td> 
-            <td>5</td>
+            <td><a href="/flash-actionscript/flash-web-banners">5</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>14</td>
+            <td>14</a></td>
         </tr>
         <tr> 
             <td class="row-name">Flash Essentials Courses</td> 
@@ -28,7 +28,7 @@
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>14 &amp; 15</td>
+            <td><a href="/flash-actionscript/flash-essentials">14 &amp; 15</a></td>
         </tr>
         <tr> 
             <td class="row-name">Flash ActionScript</td> 

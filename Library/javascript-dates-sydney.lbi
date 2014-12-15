@@ -16,19 +16,19 @@
             <td class="row-name">JavaScript Essentials</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>18 &amp; 19</td>
+            <td><a href="/javascript-jquery/javascript-essentials">18 &amp; 19</a></td>
             <td>&mdash;</td>
-            <td>15 &amp; 16</td>
+            <td><a href="/javascript-jquery/javascript-essentials">15 &amp; 16</a></td>
             <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name">jQuery Essentials</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>26 &amp; 27</td>
+            <td><a href="/javascript-jquery/jquery-essentials">26 &amp; 27</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>7 &amp; 8</td>
+            <td><a href="/javascript-jquery/jquery-essentials">7 &amp; 8</a></td>
         </tr>
     </tbody>    
  </table>  
