@@ -41,28 +41,16 @@ $book-spacing: 40px;
         border: 1px solid #686F74; 
     }
 
-    .book-and-pay-later {
-        @include book-sprite(book-and-pay-later); 
-        @include responsive-sprite($map, book-and-pay-later, 100%);
+    .book-and-pay {
+        @include book-sprite(book-and-pay); 
+        @include responsive-sprite($map, book-and-pay, 100%);
 
  
         @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, book-and-pay-later, 65%);
+           @include responsive-sprite($map, book-and-pay, 65%);
         }
 
         margin-bottom: 16px;
-    }
-
-    .book-and-pay-now {
-        @include book-sprite(book-and-pay-now); 
-        @include responsive-sprite($map, book-and-pay-now, 100%);
-
- 
-        @media screen and (min-width: 420px) and (max-width: 639px) { 
-           @include responsive-sprite($map, book-and-pay-now, 65%);
-        }
-
-        margin-bottom: 14px;    
     }
 
     .booking-step-1 {

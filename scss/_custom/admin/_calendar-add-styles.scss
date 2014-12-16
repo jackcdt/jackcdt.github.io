@@ -10,44 +10,11 @@ $calendar-spacing: 40px;
 .cdt-calendar {
     $map: $calendar-sprites; 
 
-    .book-and-pay-now { 
-        @include calendar-sprite(book-and-pay-now); 
-        @include responsive-sprite($map, book-and-pay-now , 100%);
-
-        @media screen and (min-width: 420px) and (max-width: 640px) { 
-            @include responsive-sprite($map, book-and-pay-now , 65%);
-        }
-
-        @media screen and (min-width: 641px) and (max-width: 895px) { 
-            @include responsive-sprite($map, book-and-pay-now , 100%);
-        }
-
-        @media screen and (min-width: 896px) { 
-            @include responsive-sprite($map, book-and-pay-now , 65%);
-        }
-
-        margin-bottom: 14px;
+    .book-and-pay { 
+        @include calendar-sprite(book-and-pay); 
+        @include responsive-sprite($map, book-and-pay, 100%);
     }  
 
-    .book-and-pay-later { 
-        @include calendar-sprite(book-and-pay-later); 
-        @include responsive-sprite($map, book-and-pay-later , 100%);
-
-        @media screen and (min-width: 420px) and (max-width: 640px) { 
-            @include responsive-sprite($map, book-and-pay-later , 65%);
-        }
-
-        @media screen and (min-width: 641px) and (max-width: 895px) { 
-            @include responsive-sprite($map, book-and-pay-later , 100%);
-        }
-
-        @media screen and (min-width: 896px) { 
-            @include responsive-sprite($map, book-and-pay-later , 65%);
-        }
-
-        margin-bottom: 16px;
-    } 
- 
     .calendar-custom-training { 
         @include calendar-sprite(calendar-custom-training); 
         @include responsive-sprite($map, calendar-custom-training , 100%);
@@ -60,10 +27,17 @@ $calendar-spacing: 40px;
             @include responsive-sprite($map, calendar-custom-training , 100%);
         }
 
-        @media screen and (min-width: 896px) { 
+        @media screen and (min-width: 896px) and (max-width: 1024px) { 
             @include responsive-sprite($map, calendar-custom-training , 65%);
         }
 
         border: 1px solid #686F74;  
     } 
+
+    .gradient-top { 
+        @include calendar-sprite(gradient-top); 
+        @include responsive-sprite($map, gradient-top , 100%);
+        max-height: 46px;
+        margin-top: -2px;
+    }  
 }
