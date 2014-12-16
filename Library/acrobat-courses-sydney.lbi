@@ -16,19 +16,19 @@
             <td class="row-name">Acrobat Essentials</td> 
 			<td>&mdash;</td>
 			<td>&mdash;</td>
-			<td>12</td>
-			<td>30</td>
+			<td><a href="/acrobat/acrobat-essentials">12</a></td>
+			<td><a href="/acrobat/acrobat-essentials">30</a></td>
 			<td>&mdash;</td>
-			<td>11</td>
+			<td><a href="/acrobat/acrobat-essentials">11</a></td>
         </tr>
         <tr> 
             <td class="row-name">Acrobat Forms</td> 
 			<td>&mdash;</td>
 			<td>&mdash;</td>
-			<td>13</td>
-			<td>20</td>
+			<td><a href="/acrobat/acrobat-forms">13</a></td>
+			<td><a href="/acrobat/acrobat-forms">20</a></td>
 			<td>&mdash;</td>
-			<td>12</td>
+			<td><a href="/acrobat/acrobat-forms">12</a></td>
         </tr>
     </tbody>    
  </table>  

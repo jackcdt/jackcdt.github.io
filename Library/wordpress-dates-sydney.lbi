@@ -14,23 +14,23 @@
 
         <tr> 
             <td class="row-name">WordPress Essentials</td>
-            <td>8</td>
-            <td>8<br>
-              23</td>
-            <td>12<br>
-              23</td>
-            <td>16</td>
-            <td>1</td>
-            <td>7</td>
+            <td><a href="/wordpress/wordpress-essentials">8</a></td>
+            <td><a href="/wordpress/wordpress-essentials">8</a><br>
+              <a href="/wordpress/wordpress-essentials">23</a></td>
+            <td><a href="/wordpress/wordpress-essentials">12</a><br>
+              <a href="/wordpress/wordpress-essentials">23</a></td>
+            <td><a href="/wordpress/wordpress-essentials">16</a></td>
+            <td><a href="/wordpress/wordpress-essentials">1</a></td>
+            <td><a href="/wordpress/wordpress-essentials">7</a></td>
         </tr>
         <tr> 
             <td class="row-name">WordPress Advanced</td>
-            <td>11</td>
+            <td><a href="/wordpress/wordpress-advanced">11</a></td>
             <td>&mdash;</td>
-            <td>13</td>
-            <td>17</td>
+            <td><a href="/wordpress/wordpress-advanced">13</a></td>
+            <td><a href="/wordpress/wordpress-advanced">17</a></td>
             <td>&mdash;</td>
-            <td>8</td>
+            <td><a href="/wordpress/wordpress-advanced">8</a></td>
         </tr>
     </tbody>    
  </table>  

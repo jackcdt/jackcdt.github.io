@@ -15,20 +15,20 @@
         <tr> 
             <td class="row-name">Edge Animate Introduction</td> 
             <td>&mdash;</td>
-            <td>15</td>
-            <td>25</td>
+            <td><a href="/edge/edge-essentials">15</a></td>
+            <td><a href="/edge/edge-essentials">25</a></td>
             <td>&mdash;</td>
-            <td>22</td>
-            <td>21</td>
+            <td><a href="/edge/edge-essentials">22</a></td>
+            <td><a href="/edge/edge-essentials">21</a></td>
         </tr>
         <tr> 
             <td class="row-name">Edge Animate Advanced</td> 
             <td>&mdash; </td>
-            <td>16</td>
+            <td><a href="/edge/edge-advanced">16</a></td>
             <td>&mdash;</td>
-            <td>11</td>
+            <td><a href="/edge/edge-advanced">11</a></td>
             <td>&mdash;</td>
-            <td>22</td>
+            <td><a href="/edge/edge-advanced">22</a></td>
         </tr>
     </tbody>    
  </table>  
