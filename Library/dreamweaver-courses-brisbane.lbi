@@ -13,20 +13,20 @@
     </thead> 
     <tbody> 
         <tr> 
-            <td class="row-name">HTML &amp; Web Principles</td> 
-            <td>17</td>
+            <td class="row-name"><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a></td> 
+            <td><a href="/html-html5/html-web-principles-brisbane">17</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>9</td>
-            <td>20</td>
-            <td>8 May</td>
+            <td><a href="/html-html5/html-web-principles-brisbane">9</a></td>
+            <td><a href="/html-html5/html-web-principles-brisbane">20</a></td>
+            <td><a href="/html-html5/html-web-principles-brisbane">8</a></td>
         </tr>
         <tr> 
-            <td class="row-name">Dreamweaver Essentials</td> 
+            <td class="row-name"><a href="/training-courses/dreamweaver-training-intro.html">Dreamweaver Essentials</a></td> 
             <td colspan="6">Custom training can be organised.</td>
         </tr>
         <tr> 
-            <td class="row-name">CSS Essentials</td> 
+            <td class="row-name"><a href="/training-courses/css-training.html">CSS Essentials</a></td> 
             <td colspan="6">Custom training can be organised.</td>
         </tr>
     </tbody>    
