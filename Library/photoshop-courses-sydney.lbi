@@ -13,7 +13,7 @@
     </thead> 
     <tbody> 
         <tr> 
-            <td class="row-name">Photoshop Lite</td>
+            <td class="row-name"><a href="/photoshop-lite.html">Photoshop Lite</a></td>
             <td><a href="/photoshop/photoshop-lite">17</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-lite">5</a></td>
@@ -23,7 +23,7 @@
             <td><a href="/photoshop/photoshop-lite">27</a></td>
         </tr>
         <tr> 
-            <td class="row-name">Photoshop Essentials</td>
+            <td class="row-name"><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a></td>
             <td><a href="/photoshop/photoshop-essentials">17 &amp; 18</a></td>
             <td><a href="/photoshop/photoshop-essentials">12 &amp; 13</a><br>
               <a href="/photoshop/photoshop-essentials">21 &amp; 22</a><br>
@@ -39,7 +39,7 @@
              <a href="/photoshop/photoshop-essentials"> 27 &amp; 28</a></td>
         </tr>
         <tr> 
-            <td class="row-name">Photoshop for Web</td>
+            <td class="row-name"><a href="/training-courses/photoshop-web-training.html">Photoshop for Web</a></td>
             <td><a href="/photoshop/photoshop-for-web-design">10</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-for-web-design">4</a></td>
@@ -48,7 +48,7 @@
             <td><a href="/photoshop/photoshop-for-web-design">13</a></td>
         </tr> 
         <tr> 
-            <td class="row-name">Photoshop Advanced</td>
+            <td class="row-name"><a href="/training-courses/photoshop-training-advanced.html">Photoshop Advanced</a></td>
             <td><a href="/photoshop/photoshop-advanced">4 &amp; 5</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced">2 &amp; 3</a></td>
@@ -57,7 +57,7 @@
             <td>&mdash;</td>
         </tr>
         <tr> 
-            <td class="row-name">Photoshop Lightroom</td>
+            <td class="row-name"><a href="/training-courses/photoshop-lightroom-training-intro.html">Photoshop Lightroom</a></td>
             <td colspan="6">Custom only</td>
         </tr>
     </tbody>    

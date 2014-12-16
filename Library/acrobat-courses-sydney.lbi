@@ -13,7 +13,7 @@
     </thead> 
     <tbody> 
         <tr> 
-            <td class="row-name">Acrobat Essentials</td> 
+            <td class="row-name"><a href="/training-courses/acrobat-essentials.html">Acrobat Essentials</a></td> 
 			<td>&mdash;</td>
 			<td>&mdash;</td>
 			<td><a href="/acrobat/acrobat-essentials">12</a></td>
@@ -22,7 +22,7 @@
 			<td><a href="/acrobat/acrobat-essentials">11</a></td>
         </tr>
         <tr> 
-            <td class="row-name">Acrobat Forms</td> 
+            <td class="row-name"><a href="/training-courses/acrobat-forms.html">Acrobat Forms</a></td> 
 			<td>&mdash;</td>
 			<td>&mdash;</td>
 			<td><a href="/acrobat/acrobat-forms">13</a></td>

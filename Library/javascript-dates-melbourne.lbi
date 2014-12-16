@@ -13,7 +13,7 @@
     </thead> 
     <tbody> 
         <tr> 
-            <td class="row-name">JavaScript Essentials</td>
+            <td class="row-name"><a href="/training-courses/javascript-training.html">JavaScript Essentials</a></td>
             <td><a href="/javascript-jquery/javascript-essentials-melbourne">2 &amp; 3</a></td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/javascript-essentials-melbourne">5 &amp; 6</a></td>
@@ -22,7 +22,7 @@
             <td><a href="/javascript-jquery/javascript-essentials-melbourne">12 &amp; 13</a></td>
         </tr>
         <tr> 
-            <td class="row-name">jQuery Essentials</td>
+            <td class="row-name"><a href="/jquery-training.html">jQuery Essentials</a></td>
             <td><a href="/javascript-jquery/jquery-essentials-melbourne">4 &amp; 5</a></td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/jquery-essentials-melbourne">24 &amp; 25</a></td>

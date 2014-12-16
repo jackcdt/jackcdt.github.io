@@ -13,7 +13,7 @@
     <tbody> 
 
         <tr> 
-            <td class="row-name">WordPress Essentials</td>
+            <td class="row-name"><a href="/wordpress-essentials.html">WordPress Essentials</a></td>
             <td><a href="/wordpress/wordpress-essentials">8</a></td>
             <td><a href="/wordpress/wordpress-essentials">8</a><br>
               <a href="/wordpress/wordpress-essentials">23</a></td>
@@ -24,7 +24,7 @@
             <td><a href="/wordpress/wordpress-essentials">7</a></td>
         </tr>
         <tr> 
-            <td class="row-name">WordPress Advanced</td>
+            <td class="row-name"><a href="/wordpress-advanced.html">WordPress Advanced</a></td>
             <td><a href="/wordpress/wordpress-advanced">11</a></td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-advanced">13</a></td>

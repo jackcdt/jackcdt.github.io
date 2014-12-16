@@ -13,16 +13,16 @@
     </thead> 
     <tbody> 
         <tr> 
-            <td class="row-name">Flash Web Banners</td> 
+            <td class="row-name"><a href="/flash-web-banners.html">Flash Web Banners</a></td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-web-banners-melbourne">19</a></td>
             <td>&mdash;</td>
-            <td>20</a></td>
+            <td><a href="/flash-actionscript/flash-web-banners-melbourne">20</a></td>
             <td>&mdash;</td>
         </tr>
         <tr> 
-            <td class="row-name">Flash Essentials Courses</td> 
+            <td class="row-name"><a href="/training-courses/flash-training-intro.html">Flash Essentials Courses</a></td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials-melbourne">19 &amp; 20</a></td>
@@ -31,7 +31,7 @@
             <td>&mdash;</td>
         </tr>
         <tr> 
-            <td class="row-name">Flash ActionScript</td> 
+            <td class="row-name"><a href="/training-courses/flash-actionscript-training-intro.html">Flash ActionScript</a></td> 
             <td colspan="6" rowspan="3">Private training can be organised.</td>
         </tr>
     </tbody>    
