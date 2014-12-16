@@ -15,6 +15,12 @@ $calendar-color: #2088D1;
     .booking-options {
         margin: 1em 0;
     }
+
+    .calendar-breadcrumbs {
+        @media #{$medium-up} {
+            margin-top: -1.5em;
+        }
+    }
  
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
@@ -23,7 +29,7 @@ $calendar-color: #2088D1;
     h1 {
         @include large-thin-title;
         margin-bottom: 16px;
-        
+
         @media #{$medium-up} {
             margin-top: -1em;
         }
