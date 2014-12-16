@@ -7534,30 +7534,40 @@ h4 {
     vertical-align: top; }
   /* line 124, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
-    text-align: left; }
-  /* line 128, ../scss/_custom/admin/_calendar.scss */
+    text-align: left;
+    width: 175px; }
+  /* line 129, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td:not(:first-child), .cdt-calendar .responsive th:not(:first-child) {
-    white-space: nowrap; }
-/* line 134, ../scss/_custom/admin/_calendar.scss */
+    white-space: nowrap;
+    min-width: 80px; }
+  /* line 134, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar .responsive td a, .cdt-calendar .responsive th a, .cdt-calendar .responsive td a:hover, .cdt-calendar .responsive th a:hover, .cdt-calendar .responsive td a:focus, .cdt-calendar .responsive th a:focus {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    display: inline-block;
+    margin-bottom: 8px; }
+/* line 145, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 138, ../scss/_custom/admin/_calendar.scss */
+/* line 149, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .read-more-btn {
   margin-top: 6px;
   margin-bottom: 6px; }
 @media screen and (min-width: 420px) and (max-width: 640px) {
-  /* line 143, ../scss/_custom/admin/_calendar.scss */
+  /* line 154, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
 @media screen and (min-width: 641px) and (max-width: 895px) {
-  /* line 143, ../scss/_custom/admin/_calendar.scss */
+  /* line 154, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 100%; } }
 @media screen and (min-width: 896px) {
-  /* line 143, ../scss/_custom/admin/_calendar.scss */
+  /* line 154, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
-/* line 158, ../scss/_custom/admin/_calendar.scss */
+/* line 169, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1; }
   /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
@@ -7570,19 +7580,19 @@ h4 {
   .cdt-calendar .training-checklist .center-content {
     color: #2088D1; }
   @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 158, ../scss/_custom/admin/_calendar.scss */
+    /* line 169, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
   @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 158, ../scss/_custom/admin/_calendar.scss */
+    /* line 169, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 100%; } }
   @media screen and (min-width: 896px) {
-    /* line 158, ../scss/_custom/admin/_calendar.scss */
+    /* line 169, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
 @media screen and (min-width: 896px) {
-  /* line 174, ../scss/_custom/admin/_calendar.scss */
+  /* line 185, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .second-column {
     margin-left: -100px; } }
 
