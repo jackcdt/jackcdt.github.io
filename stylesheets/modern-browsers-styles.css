@@ -8653,61 +8653,12 @@ body {
   min-height: 44px; }
 
 /* line 64, admin/calendar/*.png */
-.calendar-sprite, .cdt-calendar .book-and-pay-now, .cdt-calendar .book-and-pay-later, .cdt-calendar .calendar-custom-training {
-  background-image: url('../images-dist/admin/calendar-s4dacfd9bea.png');
+.calendar-sprite, .cdt-calendar .book-and-pay, .cdt-calendar .calendar-custom-training, .cdt-calendar .gradient-top {
+  background-image: url('../images-dist/admin/calendar-sd73183a566.png');
   background-repeat: no-repeat; }
 
 /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
-.cdt-calendar .book-and-pay-now {
-  background-position: 0 -168px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 100%;
-  display: block;
-  height: 0;
-  padding-bottom: 50.40323%;
-  background-size: 100%;
-  background-position: 0 59.15493%;
-  margin-bottom: 14px; }
-  @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-now {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 32.7621%;
-      background-size: 100%;
-      background-position: 0 59.15493%; } }
-  @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-now {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 100%;
-      display: block;
-      height: 0;
-      padding-bottom: 50.40323%;
-      background-size: 100%;
-      background-position: 0 59.15493%; } }
-  @media screen and (min-width: 896px) {
-    /* line 13, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-now {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 32.7621%;
-      background-size: 100%;
-      background-position: 0 59.15493%; } }
-/* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
-.cdt-calendar .book-and-pay-later {
+.cdt-calendar .book-and-pay {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
@@ -8715,49 +8666,12 @@ body {
   width: 100%;
   display: block;
   height: 0;
-  padding-bottom: 51.6129%;
-  background-size: 100%;
-  background-position: 0 0%;
-  margin-bottom: 16px; }
-  @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-later {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 33.54839%;
-      background-size: 100%;
-      background-position: 0 0%; } }
-  @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-later {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 100%;
-      display: block;
-      height: 0;
-      padding-bottom: 51.6129%;
-      background-size: 100%;
-      background-position: 0 0%; } }
-  @media screen and (min-width: 896px) {
-    /* line 32, ../scss/_custom/admin/_calendar-add-styles.scss */
-    .cdt-calendar .book-and-pay-later {
-      /*    $sprite-width: $map-width;
-          $sprite-height: $map-height;
-      */
-      width: 65%;
-      display: block;
-      height: 0;
-      padding-bottom: 33.54839%;
-      background-size: 100%;
-      background-position: 0 0%; } }
-/* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+  padding-bottom: 23.82398%;
+  background-size: 202.12443%;
+  background-position: 0 0%; }
+/* line 18, ../scss/_custom/admin/_calendar-add-styles.scss */
 .cdt-calendar .calendar-custom-training {
-  background-position: 0 -333px;
+  background-position: 0 -197px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8765,11 +8679,11 @@ body {
   display: block;
   height: 0;
   padding-bottom: 41.08108%;
-  background-size: 134.05405%;
-  background-position: 0 100%;
+  background-size: 720%;
+  background-position: 0 69.61131%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+    /* line 18, ../scss/_custom/admin/_calendar-add-styles.scss */
     .cdt-calendar .calendar-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -8778,10 +8692,10 @@ body {
       display: block;
       height: 0;
       padding-bottom: 26.7027%;
-      background-size: 134.05405%;
-      background-position: 0 100%; } }
+      background-size: 720%;
+      background-position: 0 69.61131%; } }
   @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+    /* line 18, ../scss/_custom/admin/_calendar-add-styles.scss */
     .cdt-calendar .calendar-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -8790,10 +8704,10 @@ body {
       display: block;
       height: 0;
       padding-bottom: 41.08108%;
-      background-size: 134.05405%;
-      background-position: 0 100%; } }
-  @media screen and (min-width: 896px) {
-    /* line 51, ../scss/_custom/admin/_calendar-add-styles.scss */
+      background-size: 720%;
+      background-position: 0 69.61131%; } }
+  @media screen and (min-width: 896px) and (max-width: 1024px) {
+    /* line 18, ../scss/_custom/admin/_calendar-add-styles.scss */
     .cdt-calendar .calendar-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -8802,8 +8716,22 @@ body {
       display: block;
       height: 0;
       padding-bottom: 26.7027%;
-      background-size: 134.05405%;
-      background-position: 0 100%; } }
+      background-size: 720%;
+      background-position: 0 69.61131%; } }
+/* line 37, ../scss/_custom/admin/_calendar-add-styles.scss */
+.cdt-calendar .gradient-top {
+  background-position: 0 -313px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.45345%;
+  background-size: 100%;
+  background-position: 0 100%;
+  max-height: 46px;
+  margin-top: -2px; }
 
 /* line 88, admin/why-train-with-us/*.png */
 .why-train-with-us-sprite, .cdt-wtwu .wtwu-adobe-apple-authorised-logo, .cdt-wtwu .wtwu-classroom, .cdt-wtwu .wtwu-course-classroom, .cdt-wtwu .wtwu-private-training, .cdt-wtwu .wtwu-background, .cdt-wtwu .gradient-top {

@@ -7,6 +7,14 @@ $calendar-color: #2088D1;
     *:focus {
         outline:0;
     } 
+
+    .calendar-banner {
+        background-color: aliceblue;
+    }
+
+    .booking-options {
+        margin: 1em 0;
+    }
  
     .custom-breadcrumbs {
         margin-top: $margin-bottom-default / 2;
@@ -15,7 +23,7 @@ $calendar-color: #2088D1;
     h1 {
         @include large-thin-title;
         margin-bottom: 16px;
-
+        
         @media #{$medium-up} {
             margin-top: -1em;
         }
@@ -137,7 +145,7 @@ $calendar-color: #2088D1;
             font-size: 0.875rem;
             line-height: 1.125rem;
             display: inline-block;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         } 
     }
 
@@ -160,7 +168,7 @@ $calendar-color: #2088D1;
                 max-width: 100%;
             }
 
-            @media screen and (min-width: 896px) { 
+            @media screen and (min-width: 896px) and (max-width: 1024px) { 
                 max-width: 65%;
             }
         }
@@ -177,13 +185,13 @@ $calendar-color: #2088D1;
             max-width: 100%;
         }
 
-        @media screen and (min-width: 896px) { 
+        @media screen and (min-width: 896px) and (max-width: 1024px) { 
             max-width: 65%;
         }
     }
 
     .second-column {
-        @media screen and (min-width: 896px) { 
+        @media screen and (min-width: 896px) and (max-width: 1024px) { 
             margin-left: -100px;
         }
     }
