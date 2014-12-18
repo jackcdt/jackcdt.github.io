@@ -94,6 +94,11 @@ $calendar-color: #2088D1;
 
             @extend %t-base;
             @extend %t-bold;
+
+            span {
+                @include adjust-font-size-to(12px, 1);
+                @extend %t-light;
+            }
         }
 
         .accordion {

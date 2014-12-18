@@ -5355,7 +5355,7 @@ html {
   font-weight: 400; }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.seminars-ad .seminars-ad-title, .custom-training .prefer-custom-training-text .custom-training-text-header, .course-outline .course-header, .course-outline .course-header-2, .course-outline .and, .category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3, .category-page .and, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
+.seminars-ad .seminars-ad-title, .custom-training .prefer-custom-training-text .custom-training-text-header, .course-outline .course-header, .course-outline .course-header-2, .course-outline .and, .category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3, .category-page .and, .cdt-calendar .tabs dd a, .cdt-calendar .tabs-content h3 span, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
 .faq .about-courses,
 .faq .course-benefits,
 .faq .organise-course,
@@ -7517,21 +7517,25 @@ h4 {
   border-bottom: 1px dotted #dbdbdb;
   color: #2088D1;
   padding-bottom: 4px; }
+  /* line 98, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar .tabs-content h3 span {
+    font-size: 0.75em;
+    line-height: 2em; }
 /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .plus-minus-icon:before {
   content: "\2b"; }
 /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .active .plus-minus-icon:before {
   content: "\2d"; }
-/* line 104, ../scss/_custom/admin/_calendar.scss */
+/* line 109, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive {
   border: none;
   border-spacing: 0px;
   display: block; }
-  /* line 109, ../scss/_custom/admin/_calendar.scss */
+  /* line 114, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive thead {
     background-color: #fff; }
-    /* line 112, ../scss/_custom/admin/_calendar.scss */
+    /* line 117, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .responsive thead th {
       text-align: center;
       color: #2088D1;
@@ -7539,27 +7543,27 @@ h4 {
       padding-top: 0;
       font-size: 0.875em;
       line-height: 1.71429em; }
-    /* line 122, ../scss/_custom/admin/_calendar.scss */
+    /* line 127, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .responsive thead .location {
       text-align: left;
       text-transform: uppercase;
       color: #000;
       font-size: 1.125em;
       line-height: 1.33333em; }
-  /* line 132, ../scss/_custom/admin/_calendar.scss */
+  /* line 137, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive tbody tr td {
     border: 1px solid #dbdbdb;
     text-align: center;
     vertical-align: top; }
-  /* line 138, ../scss/_custom/admin/_calendar.scss */
+  /* line 143, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
     text-align: left;
     width: 175px; }
-  /* line 143, ../scss/_custom/admin/_calendar.scss */
+  /* line 148, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td:not(:first-child), .cdt-calendar .responsive th:not(:first-child) {
     white-space: nowrap;
     min-width: 80px; }
-  /* line 148, ../scss/_custom/admin/_calendar.scss */
+  /* line 153, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td a, .cdt-calendar .responsive th a, .cdt-calendar .responsive td a:hover, .cdt-calendar .responsive th a:hover, .cdt-calendar .responsive td a:focus, .cdt-calendar .responsive th a:focus {
     color: #000;
     text-decoration: none;
@@ -7567,26 +7571,26 @@ h4 {
     line-height: 1.125rem;
     display: inline-block;
     margin-bottom: 6px; }
-/* line 159, ../scss/_custom/admin/_calendar.scss */
+/* line 164, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 163, ../scss/_custom/admin/_calendar.scss */
+/* line 168, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .read-more-btn {
   margin-top: 6px;
   margin-bottom: 6px; }
 @media screen and (min-width: 420px) and (max-width: 640px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
 @media screen and (min-width: 641px) and (max-width: 895px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 100%; } }
 @media screen and (min-width: 896px) and (max-width: 1024px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
-/* line 183, ../scss/_custom/admin/_calendar.scss */
+/* line 188, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1; }
   /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
@@ -7599,19 +7603,19 @@ h4 {
   .cdt-calendar .training-checklist .center-content {
     color: #2088D1; }
   @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
   @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 100%; } }
   @media screen and (min-width: 896px) and (max-width: 1024px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
 @media screen and (min-width: 896px) and (max-width: 1024px) {
-  /* line 199, ../scss/_custom/admin/_calendar.scss */
+  /* line 204, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .second-column {
     margin-left: -100px; } }
 
