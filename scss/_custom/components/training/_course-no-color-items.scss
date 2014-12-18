@@ -89,6 +89,8 @@ $border-color: #2C2C2C;
         ul li {
             @include adjust-font-size-to(14px, 1);
             margin-left: -10px;
+            line-height: 1.4em;
+            margin-bottom: 5px;
         }
 
         .to-upper {
@@ -113,6 +115,11 @@ $border-color: #2C2C2C;
             span {
                 @extend %t-small;
             }
+        }
+
+        p {
+            @include adjust-font-size-to(14px, 1);
+            line-height: 1.4em;
         }
     }
 
@@ -146,6 +153,8 @@ $border-color: #2C2C2C;
         ul li {
             @extend %t-small;
             margin-left: -5px;
+            line-height: 1.4em;
+            margin-bottom: 9px;
         }
     }
 
