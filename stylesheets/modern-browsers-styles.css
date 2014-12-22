@@ -410,7 +410,7 @@ body {
   top: 1px; }
 
 /* line 128, training/adobe/indesign/indesign-advanced/*.png */
-.indesign-advanced-sprite, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .indesign-cc-cs6, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments, .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess {
+.indesign-advanced-sprite, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments, .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess {
   background-image: url('../images-dist/training/adobe/indesign/indesign-advanced-s8493bad5d6.png');
   background-repeat: no-repeat; }
 
@@ -447,23 +447,6 @@ body {
   min-height: 32px;
   top: -3px; }
 /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
-.indesign-advanced-course .indesign-cc-cs6 {
-  background-position: 0 -1068px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.33782%;
-  background-size: 310.92437%;
-  background-position: 0 83.76471%;
-  min-width: 115px;
-  min-height: 93px;
-  float: right;
-  margin-right: -15px;
-  margin-top: -10px; }
-/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .course-custom-training-logo {
   background-position: 0 -152px;
   /*    $sprite-width: $map-width;
@@ -477,7 +460,7 @@ body {
   background-position: 0 12.51029%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 43, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+    /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
     .indesign-advanced-course .course-custom-training-logo {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -488,7 +471,7 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 12.51029%; } }
-/* line 56, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 46, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-advanced {
   background-position: 0 -341px;
   /*    $sprite-width: $map-width;
@@ -503,7 +486,7 @@ body {
   margin-top: 20px !important;
   min-width: 65px;
   min-height: 63px; }
-/* line 65, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 55, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-interactivity {
   background-position: 0 -566px;
   /*    $sprite-width: $map-width;
@@ -519,7 +502,7 @@ body {
   margin-top: -12px;
   min-width: 66px;
   min-height: 57px; }
-/* line 74, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 64, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-ipad {
   background-position: 0 -707px;
   /*    $sprite-width: $map-width;
@@ -534,7 +517,7 @@ body {
   margin-left: 20px;
   min-width: 58px;
   min-height: 50px; }
-/* line 82, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 72, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-longdocuments {
   background-position: 0 -824px;
   /*    $sprite-width: $map-width;
@@ -549,7 +532,7 @@ body {
   margin-left: 15px;
   min-width: 66px;
   min-height: 50px; }
-/* line 90, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 80, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-essentials {
   background-position: 0 -465px;
   /*    $sprite-width: $map-width;
@@ -564,7 +547,7 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 98, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 88, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .ps-ess {
   background-position: 0 -1301px;
   /*    $sprite-width: $map-width;
@@ -579,7 +562,7 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 106, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+/* line 96, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .il-ess {
   background-position: 0 -965px;
   /*    $sprite-width: $map-width;
@@ -799,7 +782,7 @@ body {
   top: 1px; }
 
 /* line 88, training/adobe/indesign/indesign-long-docs/*.png */
-.indesign-long-docs-sprite, .indesign-long-docs-course .id-longdocuments, .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .indesign-cc-cs6, .indesign-long-docs-course .course-custom-training-logo, .indesign-long-docs-course .id-advanced {
+.indesign-long-docs-sprite, .indesign-long-docs-course .id-longdocuments, .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .course-custom-training-logo, .indesign-long-docs-course .id-advanced {
   background-image: url('../images-dist/training/adobe/indesign/indesign-long-docs-sb5747856d5.png');
   background-repeat: no-repeat; }
 
@@ -851,23 +834,6 @@ body {
   min-height: 32px;
   top: -3px; }
 /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
-.indesign-long-docs-course .indesign-cc-cs6 {
-  background-position: 0 -606px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.33782%;
-  background-size: 310.92437%;
-  background-position: 0 85.35211%;
-  min-width: 115px;
-  min-height: 93px;
-  float: right;
-  margin-right: -15px;
-  margin-top: -10px; }
-/* line 51, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
 .indesign-long-docs-course .course-custom-training-logo {
   background-position: 0 -152px;
   /*    $sprite-width: $map-width;
@@ -881,7 +847,7 @@ body {
   background-position: 0 23.38462%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 51, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+    /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
     .indesign-long-docs-course .course-custom-training-logo {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -892,7 +858,7 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 23.38462%; } }
-/* line 64, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
 .indesign-long-docs-course .id-advanced {
   background-position: 0 -341px;
   /*    $sprite-width: $map-width;
@@ -941,7 +907,7 @@ body {
   top: 1px; }
 
 /* line 96, training/adobe/indesign/indesign-interactivity/*.png */
-.indesign-interactivity-sprite, .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .indesign-cc-cs6, .indesign-interactivity-course .course-custom-training-logo, .indesign-interactivity-course .id-advanced, .indesign-interactivity-course .id-ipad {
+.indesign-interactivity-sprite, .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .course-custom-training-logo, .indesign-interactivity-course .id-advanced, .indesign-interactivity-course .id-ipad {
   background-image: url('../images-dist/training/adobe/indesign/indesign-interactivity-sbe02e3b373.png');
   background-repeat: no-repeat; }
 
@@ -993,23 +959,6 @@ body {
   min-height: 32px;
   top: -3px; }
 /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
-.indesign-interactivity-course .indesign-cc-cs6 {
-  background-position: 0 -723px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.33782%;
-  background-size: 310.92437%;
-  background-position: 0 87.42443%;
-  min-width: 115px;
-  min-height: 93px;
-  float: right;
-  margin-right: -15px;
-  margin-top: -10px; }
-/* line 51, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .course-custom-training-logo {
   background-position: 0 -152px;
   /*    $sprite-width: $map-width;
@@ -1023,7 +972,7 @@ body {
   background-position: 0 19.81747%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 51, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+    /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
     .indesign-interactivity-course .course-custom-training-logo {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -1034,7 +983,7 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 19.81747%; } }
-/* line 64, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+/* line 54, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .id-advanced {
   background-position: 0 -341px;
   /*    $sprite-width: $map-width;
@@ -1049,7 +998,7 @@ body {
   margin-left: 10px;
   min-width: 65px;
   min-height: 63px; }
-/* line 73, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+/* line 63, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .id-ipad {
   background-position: 0 -606px;
   /*    $sprite-width: $map-width;
@@ -1098,7 +1047,7 @@ body {
   top: 1px; }
 
 /* line 80, training/adobe/indesign/indesign-accessibility/*.png */
-.indesign-accessibility-sprite, .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .indesign-cc-cs6, .indesign-accessibility-course .course-custom-training-logo, .indesign-accessibility-course .id-accessibility {
+.indesign-accessibility-sprite, .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .course-custom-training-logo, .indesign-accessibility-course .id-accessibility {
   background-image: url('../images-dist/training/adobe/indesign/indesign-accessibility-s7509a4e6a1.png');
   background-repeat: no-repeat; }
 
@@ -1135,23 +1084,6 @@ body {
   min-height: 32px;
   top: -3px; }
 /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
-.indesign-accessibility-course .indesign-cc-cs6 {
-  background-position: 0 -441px;
-  /*    $sprite-width: $map-width;
-      $sprite-height: $map-height;
-  */
-  width: 5.8%;
-  display: block;
-  height: 0;
-  padding-bottom: 4.33782%;
-  background-size: 310.92437%;
-  background-position: 0 80.91743%;
-  min-width: 115px;
-  min-height: 93px;
-  float: right;
-  margin-right: -15px;
-  margin-top: -10px; }
-/* line 43, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
 .indesign-accessibility-course .course-custom-training-logo {
   background-position: 0 -152px;
   /*    $sprite-width: $map-width;
@@ -1165,7 +1097,7 @@ body {
   background-position: 0 31.34021%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 43, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+    /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
     .indesign-accessibility-course .course-custom-training-logo {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -1176,7 +1108,7 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 31.34021%; } }
-/* line 56, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+/* line 46, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
 .indesign-accessibility-course .id-accessibility {
   background-position: 0 -341px;
   /*    $sprite-width: $map-width;
@@ -2226,9 +2158,9 @@ body {
   min-width: 47px;
   min-height: 45px; }
 
-/* line 104, training/adobe/illustrator/illustrator-essentials/*.png */
-.illustrator-essentials-sprite, .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .course-custom-training-logo, .illustrator-essentials-course .il-advanced, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-essentials-s39b31ede9b.png');
+/* line 112, training/adobe/illustrator/illustrator-essentials/*.png */
+.illustrator-essentials-sprite, .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .course-custom-training-logo, .illustrator-essentials-course .il-advanced, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .illustrator-cc-cs6 {
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-essentials-se64023d0f3.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2242,7 +2174,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 64.57143%;
+  background-position: 0 51.88246%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2264,7 +2196,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .pdf {
-  background-position: 0 -773px;
+  background-position: 0 -987px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2273,7 +2205,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 88.24201%;
+  background-position: 0 90.55046%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2288,7 +2220,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.21618%;
+  background-position: 0 15.12438%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2301,7 +2233,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.21618%; } }
+      background-position: 0 15.12438%; } }
 /* line 53, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .il-advanced {
   background-position: 0 -442px;
@@ -2313,7 +2245,7 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 51.57526%;
+  background-position: 0 41.26984%;
   margin-top: -13px;
   min-width: 65px;
   min-height: 63px; }
@@ -2328,12 +2260,12 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 38.79408%;
+  background-position: 0 31.19854%;
   min-width: 50px;
   min-height: 50px; }
 /* line 69, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .ps-essentials {
-  background-position: 0 -877px;
+  background-position: 0 -1091px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2356,13 +2288,30 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 76.39681%;
+  background-position: 0 61.41155%;
   min-width: 50px;
   min-height: 50px; }
 /* line 83, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .ps-essentials-related,
 .illustrator-essentials-course .id-essentials-related {
   margin-left: 15px; }
+/* line 88, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
+.illustrator-essentials-course .illustrator-cc-cs6 {
+  background-position: 0 -773px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.046%;
+  background-size: 185%;
+  background-position: 0 78.87755%;
+  min-width: 115px;
+  min-height: 100px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -17px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -2396,9 +2345,9 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 96, training/adobe/illustrator/illustrator-lite/*.png */
-.illustrator-lite-sprite, .illustrator-lite-course .il-lite, .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .course-custom-training-logo, .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .id-lite {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-lite-s2b9d82e2ec.png');
+/* line 104, training/adobe/illustrator/illustrator-lite/*.png */
+.illustrator-lite-sprite, .illustrator-lite-course .il-lite, .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .course-custom-training-logo, .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .id-lite, .illustrator-lite-course .illustrator-cc-cs6 {
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-lite-s7d9289ed42.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
@@ -2412,7 +2361,7 @@ body {
   height: 0;
   padding-bottom: 5.88788%;
   background-size: 560.60606%;
-  background-position: 0 72.30971%;
+  background-position: 0 56.45492%;
   min-width: 55px;
   min-height: 63px;
   margin-top: 26px !important; }
@@ -2435,7 +2384,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .pdf {
-  background-position: 0 -658px;
+  background-position: 0 -872px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2444,7 +2393,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 86.01307%;
+  background-position: 0 89.07048%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2459,7 +2408,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 22.35294%;
+  background-position: 0 17.00224%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
@@ -2472,7 +2421,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 22.35294%; } }
+      background-position: 0 17.00224%; } }
 /* line 54, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .il-essentials {
   background-position: 0 -448px;
@@ -2484,13 +2433,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 58.48564%;
+  background-position: 0 45.71429%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
 /* line 62, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .ps-lite {
-  background-position: 0 -762px;
+  background-position: 0 -976px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2514,10 +2463,27 @@ body {
   height: 0;
   padding-bottom: 5.88788%;
   background-size: 560.60606%;
-  background-position: 0 44.75066%;
+  background-position: 0 34.93852%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 51px; }
+/* line 78, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
+.illustrator-lite-course .illustrator-cc-cs6 {
+  background-position: 0 -658px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.046%;
+  background-size: 185%;
+  background-position: 0 75.71922%;
+  min-width: 115px;
+  min-height: 100px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -17px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-lite-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
