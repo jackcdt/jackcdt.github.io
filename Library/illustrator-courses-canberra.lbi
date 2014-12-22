@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>CANBERRA</strong></th> 
-            <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
         </tr> 
     </thead> 
     <tbody> 
@@ -26,8 +26,8 @@
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-essentials-canberra">2 &amp; 3</a></td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
         <tr> 

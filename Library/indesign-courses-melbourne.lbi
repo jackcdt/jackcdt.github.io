@@ -3,29 +3,26 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/indesign-lite.html">InDesign Lite</a></td>
-            <td><a href="/indesign/indesign-lite-melbourne">17</a></td>
             <td><a href="/indesign/indesign-lite-melbourne">12</a></td>
             <td><a href="/indesign/indesign-lite-melbourne">11</a></td>
             <td><a href="/indesign/indesign-lite-melbourne">16</a></td>
             <td><a href="/indesign/indesign-lite-melbourne">14</a></td>
             <td><a href="/indesign/indesign-lite-melbourne">11</a></td>
+            <td><a href="/indesign/indesign-lite-melbourne">15</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a></td>
-            <td><a href="/indesign/indesign-essentials-melbourne">3 &amp; 4</a><br>
-              <a href="/indesign/indesign-essentials-melbourne">8 &amp; 9</a><br>
-              <a href="/indesign/indesign-essentials-melbourne">17 &amp; 18</a></td>
             <td><a href="/indesign/indesign-essentials-melbourne">7 &amp; 8</a><br>
               <a href="/indesign/indesign-essentials-melbourne">15 &amp; 16</a><br>
               <a href="/indesign/indesign-essentials-melbourne">20 &amp; 21</a><br>
@@ -43,24 +40,27 @@
               <a href="/indesign/indesign-essentials-melbourne">29 &amp; 30</a></td>
             <td><a href="/indesign/indesign-essentials-melbourne">11 &amp; 12</a><br>
               <a href="/indesign/indesign-essentials-melbourne">21 &amp; 22</a></td>
+            <td><a href="/indesign/indesign-essentials-melbourne">2 &amp; 3</a><br>
+              <a href="/indesign/indesign-essentials-melbourne">15 &amp; 16</a><br>
+              <a href="/indesign/indesign-essentials-melbourne">24 &amp; 25</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-advanced.html">InDesign Advanced</a></td>
-            <td><a href="/indesign/indesign-advanced-melbourne">10 &amp; 11</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-advanced-melbourne">18 &amp; 19</a></td>
             <td><a href="/indesign/indesign-advanced-melbourne">24 &amp; 25</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-advanced-melbourne">13 &amp; 14</a></td>
+            <td><a href="/indesign/indesign-advanced-melbourne">17 &amp; 18</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-indesign-long-documents.html">InDesign Long Documents</a></td>
-            <td><a href="/indesign/indesign-long-documents-melbourne">10</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-long-documents-melbourne">18</a></td>
             <td><a href="/indesign/indesign-long-documents-melbourne">24</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-long-documents-melbourne">13</a></td>
+            <td><a href="/indesign/indesign-long-documents-melbourne">17</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-to-epubs-training.html">eBooks: Creating ePubs</a></td>
@@ -74,34 +74,34 @@
         <tr> 
             <td class="row-name"><a href="/training-courses/digital-magazine-mobile-devices-training.html">Adobe DPS Content Creation</a></td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets-melbourne">2 &amp; 3</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets-melbourne">12 &amp; 13</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets-melbourne">27 &amp; 28</a></td>
             <td>&mdash;</td>
+            <td><a href="/indesign/indesign-to-ipad-and-tablets-melbourne">11 &amp; 12</a></td>
         </tr>
         <tr> 
-            <td class="row-name"><a href="/training-courses/adobe-dps-single-edition-training.html">DPS Single Edition or Professional App Publishing</a></td>
-            <td colspan="6">Custom only</td>
+            <td class="row-name"><a href="/training-courses/adobe-dps-single-edition-training.html">DPS Professional App Publishing</a></td>
+            <td colspan="6">Custom training only, please phone 1300 441 891 to discuss</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-interactivity-training.html">InDesign Interactive PDFs</a></td>
-            <td><a href="/indesign/indesign-interactivity-animation-melbourne">28 Nov</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-interactivity-animation-melbourne">20</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-interactivity-animation-melbourne">1</a></td>
             <td><a href="/indesign/indesign-interactivity-animation-melbourne">25</a></td>
+            <td><a href="/indesign/indesign-interactivity-animation-melbourne">17 Jul</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-accessibility-training.html">InDesign Accessibility<br>
             <em>(1 – 4.30pm)</em></a></td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/indesign/indesign-accessibility-melbourne">23</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-accessibility-melbourne">22</a></td>
             <td>&mdash;</td>
+            <td><a href="/indesign/indesign-accessibility-melbourne">4</a></td>
         </tr>
     </tbody>    
  </table>  
