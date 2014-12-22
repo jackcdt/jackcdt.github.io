@@ -469,6 +469,14 @@
   display: block !important; }
 
 /* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/homepage/_homepage-old-ie-styles.scss */
+.homepage {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/homepage/_homepage-old-ie-styles.scss */
+  .homepage .hide-old-ie {
+    display: none; }
+
+/* Push up the custom training to compensate for no image */
 /* line 3, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category {
   /* Hide all sprites */ }

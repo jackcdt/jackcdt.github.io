@@ -1,0 +1,287 @@
+@import "_custom/common";
+
+// Create sprite using Compass
+@import "compass/utilities/sprites";
+ 
+// Required for correct operation, must be named same as the sprite
+$logos-spacing: 40px; 
+
+@import "homepage/logos/*.png";  
+
+.homepage {
+    $map: $logos-sprites;  
+
+    .fb_icon {  
+        @include logos-sprite(fb_icon); 
+        @include responsive-sprite($map, fb_icon, 5.8%);
+        min-width: 35px;
+        min-height: 35px;
+    } 
+
+    .ga-essentials {  
+        @include logos-sprite(ga-essentials); 
+        @include responsive-sprite($map, ga-essentials, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .linkedin-essentials {  
+        @include logos-sprite(linkedin-essentials); 
+        @include responsive-sprite($map, linkedin-essentials, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-acrobat {  
+        @include logos-sprite(logo-acrobat); 
+        @include responsive-sprite($map, logo-acrobat, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-aftereffects {  
+        @include logos-sprite(logo-aftereffects); 
+        @include responsive-sprite($map, logo-aftereffects, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-captivate {  
+        @include logos-sprite(logo-captivate); 
+        @include responsive-sprite($map, logo-captivate, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-conversion-optimisation {  
+        @include logos-sprite(logo-conversion-optimisation); 
+        @include responsive-sprite($map, logo-conversion-optimisation, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-css3 {  
+        @include logos-sprite(logo-css3); 
+        @include responsive-sprite($map, logo-css3, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-dps {  
+        @include logos-sprite(logo-dps); 
+        @include responsive-sprite($map, logo-dps, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-dreamweaver {  
+        @include logos-sprite(logo-dreamweaver); 
+        @include responsive-sprite($map, logo-dreamweaver, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-edge-animate {  
+        @include logos-sprite(logo-edge-animate); 
+        @include responsive-sprite($map, logo-edge-animate, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-enewsletter {  
+        @include logos-sprite(logo-enewsletter); 
+        @include responsive-sprite($map, logo-enewsletter, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-epub {  
+        @include logos-sprite(logo-epub); 
+        @include responsive-sprite($map, logo-epub, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-facebook {  
+        @include logos-sprite(logo-facebook); 
+        @include responsive-sprite($map, logo-facebook, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-final-cut-pro {  
+        @include logos-sprite(logo-final-cut-pro); 
+        @include responsive-sprite($map, logo-final-cut-pro, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-flash {  
+        @include logos-sprite(logo-flash); 
+        @include responsive-sprite($map, logo-flash, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-html5-css3 {  
+        @include logos-sprite(logo-html5-css3); 
+        @include responsive-sprite($map, logo-html5-css3, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-html5 {  
+        @include logos-sprite(logo-html5); 
+        @include responsive-sprite($map, logo-html5, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-illustrator {  
+        @include logos-sprite(logo-illustrator); 
+        @include responsive-sprite($map, logo-illustrator, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-indesign {  
+        @include logos-sprite(logo-indesign); 
+        @include responsive-sprite($map, logo-indesign, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-javascript {  
+        @include logos-sprite(logo-javascript); 
+        @include responsive-sprite($map, logo-javascript, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-jquery {  
+        @include logos-sprite(logo-jquery); 
+        @include responsive-sprite($map, logo-jquery, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-linkedin {  
+        @include logos-sprite(logo-linkedin); 
+        @include responsive-sprite($map, logo-linkedin, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-marketing-fundamentals {  
+        @include logos-sprite(logo-marketing-fundamentals); 
+        @include responsive-sprite($map, logo-marketing-fundamentals, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-muse {  
+        @include logos-sprite(logo-muse); 
+        @include responsive-sprite($map, logo-muse, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-package-design {  
+        @include logos-sprite(logo-package-design); 
+        @include responsive-sprite($map, logo-package-design, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-photoshop {  
+        @include logos-sprite(logo-photoshop); 
+        @include responsive-sprite($map, logo-photoshop, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-php {  
+        @include logos-sprite(logo-php); 
+        @include responsive-sprite($map, logo-php, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-ppc {  
+        @include logos-sprite(logo-ppc); 
+        @include responsive-sprite($map, logo-ppc, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-premiere {  
+        @include logos-sprite(logo-premiere); 
+        @include responsive-sprite($map, logo-premiere, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-seo {  
+        @include logos-sprite(logo-seo); 
+        @include responsive-sprite($map, logo-seo, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-social-media-marketing {  
+        @include logos-sprite(logo-social-media-marketing); 
+        @include responsive-sprite($map, logo-social-media-marketing, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-social-media {  
+        @include logos-sprite(logo-social-media); 
+        @include responsive-sprite($map, logo-social-media, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-twitter {  
+        @include logos-sprite(logo-twitter); 
+        @include responsive-sprite($map, logo-twitter, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-web-analytics {  
+        @include logos-sprite(logo-web-analytics); 
+        @include responsive-sprite($map, logo-web-analytics, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .logo-wordpress {  
+        @include logos-sprite(logo-wordpress); 
+        @include responsive-sprite($map, logo-wordpress, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .seo-ess {  
+        @include logos-sprite(seo-ess); 
+        @include responsive-sprite($map, seo-ess, 5.8%);
+        min-width: 40px;
+        min-height: 38px;
+    } 
+
+    .tweeter_icon {  
+        @include logos-sprite(tweeter_icon); 
+        @include responsive-sprite($map, tweeter_icon, 5.8%);
+        min-width: 35px;
+        min-height: 39px;
+
+        @media screen and (min-width: 640px) and (max-width: 880px) {
+            margin-top: -13px;
+            margin-left: -24px;
+        }
+
+        margin-top: -13px;
+        margin-left: -40px;
+    } 
+}
