@@ -3,18 +3,17 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/indesign-lite.html">InDesign Lite</a></td>
-             <td><a href="/indesign/indesign-lite-brisbane">10</a></td>
             <td><a href="/indesign/indesign-lite-brisbane">13</a><br>
               <a href="/indesign/indesign-lite-brisbane">21</a></td>
             <td><a href="/indesign/indesign-lite-brisbane">2</a><br>
@@ -25,10 +24,11 @@
               <a href="/indesign/indesign-lite-brisbane">29</a></td>
             <td><a href="/indesign/indesign-lite-brisbane">11</a><br>
               <a href="/indesign/indesign-lite-brisbane">26</a></td>
+             <td><a href="/indesign/indesign-lite-brisbane">10</a><br>
+              <a href="/indesign/indesign-lite-brisbane">22</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a></td>
-            <td><a href="/indesign/indesign-essentials-brisbane">10 &amp; 11</a><br></td>
             <td><a href="/indesign/indesign-essentials-brisbane">13 &amp; 14</a><br>
               <a href="/indesign/indesign-essentials-brisbane">21 &amp; 22</a></td>
             <td><a href="/indesign/indesign-essentials-brisbane">2 &amp; 3</a><br>
@@ -39,15 +39,17 @@
               <a href="/indesign/indesign-essentials-brisbane">29 &amp; 30</a></td>
             <td><a href="/indesign/indesign-essentials-brisbane">11 &amp; 12</a><br>
               <a href="/indesign/indesign-essentials-brisbane">26 &amp; 27</a></td>
+            <td><a href="/indesign/indesign-essentials-brisbane">10 &amp; 11</a><br>
+              <a href="/indesign/indesign-essentials-brisbane">22 &amp; 23</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-advanced.html">InDesign Advanced</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/indesign/indesign-advanced-brisbane">30 &amp; 31</a></td>
             <td>&mdash;</td>
-            <td><a href="/indesign/indesign-advanced-brisbane">29 &amp; 30<br> Jun</a></td>
+            <td>&mdash;</td>
+            <td><a href="/indesign/indesign-advanced-brisbane">29 &amp; 30</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/digital-magazine-mobile-devices-training.html">Adobe DPS Content Creation</a></td>

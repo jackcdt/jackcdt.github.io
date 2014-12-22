@@ -3,30 +3,27 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/indesign-lite.html">InDesign Lite</a></td>
-            <td><a href="/indesign/indesign-lite">15</a></td>
             <td><a href="/indesign/indesign-lite">14</a><br>
             <a href="/indesign/indesign-lite">28</a></td>
             <td><a href="/indesign/indesign-lite">23</a></td>
             <td><a href="/indesign/indesign-lite">25</a></td>
             <td><a href="/indesign/indesign-lite">20</a></td>
             <td><a href="/indesign/indesign-lite">18</a></td>
+            <td><a href="/indesign/indesign-lite">23</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a></td>
-            <td><a href="/indesign/indesign-essentials">3 &amp; 4</a><br>
-            <a href="/indesign/indesign-essentials">9 &amp; 10</a><br>
-            <a href="/indesign/indesign-essentials">15 &amp; 16</a></td>
             <td><a href="/indesign/indesign-essentials">8 &amp; 9</a><br>
             <a href="/indesign/indesign-essentials">14 &amp; 15</a><br>
             <a href="/indesign/indesign-essentials">19 &amp; 20</a><br>
@@ -49,24 +46,28 @@
             <a href="/indesign/indesign-essentials">14 &amp; 15</a><br>
             <a href="/indesign/indesign-essentials">19 &amp; 20</a><br>
             <a href="/indesign/indesign-essentials">25 &amp; 26</a></td>
+            <td><a href="/indesign/indesign-essentials">3 &amp; 4</a><br>
+            <a href="/indesign/indesign-essentials">11 &amp; 12</a><br>
+            <a href="/indesign/indesign-essentials">17 &amp; 18</a><br>
+            <a href="/indesign/indesign-essentials">29 &amp; 30</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-training-advanced.html">InDesign Advanced</a></td>
-            <td><a href="/indesign/indesign-advanced">4 &amp; 5</a></td>
             <td><a href="/indesign/indesign-advanced">29 &amp; 30</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-advanced">3 &amp; 4</a></td>
             <td><a href="/indesign/indesign-advanced">16 &amp; 17</a></td>
             <td><a href="/indesign/indesign-advanced">28 &amp; 29</a></td>
+            <td><a href="/indesign/indesign-advanced">1 &amp; 2<br> Jul</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-indesign-long-documents.html">InDesign Long Documents</a></td>
-            <td><a href="/indesign/indesign-long-documents">4</a></td>
             <td><a href="/indesign/indesign-long-documents">29</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-long-documents">3</a></td>
             <td><a href="/indesign/indesign-long-documents">16</a></td>
             <td><a href="/indesign/indesign-long-documents">28</a></td>
+            <td><a href="/indesign/indesign-long-documents">1 Jul</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-to-epubs-training.html">eBooks: Creating ePubs</a></td>
@@ -79,49 +80,35 @@
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/digital-magazine-mobile-devices-training.html">Adobe DPS Content Creation</a></td>
-            <td>&mdash;</td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets">19 &amp; 20</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets">17 &amp; 18</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets">23 &amp; 24</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets">30 Apr &amp;<br> 1 May</a></td>
             <td><a href="/indesign/indesign-to-ipad-and-tablets">30 Apr &amp;<br> 1 May</a></td>
-        </tr>
-        <tr> 
-            <td class="row-name"><a href="/training-courses/adobe-dps-single-edition-training.html">DPS Single Edition App Publishing</a></td>
-            <td><a href="/indesign/adobe-dps-single-edition-training">15</a></td>
-            <td><a href="/indesign/adobe-dps-single-edition-training">21</a></td>
-            <td>&mdash;</td>
-            <td><a href="/indesign/adobe-dps-single-edition-training">13</a></td>
-            <td>&mdash;</td>
-            <td><a href="/indesign/adobe-dps-single-edition-training">8</a></td>
+            <td><a href="/indesign/indesign-to-ipad-and-tablets">15 &amp; 16</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/adobe-dps-professional-training.html">DPS Professional App Publishing</a></td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
+            <td colspan="6">Custom training only, please phone 1300 441 891 to discuss</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-interactivity-training.html">InDesign Interactive PDFs</a></td>
-            <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-interactivity-animation">16</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-interactivity-animation">10</a></td>
             <td><a href="/indesign/indesign-interactivity-animation">26</a></td>
+            <td><a href="/indesign/indesign-interactivity-animation">10 Jul</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/indesign-accessibility-training.html">InDesign Accessibility<br>
             <em>(1 – 4.30pm)</em></a></td>
-            <td><a href="/indesign/indesign-accessibility">8</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-accessibility">6</a></td>
             <td><a href="/indesign/indesign-accessibility">16</a></td>
             <td>&mdash;</td>
             <td><a href="/indesign/indesign-accessibility">5</a></td>
+            <td><a href="/indesign/indesign-accessibility">30</a></td>
         </tr>
     </tbody>    
  </table>  

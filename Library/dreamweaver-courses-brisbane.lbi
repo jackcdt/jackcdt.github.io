@@ -3,23 +3,23 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Dec</th> 
             <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a></td> 
-            <td><a href="/html-html5/html-web-principles-brisbane">17</a></td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
+            <td>&mdash;</td> 
             <td><a href="/html-html5/html-web-principles-brisbane">9</a></td>
             <td><a href="/html-html5/html-web-principles-brisbane">20</a></td>
+            <td>&mdash;</td>
             <td><a href="/html-html5/html-web-principles-brisbane">8</a></td>
+            <td><a href="/html-html5/html-web-principles-brisbane">24</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/dreamweaver-training-intro.html">Dreamweaver Essentials</a></td> 
