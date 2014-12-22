@@ -7390,7 +7390,7 @@ h4 {
 
 @media print {
   /* line 2, ../scss/_custom/_print.scss */
-  .megamenu_container,
+  .mega-menu,
   .footer-logo,
   .custom-breadcrumbs,
   .category-page .custom-training,
