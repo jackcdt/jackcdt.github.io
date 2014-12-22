@@ -85,5 +85,15 @@ $illustrator-essentials-spacing: 40px;
         margin-left: 15px;
     }
 
+    .illustrator-cc-cs6 {
+        @include illustrator-essentials-sprite(illustrator-cc-cs6); 
+        @include responsive-sprite($map, illustrator-cc-cs6, 5.8%);
+        min-width: 115px;
+        min-height: 100px; 
+        float: right;
+        margin-right: -15px;
+        margin-top: -17px;
+    }
+
     @include btn-shadow($illustrator-color);
 }
