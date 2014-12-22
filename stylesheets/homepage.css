@@ -7598,7 +7598,7 @@ h4 {
   font-size: 0.90em;
   font-family: Raleway;
   font-weight: 400;
-  padding-left: 5px; }
+  padding-left: 10px; }
   @media only screen and (min-width: 64.063em) {
     /* line 65, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {

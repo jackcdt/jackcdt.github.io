@@ -8,6 +8,564 @@
 * $img-size-percent - required sprite size
 *
 */
+/* line 13, ../scss/_custom/_common.scss */
+body {
+  font-family: Raleway, Helvetica, sans-serif; }
+
+/* line 52, ../scss/_custom/_common.scss */
+.show-link {
+  text-decoration: underline; }
+
+/* line 57, ../scss/_custom/_common.scss */
+.nopadding {
+  padding-left: 0;
+  padding-right: 0; }
+
+/* line 344, homepage/logos/*.png */
+.logos-sprite, .homepage .fb_icon, .homepage .ga-essentials, .homepage .linkedin-essentials, .homepage .logo-acrobat, .homepage .logo-aftereffects, .homepage .logo-captivate, .homepage .logo-conversion-optimisation, .homepage .logo-css3, .homepage .logo-dps, .homepage .logo-dreamweaver, .homepage .logo-edge-animate, .homepage .logo-enewsletter, .homepage .logo-epub, .homepage .logo-facebook, .homepage .logo-final-cut-pro, .homepage .logo-flash, .homepage .logo-html5-css3, .homepage .logo-html5, .homepage .logo-illustrator, .homepage .logo-indesign, .homepage .logo-javascript, .homepage .logo-jquery, .homepage .logo-linkedin, .homepage .logo-marketing-fundamentals, .homepage .logo-muse, .homepage .logo-package-design, .homepage .logo-photoshop, .homepage .logo-php, .homepage .logo-ppc, .homepage .logo-premiere, .homepage .logo-seo, .homepage .logo-social-media-marketing, .homepage .logo-social-media, .homepage .logo-twitter, .homepage .logo-web-analytics, .homepage .logo-wordpress, .homepage .seo-ess, .homepage .tweeter_icon {
+  background-image: url('../images-dist/homepage/logos-s0dcd11af6a.png');
+  background-repeat: no-repeat; }
+
+/* line 14, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .fb_icon {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.97714%;
+  background-size: 262.85714%;
+  background-position: 0 0%;
+  min-width: 35px;
+  min-height: 35px; }
+/* line 21, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .ga-essentials {
+  background-position: 0 -64px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.53913%;
+  background-size: 100%;
+  background-position: 0 2.12413%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 28, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .linkedin-essentials {
+  background-position: 0 -176px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 141.53846%;
+  background-position: 0 5.82781%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 35, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-acrobat {
+  background-position: 0 -281px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 9.23431%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 42, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-aftereffects {
+  background-position: 0 -363px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 11.92902%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 49, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-captivate {
+  background-position: 0 -445px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 14.62373%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 56, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-conversion-optimisation {
+  background-position: 0 -527px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 230.0%;
+  background-position: 0 17.30706%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 63, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-css3 {
+  background-position: 0 -607px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 19.94742%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 70, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-dps {
+  background-position: 0 -689px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 22.64213%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 77, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-dreamweaver {
+  background-position: 0 -771px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 25.33684%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 84, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-edge-animate {
+  background-position: 0 -853px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 28.03155%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 91, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-enewsletter {
+  background-position: 0 -935px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 30.72626%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 98, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-epub {
+  background-position: 0 -1017px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 33.42097%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 105, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-facebook {
+  background-position: 0 -1099px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 230.0%;
+  background-position: 0 36.08011%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 112, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-final-cut-pro {
+  background-position: 0 -1178px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 38.7118%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 119, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-flash {
+  background-position: 0 -1260px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 41.40651%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 126, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-html5-css3 {
+  background-position: 0 -1342px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 44.10122%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 133, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-html5 {
+  background-position: 0 -1424px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 46.79593%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 140, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-illustrator {
+  background-position: 0 -1506px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 49.49063%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 147, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-indesign {
+  background-position: 0 -1588px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 52.18534%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 154, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-javascript {
+  background-position: 0 -1670px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 54.88005%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 161, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-jquery {
+  background-position: 0 -1752px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 230.0%;
+  background-position: 0 57.51806%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 168, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-linkedin {
+  background-position: 0 -1831px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 230.0%;
+  background-position: 0 60.11162%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 175, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-marketing-fundamentals {
+  background-position: 0 -1910px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 230.0%;
+  background-position: 0 62.72578%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 182, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-muse {
+  background-position: 0 -1990px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 65.39599%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 189, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-package-design {
+  background-position: 0 -2072px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 230.0%;
+  background-position: 0 68.04598%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 196, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-photoshop {
+  background-position: 0 -2152px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 70.71968%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 203, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-php {
+  background-position: 0 -2234px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 73.41439%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 210, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-ppc {
+  background-position: 0 -2316px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52381%;
+  background-size: 219.04762%;
+  background-position: 0 76.05911%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 217, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-premiere {
+  background-position: 0 -2396px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 78.73809%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 224, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-seo {
+  background-position: 0 -2478px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 230.0%;
+  background-position: 0 81.37931%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 231, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-social-media-marketing {
+  background-position: 0 -2558px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 230.0%;
+  background-position: 0 84.00657%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 238, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-social-media {
+  background-position: 0 -2638px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 230.0%;
+  background-position: 0 86.60538%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 245, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-twitter {
+  background-position: 0 -2717px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.655%;
+  background-size: 230.0%;
+  background-position: 0 89.19895%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 252, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-web-analytics {
+  background-position: 0 -2796px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 6.10526%;
+  background-size: 242.10526%;
+  background-position: 0 91.82266%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 259, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .logo-wordpress {
+  background-position: 0 -2876px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 209.09091%;
+  background-position: 0 94.51199%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 266, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .seo-ess {
+  background-position: 0 -2958px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 141.53846%;
+  background-position: 0 97.8822%;
+  min-width: 40px;
+  min-height: 38px; }
+/* line 273, ../scss/_custom/homepage/_homepage-add-styles.scss */
+.homepage .tweeter_icon {
+  background-position: 0 -3061px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.97714%;
+  background-size: 262.85714%;
+  background-position: 0 100%;
+  min-width: 35px;
+  min-height: 39px;
+  margin-top: -13px;
+  margin-left: -40px; }
+  @media screen and (min-width: 640px) and (max-width: 880px) {
+    /* line 273, ../scss/_custom/homepage/_homepage-add-styles.scss */
+    .homepage .tweeter_icon {
+      margin-top: -13px;
+      margin-left: -24px; } }
+
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
   background-image: url('../images-dist/training/adobe/indesign/indesign-category-s76942ac5e9.png');
@@ -208,19 +766,6 @@
   background-position: 0 100%;
   min-width: 47px;
   min-height: 45px; }
-
-/* line 13, ../scss/_custom/_common.scss */
-body {
-  font-family: Raleway, Helvetica, sans-serif; }
-
-/* line 52, ../scss/_custom/_common.scss */
-.show-link {
-  text-decoration: underline; }
-
-/* line 57, ../scss/_custom/_common.scss */
-.nopadding {
-  padding-left: 0;
-  padding-right: 0; }
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-essentials-course .id-essentials-framed, .indesign-essentials-course .course-classrom, .indesign-essentials-course .pdf, .indesign-essentials-course .indesign-cc-cs6, .indesign-essentials-course .course-custom-training-logo, .indesign-essentials-course .id-advanced, .indesign-essentials-course .id-essentials, .indesign-essentials-course .ps-ess, .indesign-essentials-course .il-ess {
