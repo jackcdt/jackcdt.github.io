@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 53, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 58, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;
@@ -5328,12 +5328,12 @@ body {
 /* Sets the browser default size. */
 /* Baseline grid. */
 /* Custom fonts */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
 
-/* "This is where the magic happens" —Everyone on MTV Cribs. */
+/* "This is where the magic happens" ÔÇöEveryone on MTV Cribs. */
 /* line 33, ../scss/_custom/_custom-fonts.scss */
 .category-page .part-time-options, .cdt-calendar .responsive thead .location, .cdt-wtwu .testimonials-slider .slider-content .slide-header, .cdt-custom-training .testimonials-slider .slider-content .slide-header, .cdt-wtwu .testimonials-slider .slider-content .testimonial-by, .cdt-custom-training .testimonials-slider .slider-content .testimonial-by {
   font-weight: 700; }
@@ -7398,7 +7398,7 @@ h4 {
 
 @media print {
   /* line 2, ../scss/_custom/_print.scss */
-  .megamenu_container,
+  .mega-menu,
   .footer-logo,
   .custom-breadcrumbs,
   .category-page .custom-training,
