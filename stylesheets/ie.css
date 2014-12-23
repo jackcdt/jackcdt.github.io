@@ -489,11 +489,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 53, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 58, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -1090,6 +1090,16 @@ body {
   /* line 10, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
   .finalcut-pro-course .book-now-btn {
     background-color: #32527f; }
+
+/* line 3, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+.audition-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+  .audition-course .audition-ess, .audition-course .course-classrom, .audition-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+  .audition-course .book-now-btn {
+    background-color: #14B29E; }
 
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */
