@@ -7876,18 +7876,10 @@ h4 {
   .faq .testimonials::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(140, 140, 140, 0.5); }
-  @media screen and (min-width: 640px) and (max-width: 680px) {
+  @media screen and (min-width: 640px) {
     /* line 108, ../scss/_custom/admin/_faq.scss */
     .faq .testimonials {
       height: 68em; } }
-  @media screen and (min-width: 681px) and (max-width: 780px) {
-    /* line 108, ../scss/_custom/admin/_faq.scss */
-    .faq .testimonials {
-      height: 53em; } }
-  @media screen and (min-width: 781px) and (max-width: 1024px) {
-    /* line 108, ../scss/_custom/admin/_faq.scss */
-    .faq .testimonials {
-      height: 37em; } }
 
 /* line 1, ../scss/_custom/admin/_contact-us.scss */
 .contact-us {
