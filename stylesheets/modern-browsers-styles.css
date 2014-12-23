@@ -12,11 +12,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 53, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 58, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -8239,6 +8239,115 @@ body {
   background-color: #32527f; }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .finalcut-pro-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 72, training/video-editing/audition/*.png */
+.audition-sprite, .audition-course .audition-ess, .audition-course .course-classrom, .audition-course .pdf, .audition-course .course-custom-training-logo {
+  background-image: url('../images-dist/training/video-editing/audition-sdecb658bc4.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .audition-ess {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 420.45455%;
+  background-position: 0 0%;
+  min-width: 55px;
+  min-height: 55px; }
+/* line 22, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .course-classrom {
+  background-position: 0 -124px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 185%;
+  background-position: 0 29.73621%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 32, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .pdf {
+  background-position: 0 -465px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 578.125%;
+  background-position: 0 100%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 40, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .course-custom-training-logo {
+  background-position: 0 -276px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 40.27027%;
+  background-size: 100%;
+  background-position: 0 72.63158%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 40, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+    .audition-course .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.17568%;
+      background-size: 100%;
+      background-position: 0 72.63158%; } }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.audition-course .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #ccf9f3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ccf9f3;
+  box-shadow: inset 0px 1px 0px 0px #ccf9f3;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2be7cf), color-stop(1, #14B29E));
+  background: -moz-linear-gradient(center top, #2be7cf 5%, #14B29E 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #2be7cf;
+  text-indent: 0;
+  border: 1px solid #0c6d61;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.audition-course .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #14B29E), color-stop(1, #2be7cf));
+  background: -moz-linear-gradient(center top, #14B29E 5%, #2be7cf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #14B29E; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.audition-course .validate-participants:active {
   position: relative;
   top: 1px; }
 

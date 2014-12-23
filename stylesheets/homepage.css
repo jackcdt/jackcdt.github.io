@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 53, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 58, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;
@@ -7487,27 +7487,28 @@ h4 {
         font-weight: 600;
         text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
         font-family: raleway, sans-serif; }
-      /* line 48, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one p {
-        font-size: 26px;
-        color: #fff;
-        font-weight: 400;
-        text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
-        font-family: raleway, sans-serif; } }
+        /* line 48, ../scss/_custom/homepage/_slider.scss */
+        .slider-1 .slider-one h1 span {
+          font-size: 26px;
+          font-weight: 400;
+          line-height: 1.6em;
+          margin-bottom: 1.25rem;
+          text-rendering: optimizeLegibility;
+          display: block; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 59, ../scss/_custom/homepage/_slider.scss */
+    /* line 61, ../scss/_custom/homepage/_slider.scss */
     .slider-1 .slider-one {
       padding-top: 50px;
       padding-left: 150px;
       height: 265px; }
-      /* line 63, ../scss/_custom/homepage/_slider.scss */
+      /* line 65, ../scss/_custom/homepage/_slider.scss */
       .slider-1 .slider-one h1 {
         font-size: 30px;
         color: #fff;
         font-weight: 600;
         text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
         font-family: raleway, sans-serif; }
-      /* line 70, ../scss/_custom/homepage/_slider.scss */
+      /* line 72, ../scss/_custom/homepage/_slider.scss */
       .slider-1 .slider-one p {
         font-size: 18px;
         color: #fff;
@@ -7516,18 +7517,18 @@ h4 {
         font-family: raleway, sans-serif;
         padding-bottom: 50px; } }
 
-/* line 82, ../scss/_custom/homepage/_slider.scss */
+/* line 84, ../scss/_custom/homepage/_slider.scss */
 .course-img-caption p {
   font-size: 12px;
   font-weight: 200;
   float: left;
   padding-top: 5px; }
 
-/* line 89, ../scss/_custom/homepage/_slider.scss */
+/* line 91, ../scss/_custom/homepage/_slider.scss */
 .orbit-timer {
   display: none; }
 
-/* line 92, ../scss/_custom/homepage/_slider.scss */
+/* line 94, ../scss/_custom/homepage/_slider.scss */
 .orbit-slide-number {
   display: none; }
 
@@ -7581,66 +7582,66 @@ h4 {
     height: 345px; } }
 /* line 50, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation a.panel-header {
-  color: #2089d3;
-  font-size: 1.1em;
-  font-weight: 400;
-  font-family: Raleway;
-  text-transform: uppercase;
   background: transparent;
   border-bottom: 2px solid #c4c4c4;
   padding: 0.5em 0.5em 0.5em 0.7em; }
-  /* line 60, ../scss/_custom/homepage/_home.scss */
-  .accordion-home .accordion-navigation a.panel-header .plus-minus {
-    font-size: 12px;
-    color: gray; }
-/* line 65, ../scss/_custom/homepage/_home.scss */
+  /* line 55, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation a.panel-header h2 {
+    color: #2089d3;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: Raleway;
+    text-transform: uppercase; }
+  /* line 63, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation a.panel-header .plus-minus-icon {
+    font-size: 24px;
+    color: gray;
+    font-family: Raleway;
+    margin-top: 2px !important; }
+/* line 71, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3 {
   font-size: 0.90em;
   font-family: Raleway;
   font-weight: 400;
   padding-left: 10px; }
   @media only screen and (min-width: 64.063em) {
-    /* line 65, ../scss/_custom/homepage/_home.scss */
+    /* line 71, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 2.8em; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 65, ../scss/_custom/homepage/_home.scss */
+    /* line 71, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 3em; } }
   @media only screen and (max-width: 40em) {
-    /* line 65, ../scss/_custom/homepage/_home.scss */
+    /* line 71, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 2.4em; } }
-/* line 81, ../scss/_custom/homepage/_home.scss */
+/* line 87, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3.two-line {
   line-height: 1.5em; }
-/* line 85, ../scss/_custom/homepage/_home.scss */
+/* line 91, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation.active a {
   background-color: transparent; }
-/* line 88, ../scss/_custom/homepage/_home.scss */
+/* line 94, ../scss/_custom/homepage/_home.scss */
 .accordion-home p {
   font-size: 0.85em;
   padding-right: 10px; }
-/* line 93, ../scss/_custom/homepage/_home.scss */
-.accordion-home .plus-minus-icon {
-  margin-top: -2px;
-  font-size: 24px; }
 
-/* line 99, ../scss/_custom/homepage/_home.scss */
+/* line 100, ../scss/_custom/homepage/_home.scss */
 .why-train-bg {
   background-color: #D7E9F7;
   border-bottom: 1px #c4c4c4 solid; }
-  /* line 104, ../scss/_custom/homepage/_home.scss */
+  /* line 105, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us h3 {
     font-size: 42px;
     font-weight: 200;
     font-family: Raleway;
     line-height: 1em;
     padding-bottom: 5px; }
-  /* line 112, ../scss/_custom/homepage/_home.scss */
+  /* line 113, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us a:hover {
     background-color: #FFCE77; }
 
-/* line 122, ../scss/_custom/homepage/_home.scss */
+/* line 123, ../scss/_custom/homepage/_home.scss */
 .no-padding {
   padding: 0; }
