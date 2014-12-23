@@ -48,20 +48,26 @@
 		}
 
 		a.panel-header {
-			color: #2089d3;
-			font-size: 1.1em;
-			font-weight: 400;
-			font-family: Raleway;
-			text-transform: uppercase;
 			background: transparent;
 			border-bottom: 2px solid #c4c4c4;
 			padding: 0.5em 0.5em 0.5em 0.7em; 
 
-			.plus-minus {
-				font-size: 12px;
+			h2 {
+				color: #2089d3;
+				font-size: 1.1em;
+				font-weight: 400;
+				font-family: Raleway;
+				text-transform: uppercase;
+			}
+
+			.plus-minus-icon {
+				font-size: 24px;
 				color: gray;
+				font-family: Raleway;
+				margin-top: 2px !important;
 			}
 		}
+
 		h3 {
 				font-size: 0.90em;
 				font-family: Raleway;
@@ -88,11 +94,6 @@
 	p {
 		font-size: 0.85em;
 		padding-right: 10px;
-	}
-
-	.plus-minus-icon {
-	  margin-top: -2px;
-	  font-size: 24px;
 	}
 }
 
