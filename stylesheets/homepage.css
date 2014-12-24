@@ -7478,37 +7478,48 @@ h4 {
     /* line 37, ../scss/_custom/homepage/_slider.scss */
     .slider-1 .slider-one {
       padding-top: 50px;
-      padding-left: 150px;
+      padding-left: 24px;
       min-height: 330px; }
       /* line 41, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one h1 {
-        font-size: 48px;
+      .slider-1 .slider-one span {
+        font-size: 38px;
         color: #fff;
-        font-weight: 600;
+        font-weight: 400;
         text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
         font-family: raleway, sans-serif; }
         /* line 48, ../scss/_custom/homepage/_slider.scss */
-        .slider-1 .slider-one h1 span {
-          font-size: 26px;
-          font-weight: 400;
-          line-height: 1.6em;
+        .slider-1 .slider-one span h1 {
+          font-size: 22px;
+          font-weight: 300;
+          line-height: 1.4em;
           margin-bottom: 1.25rem;
           text-rendering: optimizeLegibility;
-          display: block; } }
+          display: block;
+          color: #fff; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 61, ../scss/_custom/homepage/_slider.scss */
+    /* line 62, ../scss/_custom/homepage/_slider.scss */
     .slider-1 .slider-one {
       padding-top: 50px;
-      padding-left: 150px;
+      padding-left: 24px;
       height: 265px; }
-      /* line 65, ../scss/_custom/homepage/_slider.scss */
-      .slider-1 .slider-one h1 {
+      /* line 66, ../scss/_custom/homepage/_slider.scss */
+      .slider-1 .slider-one span {
+        color: #fff;
         font-size: 30px;
         color: #fff;
-        font-weight: 600;
+        font-weight: 400;
         text-shadow: rgba(0, 0, 0, 0.65098) 3px 3px 3px;
         font-family: raleway, sans-serif; }
-      /* line 72, ../scss/_custom/homepage/_slider.scss */
+        /* line 73, ../scss/_custom/homepage/_slider.scss */
+        .slider-1 .slider-one span h1 {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.4em;
+          margin-bottom: 1.25rem;
+          text-rendering: optimizeLegibility;
+          display: block;
+          color: #fff; }
+      /* line 83, ../scss/_custom/homepage/_slider.scss */
       .slider-1 .slider-one p {
         font-size: 18px;
         color: #fff;
@@ -7517,18 +7528,18 @@ h4 {
         font-family: raleway, sans-serif;
         padding-bottom: 50px; } }
 
-/* line 84, ../scss/_custom/homepage/_slider.scss */
+/* line 95, ../scss/_custom/homepage/_slider.scss */
 .course-img-caption p {
   font-size: 12px;
   font-weight: 200;
   float: left;
   padding-top: 5px; }
 
-/* line 91, ../scss/_custom/homepage/_slider.scss */
+/* line 102, ../scss/_custom/homepage/_slider.scss */
 .orbit-timer {
   display: none; }
 
-/* line 94, ../scss/_custom/homepage/_slider.scss */
+/* line 105, ../scss/_custom/homepage/_slider.scss */
 .orbit-slide-number {
   display: none; }
 
