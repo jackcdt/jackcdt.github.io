@@ -35,4 +35,57 @@
             font-weight: 400;
         }
     }
+    .course-description {
+        h2, h3 {
+            font-size: 1.3em;
+            font-weight: 400;
+            color: #666;
+            padding-bottom: 0;
+            line-height: 1.3em;
+        }
+
+        h3 {
+          font-size: 1.1em;
+        }
+
+        p, ul li {
+            font-size: .9em;
+            font-weight: 300;
+            line-height: 1.5em;
+            color: #666;
+            padding-bottom: 0;
+            margin-bottom: 5px;
+        }
+
+        .course-example {
+          margin-bottom: 24px;
+        }
+
+        .header {
+          max-width: 85px;
+
+          img {
+              width: 55px;
+              height: 55px;
+            }
+        } 
+
+        .course-link-item .header {
+          max-width: 85px;
+        }
+
+        .course-link-item {
+          max-width: 300px;
+        }
+    }
+    
+    .course-description {
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }    
+
+     .description {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }    
 }
