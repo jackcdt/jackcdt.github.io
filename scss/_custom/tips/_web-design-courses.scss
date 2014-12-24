@@ -35,4 +35,45 @@
             font-weight: 400;
         }
     }
+
+    .course-description {
+        h2 {
+            font-size: 1.3em;
+            font-weight: 400;
+            color: #666;
+            padding-bottom: 0;
+            line-height: 1.3em;
+        }
+        p {
+            font-size: .9em;
+            font-weight: 300;
+            line-height: 1.5em;
+            color: #666;
+            padding-bottom: 0;
+            margin-bottom: 5px;
+        }
+
+        .course-example {
+          margin-bottom: 24px;
+        }
+
+        .header {
+          max-width: 85px;
+
+          img {
+              width: 55px;
+              height: 55px;
+            }
+        } 
+    }
+    
+    .course-description {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }    
+
+     .description {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }    
 }

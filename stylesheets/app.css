@@ -8685,14 +8685,14 @@ a#catshopbuy:link, a#catshopbuy:visited {
     line-height: 1.5em;
     color: #666; }
   /* line 19, ../scss/_custom/tips/_desktop-pub-package.scss */
-  .desktop-pub .desktop-intro h2 {
+  .desktop-pub .desktop-intro h2, .desktop-pub .course-description h2 {
     font-size: 1.3em;
     font-weight: 400;
     color: #666;
     padding-bottom: 0;
-    line-height: 1.5em; }
+    line-height: 1.3em; }
   /* line 26, ../scss/_custom/tips/_desktop-pub-package.scss */
-  .desktop-pub .desktop-intro p {
+  .desktop-pub .desktop-intro p, .desktop-pub .course-description p {
     font-size: .9em;
     font-weight: 300;
     line-height: 1.5em;
@@ -8700,8 +8700,26 @@ a#catshopbuy:link, a#catshopbuy:visited {
     padding-bottom: 0;
     margin-bottom: 5px; }
   /* line 34, ../scss/_custom/tips/_desktop-pub-package.scss */
-  .desktop-pub .desktop-intro a {
+  .desktop-pub .desktop-intro a, .desktop-pub .course-description a {
     font-weight: 400; }
+  /* line 38, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .desktop-intro .course-example, .desktop-pub .course-description .course-example {
+    margin-bottom: 24px; }
+  /* line 42, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .desktop-intro .header, .desktop-pub .course-description .header {
+    max-width: 85px; }
+    /* line 46, ../scss/_custom/tips/_desktop-pub-package.scss */
+    .desktop-pub .desktop-intro .header img, .desktop-pub .course-description .header img {
+      width: 55px;
+      height: 55px; }
+  /* line 53, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .course-description {
+    margin-top: 24px;
+    margin-bottom: 24px; }
+  /* line 58, ../scss/_custom/tips/_desktop-pub-package.scss */
+  .desktop-pub .description {
+    margin-top: 16px;
+    margin-bottom: 16px; }
 
 /* line 1, ../scss/_custom/tips/_digital-publishing-courses-gst.scss */
 .digi-gts {
@@ -8772,6 +8790,39 @@ a#catshopbuy:link, a#catshopbuy:visited {
   /* line 34, ../scss/_custom/tips/_web-design-courses.scss */
   .webd-crs .webd-crs-desc a {
     font-weight: 400; }
+  /* line 40, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .course-description h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #666;
+    padding-bottom: 0;
+    line-height: 1.3em; }
+  /* line 47, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .course-description p {
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #666;
+    padding-bottom: 0;
+    margin-bottom: 5px; }
+  /* line 56, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .course-description .course-example {
+    margin-bottom: 24px; }
+  /* line 60, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .course-description .header {
+    max-width: 85px; }
+    /* line 63, ../scss/_custom/tips/_web-design-courses.scss */
+    .webd-crs .course-description .header img {
+      width: 55px;
+      height: 55px; }
+  /* line 70, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .course-description {
+    margin-top: 24px;
+    margin-bottom: 24px; }
+  /* line 75, ../scss/_custom/tips/_web-design-courses.scss */
+  .webd-crs .description {
+    margin-top: 16px;
+    margin-bottom: 16px; }
 
 /* line 1, ../scss/_custom/tips/_dps-getting-started.scss */
 .dps-gts-bnr {
