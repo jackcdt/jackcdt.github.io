@@ -5355,7 +5355,7 @@ html {
   font-weight: 400; }
 
 /* line 45, ../scss/_custom/_custom-fonts.scss */
-.seminars-ad .seminars-ad-title, .custom-training .prefer-custom-training-text .custom-training-text-header, .course-outline .course-header, .course-outline .course-header-2, .course-outline .and, .category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3, .category-page .and, .cdt-calendar .tabs dd a, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
+.seminars-ad .seminars-ad-title, .custom-training .prefer-custom-training-text .custom-training-text-header, .course-outline .course-header, .course-outline .course-header-2, .course-outline .and, .category-page .tight-header, .category-page .tight-header-1, .category-page .tight-header-2, .category-page .tight-header-3, .category-page .and, .cdt-calendar .tabs dd a, .cdt-calendar .tabs-content h3 span, .cdt-wtwu .wtwu-header p, .faq .about-cdt,
 .faq .about-courses,
 .faq .course-benefits,
 .faq .organise-course,
@@ -7128,90 +7128,99 @@ h4 {
   .course-outline .overview-list ul li {
     font-size: 0.875em;
     line-height: 1.71429em;
-    margin-left: -10px; }
-  /* line 94, ../scss/_custom/components/training/_course-no-color-items.scss */
+    margin-left: -10px;
+    line-height: 1.4em;
+    margin-bottom: 5px; }
+  /* line 96, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .overview-list .to-upper {
     text-transform: uppercase; }
-  /* line 103, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 105, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .overview-list .course-specific {
     margin-left: 10px;
     width: 20em; }
-  /* line 110, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 112, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .overview-list .overview-list-data {
     margin-bottom: 6px; }
   /* line 120, ../scss/_custom/components/training/_course-no-color-items.scss */
+  .course-outline .overview-list p {
+    font-size: 0.875em;
+    line-height: 1.71429em;
+    line-height: 1.4em; }
+  /* line 127, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .download-pdf {
     margin-top: 12px; }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 132, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .course-outline-section {
       width: 57%; } }
   @media only screen and (min-width: 64.063em) {
-    /* line 125, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 132, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .course-outline-section {
       width: 63%; } }
-  /* line 135, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 142, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-outline-block h3 {
     font-size: 1em;
     line-height: 1.5em; }
-  /* line 140, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 147, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-outline-block ul {
     list-style-type: none;
     margin-bottom: 5px;
     -webkit-margin-after: 24px; }
-  /* line 146, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 153, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-outline-block ul li {
-    margin-left: -5px; }
-  /* line 152, ../scss/_custom/components/training/_course-no-color-items.scss */
+    margin-left: -5px;
+    line-height: 1.4em;
+    margin-bottom: 9px; }
+  /* line 161, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-column {
     min-width: 15em;
     padding-right: 15px; }
-  /* line 157, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 166, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .broken-column {
     -webkit-margin-after: 0 !important; }
-  /* line 162, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 171, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .read-more-btn {
     padding: 3px 8px; }
-  /* line 168, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 177, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .and {
     text-align: center;
     width: 38px; }
-  /* line 175, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 184, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .package-logos-read-more {
     margin: 12px 0 24px 0; }
-  /* line 179, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 188, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .related-course {
     max-width: 7em;
     padding-left: 0; }
-  /* line 184, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 193, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .pricing-table, .course-outline .title, .course-outline .description {
     border: none; }
-  /* line 188, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 197, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .pricing-table {
     margin-top: 24px; }
-    /* line 191, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 200, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .pricing-table .title {
       background-color: #fff;
       margin-bottom: 8px; }
-    /* line 196, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 205, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .pricing-table .description {
       padding: 0; }
-  /* line 201, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 210, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .advanced-table {
     margin-top: 19px;
     margin-left: -17px; }
-    /* line 205, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 214, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .advanced-table .description {
       padding-left: 15px; }
   @media only screen and (min-width: 40.063em) {
-    /* line 211, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 220, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .upper-side {
       width: 36%; } }
   @media only screen and (min-width: 40.063em) {
-    /* line 218, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 227, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .upper-side {
       width: 36%; } }
-  /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 233, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-dates-promo {
     background-color: #E5E5E5;
     margin-bottom: 16px;
@@ -7222,52 +7231,52 @@ h4 {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px; }
     @media only screen and (max-width: 40em) {
-      /* line 224, ../scss/_custom/components/training/_course-no-color-items.scss */
+      /* line 233, ../scss/_custom/components/training/_course-no-color-items.scss */
       .course-outline .course-dates-promo {
         width: 80%; } }
-  /* line 238, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 247, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-dates-city-block {
     margin-bottom: 12px; }
-  /* line 250, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 259, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-length {
     font-size: 14px; }
-  /* line 255, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 264, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .course-price-info {
     margin-bottom: 24px; }
-  /* line 260, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 269, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .book-now-section {
     padding-top: 24px;
     min-width: 9em; }
-  /* line 266, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 275, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .book-now-section {
     padding-top: 24px;
     min-width: 9em; }
-  /* line 271, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 280, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .download-text {
     font-size: 14px;
     line-height: 1em;
     margin-left: -10px; }
-  /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .seminars-ad {
     margin-bottom: 6px; }
     @media only screen and (max-width: 40em) {
-      /* line 284, ../scss/_custom/components/training/_course-no-color-items.scss */
+      /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
       .course-outline .seminars-ad {
         width: 80%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 302, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .lower-aside-section {
       width: 43%; } }
   @media only screen and (min-width: 64.063em) {
-    /* line 293, ../scss/_custom/components/training/_course-no-color-items.scss */
+    /* line 302, ../scss/_custom/components/training/_course-no-color-items.scss */
     .course-outline .lower-aside-section {
       width: 37%; } }
-  /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+  /* line 314, ../scss/_custom/components/training/_course-no-color-items.scss */
   .course-outline .testimonials {
     height: 33em;
     max-width: 30em; }
     @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-      /* line 305, ../scss/_custom/components/training/_course-no-color-items.scss */
+      /* line 314, ../scss/_custom/components/training/_course-no-color-items.scss */
       .course-outline .testimonials {
         height: 87em; } }
 
@@ -7508,21 +7517,25 @@ h4 {
   border-bottom: 1px dotted #dbdbdb;
   color: #2088D1;
   padding-bottom: 4px; }
+  /* line 98, ../scss/_custom/admin/_calendar.scss */
+  .cdt-calendar .tabs-content h3 span {
+    font-size: 0.75em;
+    line-height: 2em; }
 /* line 4, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .plus-minus-icon:before {
   content: "\2b"; }
 /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
 .cdt-calendar .tabs-content .accordion .active .plus-minus-icon:before {
   content: "\2d"; }
-/* line 104, ../scss/_custom/admin/_calendar.scss */
+/* line 109, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .responsive {
   border: none;
   border-spacing: 0px;
   display: block; }
-  /* line 109, ../scss/_custom/admin/_calendar.scss */
+  /* line 114, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive thead {
     background-color: #fff; }
-    /* line 112, ../scss/_custom/admin/_calendar.scss */
+    /* line 117, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .responsive thead th {
       text-align: center;
       color: #2088D1;
@@ -7530,27 +7543,27 @@ h4 {
       padding-top: 0;
       font-size: 0.875em;
       line-height: 1.71429em; }
-    /* line 122, ../scss/_custom/admin/_calendar.scss */
+    /* line 127, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .responsive thead .location {
       text-align: left;
       text-transform: uppercase;
       color: #000;
       font-size: 1.125em;
       line-height: 1.33333em; }
-  /* line 132, ../scss/_custom/admin/_calendar.scss */
+  /* line 137, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive tbody tr td {
     border: 1px solid #dbdbdb;
     text-align: center;
     vertical-align: top; }
-  /* line 138, ../scss/_custom/admin/_calendar.scss */
+  /* line 143, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td.row-name {
     text-align: left;
     width: 175px; }
-  /* line 143, ../scss/_custom/admin/_calendar.scss */
+  /* line 148, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td:not(:first-child), .cdt-calendar .responsive th:not(:first-child) {
     white-space: nowrap;
     min-width: 80px; }
-  /* line 148, ../scss/_custom/admin/_calendar.scss */
+  /* line 153, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .responsive td a, .cdt-calendar .responsive th a, .cdt-calendar .responsive td a:hover, .cdt-calendar .responsive th a:hover, .cdt-calendar .responsive td a:focus, .cdt-calendar .responsive th a:focus {
     color: #000;
     text-decoration: none;
@@ -7558,26 +7571,26 @@ h4 {
     line-height: 1.125rem;
     display: inline-block;
     margin-bottom: 6px; }
-/* line 159, ../scss/_custom/admin/_calendar.scss */
+/* line 164, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .custom-training-logo {
   border: 1px solid #686F74; }
-/* line 163, ../scss/_custom/admin/_calendar.scss */
+/* line 168, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .custom-training .read-more-btn {
   margin-top: 6px;
   margin-bottom: 6px; }
 @media screen and (min-width: 420px) and (max-width: 640px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
 @media screen and (min-width: 641px) and (max-width: 895px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 100%; } }
 @media screen and (min-width: 896px) and (max-width: 1024px) {
-  /* line 168, ../scss/_custom/admin/_calendar.scss */
+  /* line 173, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .custom-training .prefer-custom-training-text {
     max-width: 65%; } }
-/* line 183, ../scss/_custom/admin/_calendar.scss */
+/* line 188, ../scss/_custom/admin/_calendar.scss */
 .cdt-calendar .training-checklist {
   border: 1px solid #2088D1; }
   /* line 8, ../scss/_custom/components/training/_side-pannel.scss */
@@ -7590,19 +7603,19 @@ h4 {
   .cdt-calendar .training-checklist .center-content {
     color: #2088D1; }
   @media screen and (min-width: 420px) and (max-width: 640px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
   @media screen and (min-width: 641px) and (max-width: 895px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 100%; } }
   @media screen and (min-width: 896px) and (max-width: 1024px) {
-    /* line 183, ../scss/_custom/admin/_calendar.scss */
+    /* line 188, ../scss/_custom/admin/_calendar.scss */
     .cdt-calendar .training-checklist {
       max-width: 65%; } }
 @media screen and (min-width: 896px) and (max-width: 1024px) {
-  /* line 199, ../scss/_custom/admin/_calendar.scss */
+  /* line 204, ../scss/_custom/admin/_calendar.scss */
   .cdt-calendar .second-column {
     margin-left: -100px; } }
 
