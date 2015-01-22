@@ -43,7 +43,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <ul>
 
-                                <li><h3>Adobe Design</h3>
+                                <li><span class="course-group">Adobe Design</span>
                                 </li>
                                 <li><a href="/adobe-indesign-courses.html">InDesign</a>
                                 </li>
@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
                                 </li>
 
-                                <li class="second-row-list"><h3>Packages</h3>
+                                <li class="second-row-list"><span class="course-group">Packages</span>
                                 </li>
                                 <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing Package</a>
                                 </li>
@@ -66,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </ul>
                             
                             <ul>
-                                <li><h3>Web</h3>
+                                <li><span class="course-group">Web</span>
                                 </li>
                                 <li><a href="/html-courses.html">HTML5 &amp; CSS3</a>
                                 </li>
@@ -81,14 +81,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <li><a href="/edge-animate-training.html">Edge Animate</a> 
                                 </li>
 
-                                <li class="second-row-list"><h3>eLearning</h3>
+                                <li class="second-row-list"><span class="course-group">eLearning</span>
                                 </li>
                                 <li><a href="/captivate-training.html">Captivate</a>
                                 </li>
                             </ul>
 
                             <ul>
-                                <li><h3>Video</h3>
+                                <li><span class="course-group">Video</span>
                                 </li>
                                 <li><a href="/adobe-after-effects-training.html">After Effects</a> 
                                 </li>
@@ -97,7 +97,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <li><a href="/training-courses/final-cut-pro-training.html">Apple Final Cut Pro</a>
                                 </li>
 
-                                <li class="second-row-list"><h3>Online Marketing</h3>
+                                <li class="second-row-list"><span class="course-group">Online Marketing</span>
                                 </li>
                                 <li><a href="/training-courses/social-media-training.html">Face-to-Face Courses</a>
                                 </li>
@@ -106,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </ul>
 
                             <ul>
-                                <li><h3>Most Popular Courses</h3>
+                                <li><span class="course-group">Most Popular Courses</span>
                                 </li>
                                 <li><a href="/training-courses/indesign-training-intro.html">InDesign Essentials</a>
                                 </li>
