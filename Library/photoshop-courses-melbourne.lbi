@@ -3,29 +3,26 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/photoshop-lite.html">Photoshop Lite</a></td>
-            <td><a href="/photoshop/photoshop-lite-melbourne">15</a></td>
             <td><a href="/photoshop/photoshop-lite-melbourne">9</a></td>
             <td><a href="/photoshop/photoshop-lite-melbourne">23</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-lite-melbourne">1</a></td>
             <td><a href="/photoshop/photoshop-lite-melbourne">10</a></td>
+            <td><a href="/photoshop/photoshop-lite-melbourne">22</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a></td>
-            <td><a href="/photoshop/photoshop-essentials-melbourne">7 &amp; 8</a><br>
-              <a href="/photoshop/photoshop-essentials-melbourne">15 &amp; 16</a><br>
-              <a href="/photoshop/photoshop-essentials-melbourne">28 &amp; 29</a></td>
             <td><a href="/photoshop/photoshop-essentials-melbourne">9 &amp; 10</a><br>
               <a href="/photoshop/photoshop-essentials-melbourne">26 &amp; 27</a></td>
             <td><a href="/photoshop/photoshop-essentials-melbourne">18 &amp; 19</a><br>
@@ -35,24 +32,25 @@
               <a href="/photoshop/photoshop-essentials-melbourne">28 &amp; 29</a></td>
             <td><a href="/photoshop/photoshop-essentials-melbourne">15 &amp; 16</a><br>
               <a href="/photoshop/photoshop-essentials-melbourne">29 &amp; 30</a></td>
+            <td><a href="/photoshop/photoshop-essentials-melbourne">16 &amp; 17</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-web-training.html">Photoshop for Web</a></td>
-            <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-for-web-design-melbourne">11</a></td>
             <td><a href="/photoshop/photoshop-for-web-design-melbourne">23</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-for-web-design-melbourne">1</a></td>
+            <td><a href="/photoshop/photoshop-for-web-design-melbourne">23</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-advanced.html">Photoshop Advanced</a></td>
-            <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced-melbourne">16 &amp; 17</a></td>
             <td><a href="/photoshop/photoshop-advanced-melbourne">26 &amp; 27</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced-melbourne">21 &amp; 22</a></td>
-            <td><a href="/photoshop/photoshop-advanced-melbourne">13 &amp; 14<br> Jul</a></td>
+            <td>&mdash;</td>
+            <td><a href="/photoshop/photoshop-advanced-melbourne">13 &amp; 14</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-lightroom-training-intro.html">Photoshop Lightroom</a></td>

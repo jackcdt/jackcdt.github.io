@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials 8</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-essentials-brisbane">4 &amp; 5</a></td>
             <td>&mdash;</td>
-            <td><a href="/captivate/captivate-8-essentials-brisbane">4 &amp; 5</a></td>
-            <td><a href="/captivate/captivate-8-essentials-brisbane">1 &amp; 2<br>Jul</a></td>
+            <td><a href="/captivate/captivate-8-essentials-brisbane">14 &amp; 15</a></td>
+            <td>&mdash;</td>
+            <td><a href="/captivate/captivate-8-essentials-brisbane">1 &amp; 2</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-captivate-training.html">Captivate Advanced 8</a></td> 
-            <td><a href="/captivate/captivate-8-advanced-brisbane">15</a></td>
             <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-advanced-brisbane">6</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-advanced-brisbane">3 Jul</a></td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials 7 (6)</a></td>  

@@ -3,33 +3,33 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/after-effects-training-intro.html">After Effects Essentials</a></td> 
-            <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-essentials-melbourne">19 &amp; 20</a></td>
             <td><a href="/after-effects/after-effects-essentials-melbourne">26 &amp; 27</a></td>
             <td><a href="/after-effects/after-effects-essentials-melbourne">30 Apr &amp;<br> 1 May</a></td>
             <td><a href="/after-effects/after-effects-essentials-melbourne">30 Apr &amp;<br> 1 May</a><br>
             <a href="/after-effects/after-effects-essentials-melbourne">28 &amp; 29</a></td>
-            <td><a href="/after-effects/after-effects-essentials-melbourne">2 &amp; 3<br>Jul</a></td>
+            <td>&mdash;</td>
+            <td><a href="/after-effects/after-effects-essentials-melbourne">2 &amp; 3</a></td>
        </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-after-effects-training.html">After Effects Advanced</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-advanced-melbourne">6</a></td>
             <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-advanced-melbourne">8</a></td>
-            <td><a href="/after-effects/after-effects-advanced-melbourne">16 Jul</a></td>
+            <td>&mdash;</td>
+            <td><a href="/after-effects/after-effects-advanced-melbourne">16</a></td>
         </tr>
     </tbody>    
  </table>  

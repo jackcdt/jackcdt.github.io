@@ -3,31 +3,31 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
-            <th>Jun</th> 
+            <th>Jun</th>
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/flash-web-banners.html">Flash Web Banners</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-web-banners-melbourne">19</a></td>
             <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-web-banners-melbourne">25</a></td>
+            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials-melbourne">3 Aug</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/flash-training-intro.html">Flash Essentials Courses</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials-melbourne">19 &amp; 20</a></td>
             <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials-melbourne">25 &amp; 26</a></td>
+            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials-melbourne">3 &amp; 4<br> Aug</a></td>
         </tr>
         <tr> 
