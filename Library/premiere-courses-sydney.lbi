@@ -3,40 +3,40 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a></td>
-            <td ><a href="/premiere-pro/premiere-pro-essentials">12 &amp; 13</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials">9 &amp; 10</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials">11 &amp; 12</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials">13 &amp; 14</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials">20 &amp; 21</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials">23 &amp; 24</a></td>
+            <td ><a href="/premiere-pro/premiere-pro-essentials">20 &amp; 21</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-premiere-training.html">Premiere Pro Advanced</a></td>
-            <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-pro-advanced">11</a></td>
             <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-pro-advanced">1</a></td> 
             <td ><a href="/premiere-pro/premiere-pro-advanced">22</a></td>
-            <td ><a href="/premiere-pro/premiere-pro-advanced">22 Jul</a></td>
+            <td >&mdash;</td>
+            <td ><a href="/premiere-pro/premiere-pro-advanced">22</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/premiere-elements-training.html">Premiere Elements</a></td>
-            <td ><a href="/premiere-pro/premiere-elements">28</a></td>
             <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-elements">19</a></td>
             <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-elements">25</a></td>
+            <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-elements">11 Aug</a></td>
         </tr>
     </tbody>    

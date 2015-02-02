@@ -3,23 +3,23 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/premiere-training-intro.html">Premiere Pro Essentials</a></td>
-            <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-pro-essentials-brisbane">12 &amp; 13</a></td>
             <td >&mdash;</td>
             <td ><a href="/premiere-pro/premiere-pro-essentials-brisbane">16 &amp; 17</a></td>
             <td ><a href="/premiere-pro/premiere-pro-essentials-brisbane">28 &amp; 29</a></td>
-            <td ><a href="/premiere-pro/premiere-pro-essentials-brisbane">13 &amp; 14<br>Jul</a></td>
+            <td >&mdash;</td>
+            <td ><a href="/premiere-pro/premiere-pro-essentials-brisbane">13 &amp; 14</a></td>
        </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-premiere-training.html">Premiere Pro Advanced</a></td>

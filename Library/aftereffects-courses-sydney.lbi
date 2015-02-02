@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/after-effects-training-intro.html">After Effects Essentials</a></td> 
-            <td><a href="/after-effects/after-effects-essentials">19 &amp; 20</a></td>
             <td><a href="/after-effects/after-effects-essentials">24 &amp; 25</a></td>
             <td><a href="/after-effects/after-effects-essentials">23 &amp; 24</a></td>
             <td><a href="/after-effects/after-effects-essentials">28 &amp; 19</a></td>
             <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-essentials">1 &amp; 2</a></td>
+            <td><a href="/after-effects/after-effects-essentials">7 &amp; 8</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-after-effects-training.html">After Effects Advanced</a></td> 
-            <td><a href="/after-effects/after-effects-advanced">21</a></td>
             <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-advanced">25</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-advanced">3</a></td>
+            <td><a href="/after-effects/after-effects-advanced">5 Aug</a></td>
         </tr>
     </tbody>    
  </table>  

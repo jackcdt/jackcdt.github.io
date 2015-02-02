@@ -3,27 +3,27 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/illustrator-lite.html">Illustrator Lite</a></td> 
             <td>&mdash;</td>
-            <td><a href="/illustrator/illustrator-lite">18</a></td>
-            <td><a href="/illustrator/illustrator-lite">27</a></td>
+            <td><a href="/illustrator/illustrator-lite">6</a><br>
+            <a href="/illustrator/illustrator-lite">27</a></td>
             <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-lite">4</a></td>
             <td><a href="/illustrator/illustrator-lite">10</a></td>
+            <td><a href="/illustrator/illustrator-lite">21</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a></td> 
-            <td> <a href="/illustrator/illustrator-essentials">15 &amp; 16</a></td>
             <td> <a href="/illustrator/illustrator-essentials">2 &amp; 3</a><br>
               <a href="/illustrator/illustrator-essentials">17 &amp; 18</a></td>
             <td> <a href="/illustrator/illustrator-essentials">5 &amp; 6</a><br>
@@ -32,15 +32,17 @@
             <td> <a href="/illustrator/illustrator-essentials">4 &amp; 5</a><br>
               <a href="/illustrator/illustrator-essentials">26 &amp; 27</a></td>
             <td> <a href="/illustrator/illustrator-essentials">18 &amp; 19</a></td>
+            <td> <a href="/illustrator/illustrator-essentials">6 &amp; 7</a><br>
+              <a href="/illustrator/illustrator-essentials">21 &amp; 22</a></td>        
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/illustrator-training-advanced.html">Illustrator Advanced</a></td>
-            <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-advanced">16 &amp; 17</a></td>
             <td><a href="/illustrator/illustrator-advanced">21 &amp; 22</a></td>
             <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-advanced">4 &amp; 5</a></td>
+            <td><a href="/illustrator/illustrator-advanced">28 &amp; 29</a></td>
         </tr>
     </tbody>    
  </table>  

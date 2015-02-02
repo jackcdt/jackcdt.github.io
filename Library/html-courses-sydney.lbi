@@ -3,52 +3,52 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a></td> 
-            <td>
-              <a href="/html-html5/html-web-principles">19</a></td>
             <td><a href="/html-html5/html-web-principles">20</a></td>
             <td><a href="/html-html5/html-web-principles">4</a></td>
             <td><a href="/html-html5/html-web-principles">16</a></td>
             <td><a href="/html-html5/html-web-principles">6</a><br>
               <a href="/html-html5/html-web-principles">27</a></td>
             <td><a href="/html-html5/html-web-principles">17</a></td>
+            <td><a href="/html-html5/html-web-principles">3</a><br>
+            <a href="/html-html5/html-web-principles">29</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/html-email-courses.html">HTML Email Newsletters</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td><a href="/html-html5/html-newsletters">11</a></td> 
-            <td>&mdash;</td>
+            <td><a href="/html-html5/html-newsletters">11</a></td>
             <td><a href="/html-html5/html-newsletters">23</a></td>
-            <td><a href="/html-html5/html-newsletters">19 Jun</a></td>
+            <td>&mdash;</td>
+            <td><a href="/html-html5/html-newsletters">19</a></td>
+            <td><a href="/html-html5/html-newsletters">21 Aug</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/css-training.html">CSS Essentials</a></td>
-            <td><a href="/dreamweaver-css/css-essentials">22 &amp; 23</a></td>
             <td>&mdash;</td>
-            <td><a href="/dreamweaver-css/css-essentials">5 &amp; 6</a></td>
+            <td><a href="/dreamweaver-css/css-essentials">12 &amp; 13</a></td>
             <td><a href="/dreamweaver-css/css-essentials">22 &amp; 24</a></td>
             <td>&mdash;</td>
             <td><a href="/dreamweaver-css/css-essentials">10 &amp; 11</a></td>
+            <td><a href="/dreamweaver-css/css-essentials">30 &amp; 31</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/html5-css3-training.html">HTML5 &amp; CSS3</a></td> 
-            <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/html-html5/html5-css3">12 &amp; 13</a></td>
             <td><a href="/html-html5/html5-css3">30 Apr &amp;<br> 1 May</a></td>
             <td><a href="/html-html5/html5-css3">30 Apr &amp;<br> 1 May</a></td>
             <td><a href="/html-html5/html5-css3">25 &amp; 26</a></td>
+            <td><a href="/html-html5/html5-css3">19 &amp; 20<br>Aug</a></td>
         </tr>
     </tbody>    
  </table>  
