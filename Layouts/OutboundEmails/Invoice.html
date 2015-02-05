@@ -1,49 +1,79 @@
 <html>
-    <head>
-        <style type="text/css">
-            body { margin: 18px; }
-            body, table { font: 12px/18px "Lucida Grande", Arial, Verdana, sans-serif; }
-            table.border { font: 11px/18px "Lucida Grande", Arial, Verdana, sans-serif; }
-            table.border { border-right: 1px solid #eee; border-bottom: 1px solid #eee; }
-            table.border td { border-top: 1px solid #eee; border-left: 1px solid #eee; }
-            table span { color: #888; }
-        </style>
-    </head>
-    <body>
-        <p class="p1"><strong>Thanks for Your Order!</strong></p>
-        <table width="100%" cellspacing="0" cellpadding="6" class="invoice">
-            <tbody>
-                <tr>
-                    <td><strong>Order Date</strong><br />
-                    {tag_invoicedate}
-                    </td>
-                    <td align="right"><strong>Order Number</strong><br />
-                    {tag_invoicenumber}
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>
-                    {tag_recipientname}<br />
-                    {tag_addressdefault}
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
+
+<head>
+    <style type="text/css">
+        body {
+            margin: 18px;
+        }
+        body,
+        table {
+            font: 12px/18px"Lucida Grande", Arial, Verdana, sans-serif;
+        }
+        table.border {
+            font: 11px/18px"Lucida Grande", Arial, Verdana, sans-serif;
+        }
+        table.border {
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        table.border td {
+            border-top: 1px solid #eee;
+            border-left: 1px solid #eee;
+        }
+        table span {
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="p1"><strong>Thanks for Your Order!</strong>
+    </p>
+    <img src="http://cdt-test02.businesscatalyst.com/images/header-footer/cdt-logo.png" alt="City Desktop Training">
+    <h2>Tax Invoice</h2>
+    <table width="100%" cellspacing="0" cellpadding="6" class="invoice">
+        <tbody>
+            <tr>
+                <td>
+                    Attention: {tag_recipientname}
+                    <br />{tag_addressdefault}
+                </td>
+                <td><strong>Invoice Number</strong>
+                    <br>BC-{tag_invoicenumber}<br><br>
+                    <strong>Invoice Date</strong><br>
+                    {tag_invoicedate}<br><br>
+                    <strong>ABN</strong><br>
+                    13 118 938 631
+                </td>
+                <td>
+                    <p>City Desktop Training
+                        <br>PO BOX Q336
+                        <br>QUEEN VICTORIA BUILDING
+                        <br>NSW 1230
+                        <br>Phone: 1300 441 891
+                        <br>email: info@cd.com.au
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
                     <table width="100%" cellspacing="0" cellpadding="6" class="border">
                         <tbody>
                             <tr>
-                                <td style="width: 30%;"><span>Product</span></td>
-                                <td style="width: 30%;"><span>Description</span></td>
-                                <td style="width: 10%;"><span>Unit Price</span></td>
-                                <td style="width: 10%;"><span>GST</span></td>
+                                <td style="width: 30%;"><span>Course Name</span>
+                                </td>
+                                <td style="width: 30%;"><span>Description</span>
+                                </td>
+                                <td style="width: 10%;"><span>Unit Price</span>
+                                </td>
+                                <td style="width: 10%;"><span>GST</span>
+                                </td>
                                 <!--<td style="width: 10%;"><span>Quantity</span></td>-->
-                                <td style="width: 10%;"><span>Total</span></td>
+                                <td style="width: 10%;"><span>Amount AUD</span>
+                                </td>
                             </tr>
                             <tr class="text">
                                 <td style="width: 30%;">{tag_productname}</td>
@@ -58,36 +88,32 @@
                     <table width="100%" cellspacing="0" cellpadding="6" border="0" class="textb">
                         <tbody>
                             <tr>
-                                <td colspan="2"><br />
-                                <hr />
+                                <td colspan="2">
+                                    <br />
+                                    <hr />
                                 </td>
                             </tr>
                             <tr>
-                                <td align="right" style="width: 90%;"><strong>Grand Total:</strong></td>
+                                <td align="right" style="width: 90%;"><strong>Grand Total:</strong>
+                                </td>
                                 <td>{tag_invoicetotal}</td>
                             </tr>
                         </tbody>
                     </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p>Thank you for choosing City Desktop Training for your training. A confirmation booking email will be sent to you by separate email advising course details together with your tax invoice or tax receipt if you have paid.</p>
-        <p>If paying by cheque please make your cheque payable to City Desktop Training.        Please provide details of the course and the person attending the course.
-        Please post your cheque to
-        City Desktop Training,
-        PO Box Q336,
-        QUEEN VICTORIA BUILDING,
-        NSW, 1230.</p>
-        <p>If paying by Bank Deposit:<br />
-        Bank Name: Westpac Bank Branch: Castlereagh Street, Sydney NSW
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Due Date: {tag_invoicedate}</strong><br></p>
+    <p>Booking is taken in good faith and is considered a firm booking. By enrolling in a course you accept the conditions of enrolment. Failure to attend a training course without notice will result in the forfiet of that course booking and any fees paid for that training course. CDT reserves the right to cancel training if minimum numbers of required attendees is not met. Please see full <a href="http://www.cd.com.au/training/terms-conditions-policies.html">Terms &amp; Conditions</a></p>
+    <p>If paying by Visa/Mastercard please note that a 1.5% transaction fee applies. AMEX attracts a 3% fee.<br><br>
+       If paying by EFT, please include invoice number.<br>
+        <br />EFT DETAILS: City Desktop Training Pty Ltd
+        <br />Westpac BSB: 032006
+        <br />Account Number: 327473
         <br />
-        Account Name: City Desktop Training Pty Ltd
-        <br />
-        BSB: 032006<br />
-        Account Number: 327473<br />
-        ---------------------------------------------------------------------------------------<br />
-        Please note that a 3% surcharge applies to AMEX payments and 1.5% for Visa and MasterCard Payments.<br />
-        ---------------------------------------------------------------------------------------</p>
-    </body>
+        <br />Internation Payments Swift Code:WPACAU2S
+    </p>
+</body>
+
 </html>
