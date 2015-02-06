@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 53, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 58, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;

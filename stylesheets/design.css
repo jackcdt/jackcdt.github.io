@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 53, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 58, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;
@@ -5340,12 +5340,12 @@ html {
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
 .seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .course-item .course-item-fee, .course-outline .overview-list .item-course-specific,
-.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course strong, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course strong, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course strong, .illustrator-advanced-course .testimonials .category-testimonial span, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course strong, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course strong, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .testimonials .category-testimonial span, .flash-essentials-course strong, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course strong, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course strong, .flash-actionscript-course .testimonials .category-testimonial span {
+.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course strong, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course strong, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course strong, .illustrator-advanced-course .testimonials .category-testimonial span, .cc-new-features strong, .cc-new-features .testimonials .category-testimonial span, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course strong, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course strong, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .testimonials .category-testimonial span, .flash-essentials-course strong, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course strong, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course strong, .flash-actionscript-course .testimonials .category-testimonial span {
   font-weight: 600; }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .banner-row .banner-text .banner-sub-header, .training-checklist th, .training-checklist .training-checklist-header, .course-item .course-item-info,
-.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial-client-name, .illustrator-category .testimonials .category-testimonial-course-name, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial-client-name, .illustrator-essentials-course .testimonials .category-testimonial-course-name, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial-client-name, .illustrator-lite-course .testimonials .category-testimonial-course-name, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial-client-name, .illustrator-advanced-course .testimonials .category-testimonial-course-name, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial-client-name, .acrobat-category .testimonials .category-testimonial-course-name, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial-client-name, .acrobat-essentials-course .testimonials .category-testimonial-course-name, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial-client-name, .acrobat-pdfforms-course .testimonials .category-testimonial-course-name, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial-client-name, .flash-category .testimonials .category-testimonial-course-name, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial-client-name, .flash-essentials-course .testimonials .category-testimonial-course-name, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial-client-name, .flash-web-banners-course .testimonials .category-testimonial-course-name, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial-client-name, .flash-actionscript-course .testimonials .category-testimonial-course-name {
+.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial-client-name, .illustrator-category .testimonials .category-testimonial-course-name, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial-client-name, .illustrator-essentials-course .testimonials .category-testimonial-course-name, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial-client-name, .illustrator-lite-course .testimonials .category-testimonial-course-name, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial-client-name, .illustrator-advanced-course .testimonials .category-testimonial-course-name, .cc-new-features .paragraph-header, .cc-new-features .testimonials .testimonials-title, .cc-new-features .testimonials .category-testimonial-client-name, .cc-new-features .testimonials .category-testimonial-course-name, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial-client-name, .acrobat-category .testimonials .category-testimonial-course-name, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial-client-name, .acrobat-essentials-course .testimonials .category-testimonial-course-name, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial-client-name, .acrobat-pdfforms-course .testimonials .category-testimonial-course-name, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial-client-name, .flash-category .testimonials .category-testimonial-course-name, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial-client-name, .flash-essentials-course .testimonials .category-testimonial-course-name, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial-client-name, .flash-web-banners-course .testimonials .category-testimonial-course-name, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial-client-name, .flash-actionscript-course .testimonials .category-testimonial-course-name {
   font-weight: 500; }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial span, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .illustrator-category .paragraph-header, .illustrator-category .testimonials .testimonials-title, .illustrator-category .testimonials .category-testimonial span, .illustrator-essentials-course .paragraph-header, .illustrator-essentials-course .testimonials .testimonials-title, .illustrator-essentials-course .testimonials .category-testimonial span, .illustrator-lite-course .paragraph-header, .illustrator-lite-course .testimonials .testimonials-title, .illustrator-lite-course .testimonials .category-testimonial span, .illustrator-advanced-course .paragraph-header, .illustrator-advanced-course .testimonials .testimonials-title, .illustrator-advanced-course .testimonials .category-testimonial span, .cc-new-features .paragraph-header, .cc-new-features .testimonials .testimonials-title, .cc-new-features .testimonials .category-testimonial span, .acrobat-category .paragraph-header, .acrobat-category .testimonials .testimonials-title, .acrobat-category .testimonials .category-testimonial span, .acrobat-essentials-course .paragraph-header, .acrobat-essentials-course .testimonials .testimonials-title, .acrobat-essentials-course .testimonials .category-testimonial span, .acrobat-pdfforms-course .paragraph-header, .acrobat-pdfforms-course .testimonials .testimonials-title, .acrobat-pdfforms-course .testimonials .category-testimonial span, .flash-category .paragraph-header, .flash-category .testimonials .testimonials-title, .flash-category .testimonials .category-testimonial span, .flash-essentials-course .paragraph-header, .flash-essentials-course .testimonials .testimonials-title, .flash-essentials-course .testimonials .category-testimonial span, .flash-web-banners-course .paragraph-header, .flash-web-banners-course .testimonials .testimonials-title, .flash-web-banners-course .testimonials .category-testimonial span, .flash-actionscript-course .paragraph-header, .flash-actionscript-course .testimonials .testimonials-title, .flash-actionscript-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -7822,6 +7822,100 @@ h4 {
       height: 5px; }
     /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .illustrator-advanced-course .testimonials::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgba(140, 140, 140, 0.5); }
+
+/* line 3, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features.scss */
+.cc-new-features {
+  /* General */
+  /* Secion borders */
+  /* Headers */
+  /* Course overview */
+  /* Side bar - seminars ad */
+  /* Side bar - testimonials */ }
+  /* line 3, ../scss/_custom/components/training/_banner.scss */
+  .cc-new-features .banner-row {
+    background-color: #87060C; }
+  /* line 9, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .breadcrumb-active {
+    color: #87060C; }
+  /* line 17, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .sw-ver {
+    color: #87060C; }
+  /* line 22, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features [class*="block-grid-"] > li {
+    padding-bottom: 0;
+    min-width: 18em; }
+  /* line 28, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .book-now-section {
+    border-top: 1px solid #87060C; }
+  /* line 33, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .course-header-2 {
+    color: #87060C; }
+  /* line 37, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .paragraph-header {
+    color: #87060C;
+    line-height: 1.5em; }
+  /* line 43, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .overview-list .item-course-specific,
+  .cc-new-features .overview-list .course-specific {
+    color: #87060C; }
+  /* line 50, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .course-dates-promo .color-specific,
+  .cc-new-features .course-dates-promo .course-length {
+    color: #87060C; }
+  /* line 56, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .download-text {
+    color: #87060C; }
+  /* line 61, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .seminars-ad {
+    background-color: #87060C; }
+  /* line 67, ../scss/_custom/components/training/_course.scss */
+  .cc-new-features .testimonials {
+    background-color: #E4E4E4;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*    -webkit-overflow-scrolling: touch;*/
+    border: solid 1px #646464;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    /* line 14, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials .testimonials-title {
+      color: #87060C;
+      margin: 6px 9px; }
+    /* line 21, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials .category-testimonial {
+      margin: 5px 10px 12px 10px;
+      font-size: 14px;
+      line-height: 1.5em; }
+      /* line 26, ../scss/_custom/components/training/_testimonials.scss */
+      .cc-new-features .testimonials .category-testimonial span {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #87060C;
+        font-style: italic;
+        display: inline; }
+    /* line 36, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials .category-testimonial-client-name {
+      margin-top: 6px;
+      font-size: 15px; }
+    /* line 42, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials .category-testimonial-course-name {
+      color: #87060C;
+      font-size: 15px;
+      margin-bottom: 18px; }
+    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials::-webkit-scrollbar {
+      -webkit-appearance: none; }
+    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials::-webkit-scrollbar:vertical {
+      width: 5px; }
+    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials::-webkit-scrollbar:horizontal {
+      height: 5px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    .cc-new-features .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
 

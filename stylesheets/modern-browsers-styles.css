@@ -12,11 +12,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 53, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 58, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -3169,6 +3169,193 @@ body {
   background-color: #fa9a02; }
 /* line 41, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-advanced-course .validate-participants:active {
+  position: relative;
+  top: 1px; }
+
+/* line 168, training/adobe/cc-cs6/cc-new-features/*.png */
+.cc-new-features-sprite, .cc-new-features .cc-new-features-framed, .cc-new-features .course-classrom, .cc-new-features .pdf, .cc-new-features .course-custom-training-logo, .cc-new-features .il-advanced, .cc-new-features .id-essentials, .cc-new-features .ps-essentials, .cc-new-features .il-essentials, .cc-new-features .illustrator-cc-cs6 {
+  background-image: url('../images-dist/training/adobe/cc-cs6/cc-new-features-se150ac8ee7.png');
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .cc-new-features-framed {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.51705%;
+  background-size: 170.50691%;
+  background-position: 0 0%;
+  min-width: 55px;
+  min-height: 53px; }
+/* line 22, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .course-classrom {
+  background-position: 0 -398px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 3.248%;
+  background-size: 185%;
+  background-position: 0 19.87019%;
+  width: 77%;
+  padding-bottom: 42%;
+  border: 1px solid #000;
+  margin-top: 5px;
+  margin-left: 12px; }
+/* line 32, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .pdf {
+  background-position: 0 -1845px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.8%;
+  background-size: 578.125%;
+  background-position: 0 89.95612%;
+  min-width: 32px;
+  min-height: 32px;
+  top: -3px; }
+/* line 40, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .course-custom-training-logo {
+  background-position: 0 -550px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 100%;
+  display: block;
+  height: 0;
+  padding-bottom: 40.27027%;
+  background-size: 100%;
+  background-position: 0 27.97558%;
+  border: 1px solid #686F74; }
+  @media screen and (min-width: 420px) and (max-width: 639px) {
+    /* line 40, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+    .cc-new-features .course-custom-training-logo {
+      /*    $sprite-width: $map-width;
+          $sprite-height: $map-height;
+      */
+      width: 65%;
+      display: block;
+      height: 0;
+      padding-bottom: 26.17568%;
+      background-size: 100%;
+      background-position: 0 27.97558%; } }
+/* line 53, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .il-advanced {
+  background-position: 0 -1068px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 52.55906%;
+  margin-top: -13px;
+  min-width: 65px;
+  min-height: 63px; }
+/* line 62, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .id-essentials {
+  background-position: 0 -967px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.52813%;
+  background-size: 578.125%;
+  background-position: 0 47.07887%;
+  min-width: 50px;
+  min-height: 50px; }
+/* line 69, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .ps-essentials {
+  background-position: 0 -2052px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 569.23077%;
+  background-position: 0 100%;
+  min-width: 50px;
+  min-height: 50px; }
+/* line 76, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .il-essentials {
+  background-position: 0 -1399px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.62154%;
+  background-size: 569.23077%;
+  background-position: 0 68.17739%;
+  min-width: 50px;
+  min-height: 50px; }
+/* line 83, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .ps-essentials-related,
+.cc-new-features .id-essentials-related {
+  margin-left: 15px; }
+/* line 88, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .illustrator-cc-cs6 {
+  background-position: 0 -1502px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.046%;
+  background-size: 185%;
+  background-position: 0 77.38279%;
+  min-width: 115px;
+  min-height: 100px;
+  float: right;
+  margin-right: -15px;
+  margin-top: -17px; }
+/* line 12, ../scss/_custom/components/_btn-shadow.scss */
+.cc-new-features .validate-participants {
+  -moz-box-shadow: inset 0px 1px 0px 0px #fa9297;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #fa9297;
+  box-shadow: inset 0px 1px 0px 0px #fa9297;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d00913), color-stop(1, #87060C));
+  background: -moz-linear-gradient(center top, #d00913 5%, #87060C 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$lighter-color-str, endColorstr=$color-str);
+  background-color: #d00913;
+  text-indent: 0;
+  border: 1px solid #3e0305;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #707070;
+  padding: 0 10px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+/* line 34, ../scss/_custom/components/_btn-shadow.scss */
+.cc-new-features .validate-participants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #87060C), color-stop(1, #d00913));
+  background: -moz-linear-gradient(center top, #87060C 5%, #d00913 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-str, endColorstr=$lighter-color-str);
+  background-color: #87060C; }
+/* line 41, ../scss/_custom/components/_btn-shadow.scss */
+.cc-new-features .validate-participants:active {
   position: relative;
   top: 1px; }
 
