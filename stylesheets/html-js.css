@@ -7388,53 +7388,6 @@ h4 {
   .category-page .side-pannel {
     top: -1em; } }
 
-@media print {
-  /* line 2, ../scss/_custom/_print.scss */
-  .mega-menu,
-  .footer-logo,
-  .custom-breadcrumbs,
-  .category-page .custom-training,
-  .category-page .side-pannel,
-  .category-page .promo-packages,
-  .category-page .course-item-info,
-  .category-page .course-book-now,
-  .course-outline .course-classrom,
-  .course-outline .course-dates,
-  .course-outline .download-and-book,
-  .course-outline .validate-participants,
-  .course-outline .download-pdf,
-  .course-outline .seminars-ad,
-  .course-outline .lower-aside-section,
-  .course-outline .promo-grid,
-  .course-outline .related-courses,
-  .orbit-prev,
-  .orbit-next,
-  .wtwu-side-panel,
-  .plus-minus-icon,
-  .testimonials,
-  .room-hire .banner-image,
-  .room-hire .win-mac-logo,
-  .room-hire .room-hire-breakout,
-  .room-hire .sydney-map,
-  .room-hire .melbourne-map,
-  .new-skills-banner,
-  .private-training,
-  .locations .sydney,
-  .locations .melbourne,
-  .locations .brisbane,
-  .locations .canberra,
-  .locations .map {
-    display: none !important; }
-
-  /* line 40, ../scss/_custom/_print.scss */
-  .accordion {
-    overflow: visible !important; }
-
-  /* line 44, ../scss/_custom/_print.scss */
-  .accordion .content {
-    display: block !important;
-    overflow: visible !important;
-    height: auto !important; } }
 /* line 3, ../scss/_custom/components/training/_banner.scss */
 .html-css-category .banner-row {
   background-color: #053c6a; }
