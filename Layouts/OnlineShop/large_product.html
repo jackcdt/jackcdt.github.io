@@ -47,8 +47,15 @@
             <img src="/images-dist/shopping-cart/calendar.png" alt "Public Holiday Calendar">
         </div>
     </div>
-   <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"><\/script>');</script><script src="/js/participants.js"></script><script>jQuery(function() {
-    jQuery("select[name=AddToCart_Grouping]").on("change", function() {
-        CDT.participants.init();
+    <script>
+    window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"><\/script>');
+    </script>
+    <script src="/js/participants.js"></script>
+    <script>
+    jQuery(function() {
+        jQuery("select[name=AddToCart_Grouping]").on("change", function() {
+            CDT.participants.init();
+        });
     });
-});</script></div>
+    </script>
+</div>
