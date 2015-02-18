@@ -8133,11 +8133,15 @@ h4 {
   /* line 20, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .tight-header-3 {
     width: 273px; } }
+/* line 25, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+.online-courses-category .omca-approved {
+  float: right;
+  padding: 25px 0; }
 @media only screen and (min-width: 64.063em) {
-  /* line 26, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 30, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .course-item .course-item-description {
     height: 13em; } }
-/* line 32, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 36, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-details {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -8148,7 +8152,7 @@ h4 {
   margin-bottom: .7em;
   margin-left: 0;
   text-align: right; }
-/* line 44, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 48, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-description {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -8158,7 +8162,7 @@ h4 {
   margin-right: 0;
   margin-bottom: .8em;
   margin-left: 70px; }
-/* line 55, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 59, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .online-marketing-course-book-now {
   font-family: Arial,Helvetica,sans-serif;
   font-size: .8em;
@@ -8175,7 +8179,7 @@ h4 {
 /* line 9, ../scss/_custom/components/_plus-minus-icon.scss */
 .online-courses-category .accordion .active .plus-minus-icon:before {
   content: "\2d"; }
-/* line 70, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 74, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .accordion a {
   display: block;
   font-size: 1em;
@@ -8183,10 +8187,10 @@ h4 {
   font-weight: normal;
   text-decoration: none;
   background-color: #EEE; }
-/* line 79, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 83, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .accordion h3 {
   color: #787878; }
-/* line 84, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 88, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category p.online-marketing-course-book-now a {
   color: #FFF;
   background-color: #FF6801;
@@ -8196,56 +8200,56 @@ h4 {
   text-decoration: none;
   line-height: 1.4em; }
 @media only screen and (min-width: 64.063em) {
-  /* line 94, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 98, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .category-description-section {
     width: 62%; } }
-/* line 100, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 104, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .sidbear-bundle {
   background-color: #EEE;
   margin: 15px 0; }
   @media only screen and (min-width: 64.063em) {
-    /* line 100, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+    /* line 104, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
     .online-courses-category .sidbear-bundle {
       width: 38%; } }
-/* line 109, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 113, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-heading {
   font-size: 36px;
   font-weight: 600;
   line-height: 1.36;
   color: #2088D1;
   margin: 5px 10px 0 10px; }
-/* line 117, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 121, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro {
   background-color: #C2D2E4;
   margin-top: 10px;
   padding-bottom: 10px; }
-/* line 123, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 127, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-title {
   font-size: 26px;
   font-weight: 600;
   line-height: 1.36;
   color: #000;
   margin: 0 10px; }
-/* line 131, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 135, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-sign {
   font-size: 18px; }
-/* line 135, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 139, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-price {
   font-size: 20px;
   text-decoration: line-through; }
-/* line 140, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 144, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-intro h4 span.bundle-gst {
   font-size: 14px; }
-/* line 144, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 148, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-info {
   color: #000;
   margin: 0 10px;
   font-size: 14px;
   line-height: 1.5; }
-/* line 151, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 155, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-info span {
   color: #2088D1; }
-/* line 155, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 159, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list-title {
   padding-top: 10px;
   padding-right: 10px;
@@ -8254,18 +8258,18 @@ h4 {
   font-weight: 600;
   color: #2088D1;
   margin: 0; }
-/* line 165, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 169, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list {
   margin-left: 10px; }
-/* line 169, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+/* line 173, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
 .online-courses-category .bundle-list .bundle-courses {
   padding-top: 15px;
   border-bottom: 1px solid #686F74;
   font-weight: 600;
   color: #000; }
-  /* line 175, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 179, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .bundle-list .bundle-courses a {
     color: #334C57; }
-  /* line 179, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
+  /* line 183, ../scss/_custom/training/online-marketing/online-courses/_online-courses-category.scss */
   .online-courses-category .bundle-list .bundle-courses span {
     color: #2088D1; }
