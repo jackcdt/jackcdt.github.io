@@ -6806,6 +6806,29 @@ h4 {
   overflow: visible;
   z-index: 99999; }
 
+/* line 105, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p {
+  font-size: 12px !important;
+  padding-top: 2px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      text-align: center; } }
+
+/* line 114, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+  padding-top: 6px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 114, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      text-align: center; } }
+
+/* line 122, ../scss/_custom/header/_header.scss */
+.addthis_horizontal_follow_toolbox {
+  padding-top: 10px !important; }
+
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
   height: 120px;

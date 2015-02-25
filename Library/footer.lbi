@@ -159,4 +159,5 @@
         
         <!-- Fix for Bosweb implementation of course upcoming dates selection -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
-        
+        <!-- Addthis -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54ed20225ba0f678" async="async"></script>

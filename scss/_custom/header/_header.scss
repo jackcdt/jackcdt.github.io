@@ -102,11 +102,27 @@ $banner-border-height: ($banner-height-with-border - $banner-content-height + $b
     z-index: 99999;
 }
 
+body > div.mega-menu > div > div > ul > li > a > p {
+    font-size: 12px !important;
+    padding-top: 2px !important;
+    color: #FFFFFF !important;
+    @media #{$medium-up} {
+		text-align: center;
+	}
+}
 
+body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+    padding-top: 6px !important;
+    color: #FFFFFF !important;
+    @media #{$medium-up} {
+		text-align: center;
+	}
+}
 
-
-
-
+.addthis_horizontal_follow_toolbox {
+    padding-top: 10px !important;
+}
+    
 
 
 

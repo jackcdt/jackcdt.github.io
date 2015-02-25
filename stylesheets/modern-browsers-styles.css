@@ -6113,12 +6113,12 @@ body {
 
 /* line 80, training/web-design-development/wordpress/wordpress-category/*.png */
 .wordpress-category-sprite, .wordpress-category .wp-essentials, .wordpress-category .category-custom-training, .wordpress-category .wp-advanced, .wordpress-category .wp-consult, .wordpress-category .wp-whatsnew {
-  background-image: url('../images-dist/training/web-design-development/wordpress/wordpress-category-s4f8e0b0314.png');
+  background-image: url('../images-dist/training/web-design-development/wordpress/wordpress-category-s9a85c61d04.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
 .wordpress-category .wp-essentials {
-  background-position: 0 -490px;
+  background-position: 0 -489px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -6127,7 +6127,7 @@ body {
   height: 0;
   padding-bottom: 5.70794%;
   background-size: 587.30159%;
-  background-position: 0 79.28803%;
+  background-position: 0 79.25446%;
   margin-left: 15px;
   min-width: 47px;
   min-height: 47px; }
@@ -6167,7 +6167,7 @@ body {
   height: 0;
   padding-bottom: 4.88095%;
   background-size: 440.47619%;
-  background-position: 0 31.60535%;
+  background-position: 0 31.65829%;
   margin-top: -10px;
   min-width: 56px;
   min-height: 55px; }
@@ -6180,12 +6180,12 @@ body {
   width: 95%;
   display: block;
   height: 0;
-  padding-bottom: 71.37838%;
+  padding-bottom: 70.86486%;
   background-size: 200%;
   background-position: 0 57.48614%; }
 /* line 44, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-add-styles.scss */
 .wordpress-category .wp-whatsnew {
-  background-position: 0 -592px;
+  background-position: 0 -591px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
