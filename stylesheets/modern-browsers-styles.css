@@ -8160,14 +8160,14 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 72, training/video-editing/finalcut-pro/*.png */
-.finalcut-pro-sprite, .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf, .finalcut-pro-course .course-custom-training-logo {
-  background-image: url('../images-dist/training/video-editing/finalcut-pro-s875e4c19ca.png');
+/* line 80, training/video-editing/finalcut-pro/*.png */
+.finalcut-pro-sprite, .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf, .finalcut-pro-course .fcp-book, .finalcut-pro-course .course-custom-training-logo {
+  background-image: url('../images-dist/training/video-editing/finalcut-pro-s69b9a472e1.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
 .finalcut-pro-course .finalcut-ess {
-  background-position: 0 -341px;
+  background-position: 0 -581px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8176,7 +8176,7 @@ body {
   height: 0;
   padding-bottom: 5.53231%;
   background-size: 569.23077%;
-  background-position: 0 76.62921%;
+  background-position: 0 84.81752%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
@@ -8198,7 +8198,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
 .finalcut-pro-course .pdf {
-  background-position: 0 -443px;
+  background-position: 0 -683px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8211,7 +8211,21 @@ body {
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
-/* line 40, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+/* line 39, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .fcp-book {
+  background-position: 0 -341px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 7.20497%;
+  background-size: 229.81366%;
+  background-position: 0 62.34004%;
+  min-width: 161px;
+  min-height: 200px; }
+/* line 45, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
 .finalcut-pro-course .course-custom-training-logo {
   background-position: 0 -152px;
   /*    $sprite-width: $map-width;
@@ -8222,10 +8236,10 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 42.4581%;
+  background-position: 0 25.41806%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 40, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+    /* line 45, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
     .finalcut-pro-course .course-custom-training-logo {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -8235,7 +8249,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 42.4581%; } }
+      background-position: 0 25.41806%; } }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .finalcut-pro-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #c7d5e9;

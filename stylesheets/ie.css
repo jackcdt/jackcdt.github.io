@@ -1088,7 +1088,7 @@ body {
 .finalcut-pro-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
-  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf {
+  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf .fcp-book {
     display: none !important; }
   /* line 10, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
   .finalcut-pro-course .book-now-btn {
