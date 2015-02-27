@@ -6821,6 +6821,19 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
 .addthis_horizontal_follow_toolbox {
   padding-top: 10px !important; }
 
+@media only screen and (min-width: 64.063em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 80px 0 80px; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 35px 0 35px; } }
+@media only screen and (max-width: 40em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 15px; } }
+
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
   height: 120px;

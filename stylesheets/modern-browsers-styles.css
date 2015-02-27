@@ -568,12 +568,12 @@ body {
 
 /* line 128, training/adobe/indesign/indesign-category/*.png */
 .indesign-category-sprite, .indesign-category .id-essentials-framed, .indesign-category .custom-training-logo, .indesign-category .id-essentials, .indesign-category .id-lite, .indesign-category .id-advanced, .indesign-category .id-longdocuments, .indesign-category .id-interactivity, .indesign-category .id-accessibility, .indesign-category .id-epub, .indesign-category .package-indesign-ess, .indesign-category .package-illustrator-ess, .indesign-category .package-photoshop-ess {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-category-s76942ac5e9.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-category-see06590607.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials-framed {
-  background-position: 0 -539px;
+  background-position: 0 -541px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -582,7 +582,7 @@ body {
   height: 0;
   padding-bottom: 5.62424%;
   background-size: 560.60606%;
-  background-position: 0 43.64372%;
+  background-position: 0 43.80567%;
   min-width: 55px;
   min-height: 58px; }
 /* line 18, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
@@ -612,7 +612,7 @@ body {
       background-position: 0 0%; } }
 /* line 30, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-essentials {
-  background-position: 0 -643px;
+  background-position: 0 -645px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -621,37 +621,37 @@ body {
   height: 0;
   padding-bottom: 4.76563%;
   background-size: 578.125%;
-  background-position: 0 51.93861%;
+  background-position: 0 52.10016%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px; }
 /* line 39, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-lite {
-  background-position: 0 -885px;
+  background-position: 0 -887px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 5.07576%;
+  padding-bottom: 4.92424%;
   background-size: 560.60606%;
-  background-position: 0 71.83442%;
+  background-position: 0 71.88006%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px; }
 /* line 48, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-advanced {
-  background-position: 0 -289px;
+  background-position: 0 -292px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 23.78601%;
+  background-position: 0 24.01316%;
   margin: -7px 0 0 2px;
   min-width: 49px;
   min-height: 48px; }
@@ -680,7 +680,7 @@ body {
   padding-left: 5px !important; }
 /* line 75, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-interactivity {
-  background-position: 0 -744px;
+  background-position: 0 -746px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -689,7 +689,7 @@ body {
   height: 0;
   padding-bottom: 5.55963%;
   background-size: 339.44954%;
-  background-position: 0 62.10351%;
+  background-position: 0 62.27045%;
   margin: -12px -8px 0 5px;
   min-width: 65px;
   min-height: 56px; }
@@ -702,15 +702,15 @@ body {
   width: 6%;
   display: block;
   height: 0;
-  padding-bottom: 3.63636%;
+  padding-bottom: 3.81818%;
   background-size: 373.73737%;
-  background-position: 0 15.25424%;
+  background-position: 0 15.29126%;
   margin: 3px -4px 0 15px;
   min-width: 59px;
   min-height: 41px; }
 /* line 93, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .id-epub {
-  background-position: 0 -413px;
+  background-position: 0 -415px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -719,14 +719,14 @@ body {
   height: 0;
   padding-bottom: 7.81818%;
   background-size: 560.60606%;
-  background-position: 0 34.04782%;
+  background-position: 0 34.2127%;
   min-width: 55px;
   min-height: 72px;
   float: right;
   margin-left: 10px; }
 /* line 102, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
 .indesign-category .package-indesign-ess {
-  background-position: 0 -643px;
+  background-position: 0 -645px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -735,7 +735,7 @@ body {
   height: 0;
   padding-bottom: 4.76563%;
   background-size: 578.125%;
-  background-position: 0 51.93861%;
+  background-position: 0 52.10016%;
   min-width: 47px;
   min-height: 45px; }
 /* line 109, ../scss/_custom/training/adobe/indesign/_indesign-category-add-styles.scss */
@@ -769,12 +769,12 @@ body {
 
 /* line 112, training/adobe/indesign/indesign-ess/*.png */
 .indesign-ess-sprite, .indesign-essentials-course .id-essentials-framed, .indesign-essentials-course .course-classrom, .indesign-essentials-course .pdf, .indesign-essentials-course .indesign-cc-cs6, .indesign-essentials-course .course-custom-training-logo, .indesign-essentials-course .id-advanced, .indesign-essentials-course .id-essentials, .indesign-essentials-course .ps-ess, .indesign-essentials-course .il-ess {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-ess-s64af3c07b1.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-ess-s0abce48b0a.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .id-essentials-framed {
-  background-position: 0 -465px;
+  background-position: 0 -464px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -783,7 +783,7 @@ body {
   height: 0;
   padding-bottom: 5.62424%;
   background-size: 560.60606%;
-  background-position: 0 46.26866%;
+  background-position: 0 46.21514%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
@@ -797,7 +797,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 19.74922%;
+  background-position: 0 19.76987%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -805,7 +805,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .pdf {
-  background-position: 0 -902px;
+  background-position: 0 -901px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -814,13 +814,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 89.75124%;
+  background-position: 0 89.74104%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 40, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .indesign-cc-cs6 {
-  background-position: 0 -773px;
+  background-position: 0 -772px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -829,7 +829,7 @@ body {
   height: 0;
   padding-bottom: 4.33782%;
   background-size: 310.92437%;
-  background-position: 0 78.87755%;
+  background-position: 0 78.85598%;
   min-width: 115px;
   min-height: 93px;
   float: right;
@@ -869,7 +869,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 34.61929%;
   margin-left: 15px;
@@ -878,7 +878,7 @@ body {
   min-height: 63px; }
 /* line 72, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .id-essentials {
-  background-position: 0 -569px;
+  background-position: 0 -568px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -887,12 +887,12 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 56.44841%;
+  background-position: 0 56.40516%;
   min-width: 50px;
   min-height: 50px; }
 /* line 80, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .ps-ess {
-  background-position: 0 -1006px;
+  background-position: 0 -1005px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -906,7 +906,7 @@ body {
   min-height: 50px; }
 /* line 87, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .il-ess {
-  background-position: 0 -670px;
+  background-position: 0 -669px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -915,7 +915,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 66.6004%;
+  background-position: 0 66.56716%;
   min-width: 50px;
   min-height: 50px; }
 /* line 94, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
@@ -956,7 +956,7 @@ body {
 
 /* line 128, training/adobe/indesign/indesign-advanced/*.png */
 .indesign-advanced-sprite, .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments, .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-advanced-s8493bad5d6.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-advanced-s69ce2762bd.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
@@ -978,7 +978,7 @@ body {
   margin-left: 12px; }
 /* line 25, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .pdf {
-  background-position: 0 -1197px;
+  background-position: 0 -1198px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -987,7 +987,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 92.07692%;
+  background-position: 0 92.08301%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -1002,7 +1002,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 12.51029%;
+  background-position: 0 12.5%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
@@ -1015,7 +1015,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 12.51029%; } }
+      background-position: 0 12.5%; } }
 /* line 46, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-advanced {
   background-position: 0 -341px;
@@ -1025,15 +1025,15 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 26.64063%;
+  background-position: 0 26.59906%;
   margin-top: 20px !important;
   min-width: 65px;
   min-height: 63px; }
 /* line 55, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-interactivity {
-  background-position: 0 -566px;
+  background-position: 0 -565px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1042,29 +1042,29 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 339.44954%;
-  background-position: 0 44.81394%;
+  background-position: 0 44.69937%;
   margin-left: 15px;
   margin-top: -12px;
   min-width: 66px;
   min-height: 57px; }
 /* line 64, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-ipad {
-  background-position: 0 -707px;
+  background-position: 0 -706px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
-  background-position: 0 54.93395%;
+  background-position: 0 54.89891%;
   margin-left: 20px;
   min-width: 58px;
   min-height: 50px; }
 /* line 72, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-longdocuments {
-  background-position: 0 -824px;
+  background-position: 0 -825px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1073,13 +1073,13 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 339.44954%;
-  background-position: 0 65.24149%;
+  background-position: 0 65.26899%;
   margin-left: 15px;
   min-width: 66px;
   min-height: 50px; }
 /* line 80, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .id-essentials {
-  background-position: 0 -465px;
+  background-position: 0 -464px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1088,13 +1088,13 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 35.68688%;
+  background-position: 0 35.58282%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
 /* line 88, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .ps-ess {
-  background-position: 0 -1301px;
+  background-position: 0 -1302px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1109,7 +1109,7 @@ body {
   min-height: 36px; }
 /* line 96, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .il-ess {
-  background-position: 0 -965px;
+  background-position: 0 -966px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1118,7 +1118,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 74.17371%;
+  background-position: 0 74.19355%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
@@ -1157,7 +1157,7 @@ body {
 
 /* line 104, training/adobe/indesign/indesign-lite/*.png */
 .indesign-lite-sprite, .indesign-lite-course .id-lite, .indesign-lite-course .course-classrom, .indesign-lite-course .pdf, .indesign-lite-course .indesign-cc-cs6, .indesign-lite-course .course-custom-training-logo, .indesign-lite-course .il-lite, .indesign-lite-course .ps-lite, .indesign-lite-course .id-essentials {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-lite-s6d59874418.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-lite-s6ad7aa7f53.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
@@ -1169,9 +1169,9 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.71212%;
   background-size: 560.60606%;
-  background-position: 0 49.71879%;
+  background-position: 0 49.9435%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
@@ -1193,7 +1193,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
 .indesign-lite-course .pdf {
-  background-position: 0 -785px;
+  background-position: 0 -780px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1202,13 +1202,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 88.00448%;
+  background-position: 0 88.03612%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 40, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
 .indesign-lite-course .indesign-cc-cs6 {
-  background-position: 0 -656px;
+  background-position: 0 -651px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1217,7 +1217,7 @@ body {
   height: 0;
   padding-bottom: 4.33782%;
   background-size: 310.92437%;
-  background-position: 0 75.66321%;
+  background-position: 0 75.60976%;
   min-width: 115px;
   min-height: 93px;
   float: right;
@@ -1234,7 +1234,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 18.83519%;
+  background-position: 0 18.97628%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 50, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
@@ -1247,32 +1247,32 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 18.83519%; } }
+      background-position: 0 18.97628%; } }
 /* line 63, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
 .indesign-lite-course .il-lite {
-  background-position: 0 -549px;
+  background-position: 0 -547px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.62424%;
   background-size: 560.60606%;
-  background-position: 0 61.75478%;
+  background-position: 0 61.73815%;
   margin-left: 20px;
   min-width: 52px;
   min-height: 52px; }
 /* line 71, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
 .indesign-lite-course .ps-lite {
-  background-position: 0 -889px;
+  background-position: 0 -884px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.8%;
+  padding-bottom: 5.71343%;
   background-size: 552.23881%;
   background-position: 0 100%;
   margin-left: 20px;
@@ -1289,7 +1289,7 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 38.10056%;
+  background-position: 0 38.35771%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
@@ -1328,12 +1328,12 @@ body {
 
 /* line 88, training/adobe/indesign/indesign-long-docs/*.png */
 .indesign-long-docs-sprite, .indesign-long-docs-course .id-longdocuments, .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .course-custom-training-logo, .indesign-long-docs-course .id-advanced {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-long-docs-sb5747856d5.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-long-docs-sa7ccb37e5f.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
 .indesign-long-docs-course .id-longdocuments {
-  background-position: 0 -465px;
+  background-position: 0 -464px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1342,7 +1342,7 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 339.44954%;
-  background-position: 0 66.61891%;
+  background-position: 0 66.57102%;
   margin-top: 28px !important;
   min-width: 83px;
   min-height: 63px; }
@@ -1365,7 +1365,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
 .indesign-long-docs-course .pdf {
-  background-position: 0 -735px;
+  background-position: 0 -734px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1389,7 +1389,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 23.38462%;
+  background-position: 0 23.42065%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
@@ -1402,7 +1402,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 23.38462%; } }
+      background-position: 0 23.42065%; } }
 /* line 54, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
 .indesign-long-docs-course .id-advanced {
   background-position: 0 -341px;
@@ -1412,7 +1412,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 47.69231%;
   margin-left: 9px;
@@ -1453,12 +1453,12 @@ body {
 
 /* line 96, training/adobe/indesign/indesign-interactivity/*.png */
 .indesign-interactivity-sprite, .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .course-custom-training-logo, .indesign-interactivity-course .id-advanced, .indesign-interactivity-course .id-ipad {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-interactivity-sbe02e3b373.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-interactivity-se4fc63c126.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .id-interactivity {
-  background-position: 0 -465px;
+  background-position: 0 -464px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1467,7 +1467,7 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 339.44954%;
-  background-position: 0 57.05521%;
+  background-position: 0 56.86275%;
   margin-top: 12px !important;
   min-width: 93px;
   min-height: 83px; }
@@ -1490,7 +1490,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .pdf {
-  background-position: 0 -852px;
+  background-position: 0 -853px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1514,7 +1514,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.81747%;
+  background-position: 0 19.79167%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
@@ -1527,7 +1527,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.81747%; } }
+      background-position: 0 19.79167%; } }
 /* line 54, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .id-advanced {
   background-position: 0 -341px;
@@ -1537,24 +1537,24 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 40.98558%;
+  background-position: 0 40.88729%;
   margin-left: 10px;
   min-width: 65px;
   min-height: 63px; }
 /* line 63, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
 .indesign-interactivity-course .id-ipad {
-  background-position: 0 -606px;
+  background-position: 0 -605px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
-  background-position: 0 72.22884%;
+  background-position: 0 72.1957%;
   margin-left: 15px;
   min-width: 67px;
   min-height: 64px; }
@@ -1593,7 +1593,7 @@ body {
 
 /* line 80, training/adobe/indesign/indesign-accessibility/*.png */
 .indesign-accessibility-sprite, .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .course-custom-training-logo, .indesign-accessibility-course .id-accessibility {
-  background-image: url('../images-dist/training/adobe/indesign/indesign-accessibility-s7509a4e6a1.png');
+  background-image: url('../images-dist/training/adobe/indesign/indesign-accessibility-s4464fc63a9.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
@@ -1615,7 +1615,7 @@ body {
   margin-left: 12px; }
 /* line 25, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
 .indesign-accessibility-course .pdf {
-  background-position: 0 -570px;
+  background-position: 0 -573px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1639,7 +1639,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 31.34021%;
+  background-position: 0 31.14754%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 33, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
@@ -1652,7 +1652,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 31.34021%; } }
+      background-position: 0 31.14754%; } }
 /* line 46, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
 .indesign-accessibility-course .id-accessibility {
   background-position: 0 -341px;
@@ -1662,7 +1662,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 3.51515%;
+  padding-bottom: 3.69091%;
   background-size: 373.73737%;
   background-position: 0 59.40767%;
   min-width: 98px;
@@ -1702,12 +1702,12 @@ body {
 
 /* line 128, training/adobe/photoshop/photoshop-category/*.png */
 .photoshop-category-sprite, .photoshop-category .ps-essentials-framed, .photoshop-category .ps-category-custom-training, .photoshop-category .ps-essentials, .photoshop-category .ps-lite, .photoshop-category .ps-advanced, .photoshop-category .ps-web, .photoshop-category .ps-retouching, .photoshop-category .ps-lr, .photoshop-category .package-indesign-ess, .photoshop-category .package-illustrator-ess, .photoshop-category .package-photoshop-ess {
-  background-image: url('../images-dist/training/adobe/photoshop/photoshop-category-seec19b54f1.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-category-s77a400e9b4.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-essentials-framed {
-  background-position: 0 -444px;
+  background-position: 0 -443px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1716,12 +1716,12 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 276.1194%;
-  background-position: 0 40.54795%;
+  background-position: 0 40.53065%;
   min-width: 56px;
   min-height: 58px; }
 /* line 18, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-category-custom-training {
-  background-position: 0 -328px;
+  background-position: 0 -327px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1730,7 +1730,7 @@ body {
   height: 0;
   padding-bottom: 41.08108%;
   background-size: 100%;
-  background-position: 0 30.2583%;
+  background-position: 0 30.22181%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 18, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
@@ -1743,10 +1743,10 @@ body {
       height: 0;
       padding-bottom: 26.7027%;
       background-size: 100%;
-      background-position: 0 30.2583%; } }
+      background-position: 0 30.22181%; } }
 /* line 30, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-essentials {
-  background-position: 0 -549px;
+  background-position: 0 -548px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1755,22 +1755,22 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 284.61538%;
-  background-position: 0 50.04558%;
+  background-position: 0 50.04566%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px; }
 /* line 39, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-lite {
-  background-position: 0 -778px;
+  background-position: 0 -777px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 5%;
+  padding-bottom: 4.92537%;
   background-size: 276.1194%;
-  background-position: 0 71.18024%;
+  background-position: 0 71.15385%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 44px; }
@@ -1783,15 +1783,15 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 212.64368%;
-  background-position: 0 18.95911%;
+  background-position: 0 18.97674%;
   margin: -7px 0 0 2px;
   min-width: 49px;
   min-height: 48px; }
 /* line 57, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-web {
-  background-position: 0 -1095px;
+  background-position: 0 -1093px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1806,7 +1806,7 @@ body {
   min-height: 43px; }
 /* line 66, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-retouching {
-  background-position: 0 -988px;
+  background-position: 0 -986px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1815,7 +1815,7 @@ body {
   height: 0;
   padding-bottom: 5.18133%;
   background-size: 246.66667%;
-  background-position: 0 90.39341%;
+  background-position: 0 90.3758%;
   margin: -10px 0 0 15px;
   min-width: 48px;
   min-height: 46px; }
@@ -1825,7 +1825,7 @@ body {
       min-height: 53px; } }
 /* line 79, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .ps-lr {
-  background-position: 0 -885px;
+  background-position: 0 -883px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1834,7 +1834,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 284.61538%;
-  background-position: 0 80.67457%;
+  background-position: 0 80.63927%;
   margin: -3px 0 0 15px;
   min-width: 42px;
   min-height: 47px; }
@@ -1867,12 +1867,12 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 284.61538%;
-  background-position: 0 9.20693%;
+  background-position: 0 9.22374%;
   min-width: 47px;
   min-height: 45px; }
 /* line 108, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
 .photoshop-category .package-photoshop-ess {
-  background-position: 0 -549px;
+  background-position: 0 -548px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1881,18 +1881,18 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 284.61538%;
-  background-position: 0 50.04558%;
+  background-position: 0 50.04566%;
   min-width: 47px;
   min-height: 45px; }
 
 /* line 104, training/adobe/photoshop/photoshop-essentials/*.png */
 .photoshop-essentials-sprite, .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .course-custom-training-logo, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .id-essentials, .photoshop-essentials-course .il-ess {
-  background-image: url('../images-dist/training/adobe/photoshop/photoshop-essentials-sa3ced26977.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-essentials-s2916b2579f.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
 .photoshop-essentials-course .ps-essentials-framed {
-  background-position: 0 -773px;
+  background-position: 0 -772px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -1901,7 +1901,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 88.24201%;
+  background-position: 0 88.22857%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
@@ -1932,7 +1932,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 62.14367%;
+  background-position: 0 62.21461%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -1947,7 +1947,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.19192%;
+  background-position: 0 19.21618%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
@@ -1960,7 +1960,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.19192%; } }
+      background-position: 0 19.21618%; } }
 /* line 53, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
 .photoshop-essentials-course .ps-advanced {
   background-position: 0 -649px;
@@ -1970,7 +1970,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 75.72929%;
   margin-top: -13px;
@@ -1978,7 +1978,7 @@ body {
   min-height: 58px; }
 /* line 67, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
 .photoshop-essentials-course .ps-essentials {
-  background-position: 0 -878px;
+  background-position: 0 -877px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2001,7 +2001,7 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 38.75%;
+  background-position: 0 38.79408%;
   min-width: 45px;
   min-height: 47px; }
 /* line 81, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
@@ -2015,7 +2015,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 50.34169%;
+  background-position: 0 50.39909%;
   min-width: 45px;
   min-height: 47px; }
 /* line 88, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
@@ -2057,7 +2057,7 @@ body {
 
 /* line 72, training/adobe/photoshop/photoshop-advanced/*.png */
 .photoshop-advanced-sprite, .photoshop-advanced-course .course-classrom, .photoshop-advanced-course .pdf, .photoshop-advanced-course .course-custom-training-logo, .photoshop-advanced-course .ps-advanced {
-  background-image: url('../images-dist/training/adobe/photoshop/photoshop-advanced-sd19860f616.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-advanced-s2b746be855.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
@@ -2088,7 +2088,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 73.33333%;
+  background-position: 0 73.49138%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2103,7 +2103,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 40%;
+  background-position: 0 40.10554%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 33, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
@@ -2116,7 +2116,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 40%; } }
+      background-position: 0 40.10554%; } }
 /* line 46, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
 .photoshop-advanced-course .ps-advanced {
   background-position: 0 -445px;
@@ -2126,7 +2126,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 100%;
   margin-top: 18px !important;
@@ -2167,19 +2167,19 @@ body {
 
 /* line 96, training/adobe/photoshop/photoshop-lite/*.png */
 .photoshop-lite-sprite, .photoshop-lite-course .ps-lite, .photoshop-lite-course .course-classrom, .photoshop-lite-course .pdf, .photoshop-lite-course .course-custom-training-logo, .photoshop-lite-course .ps-essentials, .photoshop-lite-course .il-lite, .photoshop-lite-course .id-lite {
-  background-image: url('../images-dist/training/adobe/photoshop/photoshop-lite-s71cf74d891.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-lite-s842a341e17.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
 .photoshop-lite-course .ps-lite {
-  background-position: 0 -762px;
+  background-position: 0 -757px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.8%;
+  padding-bottom: 5.71343%;
   background-size: 552.23881%;
   background-position: 0 100%;
   min-width: 36px;
@@ -2203,7 +2203,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
 .photoshop-lite-course .pdf {
-  background-position: 0 -555px;
+  background-position: 0 -550px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2212,7 +2212,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 72.54902%;
+  background-position: 0 72.46377%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2227,7 +2227,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 22.35294%;
+  background-position: 0 22.55193%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
@@ -2240,10 +2240,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 22.35294%; } }
+      background-position: 0 22.55193%; } }
 /* line 59, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
 .photoshop-lite-course .ps-essentials {
-  background-position: 0 -659px;
+  background-position: 0 -654px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2252,22 +2252,22 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 86.03133%;
+  background-position: 0 86.05263%;
   margin: -5px 0 0 20px;
   min-width: 45px;
   min-height: 46px; }
 /* line 66, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
 .photoshop-lite-course .il-lite {
-  background-position: 0 -448px;
+  background-position: 0 -446px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.62424%;
   background-size: 560.60606%;
-  background-position: 0 58.79265%;
+  background-position: 0 58.76153%;
   margin: -5px 0 0 20px;
   min-width: 45px;
   min-height: 46px; }
@@ -2280,9 +2280,9 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.71212%;
   background-size: 560.60606%;
-  background-position: 0 44.75066%;
+  background-position: 0 44.98681%;
   margin: -5px 0 0 20px;
   min-width: 45px;
   min-height: 46px; }
@@ -2321,12 +2321,12 @@ body {
 
 /* line 88, training/adobe/photoshop/photoshop-web/*.png */
 .photoshop-web-sprite, .photoshop-web-course .ps-web-framed, .photoshop-web-course .course-classrom, .photoshop-web-course .pdf, .photoshop-web-course .course-custom-training-logo, .photoshop-web-course .ps-lite, .photoshop-web-course .ps-essentials {
-  background-image: url('../images-dist/training/adobe/photoshop/photoshop-web-sdda773429e.png');
+  background-image: url('../images-dist/training/adobe/photoshop/photoshop-web-s645e30ea6f.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
 .photoshop-web-course .ps-web-framed {
-  background-position: 0 -655px;
+  background-position: 0 -654px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2366,7 +2366,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 51.82371%;
+  background-position: 0 51.90259%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2381,7 +2381,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 26.52705%;
+  background-position: 0 26.57343%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
@@ -2394,7 +2394,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 26.52705%; } }
+      background-position: 0 26.57343%; } }
 /* line 53, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
 .photoshop-web-course .ps-lite {
   background-position: 0 -548px;
@@ -2404,7 +2404,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.8%;
+  padding-bottom: 5.71343%;
   background-size: 552.23881%;
   background-position: 0 83.66412%;
   margin-left: 21px;
@@ -2421,7 +2421,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 67.52656%;
+  background-position: 0 67.62918%;
   margin-left: 21px;
   min-width: 50px;
   min-height: 50px; }
@@ -2569,12 +2569,12 @@ body {
 
 /* line 96, training/adobe/illustrator/illustrator-category/*.png */
 .illustrator-category-sprite, .illustrator-category .il-essentials-framed, .illustrator-category .category-custom-training, .illustrator-category .il-essentials, .illustrator-category .il-lite, .illustrator-category .il-advanced, .illustrator-category .package-indesign-ess, .illustrator-category .package-illustrator-ess, .illustrator-category .package-photoshop-ess {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-category-s0ad26b4f2b.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-category-s46a7fb2b64.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-essentials-framed {
-  background-position: 0 -413px;
+  background-position: 0 -412px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2583,7 +2583,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 56.88705%;
+  background-position: 0 57.06371%;
   min-width: 56px;
   min-height: 59px; }
 /* line 18, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
@@ -2613,7 +2613,7 @@ body {
       background-position: 0 0%; } }
 /* line 30, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-essentials {
-  background-position: 0 -518px;
+  background-position: 0 -517px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2622,22 +2622,22 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 569.23077%;
-  background-position: 0 71.15385%;
+  background-position: 0 71.40884%;
   margin-left: 15px;
   min-width: 40px;
   min-height: 45px; }
 /* line 39, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .il-lite {
-  background-position: 0 -621px;
+  background-position: 0 -620px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 5.07576%;
+  padding-bottom: 4.84848%;
   background-size: 560.60606%;
-  background-position: 0 85.77348%;
+  background-position: 0 85.7538%;
   margin-left: 15px;
   min-width: 40px;
   min-height: 44px; }
@@ -2650,9 +2650,9 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.53333%;
+  padding-bottom: 5.46667%;
   background-size: 425.28736%;
-  background-position: 0 40.96045%;
+  background-position: 0 41.13475%;
   margin: -7px 0 0 2px;
   min-width: 52px;
   min-height: 48px; }
@@ -2671,12 +2671,12 @@ body {
   height: 0;
   padding-bottom: 4.76563%;
   background-size: 578.125%;
-  background-position: 0 25.89041%;
+  background-position: 0 26.03306%;
   min-width: 47px;
   min-height: 45px; }
 /* line 70, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .package-illustrator-ess {
-  background-position: 0 -518px;
+  background-position: 0 -517px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2685,12 +2685,12 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 569.23077%;
-  background-position: 0 71.15385%;
+  background-position: 0 71.40884%;
   min-width: 47px;
   min-height: 45px; }
 /* line 77, ../scss/_custom/training/adobe/illustrator/_illustrator-category-add-styles.scss */
 .illustrator-category .package-photoshop-ess {
-  background-position: 0 -728px;
+  background-position: 0 -724px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2705,12 +2705,12 @@ body {
 
 /* line 112, training/adobe/illustrator/illustrator-essentials/*.png */
 .illustrator-essentials-sprite, .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .course-custom-training-logo, .illustrator-essentials-course .il-advanced, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .illustrator-cc-cs6 {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-essentials-se64023d0f3.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-essentials-sb3e90e5744.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .il-essentials-framed {
-  background-position: 0 -565px;
+  background-position: 0 -564px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2719,7 +2719,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 51.88246%;
+  background-position: 0 51.83824%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2741,7 +2741,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .pdf {
-  background-position: 0 -987px;
+  background-position: 0 -986px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2750,7 +2750,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 90.55046%;
+  background-position: 0 90.54178%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2765,7 +2765,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 15.12438%;
+  background-position: 0 15.13944%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2778,7 +2778,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 15.12438%; } }
+      background-position: 0 15.13944%; } }
 /* line 53, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .il-advanced {
   background-position: 0 -442px;
@@ -2788,7 +2788,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.53333%;
+  padding-bottom: 5.46667%;
   background-size: 425.28736%;
   background-position: 0 41.26984%;
   margin-top: -13px;
@@ -2805,12 +2805,12 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 31.19854%;
+  background-position: 0 31.22711%;
   min-width: 50px;
   min-height: 50px; }
 /* line 69, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .ps-essentials {
-  background-position: 0 -1091px;
+  background-position: 0 -1090px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2824,7 +2824,7 @@ body {
   min-height: 50px; }
 /* line 76, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .il-essentials {
-  background-position: 0 -670px;
+  background-position: 0 -669px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2833,7 +2833,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 61.41155%;
+  background-position: 0 61.37615%;
   min-width: 50px;
   min-height: 50px; }
 /* line 83, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
@@ -2842,7 +2842,7 @@ body {
   margin-left: 15px; }
 /* line 88, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
 .illustrator-essentials-course .illustrator-cc-cs6 {
-  background-position: 0 -773px;
+  background-position: 0 -772px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2851,7 +2851,7 @@ body {
   height: 0;
   padding-bottom: 5.046%;
   background-size: 185%;
-  background-position: 0 78.87755%;
+  background-position: 0 78.85598%;
   min-width: 115px;
   min-height: 100px;
   float: right;
@@ -2892,21 +2892,21 @@ body {
 
 /* line 104, training/adobe/illustrator/illustrator-lite/*.png */
 .illustrator-lite-sprite, .illustrator-lite-course .il-lite, .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .course-custom-training-logo, .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .id-lite, .illustrator-lite-course .illustrator-cc-cs6 {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-lite-s7d9289ed42.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-lite-s684f1c7233.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .il-lite {
-  background-position: 0 -551px;
+  background-position: 0 -549px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.62424%;
   background-size: 560.60606%;
-  background-position: 0 56.45492%;
+  background-position: 0 56.42343%;
   min-width: 55px;
   min-height: 63px;
   margin-top: 26px !important; }
@@ -2929,7 +2929,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .pdf {
-  background-position: 0 -872px;
+  background-position: 0 -867px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2938,7 +2938,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 89.07048%;
+  background-position: 0 89.10586%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -2953,7 +2953,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 17.00224%;
+  background-position: 0 17.11712%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
@@ -2966,10 +2966,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 17.00224%; } }
+      background-position: 0 17.11712%; } }
 /* line 54, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .il-essentials {
-  background-position: 0 -448px;
+  background-position: 0 -446px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -2978,20 +2978,20 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 45.71429%;
+  background-position: 0 45.79055%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
 /* line 62, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .ps-lite {
-  background-position: 0 -976px;
+  background-position: 0 -971px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.8%;
+  padding-bottom: 5.71343%;
   background-size: 552.23881%;
   background-position: 0 100%;
   margin-left: 20px;
@@ -3006,15 +3006,15 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.88788%;
+  padding-bottom: 5.71212%;
   background-size: 560.60606%;
-  background-position: 0 34.93852%;
+  background-position: 0 35.0823%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 51px; }
 /* line 78, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .illustrator-cc-cs6 {
-  background-position: 0 -658px;
+  background-position: 0 -653px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3023,7 +3023,7 @@ body {
   height: 0;
   padding-bottom: 5.046%;
   background-size: 185%;
-  background-position: 0 75.71922%;
+  background-position: 0 75.66628%;
   min-width: 115px;
   min-height: 100px;
   float: right;
@@ -3064,7 +3064,7 @@ body {
 
 /* line 72, training/adobe/illustrator/illustrator-advanced/*.png */
 .illustrator-advanced-sprite, .illustrator-advanced-course .il-advanced, .illustrator-advanced-course .course-classrom, .illustrator-advanced-course .pdf, .illustrator-advanced-course .course-custom-training-logo {
-  background-image: url('../images-dist/training/adobe/illustrator/illustrator-advanced-sf5c773754d.png');
+  background-image: url('../images-dist/training/adobe/illustrator/illustrator-advanced-sa1d165b433.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
@@ -3076,7 +3076,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.53333%;
+  padding-bottom: 5.46667%;
   background-size: 425.28736%;
   background-position: 0 76.62921%;
   margin-top: 19px !important;
@@ -3101,7 +3101,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
 .illustrator-advanced-course .pdf {
-  background-position: 0 -464px;
+  background-position: 0 -463px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3125,7 +3125,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 40.10554%;
+  background-position: 0 40.21164%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
@@ -3138,7 +3138,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 40.10554%; } }
+      background-position: 0 40.21164%; } }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -3174,7 +3174,7 @@ body {
 
 /* line 72, training/adobe/acrobat/acrobat-category/*.png */
 .acrobat-category-sprite, .acrobat-category .acrobat-essentials-framed, .acrobat-category .category-custom-training, .acrobat-category .acrobat-essentials, .acrobat-category .acrobat-pdfforms {
-  background-image: url('../images-dist/training/adobe/acrobat/acrobat-category-sa5b064da73.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-category-s35261cc93b.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
@@ -3193,7 +3193,7 @@ body {
   min-height: 55px; }
 /* line 18, ../scss/_custom/training/adobe/acrobat/_acrobat-category-add-styles.scss */
 .acrobat-category .category-custom-training {
-  background-position: 0 -338px;
+  background-position: 0 -329px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3227,7 +3227,7 @@ body {
   height: 0;
   padding-bottom: 5%;
   background-size: 578.125%;
-  background-position: 0 25.0591%;
+  background-position: 0 25.60386%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px; }
@@ -3240,7 +3240,7 @@ body {
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 6.28571%;
+  padding-bottom: 5.64286%;
   background-size: 528.57143%;
   background-position: 0 52.63158%;
   margin-left: 15px;
@@ -3250,7 +3250,7 @@ body {
 
 /* line 80, training/adobe/acrobat/acrobat-essentials/*.png */
 .acrobat-essentials-sprite, .acrobat-essentials-course .acrobat-essentials-framed, .acrobat-essentials-course .course-classrom, .acrobat-essentials-course .pdf, .acrobat-essentials-course .course-custom-training-logo, .acrobat-essentials-course .acrobat-pdfforms {
-  background-image: url('../images-dist/training/adobe/acrobat/acrobat-essentials-s3b16f89653.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-essentials-s0d95f54595.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
@@ -3269,7 +3269,7 @@ body {
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
 .acrobat-essentials-course .course-classrom {
-  background-position: 0 -234px;
+  background-position: 0 -225px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3278,7 +3278,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 44.40228%;
+  background-position: 0 43.43629%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -3286,7 +3286,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
 .acrobat-essentials-course .pdf {
-  background-position: 0 -575px;
+  background-position: 0 -566px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3301,7 +3301,7 @@ body {
   top: -3px; }
 /* line 40, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
 .acrobat-essentials-course .course-custom-training-logo {
-  background-position: 0 -386px;
+  background-position: 0 -377px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3310,7 +3310,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 78.77551%;
+  background-position: 0 78.37838%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
@@ -3323,7 +3323,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 78.77551%; } }
+      background-position: 0 78.37838%; } }
 /* line 52, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
 .acrobat-essentials-course .acrobat-pdfforms {
   background-position: 0 -106px;
@@ -3333,7 +3333,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 7.29143%;
+  padding-bottom: 6.54571%;
   background-size: 528.57143%;
   background-position: 0 19.23775%;
   margin-left: 12px;
@@ -3374,7 +3374,7 @@ body {
 
 /* line 80, training/adobe/acrobat/acrobat-pdfforms/*.png */
 .acrobat-pdfforms-sprite, .acrobat-pdfforms-course .acrobat-pdfforms, .acrobat-pdfforms-course .course-classrom, .acrobat-pdfforms-course .pdf, .acrobat-pdfforms-course .course-custom-training-logo, .acrobat-pdfforms-course .acrobat-essentials {
-  background-image: url('../images-dist/training/adobe/acrobat/acrobat-pdfforms-s6d7a3ab2a2.png');
+  background-image: url('../images-dist/training/adobe/acrobat/acrobat-pdfforms-s3d24455425.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
@@ -3386,7 +3386,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 7.29143%;
+  padding-bottom: 6.54571%;
   background-size: 528.57143%;
   background-position: 0 18.94353%;
   margin-top: 16px !important;
@@ -3394,7 +3394,7 @@ body {
   min-height: 55px; }
 /* line 23, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
 .acrobat-pdfforms-course .course-classrom {
-  background-position: 0 -232px;
+  background-position: 0 -223px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3403,7 +3403,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 44.19048%;
+  background-position: 0 43.21705%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -3411,7 +3411,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
 .acrobat-pdfforms-course .pdf {
-  background-position: 0 -573px;
+  background-position: 0 -564px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3426,7 +3426,7 @@ body {
   top: -3px; }
 /* line 41, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
 .acrobat-pdfforms-course .course-custom-training-logo {
-  background-position: 0 -384px;
+  background-position: 0 -375px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3435,7 +3435,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 78.68852%;
+  background-position: 0 78.2881%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
@@ -3448,7 +3448,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 78.68852%; } }
+      background-position: 0 78.2881%; } }
 /* line 54, ../scss/_custom/training/adobe/acrobat/_acrobat-pdfforms-add-styles.scss */
 .acrobat-pdfforms-course .acrobat-essentials {
   background-position: 0 0;
@@ -3499,7 +3499,7 @@ body {
 
 /* line 112, training/adobe/digital-publishing/digital-publishing-category/*.png */
 .digital-publishing-category-sprite, .digital-publishing-category .id-ipad, .digital-publishing-category .category-custom-training, .digital-publishing-category .id-dps-pkg, .digital-publishing-category .id-dps-pro, .digital-publishing-category .id-dps-single, .digital-publishing-category .id-interactivity, .digital-publishing-category .id-epub, .digital-publishing-category .dps-package, .digital-publishing-category .eg-essentials {
-  background-image: url('../images-dist/training/adobe/digital-publishing/digital-publishing-category-sccda18faa9.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/digital-publishing-category-s04a56676ad.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
@@ -3511,7 +3511,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
   background-position: 0 100%;
   margin-left: 5px;
@@ -3554,7 +3554,7 @@ body {
   height: 0;
   padding-bottom: 6.18421%;
   background-size: 486.84211%;
-  background-position: 0 36.21399%;
+  background-position: 0 36.13963%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 45px; }
@@ -3569,7 +3569,7 @@ body {
   height: 0;
   padding-bottom: 4.43182%;
   background-size: 420.45455%;
-  background-position: 0 49.19028%;
+  background-position: 0 49.09091%;
   margin-left: 9px;
   margin-top: -5px;
   min-width: 52px;
@@ -3585,7 +3585,7 @@ body {
   height: 0;
   padding-bottom: 4.43182%;
   background-size: 420.45455%;
-  background-position: 0 61.1336%;
+  background-position: 0 61.0101%;
   margin-left: 9px;
   margin-top: -5px;
   min-width: 52px;
@@ -3601,7 +3601,7 @@ body {
   height: 0;
   padding-bottom: 4.63303%;
   background-size: 339.44954%;
-  background-position: 0 87.87565%;
+  background-position: 0 87.6939%;
   margin: -12px -8px 0 5px;
   min-width: 65px;
   min-height: 56px; }
@@ -3616,7 +3616,7 @@ body {
   height: 0;
   padding-bottom: 6.51515%;
   background-size: 560.60606%;
-  background-position: 0 73.67347%;
+  background-position: 0 73.52342%;
   margin-left: 15px;
   margin-top: -5px;
   min-width: 38px;
@@ -3632,7 +3632,7 @@ body {
   height: 0;
   padding-bottom: 4.82143%;
   background-size: 1321.42857%;
-  background-position: 0 18.19057%;
+  background-position: 0 18.15562%;
   margin: -4px 15px 12px 15px;
   min-width: 38px;
   min-height: 38px; }
@@ -3647,14 +3647,14 @@ body {
   height: 0;
   padding-bottom: 4.91228%;
   background-size: 649.12281%;
-  background-position: 0 25.34653%;
+  background-position: 0 25.29644%;
   margin: -4px 15px 12px 15px;
   min-width: 38px;
   min-height: 38px; }
 
 /* line 104, training/adobe/digital-publishing/indesign-to-ipad/*.png */
 .indesign-to-ipad-sprite, .indesign-to-ipad-course .id-ipad, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .course-custom-training-logo, .indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .eg-essentials, .dps-single-app-course .dps-package, .dps-single-app-course .eg-essentials {
-  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ipad-sfe9f46a07f.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ipad-s07444769cb.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
@@ -3666,7 +3666,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
   background-position: 0 87.67773%;
   min-width: 55px;
@@ -3690,7 +3690,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
 .indesign-to-ipad-course .pdf {
-  background-position: 0 -857px;
+  background-position: 0 -859px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3714,7 +3714,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.68912%;
+  background-position: 0 19.63824%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
@@ -3727,7 +3727,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.68912%; } }
+      background-position: 0 19.63824%; } }
 /* line 53, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
 .indesign-to-ipad-course .id-dps-pro {
   background-position: 0 -504px;
@@ -3739,7 +3739,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 59.78648%;
+  background-position: 0 59.64497%;
   min-width: 65px;
   min-height: 63px; }
 /* line 61, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
@@ -3753,7 +3753,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 73.7841%;
+  background-position: 0 73.60947%;
   min-width: 65px;
   min-height: 63px; }
 /* line 75, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
@@ -3767,7 +3767,7 @@ body {
   height: 0;
   padding-bottom: 5.59286%;
   background-size: 1321.42857%;
-  background-position: 0 38.14318%;
+  background-position: 0 38.05804%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
@@ -3782,7 +3782,7 @@ body {
   height: 0;
   padding-bottom: 5.69825%;
   background-size: 649.12281%;
-  background-position: 0 47.16763%;
+  background-position: 0 47.05882%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
@@ -3821,7 +3821,7 @@ body {
 
 /* line 104, training/adobe/digital-publishing/dps-single-app/*.png */
 .dps-single-app-sprite, .dps-single-app-course .id-dps-single, .dps-single-app-course .course-classrom, .dps-single-app-course .pdf, .dps-single-app-course .course-custom-training-logo, .dps-single-app-course .id-dps-pro, .dps-single-app-course .id-ipad {
-  background-image: url('../images-dist/training/adobe/digital-publishing/dps-single-app-s01d73e5663.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/dps-single-app-s5358795edf.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
@@ -3835,7 +3835,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 73.7841%;
+  background-position: 0 73.60947%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
@@ -3857,7 +3857,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
 .dps-single-app-course .pdf {
-  background-position: 0 -857px;
+  background-position: 0 -859px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -3881,7 +3881,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.68912%;
+  background-position: 0 19.63824%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
@@ -3894,7 +3894,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.68912%; } }
+      background-position: 0 19.63824%; } }
 /* line 53, ../scss/_custom/training/adobe/digital-publishing/_dps-single-app-add-styles.scss */
 .dps-single-app-course .id-dps-pro {
   background-position: 0 -504px;
@@ -3906,7 +3906,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 59.78648%;
+  background-position: 0 59.64497%;
   margin-left: 15px;
   min-width: 65px;
   min-height: 63px; }
@@ -3919,7 +3919,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
   background-position: 0 87.67773%;
   margin-left: 15px;
@@ -3936,7 +3936,7 @@ body {
   height: 0;
   padding-bottom: 5.59286%;
   background-size: 1321.42857%;
-  background-position: 0 38.14318%;
+  background-position: 0 38.05804%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
@@ -3951,7 +3951,7 @@ body {
   height: 0;
   padding-bottom: 5.69825%;
   background-size: 649.12281%;
-  background-position: 0 47.16763%;
+  background-position: 0 47.05882%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
@@ -3990,7 +3990,7 @@ body {
 
 /* line 88, training/adobe/digital-publishing/dps-pro-app/*.png */
 .dps-pro-app-sprite, .dps-pro-app-course .id-dps-pro, .dps-pro-app-course .course-classrom, .dps-pro-app-course .pdf, .dps-pro-app-course .course-custom-training-logo, .dps-pro-app-course .id-dps-single, .dps-pro-app-course .id-ipad {
-  background-image: url('../images-dist/training/adobe/digital-publishing/dps-pro-app-s30593d5d96.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/dps-pro-app-s816a7b6c9b.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
@@ -4004,7 +4004,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 50.14706%;
+  background-position: 0 50%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
@@ -4026,7 +4026,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
 .dps-pro-app-course .pdf {
-  background-position: 0 -694px;
+  background-position: 0 -696px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -4050,7 +4050,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 24.95895%;
+  background-position: 0 24.87725%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
@@ -4063,7 +4063,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 24.95895%; } }
+      background-position: 0 24.87725%; } }
 /* line 53, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
 .dps-pro-app-course .id-dps-single {
   background-position: 0 -459px;
@@ -4075,7 +4075,7 @@ body {
   height: 0;
   padding-bottom: 5.14091%;
   background-size: 420.45455%;
-  background-position: 0 67.5%;
+  background-position: 0 67.30205%;
   margin-left: 15px;
   min-width: 65px;
   min-height: 63px; }
@@ -4088,7 +4088,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
   background-position: 0 84.72834%;
   margin-left: 15px;
@@ -4129,12 +4129,12 @@ body {
 
 /* line 96, training/adobe/digital-publishing/indesign-to-ebook/*.png */
 .indesign-to-ebook-sprite, .indesign-to-ebook-course .id-epub, .indesign-to-ebook-course .course-classrom, .indesign-to-ebook-course .pdf, .indesign-to-ebook-course .course-custom-training-logo, .indesign-to-ebook-course .id-advanced, .indesign-to-ebook-course .id-interactivity, .indesign-to-ebook-course .id-ipad {
-  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ebook-s268a00c761.png');
+  background-image: url('../images-dist/training/adobe/digital-publishing/indesign-to-ebook-s95ee9f0ddb.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
 .indesign-to-ebook-course .id-epub {
-  background-position: 0 -465px;
+  background-position: 0 -464px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -4143,7 +4143,7 @@ body {
   height: 0;
   padding-bottom: 7.55758%;
   background-size: 560.60606%;
-  background-position: 0 56.22733%;
+  background-position: 0 56.03865%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
@@ -4165,7 +4165,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
 .indesign-to-ebook-course .pdf {
-  background-position: 0 -849px;
+  background-position: 0 -850px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -4189,7 +4189,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.89529%;
+  background-position: 0 19.86928%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
@@ -4202,7 +4202,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.89529%; } }
+      background-position: 0 19.86928%; } }
 /* line 53, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
 .indesign-to-ebook-course .id-advanced {
   background-position: 0 -341px;
@@ -4212,15 +4212,15 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 41.1339%;
+  background-position: 0 41.0349%;
   margin-left: 7px;
   min-width: 65px;
   min-height: 63px; }
 /* line 61, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
 .indesign-to-ebook-course .id-interactivity {
-  background-position: 0 -591px;
+  background-position: 0 -590px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -4229,7 +4229,7 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 339.44954%;
-  background-position: 0 72.78325%;
+  background-position: 0 72.57073%;
   margin-bottom: 4px !important;
   margin-top: -8px;
   margin-left: 5px;
@@ -4237,16 +4237,16 @@ body {
   min-height: 76px; }
 /* line 71, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ebook-add-styles.scss */
 .indesign-to-ebook-course .id-ipad {
-  background-position: 0 -732px;
+  background-position: 0 -731px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.01798%;
+  padding-bottom: 5.14831%;
   background-size: 415.73034%;
-  background-position: 0 87.55981%;
+  background-position: 0 87.54491%;
   margin-left: 15px;
   min-width: 65px;
   min-height: 63px; }
@@ -4812,7 +4812,7 @@ body {
 
 /* line 104, training/web-design-development/html-css/html-css-category/*.png */
 .html-css-category-sprite, .html-css-category .html-ess, .html-css-category .category-custom-training, .html-css-category .html5css, .html-css-category .htmlnews, .html-css-category .html-css, .html-css-category .html5-package, .html-css-category .dreamweaver-package, .html-css-category .css3-package {
-  background-image: url('../images-dist/training/web-design-development/html-css/html-css-category-s1a7362e1dc.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html-css-category-s9985fb63e2.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
@@ -4826,7 +4826,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 58.0163%;
+  background-position: 0 58.33333%;
   margin-left: 15px;
   min-width: 44px;
   min-height: 47px; }
@@ -4841,7 +4841,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 10.7362%;
+  background-position: 0 10.80247%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 19, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
@@ -4854,7 +4854,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 10.7362%; } }
+      background-position: 0 10.80247%; } }
 /* line 31, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .html5css {
   background-position: 0 -602px;
@@ -4864,15 +4864,15 @@ body {
   width: 5%;
   display: block;
   height: 0;
-  padding-bottom: 4.74684%;
-  background-size: 468.35443%;
+  padding-bottom: 4.4375%;
+  background-size: 462.5%;
   background-position: 0 82.92011%;
   margin-left: 15px;
   min-width: 48px;
   min-height: 45px; }
 /* line 40, ../scss/_custom/training/web-design-development/html-css/_html-css-category-add-styles.scss */
 .html-css-category .htmlnews {
-  background-position: 0 -717px;
+  background-position: 0 -713px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -4896,7 +4896,7 @@ body {
   height: 0;
   padding-bottom: 5.44308%;
   background-size: 569.23077%;
-  background-position: 0 44.05405%;
+  background-position: 0 44.29348%;
   margin-left: 15px;
   min-width: 45px;
   min-height: 48px; }
@@ -4911,7 +4911,7 @@ body {
   height: 0;
   padding-bottom: 4.09091%;
   background-size: 1681.81818%;
-  background-position: 0 69.0013%;
+  background-position: 0 69.36115%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -4926,7 +4926,7 @@ body {
   height: 0;
   padding-bottom: 2.89286%;
   background-size: 1321.42857%;
-  background-position: 0 33.46253%;
+  background-position: 0 33.63636%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5147,7 +5147,7 @@ body {
 
 /* line 120, training/web-design-development/html-css/css-essentials/*.png */
 .css-essentials-sprite, .css-essentials-course .html-css, .css-essentials-course .course-classrom, .css-essentials-course .pdf, .css-essentials-course .course-custom-training-logo, .css-essentials-course .html5css, .css-essentials-course .dw-essentials, .css-essentials-course .html-ess {
-  background-image: url('../images-dist/training/web-design-development/html-css/css-essentials-s15daca9d3d.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/css-essentials-sb6282a2cca.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
@@ -5161,7 +5161,7 @@ body {
   height: 0;
   padding-bottom: 5.44308%;
   background-size: 569.23077%;
-  background-position: 0 59.63115%;
+  background-position: 0 59.87654%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
@@ -5183,7 +5183,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
 .css-essentials-course .pdf {
-  background-position: 0 -973px;
+  background-position: 0 -969px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -5207,7 +5207,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 25%;
+  background-position: 0 25.11312%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
@@ -5220,7 +5220,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 25%; } }
+      background-position: 0 25.11312%; } }
 /* line 53, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
 .css-essentials-course .html5css {
   background-position: 0 -858px;
@@ -5230,8 +5230,8 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.50633%;
-  background-size: 468.35443%;
+  padding-bottom: 5.1475%;
+  background-size: 462.5%;
   background-position: 0 89.18919%;
   margin-left: 15px;
   min-width: 50px;
@@ -5247,7 +5247,7 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 569.23077%;
-  background-position: 0 49.12641%;
+  background-position: 0 49.32921%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
@@ -5262,7 +5262,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 70.26749%;
+  background-position: 0 70.55785%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
@@ -5277,7 +5277,7 @@ body {
   height: 0;
   padding-bottom: 8.28571%;
   background-size: 1761.90476%;
-  background-position: 0 15.09434%;
+  background-position: 0 15.15454%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5292,7 +5292,7 @@ body {
   height: 0;
   padding-bottom: 5.59286%;
   background-size: 1321.42857%;
-  background-position: 0 40.69307%;
+  background-position: 0 40.85487%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5307,7 +5307,7 @@ body {
   height: 0;
   padding-bottom: 7.90909%;
   background-size: 1681.81818%;
-  background-position: 0 78.25223%;
+  background-position: 0 78.56431%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5486,7 +5486,7 @@ body {
 
 /* line 88, training/web-design-development/html-css/html5-css3/*.png */
 .html5-css3-sprite, .html5-css3-course .html5css, .html5-css3-course .course-classrom, .html5-css3-course .pdf, .html5-css3-course .course-custom-training-logo, .html5-css3-course .jq-essentials, .html5-css3-course .js-essentials {
-  background-image: url('../images-dist/training/web-design-development/html-css/html5-css3-s25c0b3a083.png');
+  background-image: url('../images-dist/training/web-design-development/html-css/html5-css3-s9b1bea5cc8.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
@@ -5498,8 +5498,8 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.50633%;
-  background-size: 468.35443%;
+  padding-bottom: 5.1475%;
+  background-size: 462.5%;
   background-position: 0 56.73877%;
   min-width: 55px;
   min-height: 55px; }
@@ -5522,7 +5522,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
 .html5-css3-course .pdf {
-  background-position: 0 -612px;
+  background-position: 0 -608px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -5546,7 +5546,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 28.8425%;
+  background-position: 0 29.0631%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
@@ -5559,10 +5559,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 28.8425%; } }
+      background-position: 0 29.0631%; } }
 /* line 53, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
 .html5-css3-course .jq-essentials {
-  background-position: 0 -456px;
+  background-position: 0 -452px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -5571,13 +5571,13 @@ body {
   height: 0;
   padding-bottom: 5.63889%;
   background-size: 1027.77778%;
-  background-position: 0 71.13885%;
+  background-position: 0 70.95761%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
 /* line 61, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
 .html5-css3-course .js-essentials {
-  background-position: 0 -531px;
+  background-position: 0 -527px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -5586,7 +5586,7 @@ body {
   height: 0;
   padding-bottom: 5.945%;
   background-size: 925%;
-  background-position: 0 83.62205%;
+  background-position: 0 83.51823%;
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
@@ -5775,7 +5775,7 @@ body {
 
 /* line 120, training/web-design-development/dreamweaver/dreamweaver-essentials/*.png */
 .dreamweaver-essentials-sprite, .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .course-custom-training-logo, .dreamweaver-essentials-course .html5css, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .html5-package {
-  background-image: url('../images-dist/training/web-design-development/dreamweaver/dreamweaver-essentials-sdf1ab1087e.png');
+  background-image: url('../images-dist/training/web-design-development/dreamweaver/dreamweaver-essentials-s48244a050b.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
@@ -5789,7 +5789,7 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 552.23881%;
-  background-position: 0 49.12641%;
+  background-position: 0 49.32921%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
@@ -5811,7 +5811,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
 .dreamweaver-essentials-course .pdf {
-  background-position: 0 -975px;
+  background-position: 0 -971px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -5835,7 +5835,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 24.94382%;
+  background-position: 0 25.05643%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
@@ -5848,7 +5848,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 24.94382%; } }
+      background-position: 0 25.05643%; } }
 /* line 53, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
 .dreamweaver-essentials-course .html5css {
   background-position: 0 -860px;
@@ -5858,8 +5858,8 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.50633%;
-  background-size: 468.35443%;
+  padding-bottom: 5.1475%;
+  background-size: 462.5%;
   background-position: 0 89.21162%;
   margin-left: 15px;
   min-width: 50px;
@@ -5875,7 +5875,7 @@ body {
   height: 0;
   padding-bottom: 5.44308%;
   background-size: 569.23077%;
-  background-position: 0 59.7137%;
+  background-position: 0 59.95893%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
@@ -5890,7 +5890,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 70.32854%;
+  background-position: 0 70.61856%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
@@ -5905,7 +5905,7 @@ body {
   height: 0;
   padding-bottom: 8.28571%;
   background-size: 1761.90476%;
-  background-position: 0 15.06442%;
+  background-position: 0 15.12438%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5920,7 +5920,7 @@ body {
   height: 0;
   padding-bottom: 5.59286%;
   background-size: 1321.42857%;
-  background-position: 0 40.61265%;
+  background-position: 0 40.77381%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -5935,7 +5935,7 @@ body {
   height: 0;
   padding-bottom: 7.90909%;
   background-size: 1681.81818%;
-  background-position: 0 78.29534%;
+  background-position: 0 78.60697%;
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
@@ -7164,7 +7164,7 @@ body {
 
 /* line 80, training/video-editing/after-effects/after-effects-category/*.png */
 .after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s6ad3aa85ad.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-sccc0236cbe.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
@@ -7259,7 +7259,7 @@ body {
 
 /* line 104, training/video-editing/after-effects/after-effects-essentials/*.png */
 .after-effects-essentials-sprite, .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .course-custom-training-logo, .after-effects-essentials-course .ae-advanced, .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials, .after-effects-essentials-course .ae-essentials {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-essentials-s39cbe51d55.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-essentials-s6ff39478d3.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
@@ -7431,7 +7431,7 @@ body {
 
 /* line 96, training/video-editing/after-effects/after-effects-advanced/*.png */
 .after-effects-advanced-sprite, .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .course-custom-training-logo, .after-effects-advanced-course .ae-essentials, .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-advanced-s43d7e3da14.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-advanced-sd5e6aa0ccf.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
@@ -7460,7 +7460,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 30.25435%;
+  background-position: 0 30.29491%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7477,7 +7477,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 71.32075%;
+  background-position: 0 71.41058%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -7492,7 +7492,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 53.23944%;
+  background-position: 0 53.31453%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
@@ -7505,7 +7505,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 53.23944%; } }
+      background-position: 0 53.31453%; } }
 /* line 54, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .ae-essentials {
   background-position: 0 -123px;
@@ -7517,13 +7517,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 15.45226%;
+  background-position: 0 15.4717%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 62, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .pr-essentials {
-  background-position: 0 -795px;
+  background-position: 0 -794px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7545,7 +7545,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 86.58065%;
   margin-left: -5px;
@@ -7702,12 +7702,12 @@ body {
 
 /* line 104, training/video-editing/premiere-pro/premiere-pro-essentials/*.png */
 .premiere-pro-essentials-sprite, .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .course-custom-training-logo, .premiere-pro-essentials-course .pr-advanced, .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .pr-essentials, .premiere-pro-essentials-course .ps-essentials {
-  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-essentials-sc5b7ab3a5c.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-essentials-s150c76d42d.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-essentials-framed {
-  background-position: 0 -672px;
+  background-position: 0 -671px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7716,7 +7716,7 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 552.23881%;
-  background-position: 0 76.45051%;
+  background-position: 0 76.42369%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
@@ -7730,7 +7730,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 12.36495%;
+  background-position: 0 12.37981%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7747,7 +7747,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 50.39728%;
+  background-position: 0 50.45455%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -7762,7 +7762,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 32.03518%;
+  background-position: 0 32.07547%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
@@ -7775,7 +7775,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 32.03518%; } }
+      background-position: 0 32.07547%; } }
 /* line 53, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-advanced {
   background-position: 0 -548px;
@@ -7785,7 +7785,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 63.64692%;
   margin-left: -5px;
@@ -7809,7 +7809,7 @@ body {
   min-height: 50px; }
 /* line 70, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-essentials {
-  background-position: 0 -778px;
+  background-position: 0 -777px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7818,13 +7818,13 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 569.23077%;
-  background-position: 0 88.30874%;
+  background-position: 0 88.29545%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 78, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .ps-essentials {
-  background-position: 0 -882px;
+  background-position: 0 -881px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7877,7 +7877,7 @@ body {
 
 /* line 96, training/video-editing/premiere-pro/premiere-pro-advanced/*.png */
 .premiere-pro-advanced-sprite, .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .course-custom-training-logo, .premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced, .premiere-pro-advanced-course .pr-essentials {
-  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-advanced-sf4732eb790.png');
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-advanced-s03d85a77d8.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
@@ -7889,7 +7889,7 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.6%;
+  padding-bottom: 5.53333%;
   background-size: 425.28736%;
   background-position: 0 86.58065%;
   margin-top: 18px !important;
@@ -7906,7 +7906,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 30.25435%;
+  background-position: 0 30.29491%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7923,7 +7923,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 71.32075%;
+  background-position: 0 71.41058%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -7938,7 +7938,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 53.23944%;
+  background-position: 0 53.31453%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
@@ -7951,7 +7951,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 53.23944%; } }
+      background-position: 0 53.31453%; } }
 /* line 54, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .ae-essentials {
   background-position: 0 -123px;
@@ -7963,7 +7963,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 15.45226%;
+  background-position: 0 15.4717%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
@@ -7985,7 +7985,7 @@ body {
   min-height: 64px; }
 /* line 71, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .pr-essentials {
-  background-position: 0 -795px;
+  background-position: 0 -794px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9204,7 +9204,7 @@ body {
 
 /* line 168, training/adobe/cc-cs6/cc-new-features/*.png */
 .cc-new-features-sprite, .cc-new-features .cc-new-features-framed, .cc-new-features .course-classrom, .cc-new-features .pdf, .cc-new-features .course-custom-training-logo, .cc-new-features .il-advanced, .cc-new-features .id-essentials, .cc-new-features .ps-essentials, .cc-new-features .il-essentials, .cc-new-features .illustrator-cc-cs6 {
-  background-image: url('../images-dist/training/adobe/cc-cs6/cc-new-features-se150ac8ee7.png');
+  background-image: url('../images-dist/training/adobe/cc-cs6/cc-new-features-s4413e0f226.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
@@ -9232,7 +9232,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 19.87019%;
+  background-position: 0 19.89005%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -9240,7 +9240,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .pdf {
-  background-position: 0 -1845px;
+  background-position: 0 -1843px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9249,7 +9249,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 89.95612%;
+  background-position: 0 89.94632%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
@@ -9264,7 +9264,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 27.97558%;
+  background-position: 0 28.00407%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
@@ -9277,25 +9277,25 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 27.97558%; } }
+      background-position: 0 28.00407%; } }
 /* line 53, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .il-advanced {
-  background-position: 0 -1068px;
+  background-position: 0 -1067px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.53333%;
+  padding-bottom: 5.46667%;
   background-size: 425.28736%;
-  background-position: 0 52.55906%;
+  background-position: 0 52.5357%;
   margin-top: -13px;
   min-width: 65px;
   min-height: 63px; }
 /* line 62, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .id-essentials {
-  background-position: 0 -967px;
+  background-position: 0 -966px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9304,12 +9304,12 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 578.125%;
-  background-position: 0 47.07887%;
+  background-position: 0 47.07602%;
   min-width: 50px;
   min-height: 50px; }
 /* line 69, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .ps-essentials {
-  background-position: 0 -2052px;
+  background-position: 0 -2050px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9323,7 +9323,7 @@ body {
   min-height: 50px; }
 /* line 76, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .il-essentials {
-  background-position: 0 -1399px;
+  background-position: 0 -1397px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9332,7 +9332,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 68.17739%;
+  background-position: 0 68.14634%;
   min-width: 50px;
   min-height: 50px; }
 /* line 83, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
@@ -9341,7 +9341,7 @@ body {
   margin-left: 15px; }
 /* line 88, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
 .cc-new-features .illustrator-cc-cs6 {
-  background-position: 0 -1502px;
+  background-position: 0 -1500px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9350,7 +9350,7 @@ body {
   height: 0;
   padding-bottom: 5.046%;
   background-size: 185%;
-  background-position: 0 77.38279%;
+  background-position: 0 77.35946%;
   min-width: 115px;
   min-height: 100px;
   float: right;
@@ -10299,7 +10299,7 @@ body {
 
 /* line 280, shopping-cart/book/*.png */
 .book-sprite, .cdt-book .acrobat-essentials, .cdt-book .ae-essentials, .cdt-book .custom-training-logo, .cdt-book .book-and-pay, .cdt-book .booking-step-1, .cdt-book .cp-ess, .cdt-book .dw-essentials, .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials, .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials, .cdt-book .id-interactivity, .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials, .cdt-book .pr-essentials, .cdt-book .ps-essentials, .cdt-book .seo-ess, .cdt-book .wp-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web, .cdt-book .diag-dps-logo {
-  background-image: url('../images-dist/shopping-cart/book-s37a11069d3.png');
+  background-image: url('../images-dist/shopping-cart/book-s58309e765e.png');
   background-repeat: no-repeat; }
 
 /* line 12, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10329,7 +10329,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 3.12594%;
+  background-position: 0 3.1297%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10345,7 +10345,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 175.13514%;
-  background-position: 0 23.69639%;
+  background-position: 0 23.72567%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 32, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10358,7 +10358,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 175.13514%;
-      background-position: 0 23.69639%; } }
+      background-position: 0 23.72567%; } }
 /* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .book-and-pay {
   background-position: 0 -207px;
@@ -10370,7 +10370,7 @@ body {
   height: 0;
   padding-bottom: 104.51613%;
   background-size: 209.03226%;
-  background-position: 0 6.75147%;
+  background-position: 0 6.76029%;
   margin-bottom: 16px; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10383,7 +10383,7 @@ body {
       height: 0;
       padding-bottom: 67.93548%;
       background-size: 209.03226%;
-      background-position: 0 6.75147%; } }
+      background-position: 0 6.76029%; } }
 /* line 56, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .booking-step-1 {
   background-position: 0 -571px;
@@ -10395,7 +10395,7 @@ body {
   height: 0;
   padding-bottom: 8.33333%;
   background-size: 100%;
-  background-position: 0 17.11631%;
+  background-position: 0 17.13685%;
   margin-bottom: 24px; }
 /* line 62, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .cp-ess {
@@ -10408,7 +10408,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 19.98798%;
+  background-position: 0 20.01204%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10424,7 +10424,7 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 996.92308%;
-  background-position: 0 31.41912%;
+  background-position: 0 31.45695%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10440,7 +10440,7 @@ body {
   height: 0;
   padding-bottom: 5.69825%;
   background-size: 1136.84211%;
-  background-position: 0 34.46311%;
+  background-position: 0 34.5045%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10456,7 +10456,7 @@ body {
   height: 0;
   padding-bottom: 5.53231%;
   background-size: 996.92308%;
-  background-position: 0 37.40986%;
+  background-position: 0 37.45487%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10472,7 +10472,7 @@ body {
   height: 0;
   padding-bottom: 5.70938%;
   background-size: 1012.5%;
-  background-position: 0 40.48693%;
+  background-position: 0 40.53566%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10488,7 +10488,7 @@ body {
   height: 0;
   padding-bottom: 4.53913%;
   background-size: 704.34783%;
-  background-position: 0 43.70102%;
+  background-position: 0 43.75377%;
   margin-left: 2px;
   margin-top: 10px;
   min-width: 57px;
@@ -10504,7 +10504,7 @@ body {
   height: 0;
   padding-bottom: 5.44308%;
   background-size: 996.92308%;
-  background-position: 0 46.921%;
+  background-position: 0 46.97744%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10520,7 +10520,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 967.16418%;
-  background-position: 0 50.01504%;
+  background-position: 0 50.07528%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10534,8 +10534,8 @@ body {
   width: 5.8%;
   display: block;
   height: 0;
-  padding-bottom: 5.50633%;
-  background-size: 820.25316%;
+  padding-bottom: 5.1475%;
+  background-size: 810%;
   background-position: 0 53.33333%;
   margin-left: 15px;
   margin-top: 10px;
@@ -10543,7 +10543,7 @@ body {
   min-height: 40px; }
 /* line 151, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-dps-pkg {
-  background-position: 0 -1883px;
+  background-position: 0 -1879px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10552,14 +10552,14 @@ body {
   height: 0;
   padding-bottom: 7.17368%;
   background-size: 852.63158%;
-  background-position: 0 57.12985%;
+  background-position: 0 57.07776%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 161, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-epub {
-  background-position: 0 -2017px;
+  background-position: 0 -2013px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10568,14 +10568,14 @@ body {
   height: 0;
   padding-bottom: 7.55758%;
   background-size: 981.81818%;
-  background-position: 0 61.04722%;
+  background-position: 0 61%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 171, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-essentials {
-  background-position: 0 -2143px;
+  background-position: 0 -2139px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10584,14 +10584,14 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 1012.5%;
-  background-position: 0 64.37369%;
+  background-position: 0 64.33083%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 181, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .id-interactivity {
-  background-position: 0 -2244px;
+  background-position: 0 -2240px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10600,14 +10600,14 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 594.49541%;
-  background-position: 0 68.22742%;
+  background-position: 0 68.18874%;
   margin-left: 2px;
   margin-top: 10px;
   min-width: 61px;
   min-height: 53px; }
 /* line 190, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .il-essentials {
-  background-position: 0 -2385px;
+  background-position: 0 -2381px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10616,14 +10616,14 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 71.6862%;
+  background-position: 0 71.65212%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 200, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .internet-marketing-logo {
-  background-position: 0 -2488px;
+  background-position: 0 -2484px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10632,14 +10632,14 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1296%;
-  background-position: 0 74.49102%;
+  background-position: 0 74.46043%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 210, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .js-essentials {
-  background-position: 0 -2578px;
+  background-position: 0 -2574px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10648,14 +10648,14 @@ body {
   height: 0;
   padding-bottom: 5.945%;
   background-size: 1620%;
-  background-position: 0 76.9782%;
+  background-position: 0 76.95067%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 220, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .linkedin-essentials {
-  background-position: 0 -2659px;
+  background-position: 0 -2655px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10664,14 +10664,14 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 996.92308%;
-  background-position: 0 79.96992%;
+  background-position: 0 79.9458%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 230, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .mu-essentials {
-  background-position: 0 -2923px;
+  background-position: 0 -2919px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10680,14 +10680,14 @@ body {
   height: 0;
   padding-bottom: 5.69643%;
   background-size: 1157.14286%;
-  background-position: 0 87.64618%;
+  background-position: 0 87.63134%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 240, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .pr-essentials {
-  background-position: 0 -3018px;
+  background-position: 0 -3014px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10696,14 +10696,14 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 996.92308%;
-  background-position: 0 90.73963%;
+  background-position: 0 90.72848%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 250, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .ps-essentials {
-  background-position: 0 -3122px;
+  background-position: 0 -3118px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10712,14 +10712,14 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 93.83829%;
+  background-position: 0 93.83088%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 260, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .seo-ess {
-  background-position: 0 -3225px;
+  background-position: 0 -3221px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10728,14 +10728,14 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 96.93417%;
+  background-position: 0 96.93048%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 270, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .wp-essentials {
-  background-position: 0 -3328px;
+  background-position: 0 -3324px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10751,7 +10751,7 @@ body {
   min-height: 40px; }
 /* line 280, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-design {
-  background-position: 0 -2764px;
+  background-position: 0 -2760px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10760,14 +10760,14 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1620%;
-  background-position: 0 82.50746%;
+  background-position: 0 82.48655%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 290, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-web {
-  background-position: 0 -2844px;
+  background-position: 0 -2840px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10776,7 +10776,7 @@ body {
   height: 0;
   padding-bottom: 5.655%;
   background-size: 1620%;
-  background-position: 0 84.87019%;
+  background-position: 0 84.85211%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10792,7 +10792,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1350%;
-  background-position: 0 28.63555%;
+  background-position: 0 28.66986%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;

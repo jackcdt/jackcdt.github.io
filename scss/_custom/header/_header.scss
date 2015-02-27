@@ -123,7 +123,22 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     padding-top: 10px !important;
 }
     
+.book-pay-img {
+	
+	@media #{$large-up} {  
+		padding: 30px 80px 0 80px;
+	}
 
+	
+	@media #{$medium-only} { 
+		padding: 30px 35px 0 35px;
+	}
+	
+	@media #{$small-only} { 
+		padding: 15px;
+	}
+
+}
 
 
 
