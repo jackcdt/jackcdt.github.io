@@ -3,30 +3,30 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>CANBERRA</strong></th> 
-            <th>Dec</th> 
-            <th>Jan</th> 
             <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
+            <th>Jan</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/photoshop-lite.html">Photoshop Lite</a></td>
-            <td><a href="">20</a></td>
+            <td>&mdash;</td>
+            <td><a href="/photoshop/photoshop-lite">11</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td><a href="">11</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a></td>
-            <td><a href="">20 &amp; 21</a></td>
+            <td>&mdash;</td>
+            <td><a href="/photoshop/photoshop-essentials">11 &amp; 12</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td><a href="">11 &amp; 12</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>

@@ -3,43 +3,43 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Dec</th> 
-            <th>Jan</th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
+            <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/photoshop-lite.html">Photoshop Lite</a></td>
-            <td><a href="/photoshop/photoshop-lite-brisbane">15</a></td>
-            <td>&mdash;</td>
-            <td><a href="/photoshop/photoshop-lite-brisbane">4</a></td>
             <td><a href="/photoshop/photoshop-lite-brisbane">2</a><br>
               <a href="/photoshop/photoshop-lite-brisbane">25</a></td>
-            <td><a href="/photoshop/photoshop-lite-brisbane">22</a></td>
+            <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-lite-brisbane">18</a></td>
+            <td><a href="/photoshop/photoshop-lite-brisbane">15</a></td>
+            <td><a href="/photoshop/photoshop-lite-brisbane">15</a></td>
+            <td><a href="/photoshop/photoshop-lite-brisbane">3</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a></td>
-            <td><a href="/photoshop/photoshop-essentials-brisbane">15 &amp; 16</a></td>
-            <td>&mdash;</td>
-            <td><a href="/photoshop/photoshop-essentials-brisbane">4 &amp; 5</a></td>
             <td><a href="/photoshop/photoshop-essentials-brisbane">2 &amp; 3</a><br>
               <a href="/photoshop/photoshop-essentials-brisbane">25 &amp; 26</a></td>
-            <td><a href="/photoshop/photoshop-essentials-brisbane">22 &amp; 23</a></td>
+            <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-essentials-brisbane">18 &amp; 19</a></td>
+            <td><a href="/photoshop/photoshop-essentials-brisbane">15 &amp; 16</a></td>
+            <td><a href="/photoshop/photoshop-essentials-brisbane">15 &amp; 16</a></td>
+            <td><a href="/photoshop/photoshop-essentials-brisbane">3 &amp; 4</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-advanced.html">Photoshop Advanced</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced-brisbane">6 &amp; 7</a></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td><a href="/photoshop/photoshop-advanced-brisbane">5 &amp; 6</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-lightroom-training-intro.html">Photoshop Lightroom</a></td>

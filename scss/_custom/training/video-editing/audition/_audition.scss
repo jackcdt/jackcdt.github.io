@@ -1,0 +1,5 @@
+@import "../../../components/training/course";
+
+.audition-course {
+    @include course($audition-color); 
+}

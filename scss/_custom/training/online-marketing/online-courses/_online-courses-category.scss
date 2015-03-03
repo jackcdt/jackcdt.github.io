@@ -21,7 +21,11 @@
         @media #{$large-up} {
             width: 273px;
         }
-    } 
+    }
+    .omca-approved {
+        float: right;
+        padding: 25px 0;
+    }
 
     .course-item .course-item-description {
         @media #{$large-up} {

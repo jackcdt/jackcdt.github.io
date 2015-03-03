@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;
@@ -5328,7 +5328,7 @@ body {
 /* Sets the browser default size. */
 /* Baseline grid. */
 /* Custom fonts */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -6574,6 +6574,17 @@ h4 {
   .flat-mega-menu > ul > li,
   .flat-mega-menu .menu-list {
     border-bottom-color: #383838; } }
+/* line 1095, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul .course-group {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 0 0 5px;
+  font-family: Raleway;
+  padding-left: 10px; }
+
 /* line 1, ../scss/_custom/homepage/_footer.scss */
 .footer-bg {
   background-color: #343534; }
@@ -6786,6 +6797,42 @@ h4 {
   position: relative;
   overflow: visible;
   z-index: 99999; }
+
+/* line 105, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p {
+  font-size: 12px !important;
+  padding-top: 2px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      text-align: center; } }
+
+/* line 114, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+  padding-top: 6px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 114, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      text-align: center; } }
+
+/* line 122, ../scss/_custom/header/_header.scss */
+.addthis_horizontal_follow_toolbox {
+  padding-top: 10px !important; }
+
+@media only screen and (min-width: 64.063em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 80px 0 80px; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 35px 0 35px; } }
+@media only screen and (max-width: 40em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 15px; } }
 
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
@@ -7389,52 +7436,217 @@ h4 {
     top: -1em; } }
 
 @media print {
-  /* line 2, ../scss/_custom/_print.scss */
-  .megamenu_container,
-  .footer-logo,
-  .custom-breadcrumbs,
-  .category-page .custom-training,
-  .category-page .side-pannel,
-  .category-page .promo-packages,
-  .category-page .course-item-info,
-  .category-page .course-book-now,
-  .course-outline .course-classrom,
-  .course-outline .course-dates,
-  .course-outline .download-and-book,
-  .course-outline .validate-participants,
-  .course-outline .download-pdf,
-  .course-outline .seminars-ad,
-  .course-outline .lower-aside-section,
-  .course-outline .promo-grid,
-  .course-outline .related-courses,
-  .orbit-prev,
-  .orbit-next,
-  .wtwu-side-panel,
-  .plus-minus-icon,
-  .testimonials,
-  .room-hire .banner-image,
-  .room-hire .win-mac-logo,
-  .room-hire .room-hire-breakout,
-  .room-hire .sydney-map,
-  .room-hire .melbourne-map,
-  .new-skills-banner,
-  .private-training,
-  .locations .sydney,
-  .locations .melbourne,
-  .locations .brisbane,
-  .locations .canberra,
-  .locations .map {
-    display: none !important; }
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - Course Category & Course Outline - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 6, ../scss/_custom/_print.scss */
+  #header {
+    display: none; }
+
+  /* line 9, ../scss/_custom/_print.scss */
+  #content {
+    display: none; }
+
+  /* line 12, ../scss/_custom/_print.scss */
+  #comments {
+    display: none; }
+
+  /* line 15, ../scss/_custom/_print.scss */
+  #sidebar {
+    display: none; }
+
+  /* line 18, ../scss/_custom/_print.scss */
+  .footer-logo, .banner-row, .custom-training, .header-banner, .category-promo-section, .category-video {
+    display: none; }
+
+  /* line 21, ../scss/_custom/_print.scss */
+  .mega-menu {
+    display: none; }
+
+  /* line 24, ../scss/_custom/_print.scss */
+  .site-description {
+    display: none; }
+
+  /* line 27, ../scss/_custom/_print.scss */
+  .site-title {
+    display: none; }
+
+  /* line 30, ../scss/_custom/_print.scss */
+  .course-item-logo {
+    display: none; }
+
+  /* line 33, ../scss/_custom/_print.scss */
+  .tight-header-1 {
+    font-size: 14px;
+    display: block; }
+
+  /* line 37, ../scss/_custom/_print.scss */
+  .custom-breadcrumbs {
+    float: left; }
 
   /* line 40, ../scss/_custom/_print.scss */
-  .accordion {
-    overflow: visible !important; }
+  .course-item {
+    width: 129pt;
+    float: left; }
 
   /* line 44, ../scss/_custom/_print.scss */
-  .accordion .content {
+  a[href]:after {
+    content: none !important; }
+
+  /* line 47, ../scss/_custom/_print.scss */
+  .courses-list > section > div > ul > li {
+    height: 340px; }
+
+  /* line 50, ../scss/_custom/_print.scss */
+  body > div.footer-bg > div.row.wrapbuckets > div:nth-child(1), body > div.footer-bg > div.row.wrapbuckets > div:nth-child(3) > ul > li:nth-child(6) > a {
+    display: none; }
+
+  /* line 53, ../scss/_custom/_print.scss */
+  .bucket {
+    width: 30%;
+    float: left; }
+
+  /* line 57, ../scss/_custom/_print.scss */
+  body, p, .course-item .course-item-description {
+    font-size: 12px !important; }
+
+  /* line 60, ../scss/_custom/_print.scss */
+  h1 {
+    font-size: 15px !important; }
+
+  /* line 63, ../scss/_custom/_print.scss */
+  h2 {
+    font-size: 14px !important; }
+
+  /* line 66, ../scss/_custom/_print.scss */
+  h3 {
+    font-size: 14px !important; }
+
+  /* line 69, ../scss/_custom/_print.scss */
+  .course-item-logo {
+    display: none !important; }
+
+  /* line 72, ../scss/_custom/_print.scss */
+  .course-dates-promo, .download-pdf, .promo-grid {
+    display: none; }
+
+  /* line 75, ../scss/_custom/_print.scss */
+  .course-outline-block {
+    float: left; }
+
+  /* line 78, ../scss/_custom/_print.scss */
+  .course-outline > section > .nopadding, .course-item .course-outline > section > .course-item-info,
+  .course-item .course-outline > section > .course-book-now {
+    float: right;
+    width: 50%; }
+
+  /* line 82, ../scss/_custom/_print.scss */
+  .course-outline .testimonials {
+    width: 400px; }
+
+  /* line 85, ../scss/_custom/_print.scss */
+  .lower-aside-section .testimonials {
+    display: block;
+    max-width: 800px;
+    width: 600px;
+    height: 432px; }
+
+  /* line 91, ../scss/_custom/_print.scss */
+  .related-courses {
+    display: none; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Calendar Dates - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 100, ../scss/_custom/_print.scss */
+  .calendar-banner {
+    display: none; }
+
+  /* line 103, ../scss/_custom/_print.scss */
+  .cdt-calendar .tabs-content .content {
     display: block !important;
-    overflow: visible !important;
-    height: auto !important; } }
+    float: none !important; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Training Benefts - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 113, ../scss/_custom/_print.scss */
+  .cdt-wtwu .wtwu-side-logo {
+    display: none; }
+
+  /* line 116, ../scss/_custom/_print.scss */
+  .cdt-wtwu .accordion .accordion-navigation > .content.active, .accordion dd > .content {
+    display: block !important; }
+
+  /*Training Room Hire*/
+  /* line 121, ../scss/_custom/_print.scss */
+  .room-hire .banner-image, .room-hire .win-mac-logo, .room-hire .room-hire-breakout {
+    display: none; }
+
+  /*Custom Training*/
+  /* line 126, ../scss/_custom/_print.scss */
+  .cdt-custom-training .private-training {
+    display: none; }
+
+  /* line 129, ../scss/_custom/_print.scss */
+  .cdt-custom-training .costs-section-details {
+    min-height: 100px; }
+
+  /*Location*/
+  /* line 134, ../scss/_custom/_print.scss */
+  .locations .city-location {
+    width: 25%; }
+
+  /* line 137, ../scss/_custom/_print.scss */
+  .locations .sydney, .locations .melbourne, .locations .brisbane, .locations .canberra {
+    display: none; }
+
+  /* line 140, ../scss/_custom/_print.scss */
+  .locations .city-intro {
+    height: 15em; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Homepage - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 149, ../scss/_custom/_print.scss */
+  .homepage .orbit-container, .homepage .blue-bar {
+    display: none; }
+
+  /* line 152, ../scss/_custom/_print.scss */
+  .why-train-intro-text .why-train-block-left ul li, .why-train-intro-text .why-train-block-right ul li {
+    font-size: 13px; }
+
+  /* line 155, ../scss/_custom/_print.scss */
+  .why-train-intro-text .why-train-block-left .learn-more {
+    display: none; }
+
+  /* line 158, ../scss/_custom/_print.scss */
+  #panel1 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 161, ../scss/_custom/_print.scss */
+  #panel2 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 164, ../scss/_custom/_print.scss */
+  #panel3 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 167, ../scss/_custom/_print.scss */
+  #panel4 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 170, ../scss/_custom/_print.scss */
+  #panel5 > div > div.medium-8.large-9.columns > div {
+    width: 30%; }
+
+  /* line 173, ../scss/_custom/_print.scss */
+  #panel6 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 176, ../scss/_custom/_print.scss */
+  #panel7 > div > div.medium-8.large-9.columns > div {
+    width: 30%; } }
 /* line 3, ../scss/_custom/components/training/_banner.scss */
 .indesign-category .banner-row {
   background-color: #C42A7C; }

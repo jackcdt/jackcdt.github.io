@@ -2,33 +2,33 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Dec</th> 
-            <th>Jan</th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
+            <th>Jun</th> 
+            <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
 
         <tr> 
             <td class="row-name"><a href="/training-courses/linkedin-training.html">LinkedIn for Business</a></td>
-            <td>&mdash;</td>
-            <td><a href="/social-media/linkedin-for-business-melbourne">12</a></td>
-            <td>&mdash;</td>
             <td><a href="/social-media/linkedin-for-business-melbourne">16</a></td>
             <td>&mdash;</td>
             <td><a href="/social-media/linkedin-for-business-melbourne">29</a></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td><a href="/social-media/linkedin-for-business-melbourne">4</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/google-analytics-training.html">Google Analytics</a></td>
-            <td>&mdash;</td>
-            <td><a href="/social-media/google-analytics-training-meloburne">13</a></td>
-            <td>&mdash;</td>
             <td><a href="/social-media/google-analytics-training-meloburne">17</a></td>
             <td>&mdash;</td>
             <td><a href="/social-media/google-analytics-training-meloburne">28</a></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td><a href="/social-media/google-analytics-training-meloburne">3</a></td>
         </tr>
     </tbody>    
  </table>  

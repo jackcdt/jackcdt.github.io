@@ -21,6 +21,8 @@
  
 // Include special styling for old IE  
 
+@import "_custom/homepage/homepage-old-ie-styles";
+
 // Page specific
 @import "_custom/training/adobe/indesign/indesign-category-old-ie-styles";
 @import "_custom/training/adobe/indesign/indesign-essentials-old-ie-styles";
@@ -89,6 +91,7 @@
 @import "_custom/training/video-editing/premiere-pro/premiere-elements-old-ie-styles"; 
  
 @import "_custom/training/video-editing/finalcut-pro/finalcut-pro-old-ie-styles"; 
+@import "_custom/training/video-editing/audition/audition-old-ie-styles"; 
    
 @import "_custom/training/captivate/captivate-category-old-ie-styles"; 
 @import "_custom/training/captivate/captivate-essentials-old-ie-styles"; 

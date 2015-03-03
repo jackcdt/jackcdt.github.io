@@ -469,6 +469,14 @@
   display: block !important; }
 
 /* Push up the custom training to compensate for no image */
+/* line 2, ../scss/_custom/homepage/_homepage-old-ie-styles.scss */
+.homepage {
+  /* Hide all sprites */ }
+  /* line 4, ../scss/_custom/homepage/_homepage-old-ie-styles.scss */
+  .homepage .hide-old-ie {
+    display: none; }
+
+/* Push up the custom training to compensate for no image */
 /* line 3, ../scss/_custom/training/adobe/indesign/_indesign-category-old-ie-styles.scss */
 .indesign-category {
   /* Hide all sprites */ }
@@ -481,11 +489,11 @@
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding {
   padding-left: 0;
   padding-right: 0; }
@@ -505,7 +513,7 @@ body {
 .indesign-advanced-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
-  .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .indesign-cc-cs6, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced,
+  .indesign-advanced-course .course-classrom, .indesign-advanced-course .pdf, .indesign-advanced-course .course-custom-training-logo, .indesign-advanced-course .id-advanced,
   .indesign-advanced-course .id-essentials, .indesign-advanced-course .ps-ess, .indesign-advanced-course .il-ess, .indesign-advanced-course .id-interactivity, .indesign-advanced-course .id-ipad, .indesign-advanced-course .id-longdocuments {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-advanced-old-ie-styles.scss */
@@ -527,7 +535,7 @@ body {
 .indesign-long-docs-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
-  .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .indesign-cc-cs6, .indesign-long-docs-course .custom-training, .indesign-long-docs-course .id-advanced,
+  .indesign-long-docs-course .course-classrom, .indesign-long-docs-course .pdf, .indesign-long-docs-course .custom-training, .indesign-long-docs-course .id-advanced,
   .indesign-long-docs-course .id-longdocuments {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-old-ie-styles.scss */
@@ -538,7 +546,7 @@ body {
 .indesign-interactivity-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
-  .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .indesign-cc-cs6, .indesign-interactivity-course .custom-training, .indesign-interactivity-course .id-advanced,
+  .indesign-interactivity-course .course-classrom, .indesign-interactivity-course .pdf, .indesign-interactivity-course .custom-training, .indesign-interactivity-course .id-advanced,
   .indesign-interactivity-course .id-interactivity, .indesign-interactivity-course .id-ipad {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-old-ie-styles.scss */
@@ -549,7 +557,7 @@ body {
 .indesign-accessibility-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
-  .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .indesign-cc-cs6, .indesign-accessibility-course .custom-training, .indesign-accessibility-course .id-accessibility {
+  .indesign-accessibility-course .course-classrom, .indesign-accessibility-course .pdf, .indesign-accessibility-course .custom-training, .indesign-accessibility-course .id-accessibility {
     display: none !important; }
   /* line 10, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-old-ie-styles.scss */
   .indesign-accessibility-course .book-now-btn {
@@ -646,7 +654,7 @@ body {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
   .illustrator-essentials-course .il-essentials-framed, .illustrator-essentials-course .course-classrom, .illustrator-essentials-course .pdf, .illustrator-essentials-course .il-advanced,
-  .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .and {
+  .illustrator-essentials-course .ps-essentials, .illustrator-essentials-course .il-essentials, .illustrator-essentials-course .id-essentials, .illustrator-essentials-course .and, .illustrator-essentials-course .illustrator-cc-cs6 {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-old-ie-styles.scss */
   .illustrator-essentials-course .book-now-btn {
@@ -657,7 +665,7 @@ body {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
   .illustrator-lite-course .course-classrom, .illustrator-lite-course .pdf, .illustrator-lite-course .id-lite,
-  .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .il-lite {
+  .illustrator-lite-course .il-essentials, .illustrator-lite-course .ps-lite, .illustrator-lite-course .il-lite, .illustrator-lite-course .illustrator-cc-cs6 {
     display: none !important; }
   /* line 11, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-old-ie-styles.scss */
   .illustrator-lite-course .book-now-btn {
@@ -909,7 +917,10 @@ body {
   /* line 4, ../scss/_custom/training/web-design-development/wordpress/_wordpress-category-old-ie-styles.scss */
   .wordpress-category .wp-essentials,
   .wordpress-category .custom-training,
-  .wordpress-category .wp-advanced {
+  .wordpress-category .wp-advanced,
+  .wordpress-category .wp-consult-medium,
+  .wordpress-category .wp-whatsnew,
+  .wordpress-category .wp-consult {
     display: none; }
 
 /* line 3, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-old-ie-styles.scss */
@@ -1077,11 +1088,21 @@ body {
 .finalcut-pro-course {
   /* Hide all sprites */ }
   /* line 6, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
-  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf {
+  .finalcut-pro-course .finalcut-ess, .finalcut-pro-course .course-classrom, .finalcut-pro-course .pdf .fcp-book {
     display: none !important; }
   /* line 10, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-old-ie-styles.scss */
   .finalcut-pro-course .book-now-btn {
     background-color: #32527f; }
+
+/* line 3, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+.audition-course {
+  /* Hide all sprites */ }
+  /* line 6, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+  .audition-course .audition-ess, .audition-course .course-classrom, .audition-course .pdf {
+    display: none !important; }
+  /* line 10, ../scss/_custom/training/video-editing/audition/_audition-old-ie-styles.scss */
+  .audition-course .book-now-btn {
+    background-color: #14B29E; }
 
 /* Push up the custom training to compensate for no image */
 /* line 2, ../scss/_custom/training/captivate/_captivate-category-old-ie-styles.scss */

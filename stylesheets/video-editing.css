@@ -5313,11 +5313,11 @@ th.hide-for-touch {
 body {
   font-family: Raleway, Helvetica, sans-serif; }
 
-/* line 52, ../scss/_custom/_common.scss */
+/* line 54, ../scss/_custom/_common.scss */
 .show-link {
   text-decoration: underline; }
 
-/* line 57, ../scss/_custom/_common.scss */
+/* line 59, ../scss/_custom/_common.scss */
 .nopadding, .course-item .course-item-info,
 .course-item .course-book-now {
   padding-left: 0;
@@ -5328,7 +5328,7 @@ body {
 /* Sets the browser default size. */
 /* Baseline grid. */
 /* Custom fonts */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -5340,12 +5340,12 @@ html {
 
 /* line 36, ../scss/_custom/_custom-fonts.scss */
 .seminars-ad .read-more-btn, .custom-training .prefer-custom-training-text .read-more-btn, .course-outline .read-more-btn, .category-page .read-more-btn, .course-item .course-item-fee, .course-outline .overview-list .item-course-specific,
-.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course strong, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course strong, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course strong, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course strong, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course strong, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course strong, .finalcut-pro-course .testimonials .category-testimonial span {
+.course-outline .overview-list .course-specific, .course-outline .download-text, .category-page strong, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course strong, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course strong, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course strong, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course strong, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course strong, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course strong, .finalcut-pro-course .testimonials .category-testimonial span, .audition-course strong, .audition-course .testimonials .category-testimonial span {
   font-weight: 600; }
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .banner-row .banner-text .banner-sub-header, .training-checklist th, .training-checklist .training-checklist-header, .course-item .course-item-info,
-.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial-client-name, .after-effects-category .testimonials .category-testimonial-course-name, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial-client-name, .after-effects-essentials-course .testimonials .category-testimonial-course-name, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial-client-name, .after-effects-advanced-course .testimonials .category-testimonial-course-name, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial-client-name, .premiere-pro-category .testimonials .category-testimonial-course-name, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial-client-name, .premiere-pro-essentials-course .testimonials .category-testimonial-course-name, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial-client-name, .premiere-pro-advanced-course .testimonials .category-testimonial-course-name, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial-client-name, .premiere-elements-course .testimonials .category-testimonial-course-name, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial-client-name, .finalcut-pro-course .testimonials .category-testimonial-course-name {
+.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial-client-name, .after-effects-category .testimonials .category-testimonial-course-name, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial-client-name, .after-effects-essentials-course .testimonials .category-testimonial-course-name, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial-client-name, .after-effects-advanced-course .testimonials .category-testimonial-course-name, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial-client-name, .premiere-pro-category .testimonials .category-testimonial-course-name, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial-client-name, .premiere-pro-essentials-course .testimonials .category-testimonial-course-name, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial-client-name, .premiere-pro-advanced-course .testimonials .category-testimonial-course-name, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial-client-name, .premiere-elements-course .testimonials .category-testimonial-course-name, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial-client-name, .finalcut-pro-course .testimonials .category-testimonial-course-name, .audition-course .paragraph-header, .audition-course .testimonials .testimonials-title, .audition-course .testimonials .category-testimonial-client-name, .audition-course .testimonials .category-testimonial-course-name {
   font-weight: 500; }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
@@ -5375,7 +5375,7 @@ h4, .seminars-ad .seminars-ad-title {
   line-height: 1.5em; }
 
 /* line 87, ../scss/_custom/_custom-fonts.scss */
-h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span {
+h3, .header-logos .training-text, .training-checklist th, .training-checklist .training-checklist-header, .training-checklist .center-content, .course-outline .paragraph-header-def-color, .after-effects-category .paragraph-header, .after-effects-category .testimonials .testimonials-title, .after-effects-category .testimonials .category-testimonial span, .after-effects-essentials-course .paragraph-header, .after-effects-essentials-course .testimonials .testimonials-title, .after-effects-essentials-course .testimonials .category-testimonial span, .after-effects-advanced-course .paragraph-header, .after-effects-advanced-course .testimonials .testimonials-title, .after-effects-advanced-course .testimonials .category-testimonial span, .premiere-pro-category .paragraph-header, .premiere-pro-category .testimonials .testimonials-title, .premiere-pro-category .testimonials .category-testimonial span, .premiere-pro-essentials-course .paragraph-header, .premiere-pro-essentials-course .testimonials .testimonials-title, .premiere-pro-essentials-course .testimonials .category-testimonial span, .premiere-pro-advanced-course .paragraph-header, .premiere-pro-advanced-course .testimonials .testimonials-title, .premiere-pro-advanced-course .testimonials .category-testimonial span, .premiere-elements-course .paragraph-header, .premiere-elements-course .testimonials .testimonials-title, .premiere-elements-course .testimonials .category-testimonial span, .finalcut-pro-course .paragraph-header, .finalcut-pro-course .testimonials .testimonials-title, .finalcut-pro-course .testimonials .category-testimonial span, .audition-course .paragraph-header, .audition-course .testimonials .testimonials-title, .audition-course .testimonials .category-testimonial span {
   font-size: 1.25em;
   line-height: 1.2em; }
 
@@ -6574,6 +6574,17 @@ h4 {
   .flat-mega-menu > ul > li,
   .flat-mega-menu .menu-list {
     border-bottom-color: #383838; } }
+/* line 1095, ../scss/_custom/homepage/_megamenu.scss */
+.flat-mega-menu > ul .course-group {
+  color: #212121;
+  text-shadow: 1px 1px 1px #FFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 0 0 5px;
+  font-family: Raleway;
+  padding-left: 10px; }
+
 /* line 1, ../scss/_custom/homepage/_footer.scss */
 .footer-bg {
   background-color: #343534; }
@@ -6786,6 +6797,42 @@ h4 {
   position: relative;
   overflow: visible;
   z-index: 99999; }
+
+/* line 105, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p {
+  font-size: 12px !important;
+  padding-top: 2px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      text-align: center; } }
+
+/* line 114, ../scss/_custom/header/_header.scss */
+body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+  padding-top: 6px !important;
+  color: #FFFFFF !important; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 114, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      text-align: center; } }
+
+/* line 122, ../scss/_custom/header/_header.scss */
+.addthis_horizontal_follow_toolbox {
+  padding-top: 10px !important; }
+
+@media only screen and (min-width: 64.063em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 80px 0 80px; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 30px 35px 0 35px; } }
+@media only screen and (max-width: 40em) {
+  /* line 126, ../scss/_custom/header/_header.scss */
+  .book-pay-img {
+    padding: 15px; } }
 
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
@@ -7389,52 +7436,217 @@ h4 {
     top: -1em; } }
 
 @media print {
-  /* line 2, ../scss/_custom/_print.scss */
-  .megamenu_container,
-  .footer-logo,
-  .custom-breadcrumbs,
-  .category-page .custom-training,
-  .category-page .side-pannel,
-  .category-page .promo-packages,
-  .category-page .course-item-info,
-  .category-page .course-book-now,
-  .course-outline .course-classrom,
-  .course-outline .course-dates,
-  .course-outline .download-and-book,
-  .course-outline .validate-participants,
-  .course-outline .download-pdf,
-  .course-outline .seminars-ad,
-  .course-outline .lower-aside-section,
-  .course-outline .promo-grid,
-  .course-outline .related-courses,
-  .orbit-prev,
-  .orbit-next,
-  .wtwu-side-panel,
-  .plus-minus-icon,
-  .testimonials,
-  .room-hire .banner-image,
-  .room-hire .win-mac-logo,
-  .room-hire .room-hire-breakout,
-  .room-hire .sydney-map,
-  .room-hire .melbourne-map,
-  .new-skills-banner,
-  .private-training,
-  .locations .sydney,
-  .locations .melbourne,
-  .locations .brisbane,
-  .locations .canberra,
-  .locations .map {
-    display: none !important; }
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - Course Category & Course Outline - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 6, ../scss/_custom/_print.scss */
+  #header {
+    display: none; }
+
+  /* line 9, ../scss/_custom/_print.scss */
+  #content {
+    display: none; }
+
+  /* line 12, ../scss/_custom/_print.scss */
+  #comments {
+    display: none; }
+
+  /* line 15, ../scss/_custom/_print.scss */
+  #sidebar {
+    display: none; }
+
+  /* line 18, ../scss/_custom/_print.scss */
+  .footer-logo, .banner-row, .custom-training, .header-banner, .category-promo-section, .category-video {
+    display: none; }
+
+  /* line 21, ../scss/_custom/_print.scss */
+  .mega-menu {
+    display: none; }
+
+  /* line 24, ../scss/_custom/_print.scss */
+  .site-description {
+    display: none; }
+
+  /* line 27, ../scss/_custom/_print.scss */
+  .site-title {
+    display: none; }
+
+  /* line 30, ../scss/_custom/_print.scss */
+  .course-item-logo {
+    display: none; }
+
+  /* line 33, ../scss/_custom/_print.scss */
+  .tight-header-1 {
+    font-size: 14px;
+    display: block; }
+
+  /* line 37, ../scss/_custom/_print.scss */
+  .custom-breadcrumbs {
+    float: left; }
 
   /* line 40, ../scss/_custom/_print.scss */
-  .accordion {
-    overflow: visible !important; }
+  .course-item {
+    width: 129pt;
+    float: left; }
 
   /* line 44, ../scss/_custom/_print.scss */
-  .accordion .content {
+  a[href]:after {
+    content: none !important; }
+
+  /* line 47, ../scss/_custom/_print.scss */
+  .courses-list > section > div > ul > li {
+    height: 340px; }
+
+  /* line 50, ../scss/_custom/_print.scss */
+  body > div.footer-bg > div.row.wrapbuckets > div:nth-child(1), body > div.footer-bg > div.row.wrapbuckets > div:nth-child(3) > ul > li:nth-child(6) > a {
+    display: none; }
+
+  /* line 53, ../scss/_custom/_print.scss */
+  .bucket {
+    width: 30%;
+    float: left; }
+
+  /* line 57, ../scss/_custom/_print.scss */
+  body, p, .course-item .course-item-description {
+    font-size: 12px !important; }
+
+  /* line 60, ../scss/_custom/_print.scss */
+  h1 {
+    font-size: 15px !important; }
+
+  /* line 63, ../scss/_custom/_print.scss */
+  h2 {
+    font-size: 14px !important; }
+
+  /* line 66, ../scss/_custom/_print.scss */
+  h3 {
+    font-size: 14px !important; }
+
+  /* line 69, ../scss/_custom/_print.scss */
+  .course-item-logo {
+    display: none !important; }
+
+  /* line 72, ../scss/_custom/_print.scss */
+  .course-dates-promo, .download-pdf, .promo-grid {
+    display: none; }
+
+  /* line 75, ../scss/_custom/_print.scss */
+  .course-outline-block {
+    float: left; }
+
+  /* line 78, ../scss/_custom/_print.scss */
+  .course-outline > section > .nopadding, .course-item .course-outline > section > .course-item-info,
+  .course-item .course-outline > section > .course-book-now {
+    float: right;
+    width: 50%; }
+
+  /* line 82, ../scss/_custom/_print.scss */
+  .course-outline .testimonials {
+    width: 400px; }
+
+  /* line 85, ../scss/_custom/_print.scss */
+  .lower-aside-section .testimonials {
+    display: block;
+    max-width: 800px;
+    width: 600px;
+    height: 432px; }
+
+  /* line 91, ../scss/_custom/_print.scss */
+  .related-courses {
+    display: none; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Calendar Dates - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 100, ../scss/_custom/_print.scss */
+  .calendar-banner {
+    display: none; }
+
+  /* line 103, ../scss/_custom/_print.scss */
+  .cdt-calendar .tabs-content .content {
     display: block !important;
-    overflow: visible !important;
-    height: auto !important; } }
+    float: none !important; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Training Benefts - - - - - - - - -  
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 113, ../scss/_custom/_print.scss */
+  .cdt-wtwu .wtwu-side-logo {
+    display: none; }
+
+  /* line 116, ../scss/_custom/_print.scss */
+  .cdt-wtwu .accordion .accordion-navigation > .content.active, .accordion dd > .content {
+    display: block !important; }
+
+  /*Training Room Hire*/
+  /* line 121, ../scss/_custom/_print.scss */
+  .room-hire .banner-image, .room-hire .win-mac-logo, .room-hire .room-hire-breakout {
+    display: none; }
+
+  /*Custom Training*/
+  /* line 126, ../scss/_custom/_print.scss */
+  .cdt-custom-training .private-training {
+    display: none; }
+
+  /* line 129, ../scss/_custom/_print.scss */
+  .cdt-custom-training .costs-section-details {
+    min-height: 100px; }
+
+  /*Location*/
+  /* line 134, ../scss/_custom/_print.scss */
+  .locations .city-location {
+    width: 25%; }
+
+  /* line 137, ../scss/_custom/_print.scss */
+  .locations .sydney, .locations .melbourne, .locations .brisbane, .locations .canberra {
+    display: none; }
+
+  /* line 140, ../scss/_custom/_print.scss */
+  .locations .city-intro {
+    height: 15em; }
+
+  /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - Homepage - - - - - - - - - - - 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  /* line 149, ../scss/_custom/_print.scss */
+  .homepage .orbit-container, .homepage .blue-bar {
+    display: none; }
+
+  /* line 152, ../scss/_custom/_print.scss */
+  .why-train-intro-text .why-train-block-left ul li, .why-train-intro-text .why-train-block-right ul li {
+    font-size: 13px; }
+
+  /* line 155, ../scss/_custom/_print.scss */
+  .why-train-intro-text .why-train-block-left .learn-more {
+    display: none; }
+
+  /* line 158, ../scss/_custom/_print.scss */
+  #panel1 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 161, ../scss/_custom/_print.scss */
+  #panel2 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 164, ../scss/_custom/_print.scss */
+  #panel3 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 167, ../scss/_custom/_print.scss */
+  #panel4 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 170, ../scss/_custom/_print.scss */
+  #panel5 > div > div.medium-8.large-9.columns > div {
+    width: 30%; }
+
+  /* line 173, ../scss/_custom/_print.scss */
+  #panel6 > div > div.medium-8.large-9.columns > div {
+    width: 20%; }
+
+  /* line 176, ../scss/_custom/_print.scss */
+  #panel7 > div > div.medium-8.large-9.columns > div {
+    width: 30%; } }
 /* line 3, ../scss/_custom/components/training/_banner.scss */
 .after-effects-category .banner-row {
   background-color: #b979fb; }
@@ -8217,5 +8429,99 @@ h4 {
       height: 5px; }
     /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .finalcut-pro-course .testimonials::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgba(140, 140, 140, 0.5); }
+
+/* line 3, ../scss/_custom/training/video-editing/audition/_audition.scss */
+.audition-course {
+  /* General */
+  /* Secion borders */
+  /* Headers */
+  /* Course overview */
+  /* Side bar - seminars ad */
+  /* Side bar - testimonials */ }
+  /* line 3, ../scss/_custom/components/training/_banner.scss */
+  .audition-course .banner-row {
+    background-color: #14B29E; }
+  /* line 9, ../scss/_custom/components/training/_course.scss */
+  .audition-course .breadcrumb-active {
+    color: #14B29E; }
+  /* line 17, ../scss/_custom/components/training/_course.scss */
+  .audition-course .sw-ver {
+    color: #14B29E; }
+  /* line 22, ../scss/_custom/components/training/_course.scss */
+  .audition-course [class*="block-grid-"] > li {
+    padding-bottom: 0;
+    min-width: 18em; }
+  /* line 28, ../scss/_custom/components/training/_course.scss */
+  .audition-course .book-now-section {
+    border-top: 1px solid #14B29E; }
+  /* line 33, ../scss/_custom/components/training/_course.scss */
+  .audition-course .course-header-2 {
+    color: #14B29E; }
+  /* line 37, ../scss/_custom/components/training/_course.scss */
+  .audition-course .paragraph-header {
+    color: #14B29E;
+    line-height: 1.5em; }
+  /* line 43, ../scss/_custom/components/training/_course.scss */
+  .audition-course .overview-list .item-course-specific,
+  .audition-course .overview-list .course-specific {
+    color: #14B29E; }
+  /* line 50, ../scss/_custom/components/training/_course.scss */
+  .audition-course .course-dates-promo .color-specific,
+  .audition-course .course-dates-promo .course-length {
+    color: #14B29E; }
+  /* line 56, ../scss/_custom/components/training/_course.scss */
+  .audition-course .download-text {
+    color: #14B29E; }
+  /* line 61, ../scss/_custom/components/training/_course.scss */
+  .audition-course .seminars-ad {
+    background-color: #14B29E; }
+  /* line 67, ../scss/_custom/components/training/_course.scss */
+  .audition-course .testimonials {
+    background-color: #E4E4E4;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*    -webkit-overflow-scrolling: touch;*/
+    border: solid 1px #646464;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px; }
+    /* line 14, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials .testimonials-title {
+      color: #14B29E;
+      margin: 6px 9px; }
+    /* line 21, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials .category-testimonial {
+      margin: 5px 10px 12px 10px;
+      font-size: 14px;
+      line-height: 1.5em; }
+      /* line 26, ../scss/_custom/components/training/_testimonials.scss */
+      .audition-course .testimonials .category-testimonial span {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #14B29E;
+        font-style: italic;
+        display: inline; }
+    /* line 36, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials .category-testimonial-client-name {
+      margin-top: 6px;
+      font-size: 15px; }
+    /* line 42, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials .category-testimonial-course-name {
+      color: #14B29E;
+      font-size: 15px;
+      margin-bottom: 18px; }
+    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials::-webkit-scrollbar {
+      -webkit-appearance: none; }
+    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials::-webkit-scrollbar:vertical {
+      width: 5px; }
+    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials::-webkit-scrollbar:horizontal {
+      height: 5px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    .audition-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
