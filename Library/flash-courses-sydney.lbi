@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
        </tr> 
     </thead> 
     <tbody> 
@@ -16,19 +16,19 @@
             <td class="row-name"><a href="/flash-web-banners.html">Flash Web Banners</a></td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-web-banners">14</a></td>
             <td>&mdash;</td>
-            <td><a href="/flash-actionscript/flash-web-banners">6 Aug</a></td>
+            <td>&mdash;</td>
+            <td><a href="/flash-actionscript/flash-web-banners">6</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/flash-training-intro.html">Flash Essentials Courses</a></td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/flash-actionscript/flash-essentials">14 &amp; 15</a></td>
             <td>&mdash;</td>
-            <td><a href="/flash-actionscript/flash-essentials">6 &amp; 7<br> Aug</a></td>
+            <td>&mdash;</td>
+            <td><a href="/flash-actionscript/flash-essentials">6 &amp; 7</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/flash-actionscript-training-intro.html">Flash ActionScript</a></td> 
