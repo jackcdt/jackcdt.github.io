@@ -2,35 +2,33 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Jan</th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
+            <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
 
         <tr> 
             <td class="row-name"><a href="/wordpress-essentials.html">WordPress Essentials</a></td>
-            <td><a href="/wordpress/wordpress-essentials">8</a><br>
-              <a href="/wordpress/wordpress-essentials">23</a></td>
-            <td><a href="/wordpress/wordpress-essentials">12</a><br>
-              <a href="/wordpress/wordpress-essentials">23</a></td>
             <td><a href="/wordpress/wordpress-essentials">16</a></td>
             <td><a href="/wordpress/wordpress-essentials">1</a></td>
             <td><a href="/wordpress/wordpress-essentials">7</a></td>
             <td><a href="/wordpress/wordpress-essentials">15</a></td>
+            <td><a href="/wordpress/wordpress-essentials">14</a></td>
+			<td><a href="/wordpress/wordpress-essentials">17</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/wordpress-advanced.html">WordPress Advanced</a></td>
-            <td>&mdash;</td>
-            <td><a href="/wordpress/wordpress-advanced">13</a></td>
             <td><a href="/wordpress/wordpress-advanced">17</a></td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-advanced">8</a></td>
             <td><a href="/wordpress/wordpress-advanced">16</a></td>
+            <td><a href="/wordpress/wordpress-advanced">15</a></td>
+            <td><a href="/wordpress/wordpress-advanced">18</a></td>
         </tr>
     </tbody>    
  </table>  

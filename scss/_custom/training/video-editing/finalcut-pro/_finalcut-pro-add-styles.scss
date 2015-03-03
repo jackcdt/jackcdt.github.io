@@ -36,7 +36,12 @@ $finalcut-pro-spacing: 40px;
         min-height: 32px;
         top: -3px;
     }
-
+    .fcp-book {  
+        @include finalcut-pro-sprite(fcp-book); 
+        @include responsive-sprite($map, fcp-book , 5.8%);
+        min-width: 161px;
+        min-height: 200px;
+    } 
     .course-custom-training-logo {
          
         @include finalcut-pro-sprite(custom-training); 
