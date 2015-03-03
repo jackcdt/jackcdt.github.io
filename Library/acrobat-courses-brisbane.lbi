@@ -3,32 +3,22 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/acrobat-essentials.html">Acrobat Essentials</a></td> 
-            <td><a href="/acrobat/acrobat-essentials-brisbane">23</a></td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td><a href="/acrobat/acrobat-essentials-brisbane">13</a></td>
-            <td>&mdash;</td>
-            <td><a href="/acrobat/acrobat-essentials-brisbane">6</a></td>
+            <td colspan="6">Custom training only, please phone 1300 441 891 to discuss</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/acrobat-forms.html">Acrobat Forms</a></td> 
-            <td><a href="/acrobat/acrobat-forms-brisbane">24</a></td>
-            <td>&mdash;</td>
-            <td>&mdash;</td>
-            <td><a href="/acrobat/acrobat-forms-brisbane">25</a></td>
-            <td>&mdash;</td>
-            <td><a href="/acrobat/acrobat-forms-brisbane">7</a></td>
+            <td colspan="6">Custom training only, please phone 1300 441 891 to discuss</td>
         </tr>
     </tbody>    
  </table>  

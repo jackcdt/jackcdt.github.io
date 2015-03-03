@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/javascript-training.html">JavaScript Essentials</a></td>
-            <td><a href="/javascript-jquery/javascript-essentials">18 &amp; 19</a></td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/javascript-essentials">15 &amp; 17</a></td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/javascript-essentials">4 &amp; 5</a></td>
             <td><a href="/javascript-jquery/javascript-essentials">23 &amp; 24</a></td>
+            <td><a href="/javascript-jquery/javascript-essentials">10 &amp; 11<br>Sep</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/jquery-training.html">jQuery Essentials</a></td>
-            <td><a href="/javascript-jquery/jquery-essentials">26 &amp; 27</a></td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/jquery-essentials">7 &amp; 8</a></td>
             <td>&mdash;</td>
             <td><a href="/javascript-jquery/jquery-essentials">1 &amp; 2</a></td>
+            <td><a href="/javascript-jquery/jquery-essentials">17 &amp; 18<br>Sep</a></td>
         </tr>
     </tbody>    
  </table>  

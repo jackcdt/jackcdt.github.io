@@ -3,29 +3,27 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/photoshop-lite.html">Photoshop Lite</a></td>
-            <td><a href="/photoshop/photoshop-lite">9</a></td>
             <td><a href="/photoshop/photoshop-lite">2</a><br>
               <a href="/photoshop/photoshop-lite">30</a></td>
             <td><a href="/photoshop/photoshop-lite">28</a></td>
             <td><a href="/photoshop/photoshop-lite">27</a></td>
             <td><a href="/photoshop/photoshop-lite">25</a></td>
             <td><a href="/photoshop/photoshop-lite">20</a></td>
+            <td><a href="/photoshop/photoshop-lite">20</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-intro.html">Photoshop Essentials</a></td>
-            <td><a href="/photoshop/photoshop-essentials">9 &amp; 10</a><br>
-              <a href="/photoshop/photoshop-essentials">24 &amp; 25</a></td>
             <td><a href="/photoshop/photoshop-essentials">10 &amp; 11</a><br>
               <a href="/photoshop/photoshop-essentials">19 &amp; 20</a><br>
               <a href="/photoshop/photoshop-essentials">30 &amp; 31</a></td>
@@ -36,24 +34,26 @@
             <td><a href="/photoshop/photoshop-essentials">15 &amp; 16</a></td>
             <td><a href="/photoshop/photoshop-essentials">2 &amp; 3</a><br>
              <a href="/photoshop/photoshop-essentials">20 &amp; 21</a></td>
-        </tr>
+            <td><a href="/photoshop/photoshop-essentials">5 &amp; 6</a><br>
+              <a href="/photoshop/photoshop-essentials">20 &amp; 21</a></td>
+		</tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-web-training.html">Photoshop for Web</a></td>
-            <td><a href="/photoshop/photoshop-for-web-design">4</a></td>
             <td><a href="/photoshop/photoshop-for-web-design">2</a></td>
-            <td><a href="/photoshop/photoshop-for-web-design">13</a></td>
-            <td><a href="/photoshop/photoshop-for-web-design">13</a></td>
+            <td><a href="/photoshop/photoshop-for-web-design">21</a></td>
+            <td><a href="/photoshop/photoshop-for-web-design">21</a></td>
             <td><a href="/photoshop/photoshop-for-web-design">22</a></td>
             <td><a href="/photoshop/photoshop-for-web-design">17</a></td>
+			<td><a href="/photoshop/photoshop-for-web-design">25</a></td>
         </tr> 
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-training-advanced.html">Photoshop Advanced</a></td>
-            <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced">12 &amp; 13</a></td>
             <td><a href="/photoshop/photoshop-advanced">23 &amp; 24</a></td>
             <td>&mdash;</td>
             <td><a href="/photoshop/photoshop-advanced">1 &amp; 2</a></td>
             <td><a href="/photoshop/photoshop-advanced">9 &amp; 10</a></td>
+            <td><a href="/photoshop/photoshop-advanced">10 &amp; 11</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/photoshop-lightroom-training-intro.html">Photoshop Lightroom</a></td>

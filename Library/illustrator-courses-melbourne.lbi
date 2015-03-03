@@ -3,19 +3,17 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th>
             <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/illustrator-lite.html">Illustrator Lite</a></td> 
-            <td><a href="/illustrator/illustrator-lite-melbourne">3</a><br>
-              <a href="/illustrator/illustrator-lite-melbourne">26</a></td>
             <td><a href="/illustrator/illustrator-lite-melbourne">16</a></td>
             <td><a href="/illustrator/illustrator-lite-melbourne">16</a></td>
             <td><a href="/illustrator/illustrator-lite-melbourne">4</a><br>
@@ -23,11 +21,10 @@
             <td><a href="/illustrator/illustrator-lite-melbourne">18</a></td>
             <td><a href="/illustrator/illustrator-lite-melbourne">2</a><br>
             <a href="/illustrator/illustrator-lite-melbourne">20</a></td>
+            <td><a href="/illustrator/illustrator-lite-melbourne">11</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/illustrator-training-intro.html">Illustrator Essentials</a></td> 
-            <td><a href="/illustrator/illustrator-essentials-melbourne">3 &amp; 4</a><br>
-              <a href="/illustrator/illustrator-essentials-melbourne">26 &amp; 27</a></td>
             <td><a href="/illustrator/illustrator-essentials-melbourne">16 &amp; 17</a></td>
             <td><a href="/illustrator/illustrator-essentials-melbourne">16 &amp; 17</a></td>
              <td><a href="/illustrator/illustrator-essentials-melbourne">4 &amp; 5</a><br>
@@ -35,15 +32,16 @@
             <td><a href="/illustrator/illustrator-essentials-melbourne">18 &amp; 19</a></td>
             <td><a href="/illustrator/illustrator-essentials-melbourne">2 &amp; 3</a><br>
             <a href="/illustrator/illustrator-essentials-melbourne">20 &amp; 21</a></td>
+            <td><a href="/illustrator/illustrator-essentials-melbourne">11 &amp; 12</a></td>
        </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/illustrator-training-advanced.html">Illustrator Advanced</a></td>
-            <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-advanced-melbourne">30 &amp; 31</a></td>
             <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-advanced-melbourne">19 &amp; 20</a></td>
             <td>&mdash;</td>
             <td><a href="/illustrator/illustrator-advanced-melbourne">9 &amp; 10</a></td>
+            <td><a href="/illustrator/illustrator-advanced-melbourne">3 &amp; 4<br>Sep</a></td>
         </tr>
     </tbody>    
  </table>  

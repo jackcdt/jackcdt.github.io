@@ -3,51 +3,51 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Feb</th> 
             <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/html-training-intro.html">HTML &amp; Web Principles</a></td> 
-            <td>&mdash;</td>
             <td><a href="/html-html5/html-web-principles-melbourne">12</a></td>
-            <td><a href="/html-html5/html-web-principles-melbourne">21</a></td>
+            <td><a href="/html-html5/html-web-principles-melbourne">22</a></td>
             <td><a href="/html-html5/html-web-principles-melbourne">8</a></td>
             <td><a href="/html-html5/html-web-principles-melbourne">1</a><br>
               <a href="/html-html5/html-web-principles-melbourne">23</a></td>
             <td><a href="/html-html5/html-web-principles-melbourne">13</a></td>
+            <td><a href="/html-html5/html-web-principles-melbourne">5</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/html-email-courses.html">HTML Email Newsletters</a></td> 
-            <td><a href="/html-html5/html-newsletters-melbourne">3</a></td>
             <td><a href="/html-html5/html-newsletters-melbourne">13</a></td>
             <td><a href="/html-html5/html-newsletters-melbourne">22</a></td>
             <td>&mdash;</td>
            <td><a href="/html-html5/html-newsletters-melbourne">2</a></td>
            <td><a href="/html-html5/html-newsletters-melbourne">14</a></td>
+            <td><a href="/html-html5/html-newsletters-melbourne">15 Sep</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/css-training.html">CSS Essentials</a></td>
-            <td><a href="/dreamweaver-css/css-essentials-melbourne">26 &amp; 27</a></td>
             <td>&mdash;</td>
-            <td><a href="/dreamweaver-css/css-essentials-melbourne">14 &amp; 15</a></td>
+            <td><a href="/dreamweaver-css/css-essentials-melbourne">27 &amp; 28</a></td>
             <td>&mdash;</td>
             <td><a href="/dreamweaver-css/css-essentials-melbourne">2 &amp; 3</a></td>
             <td><a href="/dreamweaver-css/css-essentials-melbourne">28 &amp; 29</a></td>
+            <td><a href="/dreamweaver-css/css-essentials-melbourne">17 &amp; 18<br>Sep</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/html5-css3-training.html">HTML5 &amp; CSS3</a></td> 
-            <td><a href="/html-html5/html5-css3-melbourne">9 &amp; 10</a></td>
             <td>&mdash;</td>
-            <td><a href="/html-html5/html5-css3-melbourne">27 &amp; 28</a></td>
             <td>&mdash;</td>
+            <td><a href="/html-html5/html5-css3-melbourne">19 &amp; 20</a></td>
             <td><a href="/html-html5/html5-css3-melbourne">18 &amp; 19</a></td>
             <td><a href="/html-html5/html5-css3-melbourne">30 &amp; 31</a></td>
+            <td><a href="/html-html5/html5-css3-melbourne">21 &amp; 22<br>Sep</a></td>
         </tr>
     </tbody>    
  </table>  

@@ -55,6 +55,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </li>
                                 <li><a href="/adobe-acrobat-courses.html">Adobe Acrobat</a>
                                 </li>
+                                <li><a href="/adobe-cc-cs6-new-features.html">Adobe CC/CS6 New Features</a>
+                                </li>
 
                                 <li class="second-row-list"><span class="course-group">Packages</span>
                                 </li>
@@ -149,13 +151,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     
                     </li>
 
-                    <li><a href="/training/training-course-packages.html">Deals</a>
+                    <li><a href="/training/training-course-packages.html">Specials</a>
                     </li>
 
-                    <li><a href="/training/custom-training.html">Custom Training</a> 
+                    <li><a href="/training/custom-training.html"><p class="two-line-menu">Custom</p><p>Training</p></a> 
                     </li> 
 
-                    <li><a href="/calendar.html">Course Dates</a>
+                    <li><a href="/calendar.html"><p class="two-line-menu">Course</p><p>Dates</p></a>
                     </li>
 
                     <li> <a href="/training/locations.html">Locations</a> 
@@ -178,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </li>
 
 
-                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Tips</span>
+                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Resources</span>
                     
                         <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
                             
@@ -198,7 +200,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     
                     </li>
-
+                    <li><div class="addthis_horizontal_follow_toolbox"></div></li>
                     <li class="pnone-number"> <a href="tel:1300441891">1300 441 891</a> </li>
 
                 </ul>
