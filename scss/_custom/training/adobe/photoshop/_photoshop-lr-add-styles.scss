@@ -49,6 +49,8 @@ $photoshop-lr-spacing: 40px;
 
         border: 1px solid #686F74;  
     }
-
+     .testimonials {
+        height: 102em;
+    }
     @include btn-shadow(darken($photoshop-color, 15%));
 }

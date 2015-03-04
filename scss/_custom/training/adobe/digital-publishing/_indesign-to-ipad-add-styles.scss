@@ -85,6 +85,8 @@ $indesign-to-ipad-spacing: 40px;
 
         @include package-training-logo; 
     }
-
+     .testimonials {
+        height: 81em;
+    }
     @include btn-shadow($digital-publishing-color);
 }

@@ -6474,7 +6474,7 @@ h4 {
   /* line 976, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > li > a,
   .flat-mega-menu > ul > li > .menu-item {
-    padding-right: 30px; } }
+    padding-right: 23px; } }
 /* Make changes to squize expanded menu on iPad */
 @media screen and (min-width: 768px) and (max-width: 830px) {
   /* line 984, ../scss/_custom/homepage/_megamenu.scss */

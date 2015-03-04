@@ -57,6 +57,8 @@ $acrobat-essentials-spacing: 40px;
         min-width: 65px;
         min-height: 84px; 
     }
-
+     .testimonials {
+        height: 53em;
+    }
     @include btn-shadow($acrobat-color);
 }
