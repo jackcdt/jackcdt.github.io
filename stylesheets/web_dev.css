@@ -5345,7 +5345,7 @@ html {
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .banner-row .banner-text .banner-sub-header, .training-checklist th, .training-checklist .training-checklist-header, .course-item .course-item-info,
-.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .dreamweaver-category .paragraph-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial-client-name, .dreamweaver-category .testimonials .category-testimonial-course-name, .dreamweaver-essentials-course .paragraph-header, .dreamweaver-essentials-course .testimonials .testimonials-title, .dreamweaver-essentials-course .testimonials .category-testimonial-client-name, .dreamweaver-essentials-course .testimonials .category-testimonial-course-name, .muse-essentials-course .paragraph-header, .muse-essentials-course .testimonials .testimonials-title, .muse-essentials-course .testimonials .category-testimonial-client-name, .muse-essentials-course .testimonials .category-testimonial-course-name, .wordpress-category .paragraph-header, .wordpress-category .testimonials .testimonials-title, .wordpress-category .testimonials .category-testimonial-client-name, .wordpress-category .testimonials .category-testimonial-course-name, .wordpress-essentials-course .paragraph-header, .wordpress-essentials-course .testimonials .testimonials-title, .wordpress-essentials-course .testimonials .category-testimonial-client-name, .wordpress-essentials-course .testimonials .category-testimonial-course-name, .wordpress-advanced-course .paragraph-header, .wordpress-advanced-course .testimonials .testimonials-title, .wordpress-advanced-course .testimonials .category-testimonial-client-name, .wordpress-advanced-course .testimonials .category-testimonial-course-name, .edge-animate-category .paragraph-header, .edge-animate-category .testimonials .testimonials-title, .edge-animate-category .testimonials .category-testimonial-client-name, .edge-animate-category .testimonials .category-testimonial-course-name, .edge-animate-essentials-course .paragraph-header, .edge-animate-essentials-course .testimonials .testimonials-title, .edge-animate-essentials-course .testimonials .category-testimonial-client-name, .edge-animate-essentials-course .testimonials .category-testimonial-course-name, .edge-animate-advanced-course .paragraph-header, .edge-animate-advanced-course .testimonials .testimonials-title, .edge-animate-advanced-course .testimonials .category-testimonial-client-name, .edge-animate-advanced-course .testimonials .category-testimonial-course-name {
+.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .dreamweaver-category .paragraph-header, .dreamweaver-category .testimonials .testimonials-title, .dreamweaver-category .testimonials .category-testimonial-client-name, .dreamweaver-category .testimonials .category-testimonial-course-name, .dreamweaver-category .testimonials .category-testimonial-client-name-up, .dreamweaver-category .testimonials .category-testimonial-course-name-up, .dreamweaver-essentials-course .paragraph-header, .dreamweaver-essentials-course .testimonials .testimonials-title, .dreamweaver-essentials-course .testimonials .category-testimonial-client-name, .dreamweaver-essentials-course .testimonials .category-testimonial-course-name, .dreamweaver-essentials-course .testimonials .category-testimonial-client-name-up, .dreamweaver-essentials-course .testimonials .category-testimonial-course-name-up, .muse-essentials-course .paragraph-header, .muse-essentials-course .testimonials .testimonials-title, .muse-essentials-course .testimonials .category-testimonial-client-name, .muse-essentials-course .testimonials .category-testimonial-course-name, .muse-essentials-course .testimonials .category-testimonial-client-name-up, .muse-essentials-course .testimonials .category-testimonial-course-name-up, .wordpress-category .paragraph-header, .wordpress-category .testimonials .testimonials-title, .wordpress-category .testimonials .category-testimonial-client-name, .wordpress-category .testimonials .category-testimonial-course-name, .wordpress-category .testimonials .category-testimonial-client-name-up, .wordpress-category .testimonials .category-testimonial-course-name-up, .wordpress-essentials-course .paragraph-header, .wordpress-essentials-course .testimonials .testimonials-title, .wordpress-essentials-course .testimonials .category-testimonial-client-name, .wordpress-essentials-course .testimonials .category-testimonial-course-name, .wordpress-essentials-course .testimonials .category-testimonial-client-name-up, .wordpress-essentials-course .testimonials .category-testimonial-course-name-up, .wordpress-advanced-course .paragraph-header, .wordpress-advanced-course .testimonials .testimonials-title, .wordpress-advanced-course .testimonials .category-testimonial-client-name, .wordpress-advanced-course .testimonials .category-testimonial-course-name, .wordpress-advanced-course .testimonials .category-testimonial-client-name-up, .wordpress-advanced-course .testimonials .category-testimonial-course-name-up, .edge-animate-category .paragraph-header, .edge-animate-category .testimonials .testimonials-title, .edge-animate-category .testimonials .category-testimonial-client-name, .edge-animate-category .testimonials .category-testimonial-course-name, .edge-animate-category .testimonials .category-testimonial-client-name-up, .edge-animate-category .testimonials .category-testimonial-course-name-up, .edge-animate-essentials-course .paragraph-header, .edge-animate-essentials-course .testimonials .testimonials-title, .edge-animate-essentials-course .testimonials .category-testimonial-client-name, .edge-animate-essentials-course .testimonials .category-testimonial-course-name, .edge-animate-essentials-course .testimonials .category-testimonial-client-name-up, .edge-animate-essentials-course .testimonials .category-testimonial-course-name-up, .edge-animate-advanced-course .paragraph-header, .edge-animate-advanced-course .testimonials .testimonials-title, .edge-animate-advanced-course .testimonials .category-testimonial-client-name, .edge-animate-advanced-course .testimonials .category-testimonial-course-name, .edge-animate-advanced-course .testimonials .category-testimonial-client-name-up, .edge-animate-advanced-course .testimonials .category-testimonial-course-name-up {
   font-weight: 500; }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
@@ -7725,16 +7725,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     color: #81D629;
     font-size: 15px;
     margin-bottom: 18px; }
-  /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+  .dreamweaver-category .testimonials .category-testimonial-client-name-up {
+    margin-bottom: 18px;
+    font-size: 15px; }
+  /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+  .dreamweaver-category .testimonials .category-testimonial-course-name-up {
+    color: #81D629;
+    font-size: 15px;
+    margin-top: 6px; }
+  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
   .dreamweaver-category .testimonials::-webkit-scrollbar {
     -webkit-appearance: none; }
-  /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 65, ../scss/_custom/components/training/_testimonials.scss */
   .dreamweaver-category .testimonials::-webkit-scrollbar:vertical {
     width: 5px; }
-  /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 69, ../scss/_custom/components/training/_testimonials.scss */
   .dreamweaver-category .testimonials::-webkit-scrollbar:horizontal {
     height: 5px; }
-  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 73, ../scss/_custom/components/training/_testimonials.scss */
   .dreamweaver-category .testimonials::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(140, 140, 140, 0.5); }
@@ -7845,16 +7854,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #81D629;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .dreamweaver-essentials-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .dreamweaver-essentials-course .testimonials .category-testimonial-course-name-up {
+      color: #81D629;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .dreamweaver-essentials-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .dreamweaver-essentials-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .dreamweaver-essentials-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .dreamweaver-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -7939,16 +7957,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #96be4a;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .muse-essentials-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .muse-essentials-course .testimonials .category-testimonial-course-name-up {
+      color: #96be4a;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .muse-essentials-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .muse-essentials-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .muse-essentials-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .muse-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8031,16 +8058,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     color: #1e8a9a;
     font-size: 15px;
     margin-bottom: 18px; }
-  /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+  .wordpress-category .testimonials .category-testimonial-client-name-up {
+    margin-bottom: 18px;
+    font-size: 15px; }
+  /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+  .wordpress-category .testimonials .category-testimonial-course-name-up {
+    color: #1e8a9a;
+    font-size: 15px;
+    margin-top: 6px; }
+  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
   .wordpress-category .testimonials::-webkit-scrollbar {
     -webkit-appearance: none; }
-  /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 65, ../scss/_custom/components/training/_testimonials.scss */
   .wordpress-category .testimonials::-webkit-scrollbar:vertical {
     width: 5px; }
-  /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 69, ../scss/_custom/components/training/_testimonials.scss */
   .wordpress-category .testimonials::-webkit-scrollbar:horizontal {
     height: 5px; }
-  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 73, ../scss/_custom/components/training/_testimonials.scss */
   .wordpress-category .testimonials::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(140, 140, 140, 0.5); }
@@ -8159,16 +8195,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #1e8a9a;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .wordpress-essentials-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .wordpress-essentials-course .testimonials .category-testimonial-course-name-up {
+      color: #1e8a9a;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-essentials-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-essentials-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-essentials-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8253,16 +8298,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #1e8a9a;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .wordpress-advanced-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .wordpress-advanced-course .testimonials .category-testimonial-course-name-up {
+      color: #1e8a9a;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-advanced-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-advanced-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-advanced-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .wordpress-advanced-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8345,16 +8399,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     color: #9d8bff;
     font-size: 15px;
     margin-bottom: 18px; }
-  /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+  .edge-animate-category .testimonials .category-testimonial-client-name-up {
+    margin-bottom: 18px;
+    font-size: 15px; }
+  /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+  .edge-animate-category .testimonials .category-testimonial-course-name-up {
+    color: #9d8bff;
+    font-size: 15px;
+    margin-top: 6px; }
+  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
   .edge-animate-category .testimonials::-webkit-scrollbar {
     -webkit-appearance: none; }
-  /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 65, ../scss/_custom/components/training/_testimonials.scss */
   .edge-animate-category .testimonials::-webkit-scrollbar:vertical {
     width: 5px; }
-  /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 69, ../scss/_custom/components/training/_testimonials.scss */
   .edge-animate-category .testimonials::-webkit-scrollbar:horizontal {
     height: 5px; }
-  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 73, ../scss/_custom/components/training/_testimonials.scss */
   .edge-animate-category .testimonials::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(140, 140, 140, 0.5); }
@@ -8453,16 +8516,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #9d8bff;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .edge-animate-essentials-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .edge-animate-essentials-course .testimonials .category-testimonial-course-name-up {
+      color: #9d8bff;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-essentials-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-essentials-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-essentials-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8547,16 +8619,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #9d8bff;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .edge-animate-advanced-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .edge-animate-advanced-course .testimonials .category-testimonial-course-name-up {
+      color: #9d8bff;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-advanced-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-advanced-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-advanced-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .edge-animate-advanced-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
