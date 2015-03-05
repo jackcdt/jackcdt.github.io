@@ -45,6 +45,18 @@
         font-size: 15px;
         margin-bottom: 18px;
     }
+    .category-testimonial-client-name-up {
+        margin-bottom: 18px;
+        @extend %t-emphasize;
+        font-size: 15px;
+    }
+
+    .category-testimonial-course-name-up {
+        color: $color;
+        @extend %t-emphasize;
+        font-size: 15px;
+        margin-top: 6px;
+    }
      
     &::-webkit-scrollbar {
         -webkit-appearance: none;

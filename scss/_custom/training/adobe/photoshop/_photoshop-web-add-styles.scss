@@ -67,6 +67,8 @@ $photoshop-web-spacing: 40px;
         min-width: 50px;
         min-height: 50px;    
     }
-
+     .testimonials {
+        height: 56em;
+    }
     @include btn-shadow(darken($photoshop-color, 15%));
 }

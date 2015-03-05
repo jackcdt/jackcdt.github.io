@@ -100,6 +100,8 @@ $dreamweaver-essentials-spacing: 40px;
 
         @include package-training-logo; 
     }
-
+     .testimonials {
+        height: 89em;
+    }
     @include btn-shadow(darken($dreamweaver-color, 10%));
 }

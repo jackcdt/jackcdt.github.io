@@ -76,6 +76,8 @@ $photoshop-lite-spacing: 40px;
 
         @include package-training-logo; 
     }
-
+     .testimonials {
+        height: 40em;
+    }
     @include btn-shadow(darken($photoshop-color, 15%));
 }

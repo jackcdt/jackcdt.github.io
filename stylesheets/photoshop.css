@@ -5345,7 +5345,7 @@ html {
 
 /* line 39, ../scss/_custom/_custom-fonts.scss */
 .custom-breadcrumbs, .banner-row .banner-text .banner-sub-header, .training-checklist th, .training-checklist .training-checklist-header, .course-item .course-item-info,
-.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .photoshop-category .paragraph-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial-client-name, .photoshop-category .testimonials .category-testimonial-course-name, .photoshop-essentials-course .paragraph-header, .photoshop-essentials-course .testimonials .testimonials-title, .photoshop-essentials-course .testimonials .category-testimonial-client-name, .photoshop-essentials-course .testimonials .category-testimonial-course-name, .photoshop-advanced-course .paragraph-header, .photoshop-advanced-course .testimonials .testimonials-title, .photoshop-advanced-course .testimonials .category-testimonial-client-name, .photoshop-advanced-course .testimonials .category-testimonial-course-name, .photoshop-lite-course .paragraph-header, .photoshop-lite-course .testimonials .testimonials-title, .photoshop-lite-course .testimonials .category-testimonial-client-name, .photoshop-lite-course .testimonials .category-testimonial-course-name, .photoshop-web-course .paragraph-header, .photoshop-web-course .testimonials .testimonials-title, .photoshop-web-course .testimonials .category-testimonial-client-name, .photoshop-web-course .testimonials .category-testimonial-course-name, .photoshop-lr-course .paragraph-header, .photoshop-lr-course .testimonials .testimonials-title, .photoshop-lr-course .testimonials .category-testimonial-client-name, .photoshop-lr-course .testimonials .category-testimonial-course-name {
+.course-item .course-book-now, .course-outline .sw-ver, .course-outline .paragraph-header-def-color, .course-outline .course-outline-block h3, .course-outline .course-length, .category-page .sw-ver, .photoshop-category .paragraph-header, .photoshop-category .testimonials .testimonials-title, .photoshop-category .testimonials .category-testimonial-client-name, .photoshop-category .testimonials .category-testimonial-course-name, .photoshop-category .testimonials .category-testimonial-client-name-up, .photoshop-category .testimonials .category-testimonial-course-name-up, .photoshop-essentials-course .paragraph-header, .photoshop-essentials-course .testimonials .testimonials-title, .photoshop-essentials-course .testimonials .category-testimonial-client-name, .photoshop-essentials-course .testimonials .category-testimonial-course-name, .photoshop-essentials-course .testimonials .category-testimonial-client-name-up, .photoshop-essentials-course .testimonials .category-testimonial-course-name-up, .photoshop-advanced-course .paragraph-header, .photoshop-advanced-course .testimonials .testimonials-title, .photoshop-advanced-course .testimonials .category-testimonial-client-name, .photoshop-advanced-course .testimonials .category-testimonial-course-name, .photoshop-advanced-course .testimonials .category-testimonial-client-name-up, .photoshop-advanced-course .testimonials .category-testimonial-course-name-up, .photoshop-lite-course .paragraph-header, .photoshop-lite-course .testimonials .testimonials-title, .photoshop-lite-course .testimonials .category-testimonial-client-name, .photoshop-lite-course .testimonials .category-testimonial-course-name, .photoshop-lite-course .testimonials .category-testimonial-client-name-up, .photoshop-lite-course .testimonials .category-testimonial-course-name-up, .photoshop-web-course .paragraph-header, .photoshop-web-course .testimonials .testimonials-title, .photoshop-web-course .testimonials .category-testimonial-client-name, .photoshop-web-course .testimonials .category-testimonial-course-name, .photoshop-web-course .testimonials .category-testimonial-client-name-up, .photoshop-web-course .testimonials .category-testimonial-course-name-up, .photoshop-lr-course .paragraph-header, .photoshop-lr-course .testimonials .testimonials-title, .photoshop-lr-course .testimonials .category-testimonial-client-name, .photoshop-lr-course .testimonials .category-testimonial-course-name, .photoshop-lr-course .testimonials .category-testimonial-client-name-up, .photoshop-lr-course .testimonials .category-testimonial-course-name-up {
   font-weight: 500; }
 
 /* line 42, ../scss/_custom/_custom-fonts.scss */
@@ -6466,7 +6466,7 @@ h4 {
   /* line 976, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > li > a,
   .flat-mega-menu > ul > li > .menu-item {
-    padding-right: 30px; } }
+    padding-right: 23px; } }
 /* Make changes to squize expanded menu on iPad */
 @media screen and (min-width: 768px) and (max-width: 830px) {
   /* line 984, ../scss/_custom/homepage/_megamenu.scss */
@@ -7725,16 +7725,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     color: #79bdfe;
     font-size: 15px;
     margin-bottom: 18px; }
-  /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+  .photoshop-category .testimonials .category-testimonial-client-name-up {
+    margin-bottom: 18px;
+    font-size: 15px; }
+  /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+  .photoshop-category .testimonials .category-testimonial-course-name-up {
+    color: #79bdfe;
+    font-size: 15px;
+    margin-top: 6px; }
+  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
   .photoshop-category .testimonials::-webkit-scrollbar {
     -webkit-appearance: none; }
-  /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 65, ../scss/_custom/components/training/_testimonials.scss */
   .photoshop-category .testimonials::-webkit-scrollbar:vertical {
     width: 5px; }
-  /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 69, ../scss/_custom/components/training/_testimonials.scss */
   .photoshop-category .testimonials::-webkit-scrollbar:horizontal {
     height: 5px; }
-  /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+  /* line 73, ../scss/_custom/components/training/_testimonials.scss */
   .photoshop-category .testimonials::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(140, 140, 140, 0.5); }
@@ -7834,16 +7843,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #79bdfe;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-essentials-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-essentials-course .testimonials .category-testimonial-course-name-up {
+      color: #79bdfe;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-essentials-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-essentials-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-essentials-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-essentials-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -7928,16 +7946,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #79bdfe;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-advanced-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-advanced-course .testimonials .category-testimonial-course-name-up {
+      color: #79bdfe;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-advanced-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-advanced-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-advanced-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-advanced-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8022,16 +8049,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #79bdfe;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-lite-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-lite-course .testimonials .category-testimonial-course-name-up {
+      color: #79bdfe;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lite-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lite-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lite-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lite-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8116,16 +8152,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #79bdfe;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-web-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-web-course .testimonials .category-testimonial-course-name-up {
+      color: #79bdfe;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-web-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-web-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-web-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-web-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }
@@ -8210,16 +8255,25 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       color: #79bdfe;
       font-size: 15px;
       margin-bottom: 18px; }
-    /* line 49, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 48, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-lr-course .testimonials .category-testimonial-client-name-up {
+      margin-bottom: 18px;
+      font-size: 15px; }
+    /* line 54, ../scss/_custom/components/training/_testimonials.scss */
+    .photoshop-lr-course .testimonials .category-testimonial-course-name-up {
+      color: #79bdfe;
+      font-size: 15px;
+      margin-top: 6px; }
+    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lr-course .testimonials::-webkit-scrollbar {
       -webkit-appearance: none; }
-    /* line 53, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 65, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lr-course .testimonials::-webkit-scrollbar:vertical {
       width: 5px; }
-    /* line 57, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 69, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lr-course .testimonials::-webkit-scrollbar:horizontal {
       height: 5px; }
-    /* line 61, ../scss/_custom/components/training/_testimonials.scss */
+    /* line 73, ../scss/_custom/components/training/_testimonials.scss */
     .photoshop-lr-course .testimonials::-webkit-scrollbar-thumb {
       border-radius: 8px;
       background-color: rgba(140, 140, 140, 0.5); }

@@ -921,6 +921,9 @@ body {
 /* line 94, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
 .indesign-essentials-course .related-course-logo {
   margin-left: 15px; }
+/* line 97, ../scss/_custom/training/adobe/indesign/_indesign-essentials-add-styles.scss */
+.indesign-essentials-course .testimonials {
+  height: 130em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1122,6 +1125,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 103, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
+.indesign-advanced-course .testimonials {
+  height: 97em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1293,6 +1299,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 86, ../scss/_custom/training/adobe/indesign/_indesign-lite-add-styles.scss */
+.indesign-lite-course .testimonials {
+  height: 81em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-lite-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1418,6 +1427,9 @@ body {
   margin-left: 9px;
   min-width: 65px;
   min-height: 63px; }
+/* line 62, ../scss/_custom/training/adobe/indesign/_indesign-long-docs-add-styles.scss */
+.indesign-long-docs-course .testimonials {
+  height: 85em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-long-docs-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1558,6 +1570,9 @@ body {
   margin-left: 15px;
   min-width: 67px;
   min-height: 64px; }
+/* line 71, ../scss/_custom/training/adobe/indesign/_indesign-interactivity-add-styles.scss */
+.indesign-interactivity-course .testimonials {
+  height: 37em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-interactivity-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1884,6 +1899,9 @@ body {
   background-position: 0 50.04566%;
   min-width: 47px;
   min-height: 45px; }
+/* line 114, ../scss/_custom/training/adobe/photoshop/_photoshop-category-add-styles.scss */
+.photoshop-category .testimonials {
+  height: 38em; }
 
 /* line 104, training/adobe/photoshop/photoshop-essentials/*.png */
 .photoshop-essentials-sprite, .photoshop-essentials-course .ps-essentials-framed, .photoshop-essentials-course .course-classrom, .photoshop-essentials-course .pdf, .photoshop-essentials-course .course-custom-training-logo, .photoshop-essentials-course .ps-advanced, .photoshop-essentials-course .ps-essentials, .photoshop-essentials-course .id-essentials, .photoshop-essentials-course .il-ess {
@@ -2022,6 +2040,9 @@ body {
 .photoshop-essentials-course .id-essentials-related,
 .photoshop-essentials-course .il-ess-related {
   margin-left: 15px; }
+/* line 92, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
+.photoshop-essentials-course .testimonials {
+  height: 90em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2132,6 +2153,9 @@ body {
   margin-top: 18px !important;
   min-width: 73px;
   min-height: 70px; }
+/* line 54, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
+.photoshop-advanced-course .testimonials {
+  height: 71em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2286,6 +2310,9 @@ body {
   margin: -5px 0 0 20px;
   min-width: 45px;
   min-height: 46px; }
+/* line 79, ../scss/_custom/training/adobe/photoshop/_photoshop-lite-add-styles.scss */
+.photoshop-lite-course .testimonials {
+  height: 40em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-lite-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2425,6 +2452,9 @@ body {
   margin-left: 21px;
   min-width: 50px;
   min-height: 50px; }
+/* line 70, ../scss/_custom/training/adobe/photoshop/_photoshop-web-add-styles.scss */
+.photoshop-web-course .testimonials {
+  height: 56em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-web-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2534,6 +2564,9 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 42.10526%; } }
+/* line 52, ../scss/_custom/training/adobe/photoshop/_photoshop-lr-add-styles.scss */
+.photoshop-lr-course .testimonials {
+  height: 102em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-lr-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2857,6 +2890,9 @@ body {
   float: right;
   margin-right: -15px;
   margin-top: -17px; }
+/* line 97, ../scss/_custom/training/adobe/illustrator/_illustrator-essentials-add-styles.scss */
+.illustrator-essentials-course .testimonials {
+  height: 82em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -3029,6 +3065,9 @@ body {
   float: right;
   margin-right: -15px;
   margin-top: -17px; }
+/* line 87, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
+.illustrator-lite-course .testimonials {
+  height: 56em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-lite-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -3139,6 +3178,9 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 40.21164%; } }
+/* line 53, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
+.illustrator-advanced-course .testimonials {
+  height: 34em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -3526,6 +3568,9 @@ body {
   margin-left: 12px;
   min-width: 65px;
   min-height: 84px; }
+/* line 60, ../scss/_custom/training/adobe/acrobat/_acrobat-essentials-add-styles.scss */
+.acrobat-essentials-course .testimonials {
+  height: 53em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .acrobat-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefe;
@@ -3838,6 +3883,9 @@ body {
   margin: -4px 15px 12px 15px;
   min-width: 38px;
   min-height: 38px; }
+/* line 93, ../scss/_custom/training/adobe/digital-publishing/_digital-publishing-category-add-styles.scss */
+.digital-publishing-category .testimonials {
+  height: 60em; }
 
 /* line 104, training/adobe/digital-publishing/indesign-to-ipad/*.png */
 .indesign-to-ipad-sprite, .indesign-to-ipad-course .id-ipad, .indesign-to-ipad-course .course-classrom, .indesign-to-ipad-course .pdf, .indesign-to-ipad-course .course-custom-training-logo, .indesign-to-ipad-course .id-dps-pro, .indesign-to-ipad-course .id-dps-single, .indesign-to-ipad-course .dps-package, .indesign-to-ipad-course .eg-essentials, .dps-single-app-course .dps-package, .dps-single-app-course .eg-essentials {
@@ -3973,6 +4021,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 88, ../scss/_custom/training/adobe/digital-publishing/_indesign-to-ipad-add-styles.scss */
+.indesign-to-ipad-course .testimonials {
+  height: 81em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-to-ipad-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -4281,6 +4332,9 @@ body {
   margin-left: 15px;
   min-width: 65px;
   min-height: 63px; }
+/* line 68, ../scss/_custom/training/adobe/digital-publishing/_dps-pro-app-add-styles.scss */
+.dps-pro-app-course .testimonials {
+  height: 62em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .dps-pro-app-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -4685,6 +4739,9 @@ body {
   margin-left: 15px;
   min-width: 45px;
   min-height: 71px; }
+/* line 77, ../scss/_custom/training/adobe/flash/_flash-essentials-add-styles.scss */
+.flash-essentials-course .testimonials {
+  height: 90em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .flash-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -4825,6 +4882,9 @@ body {
   margin-left: 20px;
   min-width: 48px;
   min-height: 61px; }
+/* line 69, ../scss/_custom/training/adobe/flash/_flash-web-banners-add-styles.scss */
+.flash-web-banners-course .testimonials {
+  height: auto; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .flash-web-banners-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -4964,6 +5024,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 68, ../scss/_custom/training/adobe/flash/_flash-actionscript-add-styles.scss */
+.flash-actionscript-course .testimonials {
+  height: 68em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .flash-actionscript-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -5299,6 +5362,9 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
+/* line 103, ../scss/_custom/training/web-design-development/html-css/_html-web-principles-add-styles.scss */
+.html-web-principles-course .testimonials {
+  height: 88em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .html-web-principles-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
@@ -5498,6 +5564,9 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
+/* line 103, ../scss/_custom/training/web-design-development/html-css/_css-essentials-add-styles.scss */
+.css-essentials-course .testimonials {
+  height: 86em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .css-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
@@ -5638,6 +5707,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 69, ../scss/_custom/training/web-design-development/html-css/_html-responsive-add-styles.scss */
+.html-responsive-course .testimonials {
+  height: 40em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .html-responsive-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
@@ -5777,6 +5849,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 68, ../scss/_custom/training/web-design-development/html-css/_html5-css3-add-styles.scss */
+.html5-css3-course .testimonials {
+  height: 93em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .html5-css3-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #75bdf9;
@@ -5959,6 +6034,9 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
+/* line 91, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-category-add-styles.scss */
+.dreamweaver-category .testimonials {
+  height: 48em; }
 
 /* line 120, training/web-design-development/dreamweaver/dreamweaver-essentials/*.png */
 .dreamweaver-essentials-sprite, .dreamweaver-essentials-course .dw-essentials-framed, .dreamweaver-essentials-course .course-classrom, .dreamweaver-essentials-course .pdf, .dreamweaver-essentials-course .course-custom-training-logo, .dreamweaver-essentials-course .html5css, .dreamweaver-essentials-course .html-css, .dreamweaver-essentials-course .html-ess, .dreamweaver-essentials-course .css3-package, .dreamweaver-essentials-course .dreamweaver-package, .dreamweaver-essentials-course .html5-package {
@@ -6126,6 +6204,9 @@ body {
   margin: -8px 15px 15px 15px;
   min-width: 27px;
   min-height: 42px; }
+/* line 103, ../scss/_custom/training/web-design-development/dreamweaver/_dreamweaver-essentials-add-styles.scss */
+.dreamweaver-essentials-course .testimonials {
+  height: 89em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .dreamweaver-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #e6f7d4;
@@ -6265,6 +6346,9 @@ body {
   margin-left: 22px;
   min-width: 50px;
   min-height: 50px; }
+/* line 67, ../scss/_custom/training/web-design-development/dreamweaver/_muse-essentials-add-styles.scss */
+.muse-essentials-course .testimonials {
+  height: 89em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .muse-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -6508,6 +6592,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 77, ../scss/_custom/training/web-design-development/wordpress/_wordpress-essentials-add-styles.scss */
+.wordpress-essentials-course .testimonials {
+  height: 50em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .wordpress-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #c4edf3;
@@ -6664,6 +6751,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 78, ../scss/_custom/training/web-design-development/wordpress/_wordpress-advanced-add-styles.scss */
+.wordpress-advanced-course .testimonials {
+  height: 40em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .wordpress-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #c4edf3;
@@ -6863,6 +6953,9 @@ body {
   margin-left: 23px;
   min-width: 50px;
   min-height: 50px; }
+/* line 60, ../scss/_custom/training/web-design-development/javascript-jquery/_javascript-essentials-add-styles.scss */
+.javascript-essentials-course .testimonials {
+  height: 89em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .javascript-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #e9eaeb;
@@ -6987,6 +7080,9 @@ body {
   margin-left: 20px;
   min-width: 50px;
   min-height: 50px; }
+/* line 60, ../scss/_custom/training/web-design-development/javascript-jquery/_jquery-essentials-add-styles.scss */
+.jquery-essentials-course .testimonials {
+  height: 41em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .jquery-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #e9eaeb;
@@ -7583,6 +7679,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 88, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
+.after-effects-essentials-course .testimonials {
+  height: 99em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -7744,6 +7843,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 84, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .testimonials {
+  height: 76em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -7886,6 +7988,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 70, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .testimonials {
+  height: 37em; }
 
 /* line 104, training/video-editing/premiere-pro/premiere-pro-essentials/*.png */
 .premiere-pro-essentials-sprite, .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .course-custom-training-logo, .premiere-pro-essentials-course .pr-advanced, .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .pr-essentials, .premiere-pro-essentials-course .ps-essentials {
@@ -8029,6 +8134,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 91, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+.premiere-pro-essentials-course .testimonials {
+  height: 98em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .premiere-pro-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -8190,6 +8298,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 84, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
+.premiere-pro-advanced-course .testimonials {
+  height: 75em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .premiere-pro-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -8314,6 +8425,9 @@ body {
   margin-left: 15px;
   min-width: 65px;
   min-height: 63px; }
+/* line 60, ../scss/_custom/training/video-editing/premiere-pro/_premiere-elements-add-styles.scss */
+.premiere-elements-course .testimonials {
+  height: 71em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .premiere-elements-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -8437,6 +8551,9 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 25.41806%; } }
+/* line 57, ../scss/_custom/training/video-editing/finalcut-pro/_finalcut-pro-add-styles.scss */
+.finalcut-pro-course .testimonials {
+  height: 63em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .finalcut-pro-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #c7d5e9;
@@ -8690,6 +8807,9 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
+/* line 70, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .testimonials {
+  height: 32em; }
 
 /* line 80, training/captivate/captivate-essentials/*.png */
 .captivate-essentials-sprite, .captivate-essentials-course .cp-ess, .captivate-essentials-course .course-classrom, .captivate-essentials-course .pdf, .captivate-essentials-course .course-custom-training-logo, .captivate-essentials-course .cp-adv {
@@ -8782,6 +8902,9 @@ body {
   margin-left: 8px;
   min-width: 63px;
   min-height: 63px; }
+/* line 60, ../scss/_custom/training/captivate/_captivate-essentials-add-styles.scss */
+.captivate-essentials-course .testimonials {
+  height: 93em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .captivate-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -8907,6 +9030,9 @@ body {
   margin-left: 23px;
   min-width: 50px;
   min-height: 50px; }
+/* line 61, ../scss/_custom/training/captivate/_captivate-advanced-add-styles.scss */
+.captivate-advanced-course .testimonials {
+  height: 59em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .captivate-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -9543,6 +9669,9 @@ body {
   float: right;
   margin-right: -15px;
   margin-top: -17px; }
+/* line 97, ../scss/_custom/training/adobe/cc-cs6/_cc-new-features-add-styles.scss */
+.cc-new-features .testimonials {
+  height: 80em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .cc-new-features .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fa9297;

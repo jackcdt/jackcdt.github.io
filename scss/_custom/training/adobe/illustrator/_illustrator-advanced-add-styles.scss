@@ -50,6 +50,8 @@ $illustrator-advanced-spacing: 40px;
 
         border: 1px solid #686F74; 
     }
-
+     .testimonials {
+        height: 34em;
+    }
     @include btn-shadow($illustrator-color);
 }

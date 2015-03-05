@@ -65,6 +65,8 @@ $dps-pro-app-spacing: 40px;
         min-width: 65px;
         min-height: 63px; 
     }
-
+     .testimonials {
+        height: 62em;
+    }
     @include btn-shadow($digital-publishing-color);
 }

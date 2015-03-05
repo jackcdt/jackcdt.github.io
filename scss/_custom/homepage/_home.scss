@@ -67,7 +67,11 @@
 				margin-top: 2px !important;
 			}
 		}
-
+        p.icn-pdn {
+            @media #{$small-only} {
+                padding: 45px 0 10px 0px;
+			}	
+        }
 		h3 {
 				font-size: 0.90em;
 				font-family: Raleway;
@@ -81,6 +85,7 @@
 			}
 			@media #{$small-only} {
 				line-height: 2.4em;
+                padding-left: 15px;
 			}	
 
 			}

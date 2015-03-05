@@ -57,6 +57,8 @@ $premiere-elements-spacing: 40px;
         min-width: 65px;
         min-height: 63px; 
     }
-
+    .testimonials {
+        height: 71em;
+    }
     @include btn-shadow(darken($premiere-pro-color, 10%));
 }

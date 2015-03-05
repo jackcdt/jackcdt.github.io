@@ -88,6 +88,8 @@ $premiere-pro-essentials-spacing: 40px;
         min-width: 36px;
         min-height: 36px;
     }   
-
+    .testimonials {
+        height: 98em;
+    }
     @include btn-shadow(darken($premiere-pro-color, 10%));
 }

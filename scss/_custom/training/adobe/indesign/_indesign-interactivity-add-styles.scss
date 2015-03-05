@@ -68,6 +68,9 @@ $indesign-interactivity-spacing: 40px;
         min-width: 67px;
         min-height: 64px;   
     }
+     .testimonials {
+        height: 37em;
+    }
 
     @include btn-shadow($indesign-color);
 }

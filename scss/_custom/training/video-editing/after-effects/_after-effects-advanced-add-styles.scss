@@ -81,6 +81,8 @@ $after-effects-advanced-spacing: 40px;
         min-width: 36px;
         min-height: 36px;
     }   
-
+    .testimonials {
+        height: 76em;
+    }
     @include btn-shadow(darken($after-effects-color, 10%));
 }

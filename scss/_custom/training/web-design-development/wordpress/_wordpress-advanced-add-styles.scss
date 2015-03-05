@@ -75,6 +75,8 @@ $wordpress-advanced-spacing: 40px;
         min-width: 50px;
         min-height: 50px; 
     }
-
+    .testimonials {
+        height: 40em;
+    }
     @include btn-shadow($wordpress-color);
 }

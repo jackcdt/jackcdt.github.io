@@ -65,6 +65,8 @@ $flash-actionscript-spacing: 40px;
         min-width: 50px;
         min-height: 50px;    
     }
-
+    .testimonials {
+        height: 68em;
+    }
     @include btn-shadow($flash-color);
 }

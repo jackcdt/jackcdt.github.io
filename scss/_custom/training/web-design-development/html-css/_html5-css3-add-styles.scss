@@ -65,6 +65,8 @@ $html5-css3-spacing: 40px;
         min-width: 50px;
         min-height: 50px;    
     }
-
+     .testimonials {
+        height: 93em;
+    }
     @include btn-shadow($html-css-color);
 }
