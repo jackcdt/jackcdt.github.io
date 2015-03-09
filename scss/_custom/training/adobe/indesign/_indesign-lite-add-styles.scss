@@ -83,6 +83,9 @@ $indesign-lite-spacing: 40px;
         min-width: 50px;
         min-height: 50px;    
     }
+     .testimonials {
+        height: 81em;
+    }
 
     @include btn-shadow($indesign-color);
 }

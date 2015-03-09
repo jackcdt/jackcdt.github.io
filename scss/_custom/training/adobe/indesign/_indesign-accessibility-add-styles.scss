@@ -50,6 +50,8 @@ $indesign-accessibility-spacing: 40px;
         min-width: 98px;
         min-height: 63px; 
     }
-
+     .testimonials {
+        height: 48em;
+    }
     @include btn-shadow($indesign-color);
 }

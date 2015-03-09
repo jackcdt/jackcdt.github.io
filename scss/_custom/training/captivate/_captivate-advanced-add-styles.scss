@@ -58,6 +58,8 @@ $captivate-advanced-spacing: 40px;
         min-width: 50px;
         min-height: 50px; 
     }
-
+    .testimonials {
+        height: 59em;
+    }
     @include btn-shadow($captivate-color);
 }

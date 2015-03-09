@@ -94,6 +94,9 @@ $indesign-ess-spacing: 40px;
     .related-course-logo {
         margin-left: 15px;
     }
+     .testimonials {
+        height: 130em;
+    }
 
     @include btn-shadow($indesign-color);
 }

@@ -94,6 +94,8 @@ $cc-new-features-spacing: 40px;
         margin-right: -15px;
         margin-top: -17px;
     }
-
+     .testimonials {
+        height: 80em;
+    }
     @include btn-shadow($cc-new-features-color);
 }

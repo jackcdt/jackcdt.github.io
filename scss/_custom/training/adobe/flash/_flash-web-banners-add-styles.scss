@@ -66,6 +66,8 @@ $flash-web-banners-spacing: 40px;
         min-width: 48px;
         min-height: 61px;    
     }
-
+     .testimonials {
+        height: auto;
+    }
     @include btn-shadow($flash-color);
 }

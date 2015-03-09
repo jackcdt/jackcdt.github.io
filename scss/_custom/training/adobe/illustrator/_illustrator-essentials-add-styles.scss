@@ -94,6 +94,8 @@ $illustrator-essentials-spacing: 40px;
         margin-right: -15px;
         margin-top: -17px;
     }
-
+     .testimonials {
+        height: 82em;
+    }
     @include btn-shadow($illustrator-color);
 }

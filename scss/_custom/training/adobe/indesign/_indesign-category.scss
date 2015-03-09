@@ -11,7 +11,9 @@
             width: 440px;
         }
     }
-
+    .testimonials {
+        height: 30em;
+    }
     .tight-header-2 {
         @media #{$medium-up} {
             width: 283px;

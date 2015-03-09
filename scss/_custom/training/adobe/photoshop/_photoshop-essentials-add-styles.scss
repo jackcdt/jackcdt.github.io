@@ -89,7 +89,9 @@ $photoshop-essentials-spacing: 40px;
     .il-ess-related {
         margin-left: 15px;
     }
-
+     .testimonials {
+        height: 90em;
+    }
 
     @include btn-shadow(darken($photoshop-color, 15%));
 }

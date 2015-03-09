@@ -57,6 +57,8 @@ $captivate-essentials-spacing: 40px;
         min-width: 63px;
         min-height: 63px;
     }
-
+    .testimonials {
+        height: 93em;
+    }
     @include btn-shadow($captivate-color);
 }

@@ -6466,7 +6466,7 @@ h4 {
   /* line 976, ../scss/_custom/homepage/_megamenu.scss */
   .flat-mega-menu > ul > li > a,
   .flat-mega-menu > ul > li > .menu-item {
-    padding-right: 30px; } }
+    padding-right: 23px; } }
 /* Make changes to squize expanded menu on iPad */
 @media screen and (min-width: 768px) and (max-width: 830px) {
   /* line 984, ../scss/_custom/homepage/_megamenu.scss */
@@ -6807,33 +6807,53 @@ body > div.mega-menu > div > div > ul > li > a > p {
     /* line 105, ../scss/_custom/header/_header.scss */
     body > div.mega-menu > div > div > ul > li > a > p {
       text-align: center; } }
+  @media screen and (min-width: 768px) and (max-width: 865px) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      font-size: 11px !important; } }
+  @media screen and (min-width: 642px) and (max-width: 767px) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      text-align: left !important; } }
 
-/* line 114, ../scss/_custom/header/_header.scss */
+/* line 121, ../scss/_custom/header/_header.scss */
 body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
   padding-top: 6px !important;
   color: #FFFFFF !important; }
   @media only screen and (min-width: 40.063em) {
-    /* line 114, ../scss/_custom/header/_header.scss */
+    /* line 121, ../scss/_custom/header/_header.scss */
     body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       text-align: center; } }
+  @media screen and (min-width: 768px) and (max-width: 865px) {
+    /* line 121, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      font-size: 11px !important; } }
+  @media screen and (min-width: 642px) and (max-width: 767px) {
+    /* line 121, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      text-align: left !important; } }
 
-/* line 122, ../scss/_custom/header/_header.scss */
+/* line 135, ../scss/_custom/header/_header.scss */
 .addthis_horizontal_follow_toolbox {
   padding-top: 10px !important; }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 30px 80px 0 80px; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 30px 35px 0 35px; } }
 @media only screen and (max-width: 40em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 15px; } }
 
+@media screen and (min-width: 768px) and (max-width: 880px) {
+  /* line 157, ../scss/_custom/header/_header.scss */
+  .flat-mega-menu .pnone-number a {
+    font-size: 11px !important; } }
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
   height: 120px;
@@ -7821,50 +7841,55 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
     color: gray;
     font-family: Raleway;
     margin-top: 2px !important; }
-/* line 71, ../scss/_custom/homepage/_home.scss */
+@media only screen and (max-width: 40em) {
+  /* line 70, ../scss/_custom/homepage/_home.scss */
+  .accordion-home .accordion-navigation p.icn-pdn {
+    padding: 45px 0 10px 0px; } }
+/* line 75, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3 {
   font-size: 0.90em;
   font-family: Raleway;
   font-weight: 400;
   padding-left: 10px; }
   @media only screen and (min-width: 64.063em) {
-    /* line 71, ../scss/_custom/homepage/_home.scss */
+    /* line 75, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 2.8em; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    /* line 71, ../scss/_custom/homepage/_home.scss */
+    /* line 75, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
       line-height: 3em; } }
   @media only screen and (max-width: 40em) {
-    /* line 71, ../scss/_custom/homepage/_home.scss */
+    /* line 75, ../scss/_custom/homepage/_home.scss */
     .accordion-home .accordion-navigation h3 {
-      line-height: 2.4em; } }
-/* line 87, ../scss/_custom/homepage/_home.scss */
+      line-height: 2.4em;
+      padding-left: 15px; } }
+/* line 92, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation h3.two-line {
   line-height: 1.5em; }
-/* line 91, ../scss/_custom/homepage/_home.scss */
+/* line 96, ../scss/_custom/homepage/_home.scss */
 .accordion-home .accordion-navigation.active a {
   background-color: transparent; }
-/* line 94, ../scss/_custom/homepage/_home.scss */
+/* line 99, ../scss/_custom/homepage/_home.scss */
 .accordion-home p {
   font-size: 0.85em;
   padding-right: 10px; }
 
-/* line 100, ../scss/_custom/homepage/_home.scss */
+/* line 105, ../scss/_custom/homepage/_home.scss */
 .why-train-bg {
   background-color: #D7E9F7;
   border-bottom: 1px #c4c4c4 solid; }
-  /* line 105, ../scss/_custom/homepage/_home.scss */
+  /* line 110, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us h3 {
     font-size: 42px;
     font-weight: 200;
     font-family: Raleway;
     line-height: 1em;
     padding-bottom: 5px; }
-  /* line 113, ../scss/_custom/homepage/_home.scss */
+  /* line 118, ../scss/_custom/homepage/_home.scss */
   .why-train-bg .train-with-us a:hover {
     background-color: #FFCE77; }
 
-/* line 123, ../scss/_custom/homepage/_home.scss */
+/* line 128, ../scss/_custom/homepage/_home.scss */
 .no-padding {
   padding: 0; }

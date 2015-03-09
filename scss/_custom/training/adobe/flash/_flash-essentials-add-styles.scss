@@ -74,6 +74,8 @@ $flash-essentials-spacing: 40px;
         min-width: 45px;
         min-height: 71px;    
     }
-
+     .testimonials {
+        height: 90em;
+    }
     @include btn-shadow($flash-color);
 }
