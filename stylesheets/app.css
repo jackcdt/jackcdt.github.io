@@ -6815,33 +6815,53 @@ body > div.mega-menu > div > div > ul > li > a > p {
     /* line 105, ../scss/_custom/header/_header.scss */
     body > div.mega-menu > div > div > ul > li > a > p {
       text-align: center; } }
+  @media screen and (min-width: 768px) and (max-width: 865px) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      font-size: 11px !important; } }
+  @media screen and (min-width: 642px) and (max-width: 767px) {
+    /* line 105, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p {
+      text-align: left !important; } }
 
-/* line 114, ../scss/_custom/header/_header.scss */
+/* line 121, ../scss/_custom/header/_header.scss */
 body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
   padding-top: 6px !important;
   color: #FFFFFF !important; }
   @media only screen and (min-width: 40.063em) {
-    /* line 114, ../scss/_custom/header/_header.scss */
+    /* line 121, ../scss/_custom/header/_header.scss */
     body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
       text-align: center; } }
+  @media screen and (min-width: 768px) and (max-width: 865px) {
+    /* line 121, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      font-size: 11px !important; } }
+  @media screen and (min-width: 642px) and (max-width: 767px) {
+    /* line 121, ../scss/_custom/header/_header.scss */
+    body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
+      text-align: left !important; } }
 
-/* line 122, ../scss/_custom/header/_header.scss */
+/* line 135, ../scss/_custom/header/_header.scss */
 .addthis_horizontal_follow_toolbox {
   padding-top: 10px !important; }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 30px 80px 0 80px; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 30px 35px 0 35px; } }
 @media only screen and (max-width: 40em) {
-  /* line 126, ../scss/_custom/header/_header.scss */
+  /* line 139, ../scss/_custom/header/_header.scss */
   .book-pay-img {
     padding: 15px; } }
 
+@media screen and (min-width: 768px) and (max-width: 880px) {
+  /* line 157, ../scss/_custom/header/_header.scss */
+  .flat-mega-menu .pnone-number a {
+    font-size: 11px !important; } }
 /* line 3, ../scss/_custom/components/training/_banner-no-color.scss */
 .banner-row {
   height: 120px;
@@ -7947,6 +7967,10 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
   font-size: 0.875em;
   line-height: 1.71429em; }
 
+/* line 78, ../scss/_custom/components/training/_testimonials.scss */
+.category-page .courses-row .side-pannel .testimonials {
+  padding: 0 10px; }
+
 /* line 7, ../scss/_custom/admin/_faq.scss */
 .faq .custom-breadcrumbs {
   margin-top: 12px; }
@@ -8054,10 +8078,10 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
   /* line 14, ../scss/_custom/components/training/_testimonials.scss */
   .faq .testimonials .testimonials-title {
     color: #2088D1;
-    margin: 6px 9px; }
+    margin: 12px 0 0; }
   /* line 21, ../scss/_custom/components/training/_testimonials.scss */
   .faq .testimonials .category-testimonial {
-    margin: 5px 10px 12px 10px;
+    margin: 5px 0 12px 0;
     font-size: 14px;
     line-height: 1.5em; }
     /* line 26, ../scss/_custom/components/training/_testimonials.scss */

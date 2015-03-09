@@ -15,11 +15,11 @@
         @extend %t-emphasize;
         @extend %t-medium;
         color: $color;
-        margin: 6px 9px;
+        margin: 12px 0 0;
     }
 
     .category-testimonial {
-        margin: 5px 10px 12px 10px;
+        margin: 5px 0 12px 0;
         font-size: 14px;
         line-height: 1.5em;            
 
@@ -74,4 +74,7 @@
         border-radius: 8px;
         background-color: rgba(140, 140, 140, 0.5);
     }
+}
+.category-page .courses-row .side-pannel .testimonials {
+    padding: 0 10px;
 }
