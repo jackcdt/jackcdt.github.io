@@ -1127,7 +1127,7 @@ body {
   min-height: 36px; }
 /* line 103, ../scss/_custom/training/adobe/indesign/_indesign-advanced-add-styles.scss */
 .indesign-advanced-course .testimonials {
-  height: 97em; }
+  height: 87em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -1682,6 +1682,9 @@ body {
   background-position: 0 59.40767%;
   min-width: 98px;
   min-height: 63px; }
+/* line 53, ../scss/_custom/training/adobe/indesign/_indesign-accessibility-add-styles.scss */
+.indesign-accessibility-course .testimonials {
+  height: 48em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .indesign-accessibility-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fcf1f7;
@@ -7681,7 +7684,7 @@ body {
   min-height: 36px; }
 /* line 88, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .testimonials {
-  height: 99em; }
+  height: 109em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -8136,7 +8139,7 @@ body {
   min-height: 36px; }
 /* line 91, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .testimonials {
-  height: 98em; }
+  height: 104em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .premiere-pro-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
