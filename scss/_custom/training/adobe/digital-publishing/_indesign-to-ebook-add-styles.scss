@@ -75,6 +75,8 @@ $indesign-to-ebook-spacing: 40px;
         min-width: 65px;
         min-height: 63px; 
     }
-
+    .testimonialS {
+        height: 45em;
+    }
     @include btn-shadow($digital-publishing-color);
 }

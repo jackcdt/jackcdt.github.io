@@ -69,6 +69,9 @@ $edge-animate-essentials-spacing: 40px;
 
         @include package-training-logo; 
     }
+    .testimonials {
+        height: 15em;
+    }
 
     @include btn-shadow($edge-animate-color);
 }

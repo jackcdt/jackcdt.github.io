@@ -49,6 +49,8 @@ $edge-animate-advanced-spacing: 40px;
 
         border: 1px solid #686F74; 
     }
-
+    .testimonials {
+        height: 18em;
+    }
     @include btn-shadow($edge-animate-color);
 }
