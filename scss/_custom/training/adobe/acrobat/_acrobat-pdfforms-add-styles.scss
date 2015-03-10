@@ -59,6 +59,8 @@ $acrobat-pdfforms-spacing: 40px;
         min-width: 52px;
         min-height: 54px;
     }
-
+    .testimonials {
+        height: 17em;
+    }
     @include btn-shadow($acrobat-color);
 }
