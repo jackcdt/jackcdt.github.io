@@ -2045,7 +2045,7 @@ body {
   margin-left: 15px; }
 /* line 92, ../scss/_custom/training/adobe/photoshop/_photoshop-essentials-add-styles.scss */
 .photoshop-essentials-course .testimonials {
-  height: 70em; }
+  height: 144em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -2158,7 +2158,7 @@ body {
   min-height: 70px; }
 /* line 54, ../scss/_custom/training/adobe/photoshop/_photoshop-advanced-add-styles.scss */
 .photoshop-advanced-course .testimonials {
-  height: 55em; }
+  height: 75em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .photoshop-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -3070,7 +3070,7 @@ body {
   margin-top: -17px; }
 /* line 87, ../scss/_custom/training/adobe/illustrator/_illustrator-lite-add-styles.scss */
 .illustrator-lite-course .testimonials {
-  height: 42em; }
+  height: 54em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-lite-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
@@ -3183,7 +3183,7 @@ body {
       background-position: 0 40.21164%; } }
 /* line 53, ../scss/_custom/training/adobe/illustrator/_illustrator-advanced-add-styles.scss */
 .illustrator-advanced-course .testimonials {
-  height: 28em; }
+  height: 40em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .illustrator-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #fffefc;
