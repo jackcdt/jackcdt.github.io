@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /_notes/
-Disallow: /_system/
-Disallow: /feedback/
-Disallow: /Layouts/
-Disallow: /Library/
-Disallow: /ModuleTemplates/
-Disallow: /newsletters/
-Disallow: /Templates/
