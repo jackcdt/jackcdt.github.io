@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>BRISBANE</strong></th> 
-            <th>Mar</th>  
             <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
             <th>Aug</th> 
+            <th>Sep</th>  
         </tr>  
     </thead> 
     <tbody> 
@@ -16,10 +16,10 @@
             <td class="row-name"><a href="/training-courses/after-effects-training-intro.html">After Effects Essentials</a></td> 
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-essentials-brisbane">25 &amp; 26</a></td>
             <td>&mdash;</td>
             <td><a href="/after-effects/after-effects-essentials-brisbane">17 &amp; 18</a></td>
+            <td>&mdash;</td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-after-effects-training.html">After Effects Advanced</a></td> 
