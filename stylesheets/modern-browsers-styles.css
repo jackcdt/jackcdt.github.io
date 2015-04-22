@@ -8491,6 +8491,12 @@ body {
       padding-bottom: 26.17568%;
       background-size: 100%;
       background-position: 0 72.63158%; } }
+/* line 51, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .course-outline .course-outline-section {
+  width: 100%; }
+/* line 54, ../scss/_custom/training/video-editing/audition/_audition-add-styles.scss */
+.audition-course .course-outline .lower-aside-section {
+  width: 85%; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .audition-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px #ccf9f3;

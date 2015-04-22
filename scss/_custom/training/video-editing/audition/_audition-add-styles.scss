@@ -48,6 +48,11 @@ $audition-spacing: 40px;
 
         border: 1px solid #686F74; 
     }
-
+    .course-outline .course-outline-section {
+        width: 100%;
+    }
+    .course-outline .lower-aside-section {
+        width: 85%;
+    }
     @include btn-shadow($audition-color);
 }
