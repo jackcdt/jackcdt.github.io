@@ -93,3 +93,7 @@ a img,img{border:0}.clear:after{content:".";display:block;height:0;clear:both;vi
 .audition-course.course-outline .row .course-outline-section {
     width: 100% !important;
 }
+.audition-course .course-description .aud-cib img {
+      float: right;
+  padding: 0 0 0 10px;
+}
