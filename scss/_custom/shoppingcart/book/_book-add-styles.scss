@@ -286,6 +286,15 @@ $book-spacing: 40px;
         min-width: 40px;
         min-height: 40px;    
     }
+     .logo-audition {
+        @include book-sprite(logo-audition); 
+        @include responsive-sprite($map, logo-audition, 5.8%);
+        margin-left: 15px;
+        margin-top: 10px;
+
+        min-width: 40px;
+        min-height: 40px;    
+    }
 
     .logo-package-web {
         @include book-sprite(logo-package-web); 

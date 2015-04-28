@@ -10461,9 +10461,9 @@ body {
   background-position: 0 NaN%;
   margin-top: 24px; }
 
-/* line 280, shopping-cart/book/*.png */
-.book-sprite, .cdt-book .acrobat-essentials, .cdt-book .ae-essentials, .cdt-book .custom-training-logo, .cdt-book .book-and-pay, .cdt-book .booking-step-1, .cdt-book .cp-ess, .cdt-book .dw-essentials, .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials, .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials, .cdt-book .id-interactivity, .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials, .cdt-book .pr-essentials, .cdt-book .ps-essentials, .cdt-book .seo-ess, .cdt-book .wp-essentials, .cdt-book .logo-package-design, .cdt-book .logo-package-web, .cdt-book .diag-dps-logo {
-  background-image: url('../images-dist/shopping-cart/book-s58309e765e.png');
+/* line 288, shopping-cart/book/*.png */
+.book-sprite, .cdt-book .acrobat-essentials, .cdt-book .ae-essentials, .cdt-book .custom-training-logo, .cdt-book .book-and-pay, .cdt-book .booking-step-1, .cdt-book .cp-ess, .cdt-book .dw-essentials, .cdt-book .eg-essentials, .cdt-book .finalcut-ess, .cdt-book .fl-essentials, .cdt-book .ga-essentials, .cdt-book .html-css, .cdt-book .html-ess, .cdt-book .html5css, .cdt-book .id-dps-pkg, .cdt-book .id-epub, .cdt-book .id-essentials, .cdt-book .id-interactivity, .cdt-book .il-essentials, .cdt-book .internet-marketing-logo, .cdt-book .js-essentials, .cdt-book .linkedin-essentials, .cdt-book .mu-essentials, .cdt-book .pr-essentials, .cdt-book .ps-essentials, .cdt-book .seo-ess, .cdt-book .wp-essentials, .cdt-book .logo-package-design, .cdt-book .logo-audition, .cdt-book .logo-package-web, .cdt-book .diag-dps-logo {
+  background-image: url('../images-dist/shopping-cart/book-s195bbaf8e4.png');
   background-repeat: no-repeat; }
 
 /* line 12, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10493,7 +10493,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 3.1297%;
+  background-position: 0 3.05433%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10509,7 +10509,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 175.13514%;
-  background-position: 0 23.72567%;
+  background-position: 0 23.1395%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 32, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10522,7 +10522,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 175.13514%;
-      background-position: 0 23.72567%; } }
+      background-position: 0 23.1395%; } }
 /* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .book-and-pay {
   background-position: 0 -207px;
@@ -10534,7 +10534,7 @@ body {
   height: 0;
   padding-bottom: 104.51613%;
   background-size: 209.03226%;
-  background-position: 0 6.76029%;
+  background-position: 0 6.58397%;
   margin-bottom: 16px; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 44, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
@@ -10547,7 +10547,7 @@ body {
       height: 0;
       padding-bottom: 67.93548%;
       background-size: 209.03226%;
-      background-position: 0 6.76029%; } }
+      background-position: 0 6.58397%; } }
 /* line 56, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .booking-step-1 {
   background-position: 0 -571px;
@@ -10559,7 +10559,7 @@ body {
   height: 0;
   padding-bottom: 8.33333%;
   background-size: 100%;
-  background-position: 0 17.13685%;
+  background-position: 0 16.72525%;
   margin-bottom: 24px; }
 /* line 62, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .cp-ess {
@@ -10572,7 +10572,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 20.01204%;
+  background-position: 0 19.5301%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10588,7 +10588,7 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 996.92308%;
-  background-position: 0 31.45695%;
+  background-position: 0 30.69918%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10604,7 +10604,7 @@ body {
   height: 0;
   padding-bottom: 5.69825%;
   background-size: 1136.84211%;
-  background-position: 0 34.5045%;
+  background-position: 0 33.67526%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10620,7 +10620,7 @@ body {
   height: 0;
   padding-bottom: 5.53231%;
   background-size: 996.92308%;
-  background-position: 0 37.45487%;
+  background-position: 0 36.55314%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10636,7 +10636,7 @@ body {
   height: 0;
   padding-bottom: 5.70938%;
   background-size: 1012.5%;
-  background-position: 0 40.53566%;
+  background-position: 0 39.55947%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10652,7 +10652,7 @@ body {
   height: 0;
   padding-bottom: 4.53913%;
   background-size: 704.34783%;
-  background-position: 0 43.75377%;
+  background-position: 0 42.69729%;
   margin-left: 2px;
   margin-top: 10px;
   min-width: 57px;
@@ -10668,7 +10668,7 @@ body {
   height: 0;
   padding-bottom: 5.44308%;
   background-size: 996.92308%;
-  background-position: 0 46.97744%;
+  background-position: 0 45.84679%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10684,7 +10684,7 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 967.16418%;
-  background-position: 0 50.07528%;
+  background-position: 0 48.86865%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10700,7 +10700,7 @@ body {
   height: 0;
   padding-bottom: 5.1475%;
   background-size: 810%;
-  background-position: 0 53.33333%;
+  background-position: 0 52.04592%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10716,7 +10716,7 @@ body {
   height: 0;
   padding-bottom: 7.17368%;
   background-size: 852.63158%;
-  background-position: 0 57.07776%;
+  background-position: 0 55.69057%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10732,7 +10732,7 @@ body {
   height: 0;
   padding-bottom: 7.55758%;
   background-size: 981.81818%;
-  background-position: 0 61%;
+  background-position: 0 59.52099%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10748,7 +10748,7 @@ body {
   height: 0;
   padding-bottom: 5.52813%;
   background-size: 1012.5%;
-  background-position: 0 64.33083%;
+  background-position: 0 62.78251%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10764,7 +10764,7 @@ body {
   height: 0;
   padding-bottom: 5.37431%;
   background-size: 594.49541%;
-  background-position: 0 68.18874%;
+  background-position: 0 66.52807%;
   margin-left: 2px;
   margin-top: 10px;
   min-width: 61px;
@@ -10780,7 +10780,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 71.65212%;
+  background-position: 0 69.92658%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10796,7 +10796,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1296%;
-  background-position: 0 74.46043%;
+  background-position: 0 72.67408%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10812,7 +10812,7 @@ body {
   height: 0;
   padding-bottom: 5.945%;
   background-size: 1620%;
-  background-position: 0 76.95067%;
+  background-position: 0 75.10943%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
@@ -10828,14 +10828,14 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 996.92308%;
-  background-position: 0 79.9458%;
+  background-position: 0 78.01939%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 230, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .mu-essentials {
-  background-position: 0 -2919px;
+  background-position: 0 -3001px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10844,14 +10844,14 @@ body {
   height: 0;
   padding-bottom: 5.69643%;
   background-size: 1157.14286%;
-  background-position: 0 87.63134%;
+  background-position: 0 87.92851%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 240, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .pr-essentials {
-  background-position: 0 -3014px;
+  background-position: 0 -3096px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10860,14 +10860,14 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 996.92308%;
-  background-position: 0 90.72848%;
+  background-position: 0 90.95182%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 250, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .ps-essentials {
-  background-position: 0 -3118px;
+  background-position: 0 -3200px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10876,14 +10876,14 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 93.83088%;
+  background-position: 0 93.97944%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 260, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .seo-ess {
-  background-position: 0 -3221px;
+  background-position: 0 -3303px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10892,14 +10892,14 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 996.92308%;
-  background-position: 0 96.93048%;
+  background-position: 0 97.00441%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
 /* line 270, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .wp-essentials {
-  background-position: 0 -3324px;
+  background-position: 0 -3406px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10915,7 +10915,7 @@ body {
   min-height: 40px; }
 /* line 280, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-design {
-  background-position: 0 -2760px;
+  background-position: 0 -2842px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10924,14 +10924,30 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1620%;
-  background-position: 0 82.48655%;
+  background-position: 0 82.90548%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 290, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 289, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+.cdt-book .logo-audition {
+  background-position: 0 -2760px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53636%;
+  background-size: 1472.72727%;
+  background-position: 0 80.56042%;
+  margin-left: 15px;
+  margin-top: 10px;
+  min-width: 40px;
+  min-height: 40px; }
+/* line 299, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .logo-package-web {
-  background-position: 0 -2840px;
+  background-position: 0 -2922px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -10940,12 +10956,12 @@ body {
   height: 0;
   padding-bottom: 5.655%;
   background-size: 1620%;
-  background-position: 0 84.85211%;
+  background-position: 0 85.21435%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
   min-height: 40px; }
-/* line 300, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
+/* line 309, ../scss/_custom/shoppingcart/book/_book-add-styles.scss */
 .cdt-book .diag-dps-logo {
   background-position: 0 -957px;
   /*    $sprite-width: $map-width;
@@ -10956,7 +10972,7 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 1350%;
-  background-position: 0 28.66986%;
+  background-position: 0 27.98246%;
   margin-left: 15px;
   margin-top: 10px;
   min-width: 40px;
