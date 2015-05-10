@@ -92,6 +92,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>http://www.cd.com.au/training-courses/audition-training-intro.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>http://www.cd.com.au/training-courses/final-cut-pro-training.html</loc>
         <changefreq>daily</changefreq>
         <priority>0.80</priority>
