@@ -2,33 +2,33 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
             <th>Aug</th> 
             <th>Sep</th>  
+            <th>Oct</th> 
         </tr> 
     </thead> 
     <tbody> 
 
         <tr> 
             <td class="row-name"><a href="/wordpress-essentials.html">WordPress Essentials</a></td>
-            <td><a href="/wordpress/wordpress-essentials-melbourne">9</a></td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-essentials-melbourne">11</a></td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-essentials-melbourne">18</a></td>
             <td>&mdash;</td>
+            <td><a href="/wordpress/wordpress-essentials-melbourne">20</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/wordpress-advanced.html">WordPress Advanced</a></td>
-            <td>&mdash;</td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-advanced-melbourne">12</a></td>
             <td>&mdash;</td>
             <td><a href="/wordpress/wordpress-advanced-melbourne">19</a></td>
             <td>&mdash;</td>
+            <td><a href="/wordpress/wordpress-advanced-melbourne">21</a></td>
         </tr>
     </tbody>    
  </table>  

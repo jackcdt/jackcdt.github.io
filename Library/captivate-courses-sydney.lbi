@@ -3,32 +3,32 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th>
             <th>Jul</th> 
             <th>Aug</th> 
-            <th>Sep</th>  
+            <th>Sep</th> 
+            <th>Oct</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials 8</a></td> 
-            <td><a href="/captivate/captivate-8-essentials">29 &amp; 30</a></td>
             <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-essentials">16 &amp; 17</a></td>
             <td><a href="/captivate/captivate-8-essentials">30 &amp; 31</a></td>
             <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-essentials">9 &amp; 10</a></td>
+            <td><a href="/captivate/captivate-8-essentials">29 &amp; 30</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-captivate-training.html">Captivate Advanced 8</a></td>  
-            <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-advanced">1</a></td>
             <td><a href="/captivate/captivate-8-advanced">12</a></td>
             <td>&mdash;</td>
             <td><a href="/captivate/captivate-8-advanced">14</a></td>
             <td><a href="/captivate/captivate-8-advanced">30</a></td>
+            <td><a href="/captivate/captivate-8-advanced">27 Nov</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/adobe-captivate-training.html">Captivate Essentials 7 &amp; 6</a></td> 
@@ -41,8 +41,8 @@
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/advanced-captivate-training.html">Captivate Advanced 7 &amp; 6</a></td> 
-            <td>&mdash;</td>
             <td><a href="/captivate/captivate-6-advanced">13</a></td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>

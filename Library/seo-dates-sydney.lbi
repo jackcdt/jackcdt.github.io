@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>SYDNEY</strong></th> 
-            <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
             <th>Aug</th> 
-            <th>Sep</th>  
+            <th>Sep</th>
+            <th>Oct</th> 
         </tr> 
     </thead> 
     <tbody> 
@@ -17,8 +17,8 @@
             <td>&mdash;</td>
             <td>&mdash;</td>
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/seo/seo-essentials">14</a></td>
+            <td>&mdash;</td>
             <td>&mdash;</td>
         </tr>
     </tbody>    

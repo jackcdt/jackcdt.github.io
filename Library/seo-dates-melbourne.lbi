@@ -3,12 +3,12 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Feb</th> 
-            <th>Mar</th>  
-            <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
+            <th>Aug</th> 
+            <th>Sep</th>  
+            <th>Oct</th> 
         </tr> 
     </thead> 
     <tbody> 

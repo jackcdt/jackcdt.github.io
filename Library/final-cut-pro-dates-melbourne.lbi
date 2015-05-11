@@ -3,23 +3,23 @@
     <thead> 
         <tr> 
             <th width="150" class="location"><strong>MELBOURNE</strong></th> 
-            <th>Apr</th> 
             <th>May</th>  
             <th>Jun</th> 
             <th>Jul</th> 
             <th>Aug</th> 
             <th>Sep</th>  
+            <th>Oct</th> 
         </tr> 
     </thead> 
     <tbody> 
         <tr> 
             <td class="row-name"><a href="/training-courses/final-cut-pro-training.html">Final Cut Pro X Essentials</a></td> 
             <td>&mdash;</td>
-            <td>&mdash;</td>
             <td><a href="/final-cut-pro-motion/final-cut-pro-essentials-melbourne">4 &amp; 5</a></td>
             <td>&mdash;</td>
             <td><a href="/final-cut-pro-motion/final-cut-pro-essentials-melbourne">13 &amp; 14</a></td>
             <td><a href="/final-cut-pro-motion/final-cut-pro-essentials-melbourne">24 &amp; 25</a></td>
+            <td><a href="/final-cut-pro-motion/final-cut-pro-essentials-melbourne">29 &amp; 30</a></td>
         </tr>
         <tr> 
             <td class="row-name"><a href="/training-courses/final-cut-pro-training.html">Final Cut Pro 7 Essentials</a></td> 
