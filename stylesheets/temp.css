@@ -1,126 +1,80 @@
-.ovw-module li {
-    font-size: 19px;
-    font-weight: 300;
-}
-.ovw-module p {
-    font-size: 19px;
-    font-weight: 300;
+body, p {
+    font-size: 14px;
 }
 
-.pre-pod {
-    border: 1px solid #000;
-    border-radius: 10px;
-    max-width: 200px;
-    margin-left: 10px;
-    padding-top: 8px;
-}
-.pod-arrow {
-    padding-top: 30px;
-  font-size: 32px;
-  padding-left: 23px;
-}
-.pod-arrow-dwn {
-    margin-left: 70px;
-  font-size: 32px;
-  padding-left: 23px;
-}
-.post-pod {
-    border: 1px solid #000;
-    border-radius: 10px;
-    background-color: #DAC5DC;
-    max-width: 250px;
-    margin-left: 10px;
-    padding-top: 8px;
-    margin-bottom: 10px;
-}
-.video-edit-bnr {
-  background-color: #1F0026;
-  height: 120px;
-    padding-top: 30px;
-    color: #fff;
-}
-.video-edit-bnr h1 {
-    color: #fff;
-}
-.video-edit-bnr img {
-    min-height: 80px;
-    min-width: 80px;
-    padding-right: 5px;
-}
-.gts-nxt {
-    border: 1px solid #000;
-    border-radius: 10px;
-    background-color: #DAC5DC;
-    padding-top: 10px;
-}
-.vid-edit-gradient {
-    background-image: url(/images-dist/tips/gradient-top.jpg);
-    background-position: center center;
-    background-size: auto auto;
-    height: 46px;
-    background-repeat: repeat-x;
+.book-pay-later, .book-pay-later h3 {
+    color: white;
 }
 
-.vid-edit .intro p {
-            font-size: 20px;
-            font-weight: 300;
-            line-height: 1.5em;
-            margin-top: 10px;
-}
-.vid-edit .intro h2 {
-            font-size: 36px;
-            font-weight: 200;
-            line-height: 1.38em;
-}
-.vid-edit .vid-edit-content h2 {
-            border: 1px solid black;
-            font-size: 26px;
-            font-weight: 300;
-            padding: 0px 5px 0px 5px;
-            display: inline-block;
-            margin-bottom: 10px;
-            margin-top: 10px;
+.book-pay-later {
+  padding: 10px 0;
+  max-width: 420px;
+  background-image: url(/images/training/adobe/indesign/indesign-ess/book-now-box.png);
+  margin-bottom: 8px;
+  background-size: cover;
+  padding-bottom: 30px;
 }
 
-.vid-edit .vid-edit-content h3 {
-            color: #2288d5;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 1.6em;
-            text-transform: uppercase;
+.book-pay-later.small-12.columns > p {
+    margin-bottom: 0 !important;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.book-pay-later h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.book-pay-later.small-12.columns > p.section-2 {
+    margin-bottom: 0 !important;
+    font-weight: 200;
+    font-size: 20px;
+}
+.download-text{
+    font-size: 15px !important;
+    line-height: 1.2em !important;
+}
+body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-side > section > div.small-12.columns.download-pdf > a > div.small-2.large-2.columns.pdf {
+    min-width: 50px !important;
+    min-height: 50px !important;
+    margin-top: 5px; !important;
 }
 
 
-.vid-edit .vid-edit-content p {
-        font-size: 14px;
-            font-weight: 400;
-            line-height: 1.5em;
+.book-pay-later-1.small-12.columns > p {
+    margin-bottom: 0 !important;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+}
+.book-pay-later-1 {
+  padding: 10px 0;
+  max-width: 420px;
+  background-image: url(/images/training/adobe/indesign/indesign-ess/book-now-box-1.png);
+  margin-bottom: 8px;
+  background-size: cover;
+  padding-bottom: 25px;
 }
 
-.vid-edit .vid-edit-content .learn-dps-btn {
-            padding-top: 5px;
-            padding-right: 14px;
-            padding-bottom: 5px;
-            padding-left: 14px;
-            font-size: 18px;
-            background-color: #2288d5;
-        }
+body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-side > section > div.small-12.columns.download-pdf {
+      background-color: #E5E5E5;
+  padding: 10px 8px;
+    margin-bottom: 40px;
+}
 
-.vid-edit .vid-edit-content .tip-icon {
-            padding-right: 0;
-            margin-right: 0;
-            width: 56px;
-        }
 
-.vid-edit .vid-edit-content .tip-text {
-            padding-left: 6px;
-            padding-top: 5px;
-        }
-
-.vid-edit .vid-edit-content img {
-            padding-bottom: 10px;
-        }
-.vid-edit a {
-    text-decoration: underline;
-    
+.book-pay-later-2.small-12.columns > p {
+    margin-bottom: 0 !important;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+}
+.book-pay-later-2 {
+  padding: 10px 0;
+  max-width: 420px;
+  background-image: url(/images/training/adobe/indesign/indesign-ess/book-now-box-2.png);
+  margin-bottom: 8px;
+  background-size: cover;
+  padding-bottom: 25px;
 }
