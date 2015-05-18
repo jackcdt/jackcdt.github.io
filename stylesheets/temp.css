@@ -12,7 +12,7 @@ body, p {
   background-image: url(/images/training/adobe/indesign/indesign-ess/book-now-box.png);
   margin-bottom: 8px;
   background-size: cover;
-  padding-bottom: 30px;
+  padding-bottom: 27px;
 }
 
 .book-pay-later.small-12.columns > p {
@@ -60,7 +60,8 @@ body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-
 body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-side > section > div.small-12.columns.download-pdf {
       background-color: #E5E5E5;
   padding: 10px 8px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 
@@ -77,4 +78,10 @@ body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-
   margin-bottom: 8px;
   background-size: cover;
   padding-bottom: 25px;
+}
+
+body > main > div > div.row.upper-row > div.small-12.medium-4.columns.end.upper-side > section > div.small-12.columns.free-session {
+      background-color: #E5E5E5;
+  padding: 10px 8px;
+    margin-bottom: 20px;
 }
