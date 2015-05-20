@@ -7287,9 +7287,9 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 112, training/video-editing/after-effects/after-effects-category/*.png */
+/* line 120, training/video-editing/after-effects/after-effects-category/*.png */
 .after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-essentials-package, .after-effects-category .ae-advanced, .after-effects-category .ae-advanced-package, .after-effects-category .pr-essentials, .after-effects-category .pr-essentials-package, .after-effects-category .pr-advanced-package {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s0ccbc84cb4.png');
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s99f3d8b84b.png');
   background-repeat: no-repeat; }
 
 /* line 8, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
@@ -7302,13 +7302,13 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.62687%;
-  background-size: 552.23881%;
-  background-position: 0 25.30864%;
+  background-size: 2161.19403%;
+  background-position: 0 17.08333%;
   min-width: 56px;
   min-height: 57px; }
 /* line 14, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .category-custom-training {
-  background-position: 0 -557px;
+  background-position: 0 -1025px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7316,8 +7316,8 @@ body {
   display: block;
   height: 0;
   padding-bottom: 40.27027%;
-  background-size: 100%;
-  background-position: 0 62.72523%;
+  background-size: 391.35135%;
+  background-position: 0 75.58997%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 14, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
@@ -7329,8 +7329,8 @@ body {
       display: block;
       height: 0;
       padding-bottom: 26.17568%;
-      background-size: 100%;
-      background-position: 0 62.72523%; } }
+      background-size: 391.35135%;
+      background-position: 0 75.58997%; } }
 /* line 22, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .ae-essentials {
   background-position: 0 -454px;
@@ -7341,8 +7341,8 @@ body {
   display: block;
   height: 0;
   padding-bottom: 4.84615%;
-  background-size: 569.23077%;
-  background-position: 0 46.61191%;
+  background-size: 2227.69231%;
+  background-position: 0 31.48405%;
   margin-left: 15px;
   min-width: 40px;
   min-height: 45px; }
@@ -7356,8 +7356,8 @@ body {
   display: block;
   height: 0;
   padding-bottom: 4.84615%;
-  background-size: 569.23077%;
-  background-position: 0 36.03696%;
+  background-size: 2227.69231%;
+  background-position: 0 24.34119%;
   margin-left: 15px;
   margin: -5px 15px 0px;
   min-width: 36px;
@@ -7372,8 +7372,8 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.53333%;
-  background-size: 425.28736%;
-  background-position: 0 12.89308%;
+  background-size: 1664.36782%;
+  background-position: 0 8.64979%;
   margin-top: -9px;
   min-width: 53px;
   min-height: 52px; }
@@ -7387,7 +7387,7 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.53333%;
-  background-size: 425.28736%;
+  background-size: 1664.36782%;
   background-position: 0 0%;
   margin-top: -9px;
   min-width: 50px;
@@ -7400,7 +7400,7 @@ body {
   min-height: 36px; }
 /* line 57, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .pr-essentials {
-  background-position: 0 -973px;
+  background-position: 0 -1441px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7408,14 +7408,14 @@ body {
   display: block;
   height: 0;
   padding-bottom: 4.92308%;
-  background-size: 569.23077%;
+  background-size: 2227.69231%;
   background-position: 0 100%;
   margin: -5px 15px 0px;
   min-width: 36px;
   min-height: 36px; }
 /* line 64, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .pr-essentials-package {
-  background-position: 0 -869px;
+  background-position: 0 -1337px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7423,14 +7423,14 @@ body {
   display: block;
   height: 0;
   padding-bottom: 4.92308%;
-  background-size: 569.23077%;
-  background-position: 0 89.31141%;
+  background-size: 2227.69231%;
+  background-position: 0 92.78279%;
   margin: -5px 15px 0px;
   min-width: 36px;
   min-height: 36px; }
 /* line 71, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .pr-advanced-package {
-  background-position: 0 -746px;
+  background-position: 0 -1214px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7438,12 +7438,15 @@ body {
   display: block;
   height: 0;
   padding-bottom: 5.53333%;
-  background-size: 425.28736%;
-  background-position: 0 78.19706%;
+  background-size: 1664.36782%;
+  background-position: 0 85.37271%;
   margin-top: -9px;
   min-width: 50px;
   min-height: 50px;
   margin: 0 12px 10px 3px; }
+/* line 79, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .testimonials {
+  height: 50em; }
 
 /* line 136, training/video-editing/after-effects/after-effects-essentials/*.png */
 .after-effects-essentials-sprite, .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .course-custom-training-logo, .after-effects-essentials-course .ae-advanced, .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials, .after-effects-essentials-course .ae-essentials, .after-effects-essentials-course .ae-essentials-package, .after-effects-essentials-course .ae-advanced-package, .after-effects-essentials-course .pr-essentials-package, .after-effects-essentials-course .pr-advanced-package {
