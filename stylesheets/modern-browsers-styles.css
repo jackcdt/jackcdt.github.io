@@ -7287,14 +7287,14 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 80, training/video-editing/after-effects/after-effects-category/*.png */
-.after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-advanced, .after-effects-category .pr-essentials {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-sccc0236cbe.png');
+/* line 112, training/video-editing/after-effects/after-effects-category/*.png */
+.after-effects-category-sprite, .after-effects-category .ae-essentials-framed, .after-effects-category .category-custom-training, .after-effects-category .ae-essentials, .after-effects-category .ae-essentials-package, .after-effects-category .ae-advanced, .after-effects-category .ae-advanced-package, .after-effects-category .pr-essentials, .after-effects-category .pr-essentials-package, .after-effects-category .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-category-s0ccbc84cb4.png');
   background-repeat: no-repeat; }
 
-/* line 11, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+/* line 8, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .ae-essentials-framed {
-  background-position: 0 -123px;
+  background-position: 0 -246px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7303,12 +7303,12 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 23.69942%;
+  background-position: 0 25.30864%;
   min-width: 56px;
   min-height: 57px; }
-/* line 18, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+/* line 14, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .category-custom-training {
-  background-position: 0 -331px;
+  background-position: 0 -557px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7317,10 +7317,10 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 76.09195%;
+  background-position: 0 62.72523%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
-    /* line 18, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+    /* line 14, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
     .after-effects-category .category-custom-training {
       /*    $sprite-width: $map-width;
           $sprite-height: $map-height;
@@ -7330,10 +7330,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 76.09195%; } }
-/* line 30, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+      background-position: 0 62.72523%; } }
+/* line 22, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .ae-essentials {
-  background-position: 0 -228px;
+  background-position: 0 -454px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7342,12 +7342,43 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 569.23077%;
-  background-position: 0 43.762%;
+  background-position: 0 46.61191%;
   margin-left: 15px;
   min-width: 40px;
   min-height: 45px; }
-/* line 39, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+/* line 29, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .ae-essentials-package {
+  background-position: 0 -351px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 36.03696%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 37, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .ae-advanced {
+  background-position: 0 -123px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 12.89308%;
+  margin-top: -9px;
+  min-width: 53px;
+  min-height: 52px; }
+/* line 44, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .ae-advanced-package {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
@@ -7359,16 +7390,17 @@ body {
   background-size: 425.28736%;
   background-position: 0 0%;
   margin-top: -9px;
-  min-width: 53px;
-  min-height: 52px; }
-/* line 47, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 52, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .package-training-logo {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 53, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+/* line 57, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
 .after-effects-category .pr-essentials {
-  background-position: 0 -520px;
+  background-position: 0 -973px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7378,18 +7410,49 @@ body {
   padding-bottom: 4.92308%;
   background-size: 569.23077%;
   background-position: 0 100%;
-  margin: -5px 15px 15px;
+  margin: -5px 15px 0px;
   min-width: 36px;
   min-height: 36px; }
+/* line 64, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .pr-essentials-package {
+  background-position: 0 -869px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 89.31141%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 71, ../scss/_custom/training/video-editing/after-effects/_after-effects-category-add-styles.scss */
+.after-effects-category .pr-advanced-package {
+  background-position: 0 -746px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 78.19706%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
 
-/* line 104, training/video-editing/after-effects/after-effects-essentials/*.png */
-.after-effects-essentials-sprite, .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .course-custom-training-logo, .after-effects-essentials-course .ae-advanced, .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials, .after-effects-essentials-course .ae-essentials {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-essentials-s6ff39478d3.png');
+/* line 136, training/video-editing/after-effects/after-effects-essentials/*.png */
+.after-effects-essentials-sprite, .after-effects-essentials-course .ae-essentials-framed, .after-effects-essentials-course .course-classrom, .after-effects-essentials-course .pdf, .after-effects-essentials-course .course-custom-training-logo, .after-effects-essentials-course .ae-advanced, .after-effects-essentials-course .pr-essentials, .after-effects-essentials-course .ps-essentials, .after-effects-essentials-course .ae-essentials, .after-effects-essentials-course .ae-essentials-package, .after-effects-essentials-course .ae-advanced-package, .after-effects-essentials-course .pr-essentials-package, .after-effects-essentials-course .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-essentials-s8fa4f7203b.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .ae-essentials-framed {
-  background-position: 0 -123px;
+  background-position: 0 -246px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7398,12 +7461,12 @@ body {
   height: 0;
   padding-bottom: 5.62687%;
   background-size: 552.23881%;
-  background-position: 0 14.00911%;
+  background-position: 0 18.48234%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .course-classrom {
-  background-position: 0 -331px;
+  background-position: 0 -557px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7412,7 +7475,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 39.83153%;
+  background-position: 0 43.38006%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7420,7 +7483,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .pdf {
-  background-position: 0 -672px;
+  background-position: 0 -898px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7429,13 +7492,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 76.45051%;
+  background-position: 0 67.41742%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 40, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .course-custom-training-logo {
-  background-position: 0 -483px;
+  background-position: 0 -709px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7444,7 +7507,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 60.83123%;
+  background-position: 0 56.85646%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
@@ -7457,10 +7520,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 60.83123%; } }
+      background-position: 0 56.85646%; } }
 /* line 53, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .ae-advanced {
-  background-position: 0 0;
+  background-position: 0 -123px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7469,14 +7532,14 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 0%;
+  background-position: 0 9.36786%;
   margin-left: -5px;
   margin-top: -15px;
   min-width: 68px;
   min-height: 66px; }
 /* line 62, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .pr-essentials {
-  background-position: 0 -776px;
+  background-position: 0 -1229px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7485,13 +7548,13 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 569.23077%;
-  background-position: 0 88.28214%;
+  background-position: 0 92.26727%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 70, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .ps-essentials {
-  background-position: 0 -880px;
+  background-position: 0 -1333px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7506,7 +7569,7 @@ body {
   min-height: 50px; }
 /* line 78, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .ae-essentials {
-  background-position: 0 -228px;
+  background-position: 0 -454px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7515,7 +7578,7 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 25.90909%; }
+  background-position: 0 34.05851%; }
 /* line 83, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .package-training-logo {
   margin: -5px 15px 15px;
@@ -7524,6 +7587,69 @@ body {
 /* line 88, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
 .after-effects-essentials-course .testimonials {
   height: 109em; }
+/* line 92, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
+.after-effects-essentials-course .ae-essentials-package {
+  background-position: 0 -351px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 26.33158%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 100, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
+.after-effects-essentials-course .ae-advanced-package {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 0%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 108, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
+.after-effects-essentials-course .pr-essentials-package {
+  background-position: 0 -1125px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 84.45946%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 115, ../scss/_custom/training/video-editing/after-effects/_after-effects-essentials-add-styles.scss */
+.after-effects-essentials-course .pr-advanced-package {
+  background-position: 0 -1002px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 76.31379%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-essentials-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -7557,9 +7683,9 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 96, training/video-editing/after-effects/after-effects-advanced/*.png */
-.after-effects-advanced-sprite, .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .course-custom-training-logo, .after-effects-advanced-course .ae-essentials, .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced {
-  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-advanced-sd5e6aa0ccf.png');
+/* line 128, training/video-editing/after-effects/after-effects-advanced/*.png */
+.after-effects-advanced-sprite, .after-effects-advanced-course .ae-advanced-framed, .after-effects-advanced-course .course-classrom, .after-effects-advanced-course .pdf, .after-effects-advanced-course .course-custom-training-logo, .after-effects-advanced-course .ae-essentials, .after-effects-advanced-course .pr-essentials, .after-effects-advanced-course .pr-advanced, .after-effects-advanced-course .ae-essentials-package, .after-effects-advanced-course .ae-advanced-package, .after-effects-advanced-course .pr-essentials-package, .after-effects-advanced-course .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/after-effects/after-effects-advanced-s05b40dfd88.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
@@ -7579,7 +7705,7 @@ body {
   min-height: 72px; }
 /* line 23, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .course-classrom {
-  background-position: 0 -226px;
+  background-position: 0 -452px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7588,7 +7714,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 30.29491%;
+  background-position: 0 37.69808%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7596,7 +7722,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .pdf {
-  background-position: 0 -567px;
+  background-position: 0 -793px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7605,13 +7731,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 71.41058%;
+  background-position: 0 63.59262%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 41, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .course-custom-training-logo {
-  background-position: 0 -378px;
+  background-position: 0 -604px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7620,7 +7746,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 53.31453%;
+  background-position: 0 51.97935%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
@@ -7633,10 +7759,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 53.31453%; } }
+      background-position: 0 51.97935%; } }
 /* line 54, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .ae-essentials {
-  background-position: 0 -123px;
+  background-position: 0 -349px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7645,13 +7771,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 15.4717%;
+  background-position: 0 27.96474%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 62, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .pr-essentials {
-  background-position: 0 -794px;
+  background-position: 0 -1247px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7666,7 +7792,7 @@ body {
   min-height: 50px; }
 /* line 70, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .pr-advanced {
-  background-position: 0 -671px;
+  background-position: 0 -1020px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7675,7 +7801,7 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 86.58065%;
+  background-position: 0 83.06189%;
   margin-left: -5px;
   margin-top: -15px;
   min-width: 68px;
@@ -7688,6 +7814,69 @@ body {
 /* line 84, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
 .after-effects-advanced-course .testimonials {
   height: 76em; }
+/* line 87, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .ae-essentials-package {
+  background-position: 0 -246px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 19.71154%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 95, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .ae-advanced-package {
+  background-position: 0 -123px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 10.01629%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 103, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .pr-essentials-package {
+  background-position: 0 -1143px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 91.65998%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 110, ../scss/_custom/training/video-editing/after-effects/_after-effects-advanced-add-styles.scss */
+.after-effects-advanced-course .pr-advanced-package {
+  background-position: 0 -897px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 73.0456%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
 .after-effects-advanced-course .validate-participants {
   -moz-box-shadow: inset 0px 1px 0px 0px white;
@@ -7721,14 +7910,14 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 88, training/video-editing/premiere-pro/premiere-pro-category/*.png */
-.premiere-pro-category-sprite, .premiere-pro-category .pr-essentials-framed, .premiere-pro-category .category-custom-training, .premiere-pro-category .pr-essentials, .premiere-pro-category .ae-essentials, .premiere-pro-category .pr-elements, .premiere-pro-category .pr-advanced {
-  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-category-sd0e00d3e87.png');
+/* line 120, training/video-editing/premiere-pro/premiere-pro-category/*.png */
+.premiere-pro-category-sprite, .premiere-pro-category .pr-essentials-framed, .premiere-pro-category .category-custom-training, .premiere-pro-category .pr-essentials, .premiere-pro-category .ae-essentials, .premiere-pro-category .pr-elements, .premiere-pro-category .pr-advanced, .premiere-pro-category .ae-essentials-package, .premiere-pro-category .ae-advanced-package, .premiere-pro-category .pr-essentials-package, .premiere-pro-category .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-category-s6f2bbabff7.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .pr-essentials-framed {
-  background-position: 0 -519px;
+  background-position: 0 -868px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7737,12 +7926,12 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 552.23881%;
-  background-position: 0 83.30658%;
+  background-position: 0 80.66914%;
   min-width: 56px;
   min-height: 55px; }
 /* line 18, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .category-custom-training {
-  background-position: 0 -103px;
+  background-position: 0 -329px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7751,7 +7940,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 19.07407%;
+  background-position: 0 33.13192%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 18, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
@@ -7764,10 +7953,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 19.07407%; } }
+      background-position: 0 33.13192%; } }
 /* line 30, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .pr-essentials {
-  background-position: 0 -625px;
+  background-position: 0 -1078px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7782,7 +7971,7 @@ body {
   min-height: 41px; }
 /* line 39, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .ae-essentials {
-  background-position: 0 0;
+  background-position: 0 -226px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7791,13 +7980,13 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 569.23077%;
-  background-position: 0 0%;
+  background-position: 0 20.94532%;
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
 /* line 47, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .pr-elements {
-  background-position: 0 -416px;
+  background-position: 0 -765px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7806,13 +7995,13 @@ body {
   height: 0;
   padding-bottom: 4.84615%;
   background-size: 569.23077%;
-  background-position: 0 66.45367%;
+  background-position: 0 70.89898%;
   margin-left: 15px;
   min-width: 38px;
   min-height: 42px; }
 /* line 56, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .pr-advanced {
-  background-position: 0 -292px;
+  background-position: 0 -641px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7821,27 +8010,90 @@ body {
   height: 0;
   padding-bottom: 5.6%;
   background-size: 425.28736%;
-  background-position: 0 48.26446%;
+  background-position: 0 60.58601%;
   margin: -7px 0 0 2px;
   min-width: 49px;
   min-height: 48px; }
-/* line 65, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+/* line 64, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .ae-essentials-package {
+  background-position: 0 -123px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 11.39944%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 72, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .ae-advanced-package {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 0%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 80, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-essentials-package {
+  background-position: 0 -974px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 90.3525%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 87, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+.premiere-pro-category .pr-advanced-package {
+  background-position: 0 -518px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 48.91407%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
+/* line 95, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .package-training-logo {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 70, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
+/* line 100, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-category-add-styles.scss */
 .premiere-pro-category .testimonials {
   height: 37em; }
 
-/* line 104, training/video-editing/premiere-pro/premiere-pro-essentials/*.png */
-.premiere-pro-essentials-sprite, .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .course-custom-training-logo, .premiere-pro-essentials-course .pr-advanced, .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .pr-essentials, .premiere-pro-essentials-course .ps-essentials {
-  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-essentials-s150c76d42d.png');
+/* line 136, training/video-editing/premiere-pro/premiere-pro-essentials/*.png */
+.premiere-pro-essentials-sprite, .premiere-pro-essentials-course .pr-essentials-framed, .premiere-pro-essentials-course .course-classrom, .premiere-pro-essentials-course .pdf, .premiere-pro-essentials-course .course-custom-training-logo, .premiere-pro-essentials-course .pr-advanced, .premiere-pro-essentials-course .ae-essentials, .premiere-pro-essentials-course .pr-essentials, .premiere-pro-essentials-course .ps-essentials, .premiere-pro-essentials-course .ae-essentials-package, .premiere-pro-essentials-course .ae-advanced-package, .premiere-pro-essentials-course .pr-essentials-package, .premiere-pro-essentials-course .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-essentials-sed364ae228.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-essentials-framed {
-  background-position: 0 -671px;
+  background-position: 0 -1020px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7850,12 +8102,12 @@ body {
   height: 0;
   padding-bottom: 5.71343%;
   background-size: 552.23881%;
-  background-position: 0 76.42369%;
+  background-position: 0 76.63411%;
   min-width: 55px;
   min-height: 55px; }
 /* line 22, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .course-classrom {
-  background-position: 0 -103px;
+  background-position: 0 -329px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7864,7 +8116,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 12.37981%;
+  background-position: 0 25.60311%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -7872,7 +8124,7 @@ body {
   margin-left: 12px; }
 /* line 32, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pdf {
-  background-position: 0 -444px;
+  background-position: 0 -670px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7881,13 +8133,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 50.45455%;
+  background-position: 0 50.26257%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 40, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .course-custom-training-logo {
-  background-position: 0 -255px;
+  background-position: 0 -481px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7896,7 +8148,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 32.07547%;
+  background-position: 0 38.54167%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 40, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
@@ -7909,10 +8161,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 32.07547%; } }
+      background-position: 0 38.54167%; } }
 /* line 53, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-advanced {
-  background-position: 0 -548px;
+  background-position: 0 -897px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7921,14 +8173,14 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 63.64692%;
+  background-position: 0 68.26484%;
   margin-left: -5px;
   margin-top: -17px;
   min-width: 66px;
   min-height: 66px; }
 /* line 62, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .ae-essentials {
-  background-position: 0 0;
+  background-position: 0 -226px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7937,13 +8189,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 0%;
+  background-position: 0 16.94153%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 70, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .pr-essentials {
-  background-position: 0 -777px;
+  background-position: 0 -1230px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7952,13 +8204,13 @@ body {
   height: 0;
   padding-bottom: 5.71077%;
   background-size: 569.23077%;
-  background-position: 0 88.29545%;
+  background-position: 0 92.27307%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 78, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .ps-essentials {
-  background-position: 0 -881px;
+  background-position: 0 -1334px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -7971,12 +8223,75 @@ body {
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
-/* line 86, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+/* line 85, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+.premiere-pro-essentials-course .ae-essentials-package {
+  background-position: 0 -123px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 9.22039%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 93, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+.premiere-pro-essentials-course .ae-advanced-package {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 0%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 101, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+.premiere-pro-essentials-course .pr-essentials-package {
+  background-position: 0 -1126px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 84.47112%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 108, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+.premiere-pro-essentials-course .pr-advanced-package {
+  background-position: 0 -774px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 58.90411%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
+/* line 116, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .package-training-logo {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 91, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
+/* line 121, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-essentials-add-styles.scss */
 .premiere-pro-essentials-course .testimonials {
   height: 104em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */
@@ -8012,14 +8327,14 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 96, training/video-editing/premiere-pro/premiere-pro-advanced/*.png */
-.premiere-pro-advanced-sprite, .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .course-custom-training-logo, .premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced, .premiere-pro-advanced-course .pr-essentials {
-  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-advanced-s03d85a77d8.png');
+/* line 128, training/video-editing/premiere-pro/premiere-pro-advanced/*.png */
+.premiere-pro-advanced-sprite, .premiere-pro-advanced-course .pr-advanced-framed, .premiere-pro-advanced-course .course-classrom, .premiere-pro-advanced-course .pdf, .premiere-pro-advanced-course .course-custom-training-logo, .premiere-pro-advanced-course .ae-essentials, .premiere-pro-advanced-course .ae-advanced, .premiere-pro-advanced-course .pr-essentials, .premiere-pro-advanced-course .ae-essentials-package, .premiere-pro-advanced-course .ae-advanced-package, .premiere-pro-advanced-course .pr-essentials-package, .premiere-pro-advanced-course .pr-advanced-package {
+  background-image: url('../images-dist/training/video-editing/premiere-pro/premiere-pro-advanced-s992d3818b7.png');
   background-repeat: no-repeat; }
 
 /* line 15, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .pr-advanced-framed {
-  background-position: 0 -671px;
+  background-position: 0 -897px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8028,13 +8343,13 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 86.58065%;
+  background-position: 0 73.0456%;
   margin-top: 18px !important;
   min-width: 73px;
   min-height: 72px; }
 /* line 23, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .course-classrom {
-  background-position: 0 -226px;
+  background-position: 0 -452px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8043,7 +8358,7 @@ body {
   height: 0;
   padding-bottom: 3.248%;
   background-size: 185%;
-  background-position: 0 30.29491%;
+  background-position: 0 37.69808%;
   width: 77%;
   padding-bottom: 42%;
   border: 1px solid #000;
@@ -8051,7 +8366,7 @@ body {
   margin-left: 12px; }
 /* line 33, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .pdf {
-  background-position: 0 -567px;
+  background-position: 0 -793px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8060,13 +8375,13 @@ body {
   height: 0;
   padding-bottom: 5.8%;
   background-size: 578.125%;
-  background-position: 0 71.41058%;
+  background-position: 0 63.59262%;
   min-width: 32px;
   min-height: 32px;
   top: -3px; }
 /* line 41, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .course-custom-training-logo {
-  background-position: 0 -378px;
+  background-position: 0 -604px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8075,7 +8390,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 53.31453%;
+  background-position: 0 51.97935%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 41, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
@@ -8088,10 +8403,10 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 53.31453%; } }
+      background-position: 0 51.97935%; } }
 /* line 54, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .ae-essentials {
-  background-position: 0 -123px;
+  background-position: 0 -349px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8100,13 +8415,13 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 15.4717%;
+  background-position: 0 27.96474%;
   margin-left: 15px;
   min-width: 50px;
   min-height: 50px; }
 /* line 62, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .ae-advanced {
-  background-position: 0 0;
+  background-position: 0 -123px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8115,14 +8430,14 @@ body {
   height: 0;
   padding-bottom: 5.53333%;
   background-size: 425.28736%;
-  background-position: 0 0%;
+  background-position: 0 10.01629%;
   margin-top: -13px;
   margin-left: -5px;
   min-width: 66px;
   min-height: 64px; }
 /* line 71, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .pr-essentials {
-  background-position: 0 -794px;
+  background-position: 0 -1247px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8141,6 +8456,69 @@ body {
   min-width: 36px;
   min-height: 36px; }
 /* line 84, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
+.premiere-pro-advanced-course .ae-essentials-package {
+  background-position: 0 -246px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.84615%;
+  background-size: 569.23077%;
+  background-position: 0 19.71154%;
+  margin-left: 15px;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 92, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
+.premiere-pro-advanced-course .ae-advanced-package {
+  background-position: 0 0;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 0%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 0 4px; }
+/* line 100, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
+.premiere-pro-advanced-course .pr-essentials-package {
+  background-position: 0 -1143px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.92308%;
+  background-size: 569.23077%;
+  background-position: 0 91.65998%;
+  margin: -5px 15px 0px;
+  min-width: 36px;
+  min-height: 36px; }
+/* line 107, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
+.premiere-pro-advanced-course .pr-advanced-package {
+  background-position: 0 -1020px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5.8%;
+  display: block;
+  height: 0;
+  padding-bottom: 5.53333%;
+  background-size: 425.28736%;
+  background-position: 0 83.06189%;
+  margin-top: -9px;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0 12px 10px 3px; }
+/* line 115, ../scss/_custom/training/video-editing/premiere-pro/_premiere-pro-advanced-add-styles.scss */
 .premiere-pro-advanced-course .testimonials {
   height: 75em; }
 /* line 12, ../scss/_custom/components/_btn-shadow.scss */

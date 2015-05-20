@@ -61,7 +61,37 @@ $premiere-pro-category-spacing: 40px;
         min-width: 49px;
         min-height: 48px;    
     } 
-
+.ae-essentials-package {
+        @include premiere-pro-category-sprite(ae-essentials-package);
+        @include responsive-sprite($map, ae-essentials-package, 5%);
+        margin-left: 15px;
+        margin: -5px 15px 0px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+    .ae-advanced-package {
+        @include premiere-pro-category-sprite(ae-advanced-package);
+        @include responsive-sprite($map, ae-advanced-package, 5.8%);
+        margin-top: -9px;
+        min-width: 50px;
+        min-height: 50px;
+        margin: 0 12px 0 4px;
+    }
+  .pr-essentials-package {
+        @include premiere-pro-category-sprite(pr-essentials-package);
+        @include responsive-sprite($map, pr-essentials-package, 5%);
+        margin: -5px 15px 0px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+    .pr-advanced-package {
+        @include premiere-pro-category-sprite(pr-advanced-package);
+        @include responsive-sprite($map, pr-advanced-package, 5.8%);
+        margin-top: -9px;
+        min-width: 50px;
+        min-height: 50px;
+        margin: 0 12px 10px 3px;
+    }
     .package-training-logo {
         margin: -5px 15px 15px;
         min-width: 36px;

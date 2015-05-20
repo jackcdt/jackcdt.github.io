@@ -84,5 +84,36 @@ $after-effects-advanced-spacing: 40px;
     .testimonials {
         height: 76em;
     }
+       .ae-essentials-package {
+        @include after-effects-advanced-sprite(ae-essentials-package);
+        @include responsive-sprite($map, ae-essentials-package, 5%);
+        margin-left: 15px;
+        margin: -5px 15px 0px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+    .ae-advanced-package {
+        @include after-effects-advanced-sprite(ae-advanced-package);
+        @include responsive-sprite($map, ae-advanced-package, 5.8%);
+        margin-top: -9px;
+        min-width: 50px;
+        min-height: 50px;
+        margin: 0 12px 0 4px;
+    }
+  .pr-essentials-package {
+        @include after-effects-advanced-sprite(pr-essentials-package);
+        @include responsive-sprite($map, pr-essentials-package, 5%);
+        margin: -5px 15px 0px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+    .pr-advanced-package {
+        @include after-effects-advanced-sprite(pr-advanced-package);
+        @include responsive-sprite($map, pr-advanced-package, 5.8%);
+        margin-top: -9px;
+        min-width: 50px;
+        min-height: 50px;
+        margin: 0 12px 10px 3px;
+    }
     @include btn-shadow(darken($after-effects-color, 10%));
 }
