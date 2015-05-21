@@ -40,7 +40,13 @@ $captivate-category-spacing: 40px;
         min-width: 52px;
         min-height: 51px;
     }
-
+    .cp-adv-package {
+        @include captivate-category-sprite(cp-adv-package); 
+        @include responsive-sprite($map, cp-adv-package , 5%);
+        margin: -15px 15px 10px 3px;
+        min-width: 50px;
+        min-height: 50px;
+    }
     .cp-whatsnew {
         @include captivate-category-sprite(cp-whatsnew); 
         @include responsive-sprite($map, cp-whatsnew , 5%);

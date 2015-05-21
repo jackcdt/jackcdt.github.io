@@ -8925,14 +8925,14 @@ body {
   position: relative;
   top: 1px; }
 
-/* line 88, training/captivate/captivate-category/*.png */
-.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
-  background-image: url('../images-dist/training/captivate/captivate-category-sd50e1abd6b.png');
+/* line 96, training/captivate/captivate-category/*.png */
+.captivate-category-sprite, .captivate-category .cp-ess, .captivate-category .category-custom-training, .captivate-category .cp-adv, .captivate-category .cp-adv-package, .captivate-category .cp-whatsnew, .captivate-category .ps-essentials, .captivate-category .cap-consult {
+  background-image: url('../images-dist/training/captivate/captivate-category-s4ececb0d93.png');
   background-repeat: no-repeat; }
 
 /* line 11, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-ess {
-  background-position: 0 -302px;
+  background-position: 0 -425px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8941,12 +8941,12 @@ body {
   height: 0;
   padding-bottom: 5.62154%;
   background-size: 569.23077%;
-  background-position: 0 41.82825%;
+  background-position: 0 50.29586%;
   min-width: 56px;
   min-height: 55px; }
 /* line 18, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .category-custom-training {
-  background-position: 0 -533px;
+  background-position: 0 -656px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -8955,7 +8955,7 @@ body {
   height: 0;
   padding-bottom: 40.27027%;
   background-size: 100%;
-  background-position: 0 83.80503%;
+  background-position: 0 86.42951%;
   border: 1px solid #686F74; }
   @media screen and (min-width: 420px) and (max-width: 639px) {
     /* line 18, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
@@ -8968,7 +8968,7 @@ body {
       height: 0;
       padding-bottom: 26.17568%;
       background-size: 100%;
-      background-position: 0 83.80503%; } }
+      background-position: 0 86.42951%; } }
 /* line 30, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-ess-course {
   margin: 2px 0 0 15px;
@@ -8976,6 +8976,21 @@ body {
   min-height: 40px; }
 /* line 36, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-adv {
+  background-position: 0 -302px;
+  /*    $sprite-width: $map-width;
+      $sprite-height: $map-height;
+  */
+  width: 5%;
+  display: block;
+  height: 0;
+  padding-bottom: 4.71591%;
+  background-size: 420.45455%;
+  background-position: 0 36.60606%;
+  margin: -8px 0 0 4px;
+  min-width: 52px;
+  min-height: 51px; }
+/* line 43, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+.captivate-category .cp-adv-package {
   background-position: 0 -179px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
@@ -8985,13 +9000,13 @@ body {
   height: 0;
   padding-bottom: 4.71591%;
   background-size: 420.45455%;
-  background-position: 0 25.49858%;
-  margin: -8px 0 0 4px;
-  min-width: 52px;
-  min-height: 51px; }
-/* line 44, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+  background-position: 0 21.69697%;
+  margin: -15px 15px 10px 3px;
+  min-width: 50px;
+  min-height: 50px; }
+/* line 50, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cp-whatsnew {
-  background-position: 0 -405px;
+  background-position: 0 -528px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9000,13 +9015,13 @@ body {
   height: 0;
   padding-bottom: 4.94382%;
   background-size: 415.73034%;
-  background-position: 0 58.10617%;
+  background-position: 0 64.39024%;
   margin: -7px -7px 0 12px;
   min-width: 54px;
   min-height: 52px; }
-/* line 52, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+/* line 58, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .ps-essentials {
-  background-position: 0 -722px;
+  background-position: 0 -845px;
   /*    $sprite-width: $map-width;
       $sprite-height: $map-height;
   */
@@ -9019,7 +9034,7 @@ body {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 60, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+/* line 66, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .cap-consult {
   background-position: 0 0;
   /*    $sprite-width: $map-width;
@@ -9031,12 +9046,12 @@ body {
   padding-bottom: 71.37838%;
   background-size: 200%;
   background-position: 0 0%; }
-/* line 65, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+/* line 71, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .package-training-logo {
   margin: -5px 15px 15px;
   min-width: 36px;
   min-height: 36px; }
-/* line 70, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
+/* line 76, ../scss/_custom/training/captivate/_captivate-category-add-styles.scss */
 .captivate-category .testimonials {
   height: 32em; }
 
@@ -10434,9 +10449,9 @@ body {
   background-position: 0 100%;
   float: right; }
 
-/* line 136, admin/training-packages/*.png */
-.training-packages-sprite, .training-packages .id-essentials, .training-packages .ps-essentials, .training-packages .il-essentials, .training-packages .ae-essentials, .training-packages .pr-essentials, .training-packages .dps-package, .training-packages .eg-essentials, .training-packages .cp-adv, .training-packages .cp-ess, .training-packages .css3-package, .training-packages .dw-essentials, .training-packages .html5-package {
-  background-image: url('../images-dist/admin/training-packages-sf6734cc984.png');
+/* line 152, admin/training-packages/*.png */
+.training-packages-sprite, .training-packages .id-essentials, .training-packages .ps-essentials, .training-packages .il-essentials, .training-packages .ae-essentials, .training-packages .ae-advanced, .training-packages .pr-essentials, .training-packages .pr-advanced, .training-packages .dps-package, .training-packages .eg-essentials, .training-packages .cp-adv, .training-packages .cp-ess, .training-packages .css3-package, .training-packages .dw-essentials, .training-packages .html5-package {
+  background-image: url('../images-dist/admin/training-packages-sd1f20df8b6.png');
   background-repeat: no-repeat; }
 
 /* line 6, ../scss/_custom/admin/_training-packages-styles.scss */
@@ -10444,7 +10459,7 @@ body {
   /*empty comment*/ }
   /* line 15, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .id-essentials {
-    background-position: 0 -736px;
+    background-position: 0 -859px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10453,13 +10468,13 @@ body {
     height: 0;
     padding-bottom: 5.52813%;
     background-size: 137.5%;
-    background-position: 0 70.36329%;
+    background-position: 0 66.48607%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
   /* line 20, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .ps-essentials {
-    background-position: 0 -1044px;
+    background-position: 0 -1290px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10474,7 +10489,7 @@ body {
     min-height: 25px; }
   /* line 25, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .il-essentials {
-    background-position: 0 -837px;
+    background-position: 0 -960px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10483,12 +10498,27 @@ body {
     height: 0;
     padding-bottom: 5.62154%;
     background-size: 135.38462%;
-    background-position: 0 80.17241%;
+    background-position: 0 74.4186%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
   /* line 30, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .ae-essentials {
+    background-position: 0 -123px;
+    /*    $sprite-width: $map-width;
+        $sprite-height: $map-height;
+    */
+    width: 5.8%;
+    display: block;
+    height: 0;
+    padding-bottom: 5.62154%;
+    background-size: 135.38462%;
+    background-position: 0 9.53488%;
+    margin-top: 3px;
+    min-width: 25px;
+    min-height: 25px; }
+  /* line 35, ../scss/_custom/admin/_training-packages-styles.scss */
+  .training-packages .ae-advanced {
     background-position: 0 0;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
@@ -10496,15 +10526,18 @@ body {
     width: 5.8%;
     display: block;
     height: 0;
-    padding-bottom: 5.62154%;
-    background-size: 135.38462%;
+    padding-bottom: 5.53333%;
+    background-size: 101.14943%;
     background-position: 0 0%;
     margin-top: 3px;
     min-width: 25px;
-    min-height: 25px; }
-  /* line 35, ../scss/_custom/admin/_training-packages-styles.scss */
+    min-height: 25px;
+    min-width: 36px;
+    min-height: 36px;
+    margin-left: -9px; }
+  /* line 43, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .pr-essentials {
-    background-position: 0 -940px;
+    background-position: 0 -1186px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10513,13 +10546,31 @@ body {
     height: 0;
     padding-bottom: 5.71077%;
     background-size: 135.38462%;
-    background-position: 0 90.12464%;
+    background-position: 0 92.00931%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
-  /* line 40, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 48, ../scss/_custom/admin/_training-packages-styles.scss */
+  .training-packages .pr-advanced {
+    background-position: 0 -1063px;
+    /*    $sprite-width: $map-width;
+        $sprite-height: $map-height;
+    */
+    width: 5.8%;
+    display: block;
+    height: 0;
+    padding-bottom: 5.53333%;
+    background-size: 101.14943%;
+    background-position: 0 83.70079%;
+    margin-top: 3px;
+    min-width: 25px;
+    min-height: 25px;
+    min-width: 36px;
+    min-height: 36px;
+    margin-left: -9px; }
+  /* line 56, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .dps-package {
-    background-position: 0 -399px;
+    background-position: 0 -522px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10528,13 +10579,13 @@ body {
     height: 0;
     padding-bottom: 5.59286%;
     background-size: 314.28571%;
-    background-position: 0 36.94444%;
+    background-position: 0 39.36652%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
-  /* line 45, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 61, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .eg-essentials {
-    background-position: 0 -570px;
+    background-position: 0 -693px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10543,13 +10594,13 @@ body {
     height: 0;
     padding-bottom: 5.69825%;
     background-size: 154.38596%;
-    background-position: 0 54.23406%;
+    background-position: 0 53.43099%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
-  /* line 50, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 66, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .cp-adv {
-    background-position: 0 -103px;
+    background-position: 0 -226px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10558,13 +10609,13 @@ body {
     height: 0;
     padding-bottom: 5.47045%;
     background-size: 100%;
-    background-position: 0 10.05859%;
+    background-position: 0 17.79528%;
     margin: -8px 0 0 4px;
     min-width: 52px;
     min-height: 51px; }
-  /* line 57, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 73, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .cp-ess {
-    background-position: 0 -226px;
+    background-position: 0 -349px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10573,13 +10624,31 @@ body {
     height: 0;
     padding-bottom: 5.62154%;
     background-size: 135.38462%;
-    background-position: 0 21.64751%;
+    background-position: 0 27.05426%;
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
-  /* line 62, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 78, ../scss/_custom/admin/_training-packages-styles.scss */
+  .training-packages .cp-adv {
+    background-position: 0 -226px;
+    /*    $sprite-width: $map-width;
+        $sprite-height: $map-height;
+    */
+    width: 5.8%;
+    display: block;
+    height: 0;
+    padding-bottom: 5.47045%;
+    background-size: 100%;
+    background-position: 0 17.79528%;
+    margin-top: 3px;
+    min-width: 25px;
+    min-height: 25px;
+    min-width: 36px;
+    min-height: 36px;
+    margin-left: -9px; }
+  /* line 86, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .ps-essentials {
-    background-position: 0 -1044px;
+    background-position: 0 -1290px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10592,9 +10661,9 @@ body {
     margin-top: 3px;
     min-width: 25px;
     min-height: 25px; }
-  /* line 72, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 96, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .css3-package {
-    background-position: 0 -329px;
+    background-position: 0 -452px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10603,12 +10672,12 @@ body {
     height: 0;
     padding-bottom: 8.28571%;
     background-size: 419.04762%;
-    background-position: 0 30.54782%;
+    background-position: 0 34.16478%;
     min-width: 25px;
     min-height: 34px; }
-  /* line 77, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 101, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .dw-essentials {
-    background-position: 0 -466px;
+    background-position: 0 -589px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10617,12 +10686,12 @@ body {
     height: 0;
     padding-bottom: 5.71077%;
     background-size: 135.38462%;
-    background-position: 0 44.67881%;
+    background-position: 0 45.69434%;
     min-width: 25px;
     min-height: 34px; }
-  /* line 82, ../scss/_custom/admin/_training-packages-styles.scss */
+  /* line 106, ../scss/_custom/admin/_training-packages-styles.scss */
   .training-packages .html5-package {
-    background-position: 0 -666px;
+    background-position: 0 -789px;
     /*    $sprite-width: $map-width;
         $sprite-height: $map-height;
     */
@@ -10631,7 +10700,7 @@ body {
     height: 0;
     padding-bottom: 7.90909%;
     background-size: 400%;
-    background-position: 0 61.83844%;
+    background-position: 0 59.63719%;
     min-width: 25px;
     min-height: 34px; }
 

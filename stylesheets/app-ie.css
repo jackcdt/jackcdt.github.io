@@ -8221,14 +8221,15 @@ body > div.mega-menu > div > div > ul > li > a > p.two-line-menu {
 /* line 68, ../scss/_custom/admin/_training-packages.scss */
 .cs-text {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding-top: 5px; }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 73, ../scss/_custom/admin/_training-packages.scss */
+  /* line 74, ../scss/_custom/admin/_training-packages.scss */
   .cs-text {
     padding-left: 10px; } }
 @media only screen and (max-width: 40em) {
-  /* line 80, ../scss/_custom/admin/_training-packages.scss */
+  /* line 81, ../scss/_custom/admin/_training-packages.scss */
   .cs-text {
     padding-left: 5px; } }
 /* line 4, ../scss/_custom/admin/_room-hire.scss */

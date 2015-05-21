@@ -32,10 +32,26 @@ $training-packages-spacing: 40px;
         @include responsive-sprite($map, ae-essentials, 5.8%);
         @include package-training-logo;
     }
+    .ae-advanced {
+        @include training-packages-sprite(ae-advanced);
+        @include responsive-sprite($map, ae-advanced, 5.8%);
+        @include package-training-logo;
+          min-width: 36px;
+  min-height: 36px;
+  margin-left: -9px;
+    }
     .pr-essentials {
         @include training-packages-sprite(pr-essentials);
         @include responsive-sprite($map, pr-essentials, 5.8%);
         @include package-training-logo;
+    }
+    .pr-advanced {
+        @include training-packages-sprite(pr-advanced);
+        @include responsive-sprite($map, pr-advanced, 5.8%);
+        @include package-training-logo;
+          min-width: 36px;
+  min-height: 36px;
+  margin-left: -9px;
     }
     .dps-package {
         @include training-packages-sprite(dps-package);
@@ -58,6 +74,14 @@ $training-packages-spacing: 40px;
         @include training-packages-sprite(cp-ess);
         @include responsive-sprite($map, cp-ess, 5.8%);
         @include package-training-logo;
+    }
+    .cp-adv {
+        @include training-packages-sprite(cp-adv);
+        @include responsive-sprite($map, cp-adv, 5.8%);
+        @include package-training-logo;
+          min-width: 36px;
+  min-height: 36px;
+  margin-left: -9px;
     }
     .ps-essentials {
         @include training-packages-sprite(ps-essentials);
