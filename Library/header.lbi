@@ -130,8 +130,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <li class="menu-list" aria-haspopup="true"><span class="menu-item">About&nbsp;&nbsp;&#9662;</span>
                     
-                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
-                            
+                        <ul class="drop-down one-column hover-fade">
+                            <!-- drop down with one column -->
+
                             <ul>
                                 <li><a href="/training/training-benefits.html">Why Train With Us</a>
                                 </li>
@@ -139,8 +140,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </li>
                                 <li><a href="/computer-training-room-hire.html">Computer Room Hire</a>
                                 </li>
-                                <li><a href="/training/contact.html">Contact Us</a>
-                                </li> 
+                                <li><a>Resources&nbsp;&nbsp;<small>&#9654;</small></a>
+
+                                    <ul class="drop-down one-column hover-fade">
+                                        <!-- drop down with one column -->
+
+                                        <ul>
+                                            <li><a href="/tips/adobe-software-getting-started.html">Adobe Software Versions</a>
+                                            </li>
+                                            <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing</a>
+                                            </li>
+                                            <li><a href="/tips/digital-publishing-getting-started.html">Digital Publishing | DPS</a>
+                                            </li>
+                                            <li><a href="/digital-publishing-courses.html">PDF, App or eBook?</a>
+                                            </li>
+                                            <li><a href="/web-design-courses.html">Web Design</a>
+                                            </li>
+                                        </ul>
+
+                                    </ul>
+
+                                </li>
                                 <!--<li><a>Testimonials</a>
                                 </li>
                                 <li><a>Refreshers</a>
@@ -148,7 +168,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <li><a>Support</a>
                                 </li>-->
                             </ul>
-                            
+
                         </ul>
                     
                     </li>
@@ -180,27 +200,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     
                     </li>
-
-
-                    <li class="menu-list" aria-haspopup="true"><span class="menu-item">Resources&nbsp;&nbsp;&#9662;</span>
-                    
-                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
-                            
-                            <ul>
-                                <li><a href="/tips/adobe-software-getting-started.html">Adobe Software Versions</a>
-                                </li>
-                                <li><a href="/desktop-publishing-design-courses.html">Desktop Publishing</a>
-                                </li>
-                                <li><a href="/tips/digital-publishing-getting-started.html">Digital Publishing | DPS</a>
-                                </li>
-                                <li><a href="/digital-publishing-courses.html">PDF, App or eBook?</a>
-                                </li>
-                                <li><a href="/web-design-courses.html">Web Design</a>
-                                </li>
-                            </ul>
-                
-                        </ul>
-                    
+                    <li><a href="/training/contact.html">Contact</a>
                     </li>
                     <li><div class="addthis_horizontal_follow_toolbox"></div></li>
                     <li class="pnone-number"> <a href="tel:1300441891">1300 441 891</a> </li>
