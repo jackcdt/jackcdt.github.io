@@ -293,15 +293,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
             <div class="row">
-                <ul class="custom-breadcrumbs">
-                    <li>
-                        <a href="http://www.cd.com.au/">Home</a>
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li>
-                        <a href="/digital-publishing-training.html">Adobe Digital Publishing Courses</a>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au/digital-publishing-training.html" itemprop="item">
+                            <span itemprop="name">Adobe Digital Publishing Courses</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
                     </li>
-                    <li>
-                        <span class="breadcrumb-active">DPS Single App Publishing</span>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">DPS Single App Publishing</span>
+                        <meta itemprop="position" content="3" />
                     </li>
                 </ul>
             </div>

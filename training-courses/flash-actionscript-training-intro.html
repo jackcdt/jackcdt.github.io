@@ -293,22 +293,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
             <div class="row">
-            <ul class="custom-breadcrumbs">
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="http://www.cd.com.au" itemprop="url">
-            <span itemprop="title">Home</span>
-        </a>
-    </li>
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="/flash-courses.html" itemprop="url">
-            <span itemprop="title">Adobe Flash Courses</span>
-        </a>
-    </li>
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <meta content="http://www.cd.com.au/training-courses/flash-actionscript-training-intro.html" itemprop="url"></meta>
-        <span class="breadcrumb-active" itemprop="title">Flash ActionScript</span>
-    </li>
-</ul>
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au/flash-courses.html" itemprop="item">
+                            <span itemprop="name">Adobe Flash Courses</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
+                    </li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="http://www.cd.com.au/training-courses/flash-actionscript-training-intro.html" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">Flash ActionScript</span>
+                        <meta itemprop="position" content="3" />
+                    </li>
+                </ul>
             </div>
             <div class="row">
                 <div class="small-12 columns page-content-header">

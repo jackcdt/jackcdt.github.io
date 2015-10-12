@@ -280,15 +280,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
                 <div class="gradient-top"></div>
-                <div class="row calendar-breadcrumbs">
-                    <ul class="custom-breadcrumbs">
-                        <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://www.cd.com.au" itemprop="url"><span itemprop="title">Home</span></a>
-                        </li>
-                        <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                            <meta href="http://www.cd.com.au/calendar.html" itemprop="url"><span class="breadcrumb-active" itemprop="title">Calendar</span>
-                        </li>
-                    </ul>
-                </div>
+
+                <div class="row calendar-breadcrumbs" >
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="http://www.cd.com.au/calendar.html" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">Calendar</span>
+                        <meta itemprop="position" content="2" />
+                    </li>
+                </ul>
+            </div>
                 <div class="row">
                     <div class="small-12 columns">
                         <h1>Scheduled Course Dates</h1>

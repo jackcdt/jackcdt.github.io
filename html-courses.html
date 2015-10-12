@@ -297,15 +297,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
             <div class="row">
-                <ul class="custom-breadcrumbs">
-                    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <a href="http://www.cd.com.au" itemprop="url">
-                            <span itemprop="title">Home</span>
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
                         </a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <meta content="http://www.cd.com.au/html-courses.html" itemprop="url"></meta>
-                        <span class="breadcrumb-active" itemprop="title">HTML &amp; CSS Courses</span>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="http://www.cd.com.au/html-courses.html" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">HTML &amp; CSS Courses</span>
+                        <meta itemprop="position" content="2" />
                     </li>
                 </ul>
             </div>

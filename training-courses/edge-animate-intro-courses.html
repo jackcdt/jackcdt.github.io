@@ -293,22 +293,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
             <div class="row">
-            <ul class="custom-breadcrumbs">
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="http://www.cd.com.au" itemprop="url">
-            <span itemprop="title">Home</span>
-        </a>
-    </li>
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href="/edge-animate-training.html" itemprop="url">
-            <span itemprop="title">Adobe Edge Animate Courses</span>
-        </a>
-    </li>
-    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-        <meta content="http://www.cd.com.au/training-courses/edge-animate-intro-courses.html" itemprop="url"></meta>
-        <span class="breadcrumb-active" itemprop="title">Edge Animate Essentials</span>
-    </li>
-</ul>
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au/edge-animate-training.html" itemprop="item">
+                            <span itemprop="name">Adobe Edge Animate Courses</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
+                    </li>
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="http://www.cd.com.au/training-courses/edge-animate-intro-courses.html" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">Edge Animate Essentials</span>
+                        <meta itemprop="position" content="3" />
+                    </li>
+                </ul>
             </div>
             <div class="row">
                 <div class="small-12 columns page-content-header">

@@ -312,16 +312,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
             <div class="gradient-top"></div>
-            <div class="row cdt-custom-training-breadcrumbs">
-                <ul class="custom-breadcrumbs">
-                    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <a href="http://www.cd.com.au" itemprop="url">
-                            <span itemprop="title">Home</span>
+            <div class="row custom-training-breadcrumbs">
+                <ul class="custom-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="http://www.cd.com.au" itemprop="item">
+                            <span itemprop="name">Home</span>
                         </a>
+                        <meta itemprop="position" content="1" />
                     </li>
-                    <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-                        <meta content="http://www.cd.com.au/training/custom-training.html" itemprop="url"></meta>
-                        <span class="breadcrumb-active" itemprop="title">Custom Training</span>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <meta content="http://www.cd.com.au/training/custom-training.html" itemprop="item"></meta>
+                        <span class="breadcrumb-active" itemprop="name">Custom Training</span>
+                        <meta itemprop="position" content="2" />
                     </li>
                 </ul>
             </div>
