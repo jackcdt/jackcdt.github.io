@@ -183,24 +183,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <li><a href="/calendar.html"><p class="two-line-menu">Course</p><p>Dates</p></a>
                     </li>
 
-                    <li> <a href="/training/locations.html">Locations</a> 
-                    
-                        <ul class="drop-down one-column hover-fade">       <!-- drop down with one column -->
-                            
-                            <ul>
-                                <li><a href="/training/locations.html#sydney-map">Sydney | 60 York St</a>
-                                </li>
-                                <li><a href="/training/locations.html#melbourne-map">Melbourne | 20 Queen St</a>
-                                </li> 
-                                <li><a href="/training/locations.html#brisbane-map">Brisbane | 320 Adelaide St</a>
-                                </li>
-                                <li><a href="/training/locations.html#canberra-map">Canberra | 33 Ainslie Pl</a>
-                                </li>
-                            </ul>
-                            
-                        </ul>
-                    
-                    </li>
+                    <li> <a href="/training/locations.html">Locations</a></li>
                     <li><a href="/training/contact.html">Contact</a>
                     </li>
                     <li><div class="addthis_horizontal_follow_toolbox"></div></li>
