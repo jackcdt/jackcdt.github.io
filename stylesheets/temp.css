@@ -1,3 +1,80 @@
+.web-courses a {
+    color: #6092CF;
+    text-decoration: underline;
+}
+.html-css-category .course-item .course-item-info {
+	width: 110px;
+}
+.web-courses .custom-training {
+    text-align: center;
+}
+.web-courses .custom-training .tws-intro {
+background-color: #6092CF;
+    color: white;
+    padding: 10px 10px 1px 10px;
+        margin-top: 15px;
+}
+
+.web-courses .custom-training .tws-intro p {
+text-align: center;
+    Line-height: 1.5em;
+    font-weight: 500;
+}
+
+.web-courses .custom-training .tws-intro p a {
+color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.html-css-category .course-item .course-item-info {
+    width: 100%;
+    background-color: #6092CF;
+}
+.dreamweaver-category .course-item .course-item-info {
+        width: 100%;
+    background-color: #6092CF;
+}
+.wordpress-category .course-item .course-item-info {
+        width: 100%;
+    background-color: #6092CF;
+}
+.javascript-jquery-category .course-item .course-item-info {
+        width: 100%;
+    background-color: #6092CF;
+}
+.edge-animate-category .course-item .course-item-info {
+        width: 100%;
+    background-color: #6092CF;
+}
+.web-courses .testimonials{
+    height: auto !important;
+    padding-left: 8px;
+    margin-top: 18px;
+}
+.web-courses .tws-book {
+    text-align: center;
+    color: #6092CF;
+    line-height: 1.4em;
+        font-weight: 500;
+}
+.web-courses .course-outline {
+    border-right: 0px;
+}
+
+.tws-test {
+    border-top: 1px solid gray;
+    margin-top: 15px;
+}
+.web-courses .tws-test  .testimonials{
+    height: auto !important;
+    padding-left: 8px;
+    margin-top: 0px;
+}
+.course-outline .tws-test .course-header-1 {
+    padding-top: 20px;
+}
+
 
     @media only screen and (max-width: 40em) { 
          .contact-banner { 
