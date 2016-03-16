@@ -9,16 +9,16 @@
         <div class="columns large-12">
             <div id="catCartDetails">
                 <script type="text/javascript">
-                $(function() {
-                    // redirect to non-secure version of page
-                    $("a").each(function(idx) {
-                        var href = $(this).attr("href");
-                        if (href.indexOf("http") == -1 && href.indexOf("https") == -1) {
-                            href = 'http://www.cd.com.au/' + href;
-                            $(this).attr("href", href);
-                        }
+                    $(function () {
+                        // redirect to non-secure version of page
+                        $("a").each(function (idx) {
+                            var href = $(this).attr("href");
+                            if (href.indexOf("http") == -1 && href.indexOf("https") == -1) {
+                                href = 'http://www.cd.com.au/' + href;
+                                $(this).attr("href", href);
+                            }
+                        });
                     });
-                });
                 </script>
                 <div class="shop-checkout shop-form">
                     <div id="payment-form">
@@ -200,13 +200,13 @@
                                                         <option value="12">Dec</option>
                                                     </select>
                                                     <select name="CardExpiryYear" id="CardExpiryYear" class="cat_dropdown_smaller">
-                                                        <option selected="true" value="2013">2013</option>
-                                                        <option value="2014">2014</option>
-                                                        <option value="2015">2015</option>
-                                                        <option value="2016">2016</option>
+                                                        <option selected="true" value="2016">2016</option>
                                                         <option value="2017">2017</option>
                                                         <option value="2018">2018</option>
                                                         <option value="2019">2019</option>
+                                                        <option value="2014">2020</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
                                                     </select>
                                                 </div>
                                                 <div class="item">
@@ -256,11 +256,11 @@
                 <script language="javascript" type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
                 <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script>
                 <script language="javascript" type="text/javascript">
-                //<![CDATA[
-                var submitcount86502 = 0,
-                    orderAmount;
+                    //<![CDATA[
+                    var submitcount86502 = 0,
+                        orderAmount;
 
-                function checkWholeForm86502(theForm) {
+                    function checkWholeForm86502(theForm) {
                         var why = "";
                         if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name");
                         if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name");
@@ -299,39 +299,39 @@
                     }
                     // Credit Card info is not required if paying by PayPal, Hosted Credit Card, COD etc
                     // In case of credit card failures
-                function removeSurcharge() {
-                    jQuery.ajax({
-                        type: "POST",
-                        url: "/OrderRetrievev2.aspx"
-                    }).done(function(response) {
-                        var cartData = jQuery(response).find("#Shopping-Cart"),
-                            surchargeApplied = false,
-                            surchargeIndex = 0;
-                        cartData.find(".product-codes .productitemcell").each(function(index, element) {
-                            var pc = jQuery(element);
-                            if (pc.text().toLowerCase() == "ccsurcharge") {
-                                surchargeApplied = true;
-                                surchargeIndex = index;
-                                return false;
+                    function removeSurcharge() {
+                        jQuery.ajax({
+                            type: "POST",
+                            url: "/OrderRetrievev2.aspx"
+                        }).done(function (response) {
+                            var cartData = jQuery(response).find("#Shopping-Cart"),
+                                surchargeApplied = false,
+                                surchargeIndex = 0;
+                            cartData.find(".product-codes .productitemcell").each(function (index, element) {
+                                var pc = jQuery(element);
+                                if (pc.text().toLowerCase() == "ccsurcharge") {
+                                    surchargeApplied = true;
+                                    surchargeIndex = index;
+                                    return false;
+                                }
+                            });
+                            if (surchargeApplied) {
+                                var removalLink = cartData.find(".removal-links").find(".productitemcell:eq(" + surchargeIndex + ")").find("a").attr("onclick");
+                                removalLink = removalLink.split(";");
+                                jQuery("#catCartDetails").hide();
+                                var remove = eval(removalLink[0]);
+                                document.location = "/OrderRetrievev2.aspx?Step=13";
                             }
                         });
-                        if (surchargeApplied) {
-                            var removalLink = cartData.find(".removal-links").find(".productitemcell:eq(" + surchargeIndex + ")").find("a").attr("onclick");
-                            removalLink = removalLink.split(";");
-                            jQuery("#catCartDetails").hide();
-                            var remove = eval(removalLink[0]);
-                            document.location = "/OrderRetrievev2.aspx?Step=13";
-                        }
-                    });
-                }
+                    }
 
-                function addSurcharge() {
-                    var checkoutForm = jQuery("#Checkout-Form"),
-                        cardType = checkoutForm.find("#CardType").val(),
-                        surchargeRate = 0,
-                        surchargeRateDescription = "";
-                    if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
-                        switch (cardType) {
+                    function addSurcharge() {
+                        var checkoutForm = jQuery("#Checkout-Form"),
+                            cardType = checkoutForm.find("#CardType").val(),
+                            surchargeRate = 0,
+                            surchargeRateDescription = "";
+                        if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
+                            switch (cardType) {
                             case "1":
                             case "2":
                                 surchargeRate = 0.015;
@@ -344,24 +344,24 @@
                             default:
                                 surchargeRate = 0;
                                 break;
+                            }
+                        }
+                        var surchargeQty = (orderAmount * surchargeRate) * 100;
+                        if (surchargeQty > 0) {
+                            jQuery("#Units_9361835").val(surchargeQty.toFixed(0));
+                            jQuery("#catProdInstructions_9361835").val(checkoutForm.find("#CardType option:selected").text() + " " + surchargeRateDescription);
+                            window.alert = function () {};
+                            AddToCart(193795, 9361835, '', 3, '', '', false);
+                            //checkoutForm.find("#Amount").val((amount + (surchargeQty / 100)).toFixed(2));
                         }
                     }
-                    var surchargeQty = (orderAmount * surchargeRate) * 100;
-                    if (surchargeQty > 0) {
-                        jQuery("#Units_9361835").val(surchargeQty.toFixed(0));
-                        jQuery("#catProdInstructions_9361835").val(checkoutForm.find("#CardType option:selected").text() + " " + surchargeRateDescription);
-                        window.alert = function() {};
-                        AddToCart(193795, 9361835, '', 3, '', '', false);
-                        //checkoutForm.find("#Amount").val((amount + (surchargeQty / 100)).toFixed(2));
-                    }
-                }
 
-                function displaySurcharge() {
-                    var checkoutForm = jQuery("#Checkout-Form"),
-                        cardType = checkoutForm.find("#CardType").val(),
-                        surchargeRate = 0;
-                    if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
-                        switch (cardType) {
+                    function displaySurcharge() {
+                        var checkoutForm = jQuery("#Checkout-Form"),
+                            cardType = checkoutForm.find("#CardType").val(),
+                            surchargeRate = 0;
+                        if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
+                            switch (cardType) {
                             case "1":
                             case "2":
                                 surchargeRate = 0.015;
@@ -372,50 +372,50 @@
                             default:
                                 surchargeRate = 0;
                                 break;
+                            }
                         }
+                        var surchargeTotal = (orderAmount + (orderAmount * surchargeRate)) * 1.1;
+                        checkoutForm.find("#Amount").val(surchargeTotal.toFixed(2));
                     }
-                    var surchargeTotal = (orderAmount + (orderAmount * surchargeRate)) * 1.1;
-                    checkoutForm.find("#Amount").val(surchargeTotal.toFixed(2));
-                }
-                $(document).ready(function() {
-                    removeSurcharge();
-                    orderAmount = Number(jQuery("#Checkout-Form").find("#Amount").val() / 1.1);
-                    displaySurcharge();
-                    $("#paymentdiv").hide();
-                    $("#cheque_deposit").hide();
-                    $("#invoice").show();
-                    $("input[name$='PaymentMethodType']").click(function() {
-                        var radio_value = $(this).val();
-                        if (radio_value == '1') {
-                            $("#paymentdiv").show("slow");
-                            $("#cheque_deposit").hide("fast");
-                            $("#invoice").hide("fast");
-                        } else if (radio_value == '3') {
-                            $("#cheque_deposit").show("slow");
-                            $("#paymentdiv").hide("fast");
-                            $("#invoice").hide("fast");
-                        } else if (radio_value == '4') {
-                            $("#invoice").show("slow");
-                            $("#paymentdiv").hide("fast");
-                            $("#cheque_deposit").hide("fast");
-                        }
+                    $(document).ready(function () {
+                        removeSurcharge();
+                        orderAmount = Number(jQuery("#Checkout-Form").find("#Amount").val() / 1.1);
                         displaySurcharge();
+                        $("#paymentdiv").hide();
+                        $("#cheque_deposit").hide();
+                        $("#invoice").show();
+                        $("input[name$='PaymentMethodType']").click(function () {
+                            var radio_value = $(this).val();
+                            if (radio_value == '1') {
+                                $("#paymentdiv").show("slow");
+                                $("#cheque_deposit").hide("fast");
+                                $("#invoice").hide("fast");
+                            } else if (radio_value == '3') {
+                                $("#cheque_deposit").show("slow");
+                                $("#paymentdiv").hide("fast");
+                                $("#invoice").hide("fast");
+                            } else if (radio_value == '4') {
+                                $("#invoice").show("slow");
+                                $("#paymentdiv").hide("fast");
+                                $("#cheque_deposit").hide("fast");
+                            }
+                            displaySurcharge();
+                        });
+                        jQuery("#CardType").change(function () {
+                            displaySurcharge();
+                        });
                     });
-                    jQuery("#CardType").change(function() {
-                        displaySurcharge();
-                    });
-                });
                 </script>
                 <!-- Google Code for landing Conversion Page -->
                 <script type="text/javascript">
-                /* <![CDATA[ */
-                var google_conversion_id = 1058006926;
-                var google_conversion_language = "en";
-                var google_conversion_format = "2";
-                var google_conversion_color = "ffffff";
-                var google_conversion_label = "5zLGCPup5FYQjs-_-AM";
-                var google_remarketing_only = false;
-                /* ]]> */
+                    /* <![CDATA[ */
+                    var google_conversion_id = 1058006926;
+                    var google_conversion_language = "en";
+                    var google_conversion_format = "2";
+                    var google_conversion_color = "ffffff";
+                    var google_conversion_label = "5zLGCPup5FYQjs-_-AM";
+                    var google_remarketing_only = false;
+                    /* ]]> */
                 </script>
                 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
                 </script>

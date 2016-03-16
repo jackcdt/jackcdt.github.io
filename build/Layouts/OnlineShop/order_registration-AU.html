@@ -1,18 +1,18 @@
-<div class="shop-checkout shop-form wrapper"><div class="row pad-btm"><div class="column large-12"><h1 class="ptitle left">Check Out</h1><div class="breadcrumb right">{module_shoppingcartsummary}</div></div></div><div class="row pad-btm"><div class="columns large-12"><div id="catCartDetails"><script type="text/javascript">$(function() {
-                    // redirect to non-secure version of page
-                    $("a").each(function(idx) {
-                        var href = $(this).attr("href");
-                        if (href.indexOf("http") == -1 && href.indexOf("https") == -1) {
-                            href = 'http://www.cd.com.au/' + href;
-                            $(this).attr("href", href);
-                        }
-                    });
-                });</script><div class="shop-checkout shop-form"><div id="payment-form"><form id="Checkout-Form" name="catwebformform86502" method="post" onsubmit="return checkWholeForm86502(this)" enctype="multipart/form-data" action="https://cdtraining.worldsecuresystems.com/FormProcessv2.aspx?WebFormID=10850&amp;OID={module_oid}&amp;OTYPE={module_otype}&amp;EID={module_eid}&amp;CID={module_cid}&amp;CC={module_urlcountrycode}&amp;Referrer={module_siteurl,true,true}"><fieldset><div class="row"><div class="columns large-4"><legend>Contact Information</legend><p>We require an email address and phone number so we can communicate with you about your order. We never share this information with anyone else. <a href="/website/privacy">Privacy Policy</a></p></div><div class="columns large-8"><table cellspacing="0" cellpadding="2" border="0" class="webform"><tbody><tr><td colspan="2"><label for="FirstName">First Name</label><input type="text" maxlength="255" class="cat_textbox" id="FirstName" name="FirstName"></td><td colspan="2"><label for="LastName">Last Name</label><input type="text" maxlength="255" class="cat_textbox" id="LastName" name="LastName"></td></tr><tr><td colspan="2"><label for="EmailAddress">Email Address</label><input type="text" maxlength="255" class="cat_textbox" id="EmailAddress" name="EmailAddress"></td><td colspan="2"><label for="WorkPhone">Phone Number</label><input type="text" maxlength="255" class="cat_textbox" id="WorkPhone" name="WorkPhone"></td></tr><tr><td colspan="2"><label for="Company">Company</label><input type="text" maxlength="255" class="cat_textbox" id="Company" name="Company"></td><td colspan="2"></td></tr></tbody></table></div></div></fieldset><fieldset><div class="row"><div class="columns large-4"><legend>Billing Address</legend><p>Your billing address must match the address on your credit card statement or your credit card may be declined.</p></div><div class="columns large-8"><table cellspacing="0" cellpadding="2" border="0" class="webform shipping-address"><tbody><tr><td colspan="4"><label for="WorkAddress">Street Address</label><input type="text" maxlength="500" class="cat_textbox long" id="WorkAddress" name="WorkAddress"></td></tr><tr><td colspan="2"><label for="WorkCity">City</label><input type="text" maxlength="255" class="cat_textbox" id="WorkCity" name="WorkCity"></td><td><label for="WorkState">State</label><input type="text" maxlength="255" class="cat_textbox short" id="WorkState" name="WorkState"></td><td><label for="WorkZip">Postcode</label><input type="text" maxlength="255" class="cat_textbox short" id="WorkZip" name="WorkZip"></td></tr></tbody></table></div></div></fieldset><fieldset><div class="row"><div class="columns large-4"><legend>Payment Information</legend><p>We absolutely guarantee that your order will be transmitted securely. All transaction are processed and transmitted securely using SSL encryption signed by a GlobalSign 128-bit certificate.</p><table><tbody><tr><td><table width="130" cellspacing="0" cellpadding="0" border="0" style="float: left" class="section-check" title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information."><tbody><tr><td><span id="ss_img_wrapper_130-65_image_en"><a title="SSL" target="_blank" href="http://www.globalsign.com/ssl/"><img style="border-width: 0px; border-style: solid" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_130-65_en.gif" id="ss_img" alt="Buy SSL Certificate"></a></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gs_image_130-65_en.js"></script><a style="color: rgb(0, 0, 0); text-decoration: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 8px; font-family: arial; margin: 0px; padding: 0px" target="_blank" href="http://www.globalsign.com/ssl-information-center/">SSL CERTIFICATES - Get Info</a></td></tr></tbody></table></td></tr></tbody></table></div><div class="form-col columns large-8"><h4>Payment Options</h4><div class="payment"><div class="item payment-type columns small-12"><input type="radio" name="PaymentMethodType" value="4" class="PaymentMethodType" checked="true" id="invoice"><label for="invoice">Request Invoice (&amp; pay later)</label><input type="radio" name="PaymentMethodType" value="3" class="PaymentMethodType" id="deposit"><label for="deposit">Bank Deposit/Cheque</label><input type="radio" name="PaymentMethodType" value="1" class="PaymentMethodType" id="credit"><label for="credit">Credit Card</label></div><div id="cheque_deposit"><p>Bank Deposit:<br>Bank Name: Westpac Bank<br>Bank Branch: Castlereagh Street, Sydney NSW<br>Account Name: City Desktop Training Pty Ltd<br>BSB: 032006<br>Account Number: 327473<br><br>If paying by cheque please make your cheque payable to City Desktop Training.<br>Please provide details of the course.<br>Please post your cheque to<br>City Desktop Training,<br>PO Box Q336,<br>QUEEN VICTORIA BUILDING,<br>NSW, 1230.<br>-------------------------------------------------<br>A tax invoice / confirmation will be sent.<br>-------------------------------------------------</p></div><div id="invoice"><p>We will send a Tax Invoice and payment information to the address you have entered.</p></div><div id="paymentdiv"><div class="item credit-icons"><img width="51" height="32" src="../../images-dist/shopping-cart/mastercard.png" alt="mastercard"> <img width="51" height="32" src="../../images-dist/shopping-cart/visa.png" alt="visa"> <img width="51" height="32" src="../../images-dist/shopping-cart/american-express.png" alt="amex"><br><span class="surcharge-info">Please note that there is a 1.5% surcharge for MasterCard &amp; Visa and 3% for Amex payments.</span></div><div class="item"><label>Name on Card</label><input type="text" name="CardName" id="CardName" class="cat_textbox"></div><div class="item"><label>Card Number</label><input type="text" name="CardNumber" id="CardNumber" class="cat_textbox"></div><div class="item"><label>Card Expiry</label><select name="CardExpiryMonth" id="CardExpiryMonth" class="cat_dropdown_smaller"><option selected="true" value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select><select name="CardExpiryYear" id="CardExpiryYear" class="cat_dropdown_smaller"><option selected="true" value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option></select></div><div class="item"><label>Card Type</label><select name="CardType" id="CardType" class="cat_dropdown"><option value="1">Visa</option><option value="2">MasterCard</option><option value="4">American Express</option></select></div><div class="item"><label>CCV Number</label><input type="text" name="CardCCV" id="CardCCV" class="cat_textbox"></div></div><div class="item"><label>Amount (Including any surcharges)</label><input type="text" name="Amount" id="Amount" class="cat_textbox"></div><div class="item"><label>Enter Verification Code <span class="req">*</span></label><br>{module_captchav2}</div><div class="item"><input type="checkbox" name="CAT_Custom_303342" id="CAT_Custom_303342_0" value="I have read understood and accept the
+<div class="shop-checkout shop-form wrapper"><div class="row pad-btm"><div class="column large-12"><h1 class="ptitle left">Check Out</h1><div class="breadcrumb right">{module_shoppingcartsummary}</div></div></div><div class="row pad-btm"><div class="columns large-12"><div id="catCartDetails"><script type="text/javascript">$(function () {
+                        // redirect to non-secure version of page
+                        $("a").each(function (idx) {
+                            var href = $(this).attr("href");
+                            if (href.indexOf("http") == -1 && href.indexOf("https") == -1) {
+                                href = 'http://www.cd.com.au/' + href;
+                                $(this).attr("href", href);
+                            }
+                        });
+                    });</script><div class="shop-checkout shop-form"><div id="payment-form"><form id="Checkout-Form" name="catwebformform86502" method="post" onsubmit="return checkWholeForm86502(this)" enctype="multipart/form-data" action="https://cdtraining.worldsecuresystems.com/FormProcessv2.aspx?WebFormID=10850&amp;OID={module_oid}&amp;OTYPE={module_otype}&amp;EID={module_eid}&amp;CID={module_cid}&amp;CC={module_urlcountrycode}&amp;Referrer={module_siteurl,true,true}"><fieldset><div class="row"><div class="columns large-4"><legend>Contact Information</legend><p>We require an email address and phone number so we can communicate with you about your order. We never share this information with anyone else. <a href="/website/privacy">Privacy Policy</a></p></div><div class="columns large-8"><table cellspacing="0" cellpadding="2" border="0" class="webform"><tbody><tr><td colspan="2"><label for="FirstName">First Name</label><input type="text" maxlength="255" class="cat_textbox" id="FirstName" name="FirstName"></td><td colspan="2"><label for="LastName">Last Name</label><input type="text" maxlength="255" class="cat_textbox" id="LastName" name="LastName"></td></tr><tr><td colspan="2"><label for="EmailAddress">Email Address</label><input type="text" maxlength="255" class="cat_textbox" id="EmailAddress" name="EmailAddress"></td><td colspan="2"><label for="WorkPhone">Phone Number</label><input type="text" maxlength="255" class="cat_textbox" id="WorkPhone" name="WorkPhone"></td></tr><tr><td colspan="2"><label for="Company">Company</label><input type="text" maxlength="255" class="cat_textbox" id="Company" name="Company"></td><td colspan="2"></td></tr></tbody></table></div></div></fieldset><fieldset><div class="row"><div class="columns large-4"><legend>Billing Address</legend><p>Your billing address must match the address on your credit card statement or your credit card may be declined.</p></div><div class="columns large-8"><table cellspacing="0" cellpadding="2" border="0" class="webform shipping-address"><tbody><tr><td colspan="4"><label for="WorkAddress">Street Address</label><input type="text" maxlength="500" class="cat_textbox long" id="WorkAddress" name="WorkAddress"></td></tr><tr><td colspan="2"><label for="WorkCity">City</label><input type="text" maxlength="255" class="cat_textbox" id="WorkCity" name="WorkCity"></td><td><label for="WorkState">State</label><input type="text" maxlength="255" class="cat_textbox short" id="WorkState" name="WorkState"></td><td><label for="WorkZip">Postcode</label><input type="text" maxlength="255" class="cat_textbox short" id="WorkZip" name="WorkZip"></td></tr></tbody></table></div></div></fieldset><fieldset><div class="row"><div class="columns large-4"><legend>Payment Information</legend><p>We absolutely guarantee that your order will be transmitted securely. All transaction are processed and transmitted securely using SSL encryption signed by a GlobalSign 128-bit certificate.</p><table><tbody><tr><td><table width="130" cellspacing="0" cellpadding="0" border="0" style="float: left" class="section-check" title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information."><tbody><tr><td><span id="ss_img_wrapper_130-65_image_en"><a title="SSL" target="_blank" href="http://www.globalsign.com/ssl/"><img style="border-width: 0px; border-style: solid" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_130-65_en.gif" id="ss_img" alt="Buy SSL Certificate"></a></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gs_image_130-65_en.js"></script><a style="color: rgb(0, 0, 0); text-decoration: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 8px; font-family: arial; margin: 0px; padding: 0px" target="_blank" href="http://www.globalsign.com/ssl-information-center/">SSL CERTIFICATES - Get Info</a></td></tr></tbody></table></td></tr></tbody></table></div><div class="form-col columns large-8"><h4>Payment Options</h4><div class="payment"><div class="item payment-type columns small-12"><input type="radio" name="PaymentMethodType" value="4" class="PaymentMethodType" checked="true" id="invoice"><label for="invoice">Request Invoice (&amp; pay later)</label><input type="radio" name="PaymentMethodType" value="3" class="PaymentMethodType" id="deposit"><label for="deposit">Bank Deposit/Cheque</label><input type="radio" name="PaymentMethodType" value="1" class="PaymentMethodType" id="credit"><label for="credit">Credit Card</label></div><div id="cheque_deposit"><p>Bank Deposit:<br>Bank Name: Westpac Bank<br>Bank Branch: Castlereagh Street, Sydney NSW<br>Account Name: City Desktop Training Pty Ltd<br>BSB: 032006<br>Account Number: 327473<br><br>If paying by cheque please make your cheque payable to City Desktop Training.<br>Please provide details of the course.<br>Please post your cheque to<br>City Desktop Training,<br>PO Box Q336,<br>QUEEN VICTORIA BUILDING,<br>NSW, 1230.<br>-------------------------------------------------<br>A tax invoice / confirmation will be sent.<br>-------------------------------------------------</p></div><div id="invoice"><p>We will send a Tax Invoice and payment information to the address you have entered.</p></div><div id="paymentdiv"><div class="item credit-icons"><img width="51" height="32" src="../../images-dist/shopping-cart/mastercard.png" alt="mastercard"> <img width="51" height="32" src="../../images-dist/shopping-cart/visa.png" alt="visa"> <img width="51" height="32" src="../../images-dist/shopping-cart/american-express.png" alt="amex"><br><span class="surcharge-info">Please note that there is a 1.5% surcharge for MasterCard &amp; Visa and 3% for Amex payments.</span></div><div class="item"><label>Name on Card</label><input type="text" name="CardName" id="CardName" class="cat_textbox"></div><div class="item"><label>Card Number</label><input type="text" name="CardNumber" id="CardNumber" class="cat_textbox"></div><div class="item"><label>Card Expiry</label><select name="CardExpiryMonth" id="CardExpiryMonth" class="cat_dropdown_smaller"><option selected="true" value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select><select name="CardExpiryYear" id="CardExpiryYear" class="cat_dropdown_smaller"><option selected="true" value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2014">2020</option><option value="2015">2015</option><option value="2016">2016</option></select></div><div class="item"><label>Card Type</label><select name="CardType" id="CardType" class="cat_dropdown"><option value="1">Visa</option><option value="2">MasterCard</option><option value="4">American Express</option></select></div><div class="item"><label>CCV Number</label><input type="text" name="CardCCV" id="CardCCV" class="cat_textbox"></div></div><div class="item"><label>Amount (Including any surcharges)</label><input type="text" name="Amount" id="Amount" class="cat_textbox"></div><div class="item"><label>Enter Verification Code <span class="req">*</span></label><br>{module_captchav2}</div><div class="item"><input type="checkbox" name="CAT_Custom_303342" id="CAT_Custom_303342_0" value="I have read understood and accept the
     Terms and Conditions"> I have read and accept the <a href="/training/terms-conditions-policies.html">Terms and Conditions</a>.</div></div><div class="item"><input type="submit" value="Submit" id="catwebformbutton" class="cat_button"></div></div></div><input type="hidden" name="CAT_Custom_335143_327"></fieldset></form></div></div><div style="display: none"><input type="text" id="Units_9361835" value="0"> <input type="text" id="catProdInstructions_9361835"></div><script language="javascript" type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script><script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script><script language="javascript" type="text/javascript">//<![CDATA[
-                var submitcount86502 = 0,
-                    orderAmount;
+                    var submitcount86502 = 0,
+                        orderAmount;
 
-                function checkWholeForm86502(theForm) {
+                    function checkWholeForm86502(theForm) {
                         var why = "";
                         if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name");
                         if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name");
@@ -51,39 +51,39 @@
                     }
                     // Credit Card info is not required if paying by PayPal, Hosted Credit Card, COD etc
                     // In case of credit card failures
-                function removeSurcharge() {
-                    jQuery.ajax({
-                        type: "POST",
-                        url: "/OrderRetrievev2.aspx"
-                    }).done(function(response) {
-                        var cartData = jQuery(response).find("#Shopping-Cart"),
-                            surchargeApplied = false,
-                            surchargeIndex = 0;
-                        cartData.find(".product-codes .productitemcell").each(function(index, element) {
-                            var pc = jQuery(element);
-                            if (pc.text().toLowerCase() == "ccsurcharge") {
-                                surchargeApplied = true;
-                                surchargeIndex = index;
-                                return false;
+                    function removeSurcharge() {
+                        jQuery.ajax({
+                            type: "POST",
+                            url: "/OrderRetrievev2.aspx"
+                        }).done(function (response) {
+                            var cartData = jQuery(response).find("#Shopping-Cart"),
+                                surchargeApplied = false,
+                                surchargeIndex = 0;
+                            cartData.find(".product-codes .productitemcell").each(function (index, element) {
+                                var pc = jQuery(element);
+                                if (pc.text().toLowerCase() == "ccsurcharge") {
+                                    surchargeApplied = true;
+                                    surchargeIndex = index;
+                                    return false;
+                                }
+                            });
+                            if (surchargeApplied) {
+                                var removalLink = cartData.find(".removal-links").find(".productitemcell:eq(" + surchargeIndex + ")").find("a").attr("onclick");
+                                removalLink = removalLink.split(";");
+                                jQuery("#catCartDetails").hide();
+                                var remove = eval(removalLink[0]);
+                                document.location = "/OrderRetrievev2.aspx?Step=13";
                             }
                         });
-                        if (surchargeApplied) {
-                            var removalLink = cartData.find(".removal-links").find(".productitemcell:eq(" + surchargeIndex + ")").find("a").attr("onclick");
-                            removalLink = removalLink.split(";");
-                            jQuery("#catCartDetails").hide();
-                            var remove = eval(removalLink[0]);
-                            document.location = "/OrderRetrievev2.aspx?Step=13";
-                        }
-                    });
-                }
+                    }
 
-                function addSurcharge() {
-                    var checkoutForm = jQuery("#Checkout-Form"),
-                        cardType = checkoutForm.find("#CardType").val(),
-                        surchargeRate = 0,
-                        surchargeRateDescription = "";
-                    if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
-                        switch (cardType) {
+                    function addSurcharge() {
+                        var checkoutForm = jQuery("#Checkout-Form"),
+                            cardType = checkoutForm.find("#CardType").val(),
+                            surchargeRate = 0,
+                            surchargeRateDescription = "";
+                        if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
+                            switch (cardType) {
                             case "1":
                             case "2":
                                 surchargeRate = 0.015;
@@ -96,24 +96,24 @@
                             default:
                                 surchargeRate = 0;
                                 break;
+                            }
+                        }
+                        var surchargeQty = (orderAmount * surchargeRate) * 100;
+                        if (surchargeQty > 0) {
+                            jQuery("#Units_9361835").val(surchargeQty.toFixed(0));
+                            jQuery("#catProdInstructions_9361835").val(checkoutForm.find("#CardType option:selected").text() + " " + surchargeRateDescription);
+                            window.alert = function () {};
+                            AddToCart(193795, 9361835, '', 3, '', '', false);
+                            //checkoutForm.find("#Amount").val((amount + (surchargeQty / 100)).toFixed(2));
                         }
                     }
-                    var surchargeQty = (orderAmount * surchargeRate) * 100;
-                    if (surchargeQty > 0) {
-                        jQuery("#Units_9361835").val(surchargeQty.toFixed(0));
-                        jQuery("#catProdInstructions_9361835").val(checkoutForm.find("#CardType option:selected").text() + " " + surchargeRateDescription);
-                        window.alert = function() {};
-                        AddToCart(193795, 9361835, '', 3, '', '', false);
-                        //checkoutForm.find("#Amount").val((amount + (surchargeQty / 100)).toFixed(2));
-                    }
-                }
 
-                function displaySurcharge() {
-                    var checkoutForm = jQuery("#Checkout-Form"),
-                        cardType = checkoutForm.find("#CardType").val(),
-                        surchargeRate = 0;
-                    if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
-                        switch (cardType) {
+                    function displaySurcharge() {
+                        var checkoutForm = jQuery("#Checkout-Form"),
+                            cardType = checkoutForm.find("#CardType").val(),
+                            surchargeRate = 0;
+                        if (checkoutForm.find("input[name=PaymentMethodType]:checked").val() == "1") {
+                            switch (cardType) {
                             case "1":
                             case "2":
                                 surchargeRate = 0.015;
@@ -124,43 +124,43 @@
                             default:
                                 surchargeRate = 0;
                                 break;
+                            }
                         }
+                        var surchargeTotal = (orderAmount + (orderAmount * surchargeRate)) * 1.1;
+                        checkoutForm.find("#Amount").val(surchargeTotal.toFixed(2));
                     }
-                    var surchargeTotal = (orderAmount + (orderAmount * surchargeRate)) * 1.1;
-                    checkoutForm.find("#Amount").val(surchargeTotal.toFixed(2));
-                }
-                $(document).ready(function() {
-                    removeSurcharge();
-                    orderAmount = Number(jQuery("#Checkout-Form").find("#Amount").val() / 1.1);
-                    displaySurcharge();
-                    $("#paymentdiv").hide();
-                    $("#cheque_deposit").hide();
-                    $("#invoice").show();
-                    $("input[name$='PaymentMethodType']").click(function() {
-                        var radio_value = $(this).val();
-                        if (radio_value == '1') {
-                            $("#paymentdiv").show("slow");
-                            $("#cheque_deposit").hide("fast");
-                            $("#invoice").hide("fast");
-                        } else if (radio_value == '3') {
-                            $("#cheque_deposit").show("slow");
-                            $("#paymentdiv").hide("fast");
-                            $("#invoice").hide("fast");
-                        } else if (radio_value == '4') {
-                            $("#invoice").show("slow");
-                            $("#paymentdiv").hide("fast");
-                            $("#cheque_deposit").hide("fast");
-                        }
+                    $(document).ready(function () {
+                        removeSurcharge();
+                        orderAmount = Number(jQuery("#Checkout-Form").find("#Amount").val() / 1.1);
                         displaySurcharge();
-                    });
-                    jQuery("#CardType").change(function() {
-                        displaySurcharge();
-                    });
-                });</script><script type="text/javascript">/* <![CDATA[ */
-                var google_conversion_id = 1058006926;
-                var google_conversion_language = "en";
-                var google_conversion_format = "2";
-                var google_conversion_color = "ffffff";
-                var google_conversion_label = "5zLGCPup5FYQjs-_-AM";
-                var google_remarketing_only = false;
-                /* ]]> */</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript><div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1058006926/?label=5zLGCPup5FYQjs-_-AM&amp;guid=ON&amp;script=0" /> </div></noscript></div></div></div></div>
+                        $("#paymentdiv").hide();
+                        $("#cheque_deposit").hide();
+                        $("#invoice").show();
+                        $("input[name$='PaymentMethodType']").click(function () {
+                            var radio_value = $(this).val();
+                            if (radio_value == '1') {
+                                $("#paymentdiv").show("slow");
+                                $("#cheque_deposit").hide("fast");
+                                $("#invoice").hide("fast");
+                            } else if (radio_value == '3') {
+                                $("#cheque_deposit").show("slow");
+                                $("#paymentdiv").hide("fast");
+                                $("#invoice").hide("fast");
+                            } else if (radio_value == '4') {
+                                $("#invoice").show("slow");
+                                $("#paymentdiv").hide("fast");
+                                $("#cheque_deposit").hide("fast");
+                            }
+                            displaySurcharge();
+                        });
+                        jQuery("#CardType").change(function () {
+                            displaySurcharge();
+                        });
+                    });</script><script type="text/javascript">/* <![CDATA[ */
+                    var google_conversion_id = 1058006926;
+                    var google_conversion_language = "en";
+                    var google_conversion_format = "2";
+                    var google_conversion_color = "ffffff";
+                    var google_conversion_label = "5zLGCPup5FYQjs-_-AM";
+                    var google_remarketing_only = false;
+                    /* ]]> */</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript><div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1058006926/?label=5zLGCPup5FYQjs-_-AM&amp;guid=ON&amp;script=0" /> </div></noscript></div></div></div></div>
